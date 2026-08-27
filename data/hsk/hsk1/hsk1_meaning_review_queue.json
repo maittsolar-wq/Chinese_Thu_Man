@@ -1,0 +1,4502 @@
+[
+  {
+    "vocabularyId": "hsk1_001",
+    "word": "爱",
+    "pinyin": null,
+    "candidateMeanings": [
+      "yêu, yêu thích"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_002",
+    "word": "八",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tám"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_003",
+    "word": "爸爸",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bố, cha"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_004",
+    "word": "吧",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nhé, nào, đi"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_005",
+    "word": "白天",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ban ngày"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_006",
+    "word": "百",
+    "pinyin": null,
+    "candidateMeanings": [
+      "trăm"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_007",
+    "word": "半",
+    "pinyin": null,
+    "candidateMeanings": [
+      "một nửa, nửa"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_008",
+    "word": "包子",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bánh bao"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_009",
+    "word": "杯子",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cốc, ly"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_010",
+    "word": "本1",
+    "pinyin": null,
+    "candidateMeanings": [
+      "lượng từ cho sách, vở"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_011",
+    "word": "边",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bên, phía"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_012",
+    "word": "病",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bệnh; bị bệnh"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_013",
+    "word": "不",
+    "pinyin": null,
+    "candidateMeanings": [
+      "không"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_014",
+    "word": "不客气",
+    "pinyin": null,
+    "candidateMeanings": [
+      "không có gì; đừng khách sáo"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_015",
+    "word": "不要",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đừng; không muốn"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_016",
+    "word": "菜",
+    "pinyin": null,
+    "candidateMeanings": [
+      "món ăn; rau"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_017",
+    "word": "茶",
+    "pinyin": null,
+    "candidateMeanings": [
+      "trà"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_018",
+    "word": "唱",
+    "pinyin": null,
+    "candidateMeanings": [
+      "hát"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_019",
+    "word": "超市",
+    "pinyin": null,
+    "candidateMeanings": [
+      "siêu thị"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_020",
+    "word": "车",
+    "pinyin": null,
+    "candidateMeanings": [
+      "xe"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_021",
+    "word": "吃",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ăn"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_022",
+    "word": "出租车",
+    "pinyin": null,
+    "candidateMeanings": [
+      "taxi; xe taxi"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_023",
+    "word": "穿",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mặc"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_024",
+    "word": "打电话",
+    "pinyin": null,
+    "candidateMeanings": [
+      "gọi điện thoại"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_025",
+    "word": "大",
+    "pinyin": null,
+    "candidateMeanings": [
+      "to, lớn"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_026",
+    "word": "大家",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mọi người"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_027",
+    "word": "大学",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đại học; trường đại học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_028",
+    "word": "大学生",
+    "pinyin": null,
+    "candidateMeanings": [
+      "sinh viên đại học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_029",
+    "word": "到",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đến, tới"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_030",
+    "word": "的",
+    "pinyin": null,
+    "candidateMeanings": [
+      "của; trợ từ kết cấu"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_031",
+    "word": "第",
+    "pinyin": null,
+    "candidateMeanings": [
+      "thứ, số thứ tự"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_032",
+    "word": "弟弟",
+    "pinyin": null,
+    "candidateMeanings": [
+      "em trai"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_033",
+    "word": "点1",
+    "pinyin": null,
+    "candidateMeanings": [
+      "giờ; điểm; một chút"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_034",
+    "word": "店",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cửa hàng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_035",
+    "word": "电话",
+    "pinyin": null,
+    "candidateMeanings": [
+      "điện thoại"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_036",
+    "word": "电脑",
+    "pinyin": null,
+    "candidateMeanings": [
+      "máy tính"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_037",
+    "word": "电视",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tivi; truyền hình"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_038",
+    "word": "电影",
+    "pinyin": null,
+    "candidateMeanings": [
+      "phim; điện ảnh"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_039",
+    "word": "电影院",
+    "pinyin": null,
+    "candidateMeanings": [
+      "rạp chiếu phim"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_040",
+    "word": "东西",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đồ vật; thứ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_041",
+    "word": "都",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đều"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_042",
+    "word": "读",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đọc"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_043",
+    "word": "读书",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đọc sách; học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_044",
+    "word": "对",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đúng; đối với"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_045",
+    "word": "对不起",
+    "pinyin": null,
+    "candidateMeanings": [
+      "xin lỗi"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_046",
+    "word": "多",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nhiều; bao nhiêu"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_047",
+    "word": "多少",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bao nhiêu"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_048",
+    "word": "儿子",
+    "pinyin": null,
+    "candidateMeanings": [
+      "con trai"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_049",
+    "word": "二",
+    "pinyin": null,
+    "candidateMeanings": [
+      "hai"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_050",
+    "word": "饭",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cơm; bữa ăn"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_051",
+    "word": "饭店",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nhà hàng; khách sạn"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_052",
+    "word": "房间",
+    "pinyin": null,
+    "candidateMeanings": [
+      "phòng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_053",
+    "word": "非常",
+    "pinyin": null,
+    "candidateMeanings": [
+      "rất; vô cùng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_054",
+    "word": "飞机",
+    "pinyin": null,
+    "candidateMeanings": [
+      "máy bay"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_055",
+    "word": "分",
+    "pinyin": null,
+    "candidateMeanings": [
+      "phút; phần"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_056",
+    "word": "分钟",
+    "pinyin": null,
+    "candidateMeanings": [
+      "phút"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_057",
+    "word": "高兴",
+    "pinyin": null,
+    "candidateMeanings": [
+      "vui; vui mừng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_058",
+    "word": "歌",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bài hát"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_059",
+    "word": "哥哥",
+    "pinyin": null,
+    "candidateMeanings": [
+      "anh trai"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_060",
+    "word": "个",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cái; người (lượng từ chung)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_061",
+    "word": "给",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cho; đưa"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_062",
+    "word": "公司",
+    "pinyin": null,
+    "candidateMeanings": [
+      "công ty"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_063",
+    "word": "工作",
+    "pinyin": null,
+    "candidateMeanings": [
+      "công việc; làm việc"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_064",
+    "word": "狗",
+    "pinyin": null,
+    "candidateMeanings": [
+      "chó"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_065",
+    "word": "贵",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đắt"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_066",
+    "word": "国",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nước; quốc gia"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_067",
+    "word": "还",
+    "pinyin": null,
+    "candidateMeanings": [
+      "vẫn; còn"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_068",
+    "word": "孩子",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đứa trẻ; con"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_069",
+    "word": "汉语",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tiếng Hán; tiếng Trung"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_070",
+    "word": "汉字",
+    "pinyin": null,
+    "candidateMeanings": [
+      "chữ Hán"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_071",
+    "word": "好",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tốt; khỏe; hay"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_072",
+    "word": "好吃",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ngon"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_073",
+    "word": "好看",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đẹp; dễ xem"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_074",
+    "word": "好听",
+    "pinyin": null,
+    "candidateMeanings": [
+      "hay; dễ nghe"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_075",
+    "word": "好玩儿",
+    "pinyin": null,
+    "candidateMeanings": [
+      "vui; thú vị"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_076",
+    "word": "号",
+    "pinyin": null,
+    "candidateMeanings": [
+      "số; ngày (trong tháng)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_077",
+    "word": "喝",
+    "pinyin": null,
+    "candidateMeanings": [
+      "uống"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_078",
+    "word": "和1",
+    "pinyin": null,
+    "candidateMeanings": [
+      "và; với"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_079",
+    "word": "很",
+    "pinyin": null,
+    "candidateMeanings": [
+      "rất"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_080",
+    "word": "后",
+    "pinyin": null,
+    "candidateMeanings": [
+      "sau; phía sau"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_081",
+    "word": "回",
+    "pinyin": null,
+    "candidateMeanings": [
+      "về; quay lại"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_082",
+    "word": "会1",
+    "pinyin": null,
+    "candidateMeanings": [
+      "biết; có thể"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_083",
+    "word": "火车",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tàu hỏa"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_084",
+    "word": "鸡蛋",
+    "pinyin": null,
+    "candidateMeanings": [
+      "trứng gà"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_085",
+    "word": "几",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mấy; bao nhiêu"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_086",
+    "word": "家",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nhà; gia đình"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_087",
+    "word": "家人",
+    "pinyin": null,
+    "candidateMeanings": [
+      "người nhà; thành viên gia đình"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_088",
+    "word": "见",
+    "pinyin": null,
+    "candidateMeanings": [
+      "gặp; thấy"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_089",
+    "word": "件",
+    "pinyin": null,
+    "candidateMeanings": [
+      "lượng từ cho quần áo, sự việc"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_090",
+    "word": "饺子",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bánh chẻo; sủi cảo"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_091",
+    "word": "叫",
+    "pinyin": null,
+    "candidateMeanings": [
+      "gọi; tên là"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_092",
+    "word": "姐姐",
+    "pinyin": null,
+    "candidateMeanings": [
+      "chị gái"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_093",
+    "word": "今年",
+    "pinyin": null,
+    "candidateMeanings": [
+      "năm nay"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_094",
+    "word": "今天",
+    "pinyin": null,
+    "candidateMeanings": [
+      "hôm nay"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_095",
+    "word": "九",
+    "pinyin": null,
+    "candidateMeanings": [
+      "chín"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_096",
+    "word": "觉得",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cảm thấy; thấy rằng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_097",
+    "word": "开",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mở; lái; bắt đầu"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_098",
+    "word": "开车",
+    "pinyin": null,
+    "candidateMeanings": [
+      "lái xe"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_099",
+    "word": "看",
+    "pinyin": null,
+    "candidateMeanings": [
+      "xem; nhìn; đọc"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_100",
+    "word": "看病",
+    "pinyin": null,
+    "candidateMeanings": [
+      "khám bệnh"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_101",
+    "word": "看见",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nhìn thấy"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_102",
+    "word": "可以",
+    "pinyin": null,
+    "candidateMeanings": [
+      "có thể; được"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_103",
+    "word": "课",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bài học; tiết học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_104",
+    "word": "口",
+    "pinyin": null,
+    "candidateMeanings": [
+      "miệng; khẩu; hộ gia đình (lượng từ)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_105",
+    "word": "块",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đồng; miếng; cục"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_106",
+    "word": "来",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đến"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_107",
+    "word": "老师",
+    "pinyin": null,
+    "candidateMeanings": [
+      "giáo viên; thầy cô"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_108",
+    "word": "了",
+    "pinyin": null,
+    "candidateMeanings": [
+      "rồi; trợ từ chỉ hoàn thành/thay đổi"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_109",
+    "word": "冷",
+    "pinyin": null,
+    "candidateMeanings": [
+      "lạnh"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_110",
+    "word": "里",
+    "pinyin": null,
+    "candidateMeanings": [
+      "trong; bên trong"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_111",
+    "word": "两1",
+    "pinyin": null,
+    "candidateMeanings": [
+      "hai (dùng trước lượng từ)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_112",
+    "word": "零",
+    "pinyin": null,
+    "candidateMeanings": [
+      "số không"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_113",
+    "word": "六",
+    "pinyin": null,
+    "candidateMeanings": [
+      "sáu"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_114",
+    "word": "妈妈",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mẹ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_115",
+    "word": "吗",
+    "pinyin": null,
+    "candidateMeanings": [
+      "à; không? (trợ từ nghi vấn)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_116",
+    "word": "买",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mua"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_117",
+    "word": "卖",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bán"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_118",
+    "word": "忙",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bận"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_119",
+    "word": "猫",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mèo"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_120",
+    "word": "没关系",
+    "pinyin": null,
+    "candidateMeanings": [
+      "không sao; không có gì"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_121",
+    "word": "没事",
+    "pinyin": null,
+    "candidateMeanings": [
+      "không sao; không có chuyện gì"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_122",
+    "word": "没有",
+    "pinyin": null,
+    "candidateMeanings": [
+      "không có; chưa"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_123",
+    "word": "妹妹",
+    "pinyin": null,
+    "candidateMeanings": [
+      "em gái"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_124",
+    "word": "们",
+    "pinyin": null,
+    "candidateMeanings": [
+      "hậu tố số nhiều"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_125",
+    "word": "米饭",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cơm"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_126",
+    "word": "面包",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bánh mì"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_127",
+    "word": "面条儿",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mì; mì sợi"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_128",
+    "word": "明年",
+    "pinyin": null,
+    "candidateMeanings": [
+      "năm sau"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_129",
+    "word": "明天",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ngày mai"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_130",
+    "word": "名字",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tên"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_131",
+    "word": "哪",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nào; đâu"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_132",
+    "word": "哪个",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cái nào; người nào"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_133",
+    "word": "哪里",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ở đâu; nơi nào"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_134",
+    "word": "哪儿",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ở đâu; chỗ nào"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_135",
+    "word": "哪些",
+    "pinyin": null,
+    "candidateMeanings": [
+      "những cái nào"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_136",
+    "word": "那",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đó; kia"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_137",
+    "word": "那边",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bên kia; phía đó"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_138",
+    "word": "那个",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cái/người đó"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_139",
+    "word": "那里",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ở đó; nơi đó"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_140",
+    "word": "那儿",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ở đó; chỗ đó"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_141",
+    "word": "那些",
+    "pinyin": null,
+    "candidateMeanings": [
+      "những cái/người đó"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_142",
+    "word": "男",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nam; giống đực"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_143",
+    "word": "男朋友",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bạn trai"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_144",
+    "word": "呢",
+    "pinyin": null,
+    "candidateMeanings": [
+      "thế; còn... thì sao (trợ từ)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_145",
+    "word": "能",
+    "pinyin": null,
+    "candidateMeanings": [
+      "có thể; có khả năng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_146",
+    "word": "你",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bạn; anh/chị; cậu"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_147",
+    "word": "你好",
+    "pinyin": null,
+    "candidateMeanings": [
+      "xin chào"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_148",
+    "word": "你们",
+    "pinyin": null,
+    "candidateMeanings": [
+      "các bạn; các anh/chị"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_149",
+    "word": "年",
+    "pinyin": null,
+    "candidateMeanings": [
+      "năm"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_150",
+    "word": "您",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ngài; ông/bà; bạn (cách xưng hô lịch sự)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_151",
+    "word": "牛奶",
+    "pinyin": null,
+    "candidateMeanings": [
+      "sữa bò"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_152",
+    "word": "女",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nữ; giống cái"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_153",
+    "word": "女儿",
+    "pinyin": null,
+    "candidateMeanings": [
+      "con gái"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_154",
+    "word": "女朋友",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bạn gái"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_155",
+    "word": "女士",
+    "pinyin": null,
+    "candidateMeanings": [
+      "quý bà; cô; bà"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_156",
+    "word": "朋友",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bạn; bạn bè"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_157",
+    "word": "便宜",
+    "pinyin": null,
+    "candidateMeanings": [
+      "rẻ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_158",
+    "word": "漂亮",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đẹp; xinh"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_159",
+    "word": "苹果",
+    "pinyin": null,
+    "candidateMeanings": [
+      "quả táo"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_160",
+    "word": "七",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bảy"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_161",
+    "word": "起床",
+    "pinyin": null,
+    "candidateMeanings": [
+      "thức dậy; rời giường"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_162",
+    "word": "千",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nghìn; một nghìn"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_163",
+    "word": "前",
+    "pinyin": null,
+    "candidateMeanings": [
+      "trước; phía trước"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_164",
+    "word": "钱",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tiền"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_165",
+    "word": "请",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mời; xin; vui lòng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_166",
+    "word": "请问",
+    "pinyin": null,
+    "candidateMeanings": [
+      "xin hỏi; cho hỏi"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_167",
+    "word": "去",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đi"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_168",
+    "word": "去年",
+    "pinyin": null,
+    "candidateMeanings": [
+      "năm ngoái"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_169",
+    "word": "热",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nóng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_170",
+    "word": "人",
+    "pinyin": null,
+    "candidateMeanings": [
+      "người"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_171",
+    "word": "认识",
+    "pinyin": null,
+    "candidateMeanings": [
+      "quen; biết; nhận biết"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_172",
+    "word": "日",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ngày; mặt trời"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_173",
+    "word": "三",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ba"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_174",
+    "word": "商店",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cửa hàng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_175",
+    "word": "上",
+    "pinyin": null,
+    "candidateMeanings": [
+      "trên; lên"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_176",
+    "word": "上班",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đi làm; làm việc"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_177",
+    "word": "上课",
+    "pinyin": null,
+    "candidateMeanings": [
+      "lên lớp; học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_178",
+    "word": "上午",
+    "pinyin": null,
+    "candidateMeanings": [
+      "buổi sáng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_179",
+    "word": "上学",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đi học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_180",
+    "word": "少",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ít; thiếu"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_181",
+    "word": "谁",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ai"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_182",
+    "word": "什么",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cái gì; gì"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_183",
+    "word": "生病",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bị bệnh; mắc bệnh"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_184",
+    "word": "十",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mười"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_185",
+    "word": "时候",
+    "pinyin": null,
+    "candidateMeanings": [
+      "lúc; thời gian"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_186",
+    "word": "时间",
+    "pinyin": null,
+    "candidateMeanings": [
+      "thời gian"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_187",
+    "word": "事",
+    "pinyin": null,
+    "candidateMeanings": [
+      "việc; chuyện"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_188",
+    "word": "是",
+    "pinyin": null,
+    "candidateMeanings": [
+      "là; đúng là"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_189",
+    "word": "手机",
+    "pinyin": null,
+    "candidateMeanings": [
+      "điện thoại di động"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_190",
+    "word": "书",
+    "pinyin": null,
+    "candidateMeanings": [
+      "sách"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_191",
+    "word": "书店",
+    "pinyin": null,
+    "candidateMeanings": [
+      "hiệu sách; nhà sách"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_192",
+    "word": "水",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nước"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_193",
+    "word": "水果",
+    "pinyin": null,
+    "candidateMeanings": [
+      "trái cây"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_194",
+    "word": "睡",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ngủ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_195",
+    "word": "睡觉",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đi ngủ; ngủ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_196",
+    "word": "说",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nói"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_197",
+    "word": "说话",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nói chuyện; nói"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_198",
+    "word": "四",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bốn"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_199",
+    "word": "岁",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tuổi"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_200",
+    "word": "他",
+    "pinyin": null,
+    "candidateMeanings": [
+      "anh ấy; ông ấy"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_201",
+    "word": "它",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nó (đồ vật/động vật)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_202",
+    "word": "她",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cô ấy; chị ấy"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_203",
+    "word": "他们",
+    "pinyin": null,
+    "candidateMeanings": [
+      "họ; họ (nam/hỗn hợp)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_204",
+    "word": "它们",
+    "pinyin": null,
+    "candidateMeanings": [
+      "chúng; chúng nó"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_205",
+    "word": "她们",
+    "pinyin": null,
+    "candidateMeanings": [
+      "họ; họ (nữ)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_206",
+    "word": "太",
+    "pinyin": null,
+    "candidateMeanings": [
+      "quá; rất"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_207",
+    "word": "天",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ngày; trời"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_208",
+    "word": "天气",
+    "pinyin": null,
+    "candidateMeanings": [
+      "thời tiết"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_209",
+    "word": "听",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nghe"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_210",
+    "word": "听见",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nghe thấy"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_211",
+    "word": "同学",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bạn học; học sinh cùng lớp"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_212",
+    "word": "外",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ngoài; bên ngoài"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_213",
+    "word": "外边",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bên ngoài"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_214",
+    "word": "玩",
+    "pinyin": null,
+    "candidateMeanings": [
+      "chơi"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_215",
+    "word": "晚",
+    "pinyin": null,
+    "candidateMeanings": [
+      "muộn; tối"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_216",
+    "word": "晚饭",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bữa tối; cơm tối"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_217",
+    "word": "晚上",
+    "pinyin": null,
+    "candidateMeanings": [
+      "buổi tối; tối"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_218",
+    "word": "喂1",
+    "pinyin": null,
+    "candidateMeanings": [
+      "alo; này (khi nghe điện thoại)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_219",
+    "word": "问",
+    "pinyin": null,
+    "candidateMeanings": [
+      "hỏi"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_220",
+    "word": "问题",
+    "pinyin": null,
+    "candidateMeanings": [
+      "câu hỏi; vấn đề"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_221",
+    "word": "我",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tôi; mình"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_222",
+    "word": "我们",
+    "pinyin": null,
+    "candidateMeanings": [
+      "chúng tôi; chúng ta"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_223",
+    "word": "五",
+    "pinyin": null,
+    "candidateMeanings": [
+      "năm"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_224",
+    "word": "午饭",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bữa trưa; cơm trưa"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_225",
+    "word": "喜欢",
+    "pinyin": null,
+    "candidateMeanings": [
+      "thích"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_226",
+    "word": "下",
+    "pinyin": null,
+    "candidateMeanings": [
+      "xuống; dưới; tiếp theo"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_227",
+    "word": "下雨",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mưa; trời mưa"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_228",
+    "word": "下班",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tan làm"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_229",
+    "word": "下课",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tan học; hết giờ học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_230",
+    "word": "下午",
+    "pinyin": null,
+    "candidateMeanings": [
+      "buổi chiều"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_231",
+    "word": "先生",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ông; ngài; anh (cách gọi lịch sự)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_232",
+    "word": "现在",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bây giờ; hiện tại"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_233",
+    "word": "想",
+    "pinyin": null,
+    "candidateMeanings": [
+      "muốn; nghĩ; nhớ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_234",
+    "word": "小",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nhỏ; bé"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_235",
+    "word": "小朋友",
+    "pinyin": null,
+    "candidateMeanings": [
+      "trẻ em; bạn nhỏ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_236",
+    "word": "小时",
+    "pinyin": null,
+    "candidateMeanings": [
+      "giờ; tiếng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_237",
+    "word": "小学",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tiểu học; trường tiểu học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_238",
+    "word": "小学生",
+    "pinyin": null,
+    "candidateMeanings": [
+      "học sinh tiểu học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_239",
+    "word": "些",
+    "pinyin": null,
+    "candidateMeanings": [
+      "một số; một vài"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_240",
+    "word": "写",
+    "pinyin": null,
+    "candidateMeanings": [
+      "viết"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_241",
+    "word": "谢谢",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cảm ơn"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_242",
+    "word": "新",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mới"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_243",
+    "word": "星期",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tuần; thứ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_244",
+    "word": "星期日",
+    "pinyin": null,
+    "candidateMeanings": [
+      "Chủ nhật"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_245",
+    "word": "星期天",
+    "pinyin": null,
+    "candidateMeanings": [
+      "Chủ nhật"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_246",
+    "word": "休息",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nghỉ ngơi; nghỉ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_247",
+    "word": "学",
+    "pinyin": null,
+    "candidateMeanings": [
+      "học; học tập"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_248",
+    "word": "学生",
+    "pinyin": null,
+    "candidateMeanings": [
+      "học sinh; sinh viên"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_249",
+    "word": "学习",
+    "pinyin": null,
+    "candidateMeanings": [
+      "học; học tập"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_250",
+    "word": "学校",
+    "pinyin": null,
+    "candidateMeanings": [
+      "trường học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_251",
+    "word": "雪",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tuyết"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_252",
+    "word": "要",
+    "pinyin": null,
+    "candidateMeanings": [
+      "muốn; cần; sẽ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_253",
+    "word": "也",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cũng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_254",
+    "word": "一",
+    "pinyin": null,
+    "candidateMeanings": [
+      "một"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_255",
+    "word": "衣服",
+    "pinyin": null,
+    "candidateMeanings": [
+      "quần áo"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_256",
+    "word": "医生",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bác sĩ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_257",
+    "word": "医院",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bệnh viện"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_258",
+    "word": "一半",
+    "pinyin": null,
+    "candidateMeanings": [
+      "một nửa"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_259",
+    "word": "一下",
+    "pinyin": null,
+    "candidateMeanings": [
+      "một chút; một lát"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_260",
+    "word": "椅子",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ghế"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_261",
+    "word": "一点儿",
+    "pinyin": null,
+    "candidateMeanings": [
+      "một chút; một ít"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_262",
+    "word": "一些",
+    "pinyin": null,
+    "candidateMeanings": [
+      "một ít; một số"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_263",
+    "word": "有",
+    "pinyin": null,
+    "candidateMeanings": [
+      "có"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_264",
+    "word": "有的",
+    "pinyin": null,
+    "candidateMeanings": [
+      "có người/cái; một số"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_265",
+    "word": "有点儿",
+    "pinyin": null,
+    "candidateMeanings": [
+      "hơi; có chút"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_266",
+    "word": "有些",
+    "pinyin": null,
+    "candidateMeanings": [
+      "một số; có chút"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_267",
+    "word": "雨",
+    "pinyin": null,
+    "candidateMeanings": [
+      "mưa"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_268",
+    "word": "元",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nhân dân tệ; đồng tệ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_269",
+    "word": "月",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tháng; mặt trăng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_270",
+    "word": "再",
+    "pinyin": null,
+    "candidateMeanings": [
+      "lại; thêm lần nữa"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_271",
+    "word": "在",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ở; tại; đang"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_272",
+    "word": "再见",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tạm biệt; hẹn gặp lại"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_273",
+    "word": "早",
+    "pinyin": null,
+    "candidateMeanings": [
+      "sớm; chào buổi sáng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_274",
+    "word": "早饭",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bữa sáng; điểm tâm"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_275",
+    "word": "早上",
+    "pinyin": null,
+    "candidateMeanings": [
+      "buổi sáng"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_276",
+    "word": "怎么",
+    "pinyin": null,
+    "candidateMeanings": [
+      "thế nào; làm sao"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_277",
+    "word": "怎么样",
+    "pinyin": null,
+    "candidateMeanings": [
+      "thế nào; như thế nào"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_278",
+    "word": "找",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tìm; tìm kiếm"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_279",
+    "word": "这",
+    "pinyin": null,
+    "candidateMeanings": [
+      "này; đây"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_280",
+    "word": "这边",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bên này; phía này"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_281",
+    "word": "这个",
+    "pinyin": null,
+    "candidateMeanings": [
+      "cái/người này"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_282",
+    "word": "这里",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ở đây; nơi này"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_283",
+    "word": "这儿",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ở đây; chỗ này"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_284",
+    "word": "这些",
+    "pinyin": null,
+    "candidateMeanings": [
+      "những cái/người này"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_285",
+    "word": "真",
+    "pinyin": null,
+    "candidateMeanings": [
+      "thật; thực sự; rất"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_286",
+    "word": "正在",
+    "pinyin": null,
+    "candidateMeanings": [
+      "đang"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_287",
+    "word": "只",
+    "pinyin": null,
+    "candidateMeanings": [
+      "con/cái (lượng từ cho một số động vật, vật); chỉ"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_288",
+    "word": "知道",
+    "pinyin": null,
+    "candidateMeanings": [
+      "biết"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_289",
+    "word": "中国",
+    "pinyin": null,
+    "candidateMeanings": [
+      "Trung Quốc"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_290",
+    "word": "中文",
+    "pinyin": null,
+    "candidateMeanings": [
+      "tiếng Trung; chữ Trung"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_291",
+    "word": "中午",
+    "pinyin": null,
+    "candidateMeanings": [
+      "buổi trưa"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_292",
+    "word": "中学",
+    "pinyin": null,
+    "candidateMeanings": [
+      "trung học; trường trung học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_293",
+    "word": "中学生",
+    "pinyin": null,
+    "candidateMeanings": [
+      "học sinh trung học"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_294",
+    "word": "住",
+    "pinyin": null,
+    "candidateMeanings": [
+      "sống; ở; cư trú"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_295",
+    "word": "桌子",
+    "pinyin": null,
+    "candidateMeanings": [
+      "bàn"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_296",
+    "word": "字",
+    "pinyin": null,
+    "candidateMeanings": [
+      "chữ; ký tự"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_297",
+    "word": "昨天",
+    "pinyin": null,
+    "candidateMeanings": [
+      "hôm qua"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_298",
+    "word": "坐",
+    "pinyin": null,
+    "candidateMeanings": [
+      "ngồi; đi bằng (phương tiện)"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_299",
+    "word": "做",
+    "pinyin": null,
+    "candidateMeanings": [
+      "làm"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  },
+  {
+    "vocabularyId": "hsk1_300",
+    "word": "做饭",
+    "pinyin": null,
+    "candidateMeanings": [
+      "nấu ăn; làm cơm"
+    ],
+    "selectedMeaningVi": [],
+    "status": "candidate",
+    "sourceIds": [
+      "meaning_pack_v1",
+      "previous_draft_v1"
+    ],
+    "reviewNotes": ""
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "dataset": "Chinese Thu Man HSK Vocabulary",
+  "targetStandard": "HSK 3.0 2026",
+  "primarySource": {
+    "name": "profesorm/hsk30",
+    "repository": "https://github.com/profesorm/hsk30",
+    "vocabularyFile": "https://raw.githubusercontent.com/profesorm/hsk30/main/data/hsk_vocabulary.csv",
+    "license": "CC BY 4.0",
+    "sourceOfOriginalContent": "Chinese Testing International HSK syllabus",
+    "role": "primary HSK vocabulary/level mapping"
+  },
+  "secondarySources": {
+    "strokeOrder": {
+      "name": "Make Me a Hanzi",
+      "repository": "https://github.com/skishore/makemeahanzi",
+      "graphicsLicense": "Arphic Public License",
+      "dictionaryLicense": "LGPL-3.0-or-later",
+      "role": "character/stroke-order data"
+    }
+  },
+  "levels": {
+    "1": {
+      "cumulativeWords": 300,
+      "newWords": 300
+    },
+    "2": {
+      "cumulativeWords": 500,
+      "newWords": 200
+    },
+    "3": {
+      "cumulativeWords": 1000,
+      "newWords": 500
+    },
+    "4": {
+      "cumulativeWords": 2000,
+      "newWords": 1000
+    },
+    "5": {
+      "cumulativeWords": 3600,
+      "newWords": 1600
+    },
+    "6": {
+      "cumulativeWords": 5400,
+      "newWords": 1800
+    }
+  },
+  "status": "source-selected; raw import should be performed locally by the project pipeline",
+  "note": "This manifest is not itself a copy of the external dataset."
+}

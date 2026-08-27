@@ -1,0 +1,20 @@
+{
+  "datasetName": "Chinese Thu Man HSK 1 Pilot",
+  "status": "SOURCE_BASE_ONLY_NOT_PRODUCTION",
+  "standard": "HSK 3.0 2026",
+  "level": 1,
+  "recordCount": 300,
+  "source": {
+    "repository": "profesorm/hsk30",
+    "url": "https://github.com/profesorm/hsk30",
+    "file": "data/hsk_vocabulary.csv",
+    "license": "CC BY 4.0"
+  },
+  "processing": {
+    "filter": "type == '1' AND levelName startswith '一级'",
+    "preserveSourceOrder": true,
+    "meaningTranslationCompleted": false,
+    "humanReviewCompleted": false
+  },
+  "nextStep": "Populate and review Vietnamese meanings."
+}

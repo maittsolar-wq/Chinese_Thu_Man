@@ -1,0 +1,37 @@
+{
+  "status": "SUCCESS",
+  "recordCount": 300,
+  "normalizedCount": 6,
+  "changes": [
+    {
+      "sourceWord": "本1",
+      "normalizedWord": "本",
+      "sourceSort": 10
+    },
+    {
+      "sourceWord": "点1",
+      "normalizedWord": "点",
+      "sourceSort": 33
+    },
+    {
+      "sourceWord": "和1",
+      "normalizedWord": "和",
+      "sourceSort": 78
+    },
+    {
+      "sourceWord": "会1",
+      "normalizedWord": "会",
+      "sourceSort": 82
+    },
+    {
+      "sourceWord": "两1",
+      "normalizedWord": "两",
+      "sourceSort": 111
+    },
+    {
+      "sourceWord": "喂1",
+      "normalizedWord": "喂",
+      "sourceSort": 218
+    }
+  ]
+}

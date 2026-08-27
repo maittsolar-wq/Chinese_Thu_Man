@@ -1,0 +1,4210 @@
+{
+  "datasetName": "Chinese Thu Man HSK 1 Vietnamese Meanings",
+  "status": "DRAFT_REQUIRES_REVIEW",
+  "standard": "HSK 3.0",
+  "level": 1,
+  "recordCount": 300,
+  "meaningLanguage": "vi",
+  "records": [
+    {
+      "id": "hsk1_001",
+      "word": "爱",
+      "meaningVi": [
+        "yêu, yêu thích"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 1,
+      "previousDraftMeaningVi": [
+        "yêu; thích"
+      ]
+    },
+    {
+      "id": "hsk1_002",
+      "word": "八",
+      "meaningVi": [
+        "tám"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 2,
+      "previousDraftMeaningVi": [
+        "tám"
+      ]
+    },
+    {
+      "id": "hsk1_003",
+      "word": "爸爸",
+      "meaningVi": [
+        "bố, cha"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 3,
+      "previousDraftMeaningVi": [
+        "bố; ba"
+      ]
+    },
+    {
+      "id": "hsk1_004",
+      "word": "吧",
+      "meaningVi": [
+        "nhé, nào, đi"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 4,
+      "previousDraftMeaningVi": [
+        "trợ từ cuối câu"
+      ]
+    },
+    {
+      "id": "hsk1_005",
+      "word": "白天",
+      "meaningVi": [
+        "ban ngày"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 5,
+      "previousDraftMeaningVi": [
+        "ban ngày"
+      ]
+    },
+    {
+      "id": "hsk1_006",
+      "word": "百",
+      "meaningVi": [
+        "trăm"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 6,
+      "previousDraftMeaningVi": [
+        "một trăm"
+      ]
+    },
+    {
+      "id": "hsk1_007",
+      "word": "半",
+      "meaningVi": [
+        "một nửa, nửa"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 7,
+      "previousDraftMeaningVi": [
+        "một nửa; nửa"
+      ]
+    },
+    {
+      "id": "hsk1_008",
+      "word": "包子",
+      "meaningVi": [
+        "bánh bao"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 8,
+      "previousDraftMeaningVi": [
+        "bánh bao"
+      ]
+    },
+    {
+      "id": "hsk1_009",
+      "word": "杯子",
+      "meaningVi": [
+        "cốc, ly"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 9,
+      "previousDraftMeaningVi": [
+        "cái cốc; cốc"
+      ]
+    },
+    {
+      "id": "hsk1_010",
+      "word": "本1",
+      "meaningVi": [
+        "lượng từ cho sách, vở"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 10,
+      "previousDraftMeaningVi": [
+        "lượng từ cho sách"
+      ]
+    },
+    {
+      "id": "hsk1_011",
+      "word": "边",
+      "meaningVi": [
+        "bên, phía"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 11,
+      "previousDraftMeaningVi": [
+        "bên; phía"
+      ]
+    },
+    {
+      "id": "hsk1_012",
+      "word": "病",
+      "meaningVi": [
+        "bệnh; bị bệnh"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 12,
+      "previousDraftMeaningVi": [
+        "bệnh; bị bệnh"
+      ]
+    },
+    {
+      "id": "hsk1_013",
+      "word": "不",
+      "meaningVi": [
+        "không"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 13,
+      "previousDraftMeaningVi": [
+        "không; chẳng"
+      ]
+    },
+    {
+      "id": "hsk1_014",
+      "word": "不客气",
+      "meaningVi": [
+        "không có gì; đừng khách sáo"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 14,
+      "previousDraftMeaningVi": [
+        "không có gì; đừng khách sáo"
+      ]
+    },
+    {
+      "id": "hsk1_015",
+      "word": "不要",
+      "meaningVi": [
+        "đừng; không muốn"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 15,
+      "previousDraftMeaningVi": [
+        "đừng; không được"
+      ]
+    },
+    {
+      "id": "hsk1_016",
+      "word": "菜",
+      "meaningVi": [
+        "món ăn; rau"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 16,
+      "previousDraftMeaningVi": [
+        "món ăn; rau; đồ ăn"
+      ]
+    },
+    {
+      "id": "hsk1_017",
+      "word": "茶",
+      "meaningVi": [
+        "trà"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 17,
+      "previousDraftMeaningVi": [
+        "trà"
+      ]
+    },
+    {
+      "id": "hsk1_018",
+      "word": "唱",
+      "meaningVi": [
+        "hát"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 18,
+      "previousDraftMeaningVi": [
+        "hát"
+      ]
+    },
+    {
+      "id": "hsk1_019",
+      "word": "超市",
+      "meaningVi": [
+        "siêu thị"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 19,
+      "previousDraftMeaningVi": [
+        "siêu thị"
+      ]
+    },
+    {
+      "id": "hsk1_020",
+      "word": "车",
+      "meaningVi": [
+        "xe"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 20,
+      "previousDraftMeaningVi": [
+        "xe; ô tô"
+      ]
+    },
+    {
+      "id": "hsk1_021",
+      "word": "吃",
+      "meaningVi": [
+        "ăn"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 21,
+      "previousDraftMeaningVi": [
+        "ăn"
+      ]
+    },
+    {
+      "id": "hsk1_022",
+      "word": "出租车",
+      "meaningVi": [
+        "taxi; xe taxi"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 22,
+      "previousDraftMeaningVi": [
+        "taxi"
+      ]
+    },
+    {
+      "id": "hsk1_023",
+      "word": "穿",
+      "meaningVi": [
+        "mặc"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 23,
+      "previousDraftMeaningVi": [
+        "mặc; mặc vào"
+      ]
+    },
+    {
+      "id": "hsk1_024",
+      "word": "打电话",
+      "meaningVi": [
+        "gọi điện thoại"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 24,
+      "previousDraftMeaningVi": [
+        "gọi điện thoại"
+      ]
+    },
+    {
+      "id": "hsk1_025",
+      "word": "大",
+      "meaningVi": [
+        "to, lớn"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 25,
+      "previousDraftMeaningVi": [
+        "to; lớn"
+      ]
+    },
+    {
+      "id": "hsk1_026",
+      "word": "大家",
+      "meaningVi": [
+        "mọi người"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 26,
+      "previousDraftMeaningVi": [
+        "mọi người"
+      ]
+    },
+    {
+      "id": "hsk1_027",
+      "word": "大学",
+      "meaningVi": [
+        "đại học; trường đại học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 27,
+      "previousDraftMeaningVi": [
+        "đại học"
+      ]
+    },
+    {
+      "id": "hsk1_028",
+      "word": "大学生",
+      "meaningVi": [
+        "sinh viên đại học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 28,
+      "previousDraftMeaningVi": [
+        "sinh viên đại học"
+      ]
+    },
+    {
+      "id": "hsk1_029",
+      "word": "到",
+      "meaningVi": [
+        "đến, tới"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 29,
+      "previousDraftMeaningVi": [
+        "đến; tới"
+      ]
+    },
+    {
+      "id": "hsk1_030",
+      "word": "的",
+      "meaningVi": [
+        "của; trợ từ kết cấu"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 30,
+      "previousDraftMeaningVi": [
+        "trợ từ kết cấu; của"
+      ]
+    },
+    {
+      "id": "hsk1_031",
+      "word": "第",
+      "meaningVi": [
+        "thứ, số thứ tự"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 31,
+      "previousDraftMeaningVi": [
+        "thứ; số thứ tự"
+      ]
+    },
+    {
+      "id": "hsk1_032",
+      "word": "弟弟",
+      "meaningVi": [
+        "em trai"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 32,
+      "previousDraftMeaningVi": [
+        "em trai"
+      ]
+    },
+    {
+      "id": "hsk1_033",
+      "word": "点1",
+      "meaningVi": [
+        "giờ; điểm; một chút"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 33,
+      "previousDraftMeaningVi": [
+        "giờ; điểm"
+      ]
+    },
+    {
+      "id": "hsk1_034",
+      "word": "店",
+      "meaningVi": [
+        "cửa hàng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 34,
+      "previousDraftMeaningVi": [
+        "cửa hàng; tiệm"
+      ]
+    },
+    {
+      "id": "hsk1_035",
+      "word": "电话",
+      "meaningVi": [
+        "điện thoại"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 35,
+      "previousDraftMeaningVi": [
+        "điện thoại"
+      ]
+    },
+    {
+      "id": "hsk1_036",
+      "word": "电脑",
+      "meaningVi": [
+        "máy tính"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 36,
+      "previousDraftMeaningVi": [
+        "máy tính"
+      ]
+    },
+    {
+      "id": "hsk1_037",
+      "word": "电视",
+      "meaningVi": [
+        "tivi; truyền hình"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 37,
+      "previousDraftMeaningVi": [
+        "tivi; truyền hình"
+      ]
+    },
+    {
+      "id": "hsk1_038",
+      "word": "电影",
+      "meaningVi": [
+        "phim; điện ảnh"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 38,
+      "previousDraftMeaningVi": [
+        "phim; điện ảnh"
+      ]
+    },
+    {
+      "id": "hsk1_039",
+      "word": "电影院",
+      "meaningVi": [
+        "rạp chiếu phim"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 39,
+      "previousDraftMeaningVi": [
+        "rạp chiếu phim"
+      ]
+    },
+    {
+      "id": "hsk1_040",
+      "word": "东西",
+      "meaningVi": [
+        "đồ vật; thứ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 40,
+      "previousDraftMeaningVi": [
+        "đồ vật; đồ đạc"
+      ]
+    },
+    {
+      "id": "hsk1_041",
+      "word": "都",
+      "meaningVi": [
+        "đều"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 41,
+      "previousDraftMeaningVi": [
+        "đều; tất cả"
+      ]
+    },
+    {
+      "id": "hsk1_042",
+      "word": "读",
+      "meaningVi": [
+        "đọc"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 42,
+      "previousDraftMeaningVi": [
+        "đọc"
+      ]
+    },
+    {
+      "id": "hsk1_043",
+      "word": "读书",
+      "meaningVi": [
+        "đọc sách; học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 43,
+      "previousDraftMeaningVi": [
+        "đọc sách"
+      ]
+    },
+    {
+      "id": "hsk1_044",
+      "word": "对",
+      "meaningVi": [
+        "đúng; đối với"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 44,
+      "previousDraftMeaningVi": [
+        "đối với; đúng"
+      ]
+    },
+    {
+      "id": "hsk1_045",
+      "word": "对不起",
+      "meaningVi": [
+        "xin lỗi"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 45,
+      "previousDraftMeaningVi": [
+        "xin lỗi"
+      ]
+    },
+    {
+      "id": "hsk1_046",
+      "word": "多",
+      "meaningVi": [
+        "nhiều; bao nhiêu"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 46,
+      "previousDraftMeaningVi": [
+        "nhiều; bao nhiêu"
+      ]
+    },
+    {
+      "id": "hsk1_047",
+      "word": "多少",
+      "meaningVi": [
+        "bao nhiêu"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 47,
+      "previousDraftMeaningVi": [
+        "bao nhiêu"
+      ]
+    },
+    {
+      "id": "hsk1_048",
+      "word": "儿子",
+      "meaningVi": [
+        "con trai"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 48,
+      "previousDraftMeaningVi": [
+        "con trai"
+      ]
+    },
+    {
+      "id": "hsk1_049",
+      "word": "二",
+      "meaningVi": [
+        "hai"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 49,
+      "previousDraftMeaningVi": [
+        "hai"
+      ]
+    },
+    {
+      "id": "hsk1_050",
+      "word": "饭",
+      "meaningVi": [
+        "cơm; bữa ăn"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 50,
+      "previousDraftMeaningVi": [
+        "cơm; bữa ăn"
+      ]
+    },
+    {
+      "id": "hsk1_051",
+      "word": "饭店",
+      "meaningVi": [
+        "nhà hàng; khách sạn"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 51,
+      "previousDraftMeaningVi": [
+        "nhà hàng; quán ăn"
+      ]
+    },
+    {
+      "id": "hsk1_052",
+      "word": "房间",
+      "meaningVi": [
+        "phòng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 52,
+      "previousDraftMeaningVi": [
+        "phòng"
+      ]
+    },
+    {
+      "id": "hsk1_053",
+      "word": "非常",
+      "meaningVi": [
+        "rất; vô cùng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 53,
+      "previousDraftMeaningVi": [
+        "rất; vô cùng"
+      ]
+    },
+    {
+      "id": "hsk1_054",
+      "word": "飞机",
+      "meaningVi": [
+        "máy bay"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 54,
+      "previousDraftMeaningVi": [
+        "máy bay"
+      ]
+    },
+    {
+      "id": "hsk1_055",
+      "word": "分",
+      "meaningVi": [
+        "phút; phần"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 55,
+      "previousDraftMeaningVi": [
+        "phút; phần"
+      ]
+    },
+    {
+      "id": "hsk1_056",
+      "word": "分钟",
+      "meaningVi": [
+        "phút"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 56,
+      "previousDraftMeaningVi": [
+        "phút"
+      ]
+    },
+    {
+      "id": "hsk1_057",
+      "word": "高兴",
+      "meaningVi": [
+        "vui; vui mừng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 57,
+      "previousDraftMeaningVi": [
+        "vui; vui vẻ"
+      ]
+    },
+    {
+      "id": "hsk1_058",
+      "word": "歌",
+      "meaningVi": [
+        "bài hát"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 58,
+      "previousDraftMeaningVi": [
+        "bài hát"
+      ]
+    },
+    {
+      "id": "hsk1_059",
+      "word": "哥哥",
+      "meaningVi": [
+        "anh trai"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 59,
+      "previousDraftMeaningVi": [
+        "anh trai"
+      ]
+    },
+    {
+      "id": "hsk1_060",
+      "word": "个",
+      "meaningVi": [
+        "cái; người (lượng từ chung)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 60,
+      "previousDraftMeaningVi": [
+        "cái; chiếc (lượng từ)"
+      ]
+    },
+    {
+      "id": "hsk1_061",
+      "word": "给",
+      "meaningVi": [
+        "cho; đưa"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 61,
+      "previousDraftMeaningVi": [
+        "cho; đưa; cấp"
+      ]
+    },
+    {
+      "id": "hsk1_062",
+      "word": "公司",
+      "meaningVi": [
+        "công ty"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 62,
+      "previousDraftMeaningVi": [
+        "công ty"
+      ]
+    },
+    {
+      "id": "hsk1_063",
+      "word": "工作",
+      "meaningVi": [
+        "công việc; làm việc"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 63,
+      "previousDraftMeaningVi": [
+        "làm việc; công việc"
+      ]
+    },
+    {
+      "id": "hsk1_064",
+      "word": "狗",
+      "meaningVi": [
+        "chó"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 64,
+      "previousDraftMeaningVi": [
+        "chó"
+      ]
+    },
+    {
+      "id": "hsk1_065",
+      "word": "贵",
+      "meaningVi": [
+        "đắt"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 65,
+      "previousDraftMeaningVi": [
+        "đắt"
+      ]
+    },
+    {
+      "id": "hsk1_066",
+      "word": "国",
+      "meaningVi": [
+        "nước; quốc gia"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 66,
+      "previousDraftMeaningVi": [
+        "nước; quốc gia"
+      ]
+    },
+    {
+      "id": "hsk1_067",
+      "word": "还",
+      "meaningVi": [
+        "vẫn; còn"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 67,
+      "previousDraftMeaningVi": [
+        "vẫn; còn"
+      ]
+    },
+    {
+      "id": "hsk1_068",
+      "word": "孩子",
+      "meaningVi": [
+        "đứa trẻ; con"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 68,
+      "previousDraftMeaningVi": [
+        "trẻ em; con cái"
+      ]
+    },
+    {
+      "id": "hsk1_069",
+      "word": "汉语",
+      "meaningVi": [
+        "tiếng Hán; tiếng Trung"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 69,
+      "previousDraftMeaningVi": [
+        "tiếng Hán; tiếng Trung"
+      ]
+    },
+    {
+      "id": "hsk1_070",
+      "word": "汉字",
+      "meaningVi": [
+        "chữ Hán"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 70,
+      "previousDraftMeaningVi": [
+        "chữ Hán"
+      ]
+    },
+    {
+      "id": "hsk1_071",
+      "word": "好",
+      "meaningVi": [
+        "tốt; khỏe; hay"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 71,
+      "previousDraftMeaningVi": [
+        "tốt; khỏe; được"
+      ]
+    },
+    {
+      "id": "hsk1_072",
+      "word": "好吃",
+      "meaningVi": [
+        "ngon"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 72,
+      "previousDraftMeaningVi": [
+        "ngon"
+      ]
+    },
+    {
+      "id": "hsk1_073",
+      "word": "好看",
+      "meaningVi": [
+        "đẹp; dễ xem"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 73,
+      "previousDraftMeaningVi": [
+        "đẹp; hay"
+      ]
+    },
+    {
+      "id": "hsk1_074",
+      "word": "好听",
+      "meaningVi": [
+        "hay; dễ nghe"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 74,
+      "previousDraftMeaningVi": [
+        "hay; dễ nghe"
+      ]
+    },
+    {
+      "id": "hsk1_075",
+      "word": "好玩儿",
+      "meaningVi": [
+        "vui; thú vị"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 75,
+      "previousDraftMeaningVi": [
+        "vui; thú vị"
+      ]
+    },
+    {
+      "id": "hsk1_076",
+      "word": "号",
+      "meaningVi": [
+        "số; ngày (trong tháng)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 76,
+      "previousDraftMeaningVi": [
+        "số; ngày tháng"
+      ]
+    },
+    {
+      "id": "hsk1_077",
+      "word": "喝",
+      "meaningVi": [
+        "uống"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 77,
+      "previousDraftMeaningVi": [
+        "uống"
+      ]
+    },
+    {
+      "id": "hsk1_078",
+      "word": "和1",
+      "meaningVi": [
+        "và; với"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 78,
+      "previousDraftMeaningVi": [
+        "và; với"
+      ]
+    },
+    {
+      "id": "hsk1_079",
+      "word": "很",
+      "meaningVi": [
+        "rất"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 79,
+      "previousDraftMeaningVi": [
+        "rất"
+      ]
+    },
+    {
+      "id": "hsk1_080",
+      "word": "后",
+      "meaningVi": [
+        "sau; phía sau"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 80,
+      "previousDraftMeaningVi": [
+        "sau; phía sau"
+      ]
+    },
+    {
+      "id": "hsk1_081",
+      "word": "回",
+      "meaningVi": [
+        "về; quay lại"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 81,
+      "previousDraftMeaningVi": [
+        "về; trở về"
+      ]
+    },
+    {
+      "id": "hsk1_082",
+      "word": "会1",
+      "meaningVi": [
+        "biết; có thể"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 82,
+      "previousDraftMeaningVi": [
+        "biết; có thể"
+      ]
+    },
+    {
+      "id": "hsk1_083",
+      "word": "火车",
+      "meaningVi": [
+        "tàu hỏa"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 83,
+      "previousDraftMeaningVi": [
+        "tàu hỏa"
+      ]
+    },
+    {
+      "id": "hsk1_084",
+      "word": "鸡蛋",
+      "meaningVi": [
+        "trứng gà"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 84,
+      "previousDraftMeaningVi": [
+        "trứng gà"
+      ]
+    },
+    {
+      "id": "hsk1_085",
+      "word": "几",
+      "meaningVi": [
+        "mấy; bao nhiêu"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 85,
+      "previousDraftMeaningVi": [
+        "mấy; vài"
+      ]
+    },
+    {
+      "id": "hsk1_086",
+      "word": "家",
+      "meaningVi": [
+        "nhà; gia đình"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 86,
+      "previousDraftMeaningVi": [
+        "nhà; gia đình"
+      ]
+    },
+    {
+      "id": "hsk1_087",
+      "word": "家人",
+      "meaningVi": [
+        "người nhà; thành viên gia đình"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 87,
+      "previousDraftMeaningVi": [
+        "người nhà; thành viên gia đình"
+      ]
+    },
+    {
+      "id": "hsk1_088",
+      "word": "见",
+      "meaningVi": [
+        "gặp; thấy"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 88,
+      "previousDraftMeaningVi": [
+        "gặp; thấy"
+      ]
+    },
+    {
+      "id": "hsk1_089",
+      "word": "件",
+      "meaningVi": [
+        "lượng từ cho quần áo, sự việc"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 89,
+      "previousDraftMeaningVi": [
+        "cái; món; chiếc (lượng từ)"
+      ]
+    },
+    {
+      "id": "hsk1_090",
+      "word": "饺子",
+      "meaningVi": [
+        "bánh chẻo; sủi cảo"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 90,
+      "previousDraftMeaningVi": [
+        "bánh chẻo"
+      ]
+    },
+    {
+      "id": "hsk1_091",
+      "word": "叫",
+      "meaningVi": [
+        "gọi; tên là"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 91,
+      "previousDraftMeaningVi": [
+        "gọi; tên là"
+      ]
+    },
+    {
+      "id": "hsk1_092",
+      "word": "姐姐",
+      "meaningVi": [
+        "chị gái"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 92,
+      "previousDraftMeaningVi": [
+        "chị gái"
+      ]
+    },
+    {
+      "id": "hsk1_093",
+      "word": "今年",
+      "meaningVi": [
+        "năm nay"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 93,
+      "previousDraftMeaningVi": [
+        "năm nay"
+      ]
+    },
+    {
+      "id": "hsk1_094",
+      "word": "今天",
+      "meaningVi": [
+        "hôm nay"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 94,
+      "previousDraftMeaningVi": [
+        "hôm nay"
+      ]
+    },
+    {
+      "id": "hsk1_095",
+      "word": "九",
+      "meaningVi": [
+        "chín"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 95,
+      "previousDraftMeaningVi": [
+        "chín"
+      ]
+    },
+    {
+      "id": "hsk1_096",
+      "word": "觉得",
+      "meaningVi": [
+        "cảm thấy; thấy rằng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 96,
+      "previousDraftMeaningVi": [
+        "cảm thấy; cho rằng"
+      ]
+    },
+    {
+      "id": "hsk1_097",
+      "word": "开",
+      "meaningVi": [
+        "mở; lái; bắt đầu"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 97,
+      "previousDraftMeaningVi": [
+        "mở; bắt đầu"
+      ]
+    },
+    {
+      "id": "hsk1_098",
+      "word": "开车",
+      "meaningVi": [
+        "lái xe"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 98,
+      "previousDraftMeaningVi": [
+        "lái xe"
+      ]
+    },
+    {
+      "id": "hsk1_099",
+      "word": "看",
+      "meaningVi": [
+        "xem; nhìn; đọc"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 99,
+      "previousDraftMeaningVi": [
+        "xem; nhìn"
+      ]
+    },
+    {
+      "id": "hsk1_100",
+      "word": "看病",
+      "meaningVi": [
+        "khám bệnh"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 100,
+      "previousDraftMeaningVi": [
+        "khám bệnh"
+      ]
+    },
+    {
+      "id": "hsk1_101",
+      "word": "看见",
+      "meaningVi": [
+        "nhìn thấy"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 101,
+      "previousDraftMeaningVi": [
+        "nhìn thấy"
+      ]
+    },
+    {
+      "id": "hsk1_102",
+      "word": "可以",
+      "meaningVi": [
+        "có thể; được"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 102,
+      "previousDraftMeaningVi": [
+        "có thể; được phép"
+      ]
+    },
+    {
+      "id": "hsk1_103",
+      "word": "课",
+      "meaningVi": [
+        "bài học; tiết học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 103,
+      "previousDraftMeaningVi": [
+        "bài học; môn học"
+      ]
+    },
+    {
+      "id": "hsk1_104",
+      "word": "口",
+      "meaningVi": [
+        "miệng; khẩu; hộ gia đình (lượng từ)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 104,
+      "previousDraftMeaningVi": [
+        "miệng; hộ"
+      ]
+    },
+    {
+      "id": "hsk1_105",
+      "word": "块",
+      "meaningVi": [
+        "đồng; miếng; cục"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 105,
+      "previousDraftMeaningVi": [
+        "lượng từ cho khối, cục"
+      ]
+    },
+    {
+      "id": "hsk1_106",
+      "word": "来",
+      "meaningVi": [
+        "đến"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 106,
+      "previousDraftMeaningVi": [
+        "đến; lại"
+      ]
+    },
+    {
+      "id": "hsk1_107",
+      "word": "老师",
+      "meaningVi": [
+        "giáo viên; thầy cô"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 107,
+      "previousDraftMeaningVi": [
+        "giáo viên; thầy cô"
+      ]
+    },
+    {
+      "id": "hsk1_108",
+      "word": "了",
+      "meaningVi": [
+        "rồi; trợ từ chỉ hoàn thành/thay đổi"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 108,
+      "previousDraftMeaningVi": [
+        "trợ từ chỉ sự hoàn thành/thay đổi"
+      ]
+    },
+    {
+      "id": "hsk1_109",
+      "word": "冷",
+      "meaningVi": [
+        "lạnh"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 109,
+      "previousDraftMeaningVi": [
+        "lạnh"
+      ]
+    },
+    {
+      "id": "hsk1_110",
+      "word": "里",
+      "meaningVi": [
+        "trong; bên trong"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 110,
+      "previousDraftMeaningVi": [
+        "trong; bên trong"
+      ]
+    },
+    {
+      "id": "hsk1_111",
+      "word": "两1",
+      "meaningVi": [
+        "hai (dùng trước lượng từ)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 111,
+      "previousDraftMeaningVi": [
+        "hai (dùng trước lượng từ)"
+      ]
+    },
+    {
+      "id": "hsk1_112",
+      "word": "零",
+      "meaningVi": [
+        "số không"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 112,
+      "previousDraftMeaningVi": [
+        "số không"
+      ]
+    },
+    {
+      "id": "hsk1_113",
+      "word": "六",
+      "meaningVi": [
+        "sáu"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 113,
+      "previousDraftMeaningVi": [
+        "sáu"
+      ]
+    },
+    {
+      "id": "hsk1_114",
+      "word": "妈妈",
+      "meaningVi": [
+        "mẹ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 114,
+      "previousDraftMeaningVi": [
+        "mẹ; má"
+      ]
+    },
+    {
+      "id": "hsk1_115",
+      "word": "吗",
+      "meaningVi": [
+        "à; không? (trợ từ nghi vấn)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 115,
+      "previousDraftMeaningVi": [
+        "trợ từ cuối câu dùng để hỏi"
+      ]
+    },
+    {
+      "id": "hsk1_116",
+      "word": "买",
+      "meaningVi": [
+        "mua"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 116,
+      "previousDraftMeaningVi": [
+        "mua"
+      ]
+    },
+    {
+      "id": "hsk1_117",
+      "word": "卖",
+      "meaningVi": [
+        "bán"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 117,
+      "previousDraftMeaningVi": [
+        "bán"
+      ]
+    },
+    {
+      "id": "hsk1_118",
+      "word": "忙",
+      "meaningVi": [
+        "bận"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 118,
+      "previousDraftMeaningVi": [
+        "bận"
+      ]
+    },
+    {
+      "id": "hsk1_119",
+      "word": "猫",
+      "meaningVi": [
+        "mèo"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 119,
+      "previousDraftMeaningVi": [
+        "mèo"
+      ]
+    },
+    {
+      "id": "hsk1_120",
+      "word": "没关系",
+      "meaningVi": [
+        "không sao; không có gì"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 120,
+      "previousDraftMeaningVi": [
+        "không có gì; không sao"
+      ]
+    },
+    {
+      "id": "hsk1_121",
+      "word": "没事",
+      "meaningVi": [
+        "không sao; không có chuyện gì"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 121,
+      "previousDraftMeaningVi": [
+        "không sao; không có việc gì"
+      ]
+    },
+    {
+      "id": "hsk1_122",
+      "word": "没有",
+      "meaningVi": [
+        "không có; chưa"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 122,
+      "previousDraftMeaningVi": [
+        "không có; chưa có"
+      ]
+    },
+    {
+      "id": "hsk1_123",
+      "word": "妹妹",
+      "meaningVi": [
+        "em gái"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 123,
+      "previousDraftMeaningVi": [
+        "em gái"
+      ]
+    },
+    {
+      "id": "hsk1_124",
+      "word": "们",
+      "meaningVi": [
+        "hậu tố số nhiều"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 124,
+      "previousDraftMeaningVi": [
+        "hậu tố chỉ số nhiều"
+      ]
+    },
+    {
+      "id": "hsk1_125",
+      "word": "米饭",
+      "meaningVi": [
+        "cơm"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 125,
+      "previousDraftMeaningVi": [
+        "cơm"
+      ]
+    },
+    {
+      "id": "hsk1_126",
+      "word": "面包",
+      "meaningVi": [
+        "bánh mì"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 126,
+      "previousDraftMeaningVi": [
+        "bánh mì"
+      ]
+    },
+    {
+      "id": "hsk1_127",
+      "word": "面条儿",
+      "meaningVi": [
+        "mì; mì sợi"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 127,
+      "previousDraftMeaningVi": [
+        "mì sợi"
+      ]
+    },
+    {
+      "id": "hsk1_128",
+      "word": "明年",
+      "meaningVi": [
+        "năm sau"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 128,
+      "previousDraftMeaningVi": [
+        "năm sau"
+      ]
+    },
+    {
+      "id": "hsk1_129",
+      "word": "明天",
+      "meaningVi": [
+        "ngày mai"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 129,
+      "previousDraftMeaningVi": [
+        "ngày mai"
+      ]
+    },
+    {
+      "id": "hsk1_130",
+      "word": "名字",
+      "meaningVi": [
+        "tên"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 130,
+      "previousDraftMeaningVi": [
+        "tên"
+      ]
+    },
+    {
+      "id": "hsk1_131",
+      "word": "哪",
+      "meaningVi": [
+        "nào; đâu"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 131,
+      "previousDraftMeaningVi": [
+        "nào"
+      ]
+    },
+    {
+      "id": "hsk1_132",
+      "word": "哪个",
+      "meaningVi": [
+        "cái nào; người nào"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 132,
+      "previousDraftMeaningVi": [
+        "cái nào"
+      ]
+    },
+    {
+      "id": "hsk1_133",
+      "word": "哪里",
+      "meaningVi": [
+        "ở đâu; nơi nào"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 133,
+      "previousDraftMeaningVi": [
+        "ở đâu"
+      ]
+    },
+    {
+      "id": "hsk1_134",
+      "word": "哪儿",
+      "meaningVi": [
+        "ở đâu; chỗ nào"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 134,
+      "previousDraftMeaningVi": [
+        "đâu"
+      ]
+    },
+    {
+      "id": "hsk1_135",
+      "word": "哪些",
+      "meaningVi": [
+        "những cái nào"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 135,
+      "previousDraftMeaningVi": [
+        "những cái nào"
+      ]
+    },
+    {
+      "id": "hsk1_136",
+      "word": "那",
+      "meaningVi": [
+        "đó; kia"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 136,
+      "previousDraftMeaningVi": [
+        "kia; đó"
+      ]
+    },
+    {
+      "id": "hsk1_137",
+      "word": "那边",
+      "meaningVi": [
+        "bên kia; phía đó"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 137,
+      "previousDraftMeaningVi": [
+        "bên kia; phía đó"
+      ]
+    },
+    {
+      "id": "hsk1_138",
+      "word": "那个",
+      "meaningVi": [
+        "cái/người đó"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 138,
+      "previousDraftMeaningVi": [
+        "cái đó"
+      ]
+    },
+    {
+      "id": "hsk1_139",
+      "word": "那里",
+      "meaningVi": [
+        "ở đó; nơi đó"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 139,
+      "previousDraftMeaningVi": [
+        "ở đó"
+      ]
+    },
+    {
+      "id": "hsk1_140",
+      "word": "那儿",
+      "meaningVi": [
+        "ở đó; chỗ đó"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 140,
+      "previousDraftMeaningVi": [
+        "ở đằng kia"
+      ]
+    },
+    {
+      "id": "hsk1_141",
+      "word": "那些",
+      "meaningVi": [
+        "những cái/người đó"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 141,
+      "previousDraftMeaningVi": [
+        "những cái đó"
+      ]
+    },
+    {
+      "id": "hsk1_142",
+      "word": "男",
+      "meaningVi": [
+        "nam; giống đực"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 142,
+      "previousDraftMeaningVi": [
+        "nam; đàn ông"
+      ]
+    },
+    {
+      "id": "hsk1_143",
+      "word": "男朋友",
+      "meaningVi": [
+        "bạn trai"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 143,
+      "previousDraftMeaningVi": [
+        "bạn trai"
+      ]
+    },
+    {
+      "id": "hsk1_144",
+      "word": "呢",
+      "meaningVi": [
+        "thế; còn... thì sao (trợ từ)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 144,
+      "previousDraftMeaningVi": [
+        "trợ từ cuối câu"
+      ]
+    },
+    {
+      "id": "hsk1_145",
+      "word": "能",
+      "meaningVi": [
+        "có thể; có khả năng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 145,
+      "previousDraftMeaningVi": [
+        "có thể; có khả năng"
+      ]
+    },
+    {
+      "id": "hsk1_146",
+      "word": "你",
+      "meaningVi": [
+        "bạn; anh/chị; cậu"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 146,
+      "previousDraftMeaningVi": [
+        "bạn; anh; chị; bạn (ngôi 2)"
+      ]
+    },
+    {
+      "id": "hsk1_147",
+      "word": "你好",
+      "meaningVi": [
+        "xin chào"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 147,
+      "previousDraftMeaningVi": [
+        "xin chào"
+      ]
+    },
+    {
+      "id": "hsk1_148",
+      "word": "你们",
+      "meaningVi": [
+        "các bạn; các anh/chị"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 148,
+      "previousDraftMeaningVi": [
+        "các bạn; các anh chị"
+      ]
+    },
+    {
+      "id": "hsk1_149",
+      "word": "年",
+      "meaningVi": [
+        "năm"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 149,
+      "previousDraftMeaningVi": [
+        "năm"
+      ]
+    },
+    {
+      "id": "hsk1_150",
+      "word": "您",
+      "meaningVi": [
+        "ngài; ông/bà; bạn (cách xưng hô lịch sự)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 150,
+      "previousDraftMeaningVi": [
+        "ngài; ông/bà (cách xưng hô lịch sự)"
+      ]
+    },
+    {
+      "id": "hsk1_151",
+      "word": "牛奶",
+      "meaningVi": [
+        "sữa bò"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 151,
+      "previousDraftMeaningVi": [
+        "sữa"
+      ]
+    },
+    {
+      "id": "hsk1_152",
+      "word": "女",
+      "meaningVi": [
+        "nữ; giống cái"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 152,
+      "previousDraftMeaningVi": [
+        "nữ; phụ nữ"
+      ]
+    },
+    {
+      "id": "hsk1_153",
+      "word": "女儿",
+      "meaningVi": [
+        "con gái"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 153,
+      "previousDraftMeaningVi": [
+        "con gái"
+      ]
+    },
+    {
+      "id": "hsk1_154",
+      "word": "女朋友",
+      "meaningVi": [
+        "bạn gái"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 154,
+      "previousDraftMeaningVi": [
+        "bạn gái"
+      ]
+    },
+    {
+      "id": "hsk1_155",
+      "word": "女士",
+      "meaningVi": [
+        "quý bà; cô; bà"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 155,
+      "previousDraftMeaningVi": [
+        "quý bà; cô; bà"
+      ]
+    },
+    {
+      "id": "hsk1_156",
+      "word": "朋友",
+      "meaningVi": [
+        "bạn; bạn bè"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 156,
+      "previousDraftMeaningVi": [
+        "bạn; bạn bè"
+      ]
+    },
+    {
+      "id": "hsk1_157",
+      "word": "便宜",
+      "meaningVi": [
+        "rẻ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 157,
+      "previousDraftMeaningVi": [
+        "rẻ"
+      ]
+    },
+    {
+      "id": "hsk1_158",
+      "word": "漂亮",
+      "meaningVi": [
+        "đẹp; xinh"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 158,
+      "previousDraftMeaningVi": [
+        "đẹp"
+      ]
+    },
+    {
+      "id": "hsk1_159",
+      "word": "苹果",
+      "meaningVi": [
+        "quả táo"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 159,
+      "previousDraftMeaningVi": [
+        "quả táo"
+      ]
+    },
+    {
+      "id": "hsk1_160",
+      "word": "七",
+      "meaningVi": [
+        "bảy"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 160,
+      "previousDraftMeaningVi": [
+        "bảy"
+      ]
+    },
+    {
+      "id": "hsk1_161",
+      "word": "起床",
+      "meaningVi": [
+        "thức dậy; rời giường"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 161,
+      "previousDraftMeaningVi": [
+        "thức dậy; ra khỏi giường"
+      ]
+    },
+    {
+      "id": "hsk1_162",
+      "word": "千",
+      "meaningVi": [
+        "nghìn; một nghìn"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 162,
+      "previousDraftMeaningVi": [
+        "một nghìn"
+      ]
+    },
+    {
+      "id": "hsk1_163",
+      "word": "前",
+      "meaningVi": [
+        "trước; phía trước"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 163,
+      "previousDraftMeaningVi": [
+        "phía trước; trước"
+      ]
+    },
+    {
+      "id": "hsk1_164",
+      "word": "钱",
+      "meaningVi": [
+        "tiền"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 164,
+      "previousDraftMeaningVi": [
+        "tiền"
+      ]
+    },
+    {
+      "id": "hsk1_165",
+      "word": "请",
+      "meaningVi": [
+        "mời; xin; vui lòng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 165,
+      "previousDraftMeaningVi": [
+        "mời; xin; vui lòng"
+      ]
+    },
+    {
+      "id": "hsk1_166",
+      "word": "请问",
+      "meaningVi": [
+        "xin hỏi; cho hỏi"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 166,
+      "previousDraftMeaningVi": [
+        "xin hỏi"
+      ]
+    },
+    {
+      "id": "hsk1_167",
+      "word": "去",
+      "meaningVi": [
+        "đi"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 167,
+      "previousDraftMeaningVi": [
+        "đi"
+      ]
+    },
+    {
+      "id": "hsk1_168",
+      "word": "去年",
+      "meaningVi": [
+        "năm ngoái"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 168,
+      "previousDraftMeaningVi": [
+        "năm ngoái"
+      ]
+    },
+    {
+      "id": "hsk1_169",
+      "word": "热",
+      "meaningVi": [
+        "nóng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 169,
+      "previousDraftMeaningVi": [
+        "nóng"
+      ]
+    },
+    {
+      "id": "hsk1_170",
+      "word": "人",
+      "meaningVi": [
+        "người"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 170,
+      "previousDraftMeaningVi": [
+        "người"
+      ]
+    },
+    {
+      "id": "hsk1_171",
+      "word": "认识",
+      "meaningVi": [
+        "quen; biết; nhận biết"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 171,
+      "previousDraftMeaningVi": [
+        "quen; biết"
+      ]
+    },
+    {
+      "id": "hsk1_172",
+      "word": "日",
+      "meaningVi": [
+        "ngày; mặt trời"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 172,
+      "previousDraftMeaningVi": [
+        "ngày; ngày tháng"
+      ]
+    },
+    {
+      "id": "hsk1_173",
+      "word": "三",
+      "meaningVi": [
+        "ba"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 173,
+      "previousDraftMeaningVi": [
+        "ba"
+      ]
+    },
+    {
+      "id": "hsk1_174",
+      "word": "商店",
+      "meaningVi": [
+        "cửa hàng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 174,
+      "previousDraftMeaningVi": [
+        "cửa hàng; cửa tiệm"
+      ]
+    },
+    {
+      "id": "hsk1_175",
+      "word": "上",
+      "meaningVi": [
+        "trên; lên"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 175,
+      "previousDraftMeaningVi": [
+        "trên; lên"
+      ]
+    },
+    {
+      "id": "hsk1_176",
+      "word": "上班",
+      "meaningVi": [
+        "đi làm; làm việc"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 176,
+      "previousDraftMeaningVi": [
+        "đi làm"
+      ]
+    },
+    {
+      "id": "hsk1_177",
+      "word": "上课",
+      "meaningVi": [
+        "lên lớp; học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 177,
+      "previousDraftMeaningVi": [
+        "đi học; lên lớp"
+      ]
+    },
+    {
+      "id": "hsk1_178",
+      "word": "上午",
+      "meaningVi": [
+        "buổi sáng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 178,
+      "previousDraftMeaningVi": [
+        "buổi sáng"
+      ]
+    },
+    {
+      "id": "hsk1_179",
+      "word": "上学",
+      "meaningVi": [
+        "đi học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 179,
+      "previousDraftMeaningVi": [
+        "đi học"
+      ]
+    },
+    {
+      "id": "hsk1_180",
+      "word": "少",
+      "meaningVi": [
+        "ít; thiếu"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 180,
+      "previousDraftMeaningVi": [
+        "ít; thiếu"
+      ]
+    },
+    {
+      "id": "hsk1_181",
+      "word": "谁",
+      "meaningVi": [
+        "ai"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 181,
+      "previousDraftMeaningVi": [
+        "ai"
+      ]
+    },
+    {
+      "id": "hsk1_182",
+      "word": "什么",
+      "meaningVi": [
+        "cái gì; gì"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 182,
+      "previousDraftMeaningVi": [
+        "cái gì"
+      ]
+    },
+    {
+      "id": "hsk1_183",
+      "word": "生病",
+      "meaningVi": [
+        "bị bệnh; mắc bệnh"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 183,
+      "previousDraftMeaningVi": [
+        "bị bệnh; mắc bệnh"
+      ]
+    },
+    {
+      "id": "hsk1_184",
+      "word": "十",
+      "meaningVi": [
+        "mười"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 184,
+      "previousDraftMeaningVi": [
+        "mười"
+      ]
+    },
+    {
+      "id": "hsk1_185",
+      "word": "时候",
+      "meaningVi": [
+        "lúc; thời gian"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 185,
+      "previousDraftMeaningVi": [
+        "lúc; khi"
+      ]
+    },
+    {
+      "id": "hsk1_186",
+      "word": "时间",
+      "meaningVi": [
+        "thời gian"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 186,
+      "previousDraftMeaningVi": [
+        "thời gian"
+      ]
+    },
+    {
+      "id": "hsk1_187",
+      "word": "事",
+      "meaningVi": [
+        "việc; chuyện"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 187,
+      "previousDraftMeaningVi": [
+        "việc; chuyện"
+      ]
+    },
+    {
+      "id": "hsk1_188",
+      "word": "是",
+      "meaningVi": [
+        "là; đúng là"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 188,
+      "previousDraftMeaningVi": [
+        "là; thì"
+      ]
+    },
+    {
+      "id": "hsk1_189",
+      "word": "手机",
+      "meaningVi": [
+        "điện thoại di động"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 189,
+      "previousDraftMeaningVi": [
+        "điện thoại di động"
+      ]
+    },
+    {
+      "id": "hsk1_190",
+      "word": "书",
+      "meaningVi": [
+        "sách"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 190,
+      "previousDraftMeaningVi": [
+        "sách"
+      ]
+    },
+    {
+      "id": "hsk1_191",
+      "word": "书店",
+      "meaningVi": [
+        "hiệu sách; nhà sách"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 191,
+      "previousDraftMeaningVi": [
+        "hiệu sách"
+      ]
+    },
+    {
+      "id": "hsk1_192",
+      "word": "水",
+      "meaningVi": [
+        "nước"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 192,
+      "previousDraftMeaningVi": [
+        "nước"
+      ]
+    },
+    {
+      "id": "hsk1_193",
+      "word": "水果",
+      "meaningVi": [
+        "trái cây"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 193,
+      "previousDraftMeaningVi": [
+        "trái cây"
+      ]
+    },
+    {
+      "id": "hsk1_194",
+      "word": "睡",
+      "meaningVi": [
+        "ngủ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 194,
+      "previousDraftMeaningVi": [
+        "ngủ"
+      ]
+    },
+    {
+      "id": "hsk1_195",
+      "word": "睡觉",
+      "meaningVi": [
+        "đi ngủ; ngủ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 195,
+      "previousDraftMeaningVi": [
+        "ngủ; đi ngủ"
+      ]
+    },
+    {
+      "id": "hsk1_196",
+      "word": "说",
+      "meaningVi": [
+        "nói"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 196,
+      "previousDraftMeaningVi": [
+        "nói"
+      ]
+    },
+    {
+      "id": "hsk1_197",
+      "word": "说话",
+      "meaningVi": [
+        "nói chuyện; nói"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 197,
+      "previousDraftMeaningVi": [
+        "nói chuyện"
+      ]
+    },
+    {
+      "id": "hsk1_198",
+      "word": "四",
+      "meaningVi": [
+        "bốn"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 198,
+      "previousDraftMeaningVi": [
+        "bốn"
+      ]
+    },
+    {
+      "id": "hsk1_199",
+      "word": "岁",
+      "meaningVi": [
+        "tuổi"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 199,
+      "previousDraftMeaningVi": [
+        "tuổi"
+      ]
+    },
+    {
+      "id": "hsk1_200",
+      "word": "他",
+      "meaningVi": [
+        "anh ấy; ông ấy"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 200,
+      "previousDraftMeaningVi": [
+        "anh ấy; ông ấy"
+      ]
+    },
+    {
+      "id": "hsk1_201",
+      "word": "它",
+      "meaningVi": [
+        "nó (đồ vật/động vật)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 201,
+      "previousDraftMeaningVi": [
+        "nó"
+      ]
+    },
+    {
+      "id": "hsk1_202",
+      "word": "她",
+      "meaningVi": [
+        "cô ấy; chị ấy"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 202,
+      "previousDraftMeaningVi": [
+        "cô ấy; bà ấy"
+      ]
+    },
+    {
+      "id": "hsk1_203",
+      "word": "他们",
+      "meaningVi": [
+        "họ; họ (nam/hỗn hợp)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 203,
+      "previousDraftMeaningVi": [
+        "họ; các anh ấy"
+      ]
+    },
+    {
+      "id": "hsk1_204",
+      "word": "它们",
+      "meaningVi": [
+        "chúng; chúng nó"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 204,
+      "previousDraftMeaningVi": [
+        "chúng nó; chúng"
+      ]
+    },
+    {
+      "id": "hsk1_205",
+      "word": "她们",
+      "meaningVi": [
+        "họ; họ (nữ)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 205,
+      "previousDraftMeaningVi": [
+        "họ; các cô ấy"
+      ]
+    },
+    {
+      "id": "hsk1_206",
+      "word": "太",
+      "meaningVi": [
+        "quá; rất"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 206,
+      "previousDraftMeaningVi": [
+        "quá; rất"
+      ]
+    },
+    {
+      "id": "hsk1_207",
+      "word": "天",
+      "meaningVi": [
+        "ngày; trời"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 207,
+      "previousDraftMeaningVi": [
+        "ngày; hôm"
+      ]
+    },
+    {
+      "id": "hsk1_208",
+      "word": "天气",
+      "meaningVi": [
+        "thời tiết"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 208,
+      "previousDraftMeaningVi": [
+        "thời tiết"
+      ]
+    },
+    {
+      "id": "hsk1_209",
+      "word": "听",
+      "meaningVi": [
+        "nghe"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 209,
+      "previousDraftMeaningVi": [
+        "nghe"
+      ]
+    },
+    {
+      "id": "hsk1_210",
+      "word": "听见",
+      "meaningVi": [
+        "nghe thấy"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 210,
+      "previousDraftMeaningVi": [
+        "nghe thấy"
+      ]
+    },
+    {
+      "id": "hsk1_211",
+      "word": "同学",
+      "meaningVi": [
+        "bạn học; học sinh cùng lớp"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 211,
+      "previousDraftMeaningVi": [
+        "bạn học; bạn cùng lớp"
+      ]
+    },
+    {
+      "id": "hsk1_212",
+      "word": "外",
+      "meaningVi": [
+        "ngoài; bên ngoài"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 212,
+      "previousDraftMeaningVi": [
+        "bên ngoài"
+      ]
+    },
+    {
+      "id": "hsk1_213",
+      "word": "外边",
+      "meaningVi": [
+        "bên ngoài"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 213,
+      "previousDraftMeaningVi": [
+        "bên ngoài"
+      ]
+    },
+    {
+      "id": "hsk1_214",
+      "word": "玩",
+      "meaningVi": [
+        "chơi"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 214,
+      "previousDraftMeaningVi": [
+        "chơi"
+      ]
+    },
+    {
+      "id": "hsk1_215",
+      "word": "晚",
+      "meaningVi": [
+        "muộn; tối"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 215,
+      "previousDraftMeaningVi": [
+        "muộn; tối"
+      ]
+    },
+    {
+      "id": "hsk1_216",
+      "word": "晚饭",
+      "meaningVi": [
+        "bữa tối; cơm tối"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 216,
+      "previousDraftMeaningVi": [
+        "bữa tối"
+      ]
+    },
+    {
+      "id": "hsk1_217",
+      "word": "晚上",
+      "meaningVi": [
+        "buổi tối; tối"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 217,
+      "previousDraftMeaningVi": [
+        "buổi tối"
+      ]
+    },
+    {
+      "id": "hsk1_218",
+      "word": "喂1",
+      "meaningVi": [
+        "alo; này (khi nghe điện thoại)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 218,
+      "previousDraftMeaningVi": [
+        "a lô; này (gọi điện)"
+      ]
+    },
+    {
+      "id": "hsk1_219",
+      "word": "问",
+      "meaningVi": [
+        "hỏi"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 219,
+      "previousDraftMeaningVi": [
+        "hỏi"
+      ]
+    },
+    {
+      "id": "hsk1_220",
+      "word": "问题",
+      "meaningVi": [
+        "câu hỏi; vấn đề"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 220,
+      "previousDraftMeaningVi": [
+        "câu hỏi; vấn đề"
+      ]
+    },
+    {
+      "id": "hsk1_221",
+      "word": "我",
+      "meaningVi": [
+        "tôi; mình"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 221,
+      "previousDraftMeaningVi": [
+        "tôi; mình"
+      ]
+    },
+    {
+      "id": "hsk1_222",
+      "word": "我们",
+      "meaningVi": [
+        "chúng tôi; chúng ta"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 222,
+      "previousDraftMeaningVi": [
+        "chúng tôi; chúng ta"
+      ]
+    },
+    {
+      "id": "hsk1_223",
+      "word": "五",
+      "meaningVi": [
+        "năm"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 223,
+      "previousDraftMeaningVi": [
+        "năm"
+      ]
+    },
+    {
+      "id": "hsk1_224",
+      "word": "午饭",
+      "meaningVi": [
+        "bữa trưa; cơm trưa"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 224,
+      "previousDraftMeaningVi": [
+        "bữa trưa"
+      ]
+    },
+    {
+      "id": "hsk1_225",
+      "word": "喜欢",
+      "meaningVi": [
+        "thích"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 225,
+      "previousDraftMeaningVi": [
+        "thích"
+      ]
+    },
+    {
+      "id": "hsk1_226",
+      "word": "下",
+      "meaningVi": [
+        "xuống; dưới; tiếp theo"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 226,
+      "previousDraftMeaningVi": [
+        "dưới; xuống"
+      ]
+    },
+    {
+      "id": "hsk1_227",
+      "word": "下雨",
+      "meaningVi": [
+        "mưa; trời mưa"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 227,
+      "previousDraftMeaningVi": [
+        "mưa"
+      ]
+    },
+    {
+      "id": "hsk1_228",
+      "word": "下班",
+      "meaningVi": [
+        "tan làm"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 228,
+      "previousDraftMeaningVi": [
+        "tan làm"
+      ]
+    },
+    {
+      "id": "hsk1_229",
+      "word": "下课",
+      "meaningVi": [
+        "tan học; hết giờ học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 229,
+      "previousDraftMeaningVi": [
+        "tan học"
+      ]
+    },
+    {
+      "id": "hsk1_230",
+      "word": "下午",
+      "meaningVi": [
+        "buổi chiều"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 230,
+      "previousDraftMeaningVi": [
+        "buổi chiều"
+      ]
+    },
+    {
+      "id": "hsk1_231",
+      "word": "先生",
+      "meaningVi": [
+        "ông; ngài; anh (cách gọi lịch sự)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 231,
+      "previousDraftMeaningVi": [
+        "ông; ngài"
+      ]
+    },
+    {
+      "id": "hsk1_232",
+      "word": "现在",
+      "meaningVi": [
+        "bây giờ; hiện tại"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 232,
+      "previousDraftMeaningVi": [
+        "bây giờ; hiện tại"
+      ]
+    },
+    {
+      "id": "hsk1_233",
+      "word": "想",
+      "meaningVi": [
+        "muốn; nghĩ; nhớ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 233,
+      "previousDraftMeaningVi": [
+        "muốn; nghĩ; muốn rằng"
+      ]
+    },
+    {
+      "id": "hsk1_234",
+      "word": "小",
+      "meaningVi": [
+        "nhỏ; bé"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 234,
+      "previousDraftMeaningVi": [
+        "nhỏ; bé"
+      ]
+    },
+    {
+      "id": "hsk1_235",
+      "word": "小朋友",
+      "meaningVi": [
+        "trẻ em; bạn nhỏ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 235,
+      "previousDraftMeaningVi": [
+        "trẻ em; bạn nhỏ"
+      ]
+    },
+    {
+      "id": "hsk1_236",
+      "word": "小时",
+      "meaningVi": [
+        "giờ; tiếng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 236,
+      "previousDraftMeaningVi": [
+        "giờ; tiếng đồng hồ"
+      ]
+    },
+    {
+      "id": "hsk1_237",
+      "word": "小学",
+      "meaningVi": [
+        "tiểu học; trường tiểu học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 237,
+      "previousDraftMeaningVi": [
+        "tiểu học; trường tiểu học"
+      ]
+    },
+    {
+      "id": "hsk1_238",
+      "word": "小学生",
+      "meaningVi": [
+        "học sinh tiểu học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 238,
+      "previousDraftMeaningVi": [
+        "học sinh tiểu học"
+      ]
+    },
+    {
+      "id": "hsk1_239",
+      "word": "些",
+      "meaningVi": [
+        "một số; một vài"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 239,
+      "previousDraftMeaningVi": [
+        "một vài; một số"
+      ]
+    },
+    {
+      "id": "hsk1_240",
+      "word": "写",
+      "meaningVi": [
+        "viết"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 240,
+      "previousDraftMeaningVi": [
+        "viết"
+      ]
+    },
+    {
+      "id": "hsk1_241",
+      "word": "谢谢",
+      "meaningVi": [
+        "cảm ơn"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 241,
+      "previousDraftMeaningVi": [
+        "cảm ơn"
+      ]
+    },
+    {
+      "id": "hsk1_242",
+      "word": "新",
+      "meaningVi": [
+        "mới"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 242,
+      "previousDraftMeaningVi": [
+        "mới"
+      ]
+    },
+    {
+      "id": "hsk1_243",
+      "word": "星期",
+      "meaningVi": [
+        "tuần; thứ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 243,
+      "previousDraftMeaningVi": [
+        "tuần; thứ"
+      ]
+    },
+    {
+      "id": "hsk1_244",
+      "word": "星期日",
+      "meaningVi": [
+        "Chủ nhật"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 244,
+      "previousDraftMeaningVi": [
+        "Chủ nhật"
+      ]
+    },
+    {
+      "id": "hsk1_245",
+      "word": "星期天",
+      "meaningVi": [
+        "Chủ nhật"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 245,
+      "previousDraftMeaningVi": [
+        "Chủ nhật"
+      ]
+    },
+    {
+      "id": "hsk1_246",
+      "word": "休息",
+      "meaningVi": [
+        "nghỉ ngơi; nghỉ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 246,
+      "previousDraftMeaningVi": [
+        "nghỉ ngơi"
+      ]
+    },
+    {
+      "id": "hsk1_247",
+      "word": "学",
+      "meaningVi": [
+        "học; học tập"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 247,
+      "previousDraftMeaningVi": [
+        "học"
+      ]
+    },
+    {
+      "id": "hsk1_248",
+      "word": "学生",
+      "meaningVi": [
+        "học sinh; sinh viên"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 248,
+      "previousDraftMeaningVi": [
+        "học sinh; sinh viên"
+      ]
+    },
+    {
+      "id": "hsk1_249",
+      "word": "学习",
+      "meaningVi": [
+        "học; học tập"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 249,
+      "previousDraftMeaningVi": [
+        "học; học tập"
+      ]
+    },
+    {
+      "id": "hsk1_250",
+      "word": "学校",
+      "meaningVi": [
+        "trường học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 250,
+      "previousDraftMeaningVi": [
+        "trường học"
+      ]
+    },
+    {
+      "id": "hsk1_251",
+      "word": "雪",
+      "meaningVi": [
+        "tuyết"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 251,
+      "previousDraftMeaningVi": [
+        "tuyết"
+      ]
+    },
+    {
+      "id": "hsk1_252",
+      "word": "要",
+      "meaningVi": [
+        "muốn; cần; sẽ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 252,
+      "previousDraftMeaningVi": [
+        "muốn; cần; phải"
+      ]
+    },
+    {
+      "id": "hsk1_253",
+      "word": "也",
+      "meaningVi": [
+        "cũng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 253,
+      "previousDraftMeaningVi": [
+        "cũng"
+      ]
+    },
+    {
+      "id": "hsk1_254",
+      "word": "一",
+      "meaningVi": [
+        "một"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 254,
+      "previousDraftMeaningVi": [
+        "một"
+      ]
+    },
+    {
+      "id": "hsk1_255",
+      "word": "衣服",
+      "meaningVi": [
+        "quần áo"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 255,
+      "previousDraftMeaningVi": [
+        "quần áo"
+      ]
+    },
+    {
+      "id": "hsk1_256",
+      "word": "医生",
+      "meaningVi": [
+        "bác sĩ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 256,
+      "previousDraftMeaningVi": [
+        "bác sĩ"
+      ]
+    },
+    {
+      "id": "hsk1_257",
+      "word": "医院",
+      "meaningVi": [
+        "bệnh viện"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 257,
+      "previousDraftMeaningVi": [
+        "bệnh viện"
+      ]
+    },
+    {
+      "id": "hsk1_258",
+      "word": "一半",
+      "meaningVi": [
+        "một nửa"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 258,
+      "previousDraftMeaningVi": [
+        "một nửa"
+      ]
+    },
+    {
+      "id": "hsk1_259",
+      "word": "一下",
+      "meaningVi": [
+        "một chút; một lát"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 259,
+      "previousDraftMeaningVi": [
+        "một chút; một lát"
+      ]
+    },
+    {
+      "id": "hsk1_260",
+      "word": "椅子",
+      "meaningVi": [
+        "ghế"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 260,
+      "previousDraftMeaningVi": [
+        "cái ghế; ghế"
+      ]
+    },
+    {
+      "id": "hsk1_261",
+      "word": "一点儿",
+      "meaningVi": [
+        "một chút; một ít"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 261,
+      "previousDraftMeaningVi": [
+        "một chút; một ít"
+      ]
+    },
+    {
+      "id": "hsk1_262",
+      "word": "一些",
+      "meaningVi": [
+        "một ít; một số"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 262,
+      "previousDraftMeaningVi": [
+        "một số; một vài"
+      ]
+    },
+    {
+      "id": "hsk1_263",
+      "word": "有",
+      "meaningVi": [
+        "có"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 263,
+      "previousDraftMeaningVi": [
+        "có; tồn tại"
+      ]
+    },
+    {
+      "id": "hsk1_264",
+      "word": "有的",
+      "meaningVi": [
+        "có người/cái; một số"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 264,
+      "previousDraftMeaningVi": [
+        "có người/có cái"
+      ]
+    },
+    {
+      "id": "hsk1_265",
+      "word": "有点儿",
+      "meaningVi": [
+        "hơi; có chút"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 265,
+      "previousDraftMeaningVi": [
+        "hơi; có chút"
+      ]
+    },
+    {
+      "id": "hsk1_266",
+      "word": "有些",
+      "meaningVi": [
+        "một số; có chút"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 266,
+      "previousDraftMeaningVi": [
+        "một số; một vài"
+      ]
+    },
+    {
+      "id": "hsk1_267",
+      "word": "雨",
+      "meaningVi": [
+        "mưa"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 267,
+      "previousDraftMeaningVi": [
+        "mưa"
+      ]
+    },
+    {
+      "id": "hsk1_268",
+      "word": "元",
+      "meaningVi": [
+        "nhân dân tệ; đồng tệ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 268,
+      "previousDraftMeaningVi": [
+        "đồng; nhân dân tệ"
+      ]
+    },
+    {
+      "id": "hsk1_269",
+      "word": "月",
+      "meaningVi": [
+        "tháng; mặt trăng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 269,
+      "previousDraftMeaningVi": [
+        "tháng"
+      ]
+    },
+    {
+      "id": "hsk1_270",
+      "word": "再",
+      "meaningVi": [
+        "lại; thêm lần nữa"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 270,
+      "previousDraftMeaningVi": [
+        "lại; nữa"
+      ]
+    },
+    {
+      "id": "hsk1_271",
+      "word": "在",
+      "meaningVi": [
+        "ở; tại; đang"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 271,
+      "previousDraftMeaningVi": [
+        "ở; tại; đang"
+      ]
+    },
+    {
+      "id": "hsk1_272",
+      "word": "再见",
+      "meaningVi": [
+        "tạm biệt; hẹn gặp lại"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 272,
+      "previousDraftMeaningVi": [
+        "tạm biệt"
+      ]
+    },
+    {
+      "id": "hsk1_273",
+      "word": "早",
+      "meaningVi": [
+        "sớm; chào buổi sáng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 273,
+      "previousDraftMeaningVi": [
+        "sớm"
+      ]
+    },
+    {
+      "id": "hsk1_274",
+      "word": "早饭",
+      "meaningVi": [
+        "bữa sáng; điểm tâm"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 274,
+      "previousDraftMeaningVi": [
+        "bữa sáng"
+      ]
+    },
+    {
+      "id": "hsk1_275",
+      "word": "早上",
+      "meaningVi": [
+        "buổi sáng"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 275,
+      "previousDraftMeaningVi": [
+        "buổi sáng"
+      ]
+    },
+    {
+      "id": "hsk1_276",
+      "word": "怎么",
+      "meaningVi": [
+        "thế nào; làm sao"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 276,
+      "previousDraftMeaningVi": [
+        "thế nào; làm sao"
+      ]
+    },
+    {
+      "id": "hsk1_277",
+      "word": "怎么样",
+      "meaningVi": [
+        "thế nào; như thế nào"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 277,
+      "previousDraftMeaningVi": [
+        "thế nào; ra sao"
+      ]
+    },
+    {
+      "id": "hsk1_278",
+      "word": "找",
+      "meaningVi": [
+        "tìm; tìm kiếm"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 278,
+      "previousDraftMeaningVi": [
+        "tìm"
+      ]
+    },
+    {
+      "id": "hsk1_279",
+      "word": "这",
+      "meaningVi": [
+        "này; đây"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 279,
+      "previousDraftMeaningVi": [
+        "này; đây"
+      ]
+    },
+    {
+      "id": "hsk1_280",
+      "word": "这边",
+      "meaningVi": [
+        "bên này; phía này"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 280,
+      "previousDraftMeaningVi": [
+        "bên này; phía này"
+      ]
+    },
+    {
+      "id": "hsk1_281",
+      "word": "这个",
+      "meaningVi": [
+        "cái/người này"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 281,
+      "previousDraftMeaningVi": [
+        "cái này"
+      ]
+    },
+    {
+      "id": "hsk1_282",
+      "word": "这里",
+      "meaningVi": [
+        "ở đây; nơi này"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 282,
+      "previousDraftMeaningVi": [
+        "ở đây"
+      ]
+    },
+    {
+      "id": "hsk1_283",
+      "word": "这儿",
+      "meaningVi": [
+        "ở đây; chỗ này"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 283,
+      "previousDraftMeaningVi": [
+        "ở đây; chỗ này"
+      ]
+    },
+    {
+      "id": "hsk1_284",
+      "word": "这些",
+      "meaningVi": [
+        "những cái/người này"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 284,
+      "previousDraftMeaningVi": [
+        "những cái này"
+      ]
+    },
+    {
+      "id": "hsk1_285",
+      "word": "真",
+      "meaningVi": [
+        "thật; thực sự; rất"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 285,
+      "previousDraftMeaningVi": [
+        "thật; thực sự"
+      ]
+    },
+    {
+      "id": "hsk1_286",
+      "word": "正在",
+      "meaningVi": [
+        "đang"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 286,
+      "previousDraftMeaningVi": [
+        "đang; ngay lúc"
+      ]
+    },
+    {
+      "id": "hsk1_287",
+      "word": "只",
+      "meaningVi": [
+        "con/cái (lượng từ cho một số động vật, vật); chỉ"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 287,
+      "previousDraftMeaningVi": [
+        "lượng từ cho con vật; một số đồ vật"
+      ]
+    },
+    {
+      "id": "hsk1_288",
+      "word": "知道",
+      "meaningVi": [
+        "biết"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 288,
+      "previousDraftMeaningVi": [
+        "biết"
+      ]
+    },
+    {
+      "id": "hsk1_289",
+      "word": "中国",
+      "meaningVi": [
+        "Trung Quốc"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 289,
+      "previousDraftMeaningVi": [
+        "Trung Quốc"
+      ]
+    },
+    {
+      "id": "hsk1_290",
+      "word": "中文",
+      "meaningVi": [
+        "tiếng Trung; chữ Trung"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 290,
+      "previousDraftMeaningVi": [
+        "tiếng Trung; chữ Trung"
+      ]
+    },
+    {
+      "id": "hsk1_291",
+      "word": "中午",
+      "meaningVi": [
+        "buổi trưa"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 291,
+      "previousDraftMeaningVi": [
+        "buổi trưa"
+      ]
+    },
+    {
+      "id": "hsk1_292",
+      "word": "中学",
+      "meaningVi": [
+        "trung học; trường trung học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 292,
+      "previousDraftMeaningVi": [
+        "trung học"
+      ]
+    },
+    {
+      "id": "hsk1_293",
+      "word": "中学生",
+      "meaningVi": [
+        "học sinh trung học"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 293,
+      "previousDraftMeaningVi": [
+        "học sinh trung học"
+      ]
+    },
+    {
+      "id": "hsk1_294",
+      "word": "住",
+      "meaningVi": [
+        "sống; ở; cư trú"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 294,
+      "previousDraftMeaningVi": [
+        "ở; sống; cư trú"
+      ]
+    },
+    {
+      "id": "hsk1_295",
+      "word": "桌子",
+      "meaningVi": [
+        "bàn"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 295,
+      "previousDraftMeaningVi": [
+        "cái bàn"
+      ]
+    },
+    {
+      "id": "hsk1_296",
+      "word": "字",
+      "meaningVi": [
+        "chữ; ký tự"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 296,
+      "previousDraftMeaningVi": [
+        "chữ; ký tự"
+      ]
+    },
+    {
+      "id": "hsk1_297",
+      "word": "昨天",
+      "meaningVi": [
+        "hôm qua"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 297,
+      "previousDraftMeaningVi": [
+        "hôm qua"
+      ]
+    },
+    {
+      "id": "hsk1_298",
+      "word": "坐",
+      "meaningVi": [
+        "ngồi; đi bằng (phương tiện)"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 298,
+      "previousDraftMeaningVi": [
+        "ngồi"
+      ]
+    },
+    {
+      "id": "hsk1_299",
+      "word": "做",
+      "meaningVi": [
+        "làm"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 299,
+      "previousDraftMeaningVi": [
+        "làm; thực hiện"
+      ]
+    },
+    {
+      "id": "hsk1_300",
+      "word": "做饭",
+      "meaningVi": [
+        "nấu ăn; làm cơm"
+      ],
+      "status": "draft",
+      "reviewed": false,
+      "reviewRequired": true,
+      "sourceSort": 300,
+      "previousDraftMeaningVi": [
+        "nấu ăn; làm cơm"
+      ]
+    }
+  ]
+}

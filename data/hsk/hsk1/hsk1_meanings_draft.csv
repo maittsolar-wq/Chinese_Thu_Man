@@ -1,0 +1,301 @@
+﻿id,word,meaningVi,status,reviewed,reviewRequired,sourceSort,previousDraftMeaningVi
+hsk1_001,爱,"yêu, yêu thích",draft,False,True,1,yêu; thích
+hsk1_002,八,tám,draft,False,True,2,tám
+hsk1_003,爸爸,"bố, cha",draft,False,True,3,bố; ba
+hsk1_004,吧,"nhé, nào, đi",draft,False,True,4,trợ từ cuối câu
+hsk1_005,白天,ban ngày,draft,False,True,5,ban ngày
+hsk1_006,百,trăm,draft,False,True,6,một trăm
+hsk1_007,半,"một nửa, nửa",draft,False,True,7,một nửa; nửa
+hsk1_008,包子,bánh bao,draft,False,True,8,bánh bao
+hsk1_009,杯子,"cốc, ly",draft,False,True,9,cái cốc; cốc
+hsk1_010,本1,"lượng từ cho sách, vở",draft,False,True,10,lượng từ cho sách
+hsk1_011,边,"bên, phía",draft,False,True,11,bên; phía
+hsk1_012,病,bệnh; bị bệnh,draft,False,True,12,bệnh; bị bệnh
+hsk1_013,不,không,draft,False,True,13,không; chẳng
+hsk1_014,不客气,không có gì; đừng khách sáo,draft,False,True,14,không có gì; đừng khách sáo
+hsk1_015,不要,đừng; không muốn,draft,False,True,15,đừng; không được
+hsk1_016,菜,món ăn; rau,draft,False,True,16,món ăn; rau; đồ ăn
+hsk1_017,茶,trà,draft,False,True,17,trà
+hsk1_018,唱,hát,draft,False,True,18,hát
+hsk1_019,超市,siêu thị,draft,False,True,19,siêu thị
+hsk1_020,车,xe,draft,False,True,20,xe; ô tô
+hsk1_021,吃,ăn,draft,False,True,21,ăn
+hsk1_022,出租车,taxi; xe taxi,draft,False,True,22,taxi
+hsk1_023,穿,mặc,draft,False,True,23,mặc; mặc vào
+hsk1_024,打电话,gọi điện thoại,draft,False,True,24,gọi điện thoại
+hsk1_025,大,"to, lớn",draft,False,True,25,to; lớn
+hsk1_026,大家,mọi người,draft,False,True,26,mọi người
+hsk1_027,大学,đại học; trường đại học,draft,False,True,27,đại học
+hsk1_028,大学生,sinh viên đại học,draft,False,True,28,sinh viên đại học
+hsk1_029,到,"đến, tới",draft,False,True,29,đến; tới
+hsk1_030,的,của; trợ từ kết cấu,draft,False,True,30,trợ từ kết cấu; của
+hsk1_031,第,"thứ, số thứ tự",draft,False,True,31,thứ; số thứ tự
+hsk1_032,弟弟,em trai,draft,False,True,32,em trai
+hsk1_033,点1,giờ; điểm; một chút,draft,False,True,33,giờ; điểm
+hsk1_034,店,cửa hàng,draft,False,True,34,cửa hàng; tiệm
+hsk1_035,电话,điện thoại,draft,False,True,35,điện thoại
+hsk1_036,电脑,máy tính,draft,False,True,36,máy tính
+hsk1_037,电视,tivi; truyền hình,draft,False,True,37,tivi; truyền hình
+hsk1_038,电影,phim; điện ảnh,draft,False,True,38,phim; điện ảnh
+hsk1_039,电影院,rạp chiếu phim,draft,False,True,39,rạp chiếu phim
+hsk1_040,东西,đồ vật; thứ,draft,False,True,40,đồ vật; đồ đạc
+hsk1_041,都,đều,draft,False,True,41,đều; tất cả
+hsk1_042,读,đọc,draft,False,True,42,đọc
+hsk1_043,读书,đọc sách; học,draft,False,True,43,đọc sách
+hsk1_044,对,đúng; đối với,draft,False,True,44,đối với; đúng
+hsk1_045,对不起,xin lỗi,draft,False,True,45,xin lỗi
+hsk1_046,多,nhiều; bao nhiêu,draft,False,True,46,nhiều; bao nhiêu
+hsk1_047,多少,bao nhiêu,draft,False,True,47,bao nhiêu
+hsk1_048,儿子,con trai,draft,False,True,48,con trai
+hsk1_049,二,hai,draft,False,True,49,hai
+hsk1_050,饭,cơm; bữa ăn,draft,False,True,50,cơm; bữa ăn
+hsk1_051,饭店,nhà hàng; khách sạn,draft,False,True,51,nhà hàng; quán ăn
+hsk1_052,房间,phòng,draft,False,True,52,phòng
+hsk1_053,非常,rất; vô cùng,draft,False,True,53,rất; vô cùng
+hsk1_054,飞机,máy bay,draft,False,True,54,máy bay
+hsk1_055,分,phút; phần,draft,False,True,55,phút; phần
+hsk1_056,分钟,phút,draft,False,True,56,phút
+hsk1_057,高兴,vui; vui mừng,draft,False,True,57,vui; vui vẻ
+hsk1_058,歌,bài hát,draft,False,True,58,bài hát
+hsk1_059,哥哥,anh trai,draft,False,True,59,anh trai
+hsk1_060,个,cái; người (lượng từ chung),draft,False,True,60,cái; chiếc (lượng từ)
+hsk1_061,给,cho; đưa,draft,False,True,61,cho; đưa; cấp
+hsk1_062,公司,công ty,draft,False,True,62,công ty
+hsk1_063,工作,công việc; làm việc,draft,False,True,63,làm việc; công việc
+hsk1_064,狗,chó,draft,False,True,64,chó
+hsk1_065,贵,đắt,draft,False,True,65,đắt
+hsk1_066,国,nước; quốc gia,draft,False,True,66,nước; quốc gia
+hsk1_067,还,vẫn; còn,draft,False,True,67,vẫn; còn
+hsk1_068,孩子,đứa trẻ; con,draft,False,True,68,trẻ em; con cái
+hsk1_069,汉语,tiếng Hán; tiếng Trung,draft,False,True,69,tiếng Hán; tiếng Trung
+hsk1_070,汉字,chữ Hán,draft,False,True,70,chữ Hán
+hsk1_071,好,tốt; khỏe; hay,draft,False,True,71,tốt; khỏe; được
+hsk1_072,好吃,ngon,draft,False,True,72,ngon
+hsk1_073,好看,đẹp; dễ xem,draft,False,True,73,đẹp; hay
+hsk1_074,好听,hay; dễ nghe,draft,False,True,74,hay; dễ nghe
+hsk1_075,好玩儿,vui; thú vị,draft,False,True,75,vui; thú vị
+hsk1_076,号,số; ngày (trong tháng),draft,False,True,76,số; ngày tháng
+hsk1_077,喝,uống,draft,False,True,77,uống
+hsk1_078,和1,và; với,draft,False,True,78,và; với
+hsk1_079,很,rất,draft,False,True,79,rất
+hsk1_080,后,sau; phía sau,draft,False,True,80,sau; phía sau
+hsk1_081,回,về; quay lại,draft,False,True,81,về; trở về
+hsk1_082,会1,biết; có thể,draft,False,True,82,biết; có thể
+hsk1_083,火车,tàu hỏa,draft,False,True,83,tàu hỏa
+hsk1_084,鸡蛋,trứng gà,draft,False,True,84,trứng gà
+hsk1_085,几,mấy; bao nhiêu,draft,False,True,85,mấy; vài
+hsk1_086,家,nhà; gia đình,draft,False,True,86,nhà; gia đình
+hsk1_087,家人,người nhà; thành viên gia đình,draft,False,True,87,người nhà; thành viên gia đình
+hsk1_088,见,gặp; thấy,draft,False,True,88,gặp; thấy
+hsk1_089,件,"lượng từ cho quần áo, sự việc",draft,False,True,89,cái; món; chiếc (lượng từ)
+hsk1_090,饺子,bánh chẻo; sủi cảo,draft,False,True,90,bánh chẻo
+hsk1_091,叫,gọi; tên là,draft,False,True,91,gọi; tên là
+hsk1_092,姐姐,chị gái,draft,False,True,92,chị gái
+hsk1_093,今年,năm nay,draft,False,True,93,năm nay
+hsk1_094,今天,hôm nay,draft,False,True,94,hôm nay
+hsk1_095,九,chín,draft,False,True,95,chín
+hsk1_096,觉得,cảm thấy; thấy rằng,draft,False,True,96,cảm thấy; cho rằng
+hsk1_097,开,mở; lái; bắt đầu,draft,False,True,97,mở; bắt đầu
+hsk1_098,开车,lái xe,draft,False,True,98,lái xe
+hsk1_099,看,xem; nhìn; đọc,draft,False,True,99,xem; nhìn
+hsk1_100,看病,khám bệnh,draft,False,True,100,khám bệnh
+hsk1_101,看见,nhìn thấy,draft,False,True,101,nhìn thấy
+hsk1_102,可以,có thể; được,draft,False,True,102,có thể; được phép
+hsk1_103,课,bài học; tiết học,draft,False,True,103,bài học; môn học
+hsk1_104,口,miệng; khẩu; hộ gia đình (lượng từ),draft,False,True,104,miệng; hộ
+hsk1_105,块,đồng; miếng; cục,draft,False,True,105,"lượng từ cho khối, cục"
+hsk1_106,来,đến,draft,False,True,106,đến; lại
+hsk1_107,老师,giáo viên; thầy cô,draft,False,True,107,giáo viên; thầy cô
+hsk1_108,了,rồi; trợ từ chỉ hoàn thành/thay đổi,draft,False,True,108,trợ từ chỉ sự hoàn thành/thay đổi
+hsk1_109,冷,lạnh,draft,False,True,109,lạnh
+hsk1_110,里,trong; bên trong,draft,False,True,110,trong; bên trong
+hsk1_111,两1,hai (dùng trước lượng từ),draft,False,True,111,hai (dùng trước lượng từ)
+hsk1_112,零,số không,draft,False,True,112,số không
+hsk1_113,六,sáu,draft,False,True,113,sáu
+hsk1_114,妈妈,mẹ,draft,False,True,114,mẹ; má
+hsk1_115,吗,à; không? (trợ từ nghi vấn),draft,False,True,115,trợ từ cuối câu dùng để hỏi
+hsk1_116,买,mua,draft,False,True,116,mua
+hsk1_117,卖,bán,draft,False,True,117,bán
+hsk1_118,忙,bận,draft,False,True,118,bận
+hsk1_119,猫,mèo,draft,False,True,119,mèo
+hsk1_120,没关系,không sao; không có gì,draft,False,True,120,không có gì; không sao
+hsk1_121,没事,không sao; không có chuyện gì,draft,False,True,121,không sao; không có việc gì
+hsk1_122,没有,không có; chưa,draft,False,True,122,không có; chưa có
+hsk1_123,妹妹,em gái,draft,False,True,123,em gái
+hsk1_124,们,hậu tố số nhiều,draft,False,True,124,hậu tố chỉ số nhiều
+hsk1_125,米饭,cơm,draft,False,True,125,cơm
+hsk1_126,面包,bánh mì,draft,False,True,126,bánh mì
+hsk1_127,面条儿,mì; mì sợi,draft,False,True,127,mì sợi
+hsk1_128,明年,năm sau,draft,False,True,128,năm sau
+hsk1_129,明天,ngày mai,draft,False,True,129,ngày mai
+hsk1_130,名字,tên,draft,False,True,130,tên
+hsk1_131,哪,nào; đâu,draft,False,True,131,nào
+hsk1_132,哪个,cái nào; người nào,draft,False,True,132,cái nào
+hsk1_133,哪里,ở đâu; nơi nào,draft,False,True,133,ở đâu
+hsk1_134,哪儿,ở đâu; chỗ nào,draft,False,True,134,đâu
+hsk1_135,哪些,những cái nào,draft,False,True,135,những cái nào
+hsk1_136,那,đó; kia,draft,False,True,136,kia; đó
+hsk1_137,那边,bên kia; phía đó,draft,False,True,137,bên kia; phía đó
+hsk1_138,那个,cái/người đó,draft,False,True,138,cái đó
+hsk1_139,那里,ở đó; nơi đó,draft,False,True,139,ở đó
+hsk1_140,那儿,ở đó; chỗ đó,draft,False,True,140,ở đằng kia
+hsk1_141,那些,những cái/người đó,draft,False,True,141,những cái đó
+hsk1_142,男,nam; giống đực,draft,False,True,142,nam; đàn ông
+hsk1_143,男朋友,bạn trai,draft,False,True,143,bạn trai
+hsk1_144,呢,thế; còn... thì sao (trợ từ),draft,False,True,144,trợ từ cuối câu
+hsk1_145,能,có thể; có khả năng,draft,False,True,145,có thể; có khả năng
+hsk1_146,你,bạn; anh/chị; cậu,draft,False,True,146,bạn; anh; chị; bạn (ngôi 2)
+hsk1_147,你好,xin chào,draft,False,True,147,xin chào
+hsk1_148,你们,các bạn; các anh/chị,draft,False,True,148,các bạn; các anh chị
+hsk1_149,年,năm,draft,False,True,149,năm
+hsk1_150,您,ngài; ông/bà; bạn (cách xưng hô lịch sự),draft,False,True,150,ngài; ông/bà (cách xưng hô lịch sự)
+hsk1_151,牛奶,sữa bò,draft,False,True,151,sữa
+hsk1_152,女,nữ; giống cái,draft,False,True,152,nữ; phụ nữ
+hsk1_153,女儿,con gái,draft,False,True,153,con gái
+hsk1_154,女朋友,bạn gái,draft,False,True,154,bạn gái
+hsk1_155,女士,quý bà; cô; bà,draft,False,True,155,quý bà; cô; bà
+hsk1_156,朋友,bạn; bạn bè,draft,False,True,156,bạn; bạn bè
+hsk1_157,便宜,rẻ,draft,False,True,157,rẻ
+hsk1_158,漂亮,đẹp; xinh,draft,False,True,158,đẹp
+hsk1_159,苹果,quả táo,draft,False,True,159,quả táo
+hsk1_160,七,bảy,draft,False,True,160,bảy
+hsk1_161,起床,thức dậy; rời giường,draft,False,True,161,thức dậy; ra khỏi giường
+hsk1_162,千,nghìn; một nghìn,draft,False,True,162,một nghìn
+hsk1_163,前,trước; phía trước,draft,False,True,163,phía trước; trước
+hsk1_164,钱,tiền,draft,False,True,164,tiền
+hsk1_165,请,mời; xin; vui lòng,draft,False,True,165,mời; xin; vui lòng
+hsk1_166,请问,xin hỏi; cho hỏi,draft,False,True,166,xin hỏi
+hsk1_167,去,đi,draft,False,True,167,đi
+hsk1_168,去年,năm ngoái,draft,False,True,168,năm ngoái
+hsk1_169,热,nóng,draft,False,True,169,nóng
+hsk1_170,人,người,draft,False,True,170,người
+hsk1_171,认识,quen; biết; nhận biết,draft,False,True,171,quen; biết
+hsk1_172,日,ngày; mặt trời,draft,False,True,172,ngày; ngày tháng
+hsk1_173,三,ba,draft,False,True,173,ba
+hsk1_174,商店,cửa hàng,draft,False,True,174,cửa hàng; cửa tiệm
+hsk1_175,上,trên; lên,draft,False,True,175,trên; lên
+hsk1_176,上班,đi làm; làm việc,draft,False,True,176,đi làm
+hsk1_177,上课,lên lớp; học,draft,False,True,177,đi học; lên lớp
+hsk1_178,上午,buổi sáng,draft,False,True,178,buổi sáng
+hsk1_179,上学,đi học,draft,False,True,179,đi học
+hsk1_180,少,ít; thiếu,draft,False,True,180,ít; thiếu
+hsk1_181,谁,ai,draft,False,True,181,ai
+hsk1_182,什么,cái gì; gì,draft,False,True,182,cái gì
+hsk1_183,生病,bị bệnh; mắc bệnh,draft,False,True,183,bị bệnh; mắc bệnh
+hsk1_184,十,mười,draft,False,True,184,mười
+hsk1_185,时候,lúc; thời gian,draft,False,True,185,lúc; khi
+hsk1_186,时间,thời gian,draft,False,True,186,thời gian
+hsk1_187,事,việc; chuyện,draft,False,True,187,việc; chuyện
+hsk1_188,是,là; đúng là,draft,False,True,188,là; thì
+hsk1_189,手机,điện thoại di động,draft,False,True,189,điện thoại di động
+hsk1_190,书,sách,draft,False,True,190,sách
+hsk1_191,书店,hiệu sách; nhà sách,draft,False,True,191,hiệu sách
+hsk1_192,水,nước,draft,False,True,192,nước
+hsk1_193,水果,trái cây,draft,False,True,193,trái cây
+hsk1_194,睡,ngủ,draft,False,True,194,ngủ
+hsk1_195,睡觉,đi ngủ; ngủ,draft,False,True,195,ngủ; đi ngủ
+hsk1_196,说,nói,draft,False,True,196,nói
+hsk1_197,说话,nói chuyện; nói,draft,False,True,197,nói chuyện
+hsk1_198,四,bốn,draft,False,True,198,bốn
+hsk1_199,岁,tuổi,draft,False,True,199,tuổi
+hsk1_200,他,anh ấy; ông ấy,draft,False,True,200,anh ấy; ông ấy
+hsk1_201,它,nó (đồ vật/động vật),draft,False,True,201,nó
+hsk1_202,她,cô ấy; chị ấy,draft,False,True,202,cô ấy; bà ấy
+hsk1_203,他们,họ; họ (nam/hỗn hợp),draft,False,True,203,họ; các anh ấy
+hsk1_204,它们,chúng; chúng nó,draft,False,True,204,chúng nó; chúng
+hsk1_205,她们,họ; họ (nữ),draft,False,True,205,họ; các cô ấy
+hsk1_206,太,quá; rất,draft,False,True,206,quá; rất
+hsk1_207,天,ngày; trời,draft,False,True,207,ngày; hôm
+hsk1_208,天气,thời tiết,draft,False,True,208,thời tiết
+hsk1_209,听,nghe,draft,False,True,209,nghe
+hsk1_210,听见,nghe thấy,draft,False,True,210,nghe thấy
+hsk1_211,同学,bạn học; học sinh cùng lớp,draft,False,True,211,bạn học; bạn cùng lớp
+hsk1_212,外,ngoài; bên ngoài,draft,False,True,212,bên ngoài
+hsk1_213,外边,bên ngoài,draft,False,True,213,bên ngoài
+hsk1_214,玩,chơi,draft,False,True,214,chơi
+hsk1_215,晚,muộn; tối,draft,False,True,215,muộn; tối
+hsk1_216,晚饭,bữa tối; cơm tối,draft,False,True,216,bữa tối
+hsk1_217,晚上,buổi tối; tối,draft,False,True,217,buổi tối
+hsk1_218,喂1,alo; này (khi nghe điện thoại),draft,False,True,218,a lô; này (gọi điện)
+hsk1_219,问,hỏi,draft,False,True,219,hỏi
+hsk1_220,问题,câu hỏi; vấn đề,draft,False,True,220,câu hỏi; vấn đề
+hsk1_221,我,tôi; mình,draft,False,True,221,tôi; mình
+hsk1_222,我们,chúng tôi; chúng ta,draft,False,True,222,chúng tôi; chúng ta
+hsk1_223,五,năm,draft,False,True,223,năm
+hsk1_224,午饭,bữa trưa; cơm trưa,draft,False,True,224,bữa trưa
+hsk1_225,喜欢,thích,draft,False,True,225,thích
+hsk1_226,下,xuống; dưới; tiếp theo,draft,False,True,226,dưới; xuống
+hsk1_227,下雨,mưa; trời mưa,draft,False,True,227,mưa
+hsk1_228,下班,tan làm,draft,False,True,228,tan làm
+hsk1_229,下课,tan học; hết giờ học,draft,False,True,229,tan học
+hsk1_230,下午,buổi chiều,draft,False,True,230,buổi chiều
+hsk1_231,先生,ông; ngài; anh (cách gọi lịch sự),draft,False,True,231,ông; ngài
+hsk1_232,现在,bây giờ; hiện tại,draft,False,True,232,bây giờ; hiện tại
+hsk1_233,想,muốn; nghĩ; nhớ,draft,False,True,233,muốn; nghĩ; muốn rằng
+hsk1_234,小,nhỏ; bé,draft,False,True,234,nhỏ; bé
+hsk1_235,小朋友,trẻ em; bạn nhỏ,draft,False,True,235,trẻ em; bạn nhỏ
+hsk1_236,小时,giờ; tiếng,draft,False,True,236,giờ; tiếng đồng hồ
+hsk1_237,小学,tiểu học; trường tiểu học,draft,False,True,237,tiểu học; trường tiểu học
+hsk1_238,小学生,học sinh tiểu học,draft,False,True,238,học sinh tiểu học
+hsk1_239,些,một số; một vài,draft,False,True,239,một vài; một số
+hsk1_240,写,viết,draft,False,True,240,viết
+hsk1_241,谢谢,cảm ơn,draft,False,True,241,cảm ơn
+hsk1_242,新,mới,draft,False,True,242,mới
+hsk1_243,星期,tuần; thứ,draft,False,True,243,tuần; thứ
+hsk1_244,星期日,Chủ nhật,draft,False,True,244,Chủ nhật
+hsk1_245,星期天,Chủ nhật,draft,False,True,245,Chủ nhật
+hsk1_246,休息,nghỉ ngơi; nghỉ,draft,False,True,246,nghỉ ngơi
+hsk1_247,学,học; học tập,draft,False,True,247,học
+hsk1_248,学生,học sinh; sinh viên,draft,False,True,248,học sinh; sinh viên
+hsk1_249,学习,học; học tập,draft,False,True,249,học; học tập
+hsk1_250,学校,trường học,draft,False,True,250,trường học
+hsk1_251,雪,tuyết,draft,False,True,251,tuyết
+hsk1_252,要,muốn; cần; sẽ,draft,False,True,252,muốn; cần; phải
+hsk1_253,也,cũng,draft,False,True,253,cũng
+hsk1_254,一,một,draft,False,True,254,một
+hsk1_255,衣服,quần áo,draft,False,True,255,quần áo
+hsk1_256,医生,bác sĩ,draft,False,True,256,bác sĩ
+hsk1_257,医院,bệnh viện,draft,False,True,257,bệnh viện
+hsk1_258,一半,một nửa,draft,False,True,258,một nửa
+hsk1_259,一下,một chút; một lát,draft,False,True,259,một chút; một lát
+hsk1_260,椅子,ghế,draft,False,True,260,cái ghế; ghế
+hsk1_261,一点儿,một chút; một ít,draft,False,True,261,một chút; một ít
+hsk1_262,一些,một ít; một số,draft,False,True,262,một số; một vài
+hsk1_263,有,có,draft,False,True,263,có; tồn tại
+hsk1_264,有的,có người/cái; một số,draft,False,True,264,có người/có cái
+hsk1_265,有点儿,hơi; có chút,draft,False,True,265,hơi; có chút
+hsk1_266,有些,một số; có chút,draft,False,True,266,một số; một vài
+hsk1_267,雨,mưa,draft,False,True,267,mưa
+hsk1_268,元,nhân dân tệ; đồng tệ,draft,False,True,268,đồng; nhân dân tệ
+hsk1_269,月,tháng; mặt trăng,draft,False,True,269,tháng
+hsk1_270,再,lại; thêm lần nữa,draft,False,True,270,lại; nữa
+hsk1_271,在,ở; tại; đang,draft,False,True,271,ở; tại; đang
+hsk1_272,再见,tạm biệt; hẹn gặp lại,draft,False,True,272,tạm biệt
+hsk1_273,早,sớm; chào buổi sáng,draft,False,True,273,sớm
+hsk1_274,早饭,bữa sáng; điểm tâm,draft,False,True,274,bữa sáng
+hsk1_275,早上,buổi sáng,draft,False,True,275,buổi sáng
+hsk1_276,怎么,thế nào; làm sao,draft,False,True,276,thế nào; làm sao
+hsk1_277,怎么样,thế nào; như thế nào,draft,False,True,277,thế nào; ra sao
+hsk1_278,找,tìm; tìm kiếm,draft,False,True,278,tìm
+hsk1_279,这,này; đây,draft,False,True,279,này; đây
+hsk1_280,这边,bên này; phía này,draft,False,True,280,bên này; phía này
+hsk1_281,这个,cái/người này,draft,False,True,281,cái này
+hsk1_282,这里,ở đây; nơi này,draft,False,True,282,ở đây
+hsk1_283,这儿,ở đây; chỗ này,draft,False,True,283,ở đây; chỗ này
+hsk1_284,这些,những cái/người này,draft,False,True,284,những cái này
+hsk1_285,真,thật; thực sự; rất,draft,False,True,285,thật; thực sự
+hsk1_286,正在,đang,draft,False,True,286,đang; ngay lúc
+hsk1_287,只,"con/cái (lượng từ cho một số động vật, vật); chỉ",draft,False,True,287,lượng từ cho con vật; một số đồ vật
+hsk1_288,知道,biết,draft,False,True,288,biết
+hsk1_289,中国,Trung Quốc,draft,False,True,289,Trung Quốc
+hsk1_290,中文,tiếng Trung; chữ Trung,draft,False,True,290,tiếng Trung; chữ Trung
+hsk1_291,中午,buổi trưa,draft,False,True,291,buổi trưa
+hsk1_292,中学,trung học; trường trung học,draft,False,True,292,trung học
+hsk1_293,中学生,học sinh trung học,draft,False,True,293,học sinh trung học
+hsk1_294,住,sống; ở; cư trú,draft,False,True,294,ở; sống; cư trú
+hsk1_295,桌子,bàn,draft,False,True,295,cái bàn
+hsk1_296,字,chữ; ký tự,draft,False,True,296,chữ; ký tự
+hsk1_297,昨天,hôm qua,draft,False,True,297,hôm qua
+hsk1_298,坐,ngồi; đi bằng (phương tiện),draft,False,True,298,ngồi
+hsk1_299,做,làm,draft,False,True,299,làm; thực hiện
+hsk1_300,做饭,nấu ăn; làm cơm,draft,False,True,300,nấu ăn; làm cơm

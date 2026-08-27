@@ -1,0 +1,65 @@
+{
+  "dataset": "D:\\Chinese_Thu_Man\\data\\hsk\\hsk1\\hsk1_vocabulary_with_meanings_draft.json",
+  "status": "PASS",
+  "recordCount": 300,
+  "summary": {
+    "missingPinyin": 0,
+    "invalidPinyin": 0,
+    "neutralOrUnmarkedToneCandidates": 6,
+    "duplicateNormalizedWords": 0
+  },
+  "errors": [],
+  "neutralOrUnmarkedToneCandidates": [
+    {
+      "id": "hsk1_004",
+      "word": "吧",
+      "pinyin": "ba",
+      "candidate": "ba",
+      "issue": "neutral_or_unmarked_tone"
+    },
+    {
+      "id": "hsk1_030",
+      "word": "的",
+      "pinyin": "de",
+      "candidate": "de",
+      "issue": "neutral_or_unmarked_tone"
+    },
+    {
+      "id": "hsk1_108",
+      "word": "了",
+      "pinyin": "le",
+      "candidate": "le",
+      "issue": "neutral_or_unmarked_tone"
+    },
+    {
+      "id": "hsk1_115",
+      "word": "吗",
+      "pinyin": "ma",
+      "candidate": "ma",
+      "issue": "neutral_or_unmarked_tone"
+    },
+    {
+      "id": "hsk1_124",
+      "word": "们",
+      "pinyin": "men",
+      "candidate": "men",
+      "issue": "neutral_or_unmarked_tone"
+    },
+    {
+      "id": "hsk1_144",
+      "word": "呢",
+      "pinyin": "ne",
+      "candidate": "ne",
+      "issue": "neutral_or_unmarked_tone"
+    }
+  ],
+  "duplicateNormalizedWords": [],
+  "notes": [
+    "Pinyin dataset was not modified.",
+    "Compound Pinyin without spaces is accepted.",
+    "Apostrophe-separated syllables such as nǚ'ér are accepted.",
+    "Curly apostrophe nǚ’ér is accepted as a source spelling variation.",
+    "Slash pronunciation alternatives such as shéi/shuí are accepted.",
+    "Neutral/unmarked tones are informational candidates only."
+  ]
+}
