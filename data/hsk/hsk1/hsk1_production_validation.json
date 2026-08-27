@@ -1,0 +1,12 @@
+{
+  "datasetName": "Chinese Thu Man HSK 1",
+  "validationType": "PRODUCTION_VALIDATION",
+  "status": "PASS",
+  "expectedRecordCount": 300,
+  "productionRecordCount": 300,
+  "errorCount": 0,
+  "warningCount": 0,
+  "errors": [],
+  "warnings": [],
+  "productionFile": "D:\\Chinese_Thu_Man\\data\\hsk\\hsk1\\hsk1_vocabulary_production.json"
+}

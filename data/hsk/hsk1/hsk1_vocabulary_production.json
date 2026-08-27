@@ -28,17 +28,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 1,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_002",
@@ -68,17 +60,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 2,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_003",
@@ -109,17 +93,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 3,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_004",
@@ -151,17 +127,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 4,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_005",
@@ -191,17 +159,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 5,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_006",
@@ -231,17 +191,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 6,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_007",
@@ -275,17 +227,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 7,
-      "sourceLevelName": "一级（四级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_008",
@@ -315,17 +259,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 8,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_009",
@@ -356,17 +292,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 9,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_010",
@@ -397,17 +325,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 10,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_011",
@@ -439,17 +359,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 11,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_012",
@@ -481,17 +393,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 12,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_013",
@@ -521,17 +425,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 13,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_014",
@@ -560,17 +456,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 14,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_015",
@@ -601,17 +489,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 15,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_016",
@@ -642,17 +522,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 16,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_017",
@@ -682,17 +554,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 17,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_018",
@@ -722,17 +586,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 18,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_019",
@@ -762,17 +618,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 19,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_020",
@@ -802,17 +650,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 20,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_021",
@@ -842,17 +682,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 21,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_022",
@@ -883,17 +715,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 22,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_023",
@@ -923,17 +747,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 23,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_024",
@@ -961,17 +777,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 24,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_025",
@@ -1002,17 +810,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 25,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_026",
@@ -1042,17 +842,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 26,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_027",
@@ -1083,17 +875,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 27,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_028",
@@ -1123,17 +907,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 28,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_029",
@@ -1164,17 +940,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 29,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_030",
@@ -1205,17 +973,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 30,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_031",
@@ -1246,17 +1006,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 31,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_032",
@@ -1286,17 +1038,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 32,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_033",
@@ -1331,17 +1075,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 33,
-      "sourceLevelName": "一级（三级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_034",
@@ -1371,17 +1107,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 34,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_035",
@@ -1411,17 +1139,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 35,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_036",
@@ -1451,17 +1171,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 36,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_037",
@@ -1492,17 +1204,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 37,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_038",
@@ -1533,17 +1237,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 38,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_039",
@@ -1573,17 +1269,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 39,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_040",
@@ -1614,17 +1302,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 40,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_041",
@@ -1654,17 +1334,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 41,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_042",
@@ -1694,17 +1366,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 42,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_043",
@@ -1735,17 +1399,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 43,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_044",
@@ -1781,17 +1437,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 44,
-      "sourceLevelName": "一级（四级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_045",
@@ -1821,17 +1469,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 45,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_046",
@@ -1868,17 +1508,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 46,
-      "sourceLevelName": "一级（二级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_047",
@@ -1908,17 +1540,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 47,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_048",
@@ -1948,17 +1572,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 48,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_049",
@@ -1988,17 +1604,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 49,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_050",
@@ -2029,17 +1637,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 50,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_051",
@@ -2070,17 +1670,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 51,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_052",
@@ -2110,17 +1702,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 52,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_053",
@@ -2151,17 +1735,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 53,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_054",
@@ -2191,17 +1767,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 54,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_055",
@@ -2236,17 +1804,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 55,
-      "sourceLevelName": "一级（三级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_056",
@@ -2276,17 +1836,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 56,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_057",
@@ -2317,17 +1869,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 57,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_058",
@@ -2357,17 +1901,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 58,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_059",
@@ -2397,17 +1933,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 59,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_060",
@@ -2438,17 +1966,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 60,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_061",
@@ -2482,17 +2002,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 61,
-      "sourceLevelName": "一级（二级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_062",
@@ -2522,17 +2034,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 62,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_063",
@@ -2564,17 +2068,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 63,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_064",
@@ -2604,17 +2100,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 64,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_065",
@@ -2644,17 +2132,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 65,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_066",
@@ -2685,17 +2165,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 66,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_067",
@@ -2726,17 +2198,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 67,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_068",
@@ -2767,17 +2231,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 68,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_069",
@@ -2808,17 +2264,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 69,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_070",
@@ -2848,17 +2296,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 70,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_071",
@@ -2895,17 +2335,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 71,
-      "sourceLevelName": "一级（二级）（四级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_072",
@@ -2935,17 +2367,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 72,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_073",
@@ -2976,17 +2400,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 73,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_074",
@@ -3017,17 +2433,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 74,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_075",
@@ -3058,17 +2466,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 75,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_076",
@@ -3100,17 +2500,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 76,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_077",
@@ -3140,17 +2532,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 77,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_078",
@@ -3182,17 +2566,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 78,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_079",
@@ -3222,17 +2598,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 79,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_080",
@@ -3263,17 +2631,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 80,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_081",
@@ -3307,17 +2667,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 81,
-      "sourceLevelName": "一级（三级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_082",
@@ -3348,17 +2700,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 82,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_083",
@@ -3388,17 +2732,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 83,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_084",
@@ -3428,17 +2764,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 84,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_085",
@@ -3470,17 +2798,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 85,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_086",
@@ -3515,17 +2835,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 86,
-      "sourceLevelName": "一级（三级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_087",
@@ -3556,17 +2868,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 87,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_088",
@@ -3597,17 +2901,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 88,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_089",
@@ -3638,17 +2934,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 89,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_090",
@@ -3679,17 +2967,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 90,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_091",
@@ -3723,17 +3003,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 91,
-      "sourceLevelName": "一级（四级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_092",
@@ -3763,17 +3035,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 92,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_093",
@@ -3803,17 +3067,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 93,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_094",
@@ -3843,17 +3099,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 94,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_095",
@@ -3883,17 +3131,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 95,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_096",
@@ -3924,17 +3164,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 96,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_097",
@@ -3966,17 +3198,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 97,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_098",
@@ -4006,17 +3230,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 98,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_099",
@@ -4048,17 +3264,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 99,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_100",
@@ -4088,17 +3296,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 100,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_101",
@@ -4128,17 +3328,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 101,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_102",
@@ -4170,17 +3362,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 102,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_103",
@@ -4211,17 +3395,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 103,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_104",
@@ -4254,17 +3430,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 104,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_105",
@@ -4296,17 +3464,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 105,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_106",
@@ -4336,17 +3496,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 106,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_107",
@@ -4377,17 +3529,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 107,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_108",
@@ -4418,17 +3562,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 108,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_109",
@@ -4458,17 +3594,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 109,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_110",
@@ -4499,17 +3627,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 110,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_111",
@@ -4539,17 +3659,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 111,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_112",
@@ -4579,17 +3691,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 112,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_113",
@@ -4619,17 +3723,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 113,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_114",
@@ -4659,17 +3755,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 114,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_115",
@@ -4700,17 +3788,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 115,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_116",
@@ -4740,17 +3820,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 116,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_117",
@@ -4780,17 +3852,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 117,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_118",
@@ -4821,17 +3885,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 118,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_119",
@@ -4861,17 +3917,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 119,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_120",
@@ -4900,17 +3948,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 120,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_121",
@@ -4941,17 +3981,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 121,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_122",
@@ -4983,17 +4015,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 122,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_123",
@@ -5023,17 +4047,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 123,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_124",
@@ -5063,17 +4079,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 124,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_125",
@@ -5103,17 +4111,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 125,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_126",
@@ -5143,17 +4143,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 126,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_127",
@@ -5184,17 +4176,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 127,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_128",
@@ -5224,17 +4208,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 128,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_129",
@@ -5264,17 +4240,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 129,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_130",
@@ -5304,17 +4272,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 130,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_131",
@@ -5345,17 +4305,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 131,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_132",
@@ -5386,17 +4338,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 132,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_133",
@@ -5427,17 +4371,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 133,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_134",
@@ -5468,17 +4404,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 134,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_135",
@@ -5508,17 +4436,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 135,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_136",
@@ -5552,17 +4472,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 136,
-      "sourceLevelName": "一级（二级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_137",
@@ -5593,17 +4505,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 137,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_138",
@@ -5633,17 +4537,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 138,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_139",
@@ -5674,17 +4570,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 139,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_140",
@@ -5715,17 +4603,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 140,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_141",
@@ -5755,17 +4635,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 141,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_142",
@@ -5796,17 +4668,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 142,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_143",
@@ -5836,17 +4700,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 143,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_144",
@@ -5877,17 +4733,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 144,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_145",
@@ -5918,17 +4766,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 145,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_146",
@@ -5960,17 +4800,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 146,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_147",
@@ -5998,17 +4830,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 147,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_148",
@@ -6039,17 +4863,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 148,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_149",
@@ -6080,17 +4896,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 149,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_150",
@@ -6122,17 +4930,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 150,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_151",
@@ -6162,17 +4962,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 151,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_152",
@@ -6203,17 +4995,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 152,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_153",
@@ -6243,17 +5027,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 153,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_154",
@@ -6283,17 +5059,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 154,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_155",
@@ -6325,17 +5093,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 155,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_156",
@@ -6366,17 +5126,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 156,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_157",
@@ -6406,17 +5158,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 157,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_158",
@@ -6447,17 +5191,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 158,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_159",
@@ -6487,17 +5223,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 159,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_160",
@@ -6527,17 +5255,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 160,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_161",
@@ -6568,17 +5288,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 161,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_162",
@@ -6609,17 +5321,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 162,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_163",
@@ -6650,17 +5354,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 163,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_164",
@@ -6690,17 +5386,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 164,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_165",
@@ -6732,17 +5420,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 165,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_166",
@@ -6773,17 +5453,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 166,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_167",
@@ -6813,17 +5485,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 167,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_168",
@@ -6853,17 +5517,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 168,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_169",
@@ -6893,17 +5549,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 169,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_170",
@@ -6933,17 +5581,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 170,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_171",
@@ -6975,17 +5615,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 171,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_172",
@@ -7019,17 +5651,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 172,
-      "sourceLevelName": "一级（四级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_173",
@@ -7059,17 +5683,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 173,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_174",
@@ -7099,17 +5715,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 174,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_175",
@@ -7141,17 +5749,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 175,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_176",
@@ -7182,17 +5782,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 176,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_177",
@@ -7223,17 +5815,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 177,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_178",
@@ -7263,17 +5847,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 178,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_179",
@@ -7303,17 +5879,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 179,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_180",
@@ -7345,17 +5913,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 180,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_181",
@@ -7385,17 +5945,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 181,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_182",
@@ -7426,17 +5978,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 182,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_183",
@@ -7467,17 +6011,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 183,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_184",
@@ -7507,17 +6043,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 184,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_185",
@@ -7548,17 +6076,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 185,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_186",
@@ -7588,17 +6108,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 186,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_187",
@@ -7629,17 +6141,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 187,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_188",
@@ -7670,17 +6174,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 188,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_189",
@@ -7710,17 +6206,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 189,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_190",
@@ -7750,17 +6238,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 190,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_191",
@@ -7791,17 +6271,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 191,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_192",
@@ -7831,17 +6303,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 192,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_193",
@@ -7871,17 +6335,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 193,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_194",
@@ -7911,17 +6367,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 194,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_195",
@@ -7952,17 +6400,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 195,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_196",
@@ -7992,17 +6432,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 196,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_197",
@@ -8033,17 +6465,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 197,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_198",
@@ -8073,17 +6497,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 198,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_199",
@@ -8113,17 +6529,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 199,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_200",
@@ -8154,17 +6562,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 200,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_201",
@@ -8194,17 +6594,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 201,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_202",
@@ -8235,17 +6627,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 202,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_203",
@@ -8276,17 +6660,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 203,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_204",
@@ -8317,17 +6693,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 204,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_205",
@@ -8358,17 +6726,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 205,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_206",
@@ -8399,17 +6759,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 206,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_207",
@@ -8441,17 +6793,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 207,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_208",
@@ -8481,17 +6825,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 208,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_209",
@@ -8521,17 +6857,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 209,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_210",
@@ -8561,17 +6889,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 210,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_211",
@@ -8602,17 +6922,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 211,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_212",
@@ -8643,17 +6955,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 212,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_213",
@@ -8683,17 +6987,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 213,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_214",
@@ -8723,17 +7019,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 214,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_215",
@@ -8764,17 +7052,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 215,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_216",
@@ -8805,17 +7085,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 216,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_217",
@@ -8846,17 +7118,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 217,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_218",
@@ -8887,17 +7151,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 218,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_219",
@@ -8927,17 +7183,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 219,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_220",
@@ -8968,17 +7216,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 220,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_221",
@@ -9009,17 +7249,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 221,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_222",
@@ -9050,17 +7282,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 222,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_223",
@@ -9090,17 +7314,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 223,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_224",
@@ -9131,17 +7347,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 224,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_225",
@@ -9171,17 +7379,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 225,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_226",
@@ -9215,17 +7415,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 226,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_227",
@@ -9254,17 +7446,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 227,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_228",
@@ -9294,17 +7478,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 228,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_229",
@@ -9335,17 +7511,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 229,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_230",
@@ -9375,17 +7543,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 230,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_231",
@@ -9417,17 +7577,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 231,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_232",
@@ -9458,17 +7610,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 232,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_233",
@@ -9500,17 +7644,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 233,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_234",
@@ -9542,17 +7678,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 234,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_235",
@@ -9583,17 +7711,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 235,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_236",
@@ -9624,17 +7744,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 236,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_237",
@@ -9665,17 +7777,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 237,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_238",
@@ -9705,17 +7809,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 238,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_239",
@@ -9746,17 +7842,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 239,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_240",
@@ -9786,17 +7874,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 240,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_241",
@@ -9826,17 +7906,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 241,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_242",
@@ -9866,17 +7938,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 242,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_243",
@@ -9907,17 +7971,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 243,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_244",
@@ -9947,17 +8003,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 244,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_245",
@@ -9987,17 +8035,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 245,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_246",
@@ -10028,17 +8068,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 246,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_247",
@@ -10069,17 +8101,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 247,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_248",
@@ -10110,17 +8134,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 248,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_249",
@@ -10151,17 +8167,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 249,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_250",
@@ -10191,17 +8199,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 250,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_251",
@@ -10231,17 +8231,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 251,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_252",
@@ -10273,17 +8265,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 252,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_253",
@@ -10313,17 +8297,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 253,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_254",
@@ -10353,17 +8329,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 254,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_255",
@@ -10393,17 +8361,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 255,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_256",
@@ -10433,17 +8393,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 256,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_257",
@@ -10473,17 +8425,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 257,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_258",
@@ -10513,17 +8457,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 258,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_259",
@@ -10557,17 +8493,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 259,
-      "sourceLevelName": "一级（四级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_260",
@@ -10597,17 +8525,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 260,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_261",
@@ -10638,17 +8558,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 261,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_262",
@@ -10679,17 +8591,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 262,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_263",
@@ -10719,17 +8623,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 263,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_264",
@@ -10760,17 +8656,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 264,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_265",
@@ -10801,17 +8689,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 265,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_266",
@@ -10845,17 +8725,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 266,
-      "sourceLevelName": "一级（三级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_267",
@@ -10885,17 +8757,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 267,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_268",
@@ -10926,17 +8790,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 268,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_269",
@@ -10967,17 +8823,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 269,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_270",
@@ -11008,17 +8856,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 270,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_271",
@@ -11052,17 +8892,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 271,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_272",
@@ -11093,17 +8925,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 272,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_273",
@@ -11134,17 +8958,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 273,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_274",
@@ -11175,17 +8991,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 274,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_275",
@@ -11215,17 +9023,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 275,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_276",
@@ -11256,17 +9056,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 276,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_277",
@@ -11297,17 +9089,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 277,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_278",
@@ -11338,17 +9122,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 278,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_279",
@@ -11379,17 +9155,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 279,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_280",
@@ -11420,17 +9188,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 280,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_281",
@@ -11460,17 +9220,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 281,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_282",
@@ -11501,17 +9253,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 282,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_283",
@@ -11542,17 +9286,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 283,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_284",
@@ -11582,17 +9318,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 284,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_285",
@@ -11627,17 +9355,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 285,
-      "sourceLevelName": "一级（四级）"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_286",
@@ -11667,17 +9387,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 286,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_287",
@@ -11709,17 +9421,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 287,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_288",
@@ -11749,17 +9453,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 288,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_289",
@@ -11789,17 +9485,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 289,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_290",
@@ -11830,17 +9518,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 290,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_291",
@@ -11870,17 +9550,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 291,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_292",
@@ -11911,17 +9583,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 292,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_293",
@@ -11951,17 +9615,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 293,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_294",
@@ -11993,17 +9649,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 294,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_295",
@@ -12033,17 +9681,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 295,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_296",
@@ -12074,17 +9714,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 296,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_297",
@@ -12114,17 +9746,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 297,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_298",
@@ -12155,17 +9779,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 298,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_299",
@@ -12195,17 +9811,9 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 299,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   },
   {
     "id": "hsk1_300",
@@ -12234,16 +9842,8 @@
       "wordUrl": null,
       "exampleUrl": null
     },
-    "_source": {
-      "sourceId": "profesorm/hsk30",
-      "sourceFile": "data/hsk_vocabulary.csv",
-      "sourceSort": 300,
-      "sourceLevelName": "一级"
-    },
     "contentStatus": "draft",
-    "reviewed": true,
     "reviewRequired": true,
-    "reviewStatus": "reviewed",
-    "reviewNotes": ""
+    "reviewStatus": "reviewed"
   }
 ]

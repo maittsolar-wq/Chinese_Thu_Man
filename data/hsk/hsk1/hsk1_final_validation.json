@@ -1,0 +1,24 @@
+{
+  "datasetName": "Chinese Thu Man HSK 1",
+  "validationType": "FINAL_DATA_VALIDATION",
+  "status": "PASS",
+  "expectedRecordCount": 300,
+  "baseRecordCount": 300,
+  "reviewedRecordCount": 300,
+  "unreviewedRecordCount": 0,
+  "errorCount": 0,
+  "warningCount": 9,
+  "errors": [],
+  "warnings": [
+    "hsk1_089: Pinyin trùng với hsk1_088 ('jiàn'); có thể hợp lệ.",
+    "hsk1_164: Pinyin trùng với hsk1_163 ('qián'); có thể hợp lệ.",
+    "hsk1_188: Pinyin trùng với hsk1_187 ('shì'); có thể hợp lệ.",
+    "hsk1_201: Pinyin trùng với hsk1_200 ('tā'); có thể hợp lệ.",
+    "hsk1_202: Pinyin trùng với hsk1_200 ('tā'); có thể hợp lệ.",
+    "hsk1_204: Pinyin trùng với hsk1_203 ('tāmen'); có thể hợp lệ.",
+    "hsk1_205: Pinyin trùng với hsk1_203 ('tāmen'); có thể hợp lệ.",
+    "hsk1_271: Pinyin trùng với hsk1_270 ('zài'); có thể hợp lệ.",
+    "hsk1_299: Pinyin trùng với hsk1_298 ('zuò'); có thể hợp lệ."
+  ],
+  "productionCreated": false
+}

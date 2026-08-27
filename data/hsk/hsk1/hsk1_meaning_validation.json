@@ -1,13 +1,11 @@
 {
   "dataset": "D:\\Chinese_Thu_Man\\data\\hsk\\hsk1\\hsk1_vocabulary_reviewed.json",
-  "status": "PASS_READY_FOR_CONTINUED_REVIEW",
+  "status": "PASS_READY_FOR_FINAL_VALIDATION",
   "recordCount": 300,
-  "reviewed": 48,
-  "unreviewed": 252,
+  "reviewed": 300,
+  "unreviewed": 0,
   "errors": [],
-  "warnings": [
-    "Chưa đủ review: 48/300 records đã reviewed."
-  ],
+  "warnings": [],
   "notes": [
     "Validator reads hsk1_vocabulary_reviewed.json, not the old draft file.",
     "Word and Pinyin are compared against the canonical normalized base.",
