@@ -1,0 +1,6709 @@
+[
+  {
+    "id": "hsk2_001",
+    "word": "啊",
+    "sourceWord": "啊",
+    "pinyin": "a",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "助",
+    "partOfSpeech": [
+      "助"
+    ],
+    "sourceSort": 301,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 301,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_002",
+    "word": "爱好",
+    "sourceWord": "爱好",
+    "pinyin": "àihào",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动、名",
+    "partOfSpeech": [
+      "动",
+      "名"
+    ],
+    "sourceSort": 302,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 302,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_003",
+    "word": "白色",
+    "sourceWord": "白色",
+    "pinyin": "báisè",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 303,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 303,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_004",
+    "word": "班",
+    "sourceWord": "班",
+    "pinyin": "bān",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      5
+    ],
+    "partOfSpeechSource": "名、（量）",
+    "partOfSpeech": [
+      "名",
+      "（量）"
+    ],
+    "sourceSort": 304,
+    "sourceLevelName": "二级（五级）",
+    "sourceAdditionalLevels": [
+      "五级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 304,
+      "sourceLevelName": "二级（五级）"
+    }
+  },
+  {
+    "id": "hsk2_005",
+    "word": "帮",
+    "sourceWord": "帮",
+    "pinyin": "bāng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 305,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 305,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_006",
+    "word": "帮忙",
+    "sourceWord": "帮忙",
+    "pinyin": "bāngmáng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 306,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 306,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_007",
+    "word": "包",
+    "sourceWord": "包",
+    "pinyin": "bāo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动、名、量",
+    "partOfSpeech": [
+      "动",
+      "名",
+      "量"
+    ],
+    "sourceSort": 307,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 307,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_008",
+    "word": "本子",
+    "sourceWord": "本子",
+    "pinyin": "běnzi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 308,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 308,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_009",
+    "word": "比",
+    "sourceWord": "比",
+    "pinyin": "bǐ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动、介",
+    "partOfSpeech": [
+      "动",
+      "介"
+    ],
+    "sourceSort": 309,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 309,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_010",
+    "word": "笔",
+    "sourceWord": "笔",
+    "pinyin": "bǐ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      5
+    ],
+    "partOfSpeechSource": "名、（量）",
+    "partOfSpeech": [
+      "名",
+      "（量）"
+    ],
+    "sourceSort": 310,
+    "sourceLevelName": "二级（五级）",
+    "sourceAdditionalLevels": [
+      "五级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 310,
+      "sourceLevelName": "二级（五级）"
+    }
+  },
+  {
+    "id": "hsk2_011",
+    "word": "别",
+    "sourceWord": "别1",
+    "pinyin": "bié",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "副",
+    "partOfSpeech": [
+      "副"
+    ],
+    "sourceSort": 311,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 311,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_012",
+    "word": "不错",
+    "sourceWord": "不错",
+    "pinyin": "búcuò",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 312,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 312,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_013",
+    "word": "不好意思",
+    "sourceWord": "不好意思",
+    "pinyin": "bù hǎoyìsi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "",
+    "partOfSpeech": [],
+    "sourceSort": 313,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 313,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_014",
+    "word": "长",
+    "sourceWord": "长",
+    "pinyin": "cháng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 314,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 314,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_015",
+    "word": "车站",
+    "sourceWord": "车站",
+    "pinyin": "chēzhàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 315,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 315,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_016",
+    "word": "出",
+    "sourceWord": "出",
+    "pinyin": "chū",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 316,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 316,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_017",
+    "word": "出国",
+    "sourceWord": "出国",
+    "pinyin": "chūguó",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 317,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 317,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_018",
+    "word": "出来",
+    "sourceWord": "出来",
+    "pinyin": "chūlái",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 318,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 318,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_019",
+    "word": "出门",
+    "sourceWord": "出门",
+    "pinyin": "chūmén",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 319,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 319,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_020",
+    "word": "出去",
+    "sourceWord": "出去",
+    "pinyin": "chūqù",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 320,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 320,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_021",
+    "word": "床",
+    "sourceWord": "床",
+    "pinyin": "chuáng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 321,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 321,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_022",
+    "word": "词",
+    "sourceWord": "词",
+    "pinyin": "cí",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 322,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 322,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_023",
+    "word": "次",
+    "sourceWord": "次",
+    "pinyin": "cì",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      7
+    ],
+    "partOfSpeechSource": "量、（形）",
+    "partOfSpeech": [
+      "量",
+      "（形）"
+    ],
+    "sourceSort": 323,
+    "sourceLevelName": "二级（七-九级）",
+    "sourceAdditionalLevels": [
+      "七-九级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 323,
+      "sourceLevelName": "二级（七-九级）"
+    }
+  },
+  {
+    "id": "hsk2_024",
+    "word": "从",
+    "sourceWord": "从",
+    "pinyin": "cóng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      4
+    ],
+    "partOfSpeechSource": "介、（副）",
+    "partOfSpeech": [
+      "介",
+      "（副）"
+    ],
+    "sourceSort": 324,
+    "sourceLevelName": "二级（四级）",
+    "sourceAdditionalLevels": [
+      "四级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 324,
+      "sourceLevelName": "二级（四级）"
+    }
+  },
+  {
+    "id": "hsk2_025",
+    "word": "从小",
+    "sourceWord": "从小",
+    "pinyin": "cóngxiǎo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "副",
+    "partOfSpeech": [
+      "副"
+    ],
+    "sourceSort": 325,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 325,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_026",
+    "word": "错",
+    "sourceWord": "错",
+    "pinyin": "cuò",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 326,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 326,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_027",
+    "word": "打",
+    "sourceWord": "打1",
+    "pinyin": "dǎ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 327,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 327,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_028",
+    "word": "打车",
+    "sourceWord": "打车",
+    "pinyin": "dǎchē",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 328,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 328,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_029",
+    "word": "打开",
+    "sourceWord": "打开",
+    "pinyin": "dǎkāi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 329,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 329,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_030",
+    "word": "但",
+    "sourceWord": "但",
+    "pinyin": "dàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      7
+    ],
+    "partOfSpeechSource": "连、（副）",
+    "partOfSpeech": [
+      "连",
+      "（副）"
+    ],
+    "sourceSort": 330,
+    "sourceLevelName": "二级（七-九级）",
+    "sourceAdditionalLevels": [
+      "七-九级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 330,
+      "sourceLevelName": "二级（七-九级）"
+    }
+  },
+  {
+    "id": "hsk2_031",
+    "word": "但是",
+    "sourceWord": "但是",
+    "pinyin": "dànshì",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "连",
+    "partOfSpeech": [
+      "连"
+    ],
+    "sourceSort": 331,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 331,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_032",
+    "word": "得",
+    "sourceWord": "得",
+    "pinyin": "de",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "助",
+    "partOfSpeech": [
+      "助"
+    ],
+    "sourceSort": 332,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 332,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_033",
+    "word": "地",
+    "sourceWord": "地",
+    "pinyin": "de",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "助",
+    "partOfSpeech": [
+      "助"
+    ],
+    "sourceSort": 333,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 333,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_034",
+    "word": "等",
+    "sourceWord": "等1",
+    "pinyin": "děng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      4
+    ],
+    "partOfSpeechSource": "动、（介）",
+    "partOfSpeech": [
+      "动",
+      "（介）"
+    ],
+    "sourceSort": 334,
+    "sourceLevelName": "二级（四级）",
+    "sourceAdditionalLevels": [
+      "四级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 334,
+      "sourceLevelName": "二级（四级）"
+    }
+  },
+  {
+    "id": "hsk2_035",
+    "word": "地铁",
+    "sourceWord": "地铁",
+    "pinyin": "dìtiě",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 335,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 335,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_036",
+    "word": "点",
+    "sourceWord": "点2",
+    "pinyin": "diǎn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      4
+    ],
+    "partOfSpeechSource": "动、（名、量）",
+    "partOfSpeech": [
+      "动",
+      "（名",
+      "量）"
+    ],
+    "sourceSort": 336,
+    "sourceLevelName": "二级（四级）",
+    "sourceAdditionalLevels": [
+      "四级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 336,
+      "sourceLevelName": "二级（四级）"
+    }
+  },
+  {
+    "id": "hsk2_037",
+    "word": "懂",
+    "sourceWord": "懂",
+    "pinyin": "dǒng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 337,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 337,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_038",
+    "word": "动",
+    "sourceWord": "动",
+    "pinyin": "dòng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 338,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 338,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_039",
+    "word": "饭馆",
+    "sourceWord": "饭馆",
+    "pinyin": "fànguǎn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 339,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 339,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_040",
+    "word": "飞",
+    "sourceWord": "飞",
+    "pinyin": "fēi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 340,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 340,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_041",
+    "word": "高",
+    "sourceWord": "高",
+    "pinyin": "gāo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形、名",
+    "partOfSpeech": [
+      "形",
+      "名"
+    ],
+    "sourceSort": 341,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 341,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_042",
+    "word": "高中",
+    "sourceWord": "高中",
+    "pinyin": "gāozhōng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 342,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 342,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_043",
+    "word": "告诉",
+    "sourceWord": "告诉",
+    "pinyin": "gàosu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 343,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 343,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_044",
+    "word": "个子",
+    "sourceWord": "个子",
+    "pinyin": "gèzi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 344,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 344,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_045",
+    "word": "跟",
+    "sourceWord": "跟",
+    "pinyin": "gēn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      5
+    ],
+    "partOfSpeechSource": "介、连、（名、动）",
+    "partOfSpeech": [
+      "介",
+      "连",
+      "（名",
+      "动）"
+    ],
+    "sourceSort": 345,
+    "sourceLevelName": "二级（五级）",
+    "sourceAdditionalLevels": [
+      "五级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 345,
+      "sourceLevelName": "二级（五级）"
+    }
+  },
+  {
+    "id": "hsk2_046",
+    "word": "公交车",
+    "sourceWord": "公交车",
+    "pinyin": "gōngjiāochē",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 346,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 346,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_047",
+    "word": "过",
+    "sourceWord": "过",
+    "pinyin": "guò",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 347,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 347,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_048",
+    "word": "过来",
+    "sourceWord": "过来",
+    "pinyin": "guòlái",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 348,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 348,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_049",
+    "word": "过年",
+    "sourceWord": "过年",
+    "pinyin": "guònián",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 349,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 349,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_050",
+    "word": "过去",
+    "sourceWord": "过去1",
+    "pinyin": "guòqù",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 350,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 350,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_051",
+    "word": "过",
+    "sourceWord": "过",
+    "pinyin": "guo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "助",
+    "partOfSpeech": [
+      "助"
+    ],
+    "sourceSort": 351,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 351,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_052",
+    "word": "还是",
+    "sourceWord": "还是",
+    "pinyin": "háishi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "副、连",
+    "partOfSpeech": [
+      "副",
+      "连"
+    ],
+    "sourceSort": 352,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 352,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_053",
+    "word": "黑色",
+    "sourceWord": "黑色",
+    "pinyin": "hēisè",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 353,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 353,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_054",
+    "word": "红茶",
+    "sourceWord": "红茶",
+    "pinyin": "hóngchá",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 354,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 354,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_055",
+    "word": "红色",
+    "sourceWord": "红色",
+    "pinyin": "hóngsè",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 355,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 355,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_056",
+    "word": "后面",
+    "sourceWord": "后面",
+    "pinyin": "hòumiàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 356,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 356,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_057",
+    "word": "花",
+    "sourceWord": "花1",
+    "pinyin": "huā",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 357,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 357,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_058",
+    "word": "花",
+    "sourceWord": "花2",
+    "pinyin": "huā",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      6
+    ],
+    "partOfSpeechSource": "名、（形）",
+    "partOfSpeech": [
+      "名",
+      "（形）"
+    ],
+    "sourceSort": 358,
+    "sourceLevelName": "二级（六级）",
+    "sourceAdditionalLevels": [
+      "六级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 358,
+      "sourceLevelName": "二级（六级）"
+    }
+  },
+  {
+    "id": "hsk2_059",
+    "word": "画",
+    "sourceWord": "画",
+    "pinyin": "huà",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动、名",
+    "partOfSpeech": [
+      "动",
+      "名"
+    ],
+    "sourceSort": 359,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 359,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_060",
+    "word": "坏",
+    "sourceWord": "坏",
+    "pinyin": "huài",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 360,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 360,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_061",
+    "word": "回来",
+    "sourceWord": "回来",
+    "pinyin": "huílái",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 361,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 361,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_062",
+    "word": "回去",
+    "sourceWord": "回去",
+    "pinyin": "huíqù",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 362,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 362,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_063",
+    "word": "机场",
+    "sourceWord": "机场",
+    "pinyin": "jīchǎng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 363,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 363,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_064",
+    "word": "机票",
+    "sourceWord": "机票",
+    "pinyin": "jīpiào",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 364,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 364,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_065",
+    "word": "记得",
+    "sourceWord": "记得",
+    "pinyin": "jìde",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 365,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 365,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_066",
+    "word": "间",
+    "sourceWord": "间",
+    "pinyin": "jiān",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      4
+    ],
+    "partOfSpeechSource": "量、（名）",
+    "partOfSpeech": [
+      "量",
+      "（名）"
+    ],
+    "sourceSort": 366,
+    "sourceLevelName": "二级（四级）",
+    "sourceAdditionalLevels": [
+      "四级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 366,
+      "sourceLevelName": "二级（四级）"
+    }
+  },
+  {
+    "id": "hsk2_067",
+    "word": "教",
+    "sourceWord": "教",
+    "pinyin": "jiāo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 367,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 367,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_068",
+    "word": "教室",
+    "sourceWord": "教室",
+    "pinyin": "jiàoshì",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 368,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 368,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_069",
+    "word": "介绍",
+    "sourceWord": "介绍",
+    "pinyin": "jièshào",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 369,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 369,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_070",
+    "word": "进",
+    "sourceWord": "进",
+    "pinyin": "jìn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 370,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 370,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_071",
+    "word": "近",
+    "sourceWord": "近",
+    "pinyin": "jìn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 371,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 371,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_072",
+    "word": "进来",
+    "sourceWord": "进来",
+    "pinyin": "jìnlái",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 372,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 372,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_073",
+    "word": "进去",
+    "sourceWord": "进去",
+    "pinyin": "jìnqù",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 373,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 373,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_074",
+    "word": "经常",
+    "sourceWord": "经常",
+    "pinyin": "jīngcháng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "副",
+    "partOfSpeech": [
+      "副"
+    ],
+    "sourceSort": 374,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 374,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_075",
+    "word": "酒店",
+    "sourceWord": "酒店",
+    "pinyin": "jiǔdiàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 375,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 375,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_076",
+    "word": "就",
+    "sourceWord": "就",
+    "pinyin": "jiù",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      7
+    ],
+    "partOfSpeechSource": "副、（介）",
+    "partOfSpeech": [
+      "副",
+      "（介）"
+    ],
+    "sourceSort": 376,
+    "sourceLevelName": "二级（七-九级）",
+    "sourceAdditionalLevels": [
+      "七-九级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 376,
+      "sourceLevelName": "二级（七-九级）"
+    }
+  },
+  {
+    "id": "hsk2_077",
+    "word": "咖啡",
+    "sourceWord": "咖啡",
+    "pinyin": "kāfēi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 377,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 377,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_078",
+    "word": "开始",
+    "sourceWord": "开始",
+    "pinyin": "kāishǐ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动、名",
+    "partOfSpeech": [
+      "动",
+      "名"
+    ],
+    "sourceSort": 378,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 378,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_079",
+    "word": "开学",
+    "sourceWord": "开学",
+    "pinyin": "kāixué",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 379,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 379,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_080",
+    "word": "考",
+    "sourceWord": "考",
+    "pinyin": "kǎo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 380,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 380,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_081",
+    "word": "考试",
+    "sourceWord": "考试",
+    "pinyin": "kǎoshì",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动、名",
+    "partOfSpeech": [
+      "动",
+      "名"
+    ],
+    "sourceSort": 381,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 381,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_082",
+    "word": "可能",
+    "sourceWord": "可能",
+    "pinyin": "kěnéng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形、名、动",
+    "partOfSpeech": [
+      "形",
+      "名",
+      "动"
+    ],
+    "sourceSort": 382,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 382,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_083",
+    "word": "裤子",
+    "sourceWord": "裤子",
+    "pinyin": "kùzi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 383,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 383,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_084",
+    "word": "快",
+    "sourceWord": "快",
+    "pinyin": "kuài",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形、副",
+    "partOfSpeech": [
+      "形",
+      "副"
+    ],
+    "sourceSort": 384,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 384,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_085",
+    "word": "快乐",
+    "sourceWord": "快乐",
+    "pinyin": "kuàilè",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 385,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 385,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_086",
+    "word": "快要",
+    "sourceWord": "快要",
+    "pinyin": "kuàiyào",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "副",
+    "partOfSpeech": [
+      "副"
+    ],
+    "sourceSort": 386,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 386,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_087",
+    "word": "篮球",
+    "sourceWord": "篮球",
+    "pinyin": "lánqiú",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 387,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 387,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_088",
+    "word": "累",
+    "sourceWord": "累",
+    "pinyin": "lèi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形、动",
+    "partOfSpeech": [
+      "形",
+      "动"
+    ],
+    "sourceSort": 388,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 388,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_089",
+    "word": "离",
+    "sourceWord": "离",
+    "pinyin": "lí",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 389,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 389,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_090",
+    "word": "里面",
+    "sourceWord": "里面",
+    "pinyin": "lǐmiàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 390,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 390,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_091",
+    "word": "楼",
+    "sourceWord": "楼",
+    "pinyin": "lóu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 391,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 391,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_092",
+    "word": "路",
+    "sourceWord": "路",
+    "pinyin": "lù",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 392,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 392,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_093",
+    "word": "路上",
+    "sourceWord": "路上",
+    "pinyin": "lùshang",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 393,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 393,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_094",
+    "word": "旅游",
+    "sourceWord": "旅游",
+    "pinyin": "lǚyóu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 394,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 394,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_095",
+    "word": "绿茶",
+    "sourceWord": "绿茶",
+    "pinyin": "lǜchá",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 395,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 395,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_096",
+    "word": "绿色",
+    "sourceWord": "绿色",
+    "pinyin": "lǜsè",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      4
+    ],
+    "partOfSpeechSource": "名、（形）",
+    "partOfSpeech": [
+      "名",
+      "（形）"
+    ],
+    "sourceSort": 396,
+    "sourceLevelName": "二级（四级）",
+    "sourceAdditionalLevels": [
+      "四级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 396,
+      "sourceLevelName": "二级（四级）"
+    }
+  },
+  {
+    "id": "hsk2_097",
+    "word": "慢",
+    "sourceWord": "慢",
+    "pinyin": "màn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 397,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 397,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_098",
+    "word": "没意思",
+    "sourceWord": "没意思",
+    "pinyin": "méi yìsi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "",
+    "partOfSpeech": [],
+    "sourceSort": 398,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 398,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_099",
+    "word": "每",
+    "sourceWord": "每",
+    "pinyin": "měi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      4
+    ],
+    "partOfSpeechSource": "代、（副）",
+    "partOfSpeech": [
+      "代",
+      "（副）"
+    ],
+    "sourceSort": 399,
+    "sourceLevelName": "二级（四级）",
+    "sourceAdditionalLevels": [
+      "四级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 399,
+      "sourceLevelName": "二级（四级）"
+    }
+  },
+  {
+    "id": "hsk2_100",
+    "word": "门",
+    "sourceWord": "门",
+    "pinyin": "mén",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 400,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 400,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_101",
+    "word": "门口",
+    "sourceWord": "门口",
+    "pinyin": "ménkǒu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 401,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 401,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_102",
+    "word": "门票",
+    "sourceWord": "门票",
+    "pinyin": "ménpiào",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 402,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 402,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_103",
+    "word": "面",
+    "sourceWord": "面1",
+    "pinyin": "miàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      5
+    ],
+    "partOfSpeechSource": "后缀、（动、名、量）",
+    "partOfSpeech": [
+      "后缀",
+      "（动",
+      "名",
+      "量）"
+    ],
+    "sourceSort": 403,
+    "sourceLevelName": "二级（五级）",
+    "sourceAdditionalLevels": [
+      "五级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 403,
+      "sourceLevelName": "二级（五级）"
+    }
+  },
+  {
+    "id": "hsk2_104",
+    "word": "名",
+    "sourceWord": "名",
+    "pinyin": "míng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名、量",
+    "partOfSpeech": [
+      "名",
+      "量"
+    ],
+    "sourceSort": 404,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 404,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_105",
+    "word": "拿",
+    "sourceWord": "拿",
+    "pinyin": "ná",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 405,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 405,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_106",
+    "word": "那么",
+    "sourceWord": "那么",
+    "pinyin": "nàme",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "代、连",
+    "partOfSpeech": [
+      "代",
+      "连"
+    ],
+    "sourceSort": 406,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 406,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_107",
+    "word": "那样",
+    "sourceWord": "那样",
+    "pinyin": "nàyàng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "代",
+    "partOfSpeech": [
+      "代"
+    ],
+    "sourceSort": 407,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 407,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_108",
+    "word": "奶茶",
+    "sourceWord": "奶茶",
+    "pinyin": "nǎichá",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 408,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 408,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_109",
+    "word": "奶奶",
+    "sourceWord": "奶奶",
+    "pinyin": "nǎinai",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 409,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 409,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_110",
+    "word": "男孩儿",
+    "sourceWord": "男孩儿",
+    "pinyin": "nánháir",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 410,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 410,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_111",
+    "word": "鸟",
+    "sourceWord": "鸟",
+    "pinyin": "niǎo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 411,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 411,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_112",
+    "word": "女孩儿",
+    "sourceWord": "女孩儿",
+    "pinyin": "nǚháir",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 412,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 412,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_113",
+    "word": "旁边",
+    "sourceWord": "旁边",
+    "pinyin": "pángbiān",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 413,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 413,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_114",
+    "word": "跑",
+    "sourceWord": "跑",
+    "pinyin": "pǎo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 414,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 414,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_115",
+    "word": "跑步",
+    "sourceWord": "跑步",
+    "pinyin": "pǎobù",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 415,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 415,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_116",
+    "word": "票",
+    "sourceWord": "票",
+    "pinyin": "piào",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 416,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 416,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_117",
+    "word": "妻子",
+    "sourceWord": "妻子",
+    "pinyin": "qīzi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 417,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 417,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_118",
+    "word": "起来",
+    "sourceWord": "起来",
+    "pinyin": "qǐlái",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 418,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 418,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_119",
+    "word": "前面",
+    "sourceWord": "前面",
+    "pinyin": "qiánmiàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 419,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 419,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_120",
+    "word": "晴",
+    "sourceWord": "晴",
+    "pinyin": "qíng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 420,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 420,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_121",
+    "word": "球",
+    "sourceWord": "球",
+    "pinyin": "qiú",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 421,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 421,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_122",
+    "word": "让",
+    "sourceWord": "让",
+    "pinyin": "ràng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      4
+    ],
+    "partOfSpeechSource": "动、（介）",
+    "partOfSpeech": [
+      "动",
+      "（介）"
+    ],
+    "sourceSort": 422,
+    "sourceLevelName": "二级（四级）",
+    "sourceAdditionalLevels": [
+      "四级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 422,
+      "sourceLevelName": "二级（四级）"
+    }
+  },
+  {
+    "id": "hsk2_123",
+    "word": "肉",
+    "sourceWord": "肉",
+    "pinyin": "ròu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 423,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 423,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_124",
+    "word": "商场",
+    "sourceWord": "商场",
+    "pinyin": "shāngchǎng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 424,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 424,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_125",
+    "word": "上来",
+    "sourceWord": "上来",
+    "pinyin": "shànglái",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 425,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 425,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_126",
+    "word": "上面",
+    "sourceWord": "上面",
+    "pinyin": "shàngmiàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 426,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 426,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_127",
+    "word": "上去",
+    "sourceWord": "上去",
+    "pinyin": "shàngqù",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 427,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 427,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_128",
+    "word": "上网",
+    "sourceWord": "上网",
+    "pinyin": "shàngwǎng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 428,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 428,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_129",
+    "word": "身体",
+    "sourceWord": "身体",
+    "pinyin": "shēntǐ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 429,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 429,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_130",
+    "word": "生日",
+    "sourceWord": "生日",
+    "pinyin": "shēngrì",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 430,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 430,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_131",
+    "word": "时",
+    "sourceWord": "时",
+    "pinyin": "shí",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      6
+    ],
+    "partOfSpeechSource": "名、（量）",
+    "partOfSpeech": [
+      "名",
+      "（量）"
+    ],
+    "sourceSort": 431,
+    "sourceLevelName": "二级（六级）",
+    "sourceAdditionalLevels": [
+      "六级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 431,
+      "sourceLevelName": "二级（六级）"
+    }
+  },
+  {
+    "id": "hsk2_132",
+    "word": "事情",
+    "sourceWord": "事情",
+    "pinyin": "shìqing",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 432,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 432,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_133",
+    "word": "手",
+    "sourceWord": "手",
+    "pinyin": "shǒu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 433,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 433,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_134",
+    "word": "手表",
+    "sourceWord": "手表",
+    "pinyin": "shǒubiǎo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 434,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 434,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_135",
+    "word": "书包",
+    "sourceWord": "书包",
+    "pinyin": "shūbāo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 435,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 435,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_136",
+    "word": "舒服",
+    "sourceWord": "舒服",
+    "pinyin": "shūfu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 436,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 436,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_137",
+    "word": "送",
+    "sourceWord": "送",
+    "pinyin": "sòng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 437,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 437,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_138",
+    "word": "虽然",
+    "sourceWord": "虽然",
+    "pinyin": "suīrán",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "连",
+    "partOfSpeech": [
+      "连"
+    ],
+    "sourceSort": 438,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 438,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_139",
+    "word": "所以",
+    "sourceWord": "所以",
+    "pinyin": "suǒyǐ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "连",
+    "partOfSpeech": [
+      "连"
+    ],
+    "sourceSort": 439,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 439,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_140",
+    "word": "疼",
+    "sourceWord": "疼",
+    "pinyin": "téng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      6
+    ],
+    "partOfSpeechSource": "形、（动）",
+    "partOfSpeech": [
+      "形",
+      "（动）"
+    ],
+    "sourceSort": 440,
+    "sourceLevelName": "二级（六级）",
+    "sourceAdditionalLevels": [
+      "六级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 440,
+      "sourceLevelName": "二级（六级）"
+    }
+  },
+  {
+    "id": "hsk2_141",
+    "word": "踢",
+    "sourceWord": "踢",
+    "pinyin": "tī",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 441,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 441,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_142",
+    "word": "题",
+    "sourceWord": "题",
+    "pinyin": "tí",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 442,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 442,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_143",
+    "word": "条",
+    "sourceWord": "条",
+    "pinyin": "tiáo",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      5
+    ],
+    "partOfSpeechSource": "量、（名）",
+    "partOfSpeech": [
+      "量",
+      "（名）"
+    ],
+    "sourceSort": 443,
+    "sourceLevelName": "二级（五级）",
+    "sourceAdditionalLevels": [
+      "五级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 443,
+      "sourceLevelName": "二级（五级）"
+    }
+  },
+  {
+    "id": "hsk2_144",
+    "word": "跳舞",
+    "sourceWord": "跳舞",
+    "pinyin": "tiàowǔ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 444,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 444,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_145",
+    "word": "头",
+    "sourceWord": "头",
+    "pinyin": "tóu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      3,
+      5
+    ],
+    "partOfSpeechSource": "名、（量）、（形）",
+    "partOfSpeech": [
+      "名",
+      "（量）",
+      "（形）"
+    ],
+    "sourceSort": 445,
+    "sourceLevelName": "二级（三级）（五级）",
+    "sourceAdditionalLevels": [
+      "三级",
+      "五级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 445,
+      "sourceLevelName": "二级（三级）（五级）"
+    }
+  },
+  {
+    "id": "hsk2_146",
+    "word": "外国",
+    "sourceWord": "外国",
+    "pinyin": "wàiguó",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 446,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 446,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_147",
+    "word": "外面",
+    "sourceWord": "外面",
+    "pinyin": "wàimiàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 447,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 447,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_148",
+    "word": "完",
+    "sourceWord": "完",
+    "pinyin": "wán",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 448,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 448,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_149",
+    "word": "万",
+    "sourceWord": "万",
+    "pinyin": "wàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "数",
+    "partOfSpeech": [
+      "数"
+    ],
+    "sourceSort": 449,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 449,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_150",
+    "word": "往",
+    "sourceWord": "往",
+    "pinyin": "wǎng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动、介",
+    "partOfSpeech": [
+      "动",
+      "介"
+    ],
+    "sourceSort": 450,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 450,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_151",
+    "word": "网上",
+    "sourceWord": "网上",
+    "pinyin": "wǎngshang",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 451,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 451,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_152",
+    "word": "忘",
+    "sourceWord": "忘",
+    "pinyin": "wàng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 452,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 452,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_153",
+    "word": "位",
+    "sourceWord": "位",
+    "pinyin": "wèi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "量",
+    "partOfSpeech": [
+      "量"
+    ],
+    "sourceSort": 453,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 453,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_154",
+    "word": "为什么",
+    "sourceWord": "为什么",
+    "pinyin": "wèi shénme",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "",
+    "partOfSpeech": [],
+    "sourceSort": 454,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 454,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_155",
+    "word": "希望",
+    "sourceWord": "希望",
+    "pinyin": "xīwàng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 455,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 455,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_156",
+    "word": "洗",
+    "sourceWord": "洗",
+    "pinyin": "xǐ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 456,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 456,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_157",
+    "word": "洗手间",
+    "sourceWord": "洗手间",
+    "pinyin": "xǐshǒujiān",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 457,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 457,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_158",
+    "word": "下来",
+    "sourceWord": "下来",
+    "pinyin": "xiàlái",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 458,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 458,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_159",
+    "word": "下面",
+    "sourceWord": "下面",
+    "pinyin": "xiàmiàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 459,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 459,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_160",
+    "word": "下去",
+    "sourceWord": "下去",
+    "pinyin": "xiàqù",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 460,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 460,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_161",
+    "word": "小孩儿",
+    "sourceWord": "小孩儿",
+    "pinyin": "xiǎoháir",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 461,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 461,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_162",
+    "word": "小时候",
+    "sourceWord": "小时候",
+    "pinyin": "xiǎoshíhou",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 462,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 462,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_163",
+    "word": "笑",
+    "sourceWord": "笑",
+    "pinyin": "xiào",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 463,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 463,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_164",
+    "word": "姓",
+    "sourceWord": "姓",
+    "pinyin": "xìng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名、动",
+    "partOfSpeech": [
+      "名",
+      "动"
+    ],
+    "sourceSort": 464,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 464,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_165",
+    "word": "姓名",
+    "sourceWord": "姓名",
+    "pinyin": "xìngmíng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 465,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 465,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_166",
+    "word": "颜色",
+    "sourceWord": "颜色",
+    "pinyin": "yánsè",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 466,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 466,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_167",
+    "word": "眼睛",
+    "sourceWord": "眼睛",
+    "pinyin": "yǎnjing",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 467,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 467,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_168",
+    "word": "药",
+    "sourceWord": "药",
+    "pinyin": "yào",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 468,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 468,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_169",
+    "word": "药店",
+    "sourceWord": "药店",
+    "pinyin": "yàodiàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 469,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 469,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_170",
+    "word": "爷爷",
+    "sourceWord": "爷爷",
+    "pinyin": "yéye",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 470,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 470,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_171",
+    "word": "一会儿",
+    "sourceWord": "一会儿",
+    "pinyin": "yíhuìr",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      3
+    ],
+    "partOfSpeechSource": "数量、（副）",
+    "partOfSpeech": [
+      "数量",
+      "（副）"
+    ],
+    "sourceSort": 471,
+    "sourceLevelName": "二级（三级）",
+    "sourceAdditionalLevels": [
+      "三级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 471,
+      "sourceLevelName": "二级（三级）"
+    }
+  },
+  {
+    "id": "hsk2_172",
+    "word": "已经",
+    "sourceWord": "已经",
+    "pinyin": "yǐjīng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "副",
+    "partOfSpeech": [
+      "副"
+    ],
+    "sourceSort": 472,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 472,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_173",
+    "word": "一起",
+    "sourceWord": "一起",
+    "pinyin": "yìqǐ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "副",
+    "partOfSpeech": [
+      "副"
+    ],
+    "sourceSort": 473,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 473,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_174",
+    "word": "意思",
+    "sourceWord": "意思",
+    "pinyin": "yìsi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 474,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 474,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_175",
+    "word": "阴",
+    "sourceWord": "阴",
+    "pinyin": "yīn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 475,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 475,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_176",
+    "word": "因为",
+    "sourceWord": "因为",
+    "pinyin": "yīnwèi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "介、连",
+    "partOfSpeech": [
+      "介",
+      "连"
+    ],
+    "sourceSort": 476,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 476,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_177",
+    "word": "游",
+    "sourceWord": "游",
+    "pinyin": "yóu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 477,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 477,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_178",
+    "word": "游泳",
+    "sourceWord": "游泳",
+    "pinyin": "yóuyǒng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 478,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 478,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_179",
+    "word": "有意思",
+    "sourceWord": "有意思",
+    "pinyin": "yǒu yìsi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "",
+    "partOfSpeech": [],
+    "sourceSort": 479,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 479,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_180",
+    "word": "有时",
+    "sourceWord": "有时",
+    "pinyin": "yǒushí",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "副",
+    "partOfSpeech": [
+      "副"
+    ],
+    "sourceSort": 480,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 480,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_181",
+    "word": "右",
+    "sourceWord": "右",
+    "pinyin": "yòu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 481,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 481,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_182",
+    "word": "右边",
+    "sourceWord": "右边",
+    "pinyin": "yòubian",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 482,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 482,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_183",
+    "word": "鱼",
+    "sourceWord": "鱼",
+    "pinyin": "yú",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 483,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 483,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_184",
+    "word": "远",
+    "sourceWord": "远",
+    "pinyin": "yuǎn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "形",
+    "partOfSpeech": [
+      "形"
+    ],
+    "sourceSort": 484,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 484,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_185",
+    "word": "运动",
+    "sourceWord": "运动",
+    "pinyin": "yùndòng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动、名",
+    "partOfSpeech": [
+      "动",
+      "名"
+    ],
+    "sourceSort": 485,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 485,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_186",
+    "word": "站",
+    "sourceWord": "站1",
+    "pinyin": "zhàn",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 486,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 486,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_187",
+    "word": "丈夫",
+    "sourceWord": "丈夫",
+    "pinyin": "zhàngfu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 487,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 487,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_188",
+    "word": "这么",
+    "sourceWord": "这么",
+    "pinyin": "zhème",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "代",
+    "partOfSpeech": [
+      "代"
+    ],
+    "sourceSort": 488,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 488,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_189",
+    "word": "这样",
+    "sourceWord": "这样",
+    "pinyin": "zhèyàng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "代",
+    "partOfSpeech": [
+      "代"
+    ],
+    "sourceSort": 489,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 489,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_190",
+    "word": "着",
+    "sourceWord": "着",
+    "pinyin": "zhe",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "助",
+    "partOfSpeech": [
+      "助"
+    ],
+    "sourceSort": 490,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 490,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_191",
+    "word": "正",
+    "sourceWord": "正",
+    "pinyin": "zhèng",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      5
+    ],
+    "partOfSpeechSource": "副、（形）",
+    "partOfSpeech": [
+      "副",
+      "（形）"
+    ],
+    "sourceSort": 491,
+    "sourceLevelName": "二级（五级）",
+    "sourceAdditionalLevels": [
+      "五级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 491,
+      "sourceLevelName": "二级（五级）"
+    }
+  },
+  {
+    "id": "hsk2_192",
+    "word": "周",
+    "sourceWord": "周",
+    "pinyin": "zhōu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2,
+      6
+    ],
+    "partOfSpeechSource": "名、（量）",
+    "partOfSpeech": [
+      "名",
+      "（量）"
+    ],
+    "sourceSort": 492,
+    "sourceLevelName": "二级（六级）",
+    "sourceAdditionalLevels": [
+      "六级"
+    ],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 492,
+      "sourceLevelName": "二级（六级）"
+    }
+  },
+  {
+    "id": "hsk2_193",
+    "word": "准备",
+    "sourceWord": "准备",
+    "pinyin": "zhǔnbèi",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 493,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 493,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_194",
+    "word": "自己",
+    "sourceWord": "自己",
+    "pinyin": "zìjǐ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "代",
+    "partOfSpeech": [
+      "代"
+    ],
+    "sourceSort": 494,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 494,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_195",
+    "word": "走",
+    "sourceWord": "走",
+    "pinyin": "zǒu",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 495,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 495,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_196",
+    "word": "走路",
+    "sourceWord": "走路",
+    "pinyin": "zǒulù",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "动",
+    "partOfSpeech": [
+      "动"
+    ],
+    "sourceSort": 496,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 496,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_197",
+    "word": "足球",
+    "sourceWord": "足球",
+    "pinyin": "zúqiú",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 497,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 497,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_198",
+    "word": "最",
+    "sourceWord": "最",
+    "pinyin": "zuì",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "副",
+    "partOfSpeech": [
+      "副"
+    ],
+    "sourceSort": 498,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 498,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_199",
+    "word": "左",
+    "sourceWord": "左",
+    "pinyin": "zuǒ",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 499,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 499,
+      "sourceLevelName": "二级"
+    }
+  },
+  {
+    "id": "hsk2_200",
+    "word": "左边",
+    "sourceWord": "左边",
+    "pinyin": "zuǒbian",
+    "pinyinNumeric": null,
+    "meaningVi": [],
+    "introducedLevel": 2,
+    "hskLevels": [
+      2
+    ],
+    "partOfSpeechSource": "名",
+    "partOfSpeech": [
+      "名"
+    ],
+    "sourceSort": 500,
+    "sourceLevelName": "二级",
+    "sourceAdditionalLevels": [],
+    "strokeCount": null,
+    "characterIds": [],
+    "relatedWordIds": [],
+    "exampleIds": [],
+    "audio": {
+      "wordUrl": null,
+      "exampleUrl": null
+    },
+    "_source": {
+      "sourceId": "profesorm/hsk30",
+      "sourceFile": "data/raw/hsk/hsk_vocabulary.csv",
+      "sourceSort": 500,
+      "sourceLevelName": "二级"
+    }
+  }
+]

@@ -1,0 +1,4595 @@
+{
+  "dataset": "HSK 1",
+  "type": "MEANING_CONFIDENCE_CALIBRATION_PILOT",
+  "status": "PASS",
+  "records": 300,
+  "routing": {
+    "HIGH": 300,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "exactMatches": 300,
+  "highPrecision": 1.0,
+  "thresholds": {
+    "HIGH": ">= 0.90",
+    "MEDIUM": "0.70-0.89",
+    "LOW": "< 0.70"
+  },
+  "inputCandidateFile": "D:\\Chinese_Thu_Man\\data\\hsk\\hsk1\\hsk1_meanings_draft_v2.json",
+  "inputReferenceFile": "D:\\Chinese_Thu_Man\\data\\hsk\\hsk1\\hsk1_vocabulary_reviewed.json",
+  "results": [
+    {
+      "id": "hsk1_001",
+      "word": "爱",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "yêu",
+        "yêu thích"
+      ],
+      "reviewedMeaningVi": [
+        "yêu",
+        "yêu thích"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_002",
+      "word": "八",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tám"
+      ],
+      "reviewedMeaningVi": [
+        "tám"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_003",
+      "word": "爸爸",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bố",
+        "cha"
+      ],
+      "reviewedMeaningVi": [
+        "bố",
+        "cha"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_004",
+      "word": "吧",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nhé",
+        "nào",
+        "đi"
+      ],
+      "reviewedMeaningVi": [
+        "nhé",
+        "nào",
+        "đi"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_005",
+      "word": "白天",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ban ngày"
+      ],
+      "reviewedMeaningVi": [
+        "ban ngày"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_006",
+      "word": "百",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "trăm"
+      ],
+      "reviewedMeaningVi": [
+        "trăm"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_007",
+      "word": "半",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "một nửa",
+        "nửa"
+      ],
+      "reviewedMeaningVi": [
+        "một nửa",
+        "nửa"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_008",
+      "word": "包子",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bánh bao"
+      ],
+      "reviewedMeaningVi": [
+        "bánh bao"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_009",
+      "word": "杯子",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cốc",
+        "ly"
+      ],
+      "reviewedMeaningVi": [
+        "cốc",
+        "ly"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_010",
+      "word": "本1",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "lượng từ cho sách",
+        "vở"
+      ],
+      "reviewedMeaningVi": [
+        "lượng từ cho sách",
+        "vở"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_011",
+      "word": "边",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bên",
+        "phía"
+      ],
+      "reviewedMeaningVi": [
+        "bên",
+        "phía"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_012",
+      "word": "病",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bệnh",
+        "bị bệnh"
+      ],
+      "reviewedMeaningVi": [
+        "bệnh",
+        "bị bệnh"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_013",
+      "word": "不",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "không"
+      ],
+      "reviewedMeaningVi": [
+        "không"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_014",
+      "word": "不客气",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "không có gì",
+        "đừng khách sáo"
+      ],
+      "reviewedMeaningVi": [
+        "không có gì",
+        "đừng khách sáo"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_015",
+      "word": "不要",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đừng",
+        "không muốn"
+      ],
+      "reviewedMeaningVi": [
+        "đừng",
+        "không muốn"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_016",
+      "word": "菜",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "món ăn",
+        "rau"
+      ],
+      "reviewedMeaningVi": [
+        "món ăn",
+        "rau"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_017",
+      "word": "茶",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "trà"
+      ],
+      "reviewedMeaningVi": [
+        "trà"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_018",
+      "word": "唱",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "hát"
+      ],
+      "reviewedMeaningVi": [
+        "hát"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_019",
+      "word": "超市",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "siêu thị"
+      ],
+      "reviewedMeaningVi": [
+        "siêu thị"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_020",
+      "word": "车",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "xe"
+      ],
+      "reviewedMeaningVi": [
+        "xe"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_021",
+      "word": "吃",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ăn"
+      ],
+      "reviewedMeaningVi": [
+        "ăn"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_022",
+      "word": "出租车",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "taxi",
+        "xe taxi"
+      ],
+      "reviewedMeaningVi": [
+        "taxi",
+        "xe taxi"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_023",
+      "word": "穿",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mặc"
+      ],
+      "reviewedMeaningVi": [
+        "mặc"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_024",
+      "word": "打电话",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "gọi điện thoại"
+      ],
+      "reviewedMeaningVi": [
+        "gọi điện thoại"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_025",
+      "word": "大",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "to",
+        "lớn"
+      ],
+      "reviewedMeaningVi": [
+        "to",
+        "lớn"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_026",
+      "word": "大家",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mọi người"
+      ],
+      "reviewedMeaningVi": [
+        "mọi người"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_027",
+      "word": "大学",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đại học",
+        "trường đại học"
+      ],
+      "reviewedMeaningVi": [
+        "đại học",
+        "trường đại học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_028",
+      "word": "大学生",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "sinh viên đại học"
+      ],
+      "reviewedMeaningVi": [
+        "sinh viên đại học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_029",
+      "word": "到",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đến",
+        "tới"
+      ],
+      "reviewedMeaningVi": [
+        "đến",
+        "tới"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_030",
+      "word": "的",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "của",
+        "trợ từ kết cấu"
+      ],
+      "reviewedMeaningVi": [
+        "của",
+        "trợ từ kết cấu"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_031",
+      "word": "第",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "thứ",
+        "số thứ tự"
+      ],
+      "reviewedMeaningVi": [
+        "thứ",
+        "số thứ tự"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_032",
+      "word": "弟弟",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "em trai"
+      ],
+      "reviewedMeaningVi": [
+        "em trai"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_033",
+      "word": "点1",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "giờ",
+        "điểm",
+        "một chút"
+      ],
+      "reviewedMeaningVi": [
+        "giờ",
+        "điểm",
+        "một chút"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_034",
+      "word": "店",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cửa hàng"
+      ],
+      "reviewedMeaningVi": [
+        "cửa hàng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_035",
+      "word": "电话",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "điện thoại"
+      ],
+      "reviewedMeaningVi": [
+        "điện thoại"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_036",
+      "word": "电脑",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "máy tính"
+      ],
+      "reviewedMeaningVi": [
+        "máy tính"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_037",
+      "word": "电视",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tivi",
+        "truyền hình"
+      ],
+      "reviewedMeaningVi": [
+        "tivi",
+        "truyền hình"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_038",
+      "word": "电影",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "phim",
+        "điện ảnh"
+      ],
+      "reviewedMeaningVi": [
+        "phim",
+        "điện ảnh"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_039",
+      "word": "电影院",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "rạp chiếu phim"
+      ],
+      "reviewedMeaningVi": [
+        "rạp chiếu phim"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_040",
+      "word": "东西",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đồ vật",
+        "thứ"
+      ],
+      "reviewedMeaningVi": [
+        "đồ vật",
+        "thứ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_041",
+      "word": "都",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đều"
+      ],
+      "reviewedMeaningVi": [
+        "đều"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_042",
+      "word": "读",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đọc"
+      ],
+      "reviewedMeaningVi": [
+        "đọc"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_043",
+      "word": "读书",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đọc sách",
+        "học"
+      ],
+      "reviewedMeaningVi": [
+        "đọc sách",
+        "học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_044",
+      "word": "对",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đúng",
+        "đối với"
+      ],
+      "reviewedMeaningVi": [
+        "đúng",
+        "đối với"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_045",
+      "word": "对不起",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "xin lỗi"
+      ],
+      "reviewedMeaningVi": [
+        "xin lỗi"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_046",
+      "word": "多",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nhiều",
+        "bao nhiêu"
+      ],
+      "reviewedMeaningVi": [
+        "nhiều",
+        "bao nhiêu"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_047",
+      "word": "多少",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bao nhiêu"
+      ],
+      "reviewedMeaningVi": [
+        "bao nhiêu"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_048",
+      "word": "儿子",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "con trai"
+      ],
+      "reviewedMeaningVi": [
+        "con trai"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_049",
+      "word": "二",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "hai"
+      ],
+      "reviewedMeaningVi": [
+        "hai"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_050",
+      "word": "饭",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cơm",
+        "bữa ăn"
+      ],
+      "reviewedMeaningVi": [
+        "cơm",
+        "bữa ăn"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_051",
+      "word": "饭店",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nhà hàng",
+        "khách sạn"
+      ],
+      "reviewedMeaningVi": [
+        "nhà hàng",
+        "khách sạn"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_052",
+      "word": "房间",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "phòng"
+      ],
+      "reviewedMeaningVi": [
+        "phòng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_053",
+      "word": "非常",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "rất",
+        "vô cùng"
+      ],
+      "reviewedMeaningVi": [
+        "rất",
+        "vô cùng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_054",
+      "word": "飞机",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "máy bay"
+      ],
+      "reviewedMeaningVi": [
+        "máy bay"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_055",
+      "word": "分",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "phút",
+        "phần"
+      ],
+      "reviewedMeaningVi": [
+        "phút",
+        "phần"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_056",
+      "word": "分钟",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "phút"
+      ],
+      "reviewedMeaningVi": [
+        "phút"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_057",
+      "word": "高兴",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "vui",
+        "vui mừng"
+      ],
+      "reviewedMeaningVi": [
+        "vui",
+        "vui mừng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_058",
+      "word": "歌",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bài hát"
+      ],
+      "reviewedMeaningVi": [
+        "bài hát"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_059",
+      "word": "哥哥",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "anh trai"
+      ],
+      "reviewedMeaningVi": [
+        "anh trai"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_060",
+      "word": "个",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cái",
+        "người (lượng từ chung)"
+      ],
+      "reviewedMeaningVi": [
+        "cái",
+        "người (lượng từ chung)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_061",
+      "word": "给",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cho",
+        "đưa"
+      ],
+      "reviewedMeaningVi": [
+        "cho",
+        "đưa"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_062",
+      "word": "公司",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "công ty"
+      ],
+      "reviewedMeaningVi": [
+        "công ty"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_063",
+      "word": "工作",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "công việc",
+        "làm việc"
+      ],
+      "reviewedMeaningVi": [
+        "công việc",
+        "làm việc"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_064",
+      "word": "狗",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "chó"
+      ],
+      "reviewedMeaningVi": [
+        "chó"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_065",
+      "word": "贵",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đắt"
+      ],
+      "reviewedMeaningVi": [
+        "đắt"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_066",
+      "word": "国",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nước",
+        "quốc gia"
+      ],
+      "reviewedMeaningVi": [
+        "nước",
+        "quốc gia"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_067",
+      "word": "还",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "vẫn",
+        "còn"
+      ],
+      "reviewedMeaningVi": [
+        "vẫn",
+        "còn"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_068",
+      "word": "孩子",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đứa trẻ",
+        "con"
+      ],
+      "reviewedMeaningVi": [
+        "đứa trẻ",
+        "con"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_069",
+      "word": "汉语",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tiếng Hán",
+        "tiếng Trung"
+      ],
+      "reviewedMeaningVi": [
+        "tiếng Hán",
+        "tiếng Trung"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_070",
+      "word": "汉字",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "chữ Hán"
+      ],
+      "reviewedMeaningVi": [
+        "chữ Hán"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_071",
+      "word": "好",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tốt",
+        "khỏe",
+        "hay"
+      ],
+      "reviewedMeaningVi": [
+        "tốt",
+        "khỏe",
+        "hay"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_072",
+      "word": "好吃",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ngon"
+      ],
+      "reviewedMeaningVi": [
+        "ngon"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_073",
+      "word": "好看",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đẹp",
+        "dễ xem"
+      ],
+      "reviewedMeaningVi": [
+        "đẹp",
+        "dễ xem"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_074",
+      "word": "好听",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "hay",
+        "dễ nghe"
+      ],
+      "reviewedMeaningVi": [
+        "hay",
+        "dễ nghe"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_075",
+      "word": "好玩儿",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "vui",
+        "thú vị"
+      ],
+      "reviewedMeaningVi": [
+        "vui",
+        "thú vị"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_076",
+      "word": "号",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "số",
+        "ngày (trong tháng)"
+      ],
+      "reviewedMeaningVi": [
+        "số",
+        "ngày (trong tháng)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_077",
+      "word": "喝",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "uống"
+      ],
+      "reviewedMeaningVi": [
+        "uống"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_078",
+      "word": "和1",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "và",
+        "với"
+      ],
+      "reviewedMeaningVi": [
+        "và",
+        "với"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_079",
+      "word": "很",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "rất"
+      ],
+      "reviewedMeaningVi": [
+        "rất"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_080",
+      "word": "后",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "sau",
+        "phía sau"
+      ],
+      "reviewedMeaningVi": [
+        "sau",
+        "phía sau"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_081",
+      "word": "回",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "về",
+        "quay lại"
+      ],
+      "reviewedMeaningVi": [
+        "về",
+        "quay lại"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_082",
+      "word": "会1",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "biết",
+        "có thể"
+      ],
+      "reviewedMeaningVi": [
+        "biết",
+        "có thể"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_083",
+      "word": "火车",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tàu hỏa"
+      ],
+      "reviewedMeaningVi": [
+        "tàu hỏa"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_084",
+      "word": "鸡蛋",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "trứng gà"
+      ],
+      "reviewedMeaningVi": [
+        "trứng gà"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_085",
+      "word": "几",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mấy",
+        "bao nhiêu"
+      ],
+      "reviewedMeaningVi": [
+        "mấy",
+        "bao nhiêu"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_086",
+      "word": "家",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nhà",
+        "gia đình"
+      ],
+      "reviewedMeaningVi": [
+        "nhà",
+        "gia đình"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_087",
+      "word": "家人",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "người nhà",
+        "thành viên gia đình"
+      ],
+      "reviewedMeaningVi": [
+        "người nhà",
+        "thành viên gia đình"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_088",
+      "word": "见",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "gặp",
+        "thấy"
+      ],
+      "reviewedMeaningVi": [
+        "gặp",
+        "thấy"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_089",
+      "word": "件",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "lượng từ cho quần áo",
+        "sự việc"
+      ],
+      "reviewedMeaningVi": [
+        "lượng từ cho quần áo",
+        "sự việc"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_090",
+      "word": "饺子",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bánh chẻo",
+        "sủi cảo"
+      ],
+      "reviewedMeaningVi": [
+        "bánh chẻo",
+        "sủi cảo"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_091",
+      "word": "叫",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "gọi",
+        "tên là"
+      ],
+      "reviewedMeaningVi": [
+        "gọi",
+        "tên là"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_092",
+      "word": "姐姐",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "chị gái"
+      ],
+      "reviewedMeaningVi": [
+        "chị gái"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_093",
+      "word": "今年",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "năm nay"
+      ],
+      "reviewedMeaningVi": [
+        "năm nay"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_094",
+      "word": "今天",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "hôm nay"
+      ],
+      "reviewedMeaningVi": [
+        "hôm nay"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_095",
+      "word": "九",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "chín"
+      ],
+      "reviewedMeaningVi": [
+        "chín"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_096",
+      "word": "觉得",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cảm thấy",
+        "thấy rằng"
+      ],
+      "reviewedMeaningVi": [
+        "cảm thấy",
+        "thấy rằng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_097",
+      "word": "开",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mở",
+        "lái",
+        "bắt đầu"
+      ],
+      "reviewedMeaningVi": [
+        "mở",
+        "lái",
+        "bắt đầu"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_098",
+      "word": "开车",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "lái xe"
+      ],
+      "reviewedMeaningVi": [
+        "lái xe"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_099",
+      "word": "看",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "xem",
+        "nhìn",
+        "đọc"
+      ],
+      "reviewedMeaningVi": [
+        "xem",
+        "nhìn",
+        "đọc"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_100",
+      "word": "看病",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "khám bệnh"
+      ],
+      "reviewedMeaningVi": [
+        "khám bệnh"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_101",
+      "word": "看见",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nhìn thấy"
+      ],
+      "reviewedMeaningVi": [
+        "nhìn thấy"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_102",
+      "word": "可以",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "có thể",
+        "được"
+      ],
+      "reviewedMeaningVi": [
+        "có thể",
+        "được"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_103",
+      "word": "课",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bài học",
+        "tiết học"
+      ],
+      "reviewedMeaningVi": [
+        "bài học",
+        "tiết học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_104",
+      "word": "口",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "miệng",
+        "khẩu",
+        "hộ gia đình (lượng từ)"
+      ],
+      "reviewedMeaningVi": [
+        "miệng",
+        "khẩu",
+        "hộ gia đình (lượng từ)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_105",
+      "word": "块",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đồng",
+        "miếng",
+        "cục"
+      ],
+      "reviewedMeaningVi": [
+        "đồng",
+        "miếng",
+        "cục"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_106",
+      "word": "来",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đến"
+      ],
+      "reviewedMeaningVi": [
+        "đến"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_107",
+      "word": "老师",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "giáo viên",
+        "thầy cô"
+      ],
+      "reviewedMeaningVi": [
+        "giáo viên",
+        "thầy cô"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_108",
+      "word": "了",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "rồi",
+        "trợ từ chỉ hoàn thành/thay đổi"
+      ],
+      "reviewedMeaningVi": [
+        "rồi",
+        "trợ từ chỉ hoàn thành/thay đổi"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_109",
+      "word": "冷",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "lạnh"
+      ],
+      "reviewedMeaningVi": [
+        "lạnh"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_110",
+      "word": "里",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "trong",
+        "bên trong"
+      ],
+      "reviewedMeaningVi": [
+        "trong",
+        "bên trong"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_111",
+      "word": "两1",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "hai (dùng trước lượng từ)"
+      ],
+      "reviewedMeaningVi": [
+        "hai (dùng trước lượng từ)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_112",
+      "word": "零",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "số không"
+      ],
+      "reviewedMeaningVi": [
+        "số không"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_113",
+      "word": "六",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "sáu"
+      ],
+      "reviewedMeaningVi": [
+        "sáu"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_114",
+      "word": "妈妈",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mẹ"
+      ],
+      "reviewedMeaningVi": [
+        "mẹ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_115",
+      "word": "吗",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "à",
+        "không? (trợ từ nghi vấn)"
+      ],
+      "reviewedMeaningVi": [
+        "à",
+        "không? (trợ từ nghi vấn)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_116",
+      "word": "买",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mua"
+      ],
+      "reviewedMeaningVi": [
+        "mua"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_117",
+      "word": "卖",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bán"
+      ],
+      "reviewedMeaningVi": [
+        "bán"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_118",
+      "word": "忙",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bận"
+      ],
+      "reviewedMeaningVi": [
+        "bận"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_119",
+      "word": "猫",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mèo"
+      ],
+      "reviewedMeaningVi": [
+        "mèo"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_120",
+      "word": "没关系",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "không sao",
+        "không có gì"
+      ],
+      "reviewedMeaningVi": [
+        "không sao",
+        "không có gì"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_121",
+      "word": "没事",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "không sao",
+        "không có chuyện gì"
+      ],
+      "reviewedMeaningVi": [
+        "không sao",
+        "không có chuyện gì"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_122",
+      "word": "没有",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "không có",
+        "chưa"
+      ],
+      "reviewedMeaningVi": [
+        "không có",
+        "chưa"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_123",
+      "word": "妹妹",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "em gái"
+      ],
+      "reviewedMeaningVi": [
+        "em gái"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_124",
+      "word": "们",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "hậu tố số nhiều"
+      ],
+      "reviewedMeaningVi": [
+        "hậu tố số nhiều"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_125",
+      "word": "米饭",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cơm"
+      ],
+      "reviewedMeaningVi": [
+        "cơm"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_126",
+      "word": "面包",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bánh mì"
+      ],
+      "reviewedMeaningVi": [
+        "bánh mì"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_127",
+      "word": "面条儿",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mì",
+        "mì sợi"
+      ],
+      "reviewedMeaningVi": [
+        "mì",
+        "mì sợi"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_128",
+      "word": "明年",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "năm sau"
+      ],
+      "reviewedMeaningVi": [
+        "năm sau"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_129",
+      "word": "明天",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ngày mai"
+      ],
+      "reviewedMeaningVi": [
+        "ngày mai"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_130",
+      "word": "名字",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tên"
+      ],
+      "reviewedMeaningVi": [
+        "tên"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_131",
+      "word": "哪",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nào",
+        "đâu"
+      ],
+      "reviewedMeaningVi": [
+        "nào",
+        "đâu"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_132",
+      "word": "哪个",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cái nào",
+        "người nào"
+      ],
+      "reviewedMeaningVi": [
+        "cái nào",
+        "người nào"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_133",
+      "word": "哪里",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ở đâu",
+        "nơi nào"
+      ],
+      "reviewedMeaningVi": [
+        "ở đâu",
+        "nơi nào"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_134",
+      "word": "哪儿",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ở đâu",
+        "chỗ nào"
+      ],
+      "reviewedMeaningVi": [
+        "ở đâu",
+        "chỗ nào"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_135",
+      "word": "哪些",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "những cái nào"
+      ],
+      "reviewedMeaningVi": [
+        "những cái nào"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_136",
+      "word": "那",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đó",
+        "kia"
+      ],
+      "reviewedMeaningVi": [
+        "đó",
+        "kia"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_137",
+      "word": "那边",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bên kia",
+        "phía đó"
+      ],
+      "reviewedMeaningVi": [
+        "bên kia",
+        "phía đó"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_138",
+      "word": "那个",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cái/người đó"
+      ],
+      "reviewedMeaningVi": [
+        "cái/người đó"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_139",
+      "word": "那里",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ở đó",
+        "nơi đó"
+      ],
+      "reviewedMeaningVi": [
+        "ở đó",
+        "nơi đó"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_140",
+      "word": "那儿",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ở đó",
+        "chỗ đó"
+      ],
+      "reviewedMeaningVi": [
+        "ở đó",
+        "chỗ đó"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_141",
+      "word": "那些",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "những cái/người đó"
+      ],
+      "reviewedMeaningVi": [
+        "những cái/người đó"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_142",
+      "word": "男",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nam",
+        "giống đực"
+      ],
+      "reviewedMeaningVi": [
+        "nam",
+        "giống đực"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_143",
+      "word": "男朋友",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bạn trai"
+      ],
+      "reviewedMeaningVi": [
+        "bạn trai"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_144",
+      "word": "呢",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "thế",
+        "còn... thì sao (trợ từ)"
+      ],
+      "reviewedMeaningVi": [
+        "thế",
+        "còn... thì sao (trợ từ)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_145",
+      "word": "能",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "có thể",
+        "có khả năng"
+      ],
+      "reviewedMeaningVi": [
+        "có thể",
+        "có khả năng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_146",
+      "word": "你",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bạn",
+        "anh/chị",
+        "cậu"
+      ],
+      "reviewedMeaningVi": [
+        "bạn",
+        "anh/chị",
+        "cậu"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_147",
+      "word": "你好",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "xin chào"
+      ],
+      "reviewedMeaningVi": [
+        "xin chào"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_148",
+      "word": "你们",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "các bạn",
+        "các anh/chị"
+      ],
+      "reviewedMeaningVi": [
+        "các bạn",
+        "các anh/chị"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_149",
+      "word": "年",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "năm"
+      ],
+      "reviewedMeaningVi": [
+        "năm"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_150",
+      "word": "您",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ngài",
+        "ông/bà",
+        "bạn (cách xưng hô lịch sự)"
+      ],
+      "reviewedMeaningVi": [
+        "ngài",
+        "ông/bà",
+        "bạn (cách xưng hô lịch sự)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_151",
+      "word": "牛奶",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "sữa bò"
+      ],
+      "reviewedMeaningVi": [
+        "sữa bò"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_152",
+      "word": "女",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nữ",
+        "giống cái"
+      ],
+      "reviewedMeaningVi": [
+        "nữ",
+        "giống cái"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_153",
+      "word": "女儿",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "con gái"
+      ],
+      "reviewedMeaningVi": [
+        "con gái"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_154",
+      "word": "女朋友",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bạn gái"
+      ],
+      "reviewedMeaningVi": [
+        "bạn gái"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_155",
+      "word": "女士",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "quý bà",
+        "cô",
+        "bà"
+      ],
+      "reviewedMeaningVi": [
+        "quý bà",
+        "cô",
+        "bà"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_156",
+      "word": "朋友",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bạn",
+        "bạn bè"
+      ],
+      "reviewedMeaningVi": [
+        "bạn",
+        "bạn bè"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_157",
+      "word": "便宜",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "rẻ"
+      ],
+      "reviewedMeaningVi": [
+        "rẻ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_158",
+      "word": "漂亮",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đẹp",
+        "xinh"
+      ],
+      "reviewedMeaningVi": [
+        "đẹp",
+        "xinh"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_159",
+      "word": "苹果",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "quả táo"
+      ],
+      "reviewedMeaningVi": [
+        "quả táo"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_160",
+      "word": "七",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bảy"
+      ],
+      "reviewedMeaningVi": [
+        "bảy"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_161",
+      "word": "起床",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "thức dậy",
+        "rời giường"
+      ],
+      "reviewedMeaningVi": [
+        "thức dậy",
+        "rời giường"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_162",
+      "word": "千",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nghìn",
+        "một nghìn"
+      ],
+      "reviewedMeaningVi": [
+        "nghìn",
+        "một nghìn"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_163",
+      "word": "前",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "trước",
+        "phía trước"
+      ],
+      "reviewedMeaningVi": [
+        "trước",
+        "phía trước"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_164",
+      "word": "钱",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tiền"
+      ],
+      "reviewedMeaningVi": [
+        "tiền"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_165",
+      "word": "请",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mời",
+        "xin",
+        "vui lòng"
+      ],
+      "reviewedMeaningVi": [
+        "mời",
+        "xin",
+        "vui lòng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_166",
+      "word": "请问",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "xin hỏi",
+        "cho hỏi"
+      ],
+      "reviewedMeaningVi": [
+        "xin hỏi",
+        "cho hỏi"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_167",
+      "word": "去",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đi"
+      ],
+      "reviewedMeaningVi": [
+        "đi"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_168",
+      "word": "去年",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "năm ngoái"
+      ],
+      "reviewedMeaningVi": [
+        "năm ngoái"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_169",
+      "word": "热",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nóng"
+      ],
+      "reviewedMeaningVi": [
+        "nóng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_170",
+      "word": "人",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "người"
+      ],
+      "reviewedMeaningVi": [
+        "người"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_171",
+      "word": "认识",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "quen",
+        "biết",
+        "nhận biết"
+      ],
+      "reviewedMeaningVi": [
+        "quen",
+        "biết",
+        "nhận biết"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_172",
+      "word": "日",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ngày",
+        "mặt trời"
+      ],
+      "reviewedMeaningVi": [
+        "ngày",
+        "mặt trời"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_173",
+      "word": "三",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ba"
+      ],
+      "reviewedMeaningVi": [
+        "ba"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_174",
+      "word": "商店",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cửa hàng"
+      ],
+      "reviewedMeaningVi": [
+        "cửa hàng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_175",
+      "word": "上",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "trên",
+        "lên"
+      ],
+      "reviewedMeaningVi": [
+        "trên",
+        "lên"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_176",
+      "word": "上班",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đi làm",
+        "làm việc"
+      ],
+      "reviewedMeaningVi": [
+        "đi làm",
+        "làm việc"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_177",
+      "word": "上课",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "lên lớp",
+        "học"
+      ],
+      "reviewedMeaningVi": [
+        "lên lớp",
+        "học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_178",
+      "word": "上午",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "buổi sáng"
+      ],
+      "reviewedMeaningVi": [
+        "buổi sáng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_179",
+      "word": "上学",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đi học"
+      ],
+      "reviewedMeaningVi": [
+        "đi học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_180",
+      "word": "少",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ít",
+        "thiếu"
+      ],
+      "reviewedMeaningVi": [
+        "ít",
+        "thiếu"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_181",
+      "word": "谁",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ai"
+      ],
+      "reviewedMeaningVi": [
+        "ai"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_182",
+      "word": "什么",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cái gì",
+        "gì"
+      ],
+      "reviewedMeaningVi": [
+        "cái gì",
+        "gì"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_183",
+      "word": "生病",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bị bệnh",
+        "mắc bệnh"
+      ],
+      "reviewedMeaningVi": [
+        "bị bệnh",
+        "mắc bệnh"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_184",
+      "word": "十",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mười"
+      ],
+      "reviewedMeaningVi": [
+        "mười"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_185",
+      "word": "时候",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "lúc",
+        "thời gian"
+      ],
+      "reviewedMeaningVi": [
+        "lúc",
+        "thời gian"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_186",
+      "word": "时间",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "thời gian"
+      ],
+      "reviewedMeaningVi": [
+        "thời gian"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_187",
+      "word": "事",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "việc",
+        "chuyện"
+      ],
+      "reviewedMeaningVi": [
+        "việc",
+        "chuyện"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_188",
+      "word": "是",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "là",
+        "đúng là"
+      ],
+      "reviewedMeaningVi": [
+        "là",
+        "đúng là"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_189",
+      "word": "手机",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "điện thoại di động"
+      ],
+      "reviewedMeaningVi": [
+        "điện thoại di động"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_190",
+      "word": "书",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "sách"
+      ],
+      "reviewedMeaningVi": [
+        "sách"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_191",
+      "word": "书店",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "hiệu sách",
+        "nhà sách"
+      ],
+      "reviewedMeaningVi": [
+        "hiệu sách",
+        "nhà sách"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_192",
+      "word": "水",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nước"
+      ],
+      "reviewedMeaningVi": [
+        "nước"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_193",
+      "word": "水果",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "trái cây"
+      ],
+      "reviewedMeaningVi": [
+        "trái cây"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_194",
+      "word": "睡",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ngủ"
+      ],
+      "reviewedMeaningVi": [
+        "ngủ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_195",
+      "word": "睡觉",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đi ngủ",
+        "ngủ"
+      ],
+      "reviewedMeaningVi": [
+        "đi ngủ",
+        "ngủ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_196",
+      "word": "说",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nói"
+      ],
+      "reviewedMeaningVi": [
+        "nói"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_197",
+      "word": "说话",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nói chuyện",
+        "nói"
+      ],
+      "reviewedMeaningVi": [
+        "nói chuyện",
+        "nói"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_198",
+      "word": "四",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bốn"
+      ],
+      "reviewedMeaningVi": [
+        "bốn"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_199",
+      "word": "岁",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tuổi"
+      ],
+      "reviewedMeaningVi": [
+        "tuổi"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_200",
+      "word": "他",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "anh ấy",
+        "ông ấy"
+      ],
+      "reviewedMeaningVi": [
+        "anh ấy",
+        "ông ấy"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_201",
+      "word": "它",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nó (đồ vật/động vật)"
+      ],
+      "reviewedMeaningVi": [
+        "nó (đồ vật/động vật)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_202",
+      "word": "她",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cô ấy",
+        "chị ấy"
+      ],
+      "reviewedMeaningVi": [
+        "cô ấy",
+        "chị ấy"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_203",
+      "word": "他们",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "họ",
+        "họ (nam/hỗn hợp)"
+      ],
+      "reviewedMeaningVi": [
+        "họ",
+        "họ (nam/hỗn hợp)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_204",
+      "word": "它们",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "chúng",
+        "chúng nó"
+      ],
+      "reviewedMeaningVi": [
+        "chúng",
+        "chúng nó"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_205",
+      "word": "她们",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "họ",
+        "họ (nữ)"
+      ],
+      "reviewedMeaningVi": [
+        "họ",
+        "họ (nữ)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_206",
+      "word": "太",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "quá",
+        "rất"
+      ],
+      "reviewedMeaningVi": [
+        "quá",
+        "rất"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_207",
+      "word": "天",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ngày",
+        "trời"
+      ],
+      "reviewedMeaningVi": [
+        "ngày",
+        "trời"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_208",
+      "word": "天气",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "thời tiết"
+      ],
+      "reviewedMeaningVi": [
+        "thời tiết"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_209",
+      "word": "听",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nghe"
+      ],
+      "reviewedMeaningVi": [
+        "nghe"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_210",
+      "word": "听见",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nghe thấy"
+      ],
+      "reviewedMeaningVi": [
+        "nghe thấy"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_211",
+      "word": "同学",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bạn học",
+        "học sinh cùng lớp"
+      ],
+      "reviewedMeaningVi": [
+        "bạn học",
+        "học sinh cùng lớp"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_212",
+      "word": "外",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ngoài",
+        "bên ngoài"
+      ],
+      "reviewedMeaningVi": [
+        "ngoài",
+        "bên ngoài"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_213",
+      "word": "外边",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bên ngoài"
+      ],
+      "reviewedMeaningVi": [
+        "bên ngoài"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_214",
+      "word": "玩",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "chơi"
+      ],
+      "reviewedMeaningVi": [
+        "chơi"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_215",
+      "word": "晚",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "muộn",
+        "tối"
+      ],
+      "reviewedMeaningVi": [
+        "muộn",
+        "tối"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_216",
+      "word": "晚饭",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bữa tối",
+        "cơm tối"
+      ],
+      "reviewedMeaningVi": [
+        "bữa tối",
+        "cơm tối"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_217",
+      "word": "晚上",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "buổi tối",
+        "tối"
+      ],
+      "reviewedMeaningVi": [
+        "buổi tối",
+        "tối"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_218",
+      "word": "喂1",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "alo",
+        "này (khi nghe điện thoại)"
+      ],
+      "reviewedMeaningVi": [
+        "alo",
+        "này (khi nghe điện thoại)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_219",
+      "word": "问",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "hỏi"
+      ],
+      "reviewedMeaningVi": [
+        "hỏi"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_220",
+      "word": "问题",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "câu hỏi",
+        "vấn đề"
+      ],
+      "reviewedMeaningVi": [
+        "câu hỏi",
+        "vấn đề"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_221",
+      "word": "我",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tôi",
+        "mình"
+      ],
+      "reviewedMeaningVi": [
+        "tôi",
+        "mình"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_222",
+      "word": "我们",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "chúng tôi",
+        "chúng ta"
+      ],
+      "reviewedMeaningVi": [
+        "chúng tôi",
+        "chúng ta"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_223",
+      "word": "五",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "năm"
+      ],
+      "reviewedMeaningVi": [
+        "năm"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_224",
+      "word": "午饭",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bữa trưa",
+        "cơm trưa"
+      ],
+      "reviewedMeaningVi": [
+        "bữa trưa",
+        "cơm trưa"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_225",
+      "word": "喜欢",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "thích"
+      ],
+      "reviewedMeaningVi": [
+        "thích"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_226",
+      "word": "下",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "xuống",
+        "dưới",
+        "tiếp theo"
+      ],
+      "reviewedMeaningVi": [
+        "xuống",
+        "dưới",
+        "tiếp theo"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_227",
+      "word": "下雨",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mưa",
+        "trời mưa"
+      ],
+      "reviewedMeaningVi": [
+        "mưa",
+        "trời mưa"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_228",
+      "word": "下班",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tan làm"
+      ],
+      "reviewedMeaningVi": [
+        "tan làm"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_229",
+      "word": "下课",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tan học",
+        "hết giờ học"
+      ],
+      "reviewedMeaningVi": [
+        "tan học",
+        "hết giờ học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_230",
+      "word": "下午",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "buổi chiều"
+      ],
+      "reviewedMeaningVi": [
+        "buổi chiều"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_231",
+      "word": "先生",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ông",
+        "ngài",
+        "anh (cách gọi lịch sự)"
+      ],
+      "reviewedMeaningVi": [
+        "ông",
+        "ngài",
+        "anh (cách gọi lịch sự)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_232",
+      "word": "现在",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bây giờ",
+        "hiện tại"
+      ],
+      "reviewedMeaningVi": [
+        "bây giờ",
+        "hiện tại"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_233",
+      "word": "想",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "muốn",
+        "nghĩ",
+        "nhớ"
+      ],
+      "reviewedMeaningVi": [
+        "muốn",
+        "nghĩ",
+        "nhớ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_234",
+      "word": "小",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nhỏ",
+        "bé"
+      ],
+      "reviewedMeaningVi": [
+        "nhỏ",
+        "bé"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_235",
+      "word": "小朋友",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "trẻ em",
+        "bạn nhỏ"
+      ],
+      "reviewedMeaningVi": [
+        "trẻ em",
+        "bạn nhỏ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_236",
+      "word": "小时",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "giờ",
+        "tiếng"
+      ],
+      "reviewedMeaningVi": [
+        "giờ",
+        "tiếng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_237",
+      "word": "小学",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tiểu học",
+        "trường tiểu học"
+      ],
+      "reviewedMeaningVi": [
+        "tiểu học",
+        "trường tiểu học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_238",
+      "word": "小学生",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "học sinh tiểu học"
+      ],
+      "reviewedMeaningVi": [
+        "học sinh tiểu học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_239",
+      "word": "些",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "một số",
+        "một vài"
+      ],
+      "reviewedMeaningVi": [
+        "một số",
+        "một vài"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_240",
+      "word": "写",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "viết"
+      ],
+      "reviewedMeaningVi": [
+        "viết"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_241",
+      "word": "谢谢",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cảm ơn"
+      ],
+      "reviewedMeaningVi": [
+        "cảm ơn"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_242",
+      "word": "新",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mới"
+      ],
+      "reviewedMeaningVi": [
+        "mới"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_243",
+      "word": "星期",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tuần",
+        "thứ"
+      ],
+      "reviewedMeaningVi": [
+        "tuần",
+        "thứ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_244",
+      "word": "星期日",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "Chủ nhật"
+      ],
+      "reviewedMeaningVi": [
+        "Chủ nhật"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_245",
+      "word": "星期天",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "Chủ nhật"
+      ],
+      "reviewedMeaningVi": [
+        "Chủ nhật"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_246",
+      "word": "休息",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nghỉ ngơi",
+        "nghỉ"
+      ],
+      "reviewedMeaningVi": [
+        "nghỉ ngơi",
+        "nghỉ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_247",
+      "word": "学",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "học",
+        "học tập"
+      ],
+      "reviewedMeaningVi": [
+        "học",
+        "học tập"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_248",
+      "word": "学生",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "học sinh",
+        "sinh viên"
+      ],
+      "reviewedMeaningVi": [
+        "học sinh",
+        "sinh viên"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_249",
+      "word": "学习",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "học",
+        "học tập"
+      ],
+      "reviewedMeaningVi": [
+        "học",
+        "học tập"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_250",
+      "word": "学校",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "trường học"
+      ],
+      "reviewedMeaningVi": [
+        "trường học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_251",
+      "word": "雪",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tuyết"
+      ],
+      "reviewedMeaningVi": [
+        "tuyết"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_252",
+      "word": "要",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "muốn",
+        "cần",
+        "sẽ"
+      ],
+      "reviewedMeaningVi": [
+        "muốn",
+        "cần",
+        "sẽ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_253",
+      "word": "也",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cũng"
+      ],
+      "reviewedMeaningVi": [
+        "cũng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_254",
+      "word": "一",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "một"
+      ],
+      "reviewedMeaningVi": [
+        "một"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_255",
+      "word": "衣服",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "quần áo"
+      ],
+      "reviewedMeaningVi": [
+        "quần áo"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_256",
+      "word": "医生",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bác sĩ"
+      ],
+      "reviewedMeaningVi": [
+        "bác sĩ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_257",
+      "word": "医院",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bệnh viện"
+      ],
+      "reviewedMeaningVi": [
+        "bệnh viện"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_258",
+      "word": "一半",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "một nửa"
+      ],
+      "reviewedMeaningVi": [
+        "một nửa"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_259",
+      "word": "一下",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "một chút",
+        "một lát"
+      ],
+      "reviewedMeaningVi": [
+        "một chút",
+        "một lát"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_260",
+      "word": "椅子",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ghế"
+      ],
+      "reviewedMeaningVi": [
+        "ghế"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_261",
+      "word": "一点儿",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "một chút",
+        "một ít"
+      ],
+      "reviewedMeaningVi": [
+        "một chút",
+        "một ít"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_262",
+      "word": "一些",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "một ít",
+        "một số"
+      ],
+      "reviewedMeaningVi": [
+        "một ít",
+        "một số"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_263",
+      "word": "有",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "có"
+      ],
+      "reviewedMeaningVi": [
+        "có"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_264",
+      "word": "有的",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "có người/cái",
+        "một số"
+      ],
+      "reviewedMeaningVi": [
+        "có người/cái",
+        "một số"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_265",
+      "word": "有点儿",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "hơi",
+        "có chút"
+      ],
+      "reviewedMeaningVi": [
+        "hơi",
+        "có chút"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_266",
+      "word": "有些",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "một số",
+        "có chút"
+      ],
+      "reviewedMeaningVi": [
+        "một số",
+        "có chút"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_267",
+      "word": "雨",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "mưa"
+      ],
+      "reviewedMeaningVi": [
+        "mưa"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_268",
+      "word": "元",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nhân dân tệ",
+        "đồng tệ"
+      ],
+      "reviewedMeaningVi": [
+        "nhân dân tệ",
+        "đồng tệ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_269",
+      "word": "月",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tháng",
+        "mặt trăng"
+      ],
+      "reviewedMeaningVi": [
+        "tháng",
+        "mặt trăng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_270",
+      "word": "再",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "lại",
+        "thêm lần nữa"
+      ],
+      "reviewedMeaningVi": [
+        "lại",
+        "thêm lần nữa"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_271",
+      "word": "在",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ở",
+        "tại",
+        "đang"
+      ],
+      "reviewedMeaningVi": [
+        "ở",
+        "tại",
+        "đang"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_272",
+      "word": "再见",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tạm biệt",
+        "hẹn gặp lại"
+      ],
+      "reviewedMeaningVi": [
+        "tạm biệt",
+        "hẹn gặp lại"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_273",
+      "word": "早",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "sớm",
+        "chào buổi sáng"
+      ],
+      "reviewedMeaningVi": [
+        "sớm",
+        "chào buổi sáng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_274",
+      "word": "早饭",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bữa sáng",
+        "điểm tâm"
+      ],
+      "reviewedMeaningVi": [
+        "bữa sáng",
+        "điểm tâm"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_275",
+      "word": "早上",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "buổi sáng"
+      ],
+      "reviewedMeaningVi": [
+        "buổi sáng"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_276",
+      "word": "怎么",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "thế nào",
+        "làm sao"
+      ],
+      "reviewedMeaningVi": [
+        "thế nào",
+        "làm sao"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_277",
+      "word": "怎么样",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "thế nào",
+        "như thế nào"
+      ],
+      "reviewedMeaningVi": [
+        "thế nào",
+        "như thế nào"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_278",
+      "word": "找",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tìm",
+        "tìm kiếm"
+      ],
+      "reviewedMeaningVi": [
+        "tìm",
+        "tìm kiếm"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_279",
+      "word": "这",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "này",
+        "đây"
+      ],
+      "reviewedMeaningVi": [
+        "này",
+        "đây"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_280",
+      "word": "这边",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bên này",
+        "phía này"
+      ],
+      "reviewedMeaningVi": [
+        "bên này",
+        "phía này"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_281",
+      "word": "这个",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "cái/người này"
+      ],
+      "reviewedMeaningVi": [
+        "cái/người này"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_282",
+      "word": "这里",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ở đây",
+        "nơi này"
+      ],
+      "reviewedMeaningVi": [
+        "ở đây",
+        "nơi này"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_283",
+      "word": "这儿",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ở đây",
+        "chỗ này"
+      ],
+      "reviewedMeaningVi": [
+        "ở đây",
+        "chỗ này"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_284",
+      "word": "这些",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "những cái/người này"
+      ],
+      "reviewedMeaningVi": [
+        "những cái/người này"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_285",
+      "word": "真",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "thật",
+        "thực sự",
+        "rất"
+      ],
+      "reviewedMeaningVi": [
+        "thật",
+        "thực sự",
+        "rất"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_286",
+      "word": "正在",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "đang"
+      ],
+      "reviewedMeaningVi": [
+        "đang"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_287",
+      "word": "只",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "con/cái (lượng từ cho một số động vật",
+        "vật)",
+        "chỉ"
+      ],
+      "reviewedMeaningVi": [
+        "con/cái (lượng từ cho một số động vật",
+        "vật)",
+        "chỉ"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_288",
+      "word": "知道",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "biết"
+      ],
+      "reviewedMeaningVi": [
+        "biết"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_289",
+      "word": "中国",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "Trung Quốc"
+      ],
+      "reviewedMeaningVi": [
+        "Trung Quốc"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_290",
+      "word": "中文",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "tiếng Trung",
+        "chữ Trung"
+      ],
+      "reviewedMeaningVi": [
+        "tiếng Trung",
+        "chữ Trung"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_291",
+      "word": "中午",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "buổi trưa"
+      ],
+      "reviewedMeaningVi": [
+        "buổi trưa"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_292",
+      "word": "中学",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "trung học",
+        "trường trung học"
+      ],
+      "reviewedMeaningVi": [
+        "trung học",
+        "trường trung học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_293",
+      "word": "中学生",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "học sinh trung học"
+      ],
+      "reviewedMeaningVi": [
+        "học sinh trung học"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_294",
+      "word": "住",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "sống",
+        "ở",
+        "cư trú"
+      ],
+      "reviewedMeaningVi": [
+        "sống",
+        "ở",
+        "cư trú"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_295",
+      "word": "桌子",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "bàn"
+      ],
+      "reviewedMeaningVi": [
+        "bàn"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_296",
+      "word": "字",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "chữ",
+        "ký tự"
+      ],
+      "reviewedMeaningVi": [
+        "chữ",
+        "ký tự"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_297",
+      "word": "昨天",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "hôm qua"
+      ],
+      "reviewedMeaningVi": [
+        "hôm qua"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_298",
+      "word": "坐",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "ngồi",
+        "đi bằng (phương tiện)"
+      ],
+      "reviewedMeaningVi": [
+        "ngồi",
+        "đi bằng (phương tiện)"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_299",
+      "word": "做",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "làm"
+      ],
+      "reviewedMeaningVi": [
+        "làm"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    },
+    {
+      "id": "hsk1_300",
+      "word": "做饭",
+      "pinyin": null,
+      "candidateMeaningVi": [
+        "nấu ăn",
+        "làm cơm"
+      ],
+      "reviewedMeaningVi": [
+        "nấu ăn",
+        "làm cơm"
+      ],
+      "confidence": 1.0,
+      "routing": "HIGH",
+      "reason": "exact_match"
+    }
+  ],
+  "note": "This is a calibration experiment using HSK 1 reviewed data. The heuristic score is not an AI confidence guarantee and must not be treated as production calibration."
+}

@@ -1,0 +1,12 @@
+{
+  "baseRecords": 1600,
+  "candidateRecords": 1600,
+  "existingReviewedPreserved": 0,
+  "filledFromCandidates": 1600,
+  "finalReviewedFileRecords": 1600,
+  "humanVerified": 0,
+  "aiAssistedUnverified": 1600,
+  "unresolvedIds": [],
+  "productionCreated": false,
+  "status": "SUCCESS"
+}

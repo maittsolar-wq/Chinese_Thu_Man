@@ -1,0 +1,40 @@
+{
+  "status": "SUCCESS",
+  "level": 3,
+  "recordCount": 500,
+  "normalizedCount": 5,
+  "duplicateVisibleWordGroups": 1,
+  "duplicateVisibleWords": {
+    "得": [
+      "hsk3_083",
+      "hsk3_087"
+    ]
+  },
+  "changes": [
+    {
+      "sourceWord": "才1",
+      "normalizedWord": "才",
+      "sourceSort": 544
+    },
+    {
+      "sourceWord": "该1",
+      "normalizedWord": "该",
+      "sourceSort": 635
+    },
+    {
+      "sourceWord": "过去2",
+      "normalizedWord": "过去",
+      "sourceSort": 660
+    },
+    {
+      "sourceWord": "会2",
+      "normalizedWord": "会",
+      "sourceSort": 683
+    },
+    {
+      "sourceWord": "站2",
+      "normalizedWord": "站",
+      "sourceSort": 966
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "uniqueHanCharacters": 0,
+  "sourceStats": {},
+  "mapped": 0,
+  "pending": 0,
+  "verified": 0,
+  "status": "FAIL",
+  "note": "This is a mapping input package only. No character-to-radical relation was invented. Radical mapping remains pending until supported by a dedicated character-radical reference."
+}

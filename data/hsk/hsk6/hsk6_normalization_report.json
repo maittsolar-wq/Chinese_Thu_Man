@@ -1,0 +1,16 @@
+{
+  "sourceRowsLoaded": 11000,
+  "hsk6IntroducedRecords": 1800,
+  "uniqueSourceEntries": 1800,
+  "duplicateVisibleWordGroups": 0,
+  "duplicateVisibleWords": {},
+  "validations": {
+    "hsk6IntroducedRecordsExtracted": true,
+    "nonEmptyChineseWords": true,
+    "nonEmptyPinyin": true,
+    "hsk6LevelMapping": true,
+    "sequentialIds": true,
+    "duplicateVisibleWordsAllowed": true
+  },
+  "production": false
+}

@@ -1,0 +1,24 @@
+{
+  "records": 1940,
+  "resolved": 1940,
+  "unresolved": 0,
+  "invalid": 0,
+  "finalExceptionCharacters": [
+    "户",
+    "房",
+    "所",
+    "扇"
+  ],
+  "finalExceptionResolved": [
+    "户",
+    "房",
+    "所",
+    "扇"
+  ],
+  "radicalIndex": 63,
+  "radicalCharacter": "户",
+  "source": "Kangxi radical index / 戶部 (部首)",
+  "sourceUrl": "https://zh.wikipedia.org/wiki/戶部_(部首)",
+  "status": "PASS",
+  "note": "The four remaining exceptions are explicitly documented as members of 戶部/户部, Kangxi radical 63. No AI inference was used."
+}

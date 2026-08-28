@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "level": 2,
+  "expectedRecords": 200,
+  "actualRecords": 200,
+  "errors": [],
+  "warnings": [
+    "2 Chinese words have multiple source entries; this is allowed."
+  ],
+  "checks": {
+    "recordCount": true,
+    "ids": true,
+    "sourceSort": true,
+    "words": true,
+    "pinyin": true,
+    "introducedLevel": true,
+    "hskLevels": true,
+    "sourceLevelName": true,
+    "baseMeaningState": true
+  }
+}

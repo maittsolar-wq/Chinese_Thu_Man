@@ -1,0 +1,7240 @@
+{
+  "datasetName": "Chinese Thu Man HSK 1",
+  "type": "AI_MEANING_CANDIDATE_INPUT",
+  "version": 1,
+  "recordCount": 300,
+  "groundTruthIncluded": false,
+  "productionIncluded": false,
+  "records": [
+    {
+      "id": "hsk1_001",
+      "word": "爱",
+      "pinyin": "ài",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 1,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_002",
+      "word": "八",
+      "pinyin": "bā",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 2,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_003",
+      "word": "爸爸",
+      "pinyin": "bàba",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 3,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_004",
+      "word": "吧",
+      "pinyin": "ba",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "助"
+      ],
+      "partOfSpeechSource": "助",
+      "sourceSort": 4,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_005",
+      "word": "白天",
+      "pinyin": "báitiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 5,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_006",
+      "word": "百",
+      "pinyin": "bǎi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 6,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_007",
+      "word": "半",
+      "pinyin": "bàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        4
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数、（副）",
+      "sourceSort": 7,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_008",
+      "word": "包子",
+      "pinyin": "bāozi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 8,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_009",
+      "word": "杯子",
+      "pinyin": "bēizi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 9,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_010",
+      "word": "本",
+      "pinyin": "běn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量",
+      "sourceSort": 10,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_011",
+      "word": "边",
+      "pinyin": "biān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名",
+        "后缀"
+      ],
+      "partOfSpeechSource": "名、后缀",
+      "sourceSort": 11,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_012",
+      "word": "病",
+      "pinyin": "bìng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名",
+        "动"
+      ],
+      "partOfSpeechSource": "名、动",
+      "sourceSort": 12,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_013",
+      "word": "不",
+      "pinyin": "bù",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 13,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_014",
+      "word": "不客气",
+      "pinyin": "bú kèqi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [],
+      "partOfSpeechSource": "",
+      "sourceSort": 14,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_015",
+      "word": "不要",
+      "pinyin": "búyào",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 15,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_016",
+      "word": "菜",
+      "pinyin": "cài",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 16,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_017",
+      "word": "茶",
+      "pinyin": "chá",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 17,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_018",
+      "word": "唱",
+      "pinyin": "chàng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 18,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_019",
+      "word": "超市",
+      "pinyin": "chāoshì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 19,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_020",
+      "word": "车",
+      "pinyin": "chē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 20,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_021",
+      "word": "吃",
+      "pinyin": "chī",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 21,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_022",
+      "word": "出租车",
+      "pinyin": "chūzūchē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 22,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_023",
+      "word": "穿",
+      "pinyin": "chuān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 23,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_024",
+      "word": "打电话",
+      "pinyin": "dǎ diànhuà",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [],
+      "partOfSpeechSource": "",
+      "sourceSort": 24,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_025",
+      "word": "大",
+      "pinyin": "dà",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 25,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_026",
+      "word": "大家",
+      "pinyin": "dàjiā",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 26,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_027",
+      "word": "大学",
+      "pinyin": "dàxué",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 27,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_028",
+      "word": "大学生",
+      "pinyin": "dàxuéshēng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 28,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_029",
+      "word": "到",
+      "pinyin": "dào",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 29,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_030",
+      "word": "的",
+      "pinyin": "de",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "助"
+      ],
+      "partOfSpeechSource": "助",
+      "sourceSort": 30,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_031",
+      "word": "第",
+      "pinyin": "dì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "前缀"
+      ],
+      "partOfSpeechSource": "前缀",
+      "sourceSort": 31,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_032",
+      "word": "弟弟",
+      "pinyin": "dìdi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 32,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_033",
+      "word": "点",
+      "pinyin": "diǎn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        3
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量、（名）",
+      "sourceSort": 33,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_034",
+      "word": "店",
+      "pinyin": "diàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 34,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_035",
+      "word": "电话",
+      "pinyin": "diànhuà",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 35,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_036",
+      "word": "电脑",
+      "pinyin": "diànnǎo",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 36,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_037",
+      "word": "电视",
+      "pinyin": "diànshì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 37,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_038",
+      "word": "电影",
+      "pinyin": "diànyǐng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 38,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_039",
+      "word": "电影院",
+      "pinyin": "diànyǐngyuàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 39,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_040",
+      "word": "东西",
+      "pinyin": "dōngxi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 40,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_041",
+      "word": "都",
+      "pinyin": "dōu",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 41,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_042",
+      "word": "读",
+      "pinyin": "dú",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 42,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_043",
+      "word": "读书",
+      "pinyin": "dúshū",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 43,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_044",
+      "word": "对",
+      "pinyin": "duì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        4
+      ],
+      "partOfSpeech": [
+        "形",
+        "介",
+        "量）"
+      ],
+      "partOfSpeechSource": "形、介、（动、量）",
+      "sourceSort": 44,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_045",
+      "word": "对不起",
+      "pinyin": "duìbuqǐ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 45,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_046",
+      "word": "多",
+      "pinyin": "duō",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        2
+      ],
+      "partOfSpeech": [
+        "形",
+        "动",
+        "代",
+        "副）"
+      ],
+      "partOfSpeechSource": "形、动、代、（数、副）",
+      "sourceSort": 46,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_047",
+      "word": "多少",
+      "pinyin": "duōshao",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 47,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_048",
+      "word": "儿子",
+      "pinyin": "érzi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 48,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_049",
+      "word": "二",
+      "pinyin": "èr",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 49,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_050",
+      "word": "饭",
+      "pinyin": "fàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 50,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_051",
+      "word": "饭店",
+      "pinyin": "fàndiàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 51,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_052",
+      "word": "房间",
+      "pinyin": "fángjiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 52,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_053",
+      "word": "非常",
+      "pinyin": "fēicháng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 53,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_054",
+      "word": "飞机",
+      "pinyin": "fēijī",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 54,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_055",
+      "word": "分",
+      "pinyin": "fēn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        3
+      ],
+      "partOfSpeech": [
+        "量",
+        "名）"
+      ],
+      "partOfSpeechSource": "量、（动、名）",
+      "sourceSort": 55,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_056",
+      "word": "分钟",
+      "pinyin": "fēnzhōng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量",
+      "sourceSort": 56,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_057",
+      "word": "高兴",
+      "pinyin": "gāoxìng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 57,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_058",
+      "word": "歌",
+      "pinyin": "gē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 58,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_059",
+      "word": "哥哥",
+      "pinyin": "gēge",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 59,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_060",
+      "word": "个",
+      "pinyin": "gè",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量",
+      "sourceSort": 60,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_061",
+      "word": "给",
+      "pinyin": "gěi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        2
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动、（介）",
+      "sourceSort": 61,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_062",
+      "word": "公司",
+      "pinyin": "gōngsī",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 62,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_063",
+      "word": "工作",
+      "pinyin": "gōngzuò",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动",
+        "名"
+      ],
+      "partOfSpeechSource": "动、名",
+      "sourceSort": 63,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_064",
+      "word": "狗",
+      "pinyin": "gǒu",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 64,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_065",
+      "word": "贵",
+      "pinyin": "guì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 65,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_066",
+      "word": "国",
+      "pinyin": "guó",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 66,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_067",
+      "word": "还",
+      "pinyin": "hái",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 67,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_068",
+      "word": "孩子",
+      "pinyin": "háizi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 68,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_069",
+      "word": "汉语",
+      "pinyin": "Hànyǔ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 69,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_070",
+      "word": "汉字",
+      "pinyin": "Hànzì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 70,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_071",
+      "word": "好",
+      "pinyin": "hǎo",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        2,
+        4
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形、（副）、（动）",
+      "sourceSort": 71,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_072",
+      "word": "好吃",
+      "pinyin": "hǎochī",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 72,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_073",
+      "word": "好看",
+      "pinyin": "hǎokàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 73,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_074",
+      "word": "好听",
+      "pinyin": "hǎotīng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 74,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_075",
+      "word": "好玩儿",
+      "pinyin": "hǎowánr",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 75,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_076",
+      "word": "号",
+      "pinyin": "hào",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名",
+        "量"
+      ],
+      "partOfSpeechSource": "名、量",
+      "sourceSort": 76,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_077",
+      "word": "喝",
+      "pinyin": "hē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 77,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_078",
+      "word": "和",
+      "pinyin": "hé",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "介",
+        "连"
+      ],
+      "partOfSpeechSource": "介、连",
+      "sourceSort": 78,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_079",
+      "word": "很",
+      "pinyin": "hěn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 79,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_080",
+      "word": "后",
+      "pinyin": "hòu",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 80,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_081",
+      "word": "回",
+      "pinyin": "huí",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        3
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动、（量）",
+      "sourceSort": 81,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_082",
+      "word": "会",
+      "pinyin": "huì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 82,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_083",
+      "word": "火车",
+      "pinyin": "huǒchē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 83,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_084",
+      "word": "鸡蛋",
+      "pinyin": "jīdàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 84,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_085",
+      "word": "几",
+      "pinyin": "jǐ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代",
+        "数"
+      ],
+      "partOfSpeechSource": "代、数",
+      "sourceSort": 85,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_086",
+      "word": "家",
+      "pinyin": "jiā",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        3
+      ],
+      "partOfSpeech": [
+        "名",
+        "量"
+      ],
+      "partOfSpeechSource": "名、量、（后缀）",
+      "sourceSort": 86,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_087",
+      "word": "家人",
+      "pinyin": "jiārén",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 87,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_088",
+      "word": "见",
+      "pinyin": "jiàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 88,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_089",
+      "word": "件",
+      "pinyin": "jiàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量",
+      "sourceSort": 89,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_090",
+      "word": "饺子",
+      "pinyin": "jiǎozi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 90,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_091",
+      "word": "叫",
+      "pinyin": "jiào",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        4
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动、（介）",
+      "sourceSort": 91,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_092",
+      "word": "姐姐",
+      "pinyin": "jiějie",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 92,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_093",
+      "word": "今年",
+      "pinyin": "jīnnián",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 93,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_094",
+      "word": "今天",
+      "pinyin": "jīntiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 94,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_095",
+      "word": "九",
+      "pinyin": "jiǔ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 95,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_096",
+      "word": "觉得",
+      "pinyin": "juéde",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 96,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_097",
+      "word": "开",
+      "pinyin": "kāi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 97,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_098",
+      "word": "开车",
+      "pinyin": "kāichē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 98,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_099",
+      "word": "看",
+      "pinyin": "kàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 99,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_100",
+      "word": "看病",
+      "pinyin": "kànbìng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 100,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_101",
+      "word": "看见",
+      "pinyin": "kànjiàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 101,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_102",
+      "word": "可以",
+      "pinyin": "kěyǐ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动",
+        "形"
+      ],
+      "partOfSpeechSource": "动、形",
+      "sourceSort": 102,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_103",
+      "word": "课",
+      "pinyin": "kè",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 103,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_104",
+      "word": "口",
+      "pinyin": "kǒu",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名",
+        "量"
+      ],
+      "partOfSpeechSource": "名、量",
+      "sourceSort": 104,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_105",
+      "word": "块",
+      "pinyin": "kuài",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量",
+      "sourceSort": 105,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_106",
+      "word": "来",
+      "pinyin": "lái",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 106,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_107",
+      "word": "老师",
+      "pinyin": "lǎoshī",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 107,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_108",
+      "word": "了",
+      "pinyin": "le",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "助"
+      ],
+      "partOfSpeechSource": "助",
+      "sourceSort": 108,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_109",
+      "word": "冷",
+      "pinyin": "lěng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 109,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_110",
+      "word": "里",
+      "pinyin": "lǐ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 110,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_111",
+      "word": "两",
+      "pinyin": "liǎng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 111,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_112",
+      "word": "零",
+      "pinyin": "líng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 112,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_113",
+      "word": "六",
+      "pinyin": "liù",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 113,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_114",
+      "word": "妈妈",
+      "pinyin": "māma",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 114,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_115",
+      "word": "吗",
+      "pinyin": "ma",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "助"
+      ],
+      "partOfSpeechSource": "助",
+      "sourceSort": 115,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_116",
+      "word": "买",
+      "pinyin": "mǎi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 116,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_117",
+      "word": "卖",
+      "pinyin": "mài",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 117,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_118",
+      "word": "忙",
+      "pinyin": "máng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形",
+        "动"
+      ],
+      "partOfSpeechSource": "形、动",
+      "sourceSort": 118,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_119",
+      "word": "猫",
+      "pinyin": "māo",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 119,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_120",
+      "word": "没关系",
+      "pinyin": "méi guānxi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [],
+      "partOfSpeechSource": "",
+      "sourceSort": 120,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_121",
+      "word": "没事",
+      "pinyin": "méishì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 121,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_122",
+      "word": "没有",
+      "pinyin": "méiyǒu",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动",
+        "副"
+      ],
+      "partOfSpeechSource": "动、副",
+      "sourceSort": 122,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_123",
+      "word": "妹妹",
+      "pinyin": "mèimei",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 123,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_124",
+      "word": "们",
+      "pinyin": "men",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "后缀"
+      ],
+      "partOfSpeechSource": "后缀",
+      "sourceSort": 124,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_125",
+      "word": "米饭",
+      "pinyin": "mǐfàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 125,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_126",
+      "word": "面包",
+      "pinyin": "miànbāo",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 126,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_127",
+      "word": "面条儿",
+      "pinyin": "miàntiáor",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 127,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_128",
+      "word": "明年",
+      "pinyin": "míngnián",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 128,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_129",
+      "word": "明天",
+      "pinyin": "míngtiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 129,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_130",
+      "word": "名字",
+      "pinyin": "míngzi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 130,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_131",
+      "word": "哪",
+      "pinyin": "nǎ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 131,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_132",
+      "word": "哪个",
+      "pinyin": "nǎge",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 132,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_133",
+      "word": "哪里",
+      "pinyin": "nǎlǐ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 133,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_134",
+      "word": "哪儿",
+      "pinyin": "nǎr",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 134,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_135",
+      "word": "哪些",
+      "pinyin": "nǎxiē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 135,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_136",
+      "word": "那",
+      "pinyin": "nà",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        2
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代、（连）",
+      "sourceSort": 136,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_137",
+      "word": "那边",
+      "pinyin": "nàbiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 137,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_138",
+      "word": "那个",
+      "pinyin": "nàge",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 138,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_139",
+      "word": "那里",
+      "pinyin": "nàlǐ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 139,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_140",
+      "word": "那儿",
+      "pinyin": "nàr",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 140,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_141",
+      "word": "那些",
+      "pinyin": "nàxiē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 141,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_142",
+      "word": "男",
+      "pinyin": "nán",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 142,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_143",
+      "word": "男朋友",
+      "pinyin": "nánpéngyou",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 143,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_144",
+      "word": "呢",
+      "pinyin": "ne",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "助"
+      ],
+      "partOfSpeechSource": "助",
+      "sourceSort": 144,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_145",
+      "word": "能",
+      "pinyin": "néng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 145,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_146",
+      "word": "你",
+      "pinyin": "nǐ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 146,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_147",
+      "word": "你好",
+      "pinyin": "nǐ hǎo",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [],
+      "partOfSpeechSource": "",
+      "sourceSort": 147,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_148",
+      "word": "你们",
+      "pinyin": "nǐmen",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 148,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_149",
+      "word": "年",
+      "pinyin": "nián",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名",
+        "量"
+      ],
+      "partOfSpeechSource": "名、量",
+      "sourceSort": 149,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_150",
+      "word": "您",
+      "pinyin": "nín",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 150,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_151",
+      "word": "牛奶",
+      "pinyin": "niúnǎi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 151,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_152",
+      "word": "女",
+      "pinyin": "nǚ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 152,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_153",
+      "word": "女儿",
+      "pinyin": "nǚ’ér",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 153,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_154",
+      "word": "女朋友",
+      "pinyin": "nǚpéngyou",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 154,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_155",
+      "word": "女士",
+      "pinyin": "nǚshì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 155,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_156",
+      "word": "朋友",
+      "pinyin": "péngyou",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 156,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_157",
+      "word": "便宜",
+      "pinyin": "piányi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 157,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_158",
+      "word": "漂亮",
+      "pinyin": "piàoliang",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 158,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_159",
+      "word": "苹果",
+      "pinyin": "píngguǒ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 159,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_160",
+      "word": "七",
+      "pinyin": "qī",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 160,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_161",
+      "word": "起床",
+      "pinyin": "qǐchuáng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 161,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_162",
+      "word": "千",
+      "pinyin": "qiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 162,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_163",
+      "word": "前",
+      "pinyin": "qián",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 163,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_164",
+      "word": "钱",
+      "pinyin": "qián",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 164,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_165",
+      "word": "请",
+      "pinyin": "qǐng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 165,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_166",
+      "word": "请问",
+      "pinyin": "qǐngwèn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 166,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_167",
+      "word": "去",
+      "pinyin": "qù",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 167,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_168",
+      "word": "去年",
+      "pinyin": "qùnián",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 168,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_169",
+      "word": "热",
+      "pinyin": "rè",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 169,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_170",
+      "word": "人",
+      "pinyin": "rén",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 170,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_171",
+      "word": "认识",
+      "pinyin": "rènshi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 171,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_172",
+      "word": "日",
+      "pinyin": "rì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        4
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量、（名）",
+      "sourceSort": 172,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_173",
+      "word": "三",
+      "pinyin": "sān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 173,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_174",
+      "word": "商店",
+      "pinyin": "shāngdiàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 174,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_175",
+      "word": "上",
+      "pinyin": "shàng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名",
+        "动"
+      ],
+      "partOfSpeechSource": "名、动",
+      "sourceSort": 175,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_176",
+      "word": "上班",
+      "pinyin": "shàngbān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 176,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_177",
+      "word": "上课",
+      "pinyin": "shàngkè",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 177,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_178",
+      "word": "上午",
+      "pinyin": "shàngwǔ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 178,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_179",
+      "word": "上学",
+      "pinyin": "shàngxué",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 179,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_180",
+      "word": "少",
+      "pinyin": "shǎo",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形",
+        "动"
+      ],
+      "partOfSpeechSource": "形、动",
+      "sourceSort": 180,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_181",
+      "word": "谁",
+      "pinyin": "shéi/shuí",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 181,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_182",
+      "word": "什么",
+      "pinyin": "shénme",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 182,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_183",
+      "word": "生病",
+      "pinyin": "shēngbìng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 183,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_184",
+      "word": "十",
+      "pinyin": "shí",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 184,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_185",
+      "word": "时候",
+      "pinyin": "shíhou",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 185,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_186",
+      "word": "时间",
+      "pinyin": "shíjiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 186,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_187",
+      "word": "事",
+      "pinyin": "shì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 187,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_188",
+      "word": "是",
+      "pinyin": "shì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 188,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_189",
+      "word": "手机",
+      "pinyin": "shǒujī",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 189,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_190",
+      "word": "书",
+      "pinyin": "shū",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 190,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_191",
+      "word": "书店",
+      "pinyin": "shūdiàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 191,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_192",
+      "word": "水",
+      "pinyin": "shuǐ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 192,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_193",
+      "word": "水果",
+      "pinyin": "shuǐguǒ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 193,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_194",
+      "word": "睡",
+      "pinyin": "shuì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 194,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_195",
+      "word": "睡觉",
+      "pinyin": "shuìjiào",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 195,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_196",
+      "word": "说",
+      "pinyin": "shuō",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 196,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_197",
+      "word": "说话",
+      "pinyin": "shuōhuà",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 197,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_198",
+      "word": "四",
+      "pinyin": "sì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 198,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_199",
+      "word": "岁",
+      "pinyin": "suì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量",
+      "sourceSort": 199,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_200",
+      "word": "他",
+      "pinyin": "tā",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 200,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_201",
+      "word": "它",
+      "pinyin": "tā",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 201,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_202",
+      "word": "她",
+      "pinyin": "tā",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 202,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_203",
+      "word": "他们",
+      "pinyin": "tāmen",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 203,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_204",
+      "word": "它们",
+      "pinyin": "tāmen",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 204,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_205",
+      "word": "她们",
+      "pinyin": "tāmen",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 205,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_206",
+      "word": "太",
+      "pinyin": "tài",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 206,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_207",
+      "word": "天",
+      "pinyin": "tiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名",
+        "量"
+      ],
+      "partOfSpeechSource": "名、量",
+      "sourceSort": 207,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_208",
+      "word": "天气",
+      "pinyin": "tiānqì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 208,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_209",
+      "word": "听",
+      "pinyin": "tīng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 209,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_210",
+      "word": "听见",
+      "pinyin": "tīngjiàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 210,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_211",
+      "word": "同学",
+      "pinyin": "tóngxué",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 211,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_212",
+      "word": "外",
+      "pinyin": "wài",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 212,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_213",
+      "word": "外边",
+      "pinyin": "wàibian",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 213,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_214",
+      "word": "玩",
+      "pinyin": "wán",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 214,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_215",
+      "word": "晚",
+      "pinyin": "wǎn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 215,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_216",
+      "word": "晚饭",
+      "pinyin": "wǎnfàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 216,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_217",
+      "word": "晚上",
+      "pinyin": "wǎnshang",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 217,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_218",
+      "word": "喂",
+      "pinyin": "wèi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "叹"
+      ],
+      "partOfSpeechSource": "叹",
+      "sourceSort": 218,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_219",
+      "word": "问",
+      "pinyin": "wèn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 219,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_220",
+      "word": "问题",
+      "pinyin": "wèntí",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 220,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_221",
+      "word": "我",
+      "pinyin": "wǒ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 221,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_222",
+      "word": "我们",
+      "pinyin": "wǒmen",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 222,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_223",
+      "word": "五",
+      "pinyin": "wǔ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 223,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_224",
+      "word": "午饭",
+      "pinyin": "wǔfàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 224,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_225",
+      "word": "喜欢",
+      "pinyin": "xǐhuan",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 225,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_226",
+      "word": "下",
+      "pinyin": "xià",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名",
+        "动",
+        "量"
+      ],
+      "partOfSpeechSource": "名、动、量",
+      "sourceSort": 226,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_227",
+      "word": "下雨",
+      "pinyin": "xià yǔ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [],
+      "partOfSpeechSource": "",
+      "sourceSort": 227,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_228",
+      "word": "下班",
+      "pinyin": "xiàbān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 228,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_229",
+      "word": "下课",
+      "pinyin": "xiàkè",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 229,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_230",
+      "word": "下午",
+      "pinyin": "xiàwǔ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 230,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_231",
+      "word": "先生",
+      "pinyin": "xiānsheng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 231,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_232",
+      "word": "现在",
+      "pinyin": "xiànzài",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 232,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_233",
+      "word": "想",
+      "pinyin": "xiǎng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 233,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_234",
+      "word": "小",
+      "pinyin": "xiǎo",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形",
+        "前缀"
+      ],
+      "partOfSpeechSource": "形、前缀",
+      "sourceSort": 234,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_235",
+      "word": "小朋友",
+      "pinyin": "xiǎopéngyǒu",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 235,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_236",
+      "word": "小时",
+      "pinyin": "xiǎoshí",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 236,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_237",
+      "word": "小学",
+      "pinyin": "xiǎoxué",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 237,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_238",
+      "word": "小学生",
+      "pinyin": "xiǎoxuéshēng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 238,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_239",
+      "word": "些",
+      "pinyin": "xiē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量",
+      "sourceSort": 239,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_240",
+      "word": "写",
+      "pinyin": "xiě",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 240,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_241",
+      "word": "谢谢",
+      "pinyin": "xièxie",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 241,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_242",
+      "word": "新",
+      "pinyin": "xīn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 242,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_243",
+      "word": "星期",
+      "pinyin": "xīngqī",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 243,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_244",
+      "word": "星期日",
+      "pinyin": "xīngqīrì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 244,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_245",
+      "word": "星期天",
+      "pinyin": "xīngqītiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 245,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_246",
+      "word": "休息",
+      "pinyin": "xiūxi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 246,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_247",
+      "word": "学",
+      "pinyin": "xué",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 247,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_248",
+      "word": "学生",
+      "pinyin": "xuéshēng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 248,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_249",
+      "word": "学习",
+      "pinyin": "xuéxí",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 249,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_250",
+      "word": "学校",
+      "pinyin": "xuéxiào",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 250,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_251",
+      "word": "雪",
+      "pinyin": "xuě",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 251,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_252",
+      "word": "要",
+      "pinyin": "yào",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 252,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_253",
+      "word": "也",
+      "pinyin": "yě",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 253,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_254",
+      "word": "一",
+      "pinyin": "yī",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 254,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_255",
+      "word": "衣服",
+      "pinyin": "yīfu",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 255,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_256",
+      "word": "医生",
+      "pinyin": "yīshēng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 256,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_257",
+      "word": "医院",
+      "pinyin": "yīyuàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 257,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_258",
+      "word": "一半",
+      "pinyin": "yíbàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数"
+      ],
+      "partOfSpeechSource": "数",
+      "sourceSort": 258,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_259",
+      "word": "一下",
+      "pinyin": "yíxià",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        4
+      ],
+      "partOfSpeech": [
+        "数量"
+      ],
+      "partOfSpeechSource": "数量、（副）",
+      "sourceSort": 259,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_260",
+      "word": "椅子",
+      "pinyin": "yǐzi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 260,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_261",
+      "word": "一点儿",
+      "pinyin": "yìdiǎnr",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数量"
+      ],
+      "partOfSpeechSource": "数量",
+      "sourceSort": 261,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_262",
+      "word": "一些",
+      "pinyin": "yìxiē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "数量"
+      ],
+      "partOfSpeechSource": "数量",
+      "sourceSort": 262,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_263",
+      "word": "有",
+      "pinyin": "yǒu",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 263,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_264",
+      "word": "有的",
+      "pinyin": "yǒude",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 264,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_265",
+      "word": "有点儿",
+      "pinyin": "yǒudiǎnr",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 265,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_266",
+      "word": "有些",
+      "pinyin": "yǒuxiē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        3
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代、（副）",
+      "sourceSort": 266,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_267",
+      "word": "雨",
+      "pinyin": "yǔ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 267,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_268",
+      "word": "元",
+      "pinyin": "yuán",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量",
+      "sourceSort": 268,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_269",
+      "word": "月",
+      "pinyin": "yuè",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 269,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_270",
+      "word": "再",
+      "pinyin": "zài",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 270,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_271",
+      "word": "在",
+      "pinyin": "zài",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动",
+        "介",
+        "副"
+      ],
+      "partOfSpeechSource": "动、介、副",
+      "sourceSort": 271,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_272",
+      "word": "再见",
+      "pinyin": "zàijiàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 272,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_273",
+      "word": "早",
+      "pinyin": "zǎo",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "形"
+      ],
+      "partOfSpeechSource": "形",
+      "sourceSort": 273,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_274",
+      "word": "早饭",
+      "pinyin": "zǎofàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 274,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_275",
+      "word": "早上",
+      "pinyin": "zǎoshang",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 275,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_276",
+      "word": "怎么",
+      "pinyin": "zěnme",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 276,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_277",
+      "word": "怎么样",
+      "pinyin": "zěnmeyàng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 277,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_278",
+      "word": "找",
+      "pinyin": "zhǎo",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 278,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_279",
+      "word": "这",
+      "pinyin": "zhè",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 279,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_280",
+      "word": "这边",
+      "pinyin": "zhèbiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 280,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_281",
+      "word": "这个",
+      "pinyin": "zhège",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 281,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_282",
+      "word": "这里",
+      "pinyin": "zhèlǐ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 282,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_283",
+      "word": "这儿",
+      "pinyin": "zhèr",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 283,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_284",
+      "word": "这些",
+      "pinyin": "zhèxiē",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "代"
+      ],
+      "partOfSpeechSource": "代",
+      "sourceSort": 284,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_285",
+      "word": "真",
+      "pinyin": "zhēn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1,
+        4
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副、（形）",
+      "sourceSort": 285,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_286",
+      "word": "正在",
+      "pinyin": "zhèngzài",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "副"
+      ],
+      "partOfSpeechSource": "副",
+      "sourceSort": 286,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_287",
+      "word": "只",
+      "pinyin": "zhī",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "量"
+      ],
+      "partOfSpeechSource": "量",
+      "sourceSort": 287,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_288",
+      "word": "知道",
+      "pinyin": "zhīdào",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 288,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_289",
+      "word": "中国",
+      "pinyin": "Zhōngguó",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 289,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_290",
+      "word": "中文",
+      "pinyin": "Zhōngwén",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 290,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_291",
+      "word": "中午",
+      "pinyin": "zhōngwǔ",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 291,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_292",
+      "word": "中学",
+      "pinyin": "zhōngxué",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 292,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_293",
+      "word": "中学生",
+      "pinyin": "zhōngxuéshēng",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 293,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_294",
+      "word": "住",
+      "pinyin": "zhù",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 294,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_295",
+      "word": "桌子",
+      "pinyin": "zhuōzi",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 295,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_296",
+      "word": "字",
+      "pinyin": "zì",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 296,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_297",
+      "word": "昨天",
+      "pinyin": "zuótiān",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "名"
+      ],
+      "partOfSpeechSource": "名",
+      "sourceSort": 297,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_298",
+      "word": "坐",
+      "pinyin": "zuò",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 298,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_299",
+      "word": "做",
+      "pinyin": "zuò",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [
+        "动"
+      ],
+      "partOfSpeechSource": "动",
+      "sourceSort": 299,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    },
+    {
+      "id": "hsk1_300",
+      "word": "做饭",
+      "pinyin": "zuò fàn",
+      "introducedLevel": 1,
+      "hskLevels": [
+        1
+      ],
+      "partOfSpeech": [],
+      "partOfSpeechSource": "",
+      "sourceSort": 300,
+      "aiCandidate": {
+        "meaningVi": [],
+        "source": "ai",
+        "model": null,
+        "modelVersion": null,
+        "generatedAt": null,
+        "confidence": null,
+        "reasoning": null
+      },
+      "reviewStatus": "not_generated"
+    }
+  ]
+}

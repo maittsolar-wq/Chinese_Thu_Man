@@ -1,0 +1,3840 @@
+{
+  "status": "ROUTING_COMPLETE",
+  "level": 2,
+  "recordCount": 200,
+  "sourceRouting": {
+    "HIGH": 187,
+    "MEDIUM": 13,
+    "LOW": 0
+  },
+  "reviewTypes": {
+    "LIGHT_VERIFICATION": 187,
+    "FULL_REVIEW": 13
+  },
+  "calibrationReference": {
+    "used": true,
+    "data": {
+      "available": true,
+      "highPrecision": 1.0,
+      "recordsCompared": 0,
+      "exactMatches": 300,
+      "high": null
+    },
+    "note": "HSK 1 calibration is supporting evidence only. It does not independently verify HSK 2 translations."
+  },
+  "policy": {
+    "autoApproval": false,
+    "productionApproval": false,
+    "highMeansAccuracyVerified": false,
+    "highAction": "LIGHT_VERIFICATION",
+    "mediumAction": "FULL_REVIEW",
+    "lowAction": "FULL_REVIEW"
+  },
+  "records": [
+    {
+      "id": "hsk2_001",
+      "word": "啊",
+      "pinyin": "a",
+      "partOfSpeech": [
+        "助"
+      ],
+      "candidateMeanings": [
+        "à, ồ, a"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_002",
+      "word": "爱好",
+      "pinyin": "àihào",
+      "partOfSpeech": [
+        "动",
+        "名"
+      ],
+      "candidateMeanings": [
+        "sở thích",
+        "yêu thích"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_003",
+      "word": "白色",
+      "pinyin": "báisè",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "màu trắng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_004",
+      "word": "班",
+      "pinyin": "bān",
+      "partOfSpeech": [
+        "名",
+        "（量）"
+      ],
+      "candidateMeanings": [
+        "lớp",
+        "ca, kíp"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_005",
+      "word": "帮",
+      "pinyin": "bāng",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "giúp",
+        "giúp đỡ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_006",
+      "word": "帮忙",
+      "pinyin": "bāngmáng",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "giúp đỡ",
+        "giúp một tay"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_007",
+      "word": "包",
+      "pinyin": "bāo",
+      "partOfSpeech": [
+        "动",
+        "名",
+        "量"
+      ],
+      "candidateMeanings": [
+        "gói; bọc",
+        "túi, bao",
+        "gói (lượng từ)"
+      ],
+      "structuralScore": 0.85,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_008",
+      "word": "本子",
+      "pinyin": "běnzi",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "vở",
+        "quyển sổ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_009",
+      "word": "比",
+      "pinyin": "bǐ",
+      "partOfSpeech": [
+        "动",
+        "介"
+      ],
+      "candidateMeanings": [
+        "so sánh",
+        "hơn; so với"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_010",
+      "word": "笔",
+      "pinyin": "bǐ",
+      "partOfSpeech": [
+        "名",
+        "（量）"
+      ],
+      "candidateMeanings": [
+        "bút",
+        "cây bút (lượng từ)"
+      ],
+      "structuralScore": 0.85,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_011",
+      "word": "别",
+      "pinyin": "bié",
+      "partOfSpeech": [
+        "副"
+      ],
+      "candidateMeanings": [
+        "đừng",
+        "khác; khác biệt"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_012",
+      "word": "不错",
+      "pinyin": "búcuò",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "không tệ",
+        "tốt, khá tốt"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_013",
+      "word": "不好意思",
+      "pinyin": "bù hǎoyìsi",
+      "partOfSpeech": [],
+      "candidateMeanings": [
+        "ngại quá",
+        "xin lỗi",
+        "ngại, xấu hổ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_014",
+      "word": "长",
+      "pinyin": "cháng",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "dài"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_015",
+      "word": "车站",
+      "pinyin": "chēzhàn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "ga; trạm xe"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_016",
+      "word": "出",
+      "pinyin": "chū",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "ra",
+        "đi ra",
+        "xuất hiện"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_017",
+      "word": "出国",
+      "pinyin": "chūguó",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "ra nước ngoài",
+        "đi nước ngoài"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_018",
+      "word": "出来",
+      "pinyin": "chūlái",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi ra; ra ngoài",
+        "xuất hiện"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_019",
+      "word": "出门",
+      "pinyin": "chūmén",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "ra khỏi nhà",
+        "ra ngoài"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_020",
+      "word": "出去",
+      "pinyin": "chūqù",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi ra ngoài",
+        "ra khỏi"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_021",
+      "word": "床",
+      "pinyin": "chuáng",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "giường"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_022",
+      "word": "词",
+      "pinyin": "cí",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "từ",
+        "từ ngữ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_023",
+      "word": "次",
+      "pinyin": "cì",
+      "partOfSpeech": [
+        "量",
+        "（形）"
+      ],
+      "candidateMeanings": [
+        "lần",
+        "thứ, lần thứ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_024",
+      "word": "从",
+      "pinyin": "cóng",
+      "partOfSpeech": [
+        "介",
+        "（副）"
+      ],
+      "candidateMeanings": [
+        "từ",
+        "từ...",
+        "theo, từ phía"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_025",
+      "word": "从小",
+      "pinyin": "cóngxiǎo",
+      "partOfSpeech": [
+        "副"
+      ],
+      "candidateMeanings": [
+        "từ nhỏ",
+        "từ khi còn bé"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_026",
+      "word": "错",
+      "pinyin": "cuò",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "sai",
+        "nhầm"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_027",
+      "word": "打",
+      "pinyin": "dǎ",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đánh",
+        "làm; thực hiện",
+        "gọi (điện thoại)"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_028",
+      "word": "打车",
+      "pinyin": "dǎchē",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi taxi",
+        "bắt taxi"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_029",
+      "word": "打开",
+      "pinyin": "dǎkāi",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "mở",
+        "mở ra"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_030",
+      "word": "但",
+      "pinyin": "dàn",
+      "partOfSpeech": [
+        "连",
+        "（副）"
+      ],
+      "candidateMeanings": [
+        "nhưng",
+        "chỉ là"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_031",
+      "word": "但是",
+      "pinyin": "dànshì",
+      "partOfSpeech": [
+        "连"
+      ],
+      "candidateMeanings": [
+        "nhưng",
+        "tuy nhiên"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_032",
+      "word": "得",
+      "pinyin": "de",
+      "partOfSpeech": [
+        "助"
+      ],
+      "candidateMeanings": [
+        "trợ từ dùng sau động từ/tính từ để bổ sung thành phần"
+      ],
+      "structuralScore": 0.7,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_033",
+      "word": "地",
+      "pinyin": "de",
+      "partOfSpeech": [
+        "助"
+      ],
+      "candidateMeanings": [
+        "trợ từ dùng trước động từ, biến tính từ/cụm tính từ thành trạng ngữ"
+      ],
+      "structuralScore": 0.7,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_034",
+      "word": "等",
+      "pinyin": "děng",
+      "partOfSpeech": [
+        "动",
+        "（介）"
+      ],
+      "candidateMeanings": [
+        "đợi",
+        "chờ",
+        "v.v."
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_035",
+      "word": "地铁",
+      "pinyin": "dìtiě",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "tàu điện ngầm",
+        "metro"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_036",
+      "word": "点",
+      "pinyin": "diǎn",
+      "partOfSpeech": [
+        "动",
+        "（名",
+        "量）"
+      ],
+      "candidateMeanings": [
+        "chọn; gọi món",
+        "điểm",
+        "giờ (lượng từ)"
+      ],
+      "structuralScore": 0.85,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_037",
+      "word": "懂",
+      "pinyin": "dǒng",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "hiểu"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_038",
+      "word": "动",
+      "pinyin": "dòng",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "động; di chuyển",
+        "cử động"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_039",
+      "word": "饭馆",
+      "pinyin": "fànguǎn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "nhà hàng",
+        "quán ăn"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_040",
+      "word": "飞",
+      "pinyin": "fēi",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "bay"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_041",
+      "word": "高",
+      "pinyin": "gāo",
+      "partOfSpeech": [
+        "形",
+        "名"
+      ],
+      "candidateMeanings": [
+        "cao",
+        "độ cao"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_042",
+      "word": "高中",
+      "pinyin": "gāozhōng",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "trung học phổ thông",
+        "cấp ba"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_043",
+      "word": "告诉",
+      "pinyin": "gàosu",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "nói cho biết",
+        "nói; báo cho"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_044",
+      "word": "个子",
+      "pinyin": "gèzi",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "vóc dáng",
+        "chiều cao cơ thể"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_045",
+      "word": "跟",
+      "pinyin": "gēn",
+      "partOfSpeech": [
+        "介",
+        "连",
+        "（名",
+        "动）"
+      ],
+      "candidateMeanings": [
+        "với",
+        "theo",
+        "cùng; và"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_046",
+      "word": "公交车",
+      "pinyin": "gōngjiāochē",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "xe buýt"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_047",
+      "word": "过",
+      "pinyin": "guò",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi qua",
+        "vượt qua"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_048",
+      "word": "过来",
+      "pinyin": "guòlái",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi qua đây",
+        "lại đây"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_049",
+      "word": "过年",
+      "pinyin": "guònián",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "ăn Tết",
+        "đón năm mới"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_050",
+      "word": "过去",
+      "pinyin": "guòqù",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "quá khứ",
+        "đã qua; trước đây",
+        "đi qua"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_051",
+      "word": "过",
+      "pinyin": "guo",
+      "partOfSpeech": [
+        "助"
+      ],
+      "candidateMeanings": [
+        "trợ từ biểu thị trải nghiệm đã từng xảy ra"
+      ],
+      "structuralScore": 0.7,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_052",
+      "word": "还是",
+      "pinyin": "háishi",
+      "partOfSpeech": [
+        "副",
+        "连"
+      ],
+      "candidateMeanings": [
+        "vẫn",
+        "hay là"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_053",
+      "word": "黑色",
+      "pinyin": "hēisè",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "màu đen"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_054",
+      "word": "红茶",
+      "pinyin": "hóngchá",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "trà đen"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_055",
+      "word": "红色",
+      "pinyin": "hóngsè",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "màu đỏ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_056",
+      "word": "后面",
+      "pinyin": "hòumiàn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "phía sau",
+        "đằng sau"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_057",
+      "word": "花",
+      "pinyin": "huā",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "tiêu; tốn"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_058",
+      "word": "花",
+      "pinyin": "huā",
+      "partOfSpeech": [
+        "名",
+        "（形）"
+      ],
+      "candidateMeanings": [
+        "hoa",
+        "bông hoa",
+        "mẫu hoa; hoa văn"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_059",
+      "word": "画",
+      "pinyin": "huà",
+      "partOfSpeech": [
+        "动",
+        "名"
+      ],
+      "candidateMeanings": [
+        "vẽ",
+        "bức tranh"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_060",
+      "word": "坏",
+      "pinyin": "huài",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "xấu",
+        "hỏng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_061",
+      "word": "回来",
+      "pinyin": "huílái",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "quay lại",
+        "trở về"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_062",
+      "word": "回去",
+      "pinyin": "huíqù",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "quay về",
+        "trở về"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_063",
+      "word": "机场",
+      "pinyin": "jīchǎng",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "sân bay"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_064",
+      "word": "机票",
+      "pinyin": "jīpiào",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "vé máy bay"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_065",
+      "word": "记得",
+      "pinyin": "jìde",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "nhớ",
+        "nhớ rằng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_066",
+      "word": "间",
+      "pinyin": "jiān",
+      "partOfSpeech": [
+        "量",
+        "（名）"
+      ],
+      "candidateMeanings": [
+        "gian; phòng (lượng từ)",
+        "phòng"
+      ],
+      "structuralScore": 0.85,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_067",
+      "word": "教",
+      "pinyin": "jiāo",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "dạy"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_068",
+      "word": "教室",
+      "pinyin": "jiàoshì",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "phòng học",
+        "lớp học"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_069",
+      "word": "介绍",
+      "pinyin": "jièshào",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "giới thiệu"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_070",
+      "word": "进",
+      "pinyin": "jìn",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "vào",
+        "đi vào"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_071",
+      "word": "近",
+      "pinyin": "jìn",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "gần"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_072",
+      "word": "进来",
+      "pinyin": "jìnlái",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi vào đây",
+        "vào đây"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_073",
+      "word": "进去",
+      "pinyin": "jìnqù",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi vào",
+        "vào trong"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_074",
+      "word": "经常",
+      "pinyin": "jīngcháng",
+      "partOfSpeech": [
+        "副"
+      ],
+      "candidateMeanings": [
+        "thường xuyên",
+        "thường"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_075",
+      "word": "酒店",
+      "pinyin": "jiǔdiàn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "khách sạn"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_076",
+      "word": "就",
+      "pinyin": "jiù",
+      "partOfSpeech": [
+        "副",
+        "（介）"
+      ],
+      "candidateMeanings": [
+        "liền",
+        "thì",
+        "ngay"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_077",
+      "word": "咖啡",
+      "pinyin": "kāfēi",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "cà phê"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_078",
+      "word": "开始",
+      "pinyin": "kāishǐ",
+      "partOfSpeech": [
+        "动",
+        "名"
+      ],
+      "candidateMeanings": [
+        "bắt đầu",
+        "sự bắt đầu"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_079",
+      "word": "开学",
+      "pinyin": "kāixué",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "khai giảng",
+        "bắt đầu năm học"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_080",
+      "word": "考",
+      "pinyin": "kǎo",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "thi",
+        "kiểm tra"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_081",
+      "word": "考试",
+      "pinyin": "kǎoshì",
+      "partOfSpeech": [
+        "动",
+        "名"
+      ],
+      "candidateMeanings": [
+        "thi; kiểm tra",
+        "kỳ thi"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_082",
+      "word": "可能",
+      "pinyin": "kěnéng",
+      "partOfSpeech": [
+        "形",
+        "名",
+        "动"
+      ],
+      "candidateMeanings": [
+        "có thể",
+        "khả năng",
+        "có lẽ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_083",
+      "word": "裤子",
+      "pinyin": "kùzi",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "quần"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_084",
+      "word": "快",
+      "pinyin": "kuài",
+      "partOfSpeech": [
+        "形",
+        "副"
+      ],
+      "candidateMeanings": [
+        "nhanh",
+        "sắp"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_085",
+      "word": "快乐",
+      "pinyin": "kuàilè",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "vui vẻ",
+        "hạnh phúc"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_086",
+      "word": "快要",
+      "pinyin": "kuàiyào",
+      "partOfSpeech": [
+        "副"
+      ],
+      "candidateMeanings": [
+        "sắp",
+        "gần như sắp"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_087",
+      "word": "篮球",
+      "pinyin": "lánqiú",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bóng rổ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_088",
+      "word": "累",
+      "pinyin": "lèi",
+      "partOfSpeech": [
+        "形",
+        "动"
+      ],
+      "candidateMeanings": [
+        "mệt",
+        "làm mệt"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_089",
+      "word": "离",
+      "pinyin": "lí",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "cách; cách xa"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_090",
+      "word": "里面",
+      "pinyin": "lǐmiàn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bên trong",
+        "phía trong"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_091",
+      "word": "楼",
+      "pinyin": "lóu",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "tòa nhà",
+        "tầng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_092",
+      "word": "路",
+      "pinyin": "lù",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "đường",
+        "con đường"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_093",
+      "word": "路上",
+      "pinyin": "lùshang",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "trên đường",
+        "dọc đường"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_094",
+      "word": "旅游",
+      "pinyin": "lǚyóu",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "du lịch"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_095",
+      "word": "绿茶",
+      "pinyin": "lǜchá",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "trà xanh"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_096",
+      "word": "绿色",
+      "pinyin": "lǜsè",
+      "partOfSpeech": [
+        "名",
+        "（形）"
+      ],
+      "candidateMeanings": [
+        "màu xanh lá",
+        "xanh lá cây"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_097",
+      "word": "慢",
+      "pinyin": "màn",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "chậm",
+        "chậm rãi"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_098",
+      "word": "没意思",
+      "pinyin": "méi yìsi",
+      "partOfSpeech": [],
+      "candidateMeanings": [
+        "không thú vị",
+        "chán"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_099",
+      "word": "每",
+      "pinyin": "měi",
+      "partOfSpeech": [
+        "代",
+        "（副）"
+      ],
+      "candidateMeanings": [
+        "mỗi",
+        "mỗi một"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_100",
+      "word": "门",
+      "pinyin": "mén",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "cửa",
+        "cánh cửa"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_101",
+      "word": "门口",
+      "pinyin": "ménkǒu",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "cửa ra vào",
+        "trước cửa"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_102",
+      "word": "门票",
+      "pinyin": "ménpiào",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "vé vào cửa",
+        "vé tham quan"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_103",
+      "word": "面",
+      "pinyin": "miàn",
+      "partOfSpeech": [
+        "后缀",
+        "（动",
+        "名",
+        "量）"
+      ],
+      "candidateMeanings": [
+        "mặt; phía",
+        "phía; bên",
+        "lượng từ cho vật có mặt phẳng"
+      ],
+      "structuralScore": 0.85,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_104",
+      "word": "名",
+      "pinyin": "míng",
+      "partOfSpeech": [
+        "名",
+        "量"
+      ],
+      "candidateMeanings": [
+        "tên",
+        "vị; người (lượng từ)"
+      ],
+      "structuralScore": 0.85,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_105",
+      "word": "拿",
+      "pinyin": "ná",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "cầm",
+        "lấy"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_106",
+      "word": "那么",
+      "pinyin": "nàme",
+      "partOfSpeech": [
+        "代",
+        "连"
+      ],
+      "candidateMeanings": [
+        "như vậy",
+        "thế thì"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_107",
+      "word": "那样",
+      "pinyin": "nàyàng",
+      "partOfSpeech": [
+        "代"
+      ],
+      "candidateMeanings": [
+        "như thế",
+        "như vậy"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_108",
+      "word": "奶茶",
+      "pinyin": "nǎichá",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "trà sữa"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_109",
+      "word": "奶奶",
+      "pinyin": "nǎinai",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bà nội"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_110",
+      "word": "男孩儿",
+      "pinyin": "nánháir",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bé trai",
+        "cậu bé"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_111",
+      "word": "鸟",
+      "pinyin": "niǎo",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "chim"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_112",
+      "word": "女孩儿",
+      "pinyin": "nǚháir",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bé gái",
+        "cô bé"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_113",
+      "word": "旁边",
+      "pinyin": "pángbiān",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bên cạnh",
+        "phía bên cạnh"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_114",
+      "word": "跑",
+      "pinyin": "pǎo",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "chạy"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_115",
+      "word": "跑步",
+      "pinyin": "pǎobù",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "chạy bộ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_116",
+      "word": "票",
+      "pinyin": "piào",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "vé",
+        "phiếu"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_117",
+      "word": "妻子",
+      "pinyin": "qīzi",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "vợ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_118",
+      "word": "起来",
+      "pinyin": "qǐlái",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đứng dậy",
+        "bắt đầu; lên"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_119",
+      "word": "前面",
+      "pinyin": "qiánmiàn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "phía trước",
+        "đằng trước"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_120",
+      "word": "晴",
+      "pinyin": "qíng",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "trời quang",
+        "nắng, quang đãng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_121",
+      "word": "球",
+      "pinyin": "qiú",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "quả bóng",
+        "bóng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_122",
+      "word": "让",
+      "pinyin": "ràng",
+      "partOfSpeech": [
+        "动",
+        "（介）"
+      ],
+      "candidateMeanings": [
+        "để",
+        "bảo; cho phép"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_123",
+      "word": "肉",
+      "pinyin": "ròu",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "thịt"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_124",
+      "word": "商场",
+      "pinyin": "shāngchǎng",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "trung tâm thương mại",
+        "cửa hàng bách hóa"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_125",
+      "word": "上来",
+      "pinyin": "shànglái",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi lên đây",
+        "lên đây"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_126",
+      "word": "上面",
+      "pinyin": "shàngmiàn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "phía trên",
+        "bên trên"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_127",
+      "word": "上去",
+      "pinyin": "shàngqù",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi lên",
+        "lên trên"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_128",
+      "word": "上网",
+      "pinyin": "shàngwǎng",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "lên mạng",
+        "truy cập Internet"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_129",
+      "word": "身体",
+      "pinyin": "shēntǐ",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "cơ thể",
+        "sức khỏe"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_130",
+      "word": "生日",
+      "pinyin": "shēngrì",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "sinh nhật"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_131",
+      "word": "时",
+      "pinyin": "shí",
+      "partOfSpeech": [
+        "名",
+        "（量）"
+      ],
+      "candidateMeanings": [
+        "thời gian; lúc",
+        "giờ (lượng từ)"
+      ],
+      "structuralScore": 0.85,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_132",
+      "word": "事情",
+      "pinyin": "shìqing",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "việc",
+        "chuyện"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_133",
+      "word": "手",
+      "pinyin": "shǒu",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "tay",
+        "bàn tay"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_134",
+      "word": "手表",
+      "pinyin": "shǒubiǎo",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "đồng hồ đeo tay"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_135",
+      "word": "书包",
+      "pinyin": "shūbāo",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "cặp sách",
+        "ba lô đựng sách"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_136",
+      "word": "舒服",
+      "pinyin": "shūfu",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "thoải mái",
+        "dễ chịu"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_137",
+      "word": "送",
+      "pinyin": "sòng",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "tặng",
+        "đưa; tiễn"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_138",
+      "word": "虽然",
+      "pinyin": "suīrán",
+      "partOfSpeech": [
+        "连"
+      ],
+      "candidateMeanings": [
+        "mặc dù",
+        "tuy rằng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_139",
+      "word": "所以",
+      "pinyin": "suǒyǐ",
+      "partOfSpeech": [
+        "连"
+      ],
+      "candidateMeanings": [
+        "vì vậy",
+        "cho nên"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_140",
+      "word": "疼",
+      "pinyin": "téng",
+      "partOfSpeech": [
+        "形",
+        "（动）"
+      ],
+      "candidateMeanings": [
+        "đau",
+        "đau đớn"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_141",
+      "word": "踢",
+      "pinyin": "tī",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đá",
+        "đá bằng chân"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_142",
+      "word": "题",
+      "pinyin": "tí",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "câu hỏi",
+        "bài tập"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_143",
+      "word": "条",
+      "pinyin": "tiáo",
+      "partOfSpeech": [
+        "量",
+        "（名）"
+      ],
+      "candidateMeanings": [
+        "cái; con; chiếc (lượng từ)",
+        "dải; điều"
+      ],
+      "structuralScore": 0.85,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_144",
+      "word": "跳舞",
+      "pinyin": "tiàowǔ",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "nhảy múa",
+        "khiêu vũ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_145",
+      "word": "头",
+      "pinyin": "tóu",
+      "partOfSpeech": [
+        "名",
+        "（量）",
+        "（形）"
+      ],
+      "candidateMeanings": [
+        "đầu",
+        "cái; con (lượng từ)"
+      ],
+      "structuralScore": 0.85,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_146",
+      "word": "外国",
+      "pinyin": "wàiguó",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "nước ngoài",
+        "nước khác"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_147",
+      "word": "外面",
+      "pinyin": "wàimiàn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bên ngoài",
+        "phía ngoài"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_148",
+      "word": "完",
+      "pinyin": "wán",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "xong",
+        "hoàn thành"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_149",
+      "word": "万",
+      "pinyin": "wàn",
+      "partOfSpeech": [
+        "数"
+      ],
+      "candidateMeanings": [
+        "mười nghìn",
+        "vạn"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_150",
+      "word": "往",
+      "pinyin": "wǎng",
+      "partOfSpeech": [
+        "动",
+        "介"
+      ],
+      "candidateMeanings": [
+        "hướng về",
+        "đi về phía"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_151",
+      "word": "网上",
+      "pinyin": "wǎngshang",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "trên mạng",
+        "trực tuyến"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_152",
+      "word": "忘",
+      "pinyin": "wàng",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "quên"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_153",
+      "word": "位",
+      "pinyin": "wèi",
+      "partOfSpeech": [
+        "量"
+      ],
+      "candidateMeanings": [
+        "vị; người (lượng từ lịch sự)"
+      ],
+      "structuralScore": 0.85,
+      "sourceRouting": "MEDIUM",
+      "reviewType": "FULL_REVIEW",
+      "priority": 2,
+      "reason": "Candidate has weaker structural confidence and requires human verification.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_154",
+      "word": "为什么",
+      "pinyin": "wèi shénme",
+      "partOfSpeech": [],
+      "candidateMeanings": [
+        "tại sao",
+        "vì sao"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_155",
+      "word": "希望",
+      "pinyin": "xīwàng",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "hy vọng",
+        "mong muốn"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_156",
+      "word": "洗",
+      "pinyin": "xǐ",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "rửa",
+        "giặt"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_157",
+      "word": "洗手间",
+      "pinyin": "xǐshǒujiān",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "nhà vệ sinh",
+        "phòng vệ sinh"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_158",
+      "word": "下来",
+      "pinyin": "xiàlái",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi xuống đây",
+        "xuống đây"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_159",
+      "word": "下面",
+      "pinyin": "xiàmiàn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "phía dưới",
+        "bên dưới"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_160",
+      "word": "下去",
+      "pinyin": "xiàqù",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi xuống",
+        "xuống dưới"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_161",
+      "word": "小孩儿",
+      "pinyin": "xiǎoháir",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "trẻ con",
+        "đứa trẻ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_162",
+      "word": "小时候",
+      "pinyin": "xiǎoshíhou",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "lúc nhỏ",
+        "hồi còn nhỏ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_163",
+      "word": "笑",
+      "pinyin": "xiào",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "cười"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_164",
+      "word": "姓",
+      "pinyin": "xìng",
+      "partOfSpeech": [
+        "名",
+        "动"
+      ],
+      "candidateMeanings": [
+        "họ",
+        "mang họ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_165",
+      "word": "姓名",
+      "pinyin": "xìngmíng",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "họ tên",
+        "họ và tên"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_166",
+      "word": "颜色",
+      "pinyin": "yánsè",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "màu sắc"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_167",
+      "word": "眼睛",
+      "pinyin": "yǎnjing",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "mắt",
+        "đôi mắt"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_168",
+      "word": "药",
+      "pinyin": "yào",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "thuốc"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_169",
+      "word": "药店",
+      "pinyin": "yàodiàn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "hiệu thuốc",
+        "nhà thuốc"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_170",
+      "word": "爷爷",
+      "pinyin": "yéye",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "ông nội"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_171",
+      "word": "一会儿",
+      "pinyin": "yíhuìr",
+      "partOfSpeech": [
+        "数量",
+        "（副）"
+      ],
+      "candidateMeanings": [
+        "một lát",
+        "một lúc"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_172",
+      "word": "已经",
+      "pinyin": "yǐjīng",
+      "partOfSpeech": [
+        "副"
+      ],
+      "candidateMeanings": [
+        "đã",
+        "đã rồi"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_173",
+      "word": "一起",
+      "pinyin": "yìqǐ",
+      "partOfSpeech": [
+        "副"
+      ],
+      "candidateMeanings": [
+        "cùng nhau",
+        "cùng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_174",
+      "word": "意思",
+      "pinyin": "yìsi",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "ý nghĩa",
+        "ý"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_175",
+      "word": "阴",
+      "pinyin": "yīn",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "âm u",
+        "nhiều mây"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_176",
+      "word": "因为",
+      "pinyin": "yīnwèi",
+      "partOfSpeech": [
+        "介",
+        "连"
+      ],
+      "candidateMeanings": [
+        "bởi vì",
+        "vì"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_177",
+      "word": "游",
+      "pinyin": "yóu",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "bơi; đi chơi",
+        "du ngoạn"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_178",
+      "word": "游泳",
+      "pinyin": "yóuyǒng",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "bơi",
+        "bơi lội"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_179",
+      "word": "有意思",
+      "pinyin": "yǒu yìsi",
+      "partOfSpeech": [],
+      "candidateMeanings": [
+        "thú vị",
+        "có ý nghĩa"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_180",
+      "word": "有时",
+      "pinyin": "yǒushí",
+      "partOfSpeech": [
+        "副"
+      ],
+      "candidateMeanings": [
+        "thỉnh thoảng",
+        "đôi khi"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_181",
+      "word": "右",
+      "pinyin": "yòu",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bên phải",
+        "phía phải"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_182",
+      "word": "右边",
+      "pinyin": "yòubian",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bên phải",
+        "phía bên phải"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_183",
+      "word": "鱼",
+      "pinyin": "yú",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "cá"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_184",
+      "word": "远",
+      "pinyin": "yuǎn",
+      "partOfSpeech": [
+        "形"
+      ],
+      "candidateMeanings": [
+        "xa"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_185",
+      "word": "运动",
+      "pinyin": "yùndòng",
+      "partOfSpeech": [
+        "动",
+        "名"
+      ],
+      "candidateMeanings": [
+        "vận động",
+        "thể thao"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_186",
+      "word": "站",
+      "pinyin": "zhàn",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "trạm; bến",
+        "đứng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_187",
+      "word": "丈夫",
+      "pinyin": "zhàngfu",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "chồng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_188",
+      "word": "这么",
+      "pinyin": "zhème",
+      "partOfSpeech": [
+        "代"
+      ],
+      "candidateMeanings": [
+        "như thế này",
+        "thế này"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_189",
+      "word": "这样",
+      "pinyin": "zhèyàng",
+      "partOfSpeech": [
+        "代"
+      ],
+      "candidateMeanings": [
+        "như thế này",
+        "như vậy"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_190",
+      "word": "着",
+      "pinyin": "zhe",
+      "partOfSpeech": [
+        "助"
+      ],
+      "candidateMeanings": [
+        "đang; trạng thái đang tiếp diễn"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_191",
+      "word": "正",
+      "pinyin": "zhèng",
+      "partOfSpeech": [
+        "副",
+        "（形）"
+      ],
+      "candidateMeanings": [
+        "đang",
+        "chính; đúng"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_192",
+      "word": "周",
+      "pinyin": "zhōu",
+      "partOfSpeech": [
+        "名",
+        "（量）"
+      ],
+      "candidateMeanings": [
+        "tuần",
+        "tuần lễ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_193",
+      "word": "准备",
+      "pinyin": "zhǔnbèi",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "chuẩn bị",
+        "dự định"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_194",
+      "word": "自己",
+      "pinyin": "zìjǐ",
+      "partOfSpeech": [
+        "代"
+      ],
+      "candidateMeanings": [
+        "bản thân",
+        "tự mình"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_195",
+      "word": "走",
+      "pinyin": "zǒu",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi",
+        "đi bộ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_196",
+      "word": "走路",
+      "pinyin": "zǒulù",
+      "partOfSpeech": [
+        "动"
+      ],
+      "candidateMeanings": [
+        "đi bộ",
+        "đi đường"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_197",
+      "word": "足球",
+      "pinyin": "zúqiú",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bóng đá"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_198",
+      "word": "最",
+      "pinyin": "zuì",
+      "partOfSpeech": [
+        "副"
+      ],
+      "candidateMeanings": [
+        "nhất",
+        "rất; cực kỳ"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_199",
+      "word": "左",
+      "pinyin": "zuǒ",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bên trái",
+        "phía trái"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    },
+    {
+      "id": "hsk2_200",
+      "word": "左边",
+      "pinyin": "zuǒbian",
+      "partOfSpeech": [
+        "名"
+      ],
+      "candidateMeanings": [
+        "bên trái",
+        "phía bên trái"
+      ],
+      "structuralScore": 1.0,
+      "sourceRouting": "HIGH",
+      "reviewType": "LIGHT_VERIFICATION",
+      "priority": 3,
+      "reason": "Structural candidate passed clean checks, but translation accuracy is not independently verified.",
+      "approved": false,
+      "reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "records": 214,
+  "expected": 214,
+  "uniqueIds": 214,
+  "uniqueKangxiIndex": 214,
+  "uniqueUnicode": 214,
+  "emptyRadical": 0,
+  "emptyPinyin": 0,
+  "emptyNameVi": 0,
+  "emptyMeaningVi": 0,
+  "invalidUnicode": 0,
+  "status": "PASS",
+  "note": "Detail dataset is derived only from the existing 214-radical reference dataset. No related characters or vocabulary were invented."
+}

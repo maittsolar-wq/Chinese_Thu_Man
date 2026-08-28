@@ -1,0 +1,17 @@
+{
+  "status": "SUCCESS",
+  "level": 3,
+  "candidateRecords": 500,
+  "confidence": {
+    "HIGH": 472,
+    "MEDIUM": 28,
+    "LOW": 0
+  },
+  "reviewRouting": {
+    "LIGHT_VERIFICATION": 472,
+    "FULL_REVIEW": 28
+  },
+  "aiApiCalled": false,
+  "automaticApproval": false,
+  "translationAccuracyVerified": false
+}

@@ -1,0 +1,126 @@
+{
+  "status": "SUCCESS",
+  "level": 5,
+  "recordCount": 1600,
+  "normalizedCount": 19,
+  "duplicateVisibleWordGroups": 5,
+  "duplicateVisibleWords": {
+    "称": [
+      "hsk5_132",
+      "hsk5_133"
+    ],
+    "处": [
+      "hsk5_179",
+      "hsk5_182"
+    ],
+    "调": [
+      "hsk5_284",
+      "hsk5_1130"
+    ],
+    "系": [
+      "hsk5_539",
+      "hsk5_1226"
+    ],
+    "批": [
+      "hsk5_825",
+      "hsk5_826"
+    ]
+  },
+  "changes": [
+    {
+      "sourceWord": "本2",
+      "normalizedWord": "本",
+      "sourceSort": 2040
+    },
+    {
+      "sourceWord": "别2",
+      "normalizedWord": "别",
+      "sourceSort": 2066
+    },
+    {
+      "sourceWord": "才2",
+      "normalizedWord": "才",
+      "sourceSort": 2083
+    },
+    {
+      "sourceWord": "称1",
+      "normalizedWord": "称",
+      "sourceSort": 2132
+    },
+    {
+      "sourceWord": "称2",
+      "normalizedWord": "称",
+      "sourceSort": 2133
+    },
+    {
+      "sourceWord": "成年1",
+      "normalizedWord": "成年",
+      "sourceSort": 2143
+    },
+    {
+      "sourceWord": "调1",
+      "normalizedWord": "调",
+      "sourceSort": 2284
+    },
+    {
+      "sourceWord": "副1",
+      "normalizedWord": "副",
+      "sourceSort": 2369
+    },
+    {
+      "sourceWord": "面2",
+      "normalizedWord": "面",
+      "sourceSort": 2767
+    },
+    {
+      "sourceWord": "命1",
+      "normalizedWord": "命",
+      "sourceSort": 2779
+    },
+    {
+      "sourceWord": "批1",
+      "normalizedWord": "批",
+      "sourceSort": 2825
+    },
+    {
+      "sourceWord": "批2",
+      "normalizedWord": "批",
+      "sourceSort": 2826
+    },
+    {
+      "sourceWord": "签1",
+      "normalizedWord": "签",
+      "sourceSort": 2859
+    },
+    {
+      "sourceWord": "升1",
+      "normalizedWord": "升",
+      "sourceSort": 2989
+    },
+    {
+      "sourceWord": "省2",
+      "normalizedWord": "省",
+      "sourceSort": 2998
+    },
+    {
+      "sourceWord": "所1",
+      "normalizedWord": "所",
+      "sourceSort": 3098
+    },
+    {
+      "sourceWord": "为2",
+      "normalizedWord": "为",
+      "sourceSort": 3184
+    },
+    {
+      "sourceWord": "喂2",
+      "normalizedWord": "喂",
+      "sourceSort": 3195
+    },
+    {
+      "sourceWord": "支1",
+      "normalizedWord": "支",
+      "sourceSort": 3499
+    }
+  ]
+}

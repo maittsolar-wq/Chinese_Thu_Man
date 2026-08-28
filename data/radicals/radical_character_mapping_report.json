@@ -1,0 +1,16 @@
+{
+  "uniqueHanCharacters": 1940,
+  "sourceStats": {
+    "HSK 1": 300,
+    "HSK 2": 200,
+    "HSK 3": 500,
+    "HSK 4": 1000,
+    "HSK 5": 1600,
+    "HSK 6": 1800
+  },
+  "mapped": 0,
+  "pending": 1940,
+  "verified": 0,
+  "status": "PASS",
+  "note": "This is a mapping input package only. No character-to-radical relation was invented. Radical mapping remains pending until supported by a dedicated character-radical reference."
+}

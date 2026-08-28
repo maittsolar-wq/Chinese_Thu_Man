@@ -1,0 +1,17 @@
+{
+  "level": "HSK 5",
+  "candidateRecords": 1600,
+  "high": 1598,
+  "medium": 2,
+  "low": 0,
+  "lightVerification": 1598,
+  "fullReview": 2,
+  "autoApproved": 0,
+  "humanVerified": 0,
+  "status": "completed",
+  "important": [
+    "No meanings were auto-approved.",
+    "Translation accuracy is not independently verified.",
+    "Reviewed and production data were not modified."
+  ]
+}

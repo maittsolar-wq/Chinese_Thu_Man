@@ -1,0 +1,47 @@
+import Link from "next/link";
+import type { AnchorHTMLAttributes, ButtonHTMLAttributes } from "react";
+import clsx from "clsx";
+
+type Variant = "primary" | "secondary";
+
+const VARIANT_CLASSES: Record<Variant, string> = {
+  primary: "bg-primary text-white hover:bg-primary-dark",
+  secondary:
+    "border border-primary bg-white text-primary hover:bg-primary-light",
+};
+
+const BASE_CLASSES =
+  "inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50";
+
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: Variant;
+}
+
+export function Button({ variant = "primary", className, ...props }: ButtonProps) {
+  return (
+    <button
+      className={clsx(BASE_CLASSES, VARIANT_CLASSES[variant], className)}
+      {...props}
+    />
+  );
+}
+
+interface LinkButtonProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
+  href: string;
+  variant?: Variant;
+}
+
+export function LinkButton({
+  variant = "primary",
+  className,
+  href,
+  ...props
+}: LinkButtonProps) {
+  return (
+    <Link
+      href={href}
+      className={clsx(BASE_CLASSES, VARIANT_CLASSES[variant], className)}
+      {...props}
+    />
+  );
+}

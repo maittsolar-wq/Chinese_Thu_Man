@@ -1,0 +1,22 @@
+{
+  "radicals": 214,
+  "expectedRadicals": 214,
+  "hskVocabularyRecords": 5400,
+  "characterMappingRecords": 1940,
+  "usableCharacterMappings": 1940,
+  "radicalsWithVocabulary": 193,
+  "radicalsWithoutVocabulary": 21,
+  "totalRadicalVocabularyLinks": 9914,
+  "unmappedHanCharactersInVocabulary": [],
+  "sourceStats": {
+    "HSK 1": 300,
+    "HSK 2": 200,
+    "HSK 3": 500,
+    "HSK 4": 1000,
+    "HSK 5": 1600,
+    "HSK 6": 1800
+  },
+  "errors": 0,
+  "status": "PASS",
+  "note": "A vocabulary word is linked to every radical represented by its Han characters. This is a character-presence relationship, not a claim that the radical is the semantic component of the whole word."
+}

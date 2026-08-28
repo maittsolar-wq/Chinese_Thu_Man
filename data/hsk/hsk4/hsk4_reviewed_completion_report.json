@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE_FOR_VALIDATION",
+  "level": 4,
+  "totalRecords": 1000,
+  "preservedExistingRecords": 0,
+  "filledFromCandidates": 1000,
+  "humanVerifiedRecords": 0,
+  "aiAssistedUnverifiedRecords": 999,
+  "needsManualVerificationRecords": 1,
+  "unresolvedIds": [
+    "hsk4_908"
+  ],
+  "productionCreated": false,
+  "note": "Dataset is complete for structural validation. AI-assisted meanings are not human-verified. Unresolved meanings remain explicitly flagged."
+}

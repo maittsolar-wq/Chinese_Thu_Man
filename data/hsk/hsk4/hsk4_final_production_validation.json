@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "level": 4,
+  "recordCount": 1000,
+  "expectedCount": 1000,
+  "humanReviewedCount": 0,
+  "aiAssistedUnverifiedCount": 1000,
+  "needsManualVerificationCount": 0,
+  "errors": [],
+  "warnings": [
+    "1000 AI-assisted records remain unverified."
+  ],
+  "productionBuildAllowed": true,
+  "translationAccuracyIndependentlyVerified": false
+}

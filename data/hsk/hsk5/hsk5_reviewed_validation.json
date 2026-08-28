@@ -1,0 +1,15 @@
+{
+  "reviewedRecords": 1600,
+  "humanReviewed": 0,
+  "aiAssistedUnverified": 1600,
+  "manualVerification": 0,
+  "errors": 0,
+  "warnings": 2,
+  "status": "PASS",
+  "productionDataCreated": false,
+  "errorDetails": [],
+  "warningDetails": [
+    "AI-assisted meanings remain explicitly unverified.",
+    "No human-verified records are present."
+  ]
+}

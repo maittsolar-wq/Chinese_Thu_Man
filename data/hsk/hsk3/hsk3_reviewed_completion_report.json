@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE_FOR_VALIDATION",
+  "level": 3,
+  "totalRecords": 500,
+  "preservedExistingRecords": 0,
+  "filledFromCandidates": 500,
+  "humanVerifiedRecords": 0,
+  "aiAssistedUnverifiedRecords": 500,
+  "productionCreated": false,
+  "note": "Dataset is complete for structural validation. AI-assisted meanings are not human-verified."
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "level": 2,
+  "expectedRecords": 200,
+  "actualRecords": 200,
+  "errors": [],
+  "warnings": [
+    "No LOW records were routed. This is not an accuracy guarantee.",
+    "Candidate validation checks structure/consistency only; translation accuracy is not independently verified."
+  ],
+  "routingCounts": {
+    "HIGH": 187,
+    "LOW": 0,
+    "MEDIUM": 13
+  },
+  "translationAccuracyVerified": false,
+  "productionApproved": false,
+  "checks": {
+    "recordCount": true,
+    "ids": true,
+    "baseConsistency": true,
+    "candidateMeanings": true,
+    "generationStatus": true,
+    "routing": true,
+    "noAutoApproval": true,
+    "noReviewState": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "datasetName": "Chinese Thu Man HSK 2 Vietnamese Meanings",
+  "status": "REVIEW_IN_PROGRESS",
+  "level": 2,
+  "recordCount": 200,
+  "reviewed": 2,
+  "unreviewed": 198,
+  "skipped": 0,
+  "queueRecords": 200,
+  "reviewTypesCompleted": {
+    "LIGHT_VERIFICATION": 0,
+    "FULL_REVIEW": 0
+  },
+  "productionCreated": false,
+  "skippedIds": [],
+  "quitEarly": true
+}

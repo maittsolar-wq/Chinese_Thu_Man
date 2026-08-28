@@ -1,0 +1,12 @@
+{
+  "reviewedRecords": 1800,
+  "humanReviewed": 0,
+  "aiAssistedUnverified": 1800,
+  "manualVerification": 1800,
+  "errors": 0,
+  "warnings": 0,
+  "status": "PASS",
+  "productionCreated": false,
+  "errorDetails": [],
+  "warningDetails": []
+}

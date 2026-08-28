@@ -1,0 +1,73 @@
+{
+  "status": "SUCCESS",
+  "level": 4,
+  "recordCount": 1000,
+  "normalizedCount": 10,
+  "duplicateVisibleWordGroups": 3,
+  "duplicateVisibleWords": {
+    "重": [
+      "hsk4_086",
+      "hsk4_960"
+    ],
+    "空": [
+      "hsk4_436",
+      "hsk4_439"
+    ],
+    "生": [
+      "hsk4_646",
+      "hsk4_647"
+    ]
+  },
+  "changes": [
+    {
+      "sourceWord": "乘1",
+      "normalizedWord": "乘",
+      "sourceSort": 1078
+    },
+    {
+      "sourceWord": "等2",
+      "normalizedWord": "等",
+      "sourceSort": 1147
+    },
+    {
+      "sourceWord": "两2",
+      "normalizedWord": "两",
+      "sourceSort": 1473
+    },
+    {
+      "sourceWord": "生1",
+      "normalizedWord": "生",
+      "sourceSort": 1646
+    },
+    {
+      "sourceWord": "生2",
+      "normalizedWord": "生",
+      "sourceSort": 1647
+    },
+    {
+      "sourceWord": "省1",
+      "normalizedWord": "省",
+      "sourceSort": 1650
+    },
+    {
+      "sourceWord": "为1",
+      "normalizedWord": "为",
+      "sourceSort": 1771
+    },
+    {
+      "sourceWord": "之1",
+      "normalizedWord": "之",
+      "sourceSort": 1938
+    },
+    {
+      "sourceWord": "转机1",
+      "normalizedWord": "转机",
+      "sourceSort": 1972
+    },
+    {
+      "sourceWord": "作为1",
+      "normalizedWord": "作为",
+      "sourceSort": 1996
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "candidateRecords": 1800,
+  "confidence": {
+    "HIGH": 1800,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "routing": {
+    "LIGHT_VERIFICATION": 1800,
+    "FULL_REVIEW": 0
+  },
+  "humanVerified": 0,
+  "autoApproved": 0,
+  "productionCreated": false,
+  "allMeaningsUnverified": true
+}

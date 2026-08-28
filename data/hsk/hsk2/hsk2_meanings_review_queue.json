@@ -1,0 +1,1213 @@
+{
+  "datasetName": "Chinese Thu Man HSK 2 Meaning Review Queue",
+  "status": "REVIEW_QUEUE_READY",
+  "level": 2,
+  "recordCount": 200,
+  "counts": {
+    "HIGH": 187,
+    "MEDIUM": 13,
+    "LOW": 0
+  },
+  "records": [
+    {
+      "id": "hsk2_007",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss"
+    },
+    {
+      "id": "hsk2_010",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss"
+    },
+    {
+      "id": "hsk2_032",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss / candidate text is unusually long"
+    },
+    {
+      "id": "hsk2_033",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss / candidate text is unusually long"
+    },
+    {
+      "id": "hsk2_036",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss"
+    },
+    {
+      "id": "hsk2_051",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss / candidate text is unusually long"
+    },
+    {
+      "id": "hsk2_066",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss"
+    },
+    {
+      "id": "hsk2_103",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss"
+    },
+    {
+      "id": "hsk2_104",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss"
+    },
+    {
+      "id": "hsk2_131",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss"
+    },
+    {
+      "id": "hsk2_143",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss"
+    },
+    {
+      "id": "hsk2_145",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss"
+    },
+    {
+      "id": "hsk2_153",
+      "routing": "MEDIUM",
+      "priority": 2,
+      "reason": "contains grammatical/meta explanation rather than a clean gloss"
+    },
+    {
+      "id": "hsk2_001",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_002",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_003",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_004",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_005",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_006",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_008",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_009",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_011",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_012",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_013",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_014",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_015",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_016",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_017",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_018",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_019",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_020",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_021",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_022",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_023",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_024",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_025",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_026",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_027",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_028",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_029",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_030",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_031",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_034",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_035",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_037",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_038",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_039",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_040",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_041",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_042",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_043",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_044",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_045",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_046",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_047",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_048",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_049",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_050",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_052",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_053",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_054",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_055",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_056",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_057",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_058",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_059",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_060",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_061",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_062",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_063",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_064",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_065",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_067",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_068",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_069",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_070",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_071",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_072",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_073",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_074",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_075",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_076",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_077",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_078",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_079",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_080",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_081",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_082",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_083",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_084",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_085",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_086",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_087",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_088",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_089",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_090",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_091",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_092",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_093",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_094",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_095",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_096",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_097",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_098",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_099",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_100",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_101",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_102",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_105",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_106",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_107",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_108",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_109",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_110",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_111",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_112",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_113",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_114",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_115",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_116",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_117",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_118",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_119",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_120",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_121",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_122",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_123",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_124",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_125",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_126",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_127",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_128",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_129",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_130",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_132",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_133",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_134",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_135",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_136",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_137",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_138",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_139",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_140",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_141",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_142",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_144",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_146",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_147",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_148",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_149",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_150",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_151",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_152",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_154",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_155",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_156",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_157",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_158",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_159",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_160",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_161",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_162",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_163",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_164",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_165",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_166",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_167",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_168",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_169",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_170",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_171",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_172",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_173",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_174",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_175",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_176",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_177",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_178",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_179",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_180",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_181",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_182",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_183",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_184",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_185",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_186",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_187",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_188",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_189",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_190",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_191",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_192",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_193",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_194",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_195",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_196",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_197",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_198",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_199",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    },
+    {
+      "id": "hsk2_200",
+      "routing": "HIGH",
+      "priority": 3,
+      "reason": "Structurally clean candidate; translation accuracy still requires verification."
+    }
+  ]
+}

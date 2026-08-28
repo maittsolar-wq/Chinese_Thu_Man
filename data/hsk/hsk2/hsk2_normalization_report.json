@@ -1,0 +1,53 @@
+{
+  "status": "SUCCESS",
+  "level": 2,
+  "recordCount": 200,
+  "normalizedCount": 9,
+  "changes": [
+    {
+      "sourceWord": "别1",
+      "normalizedWord": "别",
+      "sourceSort": 311
+    },
+    {
+      "sourceWord": "打1",
+      "normalizedWord": "打",
+      "sourceSort": 327
+    },
+    {
+      "sourceWord": "等1",
+      "normalizedWord": "等",
+      "sourceSort": 334
+    },
+    {
+      "sourceWord": "点2",
+      "normalizedWord": "点",
+      "sourceSort": 336
+    },
+    {
+      "sourceWord": "过去1",
+      "normalizedWord": "过去",
+      "sourceSort": 350
+    },
+    {
+      "sourceWord": "花1",
+      "normalizedWord": "花",
+      "sourceSort": 357
+    },
+    {
+      "sourceWord": "花2",
+      "normalizedWord": "花",
+      "sourceSort": 358
+    },
+    {
+      "sourceWord": "面1",
+      "normalizedWord": "面",
+      "sourceSort": 403
+    },
+    {
+      "sourceWord": "站1",
+      "normalizedWord": "站",
+      "sourceSort": 486
+    }
+  ]
+}

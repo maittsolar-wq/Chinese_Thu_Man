@@ -1,0 +1,33 @@
+{
+  "records": 214,
+  "expected": 214,
+  "uniqueKangxiIndex": 214,
+  "uniqueRadicals": 214,
+  "strokeGroups": {
+    "1": 6,
+    "2": 23,
+    "3": 31,
+    "4": 34,
+    "5": 23,
+    "6": 29,
+    "7": 20,
+    "8": 9,
+    "9": 11,
+    "10": 8,
+    "11": 6,
+    "12": 4,
+    "13": 4,
+    "14": 2,
+    "15": 1,
+    "16": 2,
+    "17": 1
+  },
+  "emptyChinese": 0,
+  "emptyPinyin": 0,
+  "emptyVietnameseName": 0,
+  "emptyVietnameseMeaning": 0,
+  "status": "PASS",
+  "source": "CGE",
+  "sourceUrl": "https://cge.edu.vn/chu-han/214-bo-thu-tieng-trung.html",
+  "note": "Reference-derived dataset. Not a vocabulary-to-radical mapping."
+}

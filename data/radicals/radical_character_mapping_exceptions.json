@@ -1,0 +1,16 @@
+{
+  "fallbackSource": "MDBG-derived radicals.json",
+  "sourceUrl": "https://gist.githubusercontent.com/DigiDuncan/f1288f17f97f1bc8ba525c034bb079e6/raw/radicals.json",
+  "ccdResolvedBeforeFallback": 1811,
+  "fallbackResolved": 125,
+  "fallbackAmbiguous": 0,
+  "stillUnresolved": 4,
+  "stillUnresolvedCharacters": [
+    "户",
+    "房",
+    "所",
+    "扇"
+  ],
+  "ambiguousCharacters": [],
+  "note": "Fallback mappings are source-derived, not AI-generated. Ambiguous cases remain unverified rather than being guessed."
+}

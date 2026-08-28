@@ -1,0 +1,18 @@
+{
+  "status": "SUCCESS",
+  "level": 4,
+  "candidateRecords": 1000,
+  "confidence": {
+    "HIGH": 997,
+    "MEDIUM": 2,
+    "LOW": 1
+  },
+  "reviewRouting": {
+    "LIGHT_VERIFICATION": 997,
+    "FULL_REVIEW": 3
+  },
+  "aiApiCalled": false,
+  "automaticApproval": false,
+  "translationAccuracyVerified": false,
+  "note": "HIGH means light verification routing only; it does not mean translation accuracy was verified."
+}

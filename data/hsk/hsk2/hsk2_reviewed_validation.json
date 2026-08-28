@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "level": 2,
+  "recordCount": 200,
+  "expectedCount": 200,
+  "humanReviewedCount": 2,
+  "aiAssistedUnverifiedCount": 198,
+  "errors": [],
+  "warnings": [
+    "198 records are AI-assisted and not human-verified.",
+    "Translation accuracy has not been independently verified for the complete HSK 2 dataset."
+  ],
+  "productionCreated": false,
+  "translationAccuracyIndependentlyVerified": false
+}
