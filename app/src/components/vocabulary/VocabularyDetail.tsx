@@ -89,7 +89,7 @@ export function VocabularyDetail({
               <Link
                 key={related.id}
                 href={`/vocabulary/${related.id}`}
-                className="block"
+                className="block min-w-0"
               >
                 <Card className="hover:shadow-md">
                   <p className="text-xl font-semibold text-neutral-900">{related.word}</p>

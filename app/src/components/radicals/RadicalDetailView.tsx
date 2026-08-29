@@ -1,11 +1,31 @@
 import Link from "next/link";
-import type { HskLevel, RadicalDetail } from "@/lib/data/types";
+import type { HskLevel, RadicalDetail, RadicalVocabularyRef } from "@/lib/data/types";
 import { Card } from "@/components/ui/Card";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { HskLevelBadge } from "@/components/ui/Badge";
 
 const ALL_LEVELS: HskLevel[] = [1, 2, 3, 4, 5, 6];
+
+/**
+ * A vocabulary word can contain multiple characters that map to the same
+ * radical (e.g. both 一 and 下 in 一下 map to radical 一), so the same
+ * vocabularyId can legitimately appear more than once within a level's
+ * entries. Dedupe here at render time only — the source mapping JSON is
+ * left untouched — keeping the first occurrence.
+ */
+function dedupeByVocabularyId(
+  entries: RadicalVocabularyRef[]
+): RadicalVocabularyRef[] {
+  const seen = new Set<string>();
+  const result: RadicalVocabularyRef[] = [];
+  for (const entry of entries) {
+    if (seen.has(entry.vocabularyId)) continue;
+    seen.add(entry.vocabularyId);
+    result.push(entry);
+  }
+  return result;
+}
 
 /**
  * Radical Detail reuses Vocabulary Detail's visual language (Card,
@@ -90,18 +110,21 @@ export function RadicalDetailView({ radical }: { radical: RadicalDetail }) {
             {ALL_LEVELS.map((level) => {
               const entries = radical.vocabularyByLevel[level];
               if (!entries || entries.length === 0) return null;
+              const dedupedEntries = dedupeByVocabularyId(entries);
               return (
                 <div key={level}>
                   <div className="mb-2 flex items-center gap-2">
                     <HskLevelBadge level={level} />
-                    <span className="text-xs text-neutral-500">{entries.length} từ</span>
+                    <span className="text-xs text-neutral-500">
+                      {dedupedEntries.length} từ
+                    </span>
                   </div>
                   <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                    {entries.map((entry) => (
+                    {dedupedEntries.map((entry) => (
                       <Link
                         key={entry.vocabularyId}
                         href={`/vocabulary/${entry.vocabularyId}?from=radical&radicalId=${radical.id}`}
-                        className="block"
+                        className="block min-w-0"
                       >
                         <Card className="hover:shadow-md">
                           <p className="text-xl font-semibold text-neutral-900">

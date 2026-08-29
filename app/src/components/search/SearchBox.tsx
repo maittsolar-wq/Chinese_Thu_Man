@@ -6,7 +6,7 @@ export function SearchBox({ defaultValue }: { defaultValue?: string }) {
         name="q"
         defaultValue={defaultValue}
         placeholder="Nhập chữ Hán, pinyin hoặc nghĩa tiếng Việt..."
-        className="w-full rounded-md border border-neutral-300 px-4 py-2.5 text-base text-neutral-900 outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+        className="w-full min-w-0 rounded-md border border-neutral-300 px-4 py-2.5 text-base text-neutral-900 outline-none focus:border-primary focus:ring-1 focus:ring-primary"
         aria-label="Tìm kiếm từ vựng"
       />
       <button

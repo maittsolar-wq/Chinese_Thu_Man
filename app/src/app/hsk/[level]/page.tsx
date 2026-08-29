@@ -68,7 +68,7 @@ export default async function HskLevelPage({
             name="q"
             defaultValue={q}
             placeholder={`Lọc trong HSK ${level}...`}
-            className="w-full rounded-md border border-neutral-300 px-3 py-2 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary sm:w-64"
+            className="w-full min-w-0 rounded-md border border-neutral-300 px-3 py-2 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary sm:w-64"
             aria-label={`Lọc từ vựng trong HSK ${level}`}
           />
           <button
@@ -91,6 +91,7 @@ export default async function HskLevelPage({
               key={word.id}
               word={word}
               href={`/vocabulary/${word.id}?from=hsk&level=${level}`}
+              currentLevel={level}
             />
           ))}
         </div>

@@ -7,16 +7,34 @@ export function VocabularyCard({
   word,
   href,
   showAllLevels = false,
+  currentLevel,
 }: {
   word: VocabularyWord;
   href: string;
   /** Show every HSK level the word belongs to, not just the first. */
   showAllLevels?: boolean;
+  /**
+   * The HSK level of the page this card is rendered on (e.g. /hsk/6).
+   * When set and the word belongs to that level, it is shown as the single
+   * badge instead of defaulting to hskLevels[0] — a word that belongs to
+   * multiple levels must show the level the user is actually browsing.
+   * Ignored when showAllLevels is true.
+   */
+  currentLevel?: number;
 }) {
-  const levels = showAllLevels ? word.hskLevels : word.hskLevels.slice(0, 1);
+  const primaryLevel =
+    currentLevel !== undefined && word.hskLevels.some((l) => l === currentLevel)
+      ? currentLevel
+      : word.hskLevels[0];
+
+  const levels = showAllLevels
+    ? word.hskLevels
+    : primaryLevel !== undefined
+      ? [primaryLevel]
+      : [];
 
   return (
-    <Link href={href} className="block">
+    <Link href={href} className="block min-w-0">
       <Card className="flex items-start justify-between gap-3 transition-shadow hover:shadow-md">
         <div className="min-w-0">
           <p className="text-2xl font-bold text-neutral-900">{word.word}</p>
