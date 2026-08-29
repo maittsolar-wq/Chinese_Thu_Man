@@ -1,77 +1,241 @@
 import Link from "next/link";
+import Image from "next/image";
+import clsx from "clsx";
 import { Card } from "@/components/ui/Card";
 import { LinkButton } from "@/components/ui/Button";
+import { SearchBox } from "@/components/search/SearchBox";
 import {
-  getTotalVocabularyCount,
-  getVocabularyCountByLevel,
-} from "@/lib/data/vocabularyRepository";
-import { getAllRadicals } from "@/lib/data/radicalRepository";
+  GraduationCapIcon,
+  SearchIcon,
+  TargetIcon,
+  ArrowRightIcon,
+  BookOpenIcon,
+  CardsIcon,
+  PencilIcon,
+} from "@/components/ui/icons";
 import type { HskLevel } from "@/lib/data/types";
 
 const HSK_LEVELS: HskLevel[] = [1, 2, 3, 4, 5, 6];
 
-const FEATURES = [
+const HSK_ACCENT: Record<HskLevel, string> = {
+  1: "text-accent-blue",
+  2: "text-accent-green",
+  3: "text-accent-purple",
+  4: "text-accent-orange",
+  5: "text-accent-red",
+  6: "text-accent-teal",
+};
+
+const HERO_FEATURES = [
   {
-    href: "/hsk",
-    title: "HSK",
-    description: "Học từ vựng theo từng cấp độ HSK 1–6.",
+    icon: GraduationCapIcon,
+    title: "Học từ vựng",
+    description: "Theo 6 cấp độ HSK",
   },
   {
-    href: "/dictionary",
-    title: "Từ điển",
-    description: "Tra cứu nhanh theo chữ Hán, pinyin hoặc nghĩa tiếng Việt.",
+    icon: SearchIcon,
+    title: "Tra từ điển",
+    description: "Nhanh chóng, chính xác",
   },
   {
-    href: "/radicals",
-    title: "Bộ thủ",
-    description: "Khám phá 214 bộ thủ và từ vựng liên quan.",
+    icon: TargetIcon,
+    title: "Luyện tập",
+    description: "Ôn tập hiệu quả",
   },
 ] as const;
 
+type Accent = "blue" | "green" | "purple" | "red";
+
+const ACCENT_STYLES: Record<Accent, { border: string; badgeBg: string; icon: string }> = {
+  blue: {
+    border: "border-accent-blue",
+    badgeBg: "bg-accent-blue/10 dark:bg-accent-blue/20",
+    icon: "text-accent-blue",
+  },
+  green: {
+    border: "border-accent-green",
+    badgeBg: "bg-accent-green/10 dark:bg-accent-green/20",
+    icon: "text-accent-green",
+  },
+  purple: {
+    border: "border-accent-purple",
+    badgeBg: "bg-accent-purple/10 dark:bg-accent-purple/20",
+    icon: "text-accent-purple",
+  },
+  red: {
+    border: "border-accent-red",
+    badgeBg: "bg-accent-red/10 dark:bg-accent-red/20",
+    icon: "text-accent-red",
+  },
+};
+
+/**
+ * These four cards are real Practice entry points per the approved Home
+ * spec, but the Practice configuration screens they must link to
+ * (docs/PRACTICE/*) do not exist anywhere in the codebase yet — only
+ * specs. Per instructions, no fake/placeholder route is invented here;
+ * the cards render visually and get a real `href` once those screens
+ * exist. See the implementation report for details.
+ */
+const PRACTICE_CARDS: {
+  icon: typeof SearchIcon;
+  title: string;
+  description: string;
+  accent: Accent;
+}[] = [
+  {
+    icon: SearchIcon,
+    title: "Chọn nghĩa",
+    description: "Chọn nghĩa tiếng Việt đúng với từ vựng",
+    accent: "blue",
+  },
+  {
+    icon: BookOpenIcon,
+    title: "Chọn chữ Hán",
+    description: "Chọn chữ Hán đúng với nghĩa",
+    accent: "green",
+  },
+  {
+    icon: CardsIcon,
+    title: "Flashcard",
+    description: "Ôn tập từ vựng với thẻ ghi nhớ",
+    accent: "purple",
+  },
+  {
+    icon: PencilIcon,
+    title: "Luyện viết",
+    description: "Nhập tiếng Trung theo nghĩa tiếng Việt",
+    accent: "red",
+  },
+];
+
 export default function HomePage() {
-  const totalVocabulary = getTotalVocabularyCount();
-  const totalRadicals = getAllRadicals().length;
-
   return (
-    <div className="flex flex-col gap-10">
-      <section className="flex flex-col gap-3">
-        <h1 className="text-3xl font-bold text-primary sm:text-4xl">
-          Học từ vựng tiếng Trung theo chuẩn HSK
-        </h1>
-        <p className="max-w-2xl text-neutral-600">
-          {totalVocabulary.toLocaleString("vi-VN")} từ vựng HSK 1–6 và{" "}
-          {totalRadicals} bộ thủ, kèm nghĩa tiếng Việt.
-        </p>
+    <div className="flex flex-col gap-8">
+      <section className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
+        <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-3">
+            <h1 className="text-3xl font-bold leading-tight text-neutral-900 dark:text-night-text sm:text-4xl">
+              Học từ vựng tiếng Trung
+              <br />
+              <span className="text-primary">Theo cấp độ HSK</span>
+            </h1>
+            <p className="max-w-2xl text-neutral-600 dark:text-night-muted">
+              Học từ mới, tra cứu dễ dàng và luyện tập mỗi ngày để ghi nhớ lâu hơn.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap gap-6">
+            {HERO_FEATURES.map((feature) => (
+              <div key={feature.title} className="flex items-center gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-light text-primary dark:bg-primary-dark/40 dark:text-white">
+                  <feature.icon className="h-5 w-5" />
+                </span>
+                <div className="flex flex-col">
+                  <span className="text-sm font-semibold text-neutral-900 dark:text-night-text">
+                    {feature.title}
+                  </span>
+                  <span className="text-xs text-neutral-600 dark:text-night-muted">
+                    {feature.description}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <LinkButton href="/hsk" className="w-fit">
+            Bắt đầu học
+            <ArrowRightIcon className="h-4 w-4" />
+          </LinkButton>
+        </div>
+
+        <Image
+          src="/hero-illustration.png"
+          alt=""
+          width={1448}
+          height={1086}
+          priority
+          className="mx-auto h-auto w-56 shrink-0 sm:w-72 lg:w-80"
+        />
       </section>
 
-      <section className="grid gap-4 sm:grid-cols-3">
-        {FEATURES.map((feature) => (
-          <Link key={feature.href} href={feature.href} className="block">
-            <Card className="flex h-full flex-col gap-2 hover:shadow-md">
-              <h2 className="text-lg font-semibold text-primary">{feature.title}</h2>
-              <p className="text-sm text-neutral-600">{feature.description}</p>
-            </Card>
-          </Link>
-        ))}
-      </section>
-
-      <section>
-        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600">
-          Truy cập nhanh theo cấp độ HSK
-        </h2>
+      <Card className="flex flex-col gap-4 p-6 sm:p-8">
+        <div className="flex flex-col gap-1 text-center">
+          <h2 className="flex items-center justify-center gap-2 text-xl font-bold text-neutral-900 dark:text-night-text">
+            <GraduationCapIcon className="h-6 w-6 text-primary" />
+            Chọn cấp độ HSK để bắt đầu
+          </h2>
+          <p className="text-sm text-neutral-600 dark:text-night-muted">
+            Học từ vựng theo lộ trình từ cơ bản đến nâng cao
+          </p>
+        </div>
         <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-6">
           {HSK_LEVELS.map((level) => (
-            <LinkButton key={level} href={`/hsk/${level}`} variant="secondary">
-              <span className="flex flex-col items-center gap-0.5">
-                <span>HSK {level}</span>
-                <span className="text-xs font-normal text-neutral-500">
-                  {getVocabularyCountByLevel(level).toLocaleString("vi-VN")} từ
+            <Link key={level} href={`/hsk/${level}`} className="block min-w-0">
+              <Card className="flex flex-col items-center justify-center gap-0.5 py-4 text-center hover:shadow-md">
+                <span className="text-xs font-medium text-neutral-500 dark:text-night-muted">
+                  HSK
                 </span>
-              </span>
-            </LinkButton>
+                <span className={clsx("text-2xl font-bold", HSK_ACCENT[level])}>{level}</span>
+              </Card>
+            </Link>
           ))}
         </div>
-      </section>
+      </Card>
+
+      <Card className="flex flex-col gap-4 p-6 sm:p-8">
+        <div className="flex flex-col gap-1">
+          <h2 className="flex items-center gap-2 text-xl font-bold text-neutral-900 dark:text-night-text">
+            <SearchIcon className="h-6 w-6 text-primary" />
+            Tra từ điển nhanh
+          </h2>
+          <p className="text-sm text-neutral-600 dark:text-night-muted">
+            Nhập chữ Hán để tra cứu từ vựng HSK.
+          </p>
+        </div>
+        <SearchBox placeholder="Nhập chữ Hán, pinyin, bộ thủ ..." />
+      </Card>
+
+      <Card id="luyen-tap" className="flex scroll-mt-20 flex-col gap-4 p-6 sm:p-8">
+        <div className="flex flex-col gap-1">
+          <h2 className="flex items-center gap-2 text-xl font-bold text-neutral-900 dark:text-night-text">
+            <TargetIcon className="h-6 w-6 text-primary" />
+            Luyện tập
+          </h2>
+          <p className="text-sm text-neutral-600 dark:text-night-muted">
+            Học từ vựng theo 6 cấp độ HSK từ cơ bản đến nâng cao.
+          </p>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {PRACTICE_CARDS.map((card) => {
+            const style = ACCENT_STYLES[card.accent];
+            return (
+              <Card
+                key={card.title}
+                className={clsx("flex items-start gap-3 border-2", style.border)}
+              >
+                <span
+                  className={clsx(
+                    "flex h-10 w-10 shrink-0 items-center justify-center rounded-lg",
+                    style.badgeBg,
+                    style.icon
+                  )}
+                >
+                  <card.icon className="h-5 w-5" />
+                </span>
+                <div className="flex min-w-0 flex-col">
+                  <span className="text-base font-semibold text-neutral-900 dark:text-night-text">
+                    {card.title}
+                  </span>
+                  <span className="text-sm text-neutral-600 dark:text-night-muted">
+                    {card.description}
+                  </span>
+                </div>
+              </Card>
+            );
+          })}
+        </div>
+      </Card>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import type { Config } from "tailwindcss";
 // decorative colors outside this set without updating that spec.
 const config: Config = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -35,6 +36,28 @@ const config: Config = {
           600: "#6b7280",
           800: "#2b2f33",
           900: "#1a1d1f",
+        },
+        // Per-level/per-card decorative accents from the approved Home
+        // visual reference (HSK 1-6 cards, Practice cards). Added
+        // 2026-08-29 — not yet mirrored into docs/02_DESIGN_SYSTEM.md.
+        accent: {
+          blue: "#2563eb",
+          green: "#16a34a",
+          purple: "#7c3aed",
+          orange: "#f97316",
+          red: "#f43f5e",
+          teal: "#14b8a6",
+        },
+        // Dark-mode surface/text tokens from the approved Home Dark Mode
+        // reference. Deliberately near-neutral grays, not tinted with the
+        // existing `neutral` scale, per that reference's explicit values.
+        night: {
+          bg: "#1a1a1a",
+          surface: "#202020",
+          input: "#303030",
+          border: "#3a3a3a",
+          text: "#f5f5f5",
+          muted: "#b5b5b5",
         },
       },
       borderRadius: {
