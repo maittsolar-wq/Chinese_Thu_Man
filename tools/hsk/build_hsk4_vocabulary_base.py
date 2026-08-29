@@ -240,7 +240,7 @@ def main():
             "pinyinNumeric": None,
             "meaningVi": [],
             "introducedLevel": 4,
-            "hskLevels": cumulative_levels(4),
+            "hskLevels": levels,
             "partOfSpeechSource": pos_source,
             "partOfSpeech": normalize_pos(pos_source),
             "sourceSort": source_sort,

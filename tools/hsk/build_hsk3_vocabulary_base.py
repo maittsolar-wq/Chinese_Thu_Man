@@ -331,7 +331,7 @@ def main():
                 "pinyinNumeric": None,
                 "meaningVi": [],
                 "introducedLevel": 3,
-                "hskLevels": cumulative_levels(3),
+                "hskLevels": all_levels,
                 "partOfSpeechSource": pos_source,
                 "partOfSpeech": normalize_pos(
                     pos_source

@@ -206,7 +206,7 @@ def main():
             "pinyinNumeric": None,
             "meaningVi": [],
             "introducedLevel": 5,
-            "hskLevels": list(range(1, 6)),
+            "hskLevels": levels,
             "partOfSpeechSource": pos_source,
             "partOfSpeech": normalize_pos(pos_source),
             "sourceSort": source_sort,
