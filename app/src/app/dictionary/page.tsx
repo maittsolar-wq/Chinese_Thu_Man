@@ -3,7 +3,9 @@ import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { SearchBox } from "@/components/search/SearchBox";
 import { VocabularyCard } from "@/components/vocabulary/VocabularyCard";
 import { EmptyState } from "@/components/ui/EmptyState";
+import { DictionaryRadicalSection } from "@/components/dictionary/DictionaryRadicalSection";
 import { searchVocabulary } from "@/lib/data/vocabularyRepository";
+import { getAllRadicals, getRadicalVocabularyCount } from "@/lib/data/radicalRepository";
 
 export const metadata: Metadata = { title: "Từ điển — Chinese Thu Man" };
 
@@ -16,6 +18,11 @@ export default async function DictionaryPage({
   const query = q?.trim() ?? "";
   const hasQuery = query.length > 0;
   const results = hasQuery ? searchVocabulary(query) : [];
+
+  const radicals = getAllRadicals();
+  const radicalVocabularyCounts = Object.fromEntries(
+    radicals.map((radical) => [radical.id, getRadicalVocabularyCount(radical.id)])
+  );
 
   return (
     <div className="flex flex-col gap-6">
@@ -56,6 +63,8 @@ export default async function DictionaryPage({
       ) : (
         <EmptyState title="Nhập từ khóa để bắt đầu tra cứu." />
       )}
+
+      <DictionaryRadicalSection radicals={radicals} vocabularyCounts={radicalVocabularyCounts} />
     </div>
   );
 }

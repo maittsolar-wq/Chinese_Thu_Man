@@ -37,9 +37,9 @@ export function VocabularyCard({
     <Link href={href} className="block min-w-0">
       <Card className="flex items-start justify-between gap-3 transition-shadow hover:shadow-md">
         <div className="min-w-0">
-          <p className="text-2xl font-bold text-neutral-900">{word.word}</p>
-          <p className="text-sm text-neutral-600">{word.pinyin}</p>
-          <p className="mt-1 truncate text-sm text-neutral-800">{word.meaningVi}</p>
+          <p className="text-2xl font-bold text-neutral-900 dark:text-night-text">{word.word}</p>
+          <p className="text-sm text-neutral-600 dark:text-night-muted">{word.pinyin}</p>
+          <p className="mt-1 truncate text-sm text-neutral-800 dark:text-night-text">{word.meaningVi}</p>
         </div>
         <div className="flex shrink-0 flex-wrap justify-end gap-1">
           {levels.map((level) => (

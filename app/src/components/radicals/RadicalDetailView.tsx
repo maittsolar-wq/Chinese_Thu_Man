@@ -47,30 +47,30 @@ export function RadicalDetailView({ radical }: { radical: RadicalDetail }) {
 
       <Card className="flex flex-col gap-3 p-6 sm:p-8">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full bg-neutral-100 px-2.5 py-0.5 text-xs font-medium text-neutral-600">
+          <span className="rounded-full bg-neutral-100 px-2.5 py-0.5 text-xs font-medium text-neutral-600 dark:bg-night-input dark:text-night-muted">
             Bộ thủ số {radical.kangxiIndex}
           </span>
-          <span className="rounded-full bg-neutral-100 px-2.5 py-0.5 text-xs font-medium text-neutral-600">
+          <span className="rounded-full bg-neutral-100 px-2.5 py-0.5 text-xs font-medium text-neutral-600 dark:bg-night-input dark:text-night-muted">
             {radical.strokeCount} nét
           </span>
         </div>
 
-        <p className="text-6xl font-bold leading-tight text-neutral-900">
+        <p className="text-6xl font-bold leading-tight text-neutral-900 dark:text-night-text">
           {radical.radical}
         </p>
-        <p className="text-xl text-neutral-600">{radical.pinyin}</p>
-        <p className="text-lg text-neutral-800">
+        <p className="text-xl text-neutral-600 dark:text-night-muted">{radical.pinyin}</p>
+        <p className="text-lg text-neutral-800 dark:text-night-text">
           {radical.nameVi} — {radical.meaningVi}
         </p>
         {radical.variants.length > 0 && (
-          <p className="text-sm text-neutral-500">
+          <p className="text-sm text-neutral-500 dark:text-night-muted">
             Biến thể: {radical.variants.join(", ")}
           </p>
         )}
       </Card>
 
       <section>
-        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600">
+        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
           Chữ Hán liên quan ({radical.characterCount})
         </h2>
         {radical.characters.length > 0 ? (
@@ -79,7 +79,7 @@ export function RadicalDetailView({ radical }: { radical: RadicalDetail }) {
               <span
                 key={character.character}
                 title={character.hskLevels.map((level) => `HSK ${level}`).join(", ")}
-                className="flex h-11 w-11 items-center justify-center rounded-md border border-neutral-200 text-xl font-medium text-neutral-900"
+                className="flex h-11 w-11 items-center justify-center rounded-md border border-neutral-200 text-xl font-medium text-neutral-900 dark:border-night-border dark:text-night-text"
               >
                 {character.character}
               </span>
@@ -92,10 +92,10 @@ export function RadicalDetailView({ radical }: { radical: RadicalDetail }) {
 
       <section>
         <div className="mb-3 flex items-baseline justify-between">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-600">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
             Từ vựng HSK theo bộ thủ này
           </h2>
-          <span className="text-sm text-neutral-500">
+          <span className="text-sm text-neutral-500 dark:text-night-muted">
             {radical.vocabularyCount} từ vựng
           </span>
         </div>
@@ -115,7 +115,7 @@ export function RadicalDetailView({ radical }: { radical: RadicalDetail }) {
                 <div key={level}>
                   <div className="mb-2 flex items-center gap-2">
                     <HskLevelBadge level={level} />
-                    <span className="text-xs text-neutral-500">
+                    <span className="text-xs text-neutral-500 dark:text-night-muted">
                       {dedupedEntries.length} từ
                     </span>
                   </div>
@@ -127,12 +127,12 @@ export function RadicalDetailView({ radical }: { radical: RadicalDetail }) {
                         className="block min-w-0"
                       >
                         <Card className="hover:shadow-md">
-                          <p className="text-xl font-semibold text-neutral-900">
+                          <p className="text-xl font-semibold text-neutral-900 dark:text-night-text">
                             {entry.word}
                           </p>
-                          <p className="text-sm text-neutral-600">{entry.pinyin}</p>
+                          <p className="text-sm text-neutral-600 dark:text-night-muted">{entry.pinyin}</p>
                           {entry.meaningVi && (
-                            <p className="truncate text-sm text-neutral-800">
+                            <p className="truncate text-sm text-neutral-800 dark:text-night-text">
                               {entry.meaningVi}
                             </p>
                           )}

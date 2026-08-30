@@ -3,7 +3,7 @@ import Image from "next/image";
 import clsx from "clsx";
 import { Card } from "@/components/ui/Card";
 import { LinkButton } from "@/components/ui/Button";
-import { SearchBox } from "@/components/search/SearchBox";
+import { DictionarySearchTrigger } from "@/components/dictionary/DictionarySearchTrigger";
 import {
   GraduationCapIcon,
   SearchIcon,
@@ -196,7 +196,7 @@ export default function HomePage() {
             Nhập chữ Hán để tra cứu từ vựng HSK.
           </p>
         </div>
-        <SearchBox placeholder="Nhập chữ Hán, pinyin, bộ thủ ..." />
+        <DictionarySearchTrigger placeholder="Nhập chữ Hán, pinyin, bộ thủ ..." />
       </Card>
 
       <Card id="luyen-tap" className="flex scroll-mt-20 flex-col gap-4 p-6 sm:p-8">

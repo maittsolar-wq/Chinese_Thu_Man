@@ -13,6 +13,7 @@ import {
   type RawRadicalVocabularyMapping,
 } from "./radicalAdapter";
 import { getVocabularyById } from "./vocabularyRepository";
+import { filterRadicals } from "./radicalSearch";
 import type { RadicalDetail, RadicalSummary } from "./types";
 
 function readJson<T>(filePath: string): T {
@@ -75,4 +76,32 @@ export function getRadicalsWithNoVocabulary(): RadicalSummary[] {
 
 export function getRadicalVocabularyCount(id: string): number {
   return loadRadicalVocabularyMappings().get(id)?.vocabularyCount ?? 0;
+}
+
+/** Every vocabulary id mapped to this radical, across all HSK levels,
+ *  from the existing radical_vocabulary_mapping.json — no new mapping
+ *  data, just flattening the per-level grouping already loaded above. */
+export function getVocabularyIdsForRadical(radicalId: string): string[] {
+  const mapping = loadRadicalVocabularyMappings().get(radicalId);
+  if (!mapping) return [];
+  return Object.values(mapping.vocabularyByLevel).flatMap((entries) =>
+    entries.map((entry) => entry.vocabularyId)
+  );
+}
+
+/**
+ * Resolves a query against the radical dataset's OWN identifying fields
+ * only (glyph, variants, pinyin, Vietnamese name, Vietnamese meaning) —
+ * never against vocabulary fields, which is what keeps an ordinary
+ * vocabulary pinyin substring match from ever being misclassified as a
+ * radical match. The actual matching/ranking logic lives in the
+ * environment-agnostic radicalSearch.ts (`filterRadicals`), shared as-is
+ * with the client-side live "Bộ thủ (214)" search on the Dictionary main
+ * screen — this function just supplies the `fs`-loaded data and preserves
+ * this module's existing "empty query → []" contract for its callers
+ * (e.g. dictionarySearch.ts's searchDictionary).
+ */
+export function searchRadicals(query: string): RadicalSummary[] {
+  if (!query.trim()) return [];
+  return filterRadicals(loadRadicalSummaries(), query);
 }

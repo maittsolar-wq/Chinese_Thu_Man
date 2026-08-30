@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { AppHeader } from "@/components/layout/AppHeader";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
+import { DictionarySearchProvider } from "@/components/dictionary/DictionarySearchProvider";
+import { DictionarySearchPopup } from "@/components/dictionary/DictionarySearchPopup";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -33,8 +35,11 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-white text-neutral-900 antialiased dark:bg-night-bg dark:text-night-text">
         <ThemeProvider>
-          <AppHeader />
-          <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6">{children}</main>
+          <DictionarySearchProvider>
+            <AppHeader />
+            <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6">{children}</main>
+            <DictionarySearchPopup />
+          </DictionarySearchProvider>
         </ThemeProvider>
       </body>
     </html>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { useTheme } from "@/components/theme/ThemeProvider";
+import { useDictionarySearch } from "@/components/dictionary/DictionarySearchProvider";
 import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon } from "@/components/ui/icons";
 
 /**
@@ -15,13 +16,26 @@ import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon 
  * dead. "Bộ thủ" is intentionally omitted here to match the approved
  * Home header reference; the /radicals route itself is untouched and
  * still reachable directly.
+ *
+ * "Từ điển" is a popup TRIGGER, not a route link — it opens the shared
+ * DictionarySearchPopup (mounted once in layout.tsx) instead of
+ * navigating, per the confirmed product requirement. The existing
+ * /dictionary page is untouched and still reachable by direct URL; the
+ * header just no longer links to it.
  */
 const NAV_ITEMS = [
-  { href: "/", label: "Trang chủ", icon: HomeIcon, isAnchor: false },
-  { href: "/hsk", label: "HSK", icon: GraduationCapIcon, isAnchor: false },
-  { href: "/dictionary", label: "Từ điển", icon: SearchIcon, isAnchor: false },
-  { href: "/#luyen-tap", label: "Luyện tập", icon: TargetIcon, isAnchor: true },
+  { kind: "link", href: "/", label: "Trang chủ", icon: HomeIcon, isAnchor: false },
+  { kind: "link", href: "/hsk", label: "HSK", icon: GraduationCapIcon, isAnchor: false },
+  { kind: "popup-trigger", label: "Từ điển", icon: SearchIcon },
+  { kind: "link", href: "/#luyen-tap", label: "Luyện tập", icon: TargetIcon, isAnchor: true },
 ] as const;
+
+const NAV_ITEM_CLASSES =
+  "flex items-center gap-1.5 rounded-md px-3 py-2 text-sm font-medium transition-colors";
+const NAV_ITEM_INACTIVE_CLASSES =
+  "text-neutral-800 hover:bg-primary-light hover:text-primary dark:text-night-muted dark:hover:bg-night-surface dark:hover:text-night-text";
+const NAV_ITEM_ACTIVE_CLASSES =
+  "bg-primary-light text-primary dark:bg-primary-dark/40 dark:text-white";
 
 function isActive(pathname: string, href: string): boolean {
   if (href === "/") return pathname === "/";
@@ -47,6 +61,7 @@ function ThemeToggle() {
 
 export function AppHeader() {
   const pathname = usePathname();
+  const { open: openDictionarySearch } = useDictionarySearch();
 
   return (
     <header className="sticky top-0 z-10 border-b border-neutral-200 bg-white dark:border-night-border dark:bg-night-bg">
@@ -63,18 +78,31 @@ export function AppHeader() {
         <div className="flex items-center gap-1 sm:gap-2">
           <nav className="flex flex-wrap items-center gap-1 sm:gap-2">
             {NAV_ITEMS.map((item) => {
-              const active = !item.isAnchor && isActive(pathname, item.href);
               const Icon = item.icon;
+
+              if (item.kind === "popup-trigger") {
+                return (
+                  <button
+                    key={item.label}
+                    type="button"
+                    onClick={openDictionarySearch}
+                    className={clsx(NAV_ITEM_CLASSES, NAV_ITEM_INACTIVE_CLASSES)}
+                  >
+                    {Icon && <Icon className="h-4 w-4" />}
+                    {item.label}
+                  </button>
+                );
+              }
+
+              const active = !item.isAnchor && isActive(pathname, item.href);
               return (
                 <Link
                   key={item.href}
                   href={item.href}
                   aria-current={active ? "page" : undefined}
                   className={clsx(
-                    "flex items-center gap-1.5 rounded-md px-3 py-2 text-sm font-medium transition-colors",
-                    active
-                      ? "bg-primary-light text-primary dark:bg-primary-dark/40 dark:text-white"
-                      : "text-neutral-800 hover:bg-primary-light hover:text-primary dark:text-night-muted dark:hover:bg-night-surface dark:hover:text-night-text"
+                    NAV_ITEM_CLASSES,
+                    active ? NAV_ITEM_ACTIVE_CLASSES : NAV_ITEM_INACTIVE_CLASSES
                   )}
                 >
                   {Icon && <Icon className="h-4 w-4" />}
