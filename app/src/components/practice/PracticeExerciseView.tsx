@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import { Card } from "@/components/ui/Card";
 import { CheckCircleIcon } from "@/components/ui/icons";
-import type { MeaningQuestion, MeaningSessionState } from "@/lib/practice/session";
+import type { ChoiceQuestion, ChoiceSessionState } from "@/lib/practice/session";
 
 const OPTION_LETTERS = ["A", "B", "C", "D", "E", "F"];
 
@@ -27,11 +27,11 @@ export function PracticeExerciseView({
   onAnswer,
   onNext,
 }: {
-  session: MeaningSessionState;
+  session: ChoiceSessionState;
   onAnswer: (option: string) => void;
   onNext: () => void;
 }) {
-  const question: MeaningQuestion | undefined = session.questions[session.currentIndex];
+  const question: ChoiceQuestion | undefined = session.questions[session.currentIndex];
   const total = session.questions.length;
 
   if (!question) return null;
@@ -61,12 +61,24 @@ export function PracticeExerciseView({
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-2">
-          <p className="text-5xl font-bold text-neutral-900 dark:text-night-text">
-            {question.word}
+        {session.practiceType === "character" ? (
+          // Chọn chữ Hán: the prompt is the Vietnamese meaning, styled as
+          // an accent heading — no secondary line (there's no pinyin for
+          // a meaning prompt).
+          <p className="text-center text-3xl font-bold text-primary sm:text-4xl">
+            {question.promptPrimary}
           </p>
-          <p className="text-lg italic text-primary">{question.pinyin}</p>
-        </div>
+        ) : (
+          // Chọn nghĩa: the prompt is the Chinese word, with pinyin below.
+          <div className="flex flex-col items-center gap-2">
+            <p className="text-5xl font-bold text-neutral-900 dark:text-night-text">
+              {question.promptPrimary}
+            </p>
+            {question.promptSecondary && (
+              <p className="text-lg italic text-primary">{question.promptSecondary}</p>
+            )}
+          </div>
+        )}
 
         <div className="flex flex-col gap-3">
           {question.options.map((option, index) => {
@@ -94,7 +106,8 @@ export function PracticeExerciseView({
                 disabled={session.isAnswered}
                 onClick={() => onAnswer(option)}
                 className={clsx(
-                  "flex items-center gap-3 rounded-md border px-5 py-4 text-left text-base font-semibold shadow-card transition-colors disabled:cursor-default",
+                  "flex items-center gap-3 rounded-md border px-5 py-4 text-left font-semibold shadow-card transition-colors disabled:cursor-default",
+                  session.practiceType === "character" ? "text-xl" : "text-base",
                   colorClasses
                 )}
               >

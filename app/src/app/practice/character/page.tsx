@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { PracticeConfigView } from "@/components/practice/PracticeConfigView";
+import { ChoicePracticeFlow } from "@/components/practice/ChoicePracticeFlow";
 
 export const metadata: Metadata = { title: "Chọn chữ Hán — Chinese Thu Man" };
 
 export default function PracticeCharacterConfigPage() {
-  return <PracticeConfigView practiceType="character" />;
+  return <ChoicePracticeFlow practiceType="character" />;
 }

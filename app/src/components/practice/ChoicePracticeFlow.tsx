@@ -12,33 +12,57 @@ import {
   pickUnusedVocabulary,
   isLearningCycleComplete,
   createMeaningSession,
+  createCharacterSession,
   type PracticeVocabularyItem,
-  type MeaningSessionState,
+  type ChoiceSessionState,
 } from "@/lib/practice/session";
 import type { PracticeConfigState, WordCountOption } from "@/lib/practice/types";
 import type { HskLevel } from "@/lib/data/types";
 
 type Phase = "config" | "loading" | "exercise" | "result" | "empty";
 
+/** The two multiple-choice directions this flow supports so far (D2 + D3). */
+export type ChoicePracticeType = "meaning" | "character";
+
+const SESSION_FACTORIES: Record<
+  ChoicePracticeType,
+  (
+    hskLevel: HskLevel,
+    requestedCount: WordCountOption,
+    selected: PracticeVocabularyItem[],
+    pool: PracticeVocabularyItem[]
+  ) => ChoiceSessionState
+> = {
+  meaning: createMeaningSession,
+  character: createCharacterSession,
+};
+
 /**
- * Owns the full Chọn nghĩa flow (Configuration → Exercise → Result) as a
- * client-side state machine on the single /practice/meaning route — no
- * separate exercise/result routes are introduced, per instructions.
+ * Owns the full Configuration → Exercise → Result flow for a multiple-
+ * choice practice type, as a client-side state machine on that type's
+ * single /practice/<type> route — no separate exercise/result routes.
+ *
+ * This generalizes what was previously "MeaningPracticeFlow" (D2) so that
+ * "Chọn chữ Hán" (D3) reuses the exact same session/continuation/
+ * completion/review orchestration instead of a parallel copy — only the
+ * session-creation function differs per `practiceType` (session.ts's
+ * `buildChoiceQuestions` already handles which vocabulary field is the
+ * prompt vs. the answer). Behavior for "meaning" is unchanged from D2.
  *
  * The "learning cycle" (usedIds) tracks vocabulary already used for this
  * practiceType + hskLevel combination, scoped to this component's
- * lifetime (docs/PRACTICE §3, this phase's spec §33): it survives
- * Continue/Review within the flow but does not persist across a full
- * navigation away (e.g. "Về trang chủ" then back), matching "do not
- * persist unnecessary information".
+ * lifetime: it survives Continue/Review within the flow but does not
+ * persist across a full navigation away (e.g. "Về trang chủ" then back).
  */
-export function MeaningPracticeFlow() {
+export function ChoicePracticeFlow({ practiceType }: { practiceType: ChoicePracticeType }) {
   const [phase, setPhase] = useState<Phase>("config");
   const [pool, setPool] = useState<PracticeVocabularyItem[]>([]);
   const [hskLevel, setHskLevel] = useState<HskLevel>(2);
   const [wordCount, setWordCount] = useState<WordCountOption>(20);
   const [usedIds, setUsedIds] = useState<Set<string>>(new Set());
-  const [session, setSession] = useState<MeaningSessionState | null>(null);
+  const [session, setSession] = useState<ChoiceSessionState | null>(null);
+
+  const createSession = SESSION_FACTORIES[practiceType];
 
   const startSession = useCallback(
     (
@@ -51,10 +75,10 @@ export function MeaningPracticeFlow() {
       const newUsed = new Set(used);
       for (const item of selected) newUsed.add(item.id);
       setUsedIds(newUsed);
-      setSession(createMeaningSession(level, count, selected, nextPool));
+      setSession(createSession(level, count, selected, nextPool));
       setPhase("exercise");
     },
-    []
+    [createSession]
   );
 
   const handleStart = useCallback(
@@ -124,17 +148,17 @@ export function MeaningPracticeFlow() {
     const reviewItems = pool.filter((item) => wrongIds.has(item.id));
     // Review does not touch `usedIds`: these vocabulary items are already
     // marked used from the session that just completed, and reviewing
-    // them must not affect learning-cycle completion (spec §17).
-    setSession(createMeaningSession(hskLevel, wordCount, reviewItems, pool));
+    // them must not affect learning-cycle completion.
+    setSession(createSession(hskLevel, wordCount, reviewItems, pool));
     setPhase("exercise");
-  }, [session, pool, hskLevel, wordCount]);
+  }, [session, pool, hskLevel, wordCount, createSession]);
 
   const handleRestart = useCallback(() => {
     startSession(pool, new Set(), wordCount, hskLevel);
   }, [pool, wordCount, hskLevel, startSession]);
 
   if (phase === "config") {
-    return <PracticeConfigView practiceType="meaning" onStart={handleStart} />;
+    return <PracticeConfigView practiceType={practiceType} onStart={handleStart} />;
   }
 
   if (phase === "loading") {

@@ -10,17 +10,20 @@ export interface PracticeVocabularyItem {
 }
 
 /**
- * One "Chọn nghĩa" question: a vocabulary item plus its shuffled
- * multiple-choice options. Other practice types will need their own
- * question shape (character options, flashcard front/back, a free-text
- * writing prompt) — this type intentionally isn't shared beyond meaning,
- * per docs/PRACTICE §4-7 defining genuinely different interactions per
- * type.
+ * One multiple-choice question, shared by "Chọn nghĩa" (prompt: Chinese
+ * word+pinyin, answer: Vietnamese meaning) and "Chọn chữ Hán" (prompt:
+ * Vietnamese meaning, answer: Chinese word) — the two directions are
+ * structurally identical, only which vocabulary field is the prompt vs.
+ * the answer differs (docs/PRACTICE §4/§5; this phase's spec §4).
+ *
+ * `promptPrimary`/`promptSecondary` are pure content — PracticeExerciseView
+ * decides how to style the prompt based on the session's `practiceType`,
+ * keeping this type presentation-agnostic.
  */
-export interface MeaningQuestion {
+export interface ChoiceQuestion {
   vocabularyId: string;
-  word: string;
-  pinyin: string;
+  promptPrimary: string;
+  promptSecondary: string | null;
   correctAnswer: string;
   options: string[];
 }
@@ -46,7 +49,7 @@ export interface PracticeSessionState<TQuestion> {
   sessionCompleted: boolean;
 }
 
-export type MeaningSessionState = PracticeSessionState<MeaningQuestion>;
+export type ChoiceSessionState = PracticeSessionState<ChoiceQuestion>;
 
 function shuffle<T>(items: T[]): T[] {
   const result = [...items];
@@ -82,18 +85,26 @@ export function isLearningCycleComplete(
   return pool.length > 0 && usedIds.size >= pool.length;
 }
 
+type ChoiceDirection = "meaning" | "character";
+
+/** Which vocabulary field is the correct-answer value for a direction. */
+function choiceAnswerValue(direction: ChoiceDirection, item: PracticeVocabularyItem): string {
+  return direction === "meaning" ? item.meaningVi : item.word;
+}
+
 /**
- * Builds the four-option "Chọn nghĩa" questions for a selected batch of
- * vocabulary. Distractors are drawn from OTHER real meanings in the same
- * HSK pool (never invented, never duplicated within one question's
- * options) — docs/PRACTICE §6 and this phase's spec §6.
+ * Shared question-generation core for both directions. Distractors are
+ * drawn from OTHER real answer values in the same HSK pool — never
+ * invented, never duplicated within one question's options — docs/PRACTICE
+ * §6/§7 and this phase's spec §5.
  */
-export function buildMeaningQuestions(
+function buildChoiceQuestions(
+  direction: ChoiceDirection,
   selected: PracticeVocabularyItem[],
   pool: PracticeVocabularyItem[]
-): MeaningQuestion[] {
+): ChoiceQuestion[] {
   return selected.map((item) => {
-    const correctAnswer = item.meaningVi;
+    const correctAnswer = choiceAnswerValue(direction, item);
     const correctKey = correctAnswer.trim().toLowerCase();
 
     const seen = new Set<string>([correctKey]);
@@ -101,34 +112,35 @@ export function buildMeaningQuestions(
 
     const distractors: string[] = [];
     for (const candidate of distractorPool) {
-      const key = candidate.meaningVi.trim().toLowerCase();
+      const value = choiceAnswerValue(direction, candidate);
+      const key = value.trim().toLowerCase();
       if (seen.has(key)) continue;
       seen.add(key);
-      distractors.push(candidate.meaningVi);
+      distractors.push(value);
       if (distractors.length === 3) break;
     }
 
     return {
       vocabularyId: item.id,
-      word: item.word,
-      pinyin: item.pinyin,
+      promptPrimary: direction === "meaning" ? item.word : item.meaningVi,
+      promptSecondary: direction === "meaning" ? item.pinyin : null,
       correctAnswer,
       options: shuffle([correctAnswer, ...distractors]),
     };
   });
 }
 
-export function createMeaningSession(
+function initChoiceSession(
+  practiceType: PracticeType,
   hskLevel: HskLevel,
   requestedCount: WordCountOption,
-  selected: PracticeVocabularyItem[],
-  pool: PracticeVocabularyItem[]
-): MeaningSessionState {
+  questions: ChoiceQuestion[]
+): ChoiceSessionState {
   return {
-    practiceType: "meaning",
+    practiceType,
     hskLevel,
     requestedCount,
-    questions: buildMeaningQuestions(selected, pool),
+    questions,
     currentIndex: 0,
     selectedAnswer: null,
     isAnswered: false,
@@ -138,4 +150,40 @@ export function createMeaningSession(
     wrongVocabularyIds: [],
     sessionCompleted: false,
   };
+}
+
+// ---- Chọn nghĩa (Chinese -> Vietnamese) ----
+
+export function buildMeaningQuestions(
+  selected: PracticeVocabularyItem[],
+  pool: PracticeVocabularyItem[]
+): ChoiceQuestion[] {
+  return buildChoiceQuestions("meaning", selected, pool);
+}
+
+export function createMeaningSession(
+  hskLevel: HskLevel,
+  requestedCount: WordCountOption,
+  selected: PracticeVocabularyItem[],
+  pool: PracticeVocabularyItem[]
+): ChoiceSessionState {
+  return initChoiceSession("meaning", hskLevel, requestedCount, buildMeaningQuestions(selected, pool));
+}
+
+// ---- Chọn chữ Hán (Vietnamese -> Chinese) ----
+
+export function buildCharacterQuestions(
+  selected: PracticeVocabularyItem[],
+  pool: PracticeVocabularyItem[]
+): ChoiceQuestion[] {
+  return buildChoiceQuestions("character", selected, pool);
+}
+
+export function createCharacterSession(
+  hskLevel: HskLevel,
+  requestedCount: WordCountOption,
+  selected: PracticeVocabularyItem[],
+  pool: PracticeVocabularyItem[]
+): ChoiceSessionState {
+  return initChoiceSession("character", hskLevel, requestedCount, buildCharacterQuestions(selected, pool));
 }
