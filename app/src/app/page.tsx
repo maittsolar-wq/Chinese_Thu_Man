@@ -14,6 +14,7 @@ import {
   PencilIcon,
 } from "@/components/ui/icons";
 import type { HskLevel } from "@/lib/data/types";
+import { practiceRoute, type PracticeType } from "@/lib/practice/types";
 
 const HSK_LEVELS: HskLevel[] = [1, 2, 3, 4, 5, 6];
 
@@ -70,38 +71,40 @@ const ACCENT_STYLES: Record<Accent, { border: string; badgeBg: string; icon: str
 };
 
 /**
- * These four cards are real Practice entry points per the approved Home
- * spec, but the Practice configuration screens they must link to
- * (docs/PRACTICE/*) do not exist anywhere in the codebase yet — only
- * specs. Per instructions, no fake/placeholder route is invented here;
- * the cards render visually and get a real `href` once those screens
- * exist. See the implementation report for details.
+ * These four cards are real Practice entry points — each links directly
+ * to its corresponding Practice Configuration route (Phase D1), the same
+ * way the HSK level cards below link to /hsk/[level].
  */
 const PRACTICE_CARDS: {
+  type: PracticeType;
   icon: typeof SearchIcon;
   title: string;
   description: string;
   accent: Accent;
 }[] = [
   {
+    type: "meaning",
     icon: SearchIcon,
     title: "Chọn nghĩa",
     description: "Chọn nghĩa tiếng Việt đúng với từ vựng",
     accent: "blue",
   },
   {
+    type: "character",
     icon: BookOpenIcon,
     title: "Chọn chữ Hán",
     description: "Chọn chữ Hán đúng với nghĩa",
     accent: "green",
   },
   {
+    type: "flashcard",
     icon: CardsIcon,
     title: "Flashcard",
     description: "Ôn tập từ vựng với thẻ ghi nhớ",
     accent: "purple",
   },
   {
+    type: "writing",
     icon: PencilIcon,
     title: "Luyện viết",
     description: "Nhập tiếng Trung theo nghĩa tiếng Việt",
@@ -210,28 +213,29 @@ export default function HomePage() {
           {PRACTICE_CARDS.map((card) => {
             const style = ACCENT_STYLES[card.accent];
             return (
-              <Card
-                key={card.title}
-                className={clsx("flex items-start gap-3 border-2", style.border)}
-              >
-                <span
-                  className={clsx(
-                    "flex h-10 w-10 shrink-0 items-center justify-center rounded-lg",
-                    style.badgeBg,
-                    style.icon
-                  )}
+              <Link key={card.title} href={practiceRoute(card.type)} className="block min-w-0">
+                <Card
+                  className={clsx("flex items-start gap-3 border-2 hover:shadow-md", style.border)}
                 >
-                  <card.icon className="h-5 w-5" />
-                </span>
-                <div className="flex min-w-0 flex-col">
-                  <span className="text-base font-semibold text-neutral-900 dark:text-night-text">
-                    {card.title}
+                  <span
+                    className={clsx(
+                      "flex h-10 w-10 shrink-0 items-center justify-center rounded-lg",
+                      style.badgeBg,
+                      style.icon
+                    )}
+                  >
+                    <card.icon className="h-5 w-5" />
                   </span>
-                  <span className="text-sm text-neutral-600 dark:text-night-muted">
-                    {card.description}
-                  </span>
-                </div>
-              </Card>
+                  <div className="flex min-w-0 flex-col">
+                    <span className="text-base font-semibold text-neutral-900 dark:text-night-text">
+                      {card.title}
+                    </span>
+                    <span className="text-sm text-neutral-600 dark:text-night-muted">
+                      {card.description}
+                    </span>
+                  </div>
+                </Card>
+              </Link>
             );
           })}
         </div>
