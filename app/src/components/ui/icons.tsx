@@ -148,6 +148,15 @@ export function SpeakerIcon(props: IconProps) {
   );
 }
 
+export function LightbulbIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M9 18h6M10 21h4" />
+      <path d="M12 3a6 6 0 0 0-3.5 10.9c.6.45.9 1.02.9 1.6h5.2c0-.58.3-1.15.9-1.6A6 6 0 0 0 12 3Z" />
+    </svg>
+  );
+}
+
 export function CheckCircleIcon(props: IconProps) {
   return (
     <svg {...base} fill="currentColor" stroke="none" {...props}>

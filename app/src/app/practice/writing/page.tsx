@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { PracticeConfigView } from "@/components/practice/PracticeConfigView";
+import { WritingPracticeFlow } from "@/components/practice/WritingPracticeFlow";
 
 export const metadata: Metadata = { title: "Luyện viết — Chinese Thu Man" };
 
 export default function PracticeWritingConfigPage() {
-  return <PracticeConfigView practiceType="writing" />;
+  return <WritingPracticeFlow />;
 }
