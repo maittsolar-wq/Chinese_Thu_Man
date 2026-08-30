@@ -18,14 +18,20 @@ import {
  * implementation rendering whichever type/content is passed in, per
  * docs/PRACTICE §2 ("Configuration — shared by all four exercise types").
  *
- * This is the configuration *foundation* only: it holds hskLevel/wordCount
- * as local state, matching the defaults shown in every supplied reference
- * screenshot (HSK 2 / 20). The "Bắt đầu luyện tập" button intentionally has
- * no destination yet — the actual practice exercise/session screens don't
- * exist in the codebase yet (see docs/PRACTICE), and per instructions no
- * placeholder/fake route or exercise logic is invented here.
+ * It holds hskLevel/wordCount as local state, matching the defaults shown
+ * in every supplied reference screenshot (HSK 2 / 20). When `onStart` is
+ * provided, "Bắt đầu luyện tập" calls it with the current selection —
+ * used by the Chọn nghĩa flow (Phase D2). Practice types whose exercise
+ * screen isn't implemented yet omit `onStart`, leaving the button inert
+ * exactly as before (Phase D1) rather than faking a destination.
  */
-export function PracticeConfigView({ practiceType }: { practiceType: PracticeType }) {
+export function PracticeConfigView({
+  practiceType,
+  onStart,
+}: {
+  practiceType: PracticeType;
+  onStart?: (config: PracticeConfigState) => void;
+}) {
   const info = PRACTICE_TYPE_INFO[practiceType];
   const [config, setConfig] = useState<PracticeConfigState>(DEFAULT_PRACTICE_CONFIG);
 
@@ -64,13 +70,9 @@ export function PracticeConfigView({ practiceType }: { practiceType: PracticeTyp
           />
         </div>
 
-        {/*
-          Foundation-only CTA: the practice exercise screen for this type
-          does not exist yet, so this intentionally has no navigation or
-          exercise logic attached (see component doc comment above).
-        */}
         <button
           type="button"
+          onClick={() => onStart?.(config)}
           className="w-full rounded-md bg-primary py-4 text-lg font-bold text-white transition-colors hover:bg-primary-dark"
         >
           Bắt đầu luyện tập

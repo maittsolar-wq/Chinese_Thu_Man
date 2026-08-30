@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { PracticeConfigView } from "@/components/practice/PracticeConfigView";
+import { MeaningPracticeFlow } from "@/components/practice/MeaningPracticeFlow";
 
 export const metadata: Metadata = { title: "Chọn nghĩa — Chinese Thu Man" };
 
 export default function PracticeMeaningConfigPage() {
-  return <PracticeConfigView practiceType="meaning" />;
+  return <MeaningPracticeFlow />;
 }
