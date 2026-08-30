@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
@@ -37,9 +38,30 @@ const NAV_ITEM_INACTIVE_CLASSES =
 const NAV_ITEM_ACTIVE_CLASSES =
   "bg-primary-light text-primary dark:bg-primary-dark/40 dark:text-white";
 
-function isActive(pathname: string, href: string): boolean {
+/**
+ * `?from=hsk` (carried on links from HskLevelVocabularyList and, via
+ * `radicalHrefSuffix`, from HSK's Bộ thủ section) means the visitor is on
+ * a shared detail screen (/vocabulary/[id], /radicals/[id]) that isn't
+ * literally under /hsk/* but was reached FROM there — HSK stays active
+ * through that hop.
+ *
+ * `hskContext=1` is the same signal carried one hop further: when
+ * Radical Detail was itself entered with `from=hsk`, its
+ * related-vocabulary links can't also say `from=hsk` (that slot is
+ * already `from=radical`, which Vocabulary Detail's breadcrumb depends
+ * on) — so RadicalDetailView appends this second, independent marker
+ * instead (see radicals/[id]/page.tsx). Either signal alone is enough to
+ * keep HSK active; neither is present unless the chain genuinely started
+ * at HSK.
+ */
+function hasHskContext(searchParams: URLSearchParams): boolean {
+  return searchParams.get("from") === "hsk" || searchParams.get("hskContext") === "1";
+}
+
+function isActive(pathname: string, href: string, hskContext: boolean): boolean {
   if (href === "/") return pathname === "/";
-  return pathname === href || pathname.startsWith(`${href}/`);
+  if (pathname === href || pathname.startsWith(`${href}/`)) return true;
+  return href === "/hsk" && hskContext;
 }
 
 function ThemeToggle() {
@@ -62,6 +84,20 @@ function ThemeToggle() {
 export function AppHeader() {
   const pathname = usePathname();
   const { open: openDictionarySearch } = useDictionarySearch();
+
+  // Read via window.location rather than useSearchParams() — the latter
+  // requires a Suspense boundary to avoid de-opting every page that
+  // renders this header (including the ~5,600 statically-generated
+  // /vocabulary/[id] and /radicals/[id] pages) from static to dynamic
+  // rendering. This mirrors ThemeProvider's own established pattern in
+  // this codebase: read client-only state after mount, re-read on each
+  // client-side navigation. The one-render-late catch-up (from's bonus
+  // active state applies a frame after initial paint) is an acceptable,
+  // purely cosmetic tradeoff for a nav highlight.
+  const [hskContext, setHskContext] = useState(false);
+  useEffect(() => {
+    setHskContext(hasHskContext(new URLSearchParams(window.location.search)));
+  }, [pathname]);
 
   return (
     <header className="sticky top-0 z-10 border-b border-neutral-200 bg-white dark:border-night-border dark:bg-night-bg">
@@ -94,7 +130,7 @@ export function AppHeader() {
                 );
               }
 
-              const active = !item.isAnchor && isActive(pathname, item.href);
+              const active = !item.isAnchor && isActive(pathname, item.href, hskContext);
               return (
                 <Link
                   key={item.href}

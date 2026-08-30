@@ -20,9 +20,15 @@ import type { RadicalSummary } from "@/lib/data/types";
 export function DictionaryRadicalSection({
   radicals,
   vocabularyCounts,
+  radicalHrefSuffix,
 }: {
   radicals: RadicalSummary[];
   vocabularyCounts: Record<string, number>;
+  /** Passed straight through to each RadicalCard (e.g. "?from=hsk" when
+   *  this same section is reused on /hsk) so the header can keep the
+   *  right tab active on Radical Detail. Omitted on /dictionary's own
+   *  usage — unaffected, exactly as before. */
+  radicalHrefSuffix?: string;
 }) {
   const [query, setQuery] = useState("");
 
@@ -80,6 +86,7 @@ export function DictionaryRadicalSection({
                     key={radical.id}
                     radical={radical}
                     vocabularyCount={vocabularyCounts[radical.id] ?? 0}
+                    hrefSuffix={radicalHrefSuffix}
                   />
                 ))}
               </div>

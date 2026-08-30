@@ -90,7 +90,11 @@ export default function HskOverviewPage() {
         })}
       </div>
 
-      <DictionaryRadicalSection radicals={radicals} vocabularyCounts={radicalVocabularyCounts} />
+      <DictionaryRadicalSection
+        radicals={radicals}
+        vocabularyCounts={radicalVocabularyCounts}
+        radicalHrefSuffix="?from=hsk"
+      />
     </div>
   );
 }

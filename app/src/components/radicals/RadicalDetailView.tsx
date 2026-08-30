@@ -34,7 +34,19 @@ function dedupeByVocabularyId(
  * "related vocabulary" links out to the shared /vocabulary/[id] page
  * rather than rendering word details itself.
  */
-export function RadicalDetailView({ radical }: { radical: RadicalDetail }) {
+export function RadicalDetailView({
+  radical,
+  vocabularyHrefSuffix = "",
+}: {
+  radical: RadicalDetail;
+  /** Appended to every related-vocabulary link, after its own
+   *  `?from=radical&radicalId=...` — e.g. "&hskContext=1" when this
+   *  Radical Detail was itself reached from HSK, so the header can keep
+   *  HSK active on the Vocabulary Detail this links to. Defaults to ""
+   *  (existing standalone-Radical and Dictionary-Radical callers are
+   *  unaffected unless they opt in via the /radicals/[id] route). */
+  vocabularyHrefSuffix?: string;
+}) {
   return (
     <div className="flex flex-col gap-6">
       <Breadcrumb
@@ -123,7 +135,7 @@ export function RadicalDetailView({ radical }: { radical: RadicalDetail }) {
                     {dedupedEntries.map((entry) => (
                       <Link
                         key={entry.vocabularyId}
-                        href={`/vocabulary/${entry.vocabularyId}?from=radical&radicalId=${radical.id}`}
+                        href={`/vocabulary/${entry.vocabularyId}?from=radical&radicalId=${radical.id}${vocabularyHrefSuffix}`}
                         className="block min-w-0"
                       >
                         <Card className="hover:shadow-md">
