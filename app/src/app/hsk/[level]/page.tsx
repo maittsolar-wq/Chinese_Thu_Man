@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
-import { VocabularyCard } from "@/components/vocabulary/VocabularyCard";
-import { EmptyState } from "@/components/ui/EmptyState";
+import { LinkButton } from "@/components/ui/Button";
+import { ArrowLeftIcon } from "@/components/ui/icons";
+import { HskLevelVocabularyList } from "@/components/hsk/HskLevelVocabularyList";
 import { getVocabularyByLevel } from "@/lib/data/vocabularyRepository";
+import { HSK_LEVEL_INFO } from "@/lib/hsk/hskLevelInfo";
 import type { HskLevel } from "@/lib/data/types";
 
 const VALID_LEVELS = [1, 2, 3, 4, 5, 6];
@@ -27,28 +29,23 @@ export async function generateMetadata({
   return { title: level ? `HSK ${level} — Chinese Thu Man` : "HSK — Chinese Thu Man" };
 }
 
+/**
+ * Search here is live/client-side (HskLevelVocabularyList), scoped to
+ * this level's own pool — no `?q=` searchParams anymore, no submit form.
+ * `key={level}` on the client component forces a fresh mount (query
+ * cleared, page reset to 1) whenever the level itself changes.
+ */
 export default async function HskLevelPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ level: string }>;
-  searchParams: Promise<{ q?: string }>;
 }) {
   const { level: levelParam } = await params;
   const level = parseLevel(levelParam);
   if (!level) notFound();
 
-  const { q } = await searchParams;
-  const query = q?.trim().toLowerCase() ?? "";
-
-  const words = getVocabularyByLevel(level).filter((word) => {
-    if (!query) return true;
-    return (
-      word.word.includes(query) ||
-      word.pinyin.toLowerCase().includes(query) ||
-      word.meaningVi.toLowerCase().includes(query)
-    );
-  });
+  const words = getVocabularyByLevel(level);
+  const info = HSK_LEVEL_INFO[level];
 
   return (
     <div className="flex flex-col gap-6">
@@ -60,47 +57,19 @@ export default async function HskLevelPage({
         ]}
       />
 
-      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+      <LinkButton href="/hsk" variant="neutral" className="w-fit">
+        <ArrowLeftIcon className="h-4 w-4" />
+        Quay lại
+      </LinkButton>
+
+      <div className="flex flex-col gap-1">
         <h1 className="text-2xl font-bold text-primary">HSK {level}</h1>
-        <form action={`/hsk/${level}`} method="get" className="flex gap-2">
-          <input
-            type="text"
-            name="q"
-            defaultValue={q}
-            placeholder={`Lọc trong HSK ${level}...`}
-            className="w-full min-w-0 rounded-md border border-neutral-300 px-3 py-2 text-sm outline-none focus:border-primary focus:ring-1 focus:ring-primary sm:w-64"
-            aria-label={`Lọc từ vựng trong HSK ${level}`}
-          />
-          <button
-            type="submit"
-            className="shrink-0 rounded-md border border-primary px-3 py-2 text-sm font-medium text-primary hover:bg-primary-light"
-          >
-            Lọc
-          </button>
-        </form>
+        <p className="text-sm text-neutral-600 dark:text-night-muted">
+          Danh sách từ vựng HSK {level} - {info.description}
+        </p>
       </div>
 
-      <p className="text-sm text-neutral-600">
-        {words.length.toLocaleString("vi-VN")} từ vựng
-      </p>
-
-      {words.length > 0 ? (
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {words.map((word) => (
-            <VocabularyCard
-              key={word.id}
-              word={word}
-              href={`/vocabulary/${word.id}?from=hsk&level=${level}`}
-              currentLevel={level}
-            />
-          ))}
-        </div>
-      ) : (
-        <EmptyState
-          title="Không tìm thấy từ phù hợp"
-          description="Hãy thử chữ Hán, pinyin hoặc nghĩa tiếng Việt khác."
-        />
-      )}
+      <HskLevelVocabularyList key={level} words={words} level={level} />
     </div>
   );
 }
