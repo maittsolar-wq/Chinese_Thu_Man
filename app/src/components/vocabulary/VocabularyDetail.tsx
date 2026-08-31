@@ -4,7 +4,9 @@ import { Card } from "@/components/ui/Card";
 import { Breadcrumb, type BreadcrumbItem } from "@/components/ui/Breadcrumb";
 import { HskLevelBadge } from "@/components/ui/Badge";
 import { EmptyState } from "@/components/ui/EmptyState";
+import { RadicalCard } from "@/components/radicals/RadicalCard";
 import { getVocabularyById } from "@/lib/data/vocabularyRepository";
+import { getRadicalsForVocabularyId, getRadicalVocabularyCount } from "@/lib/data/radicalRepository";
 
 /**
  * The single canonical Word Detail view. Used by /vocabulary/[id] and
@@ -24,7 +26,11 @@ export function VocabularyDetail({
     .map((id) => getVocabularyById(id))
     .filter((related): related is VocabularyWord => related !== null);
 
-  const hasAudio = Boolean(word.audio.wordUrl);
+  // Real data, resolved through the same radical_vocabulary_mapping.json /
+  // getRadicalSummaryById() already used by Radical Detail (P3.1) — never
+  // a second radical data source. [] here is defensive; every word in the
+  // current production data resolves to at least one radical.
+  const radicals = getRadicalsForVocabularyId(word.id);
 
   return (
     <div className="flex flex-col gap-6">
@@ -48,36 +54,35 @@ export function VocabularyDetail({
         <p className="text-5xl font-bold leading-tight text-neutral-900 dark:text-night-text">{word.word}</p>
         <p className="text-xl text-neutral-600 dark:text-night-muted">{word.pinyin}</p>
         <p className="text-lg text-neutral-800 dark:text-night-text">{word.meaningVi}</p>
+      </Card>
 
-        {hasAudio && (
-          <button
-            type="button"
-            className="mt-1 inline-flex w-fit items-center gap-2 rounded-md border border-primary px-3 py-1.5 text-sm font-medium text-primary hover:bg-primary-light"
-          >
-            🔊 Nghe phát âm
-          </button>
+      <Card className="sm:max-w-xs">
+        <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
+          Số nét
+        </h2>
+        {word.strokeCount != null ? (
+          <p className="text-2xl font-semibold text-neutral-900 dark:text-night-text">{word.strokeCount}</p>
+        ) : (
+          <p className="text-sm text-neutral-500 dark:text-night-muted">Chưa có dữ liệu số nét.</p>
         )}
       </Card>
 
-      <section className="grid gap-4 sm:grid-cols-2">
-        <Card>
-          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
-            Số nét
+      {radicals.length > 0 && (
+        <section>
+          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
+            Bộ thủ
           </h2>
-          {word.strokeCount != null ? (
-            <p className="text-2xl font-semibold text-neutral-900 dark:text-night-text">{word.strokeCount}</p>
-          ) : (
-            <p className="text-sm text-neutral-500 dark:text-night-muted">Chưa có dữ liệu số nét.</p>
-          )}
-        </Card>
-
-        <Card>
-          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
-            Thứ tự nét viết
-          </h2>
-          <p className="text-sm text-neutral-500 dark:text-night-muted">Chưa có dữ liệu thứ tự nét viết.</p>
-        </Card>
-      </section>
+          <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+            {radicals.map((radical) => (
+              <RadicalCard
+                key={radical.id}
+                radical={radical}
+                vocabularyCount={getRadicalVocabularyCount(radical.id)}
+              />
+            ))}
+          </div>
+        </section>
+      )}
 
       <section>
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">

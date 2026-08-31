@@ -90,6 +90,49 @@ export function getVocabularyIdsForRadical(radicalId: string): string[] {
 }
 
 /**
+ * Reverse index of the same radical_vocabulary_mapping.json already loaded
+ * above (radicalId -> vocabulary entries), rebuilt as vocabularyId ->
+ * radicalIds. A vocabulary word can contain more than one character (e.g.
+ * "不客气" carries three, each under a different radical), and — confirmed
+ * against the raw mapping data — the same radical can legitimately appear
+ * more than once for a single word when two of its characters share a
+ * radical (e.g. "一下"'s "一" and "下" both fall under radical_001), so
+ * this dedups per word while iterating radicals in their existing
+ * getAllRadicals()/kangxiIndex order for a stable, deterministic result.
+ * No new file is read and no parsing logic is duplicated — this is a
+ * pure in-memory reshaping of loadRadicalVocabularyMappings().
+ */
+const loadVocabularyRadicalIndex = memoizeOnce((): Map<string, string[]> => {
+  const index = new Map<string, string[]>();
+  for (const summary of loadRadicalSummaries()) {
+    const mapping = loadRadicalVocabularyMappings().get(summary.id);
+    if (!mapping) continue;
+    for (const entries of Object.values(mapping.vocabularyByLevel)) {
+      for (const entry of entries) {
+        const radicalIds = index.get(entry.vocabularyId) ?? [];
+        if (!radicalIds.includes(summary.id)) radicalIds.push(summary.id);
+        index.set(entry.vocabularyId, radicalIds);
+      }
+    }
+  }
+  return index;
+});
+
+/**
+ * All radicals associated with a vocabulary word, resolved through the
+ * same radical_vocabulary_mapping.json / getRadicalSummaryById() already
+ * used by Radical Detail — never a second/parallel data source. Returns
+ * [] when the word has no mapping (none currently exists in production
+ * data, but the function stays defensive for words added later).
+ */
+export function getRadicalsForVocabularyId(vocabularyId: string): RadicalSummary[] {
+  const radicalIds = loadVocabularyRadicalIndex().get(vocabularyId) ?? [];
+  return radicalIds
+    .map((id) => getRadicalSummaryById(id))
+    .filter((radical): radical is RadicalSummary => radical !== null);
+}
+
+/**
  * Resolves a query against the radical dataset's OWN identifying fields
  * only (glyph, variants, pinyin, Vietnamese name, Vietnamese meaning) —
  * never against vocabulary fields, which is what keeps an ordinary
