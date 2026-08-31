@@ -4,8 +4,9 @@ import { useCallback, useState } from "react";
 import { PracticeConfigView } from "./PracticeConfigView";
 import { FlashcardExerciseView } from "./FlashcardExerciseView";
 import { PracticeResultView } from "./PracticeResultView";
+import { PracticeExitConfirmDialog } from "./PracticeExitConfirmDialog";
 import { EmptyState } from "@/components/ui/EmptyState";
-import { LinkButton } from "@/components/ui/Button";
+import { Button, LinkButton } from "@/components/ui/Button";
 import { ArrowLeftIcon } from "@/components/ui/icons";
 import { fetchPracticeVocabulary } from "@/lib/practice/actions";
 import { pickUnusedVocabulary, isLearningCycleComplete, type PracticeVocabularyItem } from "@/lib/practice/session";
@@ -58,6 +59,7 @@ export function FlashcardPracticeFlow() {
   const [wordCount, setWordCount] = useState<WordCountOption>(20);
   const [usedIds, setUsedIds] = useState<Set<string>>(new Set());
   const [session, setSession] = useState<FlashcardSessionState | null>(null);
+  const [isExitConfirmOpen, setIsExitConfirmOpen] = useState(false);
 
   const startSession = useCallback(
     (
@@ -140,6 +142,18 @@ export function FlashcardPracticeFlow() {
     startSession(pool, new Set(), wordCount, hskLevel);
   }, [pool, wordCount, hskLevel, startSession]);
 
+  const handleRequestExit = useCallback(() => setIsExitConfirmOpen(true), []);
+  const handleStayInSession = useCallback(() => setIsExitConfirmOpen(false), []);
+  // Same abandon semantics as ChoicePracticeFlow's handleExitSession — see
+  // that comment. No result screen, no score/usedIds mutation, no
+  // persistence; the next "Bắt đầu luyện tập" from Configuration always
+  // starts a brand-new session regardless of what's left in this state.
+  const handleExitSession = useCallback(() => {
+    setIsExitConfirmOpen(false);
+    setSession(null);
+    setPhase("config");
+  }, []);
+
   if (phase === "config") {
     return <PracticeConfigView practiceType="flashcard" onStart={handleStart} />;
   }
@@ -173,13 +187,22 @@ export function FlashcardPracticeFlow() {
 
   if (phase === "exercise" && session) {
     return (
-      <FlashcardExerciseView
-        session={session}
-        onFlip={handleFlip}
-        onEvaluate={handleEvaluate}
-        onPrevious={handlePrevious}
-        onNext={handleNext}
-      />
+      <div className="flex flex-col gap-4">
+        <Button variant="primary" className="w-fit" onClick={handleRequestExit}>
+          <ArrowLeftIcon className="h-4 w-4" />
+          Quay lại
+        </Button>
+        <FlashcardExerciseView
+          session={session}
+          onFlip={handleFlip}
+          onEvaluate={handleEvaluate}
+          onPrevious={handlePrevious}
+          onNext={handleNext}
+        />
+        {isExitConfirmOpen && (
+          <PracticeExitConfirmDialog onStay={handleStayInSession} onExit={handleExitSession} />
+        )}
+      </div>
     );
   }
 

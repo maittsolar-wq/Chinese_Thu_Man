@@ -4,8 +4,9 @@ import { useCallback, useState } from "react";
 import { PracticeConfigView } from "./PracticeConfigView";
 import { WritingExerciseView } from "./WritingExerciseView";
 import { PracticeResultView } from "./PracticeResultView";
+import { PracticeExitConfirmDialog } from "./PracticeExitConfirmDialog";
 import { EmptyState } from "@/components/ui/EmptyState";
-import { LinkButton } from "@/components/ui/Button";
+import { Button, LinkButton } from "@/components/ui/Button";
 import { ArrowLeftIcon } from "@/components/ui/icons";
 import { fetchPracticeVocabulary } from "@/lib/practice/actions";
 import { pickUnusedVocabulary, isLearningCycleComplete, type PracticeVocabularyItem } from "@/lib/practice/session";
@@ -51,6 +52,7 @@ export function WritingPracticeFlow() {
   const [wordCount, setWordCount] = useState<WordCountOption>(20);
   const [usedIds, setUsedIds] = useState<Set<string>>(new Set());
   const [session, setSession] = useState<WritingSessionState | null>(null);
+  const [isExitConfirmOpen, setIsExitConfirmOpen] = useState(false);
 
   const startSession = useCallback(
     (
@@ -139,6 +141,18 @@ export function WritingPracticeFlow() {
     startSession(pool, new Set(), wordCount, hskLevel);
   }, [pool, wordCount, hskLevel, startSession]);
 
+  const handleRequestExit = useCallback(() => setIsExitConfirmOpen(true), []);
+  const handleStayInSession = useCallback(() => setIsExitConfirmOpen(false), []);
+  // Same abandon semantics as ChoicePracticeFlow's handleExitSession — see
+  // that comment. No result screen, no score/usedIds mutation, no
+  // persistence; the next "Bắt đầu luyện tập" from Configuration always
+  // starts a brand-new session regardless of what's left in this state.
+  const handleExitSession = useCallback(() => {
+    setIsExitConfirmOpen(false);
+    setSession(null);
+    setPhase("config");
+  }, []);
+
   if (phase === "config") {
     return <PracticeConfigView practiceType="writing" onStart={handleStart} />;
   }
@@ -172,15 +186,24 @@ export function WritingPracticeFlow() {
 
   if (phase === "exercise" && session) {
     return (
-      <WritingExerciseView
-        session={session}
-        onAnswerChange={handleAnswerChange}
-        onShowHint={handleShowHint}
-        onCheckAnswer={handleCheckAnswer}
-        onDontRemember={handleDontRemember}
-        onRetry={handleRetry}
-        onNext={handleNext}
-      />
+      <div className="flex flex-col gap-4">
+        <Button variant="primary" className="w-fit" onClick={handleRequestExit}>
+          <ArrowLeftIcon className="h-4 w-4" />
+          Quay lại
+        </Button>
+        <WritingExerciseView
+          session={session}
+          onAnswerChange={handleAnswerChange}
+          onShowHint={handleShowHint}
+          onCheckAnswer={handleCheckAnswer}
+          onDontRemember={handleDontRemember}
+          onRetry={handleRetry}
+          onNext={handleNext}
+        />
+        {isExitConfirmOpen && (
+          <PracticeExitConfirmDialog onStay={handleStayInSession} onExit={handleExitSession} />
+        )}
+      </div>
     );
   }
 

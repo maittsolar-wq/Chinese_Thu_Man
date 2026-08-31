@@ -4,8 +4,9 @@ import { useCallback, useState } from "react";
 import { PracticeConfigView } from "./PracticeConfigView";
 import { PracticeExerciseView } from "./PracticeExerciseView";
 import { PracticeResultView } from "./PracticeResultView";
+import { PracticeExitConfirmDialog } from "./PracticeExitConfirmDialog";
 import { EmptyState } from "@/components/ui/EmptyState";
-import { LinkButton } from "@/components/ui/Button";
+import { Button, LinkButton } from "@/components/ui/Button";
 import { ArrowLeftIcon } from "@/components/ui/icons";
 import { fetchPracticeVocabulary } from "@/lib/practice/actions";
 import {
@@ -61,6 +62,7 @@ export function ChoicePracticeFlow({ practiceType }: { practiceType: ChoicePract
   const [wordCount, setWordCount] = useState<WordCountOption>(20);
   const [usedIds, setUsedIds] = useState<Set<string>>(new Set());
   const [session, setSession] = useState<ChoiceSessionState | null>(null);
+  const [isExitConfirmOpen, setIsExitConfirmOpen] = useState(false);
 
   const createSession = SESSION_FACTORIES[practiceType];
 
@@ -157,6 +159,21 @@ export function ChoicePracticeFlow({ practiceType }: { practiceType: ChoicePract
     startSession(pool, new Set(), wordCount, hskLevel);
   }, [pool, wordCount, hskLevel, startSession]);
 
+  const handleRequestExit = useCallback(() => setIsExitConfirmOpen(true), []);
+  const handleStayInSession = useCallback(() => setIsExitConfirmOpen(false), []);
+  // Abandons the in-progress session outright: no result screen, no
+  // score/usedIds mutation beyond what startSession already applied when
+  // the session began, no persistence anywhere. Configuration is a fresh
+  // mount (its own local hskLevel/wordCount state resets to the default),
+  // and the next "Bắt đầu luyện tập" always calls handleStart, which
+  // starts from a brand-new empty used-set regardless of what's left
+  // here — so nothing further needs to be reset for correctness.
+  const handleExitSession = useCallback(() => {
+    setIsExitConfirmOpen(false);
+    setSession(null);
+    setPhase("config");
+  }, []);
+
   if (phase === "config") {
     return <PracticeConfigView practiceType={practiceType} onStart={handleStart} />;
   }
@@ -189,7 +206,18 @@ export function ChoicePracticeFlow({ practiceType }: { practiceType: ChoicePract
   }
 
   if (phase === "exercise" && session) {
-    return <PracticeExerciseView session={session} onAnswer={handleAnswer} onNext={handleNext} />;
+    return (
+      <div className="flex flex-col gap-4">
+        <Button variant="primary" className="w-fit" onClick={handleRequestExit}>
+          <ArrowLeftIcon className="h-4 w-4" />
+          Quay lại
+        </Button>
+        <PracticeExerciseView session={session} onAnswer={handleAnswer} onNext={handleNext} />
+        {isExitConfirmOpen && (
+          <PracticeExitConfirmDialog onStay={handleStayInSession} onExit={handleExitSession} />
+        )}
+      </div>
+    );
   }
 
   if (phase === "result" && session) {
