@@ -16,7 +16,9 @@ import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon 
  * created for them. This keeps the link genuinely functional instead of
  * dead. "Bộ thủ" is intentionally omitted here to match the approved
  * Home header reference; the /radicals route itself is untouched and
- * still reachable directly.
+ * still reachable directly. Its active state is computed separately
+ * (see `isPracticeActive`) since its href can't participate in the
+ * normal pathname-prefix check below.
  *
  * "Từ điển" is a popup TRIGGER, not a route link — it opens the shared
  * DictionarySearchPopup (mounted once in layout.tsx) instead of
@@ -62,6 +64,18 @@ function isActive(pathname: string, href: string, hskContext: boolean): boolean 
   if (href === "/") return pathname === "/";
   if (pathname === href || pathname.startsWith(`${href}/`)) return true;
   return href === "/hsk" && hskContext;
+}
+
+/**
+ * "Luyện tập"'s href is the `/#luyen-tap` anchor (Home only), so it can
+ * never match `isActive`'s href-prefix check — but /practice/* are real,
+ * literal routes of their own, so unlike HSK's shared-detail-screen case
+ * (which genuinely needed a `?from=`/`hskContext` query signal to cross
+ * into a different route tree) this only needs a plain pathname check.
+ * No query param, no context propagated into Practice.
+ */
+function isPracticeActive(pathname: string): boolean {
+  return pathname.startsWith("/practice/");
 }
 
 function ThemeToggle() {
@@ -130,7 +144,9 @@ export function AppHeader() {
                 );
               }
 
-              const active = !item.isAnchor && isActive(pathname, item.href, hskContext);
+              const active = item.isAnchor
+                ? isPracticeActive(pathname)
+                : isActive(pathname, item.href, hskContext);
               return (
                 <Link
                   key={item.href}
