@@ -1,0 +1,89 @@
+{
+  "reportLabel": "P5.5 HSK1 RELATED-WORD PRODUCTION INTEGRATION REPORT",
+  "timestampUtc": "2026-09-03T13:12:43.225648+00:00",
+  "baselineCommit": "6822fb53b34a2a67657e4eb950d5d5164e24b3a0",
+  "sourceArtifact": {
+    "path": "tools/hsk/hsk1_related_words_refined_selection.json",
+    "sha256": "a853a08206b12d8569a177641c2ad01b3ff2d4e24cc2b63b8c41291062dc4c1d",
+    "modifiedByThisPhase": false
+  },
+  "productionTarget": {
+    "path": "data/hsk/hsk1/hsk1_vocabulary_production.json",
+    "sha256Before": "87cfb8d6dedfa39b6a2b89eb8f55d26659111f64797094d6bcdc5c26417f760a",
+    "sha256After": "0fddf906c1bd67f60ebc970161be8e4121828d0475256e010e925cdae6cc2495",
+    "recordCountBefore": 300,
+    "recordCountAfter": 300
+  },
+  "mergeContract": {
+    "rule": "For each source record where status == 'selected', set production_record.relatedWordIds = source_record.selectedRelatedWordIds, matched by production.id == source.sourceId. needs_review records receive no relatedWordIds. No other field on any record is modified.",
+    "selectedRecordsIntegrated": 292,
+    "needsReviewRecordsIntegrated": 0,
+    "relationshipsIntegrated": 366
+  },
+  "mergeResult": {
+    "recordsWithNonEmptyRelatedWordIds": 193,
+    "recordsChangedFromEmpty": 193,
+    "recordsSelectedButLegitimatelyEmpty": 99,
+    "recordsUnchangedNeedsReview": 8,
+    "relationshipsAdded": 366
+  },
+  "checks": {
+    "production_record_count_unchanged": {
+      "passed": true,
+      "detail": "before=300 after=300 expected=300"
+    },
+    "every_source_id_still_exists": {
+      "passed": true,
+      "detail": "missing=[] added=[]"
+    },
+    "every_related_word_id_exists": {
+      "passed": true,
+      "detail": "unknown: []"
+    },
+    "no_self_references": {
+      "passed": true,
+      "detail": "self-refs: []"
+    },
+    "no_duplicate_related_word_ids": {
+      "passed": true,
+      "detail": "dupes: []"
+    },
+    "needs_review_records_remain_without_related_word_ids": {
+      "passed": true,
+      "detail": "unexpected non-empty needs_review records: []"
+    },
+    "only_selected_records_received_related_word_ids": {
+      "passed": true,
+      "detail": "unexpected: []"
+    },
+    "selected_records_exactly_match_source": {
+      "passed": true,
+      "detail": "mismatched: []"
+    },
+    "total_relationship_count_matches_source": {
+      "passed": true,
+      "detail": "actual=366 expected=366"
+    },
+    "no_unexpected_fields_changed": {
+      "passed": true,
+      "detail": "reconstructed(with relatedWordIds zeroed)=87cfb8d6dedfa39b6a2b89eb8f55d26659111f64797094d6bcdc5c26417f760a before_snapshot=87cfb8d6dedfa39b6a2b89eb8f55d26659111f64797094d6bcdc5c26417f760a"
+    },
+    "source_artifact_unmodified": {
+      "passed": true,
+      "detail": "git hash-object vs HEAD blob comparison (CRLF-safe)"
+    },
+    "hsk2_6_production_unchanged": {
+      "passed": true,
+      "detail": "{\"hsk2\": true, \"hsk3\": true, \"hsk4\": true, \"hsk5\": true, \"hsk6\": true}"
+    },
+    "radicals_unchanged": {
+      "passed": true,
+      "detail": "{\"data/radicals/radicals_214.json\": true, \"data/radicals/radicals_214_detail.json\": true}"
+    },
+    "app_src_unchanged": {
+      "passed": true,
+      "detail": "git status --porcelain -- app/src: (clean)"
+    }
+  },
+  "allChecksPassed": true
+}
