@@ -1,0 +1,180 @@
+{
+  "mergedSourceMode": "existing_refined_artifact",
+  "poolScope": "CROSS_LEVEL_HSK1_TO_HSK6",
+  "candidatePoolProvenanceLimitation": "No HSK6 related-word candidate-pool artifact exists anywhere accessible to this repository (full git history, working tree, dangling objects, and reflog were all searched; see the P3.5.5 pool-scope investigation). This script therefore validates relatedWordIds against the mechanically checkable property 'exists in HSK1-6 production vocabulary', which is a necessary but not sufficient proxy for 'was in the original candidate pool'. Membership in the true original pool cannot be confirmed for any relationship, cross-level or HSK6-native, because that pool was never persisted.",
+  "batchFilesFound": 40,
+  "perFileCounts": {
+    "hsk6_sel01.jsonl": 26,
+    "hsk6_sel02.jsonl": 22,
+    "hsk6_sel03.jsonl": 22,
+    "hsk6_sel04.jsonl": 22,
+    "hsk6_sel05.jsonl": 22,
+    "hsk6_sel06.jsonl": 21,
+    "hsk6_sel07.jsonl": 20,
+    "hsk6_sel08.jsonl": 21,
+    "hsk6_sel09.jsonl": 19,
+    "hsk6_sel10.jsonl": 20,
+    "hsk6_sel11.jsonl": 20,
+    "hsk6_sel12.jsonl": 20,
+    "hsk6_sel13.jsonl": 20,
+    "hsk6_sel14.jsonl": 20,
+    "hsk6_sel15.jsonl": 20,
+    "hsk6_sel16.jsonl": 20,
+    "hsk6_sel17.jsonl": 20,
+    "hsk6_sel18.jsonl": 20,
+    "hsk6_sel19.jsonl": 20,
+    "hsk6_sel20.jsonl": 20,
+    "hsk6_sel21.jsonl": 30,
+    "hsk6_sel22.jsonl": 30,
+    "hsk6_sel23.jsonl": 30,
+    "hsk6_sel24.jsonl": 50,
+    "hsk6_sel25.jsonl": 50,
+    "hsk6_sel26.jsonl": 50,
+    "hsk6_sel27.jsonl": 50,
+    "hsk6_sel28.jsonl": 50,
+    "hsk6_sel29.jsonl": 50,
+    "hsk6_sel30.jsonl": 50,
+    "hsk6_sel31.jsonl": 50,
+    "hsk6_sel32.jsonl": 100,
+    "hsk6_sel33.jsonl": 100,
+    "hsk6_sel34.jsonl": 102,
+    "hsk6_sel35.jsonl": 100,
+    "hsk6_sel36.jsonl": 100,
+    "hsk6_sel37.jsonl": 100,
+    "hsk6_sel38.jsonl": 100,
+    "hsk6_sel39.jsonl": 100,
+    "hsk6_sel40.jsonl": 93
+  },
+  "totalRecordsMerged": 1800,
+  "expectedTotal": 1800,
+  "uniqueSourceIds": 1800,
+  "totalRelationships": 6262,
+  "recordsWithRelationships": 1633,
+  "recordsWithZeroRelationships": 167,
+  "selectedStatusCount": 1063,
+  "needsReviewStatusCount": 737,
+  "crossLevelUsage": {
+    "note": "Descriptive only, not a validation issue, per the approved CROSS_LEVEL_HSK1_TO_HSK6 pool scope decision.",
+    "hsk6ToHsk6Count": 5990,
+    "crossLevelTargetTaggedHsk6Count": 44,
+    "crossLevelTargetLowerOnlyCount": 228,
+    "crossLevelTargetTaggedHsk6Examples": [
+      {
+        "sourceId": "hsk6_0047",
+        "relatedWordId": "hsk4_754"
+      },
+      {
+        "sourceId": "hsk6_0085",
+        "relatedWordId": "hsk2_131"
+      },
+      {
+        "sourceId": "hsk6_0254",
+        "relatedWordId": "hsk3_073"
+      },
+      {
+        "sourceId": "hsk6_0277",
+        "relatedWordId": "hsk4_139"
+      },
+      {
+        "sourceId": "hsk6_0278",
+        "relatedWordId": "hsk4_139"
+      },
+      {
+        "sourceId": "hsk6_0281",
+        "relatedWordId": "hsk4_139"
+      },
+      {
+        "sourceId": "hsk6_0312",
+        "relatedWordId": "hsk2_131"
+      },
+      {
+        "sourceId": "hsk6_0335",
+        "relatedWordId": "hsk2_131"
+      },
+      {
+        "sourceId": "hsk6_0348",
+        "relatedWordId": "hsk5_497"
+      },
+      {
+        "sourceId": "hsk6_0391",
+        "relatedWordId": "hsk3_130"
+      }
+    ],
+    "crossLevelTargetLowerOnlyExamples": [
+      {
+        "sourceId": "hsk6_0006",
+        "relatedWordId": "hsk5_012"
+      },
+      {
+        "sourceId": "hsk6_0016",
+        "relatedWordId": "hsk5_171"
+      },
+      {
+        "sourceId": "hsk6_0016",
+        "relatedWordId": "hsk5_283"
+      },
+      {
+        "sourceId": "hsk6_0042",
+        "relatedWordId": "hsk3_441"
+      },
+      {
+        "sourceId": "hsk6_0042",
+        "relatedWordId": "hsk4_668"
+      },
+      {
+        "sourceId": "hsk6_0042",
+        "relatedWordId": "hsk2_193"
+      },
+      {
+        "sourceId": "hsk6_0049",
+        "relatedWordId": "hsk2_009"
+      },
+      {
+        "sourceId": "hsk6_0049",
+        "relatedWordId": "hsk3_021"
+      },
+      {
+        "sourceId": "hsk6_0049",
+        "relatedWordId": "hsk3_023"
+      },
+      {
+        "sourceId": "hsk6_0050",
+        "relatedWordId": "hsk4_734"
+      }
+    ]
+  },
+  "candidatePoolConfirmation": {
+    "existsInHsk1to6ProductionCount": 6262,
+    "confirmedInOriginalCandidatePoolCount": 0,
+    "note": "confirmedInOriginalCandidatePoolCount is 0 for all relationships (not just cross-level ones) because the original candidate-pool artifact does not exist. See candidatePoolProvenanceLimitation."
+  },
+  "issues": {
+    "duplicate_source_ids": [],
+    "missing_hsk6_source_ids": [],
+    "unexpected_source_ids": [],
+    "wrong_level_source_ids": [],
+    "self_references": [],
+    "duplicate_related_word_ids": [],
+    "unknown_related_word_ids": [],
+    "invalid_selection_status": [],
+    "invalid_confidence": [],
+    "reason_count_mismatch": [],
+    "status_count_inconsistency": [],
+    "batch_file_errors": []
+  },
+  "issueCounts": {
+    "duplicate_source_ids": 0,
+    "missing_hsk6_source_ids": 0,
+    "unexpected_source_ids": 0,
+    "wrong_level_source_ids": 0,
+    "self_references": 0,
+    "duplicate_related_word_ids": 0,
+    "unknown_related_word_ids": 0,
+    "invalid_selection_status": 0,
+    "invalid_confidence": 0,
+    "reason_count_mismatch": 0,
+    "status_count_inconsistency": 0,
+    "batch_file_errors": 0
+  },
+  "allChecksPassed": true
+}

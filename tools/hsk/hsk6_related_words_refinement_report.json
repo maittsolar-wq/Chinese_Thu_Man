@@ -1,0 +1,542 @@
+{
+  "baselineChecksumSha256": "151836a5bab4184e4d95fc9ed3c3a82ee5377971a333cf0ff6d8f95a5115c61a",
+  "refinedChecksumSha256": "26d33ff3eb1efae5669c80505cd83f1d562f10d051a4f03b1df05db8a8ab0ea8",
+  "baselineTotalRelationships": 6326,
+  "refinedTotalRelationships": 6262,
+  "relationshipsRemoved": 64,
+  "statusChangesFromRemovals": 14,
+  "phase4StatusChanges": [
+    {
+      "sourceId": "hsk6_1220",
+      "applied": true,
+      "from": "needs_review",
+      "to": "selected",
+      "reason": "All 4 relationships (书画, 念书, 书面, 书写) re-verified as defensible shared-character relationships to 书籍 with no D/E/F issue found; per the stated rule ('needs_review when fewer than 4 defensible relationships exist'), 4 defensible relationships means this should be 'selected', matching the pattern of every other record in the dataset. No relationship was changed."
+    }
+  ],
+  "removed": [
+    {
+      "sourceId": "hsk6_0031",
+      "relatedWordId": "hsk6_0861",
+      "originalReason": "露 (lòu, to show/appear) is the base character 暴露 is directly built from.",
+      "removalJustification": "Reading mismatch: 暴露 (bàolù) uses the lù reading of 露 ('to reveal'); hsk6_0861 is specifically the lòu reading ('to show/appear'). The correct lù-reading sibling (hsk6_0863, 露1) is already present in this record, so removal loses no coverage."
+    },
+    {
+      "sourceId": "hsk6_0387",
+      "relatedWordId": "hsk6_1126",
+      "originalReason": "散 (sǎn, scattered) is the base character 分散 is directly built from.",
+      "removalJustification": "Reading mismatch: 分散 (fēnsàn, 'to disperse') uses the sàn reading of 散; hsk6_1126 is specifically the sǎn reading ('scattered', adjective). The correct sàn-reading sibling (hsk6_1128) is already present in this record, so removal loses no coverage."
+    },
+    {
+      "sourceId": "hsk6_0820",
+      "relatedWordId": "hsk1_119",
+      "originalReason": "猫 (cat) shares the 犭-radical animal category with 狼.",
+      "removalJustification": "Reason cited only '犭-radical animal category' - no lexical/semantic link between 狼 (wolf) and 猫 (cat) beyond shared radical + broad animal category, both explicitly named reject criteria."
+    },
+    {
+      "sourceId": "hsk6_0820",
+      "relatedWordId": "hsk5_484",
+      "originalReason": "猴子 (monkey) shares the general animal category with 狼.",
+      "removalJustification": "Reason cited only 'general animal category' - wolf and monkey share no lexical/semantic link beyond broad category, an explicitly named reject criterion."
+    },
+    {
+      "sourceId": "hsk6_0885",
+      "relatedWordId": "hsk5_969",
+      "originalReason": "蛇 (snake) shares a weaker small-creature category with 蚂蚁.",
+      "removalJustification": "Reason self-describes as 'a weaker small-creature category' - snake is not an insect; the justification itself admits the relationship is weak/overreaching."
+    },
+    {
+      "sourceId": "hsk6_0904",
+      "relatedWordId": "hsk5_969",
+      "originalReason": "蛇 (snake) shares a weaker small-creature category with 蜜蜂.",
+      "removalJustification": "Same issue as hsk6_0885->hsk5_969: reason self-describes as a 'weaker small-creature category'; bee and snake share no defensible lexical link."
+    },
+    {
+      "sourceId": "hsk6_1741",
+      "relatedWordId": "hsk6_0316",
+      "originalReason": "栋 (measure word for buildings) shares the measure-word category with 株.",
+      "removalJustification": "Reason cited only 'measure-word category' - 株 (measure word for plants) and 栋 (measure word for buildings) measure entirely unrelated noun classes; zero semantic overlap beyond both being measure words in general, an explicitly named reject criterion."
+    },
+    {
+      "sourceId": "hsk6_1349",
+      "relatedWordId": "hsk6_1586",
+      "originalReason": "婴儿 (baby) is a close near-synonym sharing the young-child domain with 娃娃.",
+      "removalJustification": "Sense mismatch: this dataset's own meaningVi for hsk6_1349 娃娃 is 'búp bê' (doll), not 'baby/young child'. The relationship treats it as synonymous with 婴儿 (baby), contradicting the word's own recorded sense in this dataset."
+    },
+    {
+      "sourceId": "hsk6_1577",
+      "relatedWordId": "hsk6_1309",
+      "originalReason": "铜 (copper) shares the metal category with 银牌.",
+      "removalJustification": "Sense mismatch: hsk6_1577 银牌 means 'silver medal' (an award/ranking), not the raw metal. Relating it to 铜 (plain copper) via 'metal category' conflates the medal sense with the metal sense. The record already has 铜牌 (hsk6_1314, 'bronze medal') as the correct medal-family sibling, so removal loses no coverage."
+    },
+    {
+      "sourceId": "hsk6_1541",
+      "relatedWordId": "hsk6_1547",
+      "originalReason": "一道 (together) is a direct 一-family sibling of 一一.",
+      "removalJustification": "一-only: 一一 (one by one) vs 一道 (together) - no independent semantic link; opposing nuance if anything (itemized vs unified)."
+    },
+    {
+      "sourceId": "hsk6_1541",
+      "relatedWordId": "hsk6_1571",
+      "originalReason": "一同 (together) is a direct 一-family sibling of 一一.",
+      "removalJustification": "一-only: 一一 (one by one) vs 一同 (together) - no independent semantic link."
+    },
+    {
+      "sourceId": "hsk6_1541",
+      "relatedWordId": "hsk6_1556",
+      "originalReason": "一再 (repeatedly) is a direct 一-family sibling of 一一.",
+      "removalJustification": "一-only: 一一 (one by one, itemization) vs 一再 (repeatedly, action recurrence) - different concepts, no independent link."
+    },
+    {
+      "sourceId": "hsk6_1541",
+      "relatedWordId": "hsk6_1554",
+      "originalReason": "一向 (always) is a direct 一-family sibling of 一一.",
+      "removalJustification": "一-only: 一一 (one by one) vs 一向 (always) - no independent semantic link."
+    },
+    {
+      "sourceId": "hsk6_1541",
+      "relatedWordId": "hsk6_1550",
+      "originalReason": "一律 (uniformly) is a direct 一-family sibling of 一一.",
+      "removalJustification": "一-only: 一一 (individually) vs 一律 (uniformly, without exception) - contrasting nuance, no independent link."
+    },
+    {
+      "sourceId": "hsk6_1556",
+      "relatedWordId": "hsk6_1548",
+      "originalReason": "一贯 (consistent) is a direct 一-family sibling of 一再.",
+      "removalJustification": "一-only: 一再 (repeatedly, frequency) vs 一贯 (consistent, steady state) - different semantic function, no independent link."
+    },
+    {
+      "sourceId": "hsk6_1556",
+      "relatedWordId": "hsk6_1554",
+      "originalReason": "一向 (always) is a direct 一-family sibling of 一再.",
+      "removalJustification": "一-only: 一再 (repeatedly) vs 一向 (always) - different nuance, no independent link."
+    },
+    {
+      "sourceId": "hsk6_1556",
+      "relatedWordId": "hsk6_1550",
+      "originalReason": "一律 (uniformly) is a direct 一-family sibling of 一再.",
+      "removalJustification": "一-only: 一再 (repeatedly) vs 一律 (uniformly/no exception) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1556",
+      "relatedWordId": "hsk6_1571",
+      "originalReason": "一同 (together) is a direct 一-family sibling of 一再.",
+      "removalJustification": "一-only: 一再 (repeatedly) vs 一同 (together) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1565",
+      "relatedWordId": "hsk6_1547",
+      "originalReason": "一道 (together) is a direct 一-family sibling of 一口气.",
+      "removalJustification": "一-only: 一口气 (in one continuous go) vs 一道 (together) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1565",
+      "relatedWordId": "hsk6_1571",
+      "originalReason": "一同 (together) is a direct 一-family sibling of 一口气.",
+      "removalJustification": "一-only: 一口气 vs 一同 (together) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1565",
+      "relatedWordId": "hsk6_1554",
+      "originalReason": "一向 (always) is a direct 一-family sibling of 一口气.",
+      "removalJustification": "一-only: 一口气 vs 一向 (always) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1565",
+      "relatedWordId": "hsk6_1556",
+      "originalReason": "一再 (repeatedly) is a direct 一-family sibling of 一口气.",
+      "removalJustification": "一-only: 一口气 (all at once, not repeated) vs 一再 (repeatedly) - arguably contrasting, no independent link."
+    },
+    {
+      "sourceId": "hsk6_1565",
+      "relatedWordId": "hsk6_1550",
+      "originalReason": "一律 (uniformly) is a direct 一-family sibling of 一口气.",
+      "removalJustification": "一-only: 一口气 vs 一律 (uniformly) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1571",
+      "relatedWordId": "hsk6_1556",
+      "originalReason": "一再 (repeatedly) shares 一's base character with 一同.",
+      "removalJustification": "一-only: 一同 (together) vs 一再 (repeatedly) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1554",
+      "relatedWordId": "hsk6_1550",
+      "originalReason": "一律 (uniformly) is a direct 一-family sibling of 一向.",
+      "removalJustification": "一-only: 一向 (personal habitual constancy) vs 一律 (uniform application across a group) - related domain but distinct nuance, not a defensible near-synonym pair on close reading."
+    },
+    {
+      "sourceId": "hsk6_1554",
+      "relatedWordId": "hsk6_1571",
+      "originalReason": "一同 (together) is a direct 一-family sibling of 一向.",
+      "removalJustification": "一-only: 一向 vs 一同 (together) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1554",
+      "relatedWordId": "hsk6_1556",
+      "originalReason": "一再 (repeatedly) is a direct 一-family sibling of 一向.",
+      "removalJustification": "一-only: 一向 vs 一再 (repeatedly) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1554",
+      "relatedWordId": "hsk6_1547",
+      "originalReason": "一道 (together) is a direct 一-family sibling of 一向.",
+      "removalJustification": "一-only: 一向 vs 一道 (together) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1564",
+      "relatedWordId": "hsk6_1548",
+      "originalReason": "一贯 (consistent) shares 一's base character with 一帆风顺.",
+      "removalJustification": "一-only: idiom 一帆风顺 (everything going smoothly) vs 一贯 (consistent) - no independent link beyond shared 一."
+    },
+    {
+      "sourceId": "hsk6_1564",
+      "relatedWordId": "hsk6_1554",
+      "originalReason": "一向 (always) shares 一's base character with 一帆风顺.",
+      "removalJustification": "一-only: 一帆风顺 vs 一向 (always) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1564",
+      "relatedWordId": "hsk6_1550",
+      "originalReason": "一律 (uniformly) shares 一's base character with 一帆风顺.",
+      "removalJustification": "一-only: 一帆风顺 vs 一律 (uniformly) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1546",
+      "relatedWordId": "hsk6_1543",
+      "originalReason": "一辈子 (a lifetime) is a direct 一-family sibling of 一带.",
+      "removalJustification": "一-only: 一带 (a region) vs 一辈子 (a lifetime) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1546",
+      "relatedWordId": "hsk6_1569",
+      "originalReason": "一身 (the whole body) is a direct 一-family sibling of 一带.",
+      "removalJustification": "一-only: 一带 (a region) vs 一身 (whole body) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1546",
+      "relatedWordId": "hsk6_1538",
+      "originalReason": "一流 (first-rate) is a direct 一-family sibling of 一带.",
+      "removalJustification": "一-only: 一带 (a region) vs 一流 (first-rate) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1546",
+      "relatedWordId": "hsk6_1547",
+      "originalReason": "一道 (together) is a direct 一-family sibling of 一带.",
+      "removalJustification": "一-only: 一带 (a region) vs 一道 (together) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1546",
+      "relatedWordId": "hsk6_1548",
+      "originalReason": "一贯 (consistent) is a direct 一-family sibling of 一带.",
+      "removalJustification": "一-only: 一带 (a region) vs 一贯 (consistent) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1550",
+      "relatedWordId": "hsk6_1554",
+      "originalReason": "一向 (always) is a direct 一-family sibling of 一律.",
+      "removalJustification": "一-only: 一律 (uniform across a group) vs 一向 (personal habitual constancy) - distinct nuance, not a defensible near-synonym pair on close reading."
+    },
+    {
+      "sourceId": "hsk6_1550",
+      "relatedWordId": "hsk6_1571",
+      "originalReason": "一同 (together) is a direct 一-family sibling of 一律.",
+      "removalJustification": "一-only: 一律 vs 一同 (together) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1550",
+      "relatedWordId": "hsk6_1556",
+      "originalReason": "一再 (repeatedly) is a direct 一-family sibling of 一律.",
+      "removalJustification": "一-only: 一律 vs 一再 (repeatedly) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1570",
+      "relatedWordId": "hsk6_1538",
+      "originalReason": "一流 (first-rate) shares 一's base character with 一时.",
+      "removalJustification": "一-only: 一时 (brief time) vs 一流 (first-rate/quality) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1538",
+      "relatedWordId": "hsk6_1548",
+      "originalReason": "一贯 (consistent) is a direct 一-family sibling of 一流.",
+      "removalJustification": "一-only: 一流 (first-rate) vs 一贯 (consistent) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1538",
+      "relatedWordId": "hsk6_1555",
+      "originalReason": "一系列 (a series) is a direct 一-family sibling of 一流.",
+      "removalJustification": "一-only: 一流 (first-rate) vs 一系列 (a series) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1538",
+      "relatedWordId": "hsk6_1554",
+      "originalReason": "一向 (always) is a direct 一-family sibling of 一流.",
+      "removalJustification": "一-only: 一流 (first-rate) vs 一向 (always) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1538",
+      "relatedWordId": "hsk6_1550",
+      "originalReason": "一律 (uniformly) is a direct 一-family sibling of 一流.",
+      "removalJustification": "一-only: 一流 (first-rate) vs 一律 (uniformly) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1538",
+      "relatedWordId": "hsk6_1556",
+      "originalReason": "一再 (repeatedly) is a direct 一-family sibling of 一流.",
+      "removalJustification": "一-only: 一流 (first-rate) vs 一再 (repeatedly) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1555",
+      "relatedWordId": "hsk6_1538",
+      "originalReason": "一流 (first-rate) is a direct 一-family sibling of 一系列.",
+      "removalJustification": "一-only: 一系列 (a series) vs 一流 (first-rate) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1555",
+      "relatedWordId": "hsk6_1548",
+      "originalReason": "一贯 (consistent) is a direct 一-family sibling of 一系列.",
+      "removalJustification": "一-only: 一系列 (a series) vs 一贯 (consistent) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1555",
+      "relatedWordId": "hsk6_1554",
+      "originalReason": "一向 (always) is a direct 一-family sibling of 一系列.",
+      "removalJustification": "一-only: 一系列 (a series) vs 一向 (always) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1548",
+      "relatedWordId": "hsk6_1555",
+      "originalReason": "一系列 (a series) is a direct 一-family sibling of 一贯.",
+      "removalJustification": "一-only: 一贯 (consistent) vs 一系列 (a series) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1548",
+      "relatedWordId": "hsk6_1538",
+      "originalReason": "一流 (first-rate) is a direct 一-family sibling of 一贯.",
+      "removalJustification": "一-only: 一贯 (consistent) vs 一流 (first-rate) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1548",
+      "relatedWordId": "hsk6_1556",
+      "originalReason": "一再 (repeatedly) is a direct 一-family sibling of 一贯.",
+      "removalJustification": "一-only: 一贯 (consistent) vs 一再 (repeatedly) - no independent link (mirrors the hsk6_1556->hsk6_1548 removal)."
+    },
+    {
+      "sourceId": "hsk6_1569",
+      "relatedWordId": "hsk6_1546",
+      "originalReason": "一带 (a region) shares 一's base character with 一身.",
+      "removalJustification": "一-only: 一身 (body/lifetime) vs 一带 (a region) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1547",
+      "relatedWordId": "hsk6_1541",
+      "originalReason": "一一 (one by one) is a direct 一-family sibling of 一道.",
+      "removalJustification": "一-only: 一道 (together) vs 一一 (one by one) - no independent link; opposing nuance if anything."
+    },
+    {
+      "sourceId": "hsk6_1547",
+      "relatedWordId": "hsk6_1554",
+      "originalReason": "一向 (always) is a direct 一-family sibling of 一道.",
+      "removalJustification": "一-only: 一道 (together) vs 一向 (always) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1547",
+      "relatedWordId": "hsk6_1556",
+      "originalReason": "一再 (repeatedly) is a direct 一-family sibling of 一道.",
+      "removalJustification": "一-only: 一道 (together) vs 一再 (repeatedly) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1547",
+      "relatedWordId": "hsk6_1550",
+      "originalReason": "一律 (uniformly) is a direct 一-family sibling of 一道.",
+      "removalJustification": "一-only: 一道 (together) vs 一律 (uniformly) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1557",
+      "relatedWordId": "hsk6_1548",
+      "originalReason": "一贯 (consistent) is a direct 一-family sibling of 一阵.",
+      "removalJustification": "一-only: 一阵 (a short burst) vs 一贯 (consistent) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1557",
+      "relatedWordId": "hsk6_1554",
+      "originalReason": "一向 (always) is a direct 一-family sibling of 一阵.",
+      "removalJustification": "一-only: 一阵 (a short burst) vs 一向 (always) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1557",
+      "relatedWordId": "hsk6_1556",
+      "originalReason": "一再 (repeatedly) is a direct 一-family sibling of 一阵.",
+      "removalJustification": "一-only: 一阵 (a short burst) vs 一再 (repeatedly) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1557",
+      "relatedWordId": "hsk6_1571",
+      "originalReason": "一同 (together) is a direct 一-family sibling of 一阵.",
+      "removalJustification": "一-only: 一阵 (a short burst) vs 一同 (together) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1643",
+      "relatedWordId": "hsk6_1550",
+      "originalReason": "一律 (uniformly) shares the repetitive/consistency theme with 再三.",
+      "removalJustification": "Weak cross-domain: 再三 (repeatedly) vs 一律 (uniformly/no exception) - related abstract 'pattern over time' super-category but distinct specific meaning; not a defensible near-synonym pair."
+    },
+    {
+      "sourceId": "hsk6_1643",
+      "relatedWordId": "hsk6_1554",
+      "originalReason": "一向 (always) shares the repetitive/consistency theme with 再三.",
+      "removalJustification": "Weak cross-domain: 再三 (repeatedly) vs 一向 (always/constancy) - distinct specific meaning, not a defensible near-synonym pair."
+    },
+    {
+      "sourceId": "hsk6_1643",
+      "relatedWordId": "hsk6_1571",
+      "originalReason": "一同 (together) shares 一's base character with 再三.",
+      "removalJustification": "一-only: 再三 (repeatedly) vs 一同 (together) - no independent link."
+    },
+    {
+      "sourceId": "hsk6_1643",
+      "relatedWordId": "hsk6_1547",
+      "originalReason": "一道 (together) shares 一's base character with 再三.",
+      "removalJustification": "一-only: 再三 (repeatedly) vs 一道 (together) - no independent link."
+    }
+  ],
+  "notFound": [],
+  "statusChangesFromRemovals_detail": [
+    {
+      "sourceId": "hsk6_0820",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 4,
+      "relatedCountAfter": 2
+    },
+    {
+      "sourceId": "hsk6_1541",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 0
+    },
+    {
+      "sourceId": "hsk6_1556",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 1
+    },
+    {
+      "sourceId": "hsk6_1565",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 0
+    },
+    {
+      "sourceId": "hsk6_1554",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 1
+    },
+    {
+      "sourceId": "hsk6_1564",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 2
+    },
+    {
+      "sourceId": "hsk6_1546",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 0
+    },
+    {
+      "sourceId": "hsk6_1550",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 2
+    },
+    {
+      "sourceId": "hsk6_1538",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 0
+    },
+    {
+      "sourceId": "hsk6_1555",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 2
+    },
+    {
+      "sourceId": "hsk6_1548",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 2
+    },
+    {
+      "sourceId": "hsk6_1547",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 1
+    },
+    {
+      "sourceId": "hsk6_1557",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 1
+    },
+    {
+      "sourceId": "hsk6_1643",
+      "trigger": "relationship_count_dropped_below_threshold",
+      "from": "selected",
+      "to": "needs_review",
+      "relatedCountBefore": 5,
+      "relatedCountAfter": 1
+    }
+  ],
+  "proposedButNotAppliedReplacements": [
+    {
+      "sourceId": "hsk6_0031",
+      "note": "No replacement proposed - the two remaining relationships (hsk6_0863 露1, hsk6_1324 透露) already correctly cover the lù sense; no additional candidate exists in the record's own data."
+    },
+    {
+      "sourceId": "hsk6_0387",
+      "note": "No new replacement needed - hsk6_1128 (correct sàn-reading 散) was already present in this record before refinement."
+    },
+    {
+      "sourceId": "hsk6_1741",
+      "note": "Record now has 0 relationships; no replacement candidate exists in the record's own data (it only ever had the one, now-removed, relationship)."
+    },
+    {
+      "sourceId": "hsk6_1349",
+      "note": "Record now has 0 relationships; no replacement candidate exists in the record's own data."
+    }
+  ],
+  "remainingUnresolvedIssues": [
+    "落 (hsk6_0810) là-vs-luò upstream production-data labeling question - not touched, deferred per instructions.",
+    "眼光 (hsk6_1515) -> 眉毛/盲人 borderline sense concern - not touched, deferred per instructions (not in the Phase 2 explicit list).",
+    "狼 (hsk6_0820) -> 狗 (hsk1_064) borderline radical-only concern - not touched, deferred (not in the Phase 2 explicit list; only 猫 and 猴子 were explicitly listed for removal).",
+    "狼 (hsk6_0820) -> 狮子 (hsk6_1180) category-based reasoning retained - not touched, deferred (not in the Phase 2 explicit list)."
+  ]
+}
