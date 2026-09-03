@@ -1,0 +1,106 @@
+{
+  "reportLabel": "P5.3 HSK6 RELATED-WORD PRODUCTION INTEGRATION REPORT",
+  "timestampUtc": "2026-09-03T08:29:09.757Z",
+  "baselineCommit": "50d3d56b06d464706d248900ca3a521b70319c21",
+  "scopeApprovedIn": "P5.2 decision (Option B: selected-status only)",
+  "sourceArtifact": {
+    "path": "tools/hsk/hsk6_related_words_selection.json",
+    "sha256": "26d33ff3eb1efae5669c80505cd83f1d562f10d051a4f03b1df05db8a8ab0ea8",
+    "modifiedByThisPhase": false,
+    "note": "Read-only input throughout P5.3. Hash identical before and after this phase."
+  },
+  "productionTarget": {
+    "path": "data/hsk/hsk6/hsk6_vocabulary_production.json",
+    "sha256Before": "eb4cc8ea75798b4689fab0be97bf41dd31de32b93a04ec6190b29a7b32a5d55a",
+    "sha256After": "6bc39fad68ae900d5a7bcd3ff205a184c9f856167fb0d1f41edb7ba93d7cb53d",
+    "recordCountBefore": 1800,
+    "recordCountAfter": 1800
+  },
+  "mergeContract": {
+    "rule": "For each source record where selectionStatus == 'selected', set production_record.relatedWordIds = source_record.relatedWordIds, matched by production.id == source.sourceId. needs_review records receive no relatedWordIds field. No other field on any record is modified.",
+    "selectedRecordsIntegrated": 1063,
+    "needsReviewRecordsIntegrated": 0,
+    "relationshipsIntegrated": 5119,
+    "otherFieldsChanged": 0
+  },
+  "mergeResult": {
+    "recordsChanged": 1063,
+    "recordsUnchanged": 737,
+    "relationshipsAdded": 5119,
+    "conflicts": 0,
+    "missingIds": 0,
+    "unexpectedIds": 0
+  },
+  "diffAudit": {
+    "onlyRelatedWordIdsChangedOnChangedRecords": true,
+    "unrelatedFieldChanges": 0,
+    "recordsAdded": 0,
+    "recordsRemoved": 0,
+    "hsk1ProductionUnchanged": true,
+    "hsk2ProductionUnchanged": true,
+    "hsk3ProductionUnchanged": true,
+    "hsk4ProductionUnchanged": true,
+    "hsk5ProductionUnchanged": true,
+    "verificationMethod": "git hash-object (working tree) compared against git rev-parse HEAD:<path> (committed blob) for HSK1-5; field-by-field JSON structural diff against a HEAD snapshot for HSK6.",
+    "methodologyNote": "An initial raw sha256sum comparison of 'git show HEAD:<path>' output against the working-tree file for HSK1-5 falsely appeared to mismatch, due to this repository's core.autocrlf=true converting line endings on checkout but not on git show. This was corrected by using git's own object-hash comparison (git hash-object vs git rev-parse HEAD:<path>), which is authoritative and confirmed byte-for-byte identity for all five files."
+  },
+  "postMergeValidation": {
+    "recordCount": 1800,
+    "recordsWithRelatedWordIds": 1063,
+    "needsReviewRecordsWithRelatedWordIds": 0,
+    "totalRelationships": 5119,
+    "duplicateSourceIds": 0,
+    "duplicateRelatedWordIdsPerRecord": 0,
+    "selfReferences": 0,
+    "unknownTargetIds": 0,
+    "selectedRecordsExactlyMatchingSource": 1063,
+    "selectedRecordsMismatchingSource": 0
+  },
+  "applicationIntegration": {
+    "schemaAlreadySupportsRelatedWordIds": true,
+    "appSrcModified": false,
+    "vocabularyDetailDisplaysRealRelatedWords": true,
+    "sameLevelTargetVerified": "hsk6_0004 (暗示) -> 5 hsk6_* targets, all rendered correctly",
+    "crossLevelTargetVerified": "hsk6_0042 (备用) -> hsk3_441 (用) opened, breadcrumb correctly showed 'HSK 3', no leaked HSK 6 context",
+    "multiTargetVerified": "hsk6_0004 (暗示): exactly 5 related-word cards rendered",
+    "needsReviewBehaviorVerified": "hsk6_0001 (岸, needs_review): Từ liên quan section correctly shows the empty state, 0 cards, no unapproved data surfaced",
+    "nonHsk6RegressionVerified": "hsk1_001 (爱): page loads (200), empty state shown (relatedWordIds still 0/300 for HSK1), 0 console errors",
+    "consoleErrorsAcrossAllLiveChecks": 0
+  },
+  "staticValidation": {
+    "typecheck": "PASS (tsc --noEmit, zero output)",
+    "lint": "PASS (eslint ., zero output)",
+    "build": "PASS (next build succeeded, 5632 static pages generated including all 5400 vocabulary detail pages)"
+  },
+  "idempotency": {
+    "secondDryRunRecordsChanged": 0,
+    "secondDryRunRecordsUnchanged": 1063,
+    "secondDryRunRelationshipsAdded": 0,
+    "secondDryRunConflicts": 0,
+    "productionHashUnchangedAfterSecondDryRun": true,
+    "result": "PASS -- second run is a confirmed no-op"
+  },
+  "protectedArtifactsUnchanged": {
+    "method": "git hash-object (working tree) vs git rev-parse HEAD:<path> for all 45 files",
+    "filesChecked": [
+      "tools/hsk/hsk6_related_words_selection.json",
+      "tools/hsk/hsk6_related_words_refinement_report.json",
+      "tools/hsk/hsk6_related_words_validation_report.json",
+      "tools/hsk/hsk6_related_words_validation_report.baseline.json",
+      "tools/hsk/hsk6_related_words_validation_report.pre_refinement.json",
+      "tools/hsk/hsk6_sel01.jsonl ... hsk6_sel40.jsonl (40 files)"
+    ],
+    "allMatched": true,
+    "mismatches": 0
+  },
+  "filesCreatedThisPhase": [
+    "tools/hsk/merge_hsk6_related_words_p53.py",
+    "tools/hsk/hsk6_production_p53_before_snapshot.json",
+    "tools/hsk/hsk6_related_words_p53_integration_report.json"
+  ],
+  "filesModifiedThisPhase": [
+    "data/hsk/hsk6/hsk6_vocabulary_production.json"
+  ],
+  "historicalReportsOverwritten": 0,
+  "allChecksPassed": true
+}
