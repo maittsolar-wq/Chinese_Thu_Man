@@ -9,16 +9,15 @@ import { useDictionarySearch } from "@/components/dictionary/DictionarySearchPro
 import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon } from "@/components/ui/icons";
 
 /**
- * "Luyện tập" points at the real Practice section on Home (#luyen-tap)
- * rather than a dedicated overview route — the Practice configuration
- * screens/routes don't exist in the codebase yet (spec-only, see
- * docs/PRACTICE/), and per instructions no placeholder/fake route is
- * created for them. This keeps the link genuinely functional instead of
- * dead. "Bộ thủ" is intentionally omitted here to match the approved
- * Home header reference; the /radicals route itself is untouched and
- * still reachable directly. Its active state is computed separately
- * (see `isPracticeActive`) since its href can't participate in the
- * normal pathname-prefix check below.
+ * "Luyện tập" points at the standalone Practice Home route (/practice,
+ * P4.2) — its 4 cards link into the existing, already-functional
+ * /practice/{meaning,character,flashcard,writing} flows, nothing
+ * duplicated. Its active state is computed via `isPracticeActive` rather
+ * than the normal pathname-prefix check below, since it needs to match
+ * both the bare /practice route and every /practice/* sub-route.
+ * "Bộ thủ" is intentionally omitted here to match the approved Home
+ * header reference; the /radicals route itself is untouched and still
+ * reachable directly.
  *
  * "Từ điển" is a popup TRIGGER, not a route link — it opens the shared
  * DictionarySearchPopup (mounted once in layout.tsx) instead of
@@ -27,10 +26,10 @@ import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon 
  * header just no longer links to it.
  */
 const NAV_ITEMS = [
-  { kind: "link", href: "/", label: "Trang chủ", icon: HomeIcon, isAnchor: false },
-  { kind: "link", href: "/hsk", label: "HSK", icon: GraduationCapIcon, isAnchor: false },
+  { kind: "link", href: "/", label: "Trang chủ", icon: HomeIcon, usesPracticeActiveCheck: false },
+  { kind: "link", href: "/hsk", label: "HSK", icon: GraduationCapIcon, usesPracticeActiveCheck: false },
   { kind: "popup-trigger", label: "Từ điển", icon: SearchIcon },
-  { kind: "link", href: "/#luyen-tap", label: "Luyện tập", icon: TargetIcon, isAnchor: true },
+  { kind: "link", href: "/practice", label: "Luyện tập", icon: TargetIcon, usesPracticeActiveCheck: true },
 ] as const;
 
 const NAV_ITEM_CLASSES =
@@ -67,15 +66,14 @@ function isActive(pathname: string, href: string, hskContext: boolean): boolean 
 }
 
 /**
- * "Luyện tập"'s href is the `/#luyen-tap` anchor (Home only), so it can
- * never match `isActive`'s href-prefix check — but /practice/* are real,
- * literal routes of their own, so unlike HSK's shared-detail-screen case
- * (which genuinely needed a `?from=`/`hskContext` query signal to cross
- * into a different route tree) this only needs a plain pathname check.
- * No query param, no context propagated into Practice.
+ * Separate from `isActive` only because Practice must be active on the
+ * bare /practice route itself AND every /practice/* sub-route — unlike
+ * HSK's shared-detail-screen case (which genuinely needed a
+ * `?from=`/`hskContext` query signal to cross into a different route
+ * tree), this is a plain pathname check, no query param involved.
  */
 function isPracticeActive(pathname: string): boolean {
-  return pathname.startsWith("/practice/");
+  return pathname === "/practice" || pathname.startsWith("/practice/");
 }
 
 function ThemeToggle() {
@@ -144,7 +142,7 @@ export function AppHeader() {
                 );
               }
 
-              const active = item.isAnchor
+              const active = item.usesPracticeActiveCheck
                 ? isPracticeActive(pathname)
                 : isActive(pathname, item.href, hskContext);
               return (

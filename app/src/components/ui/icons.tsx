@@ -165,6 +165,71 @@ export function LightbulbIcon(props: IconProps) {
   );
 }
 
+/**
+ * Custom Practice Home card icons (P4.2 final icon pass) — more detailed
+ * than the generic Search/BookOpen/Cards/Pencil icons above (which stay
+ * unchanged; they're still used elsewhere: header nav, HSK page, etc.),
+ * built to visually match the approved Practice Home reference screenshot
+ * more closely while following this file's exact stroke conventions
+ * (`base`: 24x24 viewBox, currentColor stroke, width 2, round caps/joins).
+ * "A-Z" is represented abstractly as short text-line marks rather than
+ * literal letterforms — legible at small icon scale, same idea as the
+ * reference's alphabetical/word-list visual.
+ */
+export function PracticeMeaningIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="9" cy="9" r="6" />
+      <path d="M6.5 7.3h5M6.5 9.6h3.6M6.5 11.9h4.6" />
+      <path d="M13.4 13.4 20 20" />
+    </svg>
+  );
+}
+
+export function PracticeCharacterIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M12 6.5c-1.6-1-4-1.5-6-1.5-1 0-2 .1-3 .4v13c1-.3 2-.4 3-.4 2 0 4.4.5 6 1.5" />
+      <path d="M12 6.5c1.6-1 4-1.5 6-1.5 1 0 2 .1 3 .4v13c-1-.3-2-.4-3-.4-2 0-4.4.5-6 1.5V6.5Z" />
+      <path d="M4.8 8.7h3.4M4.8 11.2h2.8" />
+      <path d="M14.8 8.7h3.4M15.3 11.2h2.6" />
+    </svg>
+  );
+}
+
+export function PracticeFlashcardIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <rect x="3" y="2" width="13" height="17" rx="2" />
+      <rect x="8" y="6" width="13" height="17" rx="2" />
+      <path d="M11 14.5h7" />
+    </svg>
+  );
+}
+
+export function PracticeWritingIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <rect x="3" y="2" width="13" height="17" rx="1.5" />
+      <path d="M5.5 7h7.5M5.5 10.5h7.5M5.5 14h4.5" />
+      {/* Same shape as PencilIcon above, scaled ~0.85x and repositioned to
+          sit beside the notepad rather than fill the whole viewBox — kept
+          identical in style/proportion to the proven standalone icon. */}
+      <path d="M11 20.5h3.4L23.3 11.55a1.8 1.8 0 0 0-2.5-2.55L11.9 17.9v2.6Z" />
+      <path d="M19.1 9l2.6 2.6" />
+    </svg>
+  );
+}
+
+export function UserIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="12" cy="8" r="4" />
+      <path d="M4 20c0-3.9 3.6-7 8-7s8 3.1 8 7" />
+    </svg>
+  );
+}
+
 export function CheckCircleIcon(props: IconProps) {
   return (
     <svg {...base} fill="currentColor" stroke="none" {...props}>

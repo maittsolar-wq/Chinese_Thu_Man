@@ -4,17 +4,9 @@ import clsx from "clsx";
 import { Card } from "@/components/ui/Card";
 import { LinkButton } from "@/components/ui/Button";
 import { DictionarySearchTrigger } from "@/components/dictionary/DictionarySearchTrigger";
-import {
-  GraduationCapIcon,
-  SearchIcon,
-  TargetIcon,
-  ArrowRightIcon,
-  BookOpenIcon,
-  CardsIcon,
-  PencilIcon,
-} from "@/components/ui/icons";
+import { GraduationCapIcon, SearchIcon, TargetIcon, ArrowRightIcon } from "@/components/ui/icons";
 import type { HskLevel } from "@/lib/data/types";
-import { practiceRoute, type PracticeType } from "@/lib/practice/types";
+import { practiceRoute, PRACTICE_CARDS, PRACTICE_CARD_ACCENT_STYLES } from "@/lib/practice/types";
 
 const HSK_LEVELS: HskLevel[] = [1, 2, 3, 4, 5, 6];
 
@@ -44,73 +36,6 @@ const HERO_FEATURES = [
     description: "Ôn tập hiệu quả",
   },
 ] as const;
-
-type Accent = "blue" | "green" | "purple" | "red";
-
-const ACCENT_STYLES: Record<Accent, { border: string; badgeBg: string; icon: string }> = {
-  blue: {
-    border: "border-accent-blue",
-    badgeBg: "bg-accent-blue/10 dark:bg-accent-blue/20",
-    icon: "text-accent-blue",
-  },
-  green: {
-    border: "border-accent-green",
-    badgeBg: "bg-accent-green/10 dark:bg-accent-green/20",
-    icon: "text-accent-green",
-  },
-  purple: {
-    border: "border-accent-purple",
-    badgeBg: "bg-accent-purple/10 dark:bg-accent-purple/20",
-    icon: "text-accent-purple",
-  },
-  red: {
-    border: "border-accent-red",
-    badgeBg: "bg-accent-red/10 dark:bg-accent-red/20",
-    icon: "text-accent-red",
-  },
-};
-
-/**
- * These four cards are real Practice entry points — each links directly
- * to its corresponding Practice Configuration route (Phase D1), the same
- * way the HSK level cards below link to /hsk/[level].
- */
-const PRACTICE_CARDS: {
-  type: PracticeType;
-  icon: typeof SearchIcon;
-  title: string;
-  description: string;
-  accent: Accent;
-}[] = [
-  {
-    type: "meaning",
-    icon: SearchIcon,
-    title: "Chọn nghĩa",
-    description: "Chọn nghĩa tiếng Việt đúng với từ vựng",
-    accent: "blue",
-  },
-  {
-    type: "character",
-    icon: BookOpenIcon,
-    title: "Chọn chữ Hán",
-    description: "Chọn chữ Hán đúng với nghĩa",
-    accent: "green",
-  },
-  {
-    type: "flashcard",
-    icon: CardsIcon,
-    title: "Flashcard",
-    description: "Ôn tập từ vựng với thẻ ghi nhớ",
-    accent: "purple",
-  },
-  {
-    type: "writing",
-    icon: PencilIcon,
-    title: "Luyện viết",
-    description: "Nhập tiếng Trung theo nghĩa tiếng Việt",
-    accent: "red",
-  },
-];
 
 export default function HomePage() {
   return (
@@ -211,7 +136,7 @@ export default function HomePage() {
         </div>
         <div className="grid gap-3 sm:grid-cols-2">
           {PRACTICE_CARDS.map((card) => {
-            const style = ACCENT_STYLES[card.accent];
+            const style = PRACTICE_CARD_ACCENT_STYLES[card.accent];
             return (
               <Link key={card.title} href={practiceRoute(card.type)} className="block min-w-0">
                 <Card
