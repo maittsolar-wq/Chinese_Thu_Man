@@ -21,7 +21,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_341"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -70,7 +72,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_041"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -371,7 +375,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_004"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -665,7 +671,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_005"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -812,7 +820,14 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_018",
+      "hsk3_097",
+      "hsk3_098",
+      "hsk3_274",
+      "hsk3_380",
+      "hsk3_381"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -861,7 +876,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_017"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -959,7 +976,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_010"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -1011,7 +1030,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_009"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -1062,7 +1083,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_010"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -1111,7 +1134,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_009"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -1161,7 +1186,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_009"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -1505,7 +1532,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_011"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -1803,7 +1832,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_012"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -1997,7 +2028,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_425"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -2046,7 +2079,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_219"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -2292,7 +2327,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_048"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -2341,7 +2378,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_047"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -2542,7 +2581,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_425"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -2783,7 +2824,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_074"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -3126,7 +3169,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_257",
+      "hsk3_489"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -3175,7 +3221,12 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_027",
+      "hsk1_237",
+      "hsk1_292",
+      "hsk2_042"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -3224,7 +3275,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_429"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -3322,7 +3375,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_101",
+      "hsk3_310",
+      "hsk3_389"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -3371,7 +3428,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_022"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -3622,7 +3681,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_161"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -3874,7 +3935,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_469",
+      "hsk3_126",
+      "hsk3_398"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -4365,7 +4430,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_035"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -4761,7 +4828,14 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_017",
+      "hsk3_098",
+      "hsk3_099",
+      "hsk3_100",
+      "hsk3_274",
+      "hsk3_380"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -4810,7 +4884,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_017",
+      "hsk3_097"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -4859,7 +4936,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_097"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -4908,7 +4987,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_097",
+      "hsk3_274"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -4957,7 +5039,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_068",
+      "hsk3_310",
+      "hsk3_389"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -5006,7 +5092,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_037",
+      "hsk3_257"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -5055,7 +5144,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_038"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -5153,7 +5244,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_014",
+      "hsk3_106"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -5202,7 +5296,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_083",
+      "hsk3_105"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -5300,7 +5397,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_185"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -6136,7 +6235,12 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_079",
+      "hsk3_196",
+      "hsk3_308",
+      "hsk3_411"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -6185,7 +6289,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_079",
+      "hsk3_398"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -6682,7 +6789,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_463"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -7073,7 +7182,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_083"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -7523,7 +7634,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_228"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -7576,7 +7689,11 @@
     ],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_155",
+      "hsk3_156",
+      "hsk3_157"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -7625,7 +7742,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_154",
+      "hsk3_156",
+      "hsk3_157"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -7674,7 +7795,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_154",
+      "hsk3_155",
+      "hsk3_157"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -7723,7 +7848,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_154",
+      "hsk3_155",
+      "hsk3_156"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -7971,7 +8100,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_290"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -8069,7 +8200,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_219"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -8119,7 +8252,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_395"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -8315,7 +8450,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_053"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -8413,7 +8550,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_426"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -8462,7 +8601,12 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_093",
+      "hsk1_128",
+      "hsk1_168",
+      "hsk3_305"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -8511,7 +8655,12 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_094",
+      "hsk1_129",
+      "hsk1_297",
+      "hsk3_306"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -8609,7 +8758,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_058"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -8658,7 +8809,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_059"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -8906,7 +9059,13 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_166",
+      "hsk2_003",
+      "hsk2_053",
+      "hsk2_055",
+      "hsk2_096"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -9158,7 +9317,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_052"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -9404,7 +9565,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_469"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -9649,7 +9812,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_125",
+      "hsk3_308",
+      "hsk3_411"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -9796,7 +9963,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_318"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -10392,7 +10561,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_159"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -10441,7 +10612,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_078"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -10539,7 +10712,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_092",
+      "hsk1_123"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -10785,7 +10961,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_042",
+      "hsk3_164"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -10883,7 +11062,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_242"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -11132,7 +11313,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_058"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -11181,7 +11364,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_097",
+      "hsk2_078"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -11230,7 +11416,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_097",
+      "hsk3_153"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -11279,7 +11468,12 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_057",
+      "hsk1_097",
+      "hsk2_085",
+      "hsk3_277"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -11528,7 +11722,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_138"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -11630,7 +11826,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_103",
+      "hsk3_238"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -11728,7 +11927,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_103",
+      "hsk3_236"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -11826,7 +12028,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_163"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -12077,7 +12281,10 @@
     ],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_246",
+      "hsk3_284"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -12128,7 +12335,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_245"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -12177,7 +12386,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_089"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -12472,7 +12683,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_169"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -12668,7 +12881,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_102"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -12864,7 +13079,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_091"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -12913,7 +13130,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_092"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -12962,7 +13181,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_092"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -13315,7 +13536,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_103"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -13365,7 +13588,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_037",
+      "hsk3_307"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -13512,7 +13738,14 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_017",
+      "hsk3_097",
+      "hsk3_100",
+      "hsk3_276",
+      "hsk3_380",
+      "hsk3_384"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -13565,7 +13798,9 @@
     ],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_318"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -13614,7 +13849,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_274"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -13663,7 +13900,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_229"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -13761,7 +14000,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_287"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -13810,7 +14051,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_288"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -14006,7 +14249,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_245"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -14158,7 +14403,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_279"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -14207,7 +14454,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_280"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -14309,7 +14558,9 @@
     ],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_162"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -14456,7 +14707,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_339"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -14554,7 +14807,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_131"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -14853,7 +15108,10 @@
     ],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_118",
+      "hsk3_302"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -14904,7 +15162,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_040",
+      "hsk3_301"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -14953,7 +15214,12 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_020",
+      "hsk1_022",
+      "hsk1_083",
+      "hsk3_491"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -15051,7 +15317,12 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_093",
+      "hsk1_128",
+      "hsk1_168",
+      "hsk3_172"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -15100,7 +15371,12 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_094",
+      "hsk1_129",
+      "hsk1_297",
+      "hsk3_173"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -15150,7 +15426,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_271"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -15199,7 +15477,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_125",
+      "hsk3_196",
+      "hsk3_411"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -15297,7 +15579,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_068",
+      "hsk3_101",
+      "hsk3_389"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -15346,7 +15632,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_121"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -15542,7 +15830,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_171",
+      "hsk3_316"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -15591,7 +15882,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_315",
+      "hsk3_430"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -15689,7 +15983,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_199",
+      "hsk3_275"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -16181,7 +16478,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_331"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -16331,7 +16630,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_328",
+      "hsk3_435"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -16723,7 +17025,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_293"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -16821,7 +17125,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_001"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -17115,7 +17421,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_098"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -17213,7 +17521,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_459"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -17364,7 +17674,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_041"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -17413,7 +17725,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_354"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -17462,7 +17776,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_353"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -17560,7 +17876,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_144"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -17809,7 +18127,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_145"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -18104,7 +18424,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_146"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -18153,7 +18475,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_148"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -18349,7 +18673,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_121",
+      "hsk2_087",
+      "hsk2_197"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -18496,7 +18824,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_154"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -18594,7 +18924,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_066",
+      "hsk2_157"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -18741,7 +19074,14 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_017",
+      "hsk3_097",
+      "hsk3_274",
+      "hsk3_381",
+      "hsk3_382",
+      "hsk3_384"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -18790,7 +19130,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_017",
+      "hsk3_380"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -18839,7 +19182,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_380"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -18937,7 +19282,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_274",
+      "hsk3_380"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -19085,7 +19433,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_156"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -19134,7 +19484,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_156"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -19183,7 +19535,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_068",
+      "hsk3_101",
+      "hsk3_310"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -19485,7 +19841,9 @@
     ],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_165"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -19633,7 +19991,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_079",
+      "hsk3_126"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -19682,7 +20043,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_250",
+      "hsk3_400"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -19731,7 +20095,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_250",
+      "hsk3_399"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -20278,7 +20645,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_125",
+      "hsk3_196",
+      "hsk3_308"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -20475,7 +20846,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_247"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -20968,7 +21341,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_041",
+      "hsk3_052"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -21017,7 +21393,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_171",
+      "hsk3_427"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -21066,7 +21445,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_426"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -21115,7 +21496,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_431"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -21164,7 +21547,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_066"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -21213,7 +21598,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_316"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -21262,7 +21649,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_428"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -21461,7 +21850,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_331"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -22198,7 +22589,11 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_121",
+      "hsk2_087",
+      "hsk2_197"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -22541,7 +22936,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_155"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -22639,7 +23036,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_349"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -22688,7 +23087,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_185"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -22737,7 +23138,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_185"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -22835,7 +23238,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_136"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -23138,7 +23543,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk3_079",
+      "hsk3_191"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -23982,7 +24390,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_192"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -24129,7 +24539,10 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_257",
+      "hsk3_064"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -24227,7 +24640,12 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk1_020",
+      "hsk1_022",
+      "hsk1_083",
+      "hsk3_303"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -24480,7 +24898,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_198"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -24529,7 +24949,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_198"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,
@@ -24578,7 +25000,9 @@
     "sourceAdditionalLevels": [],
     "strokeCount": null,
     "characterIds": [],
-    "relatedWordIds": [],
+    "relatedWordIds": [
+      "hsk2_198"
+    ],
     "exampleIds": [],
     "audio": {
       "wordUrl": null,

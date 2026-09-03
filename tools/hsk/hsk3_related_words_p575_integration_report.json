@@ -1,0 +1,321 @@
+{
+  "reportLabel": "P5.7.5 HSK3 RELATED-WORD PRODUCTION INTEGRATION REPORT",
+  "timestampUtc": "2026-09-03T15:00:33.336830+00:00",
+  "baselineCommit": "2d44f627f96e53eb03e9193de92f56ce5322c476",
+  "sourceArtifact": {
+    "path": "tools/hsk/hsk3_related_words_refined_selection.json",
+    "sha256": "3e961d9956237a362bfffa3f1ac608f1497ecf71c88371076b2a8a181aac6988",
+    "modifiedByThisPhase": false
+  },
+  "productionTarget": {
+    "path": "data/hsk/hsk3/hsk3_vocabulary_production.json",
+    "sha256Before": "3747004e7eb8bbdd26bc3e8d11ad0af065542dc96fb4cad7b0bd2950368251af",
+    "sha256After": "dfd5f3823e2ade4a73ba4e773c397c359f76bdc4a7c42b8086fab21f217b3034",
+    "recordCountBefore": 500,
+    "recordCountAfter": 500
+  },
+  "criticalAccounting": {
+    "totalRefinedRelationships": 275,
+    "selectedRelationships": 267,
+    "needsReviewRelationships": 8,
+    "eligibleProductionRelationships": 267,
+    "arithmeticReconciles": true
+  },
+  "mergeContract": {
+    "rule": "For each source record where status == 'selected', set production_record.relatedWordIds = source_record.selectedRelatedWordIds, matched by production.id == source.sourceId. needs_review records receive no relatedWordIds. No other field on any record is modified.",
+    "selectedRecordsIntegrated": 494,
+    "needsReviewRecordsIntegrated": 0,
+    "relationshipsIntegrated": 267
+  },
+  "mergeResult": {
+    "recordsWithNonEmptyRelatedWordIds": 157,
+    "recordsChangedFromEmpty": 157,
+    "recordsSelectedButLegitimatelyEmpty": 337,
+    "recordsUnchangedNeedsReview": 6,
+    "relationshipsAdded": 267
+  },
+  "targetHskDistribution": {
+    "refined": {
+      "1": 41,
+      "2": 68,
+      "3": 166,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "excludedNeedsReview": {
+      "1": 1,
+      "2": 0,
+      "3": 7,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "production": {
+      "1": 40,
+      "2": 68,
+      "3": 159,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "specialCases": {
+    "huida_hui_absent": true,
+    "renzhen_rende_absent": true,
+    "renzhen_renwei_absent": true,
+    "tigao_gao_present": true,
+    "guanji_isolated_from_guanxi_family": true
+  },
+  "highCount": {
+    "hsk3_017": 6,
+    "hsk3_097": 6,
+    "hsk3_181": 5,
+    "hsk3_274": 6,
+    "hsk3_380": 6
+  },
+  "checks": {
+    "check1_production_500": {
+      "passed": true,
+      "detail": 500
+    },
+    "check2_refined_source_500": {
+      "passed": true,
+      "detail": 500
+    },
+    "check3_selected_count_494": {
+      "passed": true,
+      "detail": 494
+    },
+    "check4_needs_review_count_6": {
+      "passed": true,
+      "detail": 6
+    },
+    "check4b_needs_review_ids_correct": {
+      "passed": true,
+      "detail": [
+        "hsk3_030",
+        "hsk3_115",
+        "hsk3_139",
+        "hsk3_159",
+        "hsk3_210",
+        "hsk3_403"
+      ]
+    },
+    "check5_total_refined_275": {
+      "passed": true,
+      "detail": 275
+    },
+    "check6_selected_relationships_267": {
+      "passed": true,
+      "detail": 267
+    },
+    "check7_needs_review_relationships_8": {
+      "passed": true,
+      "detail": 8
+    },
+    "check7b_arithmetic_reconciles": {
+      "passed": true,
+      "detail": "267+8=275 vs total=275"
+    },
+    "check8_production_integrated_267": {
+      "passed": true,
+      "detail": {
+        "production": 267,
+        "expected": 267
+      }
+    },
+    "check9_source_target_mapping_exact": {
+      "passed": true,
+      "detail": []
+    },
+    "check10_target_existence": {
+      "passed": true,
+      "detail": []
+    },
+    "check11_no_fabricated_ids": {
+      "passed": true,
+      "detail": "derived"
+    },
+    "check12_no_self_references": {
+      "passed": true,
+      "detail": []
+    },
+    "check13_no_duplicate_related_word_ids": {
+      "passed": true,
+      "detail": []
+    },
+    "check14_needs_review_excluded": {
+      "passed": true,
+      "detail": []
+    },
+    "check14b_only_selected_have_data": {
+      "passed": true,
+      "detail": []
+    },
+    "check15_promoted_records_integrated": {
+      "passed": true,
+      "detail": {
+        "hsk3_347": true,
+        "hsk3_234": true
+      }
+    },
+    "check16_target_distribution_reconciles": {
+      "passed": true,
+      "detail": {
+        "refined": {
+          "1": 41,
+          "2": 68,
+          "3": 166,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        },
+        "excludedNeedsReview": {
+          "1": 1,
+          "2": 0,
+          "3": 7,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        },
+        "production": {
+          "1": 40,
+          "2": 68,
+          "3": 159,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      }
+    },
+    "check17_non_related_field_preservation": {
+      "passed": true,
+      "detail": {
+        "reconstructed": "3747004e7eb8bbdd26bc3e8d11ad0af065542dc96fb4cad7b0bd2950368251af",
+        "before_snapshot": "3747004e7eb8bbdd26bc3e8d11ad0af065542dc96fb4cad7b0bd2950368251af"
+      }
+    },
+    "check18_19_hsk1_hsk2_production_unchanged": {
+      "passed": true,
+      "detail": {
+        "hsk1": true,
+        "hsk2": true
+      }
+    },
+    "check20_hsk4_5_6_production_unchanged": {
+      "passed": true,
+      "detail": {
+        "hsk4": true,
+        "hsk5": true,
+        "hsk6": true
+      }
+    },
+    "hsk1_approved_artifacts_unchanged": {
+      "passed": true,
+      "detail": {
+        "tools/hsk/hsk1_related_words_candidate_pool.json": true,
+        "tools/hsk/hsk1_related_words_selection.json": true,
+        "tools/hsk/hsk1_related_words_refined_selection.json": true,
+        "tools/hsk/hsk1_related_words_final_validation_p544.json": true
+      }
+    },
+    "hsk6_approved_artifacts_unchanged": {
+      "passed": true,
+      "detail": {
+        "tools/hsk/hsk6_related_words_selection.json": true,
+        "tools/hsk/hsk6_related_words_validation_report.json": true,
+        "tools/hsk/hsk6_related_words_refinement_report.json": true
+      }
+    },
+    "hsk2_completed_pipeline_unchanged": {
+      "passed": true,
+      "detail": {
+        "tools/hsk/hsk2_related_words_candidate_pool.json": true,
+        "tools/hsk/hsk2_related_words_selection.json": true,
+        "tools/hsk/hsk2_related_words_refined_selection.json": true
+      }
+    },
+    "check_hsk3_candidate_pool_unchanged": {
+      "passed": true,
+      "detail": {
+        "current": "67883077985d19319e1eabd6cfe40c47198df6a37d85edb3a8fc3a7847d25a27",
+        "reference": "67883077985d19319e1eabd6cfe40c47198df6a37d85edb3a8fc3a7847d25a27"
+      }
+    },
+    "check_hsk3_selection_unchanged": {
+      "passed": true,
+      "detail": {
+        "current": "180816261bfc4be57a210f3665f4a2b63e63b353acd7482b48d819e8fa7f15f9",
+        "reference": "180816261bfc4be57a210f3665f4a2b63e63b353acd7482b48d819e8fa7f15f9"
+      }
+    },
+    "check21_hsk3_source_field_preservation": {
+      "passed": true,
+      "detail": "same as check17"
+    },
+    "check22_app_src_unchanged": {
+      "passed": true,
+      "detail": "(clean)"
+    },
+    "check23a_refined_selectionHash_matches_selection_file": {
+      "passed": true,
+      "detail": {
+        "recorded": "180816261bfc4be57a210f3665f4a2b63e63b353acd7482b48d819e8fa7f15f9",
+        "actual": "180816261bfc4be57a210f3665f4a2b63e63b353acd7482b48d819e8fa7f15f9"
+      }
+    },
+    "check23b_refined_poolHash_matches_pool_file": {
+      "passed": true,
+      "detail": {
+        "recorded": "67883077985d19319e1eabd6cfe40c47198df6a37d85edb3a8fc3a7847d25a27",
+        "actual": "67883077985d19319e1eabd6cfe40c47198df6a37d85edb3a8fc3a7847d25a27"
+      }
+    },
+    "check24_idempotent_dry_run": {
+      "passed": true,
+      "detail": {
+        "returncode": 0,
+        "to_add_zero": true,
+        "conflicts_zero": true
+      }
+    },
+    "special_cases_all_correct": {
+      "passed": true,
+      "detail": {
+        "huida_hui_absent": true,
+        "renzhen_rende_absent": true,
+        "renzhen_renwei_absent": true,
+        "tigao_gao_present": true,
+        "guanji_isolated_from_guanxi_family": true
+      }
+    },
+    "high_count_matches": {
+      "passed": true,
+      "detail": {
+        "expected": {
+          "hsk3_017": 6,
+          "hsk3_097": 6,
+          "hsk3_181": 5,
+          "hsk3_274": 6,
+          "hsk3_380": 6
+        },
+        "actual": {
+          "hsk3_017": 6,
+          "hsk3_097": 6,
+          "hsk3_181": 5,
+          "hsk3_274": 6,
+          "hsk3_380": 6
+        }
+      }
+    },
+    "c_tier_production_safety": {
+      "passed": true,
+      "detail": {
+        "integrated_ok": true,
+        "excluded_ok": true
+      }
+    }
+  },
+  "allChecksPassed": true
+}
