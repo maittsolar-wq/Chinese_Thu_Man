@@ -1,0 +1,186 @@
+{
+  "reportLabel": "P5.6.5 HSK2 RELATED-WORD PRODUCTION INTEGRATION REPORT",
+  "timestampUtc": "2026-09-03T14:18:04.784710+00:00",
+  "baselineCommit": "95c58e71faf48081d29ff3982659120f2edc9d2c",
+  "sourceArtifact": {
+    "path": "tools/hsk/hsk2_related_words_refined_selection.json",
+    "sha256": "4ee26cff6152faaa3201eb73a29622caf943553abf212dad9b7d1edd16ed058c",
+    "modifiedByThisPhase": false
+  },
+  "productionTarget": {
+    "path": "data/hsk/hsk2/hsk2_vocabulary_production.json",
+    "sha256Before": "3d119c4e64c60a644e2c4bc843c82f63af1d98c474a3edd5d009a2a3f9d85c53",
+    "sha256After": "607734a8106216f92b84cd9750359799a375284127d6448c5c57a3b313621cc1",
+    "recordCountBefore": 200,
+    "recordCountAfter": 200
+  },
+  "mergeContract": {
+    "rule": "For each source record where status == 'selected', set production_record.relatedWordIds = source_record.selectedRelatedWordIds, matched by production.id == source.sourceId. needs_review records receive no relatedWordIds. No other field on any record is modified.",
+    "selectedRecordsIntegrated": 198,
+    "needsReviewRecordsIntegrated": 0,
+    "relationshipsIntegrated": 327
+  },
+  "mergeResult": {
+    "recordsWithNonEmptyRelatedWordIds": 162,
+    "recordsChangedFromEmpty": 162,
+    "recordsSelectedButLegitimatelyEmpty": 36,
+    "recordsUnchangedNeedsReview": 2,
+    "relationshipsAdded": 327
+  },
+  "checks": {
+    "check1_source_count_200": {
+      "passed": true,
+      "detail": 200
+    },
+    "check2_production_count_200": {
+      "passed": true,
+      "detail": 200
+    },
+    "check3_selected_count_198": {
+      "passed": true,
+      "detail": 198
+    },
+    "check4_needs_review_count_2": {
+      "passed": true,
+      "detail": 2
+    },
+    "check4b_needs_review_ids_correct": {
+      "passed": true,
+      "detail": [
+        "hsk2_044",
+        "hsk2_067"
+      ]
+    },
+    "check5_integrated_relationship_count_327": {
+      "passed": true,
+      "detail": 327
+    },
+    "check6_all_targets_exist": {
+      "passed": true,
+      "detail": []
+    },
+    "check7_no_duplicate_related_word_ids": {
+      "passed": true,
+      "detail": []
+    },
+    "check8_no_self_references": {
+      "passed": true,
+      "detail": []
+    },
+    "check9_needs_review_excluded": {
+      "passed": true,
+      "detail": []
+    },
+    "check10a_selected_records_exactly_match_source": {
+      "passed": true,
+      "detail": []
+    },
+    "check10b_only_selected_records_have_data": {
+      "passed": true,
+      "detail": []
+    },
+    "check11_target_level_distribution": {
+      "passed": true,
+      "detail": {
+        "expected": {
+          "1": 45,
+          "2": 229,
+          "3": 53,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        },
+        "actual": {
+          "1": 45,
+          "2": 229,
+          "3": 53,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      }
+    },
+    "check12_no_unexpected_field_changes": {
+      "passed": true,
+      "detail": {
+        "reconstructed": "3d119c4e64c60a644e2c4bc843c82f63af1d98c474a3edd5d009a2a3f9d85c53",
+        "before_snapshot": "3d119c4e64c60a644e2c4bc843c82f63af1d98c474a3edd5d009a2a3f9d85c53"
+      }
+    },
+    "check13_hsk1_3_4_5_6_production_unchanged": {
+      "passed": true,
+      "detail": {
+        "hsk1": true,
+        "hsk3": true,
+        "hsk4": true,
+        "hsk5": true,
+        "hsk6": true
+      }
+    },
+    "check13b_hsk1_approved_artifacts_unchanged": {
+      "passed": true,
+      "detail": {
+        "tools/hsk/hsk1_related_words_candidate_pool.json": true,
+        "tools/hsk/hsk1_related_words_selection.json": true,
+        "tools/hsk/hsk1_related_words_refined_selection.json": true,
+        "tools/hsk/hsk1_related_words_final_validation_p544.json": true
+      }
+    },
+    "check13c_hsk6_approved_artifacts_unchanged": {
+      "passed": true,
+      "detail": {
+        "tools/hsk/hsk6_related_words_selection.json": true,
+        "tools/hsk/hsk6_related_words_validation_report.json": true,
+        "tools/hsk/hsk6_related_words_refinement_report.json": true
+      }
+    },
+    "check13d_hsk2_candidate_pool_unchanged": {
+      "passed": true,
+      "detail": {
+        "current": "e8e809a6b7c33cc4f22f509489faefd5089b3f3fa2295f81f16d650c48a9dd8b",
+        "reference": "e8e809a6b7c33cc4f22f509489faefd5089b3f3fa2295f81f16d650c48a9dd8b"
+      }
+    },
+    "check13e_hsk2_selection_unchanged": {
+      "passed": true,
+      "detail": {
+        "current": "dacf0a5431e31f76369741d5f352406dde635a35fc70efd3a4edcec046795910",
+        "reference": "dacf0a5431e31f76369741d5f352406dde635a35fc70efd3a4edcec046795910"
+      }
+    },
+    "check13f_hsk2_refined_selection_unchanged": {
+      "passed": true,
+      "detail": {
+        "current": "4ee26cff6152faaa3201eb73a29622caf943553abf212dad9b7d1edd16ed058c",
+        "reference": "4ee26cff6152faaa3201eb73a29622caf943553abf212dad9b7d1edd16ed058c"
+      }
+    },
+    "check14_app_src_unchanged": {
+      "passed": true,
+      "detail": "(clean)"
+    },
+    "check15_idempotent_dry_run": {
+      "passed": true,
+      "detail": {
+        "returncode": 0,
+        "to_add_zero": true,
+        "conflicts_zero": true
+      }
+    },
+    "check16a_refined_artifact_selectionHash_matches_selection_file": {
+      "passed": true,
+      "detail": {
+        "recorded": "dacf0a5431e31f76369741d5f352406dde635a35fc70efd3a4edcec046795910",
+        "actual": "dacf0a5431e31f76369741d5f352406dde635a35fc70efd3a4edcec046795910"
+      }
+    },
+    "check16b_refined_artifact_poolHash_matches_pool_file": {
+      "passed": true,
+      "detail": {
+        "recorded": "e8e809a6b7c33cc4f22f509489faefd5089b3f3fa2295f81f16d650c48a9dd8b",
+        "actual": "e8e809a6b7c33cc4f22f509489faefd5089b3f3fa2295f81f16d650c48a9dd8b"
+      }
+    }
+  },
+  "allChecksPassed": true
+}
