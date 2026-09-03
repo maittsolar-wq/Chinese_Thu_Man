@@ -4,7 +4,13 @@ import clsx from "clsx";
 import { Card } from "@/components/ui/Card";
 import { LinkButton } from "@/components/ui/Button";
 import { DictionarySearchTrigger } from "@/components/dictionary/DictionarySearchTrigger";
-import { GraduationCapIcon, SearchIcon, TargetIcon, ArrowRightIcon } from "@/components/ui/icons";
+import {
+  GraduationCapIcon,
+  SearchIcon,
+  TargetIcon,
+  ArrowRightIcon,
+  BookOpenIcon,
+} from "@/components/ui/icons";
 import type { HskLevel } from "@/lib/data/types";
 import { practiceRoute, PRACTICE_CARDS, PRACTICE_CARD_ACCENT_STYLES } from "@/lib/practice/types";
 
@@ -122,6 +128,22 @@ export default function HomePage() {
           </p>
         </div>
         <DictionarySearchTrigger placeholder="Nhập chữ Hán, pinyin, bộ thủ ..." />
+      </Card>
+
+      <Card className="flex flex-col gap-4 p-6 sm:p-8">
+        <div className="flex flex-col gap-1">
+          <h2 className="flex items-center gap-2 text-xl font-bold text-neutral-900 dark:text-night-text">
+            <BookOpenIcon className="h-6 w-6 text-primary" />
+            Bộ thủ chữ Hán
+          </h2>
+          <p className="text-sm text-neutral-600 dark:text-night-muted">
+            Tra cứu 214 bộ thủ Khang Hy và từ vựng HSK liên quan.
+          </p>
+        </div>
+        <LinkButton href="/radicals" variant="secondary" className="w-fit">
+          Xem bộ thủ
+          <ArrowRightIcon className="h-4 w-4" />
+        </LinkButton>
       </Card>
 
       <Card id="luyen-tap" className="flex scroll-mt-20 flex-col gap-4 p-6 sm:p-8">
