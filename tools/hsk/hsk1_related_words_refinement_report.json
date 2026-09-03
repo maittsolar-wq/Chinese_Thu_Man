@@ -1,0 +1,75 @@
+{
+  "reportLabel": "P5.4.3 HSK1 RELATED-WORD REFINEMENT REPORT",
+  "refinementVersion": "p543-v1",
+  "rulesVersion": "hsk1-refinement-rules-v1",
+  "generatedAt": "2026-09-03T10:19:16.177851+00:00",
+  "inputSelectionArtifactHash": "59211c161d523337cafc6d697d9ca1504963ab20ddf3d532edc0fa0baa631761",
+  "outputRefinedArtifactHash": "f4627dfd311a13b9434dc058f662b59be3651e047b34661cfb677d3e2ac93043",
+  "totalInputRelationships": 393,
+  "totalOutputRelationships": 387,
+  "numberKept": 387,
+  "numberRemoved": 6,
+  "removalReasonsByCategory": {
+    "C": 6
+  },
+  "removedRelationships": [
+    {
+      "sourceId": "hsk1_063",
+      "sourceWord": "工作",
+      "relatedWordId": "hsk1_176",
+      "relatedWord": "上班",
+      "originalCategory": "C",
+      "reasonForRemoval": "工作/上班: topical/entailment relationship (上班 marks the start of 工作) rather than a tight recurring lexical pairing; not a fixed collocation the way the surviving VO pairs are. Fails the stricter 'not merely same situation' bar."
+    },
+    {
+      "sourceId": "hsk1_063",
+      "sourceWord": "工作",
+      "relatedWordId": "hsk1_228",
+      "relatedWord": "下班",
+      "originalCategory": "C",
+      "reasonForRemoval": "工作/下班: same reasoning as 工作/上班 (topical/entailment, not a fixed collocation)."
+    },
+    {
+      "sourceId": "hsk1_147",
+      "sourceWord": "你好",
+      "relatedWordId": "hsk1_272",
+      "relatedWord": "再见",
+      "originalCategory": "C",
+      "reasonForRemoval": "你好/再见: both greeting-category words but not a direct response-adjacency pair (unlike 谢谢/不客气, 对不起/没关系) -- they don't co-occur in the same exchange. Closer to topical category membership than a recurring lexical pair. Explicitly flagged as the weakest of the three adjacency-style pairs and not preserved."
+    },
+    {
+      "sourceId": "hsk1_176",
+      "sourceWord": "上班",
+      "relatedWordId": "hsk1_063",
+      "relatedWord": "工作",
+      "originalCategory": "C",
+      "reasonForRemoval": "工作/上班: topical/entailment relationship (上班 marks the start of 工作) rather than a tight recurring lexical pairing; not a fixed collocation the way the surviving VO pairs are. Fails the stricter 'not merely same situation' bar."
+    },
+    {
+      "sourceId": "hsk1_228",
+      "sourceWord": "下班",
+      "relatedWordId": "hsk1_063",
+      "relatedWord": "工作",
+      "originalCategory": "C",
+      "reasonForRemoval": "工作/下班: same reasoning as 工作/上班 (topical/entailment, not a fixed collocation)."
+    },
+    {
+      "sourceId": "hsk1_272",
+      "sourceWord": "再见",
+      "relatedWordId": "hsk1_147",
+      "relatedWord": "你好",
+      "originalCategory": "C",
+      "reasonForRemoval": "你好/再见: both greeting-category words but not a direct response-adjacency pair (unlike 谢谢/不客气, 对不起/没关系) -- they don't co-occur in the same exchange. Closer to topical category membership than a recurring lexical pair. Explicitly flagged as the weakest of the three adjacency-style pairs and not preserved."
+    }
+  ],
+  "needsReviewBefore": 23,
+  "needsReviewAfter": 8,
+  "statusDistributionBefore": {
+    "selected": 277,
+    "needs_review": 23
+  },
+  "statusDistributionAfter": {
+    "selected": 292,
+    "needs_review": 8
+  }
+}

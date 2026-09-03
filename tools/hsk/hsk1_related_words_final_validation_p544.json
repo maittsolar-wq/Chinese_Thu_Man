@@ -1,0 +1,244 @@
+{
+  "validationVersion": "p544-v1",
+  "generatedAt": "2026-09-03T10:31:46.885049+00:00",
+  "candidatePoolHash": "71cc9ee3df2c253c5530fa9abe5932bd37418fcad5e4a476fec043f526984fa2",
+  "selectionArtifactHash": "59211c161d523337cafc6d697d9ca1504963ab20ddf3d532edc0fa0baa631761",
+  "refinedArtifactHash": "f4627dfd311a13b9434dc058f662b59be3651e047b34661cfb677d3e2ac93043",
+  "refinementReportHash": "d31ebc0b7f22fed9f353646900db57ef6e4cae7c533166093332ae7849bdd940",
+  "sourceDatasetHash": "87cfb8d6dedfa39b6a2b89eb8f55d26659111f64797094d6bcdc5c26417f760a",
+  "pipelineCounts": {
+    "candidatePoolRelationships": 408,
+    "selectionRelationships": 393,
+    "refinedRelationships": 387,
+    "removedInSelection": 15,
+    "removedInRefinement": 6,
+    "totalRemoved": 21
+  },
+  "statusDistribution": {
+    "selected": 292,
+    "needs_review": 8,
+    "total": 300
+  },
+  "specialCases": {
+    "hsk1_248_xuesheng": {
+      "selected": [
+        "hsk1_211",
+        "hsk1_247",
+        "hsk1_028",
+        "hsk1_238",
+        "hsk1_293"
+      ],
+      "excludes_xuexiao_hsk1_250": true
+    },
+    "hsk1_026_dajia": {
+      "selected": [],
+      "empty": true
+    },
+    "hsk1_181_shei": {
+      "selected": [],
+      "empty": true
+    },
+    "hsk1_182_shenme": {
+      "selected": [],
+      "empty": true
+    },
+    "hsk1_049_er_liang": {
+      "selected": [
+        "hsk1_111"
+      ],
+      "retains_hsk1_111": true
+    },
+    "hsk1_119_mao_hsk1_064_gou": {
+      "hsk1_119_selected": [],
+      "hsk1_064_selected": [],
+      "both_rejected": true
+    },
+    "hsk1_260_yizi_hsk1_295_zhuozi": {
+      "hsk1_260_selected": [],
+      "hsk1_295_selected": [],
+      "both_rejected": true
+    }
+  },
+  "cTierResults": {
+    "gongzuo_shangban": {
+      "expected": "removed",
+      "state": "removed",
+      "matches": true
+    },
+    "gongzuo_xiaban": {
+      "expected": "removed",
+      "state": "removed",
+      "matches": true
+    },
+    "xiexie_bukeqi": {
+      "expected": "kept_selected",
+      "state": "present, status=selected",
+      "matches": true
+    },
+    "duibuqi_meiguanxi": {
+      "expected": "kept_selected",
+      "state": "present, status=selected",
+      "matches": true
+    },
+    "nihao_zaijian": {
+      "expected": "removed",
+      "state": "removed",
+      "matches": true
+    }
+  },
+  "checks": {
+    "A_selection_subset_of_pool": {
+      "passed": true,
+      "detail": "violations: []"
+    },
+    "B_refinement_subset_of_selection": {
+      "passed": true,
+      "detail": "violations: []"
+    },
+    "C_refinement_subset_of_pool": {
+      "passed": true,
+      "detail": "violations: []"
+    },
+    "D_source_ids_in_hsk1": {
+      "passed": true,
+      "detail": "unknown source ids: []"
+    },
+    "E_targets_resolve_to_real_items": {
+      "passed": true,
+      "detail": "unresolved: []"
+    },
+    "F_no_self_references": {
+      "passed": true,
+      "detail": "self-refs: []"
+    },
+    "G_no_duplicate_targets": {
+      "passed": true,
+      "detail": "dupes: []"
+    },
+    "H_no_relationship_outside_universe": {
+      "passed": true,
+      "detail": "outside universe: []"
+    },
+    "count_pool_408": {
+      "passed": true,
+      "detail": "actual=408"
+    },
+    "count_selection_393": {
+      "passed": true,
+      "detail": "actual=393"
+    },
+    "count_refined_387": {
+      "passed": true,
+      "detail": "actual=387"
+    },
+    "count_p542_removed_15": {
+      "passed": true,
+      "detail": "actual=15"
+    },
+    "count_p543_removed_6": {
+      "passed": true,
+      "detail": "actual=6"
+    },
+    "count_total_removed_21": {
+      "passed": true,
+      "detail": "actual=21"
+    },
+    "p543_removal_log_matches_delta": {
+      "passed": true,
+      "detail": "log=6 delta=6"
+    },
+    "status_selected_292": {
+      "passed": true,
+      "detail": "actual=292"
+    },
+    "status_needs_review_8": {
+      "passed": true,
+      "detail": "actual=8"
+    },
+    "status_sums_to_300": {
+      "passed": true,
+      "detail": "actual=300"
+    },
+    "special_xuesheng_correct": {
+      "passed": true,
+      "detail": "{\"selected\": [\"hsk1_211\", \"hsk1_247\", \"hsk1_028\", \"hsk1_238\", \"hsk1_293\"], \"excludes_xuexiao_hsk1_250\": true}"
+    },
+    "special_dajia_empty": {
+      "passed": true,
+      "detail": "{\"selected\": [], \"empty\": true}"
+    },
+    "special_shei_empty": {
+      "passed": true,
+      "detail": "{\"selected\": [], \"empty\": true}"
+    },
+    "special_shenme_empty": {
+      "passed": true,
+      "detail": "{\"selected\": [], \"empty\": true}"
+    },
+    "special_er_liang_retained": {
+      "passed": true,
+      "detail": "{\"selected\": [\"hsk1_111\"], \"retains_hsk1_111\": true}"
+    },
+    "special_mao_gou_rejected": {
+      "passed": true,
+      "detail": "{\"hsk1_119_selected\": [], \"hsk1_064_selected\": [], \"both_rejected\": true}"
+    },
+    "special_yizi_zhuozi_rejected": {
+      "passed": true,
+      "detail": "{\"hsk1_260_selected\": [], \"hsk1_295_selected\": [], \"both_rejected\": true}"
+    },
+    "ctier_gongzuo_shangban": {
+      "passed": true,
+      "detail": "{\"expected\": \"removed\", \"state\": \"removed\", \"matches\": true}"
+    },
+    "ctier_gongzuo_xiaban": {
+      "passed": true,
+      "detail": "{\"expected\": \"removed\", \"state\": \"removed\", \"matches\": true}"
+    },
+    "ctier_xiexie_bukeqi": {
+      "passed": true,
+      "detail": "{\"expected\": \"kept_selected\", \"state\": \"present, status=selected\", \"matches\": true}"
+    },
+    "ctier_duibuqi_meiguanxi": {
+      "passed": true,
+      "detail": "{\"expected\": \"kept_selected\", \"state\": \"present, status=selected\", \"matches\": true}"
+    },
+    "ctier_nihao_zaijian": {
+      "passed": true,
+      "detail": "{\"expected\": \"removed\", \"state\": \"removed\", \"matches\": true}"
+    },
+    "hash_source_recorded_in_selection": {
+      "passed": true,
+      "detail": "recorded=87cfb8d6dedfa39b6a2b89eb8f55d26659111f64797094d6bcdc5c26417f760a actual=87cfb8d6dedfa39b6a2b89eb8f55d26659111f64797094d6bcdc5c26417f760a"
+    },
+    "hash_pool_recorded_in_selection": {
+      "passed": true,
+      "detail": "recorded=71cc9ee3df2c253c5530fa9abe5932bd37418fcad5e4a476fec043f526984fa2 actual=71cc9ee3df2c253c5530fa9abe5932bd37418fcad5e4a476fec043f526984fa2"
+    },
+    "hash_source_recorded_in_refined": {
+      "passed": true,
+      "detail": "recorded=87cfb8d6dedfa39b6a2b89eb8f55d26659111f64797094d6bcdc5c26417f760a actual=87cfb8d6dedfa39b6a2b89eb8f55d26659111f64797094d6bcdc5c26417f760a"
+    },
+    "hash_pool_recorded_in_refined": {
+      "passed": true,
+      "detail": "recorded=71cc9ee3df2c253c5530fa9abe5932bd37418fcad5e4a476fec043f526984fa2 actual=71cc9ee3df2c253c5530fa9abe5932bd37418fcad5e4a476fec043f526984fa2"
+    },
+    "hash_selection_recorded_in_refined": {
+      "passed": true,
+      "detail": "recorded=59211c161d523337cafc6d697d9ca1504963ab20ddf3d532edc0fa0baa631761 actual=59211c161d523337cafc6d697d9ca1504963ab20ddf3d532edc0fa0baa631761"
+    },
+    "hash_refined_recorded_in_refinement_report": {
+      "passed": true,
+      "detail": "recorded=f4627dfd311a13b9434dc058f662b59be3651e047b34661cfb677d3e2ac93043 actual=f4627dfd311a13b9434dc058f662b59be3651e047b34661cfb677d3e2ac93043"
+    },
+    "hash_selection_recorded_in_refinement_report": {
+      "passed": true,
+      "detail": "recorded=59211c161d523337cafc6d697d9ca1504963ab20ddf3d532edc0fa0baa631761 actual=59211c161d523337cafc6d697d9ca1504963ab20ddf3d532edc0fa0baa631761"
+    },
+    "production_hsk1_relatedWordIds_empty": {
+      "passed": true,
+      "detail": "non-empty: []"
+    }
+  },
+  "allChecksPassed": true
+}

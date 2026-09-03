@@ -1,0 +1,4884 @@
+{
+  "selectionVersion": "p542-v1",
+  "candidatePoolPath": "tools/hsk/hsk1_related_words_candidate_pool.json",
+  "candidatePoolVersion": "p541-v1",
+  "candidatePoolHash": "71cc9ee3df2c253c5530fa9abe5932bd37418fcad5e4a476fec043f526984fa2",
+  "sourceDatasetHash": "87cfb8d6dedfa39b6a2b89eb8f55d26659111f64797094d6bcdc5c26417f760a",
+  "rulesVersion": "hsk1-selection-rules-v1",
+  "tierPolicy": {
+    "A": "Strong semantic relation (synonym/near-synonym, antonym, direct lexical family, strong derivation, established compound family) -- auto-accepted from P5.4.1 categories ANTONYM, NEAR_SYNONYM, MORPHOLOGICAL_SUFFIX, COMPOSITIONAL_COMPOUND, CLOSED_PARADIGM, GENDER_PAIR, CONTRAST.",
+    "B": "Strong collocation / lexical relation -- auto-accepted from P5.4.1 category COMPOUND_FAMILY.",
+    "C": "Contextual/functional relation, used sparingly -- from P5.4.1 category FUNCTIONAL_CONTEXT; each of the 20 unordered candidate pairs individually re-reviewed, 13 accepted / 7 explicitly rejected (see FUNCTIONAL_CONTEXT_REJECT in this script)."
+  },
+  "statusPolicy": "needs_review iff the final selected set contains >=1 C-tier relationship; otherwise selected (including confidently-empty 0-selection records).",
+  "maxSelectedPerRecord": 5,
+  "generatedAt": "2026-09-03T09:47:30.668604+00:00",
+  "generatorScript": "tools/hsk/select_hsk1_related_words_p542.py",
+  "recordCount": 300,
+  "records": [
+    {
+      "sourceId": "hsk1_001",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_002",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_003",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_004",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_005",
+      "selectedRelatedWordIds": [
+        "hsk1_207"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_207",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (天); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_006",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_007",
+      "selectedRelatedWordIds": [
+        "hsk1_258"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_258",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (一半); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_008",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_009",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_010",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_011",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_012",
+      "selectedRelatedWordIds": [
+        "hsk1_100",
+        "hsk1_183"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_100",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (看病); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_183",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (生病); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_013",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_014",
+      "selectedRelatedWordIds": [
+        "hsk1_241"
+      ],
+      "status": "needs_review",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_241",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (谢谢); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_015",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_016",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_017",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_018",
+      "selectedRelatedWordIds": [
+        "hsk1_058"
+      ],
+      "status": "needs_review",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_058",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (歌); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_019",
+      "selectedRelatedWordIds": [
+        "hsk1_174"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_174",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (商店); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_020",
+      "selectedRelatedWordIds": [
+        "hsk1_022",
+        "hsk1_083",
+        "hsk1_098"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_022",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (出租车); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_083",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (火车); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_098",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (开车); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_021",
+      "selectedRelatedWordIds": [
+        "hsk1_072",
+        "hsk1_077"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_072",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (好吃); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_077",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (喝); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_022",
+      "selectedRelatedWordIds": [
+        "hsk1_020",
+        "hsk1_083"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_020",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (车); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_083",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (火车); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_023",
+      "selectedRelatedWordIds": [
+        "hsk1_255"
+      ],
+      "status": "needs_review",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_255",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (衣服); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_024",
+      "selectedRelatedWordIds": [
+        "hsk1_035"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_035",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (电话); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_025",
+      "selectedRelatedWordIds": [
+        "hsk1_234"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_234",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (小); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_026",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_027",
+      "selectedRelatedWordIds": [
+        "hsk1_028",
+        "hsk1_237",
+        "hsk1_292"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_028",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (大学生); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_237",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (小学); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_292",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (中学); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_028",
+      "selectedRelatedWordIds": [
+        "hsk1_027",
+        "hsk1_238",
+        "hsk1_293",
+        "hsk1_248"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_027",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (大学); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_238",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (小学生); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_293",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (中学生); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_248",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (学生); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_029",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_030",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_031",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_032",
+      "selectedRelatedWordIds": [
+        "hsk1_059",
+        "hsk1_123"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_059",
+          "category": "A",
+          "reason": "P5.4.1 category CONTRAST (哥哥); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_123",
+          "category": "A",
+          "reason": "P5.4.1 category GENDER_PAIR (妹妹); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_033",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_034",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_035",
+      "selectedRelatedWordIds": [
+        "hsk1_024",
+        "hsk1_036",
+        "hsk1_037",
+        "hsk1_038",
+        "hsk1_189"
+      ],
+      "status": "needs_review",
+      "selectedCount": 5,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_024",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (打电话); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_036",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电脑); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_037",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电视); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_038",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电影); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_189",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (手机); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_036",
+      "selectedRelatedWordIds": [
+        "hsk1_035",
+        "hsk1_037",
+        "hsk1_038"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_035",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电话); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_037",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电视); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_038",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电影); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_037",
+      "selectedRelatedWordIds": [
+        "hsk1_035",
+        "hsk1_036",
+        "hsk1_038"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_035",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电话); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_036",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电脑); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_038",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电影); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_038",
+      "selectedRelatedWordIds": [
+        "hsk1_039",
+        "hsk1_035",
+        "hsk1_036",
+        "hsk1_037"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_039",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (电影院); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_035",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电话); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_036",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电脑); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_037",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (电视); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_039",
+      "selectedRelatedWordIds": [
+        "hsk1_038"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_038",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (电影); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_040",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_041",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_042",
+      "selectedRelatedWordIds": [
+        "hsk1_043"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_043",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (读书); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_043",
+      "selectedRelatedWordIds": [
+        "hsk1_042",
+        "hsk1_249"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_042",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (读); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_249",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (学习); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_044",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_045",
+      "selectedRelatedWordIds": [
+        "hsk1_120"
+      ],
+      "status": "needs_review",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_120",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (没关系); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_046",
+      "selectedRelatedWordIds": [
+        "hsk1_180"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_180",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (少); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_047",
+      "selectedRelatedWordIds": [
+        "hsk1_085"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_085",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (几); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_048",
+      "selectedRelatedWordIds": [
+        "hsk1_153"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_153",
+          "category": "A",
+          "reason": "P5.4.1 category GENDER_PAIR (女儿); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_049",
+      "selectedRelatedWordIds": [
+        "hsk1_111"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_111",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (两); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_050",
+      "selectedRelatedWordIds": [
+        "hsk1_051",
+        "hsk1_125"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_051",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (饭店); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_125",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (米饭); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_051",
+      "selectedRelatedWordIds": [
+        "hsk1_050",
+        "hsk1_174",
+        "hsk1_191"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_050",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (饭); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_174",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (商店); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_191",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (书店); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_052",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_053",
+      "selectedRelatedWordIds": [
+        "hsk1_079",
+        "hsk1_206"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_079",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (很); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_206",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (太); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_054",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_055",
+      "selectedRelatedWordIds": [
+        "hsk1_056"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_056",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (分钟); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_056",
+      "selectedRelatedWordIds": [
+        "hsk1_055",
+        "hsk1_236"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_055",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (分); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_236",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (小时); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_057",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_058",
+      "selectedRelatedWordIds": [
+        "hsk1_018"
+      ],
+      "status": "needs_review",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_018",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (唱); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_059",
+      "selectedRelatedWordIds": [
+        "hsk1_032",
+        "hsk1_092"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_032",
+          "category": "A",
+          "reason": "P5.4.1 category CONTRAST (弟弟); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_092",
+          "category": "A",
+          "reason": "P5.4.1 category GENDER_PAIR (姐姐); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_060",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_061",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_062",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_063",
+      "selectedRelatedWordIds": [
+        "hsk1_176",
+        "hsk1_228"
+      ],
+      "status": "needs_review",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_176",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (上班); tier C per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_228",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (下班); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_064",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_065",
+      "selectedRelatedWordIds": [
+        "hsk1_157"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_157",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (便宜); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_066",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_067",
+      "selectedRelatedWordIds": [
+        "hsk1_270"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_270",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (再); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_068",
+      "selectedRelatedWordIds": [
+        "hsk1_235"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_235",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (小朋友); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_069",
+      "selectedRelatedWordIds": [
+        "hsk1_290",
+        "hsk1_070"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_290",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (中文); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_070",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (汉字); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_070",
+      "selectedRelatedWordIds": [
+        "hsk1_296",
+        "hsk1_069",
+        "hsk1_290"
+      ],
+      "status": "needs_review",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_296",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (字); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_069",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (汉语); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_290",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (中文); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_071",
+      "selectedRelatedWordIds": [
+        "hsk1_072",
+        "hsk1_073",
+        "hsk1_074",
+        "hsk1_075"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_072",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (好吃); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_073",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (好看); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_074",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (好听); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_075",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (好玩儿); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_072",
+      "selectedRelatedWordIds": [
+        "hsk1_021",
+        "hsk1_071",
+        "hsk1_073",
+        "hsk1_074",
+        "hsk1_075"
+      ],
+      "status": "selected",
+      "selectedCount": 5,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_021",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (吃); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_071",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (好); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_073",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好看); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_074",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好听); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_075",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好玩儿); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_073",
+      "selectedRelatedWordIds": [
+        "hsk1_071",
+        "hsk1_158",
+        "hsk1_072",
+        "hsk1_074",
+        "hsk1_075"
+      ],
+      "status": "selected",
+      "selectedCount": 5,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_071",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (好); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_158",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (漂亮); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_072",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好吃); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_074",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好听); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_075",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好玩儿); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_074",
+      "selectedRelatedWordIds": [
+        "hsk1_071",
+        "hsk1_072",
+        "hsk1_073",
+        "hsk1_075"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_071",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (好); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_072",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好吃); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_073",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好看); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_075",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好玩儿); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_075",
+      "selectedRelatedWordIds": [
+        "hsk1_071",
+        "hsk1_072",
+        "hsk1_073",
+        "hsk1_074"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_071",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (好); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_072",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好吃); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_073",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好看); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_074",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (好听); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_076",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_077",
+      "selectedRelatedWordIds": [
+        "hsk1_021"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_021",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (吃); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_078",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_079",
+      "selectedRelatedWordIds": [
+        "hsk1_053"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_053",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (非常); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_080",
+      "selectedRelatedWordIds": [
+        "hsk1_163"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_163",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (前); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_081",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_082",
+      "selectedRelatedWordIds": [
+        "hsk1_102",
+        "hsk1_145"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_102",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (可以); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_145",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (能); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_083",
+      "selectedRelatedWordIds": [
+        "hsk1_020",
+        "hsk1_022"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_020",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (车); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_022",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (出租车); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_084",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_085",
+      "selectedRelatedWordIds": [
+        "hsk1_047"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_047",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (多少); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_086",
+      "selectedRelatedWordIds": [
+        "hsk1_087"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_087",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (家人); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_087",
+      "selectedRelatedWordIds": [
+        "hsk1_086"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_086",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (家); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_088",
+      "selectedRelatedWordIds": [
+        "hsk1_101",
+        "hsk1_210",
+        "hsk1_272"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_101",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (看见); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_210",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (听见); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_272",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (再见); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_089",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_090",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_091",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_092",
+      "selectedRelatedWordIds": [
+        "hsk1_059",
+        "hsk1_123"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_059",
+          "category": "A",
+          "reason": "P5.4.1 category GENDER_PAIR (哥哥); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_123",
+          "category": "A",
+          "reason": "P5.4.1 category CONTRAST (妹妹); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_093",
+      "selectedRelatedWordIds": [
+        "hsk1_128",
+        "hsk1_149",
+        "hsk1_168",
+        "hsk1_094"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_128",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (明年); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_149",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (年); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_168",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (去年); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_094",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (今天); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_094",
+      "selectedRelatedWordIds": [
+        "hsk1_129",
+        "hsk1_207",
+        "hsk1_297",
+        "hsk1_093"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_129",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (明天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_207",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_297",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (昨天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_093",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (今年); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_095",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_096",
+      "selectedRelatedWordIds": [
+        "hsk1_233"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_233",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (想); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_097",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_098",
+      "selectedRelatedWordIds": [
+        "hsk1_020"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_020",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (车); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_099",
+      "selectedRelatedWordIds": [
+        "hsk1_101"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_101",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (看见); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_100",
+      "selectedRelatedWordIds": [
+        "hsk1_012",
+        "hsk1_256",
+        "hsk1_257"
+      ],
+      "status": "needs_review",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_012",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (病); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_256",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (医生); tier C per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_257",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (医院); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_101",
+      "selectedRelatedWordIds": [
+        "hsk1_088",
+        "hsk1_099",
+        "hsk1_210"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_088",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (见); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_099",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (看); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_210",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (听见); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_102",
+      "selectedRelatedWordIds": [
+        "hsk1_082",
+        "hsk1_145"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_082",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (会); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_145",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (能); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_103",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_104",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_105",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_106",
+      "selectedRelatedWordIds": [
+        "hsk1_167"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_167",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (去); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_107",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_108",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_109",
+      "selectedRelatedWordIds": [
+        "hsk1_169"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_169",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (热); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_110",
+      "selectedRelatedWordIds": [
+        "hsk1_212"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_212",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (外); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_111",
+      "selectedRelatedWordIds": [
+        "hsk1_049"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_049",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (二); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_112",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_113",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_114",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_115",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_116",
+      "selectedRelatedWordIds": [
+        "hsk1_117"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_117",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (卖); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_117",
+      "selectedRelatedWordIds": [
+        "hsk1_116"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_116",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (买); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_118",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_119",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_120",
+      "selectedRelatedWordIds": [
+        "hsk1_121",
+        "hsk1_045"
+      ],
+      "status": "needs_review",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_121",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (没事); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_045",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (对不起); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_121",
+      "selectedRelatedWordIds": [
+        "hsk1_120"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_120",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (没关系); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_122",
+      "selectedRelatedWordIds": [
+        "hsk1_263"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_263",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (有); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_123",
+      "selectedRelatedWordIds": [
+        "hsk1_032",
+        "hsk1_092"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_032",
+          "category": "A",
+          "reason": "P5.4.1 category GENDER_PAIR (弟弟); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_092",
+          "category": "A",
+          "reason": "P5.4.1 category CONTRAST (姐姐); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_124",
+      "selectedRelatedWordIds": [
+        "hsk1_148",
+        "hsk1_203",
+        "hsk1_204",
+        "hsk1_205",
+        "hsk1_222"
+      ],
+      "status": "selected",
+      "selectedCount": 5,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_148",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (你们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_203",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (他们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_204",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (它们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_205",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (她们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_222",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (我们); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_125",
+      "selectedRelatedWordIds": [
+        "hsk1_050"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_050",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (饭); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_126",
+      "selectedRelatedWordIds": [
+        "hsk1_127"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_127",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (面条儿); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_127",
+      "selectedRelatedWordIds": [
+        "hsk1_126"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_126",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (面包); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_128",
+      "selectedRelatedWordIds": [
+        "hsk1_093",
+        "hsk1_149",
+        "hsk1_168",
+        "hsk1_129"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_093",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (今年); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_149",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (年); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_168",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (去年); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_129",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (明天); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_129",
+      "selectedRelatedWordIds": [
+        "hsk1_094",
+        "hsk1_207",
+        "hsk1_297",
+        "hsk1_128"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_094",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (今天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_207",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_297",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (昨天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_128",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (明年); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_130",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_131",
+      "selectedRelatedWordIds": [
+        "hsk1_136",
+        "hsk1_279"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_136",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (那); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_279",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (这); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_132",
+      "selectedRelatedWordIds": [
+        "hsk1_138",
+        "hsk1_281"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_138",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (那个); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_281",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (这个); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_133",
+      "selectedRelatedWordIds": [
+        "hsk1_134",
+        "hsk1_139",
+        "hsk1_282"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_134",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (哪儿); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_139",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (那里); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_282",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (这里); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_134",
+      "selectedRelatedWordIds": [
+        "hsk1_133",
+        "hsk1_140",
+        "hsk1_283"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_133",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (哪里); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_140",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (那儿); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_283",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (这儿); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_135",
+      "selectedRelatedWordIds": [
+        "hsk1_141",
+        "hsk1_284"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_141",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (那些); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_284",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (这些); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_136",
+      "selectedRelatedWordIds": [
+        "hsk1_131",
+        "hsk1_279"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_131",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (哪); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_279",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (这); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_137",
+      "selectedRelatedWordIds": [
+        "hsk1_280"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_280",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (这边); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_138",
+      "selectedRelatedWordIds": [
+        "hsk1_132",
+        "hsk1_281"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_132",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (哪个); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_281",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (这个); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_139",
+      "selectedRelatedWordIds": [
+        "hsk1_133",
+        "hsk1_140",
+        "hsk1_282"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_133",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (哪里); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_140",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (那儿); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_282",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (这里); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_140",
+      "selectedRelatedWordIds": [
+        "hsk1_134",
+        "hsk1_139",
+        "hsk1_283"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_134",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (哪儿); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_139",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (那里); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_283",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (这儿); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_141",
+      "selectedRelatedWordIds": [
+        "hsk1_135",
+        "hsk1_284"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_135",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (哪些); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_284",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (这些); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_142",
+      "selectedRelatedWordIds": [
+        "hsk1_152"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_152",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (女); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_143",
+      "selectedRelatedWordIds": [
+        "hsk1_154",
+        "hsk1_156"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_154",
+          "category": "A",
+          "reason": "P5.4.1 category GENDER_PAIR (女朋友); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_156",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (朋友); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_144",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_145",
+      "selectedRelatedWordIds": [
+        "hsk1_082",
+        "hsk1_102"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_082",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (会); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_102",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (可以); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_146",
+      "selectedRelatedWordIds": [
+        "hsk1_148",
+        "hsk1_150"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_148",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (你们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_150",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (您); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_147",
+      "selectedRelatedWordIds": [
+        "hsk1_272"
+      ],
+      "status": "needs_review",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_272",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (再见); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_148",
+      "selectedRelatedWordIds": [
+        "hsk1_124",
+        "hsk1_146"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_124",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_146",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (你); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_149",
+      "selectedRelatedWordIds": [
+        "hsk1_093",
+        "hsk1_128",
+        "hsk1_168"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_093",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (今年); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_128",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (明年); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_168",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (去年); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_150",
+      "selectedRelatedWordIds": [
+        "hsk1_146"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_146",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (你); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_151",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_152",
+      "selectedRelatedWordIds": [
+        "hsk1_142"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_142",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (男); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_153",
+      "selectedRelatedWordIds": [
+        "hsk1_048"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_048",
+          "category": "A",
+          "reason": "P5.4.1 category GENDER_PAIR (儿子); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_154",
+      "selectedRelatedWordIds": [
+        "hsk1_143",
+        "hsk1_156"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_143",
+          "category": "A",
+          "reason": "P5.4.1 category GENDER_PAIR (男朋友); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_156",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (朋友); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_155",
+      "selectedRelatedWordIds": [
+        "hsk1_231"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_231",
+          "category": "A",
+          "reason": "P5.4.1 category GENDER_PAIR (先生); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_156",
+      "selectedRelatedWordIds": [
+        "hsk1_143",
+        "hsk1_154"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_143",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (男朋友); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_154",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (女朋友); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_157",
+      "selectedRelatedWordIds": [
+        "hsk1_065"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_065",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (贵); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_158",
+      "selectedRelatedWordIds": [
+        "hsk1_073"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_073",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (好看); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_159",
+      "selectedRelatedWordIds": [
+        "hsk1_193"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_193",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (水果); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_160",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_161",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_162",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_163",
+      "selectedRelatedWordIds": [
+        "hsk1_080"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_080",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (后); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_164",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_165",
+      "selectedRelatedWordIds": [
+        "hsk1_166"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_166",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (请问); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_166",
+      "selectedRelatedWordIds": [
+        "hsk1_165"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_165",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (请); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_167",
+      "selectedRelatedWordIds": [
+        "hsk1_106"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_106",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (来); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_168",
+      "selectedRelatedWordIds": [
+        "hsk1_093",
+        "hsk1_128",
+        "hsk1_149"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_093",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (今年); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_128",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (明年); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_149",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (年); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_169",
+      "selectedRelatedWordIds": [
+        "hsk1_109"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_109",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (冷); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_170",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_171",
+      "selectedRelatedWordIds": [
+        "hsk1_288"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_288",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (知道); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_172",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_173",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_174",
+      "selectedRelatedWordIds": [
+        "hsk1_019",
+        "hsk1_051",
+        "hsk1_191"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_019",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (超市); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_051",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (饭店); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_191",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (书店); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_175",
+      "selectedRelatedWordIds": [
+        "hsk1_226"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_226",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (下); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_176",
+      "selectedRelatedWordIds": [
+        "hsk1_228",
+        "hsk1_177",
+        "hsk1_179",
+        "hsk1_063"
+      ],
+      "status": "needs_review",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_228",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (下班); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_177",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (上课); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_179",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (上学); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_063",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (工作); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_177",
+      "selectedRelatedWordIds": [
+        "hsk1_229",
+        "hsk1_176",
+        "hsk1_179"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_229",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (下课); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_176",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (上班); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_179",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (上学); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_178",
+      "selectedRelatedWordIds": [
+        "hsk1_230",
+        "hsk1_275",
+        "hsk1_291"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_230",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (下午); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_275",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (早上); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_291",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (中午); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_179",
+      "selectedRelatedWordIds": [
+        "hsk1_176",
+        "hsk1_177"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_176",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (上班); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_177",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (上课); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_180",
+      "selectedRelatedWordIds": [
+        "hsk1_046"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_046",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (多); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_181",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_182",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_183",
+      "selectedRelatedWordIds": [
+        "hsk1_012"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_012",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (病); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_184",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_185",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_186",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_187",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_188",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_189",
+      "selectedRelatedWordIds": [
+        "hsk1_035"
+      ],
+      "status": "needs_review",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_035",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (电话); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_190",
+      "selectedRelatedWordIds": [
+        "hsk1_191"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_191",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (书店); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_191",
+      "selectedRelatedWordIds": [
+        "hsk1_190",
+        "hsk1_051",
+        "hsk1_174"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_190",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (书); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_051",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (饭店); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_174",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (商店); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_192",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_193",
+      "selectedRelatedWordIds": [
+        "hsk1_159"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_159",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (苹果); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_194",
+      "selectedRelatedWordIds": [
+        "hsk1_195"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_195",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (睡觉); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_195",
+      "selectedRelatedWordIds": [
+        "hsk1_194"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_194",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (睡); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_196",
+      "selectedRelatedWordIds": [
+        "hsk1_197"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_197",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (说话); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_197",
+      "selectedRelatedWordIds": [
+        "hsk1_196"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_196",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (说); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_198",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_199",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_200",
+      "selectedRelatedWordIds": [
+        "hsk1_201",
+        "hsk1_202",
+        "hsk1_203"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_201",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (它); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_202",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (她); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_203",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (他们); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_201",
+      "selectedRelatedWordIds": [
+        "hsk1_200",
+        "hsk1_202",
+        "hsk1_204"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_200",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (他); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_202",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (她); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_204",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (它们); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_202",
+      "selectedRelatedWordIds": [
+        "hsk1_200",
+        "hsk1_201",
+        "hsk1_205"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_200",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (他); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_201",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (它); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_205",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (她们); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_203",
+      "selectedRelatedWordIds": [
+        "hsk1_124",
+        "hsk1_200",
+        "hsk1_204",
+        "hsk1_205"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_124",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_200",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (他); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_204",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (它们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_205",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (她们); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_204",
+      "selectedRelatedWordIds": [
+        "hsk1_124",
+        "hsk1_201",
+        "hsk1_203",
+        "hsk1_205"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_124",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_201",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (它); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_203",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (他们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_205",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (她们); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_205",
+      "selectedRelatedWordIds": [
+        "hsk1_124",
+        "hsk1_202",
+        "hsk1_203",
+        "hsk1_204"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_124",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_202",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (她); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_203",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (他们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_204",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (它们); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_206",
+      "selectedRelatedWordIds": [
+        "hsk1_053"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_053",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (非常); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_207",
+      "selectedRelatedWordIds": [
+        "hsk1_005",
+        "hsk1_094",
+        "hsk1_129",
+        "hsk1_208",
+        "hsk1_297"
+      ],
+      "status": "selected",
+      "selectedCount": 5,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_005",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (白天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_094",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (今天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_129",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (明天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_208",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (天气); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_297",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (昨天); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_208",
+      "selectedRelatedWordIds": [
+        "hsk1_207"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_207",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (天); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_209",
+      "selectedRelatedWordIds": [
+        "hsk1_210"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_210",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (听见); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_210",
+      "selectedRelatedWordIds": [
+        "hsk1_088",
+        "hsk1_209",
+        "hsk1_101"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_088",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (见); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_209",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (听); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_101",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (看见); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_211",
+      "selectedRelatedWordIds": [
+        "hsk1_248"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_248",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (学生); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_212",
+      "selectedRelatedWordIds": [
+        "hsk1_110"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_110",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (里); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_213",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_214",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_215",
+      "selectedRelatedWordIds": [
+        "hsk1_217",
+        "hsk1_273"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_217",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (晚上); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_273",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (早); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_216",
+      "selectedRelatedWordIds": [
+        "hsk1_224",
+        "hsk1_274"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_224",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (午饭); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_274",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (早饭); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_217",
+      "selectedRelatedWordIds": [
+        "hsk1_215",
+        "hsk1_275"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_215",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (晚); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_275",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (早上); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_218",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_219",
+      "selectedRelatedWordIds": [
+        "hsk1_220"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_220",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (问题); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_220",
+      "selectedRelatedWordIds": [
+        "hsk1_219"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_219",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (问); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_221",
+      "selectedRelatedWordIds": [
+        "hsk1_222"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_222",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (我们); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_222",
+      "selectedRelatedWordIds": [
+        "hsk1_124",
+        "hsk1_221"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_124",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (们); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_221",
+          "category": "A",
+          "reason": "P5.4.1 category MORPHOLOGICAL_SUFFIX (我); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_223",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_224",
+      "selectedRelatedWordIds": [
+        "hsk1_216",
+        "hsk1_274"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_216",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (晚饭); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_274",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (早饭); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_225",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_226",
+      "selectedRelatedWordIds": [
+        "hsk1_175"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_175",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (上); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_227",
+      "selectedRelatedWordIds": [
+        "hsk1_267"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_267",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (雨); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_228",
+      "selectedRelatedWordIds": [
+        "hsk1_176",
+        "hsk1_229",
+        "hsk1_063"
+      ],
+      "status": "needs_review",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_176",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (上班); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_229",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (下课); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_063",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (工作); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_229",
+      "selectedRelatedWordIds": [
+        "hsk1_177",
+        "hsk1_228"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_177",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (上课); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_228",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (下班); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_230",
+      "selectedRelatedWordIds": [
+        "hsk1_178",
+        "hsk1_291"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_178",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (上午); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_291",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (中午); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_231",
+      "selectedRelatedWordIds": [
+        "hsk1_155"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_155",
+          "category": "A",
+          "reason": "P5.4.1 category GENDER_PAIR (女士); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_232",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_233",
+      "selectedRelatedWordIds": [
+        "hsk1_096",
+        "hsk1_252"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_096",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (觉得); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_252",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (要); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_234",
+      "selectedRelatedWordIds": [
+        "hsk1_025"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_025",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (大); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_235",
+      "selectedRelatedWordIds": [
+        "hsk1_068"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_068",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (孩子); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_236",
+      "selectedRelatedWordIds": [
+        "hsk1_056"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_056",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (分钟); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_237",
+      "selectedRelatedWordIds": [
+        "hsk1_027",
+        "hsk1_238",
+        "hsk1_292"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_027",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (大学); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_238",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (小学生); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_292",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (中学); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_238",
+      "selectedRelatedWordIds": [
+        "hsk1_028",
+        "hsk1_237",
+        "hsk1_293",
+        "hsk1_248"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_028",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (大学生); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_237",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (小学); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_293",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (中学生); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_248",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (学生); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_239",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_240",
+      "selectedRelatedWordIds": [
+        "hsk1_296"
+      ],
+      "status": "needs_review",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_296",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (字); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_241",
+      "selectedRelatedWordIds": [
+        "hsk1_014"
+      ],
+      "status": "needs_review",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_014",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (不客气); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_242",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_243",
+      "selectedRelatedWordIds": [
+        "hsk1_244",
+        "hsk1_245"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_244",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (星期日); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_245",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (星期天); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_244",
+      "selectedRelatedWordIds": [
+        "hsk1_243",
+        "hsk1_245"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_243",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (星期); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_245",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (星期天); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_245",
+      "selectedRelatedWordIds": [
+        "hsk1_243",
+        "hsk1_244"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_243",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (星期); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_244",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (星期日); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_246",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_247",
+      "selectedRelatedWordIds": [
+        "hsk1_248",
+        "hsk1_249",
+        "hsk1_250"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_248",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (学生); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_249",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (学习); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_250",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (学校); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_248",
+      "selectedRelatedWordIds": [
+        "hsk1_211",
+        "hsk1_247",
+        "hsk1_028",
+        "hsk1_238",
+        "hsk1_293"
+      ],
+      "status": "selected",
+      "selectedCount": 5,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_211",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (同学); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_247",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (学); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_028",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (大学生); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_238",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (小学生); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_293",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (中学生); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_249",
+      "selectedRelatedWordIds": [
+        "hsk1_043",
+        "hsk1_247"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_043",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (读书); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_247",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (学); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_250",
+      "selectedRelatedWordIds": [
+        "hsk1_247",
+        "hsk1_248"
+      ],
+      "status": "needs_review",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_247",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (学); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_248",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (学生); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_251",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_252",
+      "selectedRelatedWordIds": [
+        "hsk1_233"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_233",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (想); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_253",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_254",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_255",
+      "selectedRelatedWordIds": [
+        "hsk1_023"
+      ],
+      "status": "needs_review",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_023",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (穿); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_256",
+      "selectedRelatedWordIds": [
+        "hsk1_257",
+        "hsk1_100"
+      ],
+      "status": "needs_review",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_257",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (医院); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_100",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (看病); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_257",
+      "selectedRelatedWordIds": [
+        "hsk1_256",
+        "hsk1_100"
+      ],
+      "status": "needs_review",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_256",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (医生); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_100",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (看病); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_258",
+      "selectedRelatedWordIds": [
+        "hsk1_007"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_007",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (半); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_259",
+      "selectedRelatedWordIds": [
+        "hsk1_261"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_261",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (一点儿); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_260",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_261",
+      "selectedRelatedWordIds": [
+        "hsk1_259",
+        "hsk1_265"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_259",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (一下); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_265",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (有点儿); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_262",
+      "selectedRelatedWordIds": [
+        "hsk1_266"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_266",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (有些); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_263",
+      "selectedRelatedWordIds": [
+        "hsk1_122"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_122",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (没有); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_264",
+      "selectedRelatedWordIds": [
+        "hsk1_266"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_266",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (有些); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_265",
+      "selectedRelatedWordIds": [
+        "hsk1_261"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_261",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (一点儿); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_266",
+      "selectedRelatedWordIds": [
+        "hsk1_262",
+        "hsk1_264"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_262",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (一些); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_264",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (有的); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_267",
+      "selectedRelatedWordIds": [
+        "hsk1_227"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_227",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (下雨); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_268",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_269",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_270",
+      "selectedRelatedWordIds": [
+        "hsk1_067",
+        "hsk1_272"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_067",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (还); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_272",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (再见); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_271",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_272",
+      "selectedRelatedWordIds": [
+        "hsk1_088",
+        "hsk1_270",
+        "hsk1_147"
+      ],
+      "status": "needs_review",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_088",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (见); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_270",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (再); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_147",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (你好); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_273",
+      "selectedRelatedWordIds": [
+        "hsk1_215",
+        "hsk1_275"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_215",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (晚); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_275",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (早上); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_274",
+      "selectedRelatedWordIds": [
+        "hsk1_216",
+        "hsk1_224"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_216",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (晚饭); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_224",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (午饭); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_275",
+      "selectedRelatedWordIds": [
+        "hsk1_178",
+        "hsk1_217",
+        "hsk1_273"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_178",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (上午); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_217",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (晚上); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_273",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (早); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_276",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_277",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_278",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_279",
+      "selectedRelatedWordIds": [
+        "hsk1_131",
+        "hsk1_136"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_131",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (哪); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_136",
+          "category": "A",
+          "reason": "P5.4.1 category ANTONYM (那); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_280",
+      "selectedRelatedWordIds": [
+        "hsk1_137"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_137",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (那边); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_281",
+      "selectedRelatedWordIds": [
+        "hsk1_132",
+        "hsk1_138"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_132",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (哪个); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_138",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (那个); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_282",
+      "selectedRelatedWordIds": [
+        "hsk1_133",
+        "hsk1_139",
+        "hsk1_283"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_133",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (哪里); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_139",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (那里); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_283",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (这儿); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_283",
+      "selectedRelatedWordIds": [
+        "hsk1_134",
+        "hsk1_140",
+        "hsk1_282"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_134",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (哪儿); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_140",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (那儿); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_282",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (这里); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_284",
+      "selectedRelatedWordIds": [
+        "hsk1_135",
+        "hsk1_141"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_135",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (哪些); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_141",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (那些); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_285",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_286",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_287",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_288",
+      "selectedRelatedWordIds": [
+        "hsk1_171"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_171",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (认识); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_289",
+      "selectedRelatedWordIds": [
+        "hsk1_290"
+      ],
+      "status": "selected",
+      "selectedCount": 1,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_290",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (中文); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_290",
+      "selectedRelatedWordIds": [
+        "hsk1_069",
+        "hsk1_289",
+        "hsk1_070"
+      ],
+      "status": "needs_review",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_069",
+          "category": "A",
+          "reason": "P5.4.1 category NEAR_SYNONYM (汉语); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_289",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (中国); tier B per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_070",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (汉字); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_291",
+      "selectedRelatedWordIds": [
+        "hsk1_178",
+        "hsk1_230"
+      ],
+      "status": "selected",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_178",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (上午); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_230",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (下午); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_292",
+      "selectedRelatedWordIds": [
+        "hsk1_027",
+        "hsk1_237",
+        "hsk1_293"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_027",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (大学); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_237",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (小学); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_293",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (中学生); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_293",
+      "selectedRelatedWordIds": [
+        "hsk1_028",
+        "hsk1_238",
+        "hsk1_292",
+        "hsk1_248"
+      ],
+      "status": "selected",
+      "selectedCount": 4,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_028",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (大学生); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_238",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (小学生); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_292",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (中学); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_248",
+          "category": "B",
+          "reason": "P5.4.1 category COMPOUND_FAMILY (学生); tier B per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_294",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_295",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_296",
+      "selectedRelatedWordIds": [
+        "hsk1_070",
+        "hsk1_240"
+      ],
+      "status": "needs_review",
+      "selectedCount": 2,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_070",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (汉字); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_240",
+          "category": "C",
+          "reason": "P5.4.1 category FUNCTIONAL_CONTEXT (写); tier C per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_297",
+      "selectedRelatedWordIds": [
+        "hsk1_094",
+        "hsk1_129",
+        "hsk1_207"
+      ],
+      "status": "selected",
+      "selectedCount": 3,
+      "selectionReasons": [
+        {
+          "relatedWordId": "hsk1_094",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (今天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_129",
+          "category": "A",
+          "reason": "P5.4.1 category CLOSED_PARADIGM (明天); tier A per P5.4.2 hierarchy."
+        },
+        {
+          "relatedWordId": "hsk1_207",
+          "category": "A",
+          "reason": "P5.4.1 category COMPOSITIONAL_COMPOUND (天); tier A per P5.4.2 hierarchy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_298",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_299",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    },
+    {
+      "sourceId": "hsk1_300",
+      "selectedRelatedWordIds": [],
+      "status": "selected",
+      "selectedCount": 0,
+      "selectionReasons": []
+    }
+  ]
+}

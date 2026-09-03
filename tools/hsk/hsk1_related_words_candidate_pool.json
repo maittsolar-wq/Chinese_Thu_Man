@@ -1,0 +1,5191 @@
+{
+  "poolVersion": "p541-v1",
+  "sourceDataset": "data/hsk/hsk1/hsk1_vocabulary_production.json",
+  "sourceDatasetHash": "87cfb8d6dedfa39b6a2b89eb8f55d26659111f64797094d6bcdc5c26417f760a",
+  "candidateUniverse": "data/hsk/hsk{1..6}/hsk{1..6}_vocabulary_production.json (CROSS_LEVEL_HSK1_TO_HSK6)",
+  "candidateUniverseHash": "8d182148c3872104ecb0e6c446da3303745a5b1ede5eedab7e7edaf74faa147c",
+  "candidateUniverseRecordCount": 5400,
+  "rulesVersion": "hsk1-candidate-rules-v1",
+  "ruleCategories": {
+    "ANTONYM": "Canonical, unambiguous opposite-meaning pair (e.g. da4/xiao3).",
+    "NEAR_SYNONYM": "Closely related meaning, commonly explicitly contrasted in HSK1 teaching (e.g. hui4/neng2/ke3yi3).",
+    "MORPHOLOGICAL_SUFFIX": "Shares a productive bound grammatical suffix/allomorph (e.g. pronoun + men).",
+    "COMPOSITIONAL_COMPOUND": "One word is directly formed by compounding with the other (e.g. du2 + shu1 = du2shu1).",
+    "COMPOUND_FAMILY": "Shares a productive head/root morpheme forming a recognized HSK1 word-formation family (e.g. hao3+chi1/kan4/ting1/wan2r).",
+    "CLOSED_PARADIGM": "Member of the same small, closed grammatical or semantic paradigm (e.g. zuo2tian1/jin1tian1/ming2tian1).",
+    "FUNCTIONAL_CONTEXT": "Real-world functional, collocational, or discourse-adjacency relationship (e.g. xie4xie/bu2ke4qi, chuan1/yi1fu).",
+    "GENDER_PAIR": "Male/female counterpart within a defined lexical pair (e.g. nan2peng2you/nu:3peng2you).",
+    "CONTRAST": "Age/role contrast pair within a closed kinship set (e.g. ge1ge/di4di)."
+  },
+  "maxCandidatesPerRecord": 20,
+  "scopeNote": "Pilot scope: all candidates in this artifact are HSK1-internal (every wordId belongs to hsk1_vocabulary_production.json), even though the candidate universe spans HSK1-6 per the approved CROSS_LEVEL_HSK1_TO_HSK6 policy. This is a deliberate, documented scope decision for the pilot, not a silent limitation -- see the P5.4.1 report.",
+  "generatedAt": "2026-09-03T09:29:31.210483+00:00",
+  "generatorScript": "tools/hsk/generate_hsk1_related_word_candidates_p541.py",
+  "recordCount": 300,
+  "records": [
+    {
+      "sourceId": "hsk1_001",
+      "sourceWord": "爱",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_002",
+      "sourceWord": "八",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_003",
+      "sourceWord": "爸爸",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_004",
+      "sourceWord": "吧",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_005",
+      "sourceWord": "白天",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_207",
+          "word": "天",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 天 (tiān) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_006",
+      "sourceWord": "百",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_007",
+      "sourceWord": "半",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_258",
+          "word": "一半",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 一半 (yíbàn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_008",
+      "sourceWord": "包子",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_009",
+      "sourceWord": "杯子",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_010",
+      "sourceWord": "本",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_011",
+      "sourceWord": "边",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_012",
+      "sourceWord": "病",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_100",
+          "word": "看病",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 看病 (kànbìng) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_183",
+          "word": "生病",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 生病 (shēngbìng) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_013",
+      "sourceWord": "不",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_014",
+      "sourceWord": "不客气",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_241",
+          "word": "谢谢",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 谢谢 (xièxie) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_015",
+      "sourceWord": "不要",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_016",
+      "sourceWord": "菜",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_017",
+      "sourceWord": "茶",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_018",
+      "sourceWord": "唱",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_058",
+          "word": "歌",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 歌 (gē) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_019",
+      "sourceWord": "超市",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_174",
+          "word": "商店",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 商店 (shāngdiàn); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_020",
+      "sourceWord": "车",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_022",
+          "word": "出租车",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 出租车 (chūzūchē) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_083",
+          "word": "火车",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 火车 (huǒchē) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_098",
+          "word": "开车",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 开车 (kāichē) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_021",
+      "sourceWord": "吃",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_072",
+          "word": "好吃",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 好吃 (hǎochī) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_077",
+          "word": "喝",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 喝 (hē); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_022",
+      "sourceWord": "出租车",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_020",
+          "word": "车",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 车 (chē) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_083",
+          "word": "火车",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 火车 (huǒchē)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_023",
+      "sourceWord": "穿",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_255",
+          "word": "衣服",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 衣服 (yīfu) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_024",
+      "sourceWord": "打电话",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_035",
+          "word": "电话",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 电话 (diànhuà) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_025",
+      "sourceWord": "大",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_234",
+          "word": "小",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 小 (xiǎo)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_026",
+      "sourceWord": "大家",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_027",
+      "sourceWord": "大学",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_028",
+          "word": "大学生",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 大学生 (dàxuéshēng) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_237",
+          "word": "小学",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 小学 (xiǎoxué)."
+        },
+        {
+          "wordId": "hsk1_292",
+          "word": "中学",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 中学 (zhōngxué)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_028",
+      "sourceWord": "大学生",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_027",
+          "word": "大学",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 大学 (dàxué) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_238",
+          "word": "小学生",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 小学生 (xiǎoxuéshēng)."
+        },
+        {
+          "wordId": "hsk1_248",
+          "word": "学生",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 学生 (xuéshēng)."
+        },
+        {
+          "wordId": "hsk1_293",
+          "word": "中学生",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 中学生 (zhōngxuéshēng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_029",
+      "sourceWord": "到",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_030",
+      "sourceWord": "的",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_031",
+      "sourceWord": "第",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_032",
+      "sourceWord": "弟弟",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_059",
+          "word": "哥哥",
+          "hskLevel": 1,
+          "category": "CONTRAST",
+          "reason": "Age/role contrast pair with 哥哥 (gēge) within a closed kinship set."
+        },
+        {
+          "wordId": "hsk1_123",
+          "word": "妹妹",
+          "hskLevel": 1,
+          "category": "GENDER_PAIR",
+          "reason": "Gender-paired counterpart of 妹妹 (mèimei)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_033",
+      "sourceWord": "点",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_034",
+      "sourceWord": "店",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_035",
+      "sourceWord": "电话",
+      "sourceHskLevel": 1,
+      "candidateCount": 5,
+      "candidates": [
+        {
+          "wordId": "hsk1_024",
+          "word": "打电话",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 打电话 (dǎ diànhuà) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_036",
+          "word": "电脑",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电脑 (diànnǎo)."
+        },
+        {
+          "wordId": "hsk1_037",
+          "word": "电视",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电视 (diànshì)."
+        },
+        {
+          "wordId": "hsk1_038",
+          "word": "电影",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电影 (diànyǐng)."
+        },
+        {
+          "wordId": "hsk1_189",
+          "word": "手机",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 手机 (shǒujī) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_036",
+      "sourceWord": "电脑",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_035",
+          "word": "电话",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电话 (diànhuà)."
+        },
+        {
+          "wordId": "hsk1_037",
+          "word": "电视",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电视 (diànshì)."
+        },
+        {
+          "wordId": "hsk1_038",
+          "word": "电影",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电影 (diànyǐng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_037",
+      "sourceWord": "电视",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_035",
+          "word": "电话",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电话 (diànhuà)."
+        },
+        {
+          "wordId": "hsk1_036",
+          "word": "电脑",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电脑 (diànnǎo)."
+        },
+        {
+          "wordId": "hsk1_038",
+          "word": "电影",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电影 (diànyǐng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_038",
+      "sourceWord": "电影",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_035",
+          "word": "电话",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电话 (diànhuà)."
+        },
+        {
+          "wordId": "hsk1_036",
+          "word": "电脑",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电脑 (diànnǎo)."
+        },
+        {
+          "wordId": "hsk1_037",
+          "word": "电视",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 电视 (diànshì)."
+        },
+        {
+          "wordId": "hsk1_039",
+          "word": "电影院",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 电影院 (diànyǐngyuàn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_039",
+      "sourceWord": "电影院",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_038",
+          "word": "电影",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 电影 (diànyǐng) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_040",
+      "sourceWord": "东西",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_041",
+      "sourceWord": "都",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_042",
+      "sourceWord": "读",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_043",
+          "word": "读书",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 读书 (dúshū) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_043",
+      "sourceWord": "读书",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_042",
+          "word": "读",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 读 (dú) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_249",
+          "word": "学习",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 学习 (xuéxí); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_044",
+      "sourceWord": "对",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_045",
+      "sourceWord": "对不起",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_120",
+          "word": "没关系",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 没关系 (méi guānxi) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_046",
+      "sourceWord": "多",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_180",
+          "word": "少",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 少 (shǎo)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_047",
+      "sourceWord": "多少",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_085",
+          "word": "几",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 几 (jǐ); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_048",
+      "sourceWord": "儿子",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_153",
+          "word": "女儿",
+          "hskLevel": 1,
+          "category": "GENDER_PAIR",
+          "reason": "Gender-paired counterpart of 女儿 (nǚ’ér)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_049",
+      "sourceWord": "二",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_111",
+          "word": "两",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 两 (liǎng); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_050",
+      "sourceWord": "饭",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_051",
+          "word": "饭店",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 饭店 (fàndiàn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_125",
+          "word": "米饭",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 米饭 (mǐfàn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_051",
+      "sourceWord": "饭店",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_050",
+          "word": "饭",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 饭 (fàn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_174",
+          "word": "商店",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 商店 (shāngdiàn)."
+        },
+        {
+          "wordId": "hsk1_191",
+          "word": "书店",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 书店 (shūdiàn)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_052",
+      "sourceWord": "房间",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_053",
+      "sourceWord": "非常",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_079",
+          "word": "很",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 很 (hěn); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_206",
+          "word": "太",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 太 (tài); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_054",
+      "sourceWord": "飞机",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_055",
+      "sourceWord": "分",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_056",
+          "word": "分钟",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 分钟 (fēnzhōng) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_056",
+      "sourceWord": "分钟",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_055",
+          "word": "分",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 分 (fēn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_236",
+          "word": "小时",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 小时 (xiǎoshí)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_057",
+      "sourceWord": "高兴",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_058",
+      "sourceWord": "歌",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_018",
+          "word": "唱",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 唱 (chàng) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_059",
+      "sourceWord": "哥哥",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_032",
+          "word": "弟弟",
+          "hskLevel": 1,
+          "category": "CONTRAST",
+          "reason": "Age/role contrast pair with 弟弟 (dìdi) within a closed kinship set."
+        },
+        {
+          "wordId": "hsk1_092",
+          "word": "姐姐",
+          "hskLevel": 1,
+          "category": "GENDER_PAIR",
+          "reason": "Gender-paired counterpart of 姐姐 (jiějie)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_060",
+      "sourceWord": "个",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_061",
+      "sourceWord": "给",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_062",
+      "sourceWord": "公司",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_063",
+      "sourceWord": "工作",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_176",
+          "word": "上班",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 上班 (shàngbān) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_228",
+          "word": "下班",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 下班 (xiàbān) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_064",
+      "sourceWord": "狗",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_119",
+          "word": "猫",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 猫 (māo) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_065",
+      "sourceWord": "贵",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_157",
+          "word": "便宜",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 便宜 (piányi)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_066",
+      "sourceWord": "国",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_067",
+      "sourceWord": "还",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_270",
+          "word": "再",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 再 (zài); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_068",
+      "sourceWord": "孩子",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_235",
+          "word": "小朋友",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 小朋友 (xiǎopéngyǒu); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_069",
+      "sourceWord": "汉语",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_070",
+          "word": "汉字",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 汉字 (Hànzì)."
+        },
+        {
+          "wordId": "hsk1_290",
+          "word": "中文",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 中文 (Zhōngwén); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_070",
+      "sourceWord": "汉字",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_069",
+          "word": "汉语",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 汉语 (Hànyǔ)."
+        },
+        {
+          "wordId": "hsk1_290",
+          "word": "中文",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 中文 (Zhōngwén) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_296",
+          "word": "字",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 字 (zì) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_071",
+      "sourceWord": "好",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_072",
+          "word": "好吃",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 好吃 (hǎochī) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_073",
+          "word": "好看",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 好看 (hǎokàn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_074",
+          "word": "好听",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 好听 (hǎotīng) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_075",
+          "word": "好玩儿",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 好玩儿 (hǎowánr) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_072",
+      "sourceWord": "好吃",
+      "sourceHskLevel": 1,
+      "candidateCount": 5,
+      "candidates": [
+        {
+          "wordId": "hsk1_021",
+          "word": "吃",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 吃 (chī) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_071",
+          "word": "好",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 好 (hǎo) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_073",
+          "word": "好看",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好看 (hǎokàn)."
+        },
+        {
+          "wordId": "hsk1_074",
+          "word": "好听",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好听 (hǎotīng)."
+        },
+        {
+          "wordId": "hsk1_075",
+          "word": "好玩儿",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好玩儿 (hǎowánr)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_073",
+      "sourceWord": "好看",
+      "sourceHskLevel": 1,
+      "candidateCount": 5,
+      "candidates": [
+        {
+          "wordId": "hsk1_071",
+          "word": "好",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 好 (hǎo) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_072",
+          "word": "好吃",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好吃 (hǎochī)."
+        },
+        {
+          "wordId": "hsk1_074",
+          "word": "好听",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好听 (hǎotīng)."
+        },
+        {
+          "wordId": "hsk1_075",
+          "word": "好玩儿",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好玩儿 (hǎowánr)."
+        },
+        {
+          "wordId": "hsk1_158",
+          "word": "漂亮",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 漂亮 (piàoliang); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_074",
+      "sourceWord": "好听",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_071",
+          "word": "好",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 好 (hǎo) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_072",
+          "word": "好吃",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好吃 (hǎochī)."
+        },
+        {
+          "wordId": "hsk1_073",
+          "word": "好看",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好看 (hǎokàn)."
+        },
+        {
+          "wordId": "hsk1_075",
+          "word": "好玩儿",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好玩儿 (hǎowánr)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_075",
+      "sourceWord": "好玩儿",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_071",
+          "word": "好",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 好 (hǎo) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_072",
+          "word": "好吃",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好吃 (hǎochī)."
+        },
+        {
+          "wordId": "hsk1_073",
+          "word": "好看",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好看 (hǎokàn)."
+        },
+        {
+          "wordId": "hsk1_074",
+          "word": "好听",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 好听 (hǎotīng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_076",
+      "sourceWord": "号",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_077",
+      "sourceWord": "喝",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_021",
+          "word": "吃",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 吃 (chī); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_078",
+      "sourceWord": "和",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_079",
+      "sourceWord": "很",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_053",
+          "word": "非常",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 非常 (fēicháng); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_080",
+      "sourceWord": "后",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_163",
+          "word": "前",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 前 (qián)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_081",
+      "sourceWord": "回",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_082",
+      "sourceWord": "会",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_102",
+          "word": "可以",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 可以 (kěyǐ); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_145",
+          "word": "能",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 能 (néng); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_083",
+      "sourceWord": "火车",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_020",
+          "word": "车",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 车 (chē) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_022",
+          "word": "出租车",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 出租车 (chūzūchē)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_084",
+      "sourceWord": "鸡蛋",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_085",
+      "sourceWord": "几",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_047",
+          "word": "多少",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 多少 (duōshao); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_086",
+      "sourceWord": "家",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_087",
+          "word": "家人",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 家人 (jiārén) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_087",
+      "sourceWord": "家人",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_086",
+          "word": "家",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 家 (jiā) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_088",
+      "sourceWord": "见",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_101",
+          "word": "看见",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 看见 (kànjiàn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_210",
+          "word": "听见",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 听见 (tīngjiàn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_272",
+          "word": "再见",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 再见 (zàijiàn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_089",
+      "sourceWord": "件",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_090",
+      "sourceWord": "饺子",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_091",
+      "sourceWord": "叫",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_092",
+      "sourceWord": "姐姐",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_059",
+          "word": "哥哥",
+          "hskLevel": 1,
+          "category": "GENDER_PAIR",
+          "reason": "Gender-paired counterpart of 哥哥 (gēge)."
+        },
+        {
+          "wordId": "hsk1_123",
+          "word": "妹妹",
+          "hskLevel": 1,
+          "category": "CONTRAST",
+          "reason": "Age/role contrast pair with 妹妹 (mèimei) within a closed kinship set."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_093",
+      "sourceWord": "今年",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_094",
+          "word": "今天",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 今天 (jīntiān)."
+        },
+        {
+          "wordId": "hsk1_128",
+          "word": "明年",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 明年 (míngnián)."
+        },
+        {
+          "wordId": "hsk1_149",
+          "word": "年",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 年 (nián) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_168",
+          "word": "去年",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 去年 (qùnián)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_094",
+      "sourceWord": "今天",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_093",
+          "word": "今年",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 今年 (jīnnián)."
+        },
+        {
+          "wordId": "hsk1_129",
+          "word": "明天",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 明天 (míngtiān)."
+        },
+        {
+          "wordId": "hsk1_207",
+          "word": "天",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 天 (tiān) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_297",
+          "word": "昨天",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 昨天 (zuótiān)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_095",
+      "sourceWord": "九",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_096",
+      "sourceWord": "觉得",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_233",
+          "word": "想",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 想 (xiǎng); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_097",
+      "sourceWord": "开",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_098",
+      "sourceWord": "开车",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_020",
+          "word": "车",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 车 (chē) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_099",
+      "sourceWord": "看",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_101",
+          "word": "看见",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 看见 (kànjiàn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_100",
+      "sourceWord": "看病",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_012",
+          "word": "病",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 病 (bìng) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_256",
+          "word": "医生",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 医生 (yīshēng) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_257",
+          "word": "医院",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 医院 (yīyuàn) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_101",
+      "sourceWord": "看见",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_088",
+          "word": "见",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 见 (jiàn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_099",
+          "word": "看",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 看 (kàn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_210",
+          "word": "听见",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 听见 (tīngjiàn)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_102",
+      "sourceWord": "可以",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_082",
+          "word": "会",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 会 (huì); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_145",
+          "word": "能",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 能 (néng); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_103",
+      "sourceWord": "课",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_104",
+      "sourceWord": "口",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_105",
+      "sourceWord": "块",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_106",
+      "sourceWord": "来",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_167",
+          "word": "去",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 去 (qù)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_107",
+      "sourceWord": "老师",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_108",
+      "sourceWord": "了",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_109",
+      "sourceWord": "冷",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_169",
+          "word": "热",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 热 (rè)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_110",
+      "sourceWord": "里",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_212",
+          "word": "外",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 外 (wài)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_111",
+      "sourceWord": "两",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_049",
+          "word": "二",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 二 (èr); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_112",
+      "sourceWord": "零",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_113",
+      "sourceWord": "六",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_114",
+      "sourceWord": "妈妈",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_115",
+      "sourceWord": "吗",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_116",
+      "sourceWord": "买",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_117",
+          "word": "卖",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 卖 (mài)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_117",
+      "sourceWord": "卖",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_116",
+          "word": "买",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 买 (mǎi)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_118",
+      "sourceWord": "忙",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_119",
+      "sourceWord": "猫",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_064",
+          "word": "狗",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 狗 (gǒu) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_120",
+      "sourceWord": "没关系",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_045",
+          "word": "对不起",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 对不起 (duìbuqǐ) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_121",
+          "word": "没事",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 没事 (méishì); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_121",
+      "sourceWord": "没事",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_120",
+          "word": "没关系",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 没关系 (méi guānxi); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_122",
+      "sourceWord": "没有",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_263",
+          "word": "有",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 有 (yǒu)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_123",
+      "sourceWord": "妹妹",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_032",
+          "word": "弟弟",
+          "hskLevel": 1,
+          "category": "GENDER_PAIR",
+          "reason": "Gender-paired counterpart of 弟弟 (dìdi)."
+        },
+        {
+          "wordId": "hsk1_092",
+          "word": "姐姐",
+          "hskLevel": 1,
+          "category": "CONTRAST",
+          "reason": "Age/role contrast pair with 姐姐 (jiějie) within a closed kinship set."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_124",
+      "sourceWord": "们",
+      "sourceHskLevel": 1,
+      "candidateCount": 5,
+      "candidates": [
+        {
+          "wordId": "hsk1_148",
+          "word": "你们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 你们 (nǐmen)."
+        },
+        {
+          "wordId": "hsk1_203",
+          "word": "他们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 他们 (tāmen)."
+        },
+        {
+          "wordId": "hsk1_204",
+          "word": "它们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 它们 (tāmen)."
+        },
+        {
+          "wordId": "hsk1_205",
+          "word": "她们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 她们 (tāmen)."
+        },
+        {
+          "wordId": "hsk1_222",
+          "word": "我们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 我们 (wǒmen)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_125",
+      "sourceWord": "米饭",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_050",
+          "word": "饭",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 饭 (fàn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_126",
+      "sourceWord": "面包",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_127",
+          "word": "面条儿",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 面条儿 (miàntiáor)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_127",
+      "sourceWord": "面条儿",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_126",
+          "word": "面包",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 面包 (miànbāo)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_128",
+      "sourceWord": "明年",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_093",
+          "word": "今年",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 今年 (jīnnián)."
+        },
+        {
+          "wordId": "hsk1_129",
+          "word": "明天",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 明天 (míngtiān)."
+        },
+        {
+          "wordId": "hsk1_149",
+          "word": "年",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 年 (nián) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_168",
+          "word": "去年",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 去年 (qùnián)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_129",
+      "sourceWord": "明天",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_094",
+          "word": "今天",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 今天 (jīntiān)."
+        },
+        {
+          "wordId": "hsk1_128",
+          "word": "明年",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 明年 (míngnián)."
+        },
+        {
+          "wordId": "hsk1_207",
+          "word": "天",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 天 (tiān) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_297",
+          "word": "昨天",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 昨天 (zuótiān)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_130",
+      "sourceWord": "名字",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_131",
+      "sourceWord": "哪",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_136",
+          "word": "那",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 那 (nà)."
+        },
+        {
+          "wordId": "hsk1_279",
+          "word": "这",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 这 (zhè)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_132",
+      "sourceWord": "哪个",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_138",
+          "word": "那个",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 那个 (nàge)."
+        },
+        {
+          "wordId": "hsk1_281",
+          "word": "这个",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 这个 (zhège)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_133",
+      "sourceWord": "哪里",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_134",
+          "word": "哪儿",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 哪儿 (nǎr); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_139",
+          "word": "那里",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 那里 (nàlǐ)."
+        },
+        {
+          "wordId": "hsk1_282",
+          "word": "这里",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 这里 (zhèlǐ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_134",
+      "sourceWord": "哪儿",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_133",
+          "word": "哪里",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 哪里 (nǎlǐ); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_140",
+          "word": "那儿",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 那儿 (nàr)."
+        },
+        {
+          "wordId": "hsk1_283",
+          "word": "这儿",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 这儿 (zhèr)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_135",
+      "sourceWord": "哪些",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_141",
+          "word": "那些",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 那些 (nàxiē)."
+        },
+        {
+          "wordId": "hsk1_284",
+          "word": "这些",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 这些 (zhèxiē)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_136",
+      "sourceWord": "那",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_131",
+          "word": "哪",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 哪 (nǎ)."
+        },
+        {
+          "wordId": "hsk1_279",
+          "word": "这",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 这 (zhè)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_137",
+      "sourceWord": "那边",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_280",
+          "word": "这边",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 这边 (zhèbiān)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_138",
+      "sourceWord": "那个",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_132",
+          "word": "哪个",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 哪个 (nǎge)."
+        },
+        {
+          "wordId": "hsk1_281",
+          "word": "这个",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 这个 (zhège)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_139",
+      "sourceWord": "那里",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_133",
+          "word": "哪里",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 哪里 (nǎlǐ)."
+        },
+        {
+          "wordId": "hsk1_140",
+          "word": "那儿",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 那儿 (nàr); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_282",
+          "word": "这里",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 这里 (zhèlǐ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_140",
+      "sourceWord": "那儿",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_134",
+          "word": "哪儿",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 哪儿 (nǎr)."
+        },
+        {
+          "wordId": "hsk1_139",
+          "word": "那里",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 那里 (nàlǐ); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_283",
+          "word": "这儿",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 这儿 (zhèr)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_141",
+      "sourceWord": "那些",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_135",
+          "word": "哪些",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 哪些 (nǎxiē)."
+        },
+        {
+          "wordId": "hsk1_284",
+          "word": "这些",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 这些 (zhèxiē)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_142",
+      "sourceWord": "男",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_152",
+          "word": "女",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 女 (nǚ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_143",
+      "sourceWord": "男朋友",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_154",
+          "word": "女朋友",
+          "hskLevel": 1,
+          "category": "GENDER_PAIR",
+          "reason": "Gender-paired counterpart of 女朋友 (nǚpéngyou)."
+        },
+        {
+          "wordId": "hsk1_156",
+          "word": "朋友",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 朋友 (péngyou) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_144",
+      "sourceWord": "呢",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_145",
+      "sourceWord": "能",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_082",
+          "word": "会",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 会 (huì); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_102",
+          "word": "可以",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 可以 (kěyǐ); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_146",
+      "sourceWord": "你",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_148",
+          "word": "你们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 你们 (nǐmen)."
+        },
+        {
+          "wordId": "hsk1_150",
+          "word": "您",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 您 (nín); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_147",
+      "sourceWord": "你好",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_272",
+          "word": "再见",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 再见 (zàijiàn) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_148",
+      "sourceWord": "你们",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_124",
+          "word": "们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 们 (men)."
+        },
+        {
+          "wordId": "hsk1_146",
+          "word": "你",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 你 (nǐ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_149",
+      "sourceWord": "年",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_093",
+          "word": "今年",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 今年 (jīnnián) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_128",
+          "word": "明年",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 明年 (míngnián) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_168",
+          "word": "去年",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 去年 (qùnián) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_150",
+      "sourceWord": "您",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_146",
+          "word": "你",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 你 (nǐ); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_151",
+      "sourceWord": "牛奶",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_152",
+      "sourceWord": "女",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_142",
+          "word": "男",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 男 (nán)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_153",
+      "sourceWord": "女儿",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_048",
+          "word": "儿子",
+          "hskLevel": 1,
+          "category": "GENDER_PAIR",
+          "reason": "Gender-paired counterpart of 儿子 (érzi)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_154",
+      "sourceWord": "女朋友",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_143",
+          "word": "男朋友",
+          "hskLevel": 1,
+          "category": "GENDER_PAIR",
+          "reason": "Gender-paired counterpart of 男朋友 (nánpéngyou)."
+        },
+        {
+          "wordId": "hsk1_156",
+          "word": "朋友",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 朋友 (péngyou) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_155",
+      "sourceWord": "女士",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_231",
+          "word": "先生",
+          "hskLevel": 1,
+          "category": "GENDER_PAIR",
+          "reason": "Gender-paired counterpart of 先生 (xiānsheng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_156",
+      "sourceWord": "朋友",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_143",
+          "word": "男朋友",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 男朋友 (nánpéngyou) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_154",
+          "word": "女朋友",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 女朋友 (nǚpéngyou) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_157",
+      "sourceWord": "便宜",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_065",
+          "word": "贵",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 贵 (guì)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_158",
+      "sourceWord": "漂亮",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_073",
+          "word": "好看",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 好看 (hǎokàn); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_159",
+      "sourceWord": "苹果",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_193",
+          "word": "水果",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 水果 (shuǐguǒ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_160",
+      "sourceWord": "七",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_161",
+      "sourceWord": "起床",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_162",
+      "sourceWord": "千",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_163",
+      "sourceWord": "前",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_080",
+          "word": "后",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 后 (hòu)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_164",
+      "sourceWord": "钱",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_165",
+      "sourceWord": "请",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_166",
+          "word": "请问",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 请问 (qǐngwèn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_166",
+      "sourceWord": "请问",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_165",
+          "word": "请",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 请 (qǐng) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_167",
+      "sourceWord": "去",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_106",
+          "word": "来",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 来 (lái)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_168",
+      "sourceWord": "去年",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_093",
+          "word": "今年",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 今年 (jīnnián)."
+        },
+        {
+          "wordId": "hsk1_128",
+          "word": "明年",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 明年 (míngnián)."
+        },
+        {
+          "wordId": "hsk1_149",
+          "word": "年",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 年 (nián) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_169",
+      "sourceWord": "热",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_109",
+          "word": "冷",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 冷 (lěng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_170",
+      "sourceWord": "人",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_171",
+      "sourceWord": "认识",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_288",
+          "word": "知道",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 知道 (zhīdào); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_172",
+      "sourceWord": "日",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_173",
+      "sourceWord": "三",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_174",
+      "sourceWord": "商店",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_019",
+          "word": "超市",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 超市 (chāoshì); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_051",
+          "word": "饭店",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 饭店 (fàndiàn)."
+        },
+        {
+          "wordId": "hsk1_191",
+          "word": "书店",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 书店 (shūdiàn)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_175",
+      "sourceWord": "上",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_226",
+          "word": "下",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 下 (xià)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_176",
+      "sourceWord": "上班",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_063",
+          "word": "工作",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 工作 (gōngzuò) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_177",
+          "word": "上课",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 上课 (shàngkè)."
+        },
+        {
+          "wordId": "hsk1_179",
+          "word": "上学",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 上学 (shàngxué)."
+        },
+        {
+          "wordId": "hsk1_228",
+          "word": "下班",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 下班 (xiàbān)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_177",
+      "sourceWord": "上课",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_176",
+          "word": "上班",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 上班 (shàngbān)."
+        },
+        {
+          "wordId": "hsk1_179",
+          "word": "上学",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 上学 (shàngxué)."
+        },
+        {
+          "wordId": "hsk1_229",
+          "word": "下课",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 下课 (xiàkè)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_178",
+      "sourceWord": "上午",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_230",
+          "word": "下午",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 下午 (xiàwǔ)."
+        },
+        {
+          "wordId": "hsk1_275",
+          "word": "早上",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 早上 (zǎoshang); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_291",
+          "word": "中午",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 中午 (zhōngwǔ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_179",
+      "sourceWord": "上学",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_176",
+          "word": "上班",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 上班 (shàngbān)."
+        },
+        {
+          "wordId": "hsk1_177",
+          "word": "上课",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 上课 (shàngkè)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_180",
+      "sourceWord": "少",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_046",
+          "word": "多",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 多 (duō)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_181",
+      "sourceWord": "谁",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_182",
+      "sourceWord": "什么",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_183",
+      "sourceWord": "生病",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_012",
+          "word": "病",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 病 (bìng) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_184",
+      "sourceWord": "十",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_185",
+      "sourceWord": "时候",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_186",
+      "sourceWord": "时间",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_187",
+      "sourceWord": "事",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_188",
+      "sourceWord": "是",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_189",
+      "sourceWord": "手机",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_035",
+          "word": "电话",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 电话 (diànhuà) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_190",
+      "sourceWord": "书",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_191",
+          "word": "书店",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 书店 (shūdiàn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_191",
+      "sourceWord": "书店",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_051",
+          "word": "饭店",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 饭店 (fàndiàn)."
+        },
+        {
+          "wordId": "hsk1_174",
+          "word": "商店",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 商店 (shāngdiàn)."
+        },
+        {
+          "wordId": "hsk1_190",
+          "word": "书",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 书 (shū) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_192",
+      "sourceWord": "水",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_193",
+      "sourceWord": "水果",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_159",
+          "word": "苹果",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 苹果 (píngguǒ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_194",
+      "sourceWord": "睡",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_195",
+          "word": "睡觉",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 睡觉 (shuìjiào) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_195",
+      "sourceWord": "睡觉",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_194",
+          "word": "睡",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 睡 (shuì) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_196",
+      "sourceWord": "说",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_197",
+          "word": "说话",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 说话 (shuōhuà) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_197",
+      "sourceWord": "说话",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_196",
+          "word": "说",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 说 (shuō) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_198",
+      "sourceWord": "四",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_199",
+      "sourceWord": "岁",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_200",
+      "sourceWord": "他",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_201",
+          "word": "它",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 它 (tā)."
+        },
+        {
+          "wordId": "hsk1_202",
+          "word": "她",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 她 (tā)."
+        },
+        {
+          "wordId": "hsk1_203",
+          "word": "他们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 他们 (tāmen)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_201",
+      "sourceWord": "它",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_200",
+          "word": "他",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 他 (tā)."
+        },
+        {
+          "wordId": "hsk1_202",
+          "word": "她",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 她 (tā)."
+        },
+        {
+          "wordId": "hsk1_204",
+          "word": "它们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 它们 (tāmen)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_202",
+      "sourceWord": "她",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_200",
+          "word": "他",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 他 (tā)."
+        },
+        {
+          "wordId": "hsk1_201",
+          "word": "它",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 它 (tā)."
+        },
+        {
+          "wordId": "hsk1_205",
+          "word": "她们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 她们 (tāmen)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_203",
+      "sourceWord": "他们",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_124",
+          "word": "们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 们 (men)."
+        },
+        {
+          "wordId": "hsk1_200",
+          "word": "他",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 他 (tā)."
+        },
+        {
+          "wordId": "hsk1_204",
+          "word": "它们",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 它们 (tāmen)."
+        },
+        {
+          "wordId": "hsk1_205",
+          "word": "她们",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 她们 (tāmen)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_204",
+      "sourceWord": "它们",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_124",
+          "word": "们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 们 (men)."
+        },
+        {
+          "wordId": "hsk1_201",
+          "word": "它",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 它 (tā)."
+        },
+        {
+          "wordId": "hsk1_203",
+          "word": "他们",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 他们 (tāmen)."
+        },
+        {
+          "wordId": "hsk1_205",
+          "word": "她们",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 她们 (tāmen)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_205",
+      "sourceWord": "她们",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_124",
+          "word": "们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 们 (men)."
+        },
+        {
+          "wordId": "hsk1_202",
+          "word": "她",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 她 (tā)."
+        },
+        {
+          "wordId": "hsk1_203",
+          "word": "他们",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 他们 (tāmen)."
+        },
+        {
+          "wordId": "hsk1_204",
+          "word": "它们",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 它们 (tāmen)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_206",
+      "sourceWord": "太",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_053",
+          "word": "非常",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 非常 (fēicháng); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_207",
+      "sourceWord": "天",
+      "sourceHskLevel": 1,
+      "candidateCount": 5,
+      "candidates": [
+        {
+          "wordId": "hsk1_005",
+          "word": "白天",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 白天 (báitiān) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_094",
+          "word": "今天",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 今天 (jīntiān) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_129",
+          "word": "明天",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 明天 (míngtiān) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_208",
+          "word": "天气",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 天气 (tiānqì) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_297",
+          "word": "昨天",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 昨天 (zuótiān) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_208",
+      "sourceWord": "天气",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_207",
+          "word": "天",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 天 (tiān) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_251",
+          "word": "雪",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 雪 (xuě) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_267",
+          "word": "雨",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 雨 (yǔ) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_209",
+      "sourceWord": "听",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_210",
+          "word": "听见",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 听见 (tīngjiàn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_210",
+      "sourceWord": "听见",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_088",
+          "word": "见",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 见 (jiàn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_101",
+          "word": "看见",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 看见 (kànjiàn)."
+        },
+        {
+          "wordId": "hsk1_209",
+          "word": "听",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 听 (tīng) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_211",
+      "sourceWord": "同学",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_248",
+          "word": "学生",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 学生 (xuéshēng); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_212",
+      "sourceWord": "外",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_110",
+          "word": "里",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 里 (lǐ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_213",
+      "sourceWord": "外边",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_214",
+      "sourceWord": "玩",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_215",
+      "sourceWord": "晚",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_217",
+          "word": "晚上",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 晚上 (wǎnshang) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_273",
+          "word": "早",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 早 (zǎo)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_216",
+      "sourceWord": "晚饭",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_217",
+          "word": "晚上",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 晚上 (wǎnshang) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_224",
+          "word": "午饭",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 午饭 (wǔfàn)."
+        },
+        {
+          "wordId": "hsk1_274",
+          "word": "早饭",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 早饭 (zǎofàn)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_217",
+      "sourceWord": "晚上",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_215",
+          "word": "晚",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 晚 (wǎn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_216",
+          "word": "晚饭",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 晚饭 (wǎnfàn) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_275",
+          "word": "早上",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 早上 (zǎoshang)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_218",
+      "sourceWord": "喂",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_219",
+      "sourceWord": "问",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_220",
+          "word": "问题",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 问题 (wèntí) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_220",
+      "sourceWord": "问题",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_219",
+          "word": "问",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 问 (wèn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_221",
+      "sourceWord": "我",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_222",
+          "word": "我们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 我们 (wǒmen)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_222",
+      "sourceWord": "我们",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_124",
+          "word": "们",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 们 (men)."
+        },
+        {
+          "wordId": "hsk1_221",
+          "word": "我",
+          "hskLevel": 1,
+          "category": "MORPHOLOGICAL_SUFFIX",
+          "reason": "Shares the pluralizing suffix relationship with 我 (wǒ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_223",
+      "sourceWord": "五",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_224",
+      "sourceWord": "午饭",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_216",
+          "word": "晚饭",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 晚饭 (wǎnfàn)."
+        },
+        {
+          "wordId": "hsk1_274",
+          "word": "早饭",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 早饭 (zǎofàn)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_225",
+      "sourceWord": "喜欢",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_226",
+      "sourceWord": "下",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_175",
+          "word": "上",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 上 (shàng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_227",
+      "sourceWord": "下雨",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_267",
+          "word": "雨",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 雨 (yǔ) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_228",
+      "sourceWord": "下班",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_063",
+          "word": "工作",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 工作 (gōngzuò) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_176",
+          "word": "上班",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 上班 (shàngbān)."
+        },
+        {
+          "wordId": "hsk1_229",
+          "word": "下课",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 下课 (xiàkè)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_229",
+      "sourceWord": "下课",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_177",
+          "word": "上课",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 上课 (shàngkè)."
+        },
+        {
+          "wordId": "hsk1_228",
+          "word": "下班",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 下班 (xiàbān)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_230",
+      "sourceWord": "下午",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_178",
+          "word": "上午",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 上午 (shàngwǔ)."
+        },
+        {
+          "wordId": "hsk1_291",
+          "word": "中午",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 中午 (zhōngwǔ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_231",
+      "sourceWord": "先生",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_155",
+          "word": "女士",
+          "hskLevel": 1,
+          "category": "GENDER_PAIR",
+          "reason": "Gender-paired counterpart of 女士 (nǚshì)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_232",
+      "sourceWord": "现在",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_233",
+      "sourceWord": "想",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_096",
+          "word": "觉得",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 觉得 (juéde); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_252",
+          "word": "要",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 要 (yào); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_234",
+      "sourceWord": "小",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_025",
+          "word": "大",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 大 (dà)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_235",
+      "sourceWord": "小朋友",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_068",
+          "word": "孩子",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 孩子 (háizi); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_236",
+      "sourceWord": "小时",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_056",
+          "word": "分钟",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 分钟 (fēnzhōng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_237",
+      "sourceWord": "小学",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_027",
+          "word": "大学",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 大学 (dàxué)."
+        },
+        {
+          "wordId": "hsk1_238",
+          "word": "小学生",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 小学生 (xiǎoxuéshēng) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_292",
+          "word": "中学",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 中学 (zhōngxué)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_238",
+      "sourceWord": "小学生",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_028",
+          "word": "大学生",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 大学生 (dàxuéshēng)."
+        },
+        {
+          "wordId": "hsk1_237",
+          "word": "小学",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 小学 (xiǎoxué) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_248",
+          "word": "学生",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 学生 (xuéshēng)."
+        },
+        {
+          "wordId": "hsk1_293",
+          "word": "中学生",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 中学生 (zhōngxuéshēng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_239",
+      "sourceWord": "些",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_240",
+      "sourceWord": "写",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_296",
+          "word": "字",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 字 (zì) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_241",
+      "sourceWord": "谢谢",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_014",
+          "word": "不客气",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 不客气 (bú kèqi) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_242",
+      "sourceWord": "新",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_243",
+      "sourceWord": "星期",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_244",
+          "word": "星期日",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 星期日 (xīngqīrì) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_245",
+          "word": "星期天",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 星期天 (xīngqītiān) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_244",
+      "sourceWord": "星期日",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_243",
+          "word": "星期",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 星期 (xīngqī) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_245",
+          "word": "星期天",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 星期天 (xīngqītiān); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_245",
+      "sourceWord": "星期天",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_243",
+          "word": "星期",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 星期 (xīngqī) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_244",
+          "word": "星期日",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 星期日 (xīngqīrì); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_246",
+      "sourceWord": "休息",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_247",
+      "sourceWord": "学",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_248",
+          "word": "学生",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 学生 (xuéshēng) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_249",
+          "word": "学习",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 学习 (xuéxí); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_250",
+          "word": "学校",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 学校 (xuéxiào) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_248",
+      "sourceWord": "学生",
+      "sourceHskLevel": 1,
+      "candidateCount": 6,
+      "candidates": [
+        {
+          "wordId": "hsk1_028",
+          "word": "大学生",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 大学生 (dàxuéshēng)."
+        },
+        {
+          "wordId": "hsk1_211",
+          "word": "同学",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 同学 (tóngxué); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_238",
+          "word": "小学生",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 小学生 (xiǎoxuéshēng)."
+        },
+        {
+          "wordId": "hsk1_247",
+          "word": "学",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 学 (xué) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_250",
+          "word": "学校",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 学校 (xuéxiào) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_293",
+          "word": "中学生",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 中学生 (zhōngxuéshēng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_249",
+      "sourceWord": "学习",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_043",
+          "word": "读书",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 读书 (dúshū); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_247",
+          "word": "学",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 学 (xué); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_250",
+      "sourceWord": "学校",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_247",
+          "word": "学",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 学 (xué) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_248",
+          "word": "学生",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 学生 (xuéshēng) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_251",
+      "sourceWord": "雪",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_208",
+          "word": "天气",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 天气 (tiānqì) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_267",
+          "word": "雨",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 雨 (yǔ) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_252",
+      "sourceWord": "要",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_233",
+          "word": "想",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 想 (xiǎng); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_253",
+      "sourceWord": "也",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_254",
+      "sourceWord": "一",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_255",
+      "sourceWord": "衣服",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_023",
+          "word": "穿",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 穿 (chuān) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_256",
+      "sourceWord": "医生",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_100",
+          "word": "看病",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 看病 (kànbìng) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_257",
+          "word": "医院",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 医院 (yīyuàn)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_257",
+      "sourceWord": "医院",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_100",
+          "word": "看病",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 看病 (kànbìng) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_256",
+          "word": "医生",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 医生 (yīshēng)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_258",
+      "sourceWord": "一半",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_007",
+          "word": "半",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 半 (bàn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_259",
+      "sourceWord": "一下",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_261",
+          "word": "一点儿",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 一点儿 (yìdiǎnr); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_260",
+      "sourceWord": "椅子",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_295",
+          "word": "桌子",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 桌子 (zhuōzi) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_261",
+      "sourceWord": "一点儿",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_259",
+          "word": "一下",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 一下 (yíxià); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_265",
+          "word": "有点儿",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 有点儿 (yǒudiǎnr); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_262",
+      "sourceWord": "一些",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_266",
+          "word": "有些",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 有些 (yǒuxiē); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_263",
+      "sourceWord": "有",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_122",
+          "word": "没有",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 没有 (méiyǒu)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_264",
+      "sourceWord": "有的",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_266",
+          "word": "有些",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 有些 (yǒuxiē); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_265",
+      "sourceWord": "有点儿",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_261",
+          "word": "一点儿",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 一点儿 (yìdiǎnr); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_266",
+      "sourceWord": "有些",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_262",
+          "word": "一些",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 一些 (yìxiē); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_264",
+          "word": "有的",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 有的 (yǒude); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_267",
+      "sourceWord": "雨",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_208",
+          "word": "天气",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 天气 (tiānqì) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_227",
+          "word": "下雨",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 下雨 (xià yǔ) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_251",
+          "word": "雪",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 雪 (xuě) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_268",
+      "sourceWord": "元",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_269",
+      "sourceWord": "月",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_270",
+      "sourceWord": "再",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_067",
+          "word": "还",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 还 (hái); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_272",
+          "word": "再见",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 再见 (zàijiàn) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_271",
+      "sourceWord": "在",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_272",
+      "sourceWord": "再见",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_088",
+          "word": "见",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 见 (jiàn) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_147",
+          "word": "你好",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 你好 (nǐ hǎo) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_270",
+          "word": "再",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 再 (zài) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_273",
+      "sourceWord": "早",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_215",
+          "word": "晚",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 晚 (wǎn)."
+        },
+        {
+          "wordId": "hsk1_275",
+          "word": "早上",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 早上 (zǎoshang) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_274",
+      "sourceWord": "早饭",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_216",
+          "word": "晚饭",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 晚饭 (wǎnfàn)."
+        },
+        {
+          "wordId": "hsk1_224",
+          "word": "午饭",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 午饭 (wǔfàn)."
+        },
+        {
+          "wordId": "hsk1_275",
+          "word": "早上",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 早上 (zǎoshang) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_275",
+      "sourceWord": "早上",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_178",
+          "word": "上午",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 上午 (shàngwǔ); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_217",
+          "word": "晚上",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 晚上 (wǎnshang)."
+        },
+        {
+          "wordId": "hsk1_273",
+          "word": "早",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 早 (zǎo) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_274",
+          "word": "早饭",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 早饭 (zǎofàn) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_276",
+      "sourceWord": "怎么",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_277",
+      "sourceWord": "怎么样",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_278",
+      "sourceWord": "找",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_279",
+      "sourceWord": "这",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_131",
+          "word": "哪",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 哪 (nǎ)."
+        },
+        {
+          "wordId": "hsk1_136",
+          "word": "那",
+          "hskLevel": 1,
+          "category": "ANTONYM",
+          "reason": "Antonym of 那 (nà)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_280",
+      "sourceWord": "这边",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_137",
+          "word": "那边",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 那边 (nàbiān)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_281",
+      "sourceWord": "这个",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_132",
+          "word": "哪个",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 哪个 (nǎge)."
+        },
+        {
+          "wordId": "hsk1_138",
+          "word": "那个",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 那个 (nàge)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_282",
+      "sourceWord": "这里",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_133",
+          "word": "哪里",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 哪里 (nǎlǐ)."
+        },
+        {
+          "wordId": "hsk1_139",
+          "word": "那里",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 那里 (nàlǐ)."
+        },
+        {
+          "wordId": "hsk1_283",
+          "word": "这儿",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 这儿 (zhèr); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_283",
+      "sourceWord": "这儿",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_134",
+          "word": "哪儿",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 哪儿 (nǎr)."
+        },
+        {
+          "wordId": "hsk1_140",
+          "word": "那儿",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 那儿 (nàr)."
+        },
+        {
+          "wordId": "hsk1_282",
+          "word": "这里",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 这里 (zhèlǐ); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_284",
+      "sourceWord": "这些",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_135",
+          "word": "哪些",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 哪些 (nǎxiē)."
+        },
+        {
+          "wordId": "hsk1_141",
+          "word": "那些",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 那些 (nàxiē)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_285",
+      "sourceWord": "真",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_286",
+      "sourceWord": "正在",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_287",
+      "sourceWord": "只",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_288",
+      "sourceWord": "知道",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_171",
+          "word": "认识",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 认识 (rènshi); commonly contrasted in HSK1 usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_289",
+      "sourceWord": "中国",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_290",
+          "word": "中文",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 中文 (Zhōngwén)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_290",
+      "sourceWord": "中文",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_069",
+          "word": "汉语",
+          "hskLevel": 1,
+          "category": "NEAR_SYNONYM",
+          "reason": "Near-synonym of 汉语 (Hànyǔ); commonly contrasted in HSK1 usage."
+        },
+        {
+          "wordId": "hsk1_070",
+          "word": "汉字",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 汉字 (Hànzì) in real-world usage."
+        },
+        {
+          "wordId": "hsk1_289",
+          "word": "中国",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 中国 (Zhōngguó)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_291",
+      "sourceWord": "中午",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_178",
+          "word": "上午",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 上午 (shàngwǔ)."
+        },
+        {
+          "wordId": "hsk1_230",
+          "word": "下午",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 下午 (xiàwǔ)."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_292",
+      "sourceWord": "中学",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_027",
+          "word": "大学",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 大学 (dàxué)."
+        },
+        {
+          "wordId": "hsk1_237",
+          "word": "小学",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 小学 (xiǎoxué)."
+        },
+        {
+          "wordId": "hsk1_293",
+          "word": "中学生",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 中学生 (zhōngxuéshēng) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_293",
+      "sourceWord": "中学生",
+      "sourceHskLevel": 1,
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "wordId": "hsk1_028",
+          "word": "大学生",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 大学生 (dàxuéshēng)."
+        },
+        {
+          "wordId": "hsk1_238",
+          "word": "小学生",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 小学生 (xiǎoxuéshēng)."
+        },
+        {
+          "wordId": "hsk1_248",
+          "word": "学生",
+          "hskLevel": 1,
+          "category": "COMPOUND_FAMILY",
+          "reason": "Shares a productive HSK1 word-formation root with 学生 (xuéshēng)."
+        },
+        {
+          "wordId": "hsk1_292",
+          "word": "中学",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 中学 (zhōngxué) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_294",
+      "sourceWord": "住",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_295",
+      "sourceWord": "桌子",
+      "sourceHskLevel": 1,
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "wordId": "hsk1_260",
+          "word": "椅子",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 椅子 (yǐzi) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_296",
+      "sourceWord": "字",
+      "sourceHskLevel": 1,
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "wordId": "hsk1_070",
+          "word": "汉字",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 汉字 (Hànzì) via shared root morpheme."
+        },
+        {
+          "wordId": "hsk1_240",
+          "word": "写",
+          "hskLevel": 1,
+          "category": "FUNCTIONAL_CONTEXT",
+          "reason": "Functionally/collocationally linked to 写 (xiě) in real-world usage."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_297",
+      "sourceWord": "昨天",
+      "sourceHskLevel": 1,
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "wordId": "hsk1_094",
+          "word": "今天",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 今天 (jīntiān)."
+        },
+        {
+          "wordId": "hsk1_129",
+          "word": "明天",
+          "hskLevel": 1,
+          "category": "CLOSED_PARADIGM",
+          "reason": "Member of the same closed HSK1 paradigm as 明天 (míngtiān)."
+        },
+        {
+          "wordId": "hsk1_207",
+          "word": "天",
+          "hskLevel": 1,
+          "category": "COMPOSITIONAL_COMPOUND",
+          "reason": "Directly compositional with 天 (tiān) via shared root morpheme."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk1_298",
+      "sourceWord": "坐",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_299",
+      "sourceWord": "做",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    },
+    {
+      "sourceId": "hsk1_300",
+      "sourceWord": "做饭",
+      "sourceHskLevel": 1,
+      "candidateCount": 0,
+      "candidates": []
+    }
+  ]
+}
