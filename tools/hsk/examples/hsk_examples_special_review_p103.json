@@ -1,0 +1,901 @@
+{
+  "queueLabel": "P5.10.3 -- Persistent Special-Review Queue (Tier 3 + Tier 4)",
+  "queueVersion": "p103-v1",
+  "generatedAt": "2026-09-04T07:34:10.929958+00:00",
+  "generatorScript": "tools/hsk/examples/build_examples_special_review_p103.py",
+  "sourceProductionHashes": {
+    "hsk1": "0fddf906c1bd67f60ebc970161be8e4121828d0475256e010e925cdae6cc2495",
+    "hsk2": "607734a8106216f92b84cd9750359799a375284127d6448c5c57a3b313621cc1",
+    "hsk3": "dfd5f3823e2ade4a73ba4e773c397c359f76bdc4a7c42b8086fab21f217b3034",
+    "hsk4": "ae11169c442cb59c69aaca4654fc7e71b563dc2ee88b515a1eac06e115b6d653",
+    "hsk5": "5a731039fa8c8b05269895d56eac516fb23008ccd105b5b91f045377f3cb4b9b",
+    "hsk6": "6bc39fad68ae900d5a7bcd3ff205a184c9f856167fb0d1f41edb7ba93d7cb53d"
+  },
+  "pilotArtifactExcluded": "tools/hsk/examples/hsk_examples_p102_pilot_01.json (100 IDs excluded from this scan)",
+  "totalRemainingScanned": 5300,
+  "tier3Count": 80,
+  "tier4Count": 8,
+  "totalSpecialReviewCount": 88,
+  "records": [
+    {
+      "sourceId": "hsk1_067",
+      "word": "还",
+      "pinyin": "hái",
+      "hskLevel": 1,
+      "riskTier": 3,
+      "reason": "Tier 3: '还' also appears elsewhere in HSK1-6 under different reading(s) ['huán'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk1_071",
+      "word": "好",
+      "pinyin": "hǎo",
+      "hskLevel": 1,
+      "riskTier": 3,
+      "reason": "Tier 3: '好' also appears elsewhere in HSK1-6 under different reading(s) ['hào'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk1_099",
+      "word": "看",
+      "pinyin": "kàn",
+      "hskLevel": 1,
+      "riskTier": 3,
+      "reason": "Tier 3: '看' also appears elsewhere in HSK1-6 under different reading(s) ['kān'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk1_287",
+      "word": "只",
+      "pinyin": "zhī",
+      "hskLevel": 1,
+      "riskTier": 3,
+      "reason": "Tier 3: '只' also appears elsewhere in HSK1-6 under different reading(s) ['zhǐ'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk2_001",
+      "word": "啊",
+      "pinyin": "a",
+      "hskLevel": 2,
+      "riskTier": 3,
+      "reason": "Tier 3: '啊' also appears elsewhere in HSK1-6 under different reading(s) ['ā'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk2_014",
+      "word": "长",
+      "pinyin": "cháng",
+      "hskLevel": 2,
+      "riskTier": 3,
+      "reason": "Tier 3: '长' also appears elsewhere in HSK1-6 under different reading(s) ['zhǎng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk2_032",
+      "word": "得",
+      "pinyin": "de",
+      "hskLevel": 2,
+      "riskTier": 3,
+      "reason": "Tier 3: '得' also appears elsewhere in HSK1-6 under different reading(s) ['dé', 'děi'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk2_033",
+      "word": "地",
+      "pinyin": "de",
+      "hskLevel": 2,
+      "riskTier": 3,
+      "reason": "Tier 3: '地' also appears elsewhere in HSK1-6 under different reading(s) ['dì'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk2_047",
+      "word": "过",
+      "pinyin": "guò",
+      "hskLevel": 2,
+      "riskTier": 3,
+      "reason": "Tier 3: '过' also appears elsewhere in HSK1-6 under different reading(s) ['guo'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk2_051",
+      "word": "过",
+      "pinyin": "guo",
+      "hskLevel": 2,
+      "riskTier": 3,
+      "reason": "Tier 3: '过' also appears elsewhere in HSK1-6 under different reading(s) ['guò'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk2_057",
+      "word": "花",
+      "pinyin": "huā",
+      "hskLevel": 2,
+      "riskTier": 4,
+      "reason": "Tier 4: same word+pinyin '花'/huā' duplicated within HSK2 by record(s) ['hsk2_058'] -- cannot safely disambiguate sense without manual review.",
+      "sourceIssue": "same_level_same_pinyin_duplicate",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk2_058",
+      "word": "花",
+      "pinyin": "huā",
+      "hskLevel": 2,
+      "riskTier": 4,
+      "reason": "Tier 4: same word+pinyin '花'/huā' duplicated within HSK2 by record(s) ['hsk2_057'] -- cannot safely disambiguate sense without manual review.",
+      "sourceIssue": "same_level_same_pinyin_duplicate",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk2_145",
+      "word": "头",
+      "pinyin": "tóu",
+      "hskLevel": 2,
+      "riskTier": 3,
+      "reason": "Tier 3: '头' also appears elsewhere in HSK1-6 under different reading(s) ['tou'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk2_190",
+      "word": "着",
+      "pinyin": "zhe",
+      "hskLevel": 2,
+      "riskTier": 3,
+      "reason": "Tier 3: '着' also appears elsewhere in HSK1-6 under different reading(s) ['zháo'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_083",
+      "word": "得",
+      "pinyin": "dé",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '得' also appears elsewhere in HSK1-6 under different reading(s) ['de', 'děi'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_087",
+      "word": "得",
+      "pinyin": "děi",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '得' also appears elsewhere in HSK1-6 under different reading(s) ['de', 'dé'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_089",
+      "word": "地",
+      "pinyin": "dì",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '地' also appears elsewhere in HSK1-6 under different reading(s) ['de'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_091",
+      "word": "地方",
+      "pinyin": "dìfang",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '地方' also appears elsewhere in HSK1-6 under different reading(s) ['dìfāng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_140",
+      "word": "干",
+      "pinyin": "gàn",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '干' also appears elsewhere in HSK1-6 under different reading(s) ['gān'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_178",
+      "word": "还",
+      "pinyin": "huán",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '还' also appears elsewhere in HSK1-6 under different reading(s) ['hái'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_375",
+      "word": "为",
+      "pinyin": "wèi",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '为' also appears elsewhere in HSK1-6 under different reading(s) ['wéi'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_408",
+      "word": "行",
+      "pinyin": "xíng",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '行' also appears elsewhere in HSK1-6 under different reading(s) ['háng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_468",
+      "word": "长",
+      "pinyin": "zhǎng",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '长' also appears elsewhere in HSK1-6 under different reading(s) ['cháng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_475",
+      "word": "只",
+      "pinyin": "zhǐ",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '只' also appears elsewhere in HSK1-6 under different reading(s) ['zhī'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_481",
+      "word": "中",
+      "pinyin": "zhōng",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '中' also appears elsewhere in HSK1-6 under different reading(s) ['zhòng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk3_484",
+      "word": "种",
+      "pinyin": "zhǒng",
+      "hskLevel": 3,
+      "riskTier": 3,
+      "reason": "Tier 3: '种' also appears elsewhere in HSK1-6 under different reading(s) ['zhòng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_001",
+      "word": "啊",
+      "pinyin": "ā",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '啊' also appears elsewhere in HSK1-6 under different reading(s) ['a'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_020",
+      "word": "背",
+      "pinyin": "bēi",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '背' also appears elsewhere in HSK1-6 under different reading(s) ['bèi'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_086",
+      "word": "重",
+      "pinyin": "chóng",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '重' also appears elsewhere in HSK1-6 under different reading(s) ['zhòng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_131",
+      "word": "待",
+      "pinyin": "dāi",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '待' also appears elsewhere in HSK1-6 under different reading(s) ['dài'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_135",
+      "word": "当",
+      "pinyin": "dāng",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '当' also appears elsewhere in HSK1-6 under different reading(s) ['dàng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_139",
+      "word": "倒",
+      "pinyin": "dào",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '倒' also appears elsewhere in HSK1-6 under different reading(s) ['dǎo'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_220",
+      "word": "干",
+      "pinyin": "gān",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '干' also appears elsewhere in HSK1-6 under different reading(s) ['gàn'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_382",
+      "word": "结果",
+      "pinyin": "jiéguǒ",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '结果' also appears elsewhere in HSK1-6 under different reading(s) ['jiēguǒ'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_436",
+      "word": "空",
+      "pinyin": "kōng",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '空' also appears elsewhere in HSK1-6 under different reading(s) ['kòng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_439",
+      "word": "空",
+      "pinyin": "kòng",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '空' also appears elsewhere in HSK1-6 under different reading(s) ['kōng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_472",
+      "word": "量",
+      "pinyin": "liáng",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '量' also appears elsewhere in HSK1-6 under different reading(s) ['liàng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_493",
+      "word": "落",
+      "pinyin": "luò",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '落' also appears elsewhere in HSK1-6 under different reading(s) ['là'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_646",
+      "word": "生",
+      "pinyin": "shēng",
+      "hskLevel": 4,
+      "riskTier": 4,
+      "reason": "Tier 4: same word+pinyin '生'/shēng' duplicated within HSK4 by record(s) ['hsk4_647'] -- cannot safely disambiguate sense without manual review.",
+      "sourceIssue": "same_level_same_pinyin_duplicate",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_647",
+      "word": "生",
+      "pinyin": "shēng",
+      "hskLevel": 4,
+      "riskTier": 4,
+      "reason": "Tier 4: same word+pinyin '生'/shēng' duplicated within HSK4 by record(s) ['hsk4_646'] -- cannot safely disambiguate sense without manual review.",
+      "sourceIssue": "same_level_same_pinyin_duplicate",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_691",
+      "word": "数",
+      "pinyin": "shù",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '数' also appears elsewhere in HSK1-6 under different reading(s) ['shǔ'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_771",
+      "word": "为",
+      "pinyin": "wéi",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '为' also appears elsewhere in HSK1-6 under different reading(s) ['wèi'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_924",
+      "word": "着",
+      "pinyin": "zháo",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '着' also appears elsewhere in HSK1-6 under different reading(s) ['zhe'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_959",
+      "word": "种",
+      "pinyin": "zhòng",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '种' also appears elsewhere in HSK1-6 under different reading(s) ['zhǒng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_960",
+      "word": "重",
+      "pinyin": "zhòng",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '重' also appears elsewhere in HSK1-6 under different reading(s) ['chóng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk4_970",
+      "word": "转",
+      "pinyin": "zhuǎn",
+      "hskLevel": 4,
+      "riskTier": 3,
+      "reason": "Tier 3: '转' also appears elsewhere in HSK1-6 under different reading(s) ['zhuàn'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_036",
+      "word": "背",
+      "pinyin": "bèi",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '背' also appears elsewhere in HSK1-6 under different reading(s) ['bēi'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_1063",
+      "word": "数",
+      "pinyin": "shǔ",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '数' also appears elsewhere in HSK1-6 under different reading(s) ['shù'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_1130",
+      "word": "调",
+      "pinyin": "tiáo",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '调' also appears elsewhere in HSK1-6 under different reading(s) ['diào'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_1149",
+      "word": "头",
+      "pinyin": "tou",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '头' also appears elsewhere in HSK1-6 under different reading(s) ['tóu'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_1184",
+      "word": "为",
+      "pinyin": "wéi",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '为' also appears elsewhere in HSK1-6 under different reading(s) ['wèi'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_1226",
+      "word": "系",
+      "pinyin": "xì",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '系' also appears elsewhere in HSK1-6 under different reading(s) ['jì'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_132",
+      "word": "称",
+      "pinyin": "chēng",
+      "hskLevel": 5,
+      "riskTier": 4,
+      "reason": "Tier 4: same word+pinyin '称'/chēng' duplicated within HSK5 by record(s) ['hsk5_133'] -- cannot safely disambiguate sense without manual review.",
+      "sourceIssue": "same_level_same_pinyin_duplicate",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_133",
+      "word": "称",
+      "pinyin": "chēng",
+      "hskLevel": 5,
+      "riskTier": 4,
+      "reason": "Tier 4: same word+pinyin '称'/chēng' duplicated within HSK5 by record(s) ['hsk5_132'] -- cannot safely disambiguate sense without manual review.",
+      "sourceIssue": "same_level_same_pinyin_duplicate",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_1460",
+      "word": "炸",
+      "pinyin": "zhá",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '炸' also appears elsewhere in HSK1-6 under different reading(s) ['zhà'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_158",
+      "word": "冲",
+      "pinyin": "chōng",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '冲' also appears elsewhere in HSK1-6 under different reading(s) ['chòng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_179",
+      "word": "处",
+      "pinyin": "chǔ",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '处' also appears elsewhere in HSK1-6 under different reading(s) ['chù'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_182",
+      "word": "处",
+      "pinyin": "chù",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '处' also appears elsewhere in HSK1-6 under different reading(s) ['chǔ'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_250",
+      "word": "当",
+      "pinyin": "dàng",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '当' also appears elsewhere in HSK1-6 under different reading(s) ['dāng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_253",
+      "word": "倒",
+      "pinyin": "dǎo",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '倒' also appears elsewhere in HSK1-6 under different reading(s) ['dào'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_284",
+      "word": "调",
+      "pinyin": "diào",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '调' also appears elsewhere in HSK1-6 under different reading(s) ['tiáo'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_467",
+      "word": "行",
+      "pinyin": "háng",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '行' also appears elsewhere in HSK1-6 under different reading(s) ['xíng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_472",
+      "word": "好",
+      "pinyin": "hào",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '好' also appears elsewhere in HSK1-6 under different reading(s) ['hǎo'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_496",
+      "word": "划",
+      "pinyin": "huá",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '划' also appears elsewhere in HSK1-6 under different reading(s) ['huà'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_539",
+      "word": "系",
+      "pinyin": "jì",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '系' also appears elsewhere in HSK1-6 under different reading(s) ['xì'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_600",
+      "word": "结",
+      "pinyin": "jié",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '结' also appears elsewhere in HSK1-6 under different reading(s) ['jiē'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_657",
+      "word": "看",
+      "pinyin": "kān",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '看' also appears elsewhere in HSK1-6 under different reading(s) ['kàn'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_719",
+      "word": "量",
+      "pinyin": "liàng",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '量' also appears elsewhere in HSK1-6 under different reading(s) ['liáng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_825",
+      "word": "批",
+      "pinyin": "pī",
+      "hskLevel": 5,
+      "riskTier": 4,
+      "reason": "Tier 4: same word+pinyin '批'/pī' duplicated within HSK5 by record(s) ['hsk5_826'] -- cannot safely disambiguate sense without manual review.",
+      "sourceIssue": "same_level_same_pinyin_duplicate",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_826",
+      "word": "批",
+      "pinyin": "pī",
+      "hskLevel": 5,
+      "riskTier": 4,
+      "reason": "Tier 4: same word+pinyin '批'/pī' duplicated within HSK5 by record(s) ['hsk5_825'] -- cannot safely disambiguate sense without manual review.",
+      "sourceIssue": "same_level_same_pinyin_duplicate",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk5_949",
+      "word": "扇",
+      "pinyin": "shān",
+      "hskLevel": 5,
+      "riskTier": 3,
+      "reason": "Tier 3: '扇' also appears elsewhere in HSK1-6 under different reading(s) ['shàn'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_0179",
+      "word": "冲",
+      "pinyin": "chòng",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '冲' also appears elsewhere in HSK1-6 under different reading(s) ['chōng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_0256",
+      "word": "待",
+      "pinyin": "dài",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '待' also appears elsewhere in HSK1-6 under different reading(s) ['dāi'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_0292",
+      "word": "地方",
+      "pinyin": "dìfāng",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '地方' also appears elsewhere in HSK1-6 under different reading(s) ['dìfang'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_0567",
+      "word": "划",
+      "pinyin": "huà",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '划' also appears elsewhere in HSK1-6 under different reading(s) ['huá'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_0681",
+      "word": "结",
+      "pinyin": "jiē",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '结' also appears elsewhere in HSK1-6 under different reading(s) ['jié'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_0682",
+      "word": "结果",
+      "pinyin": "jiēguǒ",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '结果' also appears elsewhere in HSK1-6 under different reading(s) ['jiéguǒ'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_0753",
+      "word": "卷",
+      "pinyin": "juǎn",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '卷' also appears elsewhere in HSK1-6 under different reading(s) ['juàn'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_0754",
+      "word": "卷",
+      "pinyin": "juàn",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '卷' also appears elsewhere in HSK1-6 under different reading(s) ['juǎn'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_0810",
+      "word": "落",
+      "pinyin": "là",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '落' also appears elsewhere in HSK1-6 under different reading(s) ['luò'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_1126",
+      "word": "散",
+      "pinyin": "sǎn",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '散' also appears elsewhere in HSK1-6 under different reading(s) ['sàn'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_1128",
+      "word": "散",
+      "pinyin": "sàn",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '散' also appears elsewhere in HSK1-6 under different reading(s) ['sǎn'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_1142",
+      "word": "扇",
+      "pinyin": "shàn",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '扇' also appears elsewhere in HSK1-6 under different reading(s) ['shān'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_1333",
+      "word": "吐",
+      "pinyin": "tǔ",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '吐' also appears elsewhere in HSK1-6 under different reading(s) ['tù'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_1335",
+      "word": "吐",
+      "pinyin": "tù",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '吐' also appears elsewhere in HSK1-6 under different reading(s) ['tǔ'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_1655",
+      "word": "炸",
+      "pinyin": "zhà",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '炸' also appears elsewhere in HSK1-6 under different reading(s) ['zhá'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_1728",
+      "word": "中",
+      "pinyin": "zhòng",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '中' also appears elsewhere in HSK1-6 under different reading(s) ['zhōng'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    },
+    {
+      "sourceId": "hsk6_1769",
+      "word": "转",
+      "pinyin": "zhuàn",
+      "hskLevel": 6,
+      "riskTier": 3,
+      "reason": "Tier 3: '转' also appears elsewhere in HSK1-6 under different reading(s) ['zhuǎn'] -- example could accidentally read naturally under the wrong tone/reading.",
+      "sourceIssue": "homograph_different_reading",
+      "status": "pending_review"
+    }
+  ]
+}

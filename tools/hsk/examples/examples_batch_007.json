@@ -1,0 +1,1614 @@
+{
+  "batchId": "batch-007",
+  "batchNumber": 7,
+  "generatedAt": "2026-09-04T08:47:20.339574+00:00",
+  "generationMethod": "llm-authored (Claude, this assistant) -- see module docstring",
+  "generatorScript": "tools/hsk/examples/generate_examples_batch_007.py",
+  "sourceProductionHashes": {
+    "hsk3": "dfd5f3823e2ade4a73ba4e773c397c359f76bdc4a7c42b8086fab21f217b3034"
+  },
+  "batchSize": 100,
+  "totalExamples": 100,
+  "records": [
+    {
+      "sourceId": "hsk3_242",
+      "sourceWord": "矿泉水",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "请给我一瓶矿泉水。",
+          "pinyin": "Qǐng gěi wǒ yì píng kuàngquánshuǐ.",
+          "meaningVi": "Xin cho tôi một chai nước khoáng."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_243",
+      "sourceWord": "来自",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他来自越南。",
+          "pinyin": "Tā láizì Yuènán.",
+          "meaningVi": "Anh ấy đến từ Việt Nam."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_244",
+      "sourceWord": "蓝",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "今天天空很蓝。",
+          "pinyin": "Jīntiān tiānkōng hěn lán.",
+          "meaningVi": "Hôm nay bầu trời rất xanh."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_246",
+      "sourceWord": "老人",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我们应该尊重老人。",
+          "pinyin": "Wǒmen yīnggāi zūnzhòng lǎorén.",
+          "meaningVi": "Chúng ta nên tôn trọng người già."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_247",
+      "sourceWord": "离开",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他明天要离开这座城市。",
+          "pinyin": "Tā míngtiān yào líkāi zhè zuò chéngshì.",
+          "meaningVi": "Ngày mai anh ấy sẽ rời khỏi thành phố này."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_248",
+      "sourceWord": "礼物",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这是我送给你的礼物。",
+          "pinyin": "Zhè shì wǒ sòng gěi nǐ de lǐwù.",
+          "meaningVi": "Đây là món quà tôi tặng bạn."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_249",
+      "sourceWord": "历史",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我对中国历史很感兴趣。",
+          "pinyin": "Wǒ duì Zhōngguó lìshǐ hěn gǎn xìngqù.",
+          "meaningVi": "Tôi rất có hứng thú với lịch sử Trung Quốc."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_250",
+      "sourceWord": "脸",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "她的脸红了。",
+          "pinyin": "Tā de liǎn hóng le.",
+          "meaningVi": "Mặt cô ấy đỏ lên."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_251",
+      "sourceWord": "练",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他每天练毛笔字。",
+          "pinyin": "Tā měitiān liàn máobǐ zì.",
+          "meaningVi": "Anh ấy mỗi ngày luyện viết chữ bằng bút lông."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_253",
+      "sourceWord": "凉快",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "树下很凉快。",
+          "pinyin": "Shù xià hěn liángkuai.",
+          "meaningVi": "Dưới gốc cây rất mát mẻ."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_254",
+      "sourceWord": "辆",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "停车场里停了很多辆车。",
+          "pinyin": "Tíngchēchǎng lǐ tíngle hěn duō liàng chē.",
+          "meaningVi": "Trong bãi đỗ xe có rất nhiều xe."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_255",
+      "sourceWord": "聊",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我们聊了很长时间。",
+          "pinyin": "Wǒmen liáole hěn cháng shíjiān.",
+          "meaningVi": "Chúng tôi đã trò chuyện rất lâu."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_256",
+      "sourceWord": "聊天儿",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我喜欢和朋友聊天儿。",
+          "pinyin": "Wǒ xǐhuan hé péngyou liáotiānr.",
+          "meaningVi": "Tôi thích trò chuyện cùng bạn bè."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_257",
+      "sourceWord": "了解",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我想多了解一下这个国家的文化。",
+          "pinyin": "Wǒ xiǎng duō liǎojiě yíxià zhège guójiā de wénhuà.",
+          "meaningVi": "Tôi muốn tìm hiểu thêm về văn hóa của đất nước này."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_258",
+      "sourceWord": "邻居",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我们的邻居很友好。",
+          "pinyin": "Wǒmen de línjū hěn yǒuhǎo.",
+          "meaningVi": "Hàng xóm của chúng tôi rất thân thiện."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_259",
+      "sourceWord": "留学",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他打算去英国留学。",
+          "pinyin": "Tā dǎsuàn qù Yīngguó liúxué.",
+          "meaningVi": "Anh ấy định đi Anh du học."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_260",
+      "sourceWord": "留学生",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我们学校有很多留学生。",
+          "pinyin": "Wǒmen xuéxiào yǒu hěn duō liúxuéshēng.",
+          "meaningVi": "Trường chúng tôi có rất nhiều du học sinh."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_261",
+      "sourceWord": "楼梯",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "请走楼梯，不要坐电梯。",
+          "pinyin": "Qǐng zǒu lóutī, búyào zuò diàntī.",
+          "meaningVi": "Xin đi cầu thang, đừng đi thang máy."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_262",
+      "sourceWord": "路边",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "路边有很多小吃摊。",
+          "pinyin": "Lùbiān yǒu hěn duō xiǎochī tān.",
+          "meaningVi": "Ven đường có rất nhiều quầy ăn vặt."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_263",
+      "sourceWord": "路口",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "请在下一个路口右转。",
+          "pinyin": "Qǐng zài xià yí gè lùkǒu yòu zhuǎn.",
+          "meaningVi": "Xin rẽ phải ở ngã đường tiếp theo."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_264",
+      "sourceWord": "马",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他会骑马。",
+          "pinyin": "Tā huì qí mǎ.",
+          "meaningVi": "Anh ấy biết cưỡi ngựa."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_265",
+      "sourceWord": "马路",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "过马路要小心。",
+          "pinyin": "Guò mǎlù yào xiǎoxīn.",
+          "meaningVi": "Qua đường phải cẩn thận."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_266",
+      "sourceWord": "马上",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我马上就来。",
+          "pinyin": "Wǒ mǎshàng jiù lái.",
+          "meaningVi": "Tôi đến ngay đây."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_267",
+      "sourceWord": "满意",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "老板对这次的结果很满意。",
+          "pinyin": "Lǎobǎn duì zhè cì de jiéguǒ hěn mǎnyì.",
+          "meaningVi": "Sếp rất hài lòng với kết quả lần này."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_270",
+      "sourceWord": "面前",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "困难面前，他从不放弃。",
+          "pinyin": "Kùnnan miànqián, tā cóng bú fàngqì.",
+          "meaningVi": "Trước khó khăn, anh ấy không bao giờ từ bỏ."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_272",
+      "sourceWord": "名单",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "请把名单交给我。",
+          "pinyin": "Qǐng bǎ míngdān jiāo gěi wǒ.",
+          "meaningVi": "Xin đưa danh sách cho tôi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_273",
+      "sourceWord": "名人",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他是一位名人。",
+          "pinyin": "Tā shì yí wèi míngrén.",
+          "meaningVi": "Anh ấy là một người nổi tiếng."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_274",
+      "sourceWord": "南",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "学校在城市的南边。",
+          "pinyin": "Xuéxiào zài chéngshì de nánbiān.",
+          "meaningVi": "Trường học ở phía nam thành phố."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_276",
+      "sourceWord": "南方",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "南方的夏天很潮湿。",
+          "pinyin": "Nánfāng de xiàtiān hěn cháoshī.",
+          "meaningVi": "Mùa hè ở phương Nam rất ẩm ướt."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_277",
+      "sourceWord": "难过",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "听到这个消息，我很难过。",
+          "pinyin": "Tīngdào zhège xiāoxi, wǒ hěn nánguò.",
+          "meaningVi": "Nghe tin này, tôi rất buồn."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_278",
+      "sourceWord": "难看",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这件衣服的颜色很难看。",
+          "pinyin": "Zhè jiàn yīfu de yánsè hěn nánkàn.",
+          "meaningVi": "Màu của chiếc áo này rất xấu."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_279",
+      "sourceWord": "男人",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "那个男人是我爸爸。",
+          "pinyin": "Nàge nánrén shì wǒ bàba.",
+          "meaningVi": "Người đàn ông đó là bố tôi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_280",
+      "sourceWord": "男生",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "班里的男生比女生多。",
+          "pinyin": "Bān lǐ de nánshēng bǐ nǚshēng duō.",
+          "meaningVi": "Con trai trong lớp nhiều hơn con gái."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_281",
+      "sourceWord": "难题",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这是一个难题。",
+          "pinyin": "Zhè shì yí gè nántí.",
+          "meaningVi": "Đây là một vấn đề khó."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_282",
+      "sourceWord": "难听",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他唱歌很难听。",
+          "pinyin": "Tā chànggē hěn nántīng.",
+          "meaningVi": "Anh ấy hát rất khó nghe."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_283",
+      "sourceWord": "年级",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我女儿上三年级了。",
+          "pinyin": "Wǒ nǚ'ér shàng sān niánjí le.",
+          "meaningVi": "Con gái tôi học lớp ba rồi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_284",
+      "sourceWord": "年轻",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他看起来很年轻。",
+          "pinyin": "Tā kàn qǐlái hěn niánqīng.",
+          "meaningVi": "Trông anh ấy rất trẻ."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_287",
+      "sourceWord": "女人",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "她是一个坚强的女人。",
+          "pinyin": "Tā shì yí gè jiānqiáng de nǚrén.",
+          "meaningVi": "Cô ấy là một người phụ nữ mạnh mẽ."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_288",
+      "sourceWord": "女生",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这个女生很活泼。",
+          "pinyin": "Zhège nǚshēng hěn huópō.",
+          "meaningVi": "Nữ sinh này rất hoạt bát."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_289",
+      "sourceWord": "爬",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我们周末去爬山。",
+          "pinyin": "Wǒmen zhōumò qù páshān.",
+          "meaningVi": "Cuối tuần chúng tôi đi leo núi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_291",
+      "sourceWord": "拍照",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我们在这里拍照吧。",
+          "pinyin": "Wǒmen zài zhèlǐ pāizhào ba.",
+          "meaningVi": "Chúng ta chụp ảnh ở đây đi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_292",
+      "sourceWord": "盘子",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "请把菜放在盘子里。",
+          "pinyin": "Qǐng bǎ cài fàng zài pánzi lǐ.",
+          "meaningVi": "Xin để món ăn vào đĩa."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_293",
+      "sourceWord": "胖",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他最近胖了不少。",
+          "pinyin": "Tā zuìjìn pàngle bù shǎo.",
+          "meaningVi": "Gần đây anh ấy béo lên khá nhiều."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_294",
+      "sourceWord": "啤酒",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "天热的时候，人们喜欢喝啤酒。",
+          "pinyin": "Tiān rè de shíhou, rénmen xǐhuan hē píjiǔ.",
+          "meaningVi": "Khi trời nóng, mọi người thích uống bia."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_295",
+      "sourceWord": "平时",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我平时七点起床。",
+          "pinyin": "Wǒ píngshí qī diǎn qǐchuáng.",
+          "meaningVi": "Ngày thường tôi thức dậy lúc bảy giờ."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_296",
+      "sourceWord": "瓶子",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这个瓶子是空的。",
+          "pinyin": "Zhège píngzi shì kōng de.",
+          "meaningVi": "Cái chai này rỗng."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_297",
+      "sourceWord": "骑",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他骑自行车上班。",
+          "pinyin": "Tā qí zìxíngchē shàngbān.",
+          "meaningVi": "Anh ấy đi xe đạp đi làm."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_298",
+      "sourceWord": "奇怪",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这件事很奇怪。",
+          "pinyin": "Zhè jiàn shì hěn qíguài.",
+          "meaningVi": "Chuyện này rất kỳ lạ."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_299",
+      "sourceWord": "其实",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "其实我不太喜欢这个电影。",
+          "pinyin": "Qíshí wǒ bú tài xǐhuan zhège diànyǐng.",
+          "meaningVi": "Thực ra tôi không thích bộ phim này lắm."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_300",
+      "sourceWord": "其他",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "你还有其他问题吗？",
+          "pinyin": "Nǐ hái yǒu qítā wèntí ma?",
+          "meaningVi": "Bạn còn câu hỏi nào khác không?"
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_302",
+      "sourceWord": "起飞",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "飞机马上就要起飞了。",
+          "pinyin": "Fēijī mǎshàng jiù yào qǐfēi le.",
+          "meaningVi": "Máy bay sắp cất cánh rồi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_303",
+      "sourceWord": "汽车",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他新买了一辆汽车。",
+          "pinyin": "Tā xīn mǎile yí liàng qìchē.",
+          "meaningVi": "Anh ấy vừa mua một chiếc ô tô mới."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_304",
+      "sourceWord": "铅笔",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "请用铅笔写。",
+          "pinyin": "Qǐng yòng qiānbǐ xiě.",
+          "meaningVi": "Xin viết bằng bút chì."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_305",
+      "sourceWord": "前年",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "前年我去过日本。",
+          "pinyin": "Qiánnián wǒ qùguò Rìběn.",
+          "meaningVi": "Năm kia tôi đã đi Nhật Bản."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_306",
+      "sourceWord": "前天",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "前天我很忙。",
+          "pinyin": "Qiántiān wǒ hěn máng.",
+          "meaningVi": "Hôm kia tôi rất bận."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_308",
+      "sourceWord": "请假",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他今天请假没来上班。",
+          "pinyin": "Tā jīntiān qǐngjià méi lái shàngbān.",
+          "meaningVi": "Hôm nay anh ấy xin nghỉ không đi làm."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_309",
+      "sourceWord": "请客",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "今天我请客。",
+          "pinyin": "Jīntiān wǒ qǐngkè.",
+          "meaningVi": "Hôm nay tôi mời."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_310",
+      "sourceWord": "秋天",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "秋天的树叶很漂亮。",
+          "pinyin": "Qiūtiān de shùyè hěn piàoliang.",
+          "meaningVi": "Lá cây mùa thu rất đẹp."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_311",
+      "sourceWord": "球场",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他们在球场上打篮球。",
+          "pinyin": "Tāmen zài qiúchǎng shàng dǎ lánqiú.",
+          "meaningVi": "Họ đang chơi bóng rổ trên sân bóng."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_312",
+      "sourceWord": "裙子",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这条裙子很适合你。",
+          "pinyin": "Zhè tiáo qúnzi hěn shìhé nǐ.",
+          "meaningVi": "Chiếc váy này rất hợp với bạn."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_313",
+      "sourceWord": "然后",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我们先吃饭，然后去看电影。",
+          "pinyin": "Wǒmen xiān chīfàn, ránhòu qù kàn diànyǐng.",
+          "meaningVi": "Chúng ta ăn cơm trước, sau đó đi xem phim."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_314",
+      "sourceWord": "热情",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "服务员对我们很热情。",
+          "pinyin": "Fúwùyuán duì wǒmen hěn rèqíng.",
+          "meaningVi": "Nhân viên phục vụ rất nhiệt tình với chúng tôi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_315",
+      "sourceWord": "认得",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我认得这个字。",
+          "pinyin": "Wǒ rènde zhège zì.",
+          "meaningVi": "Tôi nhận biết được chữ này."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_316",
+      "sourceWord": "认为",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我认为这是个好主意。",
+          "pinyin": "Wǒ rènwéi zhè shì gè hǎo zhǔyi.",
+          "meaningVi": "Tôi cho rằng đây là một ý tưởng hay."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_317",
+      "sourceWord": "认真",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他学习很认真。",
+          "pinyin": "Tā xuéxí hěn rènzhēn.",
+          "meaningVi": "Anh ấy học rất nghiêm túc."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_318",
+      "sourceWord": "容易",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这个问题不容易回答。",
+          "pinyin": "Zhège wèntí bù róngyì huídá.",
+          "meaningVi": "Câu hỏi này không dễ trả lời."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_319",
+      "sourceWord": "如果",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "如果你有时间，请来找我。",
+          "pinyin": "Rúguǒ nǐ yǒu shíjiān, qǐng lái zhǎo wǒ.",
+          "meaningVi": "Nếu bạn có thời gian, xin đến tìm tôi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_320",
+      "sourceWord": "伞",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "外面下雨了，带上伞吧。",
+          "pinyin": "Wàimiàn xiàyǔ le, dàishàng sǎn ba.",
+          "meaningVi": "Bên ngoài đang mưa, mang theo ô đi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_321",
+      "sourceWord": "扫",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "请把地扫一下。",
+          "pinyin": "Qǐng bǎ dì sǎo yíxià.",
+          "meaningVi": "Xin quét sàn nhà một chút."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_322",
+      "sourceWord": "沙发",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他坐在沙发上看电视。",
+          "pinyin": "Tā zuò zài shāfā shàng kàn diànshì.",
+          "meaningVi": "Anh ấy ngồi trên ghế sofa xem tivi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_323",
+      "sourceWord": "山",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这座山很高。",
+          "pinyin": "Zhè zuò shān hěn gāo.",
+          "meaningVi": "Ngọn núi này rất cao."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_324",
+      "sourceWord": "上衣",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他穿了一件黑色的上衣。",
+          "pinyin": "Tā chuānle yí jiàn hēisè de shàngyī.",
+          "meaningVi": "Anh ấy mặc một chiếc áo màu đen."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_325",
+      "sourceWord": "勺子",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "请给我一个勺子。",
+          "pinyin": "Qǐng gěi wǒ yí gè sháozi.",
+          "meaningVi": "Xin cho tôi một cái thìa."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_326",
+      "sourceWord": "身边",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "她一直在我身边。",
+          "pinyin": "Tā yìzhí zài wǒ shēnbiān.",
+          "meaningVi": "Cô ấy luôn ở bên cạnh tôi."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_327",
+      "sourceWord": "身高",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他的身高是一米八。",
+          "pinyin": "Tā de shēngāo shì yì mǐ bā.",
+          "meaningVi": "Chiều cao của anh ấy là một mét tám."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_330",
+      "sourceWord": "生气",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "别生气了。",
+          "pinyin": "Bié shēngqì le.",
+          "meaningVi": "Đừng tức giận nữa."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_331",
+      "sourceWord": "声音",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "她的声音很好听。",
+          "pinyin": "Tā de shēngyīn hěn hǎotīng.",
+          "meaningVi": "Giọng nói của cô ấy rất hay."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_332",
+      "sourceWord": "市",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这是本市最大的商场。",
+          "pinyin": "Zhè shì běn shì zuì dà de shāngchǎng.",
+          "meaningVi": "Đây là trung tâm thương mại lớn nhất thành phố này."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_333",
+      "sourceWord": "试",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "你先试一下，看看合不合适。",
+          "pinyin": "Nǐ xiān shì yíxià, kànkan hé bu héshì.",
+          "meaningVi": "Bạn thử trước xem có vừa không."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_334",
+      "sourceWord": "室",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "请在室内休息。",
+          "pinyin": "Qǐng zài shìnèi xiūxi.",
+          "meaningVi": "Xin nghỉ ngơi trong nhà."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_335",
+      "sourceWord": "世界",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这是世界上最大的城市之一。",
+          "pinyin": "Zhè shì shìjiè shàng zuì dà de chéngshì zhīyī.",
+          "meaningVi": "Đây là một trong những thành phố lớn nhất thế giới."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_336",
+      "sourceWord": "收",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "邮递员每天来收信。",
+          "pinyin": "Yóudìyuán měitiān lái shōu xìn.",
+          "meaningVi": "Người đưa thư mỗi ngày đến thu thư."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_337",
+      "sourceWord": "收到",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我收到了你的邮件。",
+          "pinyin": "Wǒ shōudàole nǐ de yóujiàn.",
+          "meaningVi": "Tôi đã nhận được email của bạn."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_338",
+      "sourceWord": "受",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他在比赛中受了伤。",
+          "pinyin": "Tā zài bǐsài zhōng shòule shāng.",
+          "meaningVi": "Anh ấy đã bị thương trong trận đấu."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_339",
+      "sourceWord": "瘦",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "她最近瘦了很多。",
+          "pinyin": "Tā zuìjìn shòule hěn duō.",
+          "meaningVi": "Gần đây cô ấy gầy đi nhiều."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_340",
+      "sourceWord": "受到",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这部电影受到了观众的喜爱。",
+          "pinyin": "Zhè bù diànyǐng shòudàole guānzhòng de xǐ'ài.",
+          "meaningVi": "Bộ phim này được khán giả yêu thích."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_341",
+      "sourceWord": "叔叔",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我叔叔在北京工作。",
+          "pinyin": "Wǒ shūshu zài Běijīng gōngzuò.",
+          "meaningVi": "Chú tôi làm việc ở Bắc Kinh."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_342",
+      "sourceWord": "树",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "院子里有一棵大树。",
+          "pinyin": "Yuànzi lǐ yǒu yì kē dà shù.",
+          "meaningVi": "Trong sân có một cây to."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_343",
+      "sourceWord": "数学",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他数学考得很好。",
+          "pinyin": "Tā shùxué kǎo de hěn hǎo.",
+          "meaningVi": "Anh ấy thi toán rất tốt."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_344",
+      "sourceWord": "刷",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我每天早晚刷牙。",
+          "pinyin": "Wǒ měitiān zǎowǎn shuāyá.",
+          "meaningVi": "Tôi đánh răng mỗi sáng tối."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_345",
+      "sourceWord": "双",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "我买了一双新鞋。",
+          "pinyin": "Wǒ mǎile yì shuāng xīn xié.",
+          "meaningVi": "Tôi đã mua một đôi giày mới."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_346",
+      "sourceWord": "水平",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他的汉语水平很高。",
+          "pinyin": "Tā de Hànyǔ shuǐpíng hěn gāo.",
+          "meaningVi": "Trình độ tiếng Trung của anh ấy rất cao."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_347",
+      "sourceWord": "司机",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "出租车司机很热情。",
+          "pinyin": "Chūzūchē sījī hěn rèqíng.",
+          "meaningVi": "Tài xế taxi rất nhiệt tình."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_348",
+      "sourceWord": "四季",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这里四季如春。",
+          "pinyin": "Zhèlǐ sìjì rú chūn.",
+          "meaningVi": "Nơi đây bốn mùa như mùa xuân."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_349",
+      "sourceWord": "太阳",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "今天太阳很大。",
+          "pinyin": "Jīntiān tàiyáng hěn dà.",
+          "meaningVi": "Hôm nay nắng rất to."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_350",
+      "sourceWord": "糖",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "孩子们都喜欢吃糖。",
+          "pinyin": "Háizimen dōu xǐhuan chī táng.",
+          "meaningVi": "Bọn trẻ đều thích ăn kẹo."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_352",
+      "sourceWord": "提高",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他想提高自己的英语水平。",
+          "pinyin": "Tā xiǎng tígāo zìjǐ de Yīngyǔ shuǐpíng.",
+          "meaningVi": "Anh ấy muốn nâng cao trình độ tiếng Anh của mình."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_353",
+      "sourceWord": "体育",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "他很喜欢体育运动。",
+          "pinyin": "Tā hěn xǐhuan tǐyù yùndòng.",
+          "meaningVi": "Anh ấy rất thích các môn thể thao."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_354",
+      "sourceWord": "体育馆",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "比赛在体育馆举行。",
+          "pinyin": "Bǐsài zài tǐyùguǎn jǔxíng.",
+          "meaningVi": "Trận đấu được tổ chức tại nhà thi đấu."
+        }
+      ]
+    },
+    {
+      "sourceId": "hsk3_355",
+      "sourceWord": "甜",
+      "hskLevel": 3,
+      "riskTier": 1,
+      "qaStatus": "pending",
+      "reviewerStatus": "unreviewed",
+      "integrationStatus": "not_integrated",
+      "examples": [
+        {
+          "chinese": "这个水果很甜。",
+          "pinyin": "Zhège shuǐguǒ hěn tián.",
+          "meaningVi": "Loại trái cây này rất ngọt."
+        }
+      ]
+    }
+  ]
+}
