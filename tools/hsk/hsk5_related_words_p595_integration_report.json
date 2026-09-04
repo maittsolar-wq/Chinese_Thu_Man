@@ -1,0 +1,62 @@
+{
+  "reportLabel": "P5.9.5 -- HSK5 Related Words Production Integration Report",
+  "phase": "P5.9.5",
+  "generatedAt": "2026-09-04T06:38:34.159815+00:00",
+  "baselineCommit": "9775f22f93cd1bd0467e6eb1318e6a42f3ffa6ea",
+  "sourceArtifact": "tools/hsk/hsk5_related_words_refined_selection.json",
+  "sourceArtifactCanonicalHash": "4219607135c60719fe91f54885af217557c3753c848ced024fed393c6359ab23",
+  "sourceArtifactUnmodified": true,
+  "targetFile": "data/hsk/hsk5/hsk5_vocabulary_production.json",
+  "targetFileHashBefore": "bd4e73287052df0b19e7fbbbffb06ec48819d6af",
+  "targetFileHashAfter": "22625d91cb5ac6e56af17531d61d1eeaa61e08c6",
+  "totalRefinedRelationships": 384,
+  "eligibleRelationshipsIntegrated": 379,
+  "needsReviewRelationshipsWithheld": 5,
+  "withheldRelationshipPairs": [
+    "特殊<->普遍",
+    "定期<->到期",
+    "定期<->过期"
+  ],
+  "recordsUpdatedEmptyToNonEmpty": 131,
+  "recordsRemainingZeroRelationships": 1469,
+  "targetLevelDistribution": {
+    "hsk1": 0,
+    "hsk2": 1,
+    "hsk3": 2,
+    "hsk4": 46,
+    "hsk5": 320,
+    "hsk6": 10
+  },
+  "otherHskLevelHashesUnchanged": {
+    "hsk1": "371c8c5b16a5b7250433b4adffa419f4752fe4a2",
+    "hsk2": "f468aeafeda1a32285b303dc2b37c284b9160d45",
+    "hsk3": "0d21c124e2e11351b8f89fb62a1d9e2f613de7fd",
+    "hsk4": "b85fc217da54d4796df951b19e32b1029dfb8feb",
+    "hsk6": "77fad88d80caed515a1875aa296cc9d7c12011a0"
+  },
+  "appSrcUnchanged": true,
+  "idempotencyTestPassed": true,
+  "idempotencyDetail": "Second --dry-run reported to_add=0, conflicts=0; second --apply produced byte-identical output (hash unchanged at 22625d91cb5ac6e56af17531d61d1eeaa61e08c6).",
+  "exactMappingVerified": true,
+  "needsReviewLeakageCount": 0,
+  "rejectedLeakageCount": 0,
+  "nonRelatedWordIdsFieldDiffCount": 0,
+  "recordOrderingPreserved": true,
+  "validatorScript": "tools/hsk/validate_hsk5_related_words_p595_integration.py",
+  "validatorChecksTotal": 27,
+  "validatorChecksPassed": 27,
+  "mergeScript": "tools/hsk/merge_hsk5_related_words_p595.py",
+  "beforeSnapshot": "tools/hsk/hsk5_production_p595_before_snapshot.json",
+  "runtimeChecksPerformed": [
+    "normal record",
+    "high-count record (8)",
+    "zero-relationship record",
+    "needs_review withheld (特殊)",
+    "needs_review withheld (定期)",
+    "cross-level record (->HSK6)"
+  ],
+  "runtimeChecksResult": "all 131 changed records verified via live dev server render, 0 problems",
+  "staticChecksResult": "typecheck PASS, lint PASS, build PASS (5632 static pages)",
+  "productionCommittedOrPushed": false,
+  "note": "Production integration changes are unstaged and uncommitted pending explicit review. Only data/hsk/hsk5/hsk5_vocabulary_production.json was modified; the only semantic change per record is relatedWordIds: [] -> [eligible target IDs] for the 131 records with eligible (non-needs_review) selected relationships."
+}
