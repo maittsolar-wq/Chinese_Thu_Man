@@ -103,18 +103,24 @@ export function FlashcardExerciseView({
               {card.word}
             </span>
             {/*
-              Visual only for D4.2: no audio/TTS mechanism exists anywhere
-              in the project yet (same as the inert "Nghe phát âm" button on
-              the Word Detail page), so this button intentionally has no
-              onClick. `stopPropagation` just keeps a click on it from also
-              toggling the flip underneath.
+              UI-009 polish: no audio/TTS mechanism exists anywhere in the
+              project yet, so this stays a non-functional placeholder — but
+              `disabled` (rather than a plain button with a no-op onClick)
+              makes that honest for every input method, not just mouse
+              hover: it's removed from the tab order, announced by screen
+              readers as unavailable, and gets the same
+              `disabled:cursor-not-allowed disabled:opacity-50` treatment
+              Button.tsx already uses for disabled controls elsewhere. A
+              disabled button fires no click event at all, so it can no
+              longer bubble up to the card's flip handler — the
+              `stopPropagation` this previously needed for that is gone.
             */}
             <button
               type="button"
-              aria-label="Nghe phát âm"
+              disabled
+              aria-label="Nghe phát âm (chưa khả dụng)"
               title="Nghe phát âm (chưa khả dụng)"
-              onClick={(event) => event.stopPropagation()}
-              className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary text-white"
+              className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary text-white disabled:cursor-not-allowed disabled:opacity-50"
             >
               <SpeakerIcon className="h-4 w-4" />
             </button>

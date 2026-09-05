@@ -7,6 +7,7 @@ import { DictionarySearchTrigger } from "@/components/dictionary/DictionarySearc
 import { RadicalCard } from "@/components/radicals/RadicalCard";
 import {
   GraduationCapIcon,
+  RadicalIcon,
   SearchIcon,
   TargetIcon,
   ArrowRightIcon,
@@ -33,11 +34,24 @@ const HSK_ACCENT: Record<HskLevel, string> = {
   6: "text-accent-teal",
 };
 
+/**
+ * UI-008 polish: "Bộ thủ" added alongside HSK/Dictionary/Practice — this
+ * row previously summarized only 3 of what are now 4 primary-nav
+ * destinations, understating Radicals as a first-class feature. Ordered
+ * to match the header nav's own Trang chủ→HSK→Bộ thủ→Từ điển→Luyện tập
+ * sequence; the container is already `flex-wrap`, so a 4th item wraps
+ * gracefully rather than crowding any single row.
+ */
 const HERO_FEATURES = [
   {
     icon: GraduationCapIcon,
     title: "Học từ vựng",
     description: "Theo 6 cấp độ HSK",
+  },
+  {
+    icon: RadicalIcon,
+    title: "Bộ thủ",
+    description: "214 bộ thủ Khang Hy",
   },
   {
     icon: SearchIcon,
