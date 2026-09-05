@@ -1,31 +1,8 @@
-import Link from "next/link";
-import type { HskLevel, RadicalDetail, RadicalVocabularyRef } from "@/lib/data/types";
+import type { RadicalDetail } from "@/lib/data/types";
 import { Card } from "@/components/ui/Card";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { EmptyState } from "@/components/ui/EmptyState";
-import { HskLevelBadge } from "@/components/ui/Badge";
-
-const ALL_LEVELS: HskLevel[] = [1, 2, 3, 4, 5, 6];
-
-/**
- * A vocabulary word can contain multiple characters that map to the same
- * radical (e.g. both 一 and 下 in 一下 map to radical 一), so the same
- * vocabularyId can legitimately appear more than once within a level's
- * entries. Dedupe here at render time only — the source mapping JSON is
- * left untouched — keeping the first occurrence.
- */
-function dedupeByVocabularyId(
-  entries: RadicalVocabularyRef[]
-): RadicalVocabularyRef[] {
-  const seen = new Set<string>();
-  const result: RadicalVocabularyRef[] = [];
-  for (const entry of entries) {
-    if (seen.has(entry.vocabularyId)) continue;
-    seen.add(entry.vocabularyId);
-    result.push(entry);
-  }
-  return result;
-}
+import { RadicalVocabularyByLevel } from "@/components/radicals/RadicalVocabularyByLevel";
 
 /**
  * Radical Detail reuses Vocabulary Detail's visual language (Card,
@@ -118,44 +95,11 @@ export function RadicalDetailView({
             description="Đây là dữ liệu hợp lệ — không phải lỗi tải dữ liệu."
           />
         ) : (
-          <div className="flex flex-col gap-5">
-            {ALL_LEVELS.map((level) => {
-              const entries = radical.vocabularyByLevel[level];
-              if (!entries || entries.length === 0) return null;
-              const dedupedEntries = dedupeByVocabularyId(entries);
-              return (
-                <div key={level}>
-                  <div className="mb-2 flex items-center gap-2">
-                    <HskLevelBadge level={level} />
-                    <span className="text-xs text-neutral-500 dark:text-night-muted">
-                      {dedupedEntries.length} từ
-                    </span>
-                  </div>
-                  <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                    {dedupedEntries.map((entry) => (
-                      <Link
-                        key={entry.vocabularyId}
-                        href={`/vocabulary/${entry.vocabularyId}?from=radical&radicalId=${radical.id}${vocabularyHrefSuffix}`}
-                        className="block min-w-0"
-                      >
-                        <Card className="hover:shadow-md">
-                          <p className="text-xl font-semibold text-neutral-900 dark:text-night-text">
-                            {entry.word}
-                          </p>
-                          <p className="text-sm text-neutral-600 dark:text-night-muted">{entry.pinyin}</p>
-                          {entry.meaningVi && (
-                            <p className="truncate text-sm text-neutral-800 dark:text-night-text">
-                              {entry.meaningVi}
-                            </p>
-                          )}
-                        </Card>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          <RadicalVocabularyByLevel
+            radicalId={radical.id}
+            vocabularyByLevel={radical.vocabularyByLevel}
+            vocabularyHrefSuffix={vocabularyHrefSuffix}
+          />
         )}
       </section>
     </div>

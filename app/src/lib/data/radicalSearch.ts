@@ -1,16 +1,16 @@
 import type { RadicalSummary } from "./types";
 
 /**
- * Pure, environment-agnostic radical filtering/grouping — no `fs`, no
- * server-only imports, safe to import from a "use client" component.
+ * Pure, environment-agnostic radical filtering — no `fs`, no server-only
+ * imports, safe to import from a "use client" component.
  *
- * This exists specifically so the live "Bộ thủ (214)" search on the
- * Dictionary main screen can filter client-side (all 214 radicals fit
- * trivially in memory, so there's no need for a server round-trip the way
- * vocabulary search needs one) WITHOUT reimplementing the matching logic —
- * `radicalRepository.ts`'s `searchRadicals` delegates to `filterRadicals`
- * below, so server and client share the exact same ranking, never two
- * divergent radical-search implementations.
+ * This exists specifically so /radicals's live search (RadicalIndexView)
+ * can filter client-side (all 214 radicals fit trivially in memory, so
+ * there's no need for a server round-trip the way vocabulary search needs
+ * one) WITHOUT reimplementing the matching logic — `radicalRepository.ts`'s
+ * `searchRadicals` delegates to `filterRadicals` below, so server and
+ * client share the exact same ranking, never two divergent radical-search
+ * implementations.
  */
 
 function normalizeSearchText(value: string): string {
@@ -64,22 +64,4 @@ export function filterRadicals(all: RadicalSummary[], query: string): RadicalSum
   scored.sort((a, b) => a.rank - b.rank || a.radical.id.localeCompare(b.radical.id));
 
   return scored.map((entry) => entry.radical);
-}
-
-export interface RadicalStrokeGroup {
-  strokeCount: number;
-  radicals: RadicalSummary[];
-}
-
-/** Groups radicals by stroke count, ascending — "1 nét (2)", "2 nét (14)", ... */
-export function groupRadicalsByStrokeCount(radicals: RadicalSummary[]): RadicalStrokeGroup[] {
-  const byStroke = new Map<number, RadicalSummary[]>();
-  for (const radical of radicals) {
-    const group = byStroke.get(radical.strokeCount);
-    if (group) group.push(radical);
-    else byStroke.set(radical.strokeCount, [radical]);
-  }
-  return Array.from(byStroke.entries())
-    .sort(([a], [b]) => a - b)
-    .map(([strokeCount, group]) => ({ strokeCount, radicals: group }));
 }

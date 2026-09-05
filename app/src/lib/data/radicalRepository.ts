@@ -139,10 +139,12 @@ export function getRadicalsForVocabularyId(vocabularyId: string): RadicalSummary
  * vocabulary pinyin substring match from ever being misclassified as a
  * radical match. The actual matching/ranking logic lives in the
  * environment-agnostic radicalSearch.ts (`filterRadicals`), shared as-is
- * with the client-side live "Bộ thủ (214)" search on the Dictionary main
- * screen — this function just supplies the `fs`-loaded data and preserves
- * this module's existing "empty query → []" contract for its callers
- * (e.g. dictionarySearch.ts's searchDictionary).
+ * with /radicals's own client-side live search (RadicalIndexView) — this
+ * function just supplies the `fs`-loaded data and preserves this module's
+ * existing "empty query → []" contract for its callers (e.g.
+ * dictionarySearch.ts's searchDictionary, which cross-searches radicals to
+ * expand the Dictionary popup's results — unrelated to and unaffected by
+ * the /dictionary page's own "Bộ thủ" teaser section).
  */
 export function searchRadicals(query: string): RadicalSummary[] {
   if (!query.trim()) return [];
