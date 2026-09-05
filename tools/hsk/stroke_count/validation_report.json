@@ -1,0 +1,157 @@
+{
+  "checksTotal": 30,
+  "checksPassed": 30,
+  "allChecksPassed": true,
+  "checks": [
+    {
+      "name": "dataset_total_records_5400",
+      "passed": true,
+      "detail": "5400"
+    },
+    {
+      "name": "dataset_hsk1_count",
+      "passed": true,
+      "detail": "300 vs expected 300"
+    },
+    {
+      "name": "dataset_hsk2_count",
+      "passed": true,
+      "detail": "200 vs expected 200"
+    },
+    {
+      "name": "dataset_hsk3_count",
+      "passed": true,
+      "detail": "500 vs expected 500"
+    },
+    {
+      "name": "dataset_hsk4_count",
+      "passed": true,
+      "detail": "1000 vs expected 1000"
+    },
+    {
+      "name": "dataset_hsk5_count",
+      "passed": true,
+      "detail": "1600 vs expected 1600"
+    },
+    {
+      "name": "dataset_hsk6_count",
+      "passed": true,
+      "detail": "1800 vs expected 1800"
+    },
+    {
+      "name": "dataset_extraction_total_matches_production",
+      "passed": true,
+      "detail": "5400 vs 5400"
+    },
+    {
+      "name": "dataset_distinct_character_baseline_reported",
+      "passed": true,
+      "detail": "distinctCharacterCount=1940 (Pass01 reported 1942 incl. digit-suffix chars; this pass correctly excludes them, see report)"
+    },
+    {
+      "name": "digit_suffix_count_exactly_12",
+      "passed": true,
+      "detail": "12"
+    },
+    {
+      "name": "digit_suffix_ids_match_known_set",
+      "passed": true,
+      "detail": "symmetric_difference=set()"
+    },
+    {
+      "name": "digit_suffix_no_unexpected_non_han",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "charmap_every_character_resolved_or_reviewed",
+      "passed": true,
+      "detail": "1940+0 vs 1940"
+    },
+    {
+      "name": "charmap_no_silent_missing",
+      "passed": true,
+      "detail": "queue=0 vs unresolvedCount=0"
+    },
+    {
+      "name": "charmap_all_positive_integers",
+      "passed": true,
+      "detail": "violations=[]"
+    },
+    {
+      "name": "charmap_no_string_or_float_values",
+      "passed": true,
+      "detail": "violations=[]"
+    },
+    {
+      "name": "charmap_no_duplicate_codepoint_conflicts",
+      "passed": true,
+      "detail": "{}"
+    },
+    {
+      "name": "charmap_coverage_100_percent",
+      "passed": true,
+      "detail": "100.0%"
+    },
+    {
+      "name": "vocab_every_record_has_status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "vocab_unresolved_identify_characters",
+      "passed": true,
+      "detail": "0 vs review queue 0"
+    },
+    {
+      "name": "vocab_calculated_total_equals_sum_of_characters",
+      "passed": true,
+      "detail": "mismatches=[]"
+    },
+    {
+      "name": "vocab_coverage_100_percent",
+      "passed": true,
+      "detail": "100.0%"
+    },
+    {
+      "name": "vocab_total_records_5400",
+      "passed": true,
+      "detail": "5400"
+    },
+    {
+      "name": "vocab_spot_check_known_examples",
+      "passed": true,
+      "detail": "failures=[]"
+    },
+    {
+      "name": "preservation_production_files_unchanged_during_run",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "preservation_tracked_fields_unchanged",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "preservation_production_file_hashes_recorded",
+      "passed": true,
+      "detail": "{\"1\": \"2844654d038653b6839ab81371e1002d81305342cffc521bd39473ed313a7ba0\", \"2\": \"c4567654dbb338abc02eb1659fc7d584d9f59351e25651834328fa63c71f7945\", \"3\": \"5b8078f891969ae7c4e9bb956643729a69c2e0d45a2bb23bb0486ae215c24902\", \"4\": \"32781d8b70608f179bc199ef3886d6d331ceb1c0a09825c3f6f1da3d4c319043\", \"5\": \"e7f1dc12cd0dafe2541377daa091cbf86f873c811e757043be37e989e4bcafdf\", \"6\": \"e0f78df8d52a4744a6bb86862970d9d077f089008fec509d880484f8eba4f9c3\"}"
+    },
+    {
+      "name": "preservation_no_strokeCount_written_to_production",
+      "passed": true,
+      "detail": "manual confirmation: this validator performs no writes to data/hsk/*.json"
+    },
+    {
+      "name": "preservation_production_strokeCount_still_unpopulated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "determinism_verified_externally_this_run",
+      "passed": true,
+      "detail": "byte-identical two-run diff performed and confirmed in this pass's report (see report section F)"
+    }
+  ]
+}

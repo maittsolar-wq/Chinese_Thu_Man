@@ -20,7 +20,7 @@
     "sourceSort": 1,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -64,7 +64,7 @@
     "sourceSort": 2,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 2,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -109,7 +109,7 @@
     "sourceSort": 3,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -155,7 +155,7 @@
     "sourceSort": 4,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -199,7 +199,7 @@
     "sourceSort": 5,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_207"
@@ -245,7 +245,7 @@
     "sourceSort": 6,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -293,7 +293,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_258"
@@ -339,7 +339,7 @@
     "sourceSort": 8,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -384,7 +384,7 @@
     "sourceSort": 9,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -429,7 +429,7 @@
     "sourceSort": 10,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -470,7 +470,7 @@
     "sourceSort": 11,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -511,7 +511,7 @@
     "sourceSort": 12,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_100",
@@ -553,7 +553,7 @@
     "sourceSort": 13,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -596,7 +596,7 @@
     "sourceSort": 14,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_241"
@@ -638,7 +638,7 @@
     "sourceSort": 15,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -683,7 +683,7 @@
     "sourceSort": 16,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -727,7 +727,7 @@
     "sourceSort": 17,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -766,7 +766,7 @@
     "sourceSort": 18,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_058"
@@ -812,7 +812,7 @@
     "sourceSort": 19,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_174"
@@ -853,7 +853,7 @@
     "sourceSort": 20,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_022",
@@ -896,7 +896,7 @@
     "sourceSort": 21,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_072",
@@ -944,7 +944,7 @@
     "sourceSort": 22,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 19,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_020",
@@ -986,7 +986,7 @@
     "sourceSort": 23,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_255"
@@ -1030,7 +1030,7 @@
     "sourceSort": 24,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_035"
@@ -1072,7 +1072,7 @@
     "sourceSort": 25,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_234"
@@ -1118,7 +1118,7 @@
     "sourceSort": 26,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1163,7 +1163,7 @@
     "sourceSort": 27,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_028",
@@ -1206,7 +1206,7 @@
     "sourceSort": 28,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_027",
@@ -1251,7 +1251,7 @@
     "sourceSort": 29,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1296,7 +1296,7 @@
     "sourceSort": 30,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1336,7 +1336,7 @@
     "sourceSort": 31,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1375,7 +1375,7 @@
     "sourceSort": 32,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_059",
@@ -1422,7 +1422,7 @@
     "sourceAdditionalLevels": [
       "三级"
     ],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1466,7 +1466,7 @@
     "sourceSort": 34,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1505,7 +1505,7 @@
     "sourceSort": 35,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1549,7 +1549,7 @@
     "sourceSort": 36,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_035",
@@ -1593,7 +1593,7 @@
     "sourceSort": 37,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_035",
@@ -1637,7 +1637,7 @@
     "sourceSort": 38,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_039",
@@ -1681,7 +1681,7 @@
     "sourceSort": 39,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 29,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_038"
@@ -1723,7 +1723,7 @@
     "sourceSort": 40,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1762,7 +1762,7 @@
     "sourceSort": 41,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1801,7 +1801,7 @@
     "sourceSort": 42,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_043"
@@ -1843,7 +1843,7 @@
     "sourceSort": 43,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_042",
@@ -1891,7 +1891,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1930,7 +1930,7 @@
     "sourceSort": 45,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 19,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_120"
@@ -1978,7 +1978,7 @@
     "sourceAdditionalLevels": [
       "二级"
     ],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_180"
@@ -2019,7 +2019,7 @@
     "sourceSort": 47,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_085"
@@ -2060,7 +2060,7 @@
     "sourceSort": 48,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_153"
@@ -2101,7 +2101,7 @@
     "sourceSort": 49,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 2,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_111"
@@ -2143,7 +2143,7 @@
     "sourceSort": 50,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_051",
@@ -2186,7 +2186,7 @@
     "sourceSort": 51,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_050",
@@ -2229,7 +2229,7 @@
     "sourceSort": 52,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2269,7 +2269,7 @@
     "sourceSort": 53,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 19,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_079",
@@ -2311,7 +2311,7 @@
     "sourceSort": 54,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2355,7 +2355,7 @@
     "sourceAdditionalLevels": [
       "三级"
     ],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_056"
@@ -2396,7 +2396,7 @@
     "sourceSort": 56,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_055",
@@ -2439,7 +2439,7 @@
     "sourceSort": 57,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2483,7 +2483,7 @@
     "sourceSort": 58,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_018"
@@ -2524,7 +2524,7 @@
     "sourceSort": 59,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_032",
@@ -2567,7 +2567,7 @@
     "sourceSort": 60,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2610,7 +2610,7 @@
     "sourceAdditionalLevels": [
       "二级"
     ],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2649,7 +2649,7 @@
     "sourceSort": 62,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2690,7 +2690,7 @@
     "sourceSort": 63,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2729,7 +2729,7 @@
     "sourceSort": 64,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2768,7 +2768,7 @@
     "sourceSort": 65,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_157"
@@ -2810,7 +2810,7 @@
     "sourceSort": 66,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2850,7 +2850,7 @@
     "sourceSort": 67,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_270"
@@ -2885,7 +2885,7 @@
     "sourceSort": 68,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_235"
@@ -2927,7 +2927,7 @@
     "sourceSort": 69,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_290",
@@ -2969,7 +2969,7 @@
     "sourceSort": 70,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -3015,7 +3015,7 @@
       "二级",
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_072",
@@ -3052,7 +3052,7 @@
     "sourceSort": 72,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_021",
@@ -3098,7 +3098,7 @@
     "sourceSort": 73,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_071",
@@ -3144,7 +3144,7 @@
     "sourceSort": 74,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_071",
@@ -3189,7 +3189,7 @@
     "sourceSort": 75,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_071",
@@ -3235,7 +3235,7 @@
     "sourceSort": 76,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -3274,7 +3274,7 @@
     "sourceSort": 77,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_021"
@@ -3317,7 +3317,7 @@
     "sourceSort": 78,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -3356,7 +3356,7 @@
     "sourceSort": 79,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_053"
@@ -3398,7 +3398,7 @@
     "sourceSort": 80,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_163"
@@ -3443,7 +3443,7 @@
     "sourceAdditionalLevels": [
       "三级"
     ],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -3483,7 +3483,7 @@
     "sourceSort": 82,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_102",
@@ -3525,7 +3525,7 @@
     "sourceSort": 83,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_020",
@@ -3567,7 +3567,7 @@
     "sourceSort": 84,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -3608,7 +3608,7 @@
     "sourceSort": 85,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 2,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_047"
@@ -3654,7 +3654,7 @@
     "sourceAdditionalLevels": [
       "三级"
     ],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_087"
@@ -3696,7 +3696,7 @@
     "sourceSort": 87,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_086"
@@ -3738,7 +3738,7 @@
     "sourceSort": 88,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_101",
@@ -3782,7 +3782,7 @@
     "sourceSort": 89,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -3822,7 +3822,7 @@
     "sourceSort": 90,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -3865,7 +3865,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -3904,7 +3904,7 @@
     "sourceSort": 92,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_059",
@@ -3946,7 +3946,7 @@
     "sourceSort": 93,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_128",
@@ -3990,7 +3990,7 @@
     "sourceSort": 94,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_129",
@@ -4034,7 +4034,7 @@
     "sourceSort": 95,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 2,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4074,7 +4074,7 @@
     "sourceSort": 96,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_233"
@@ -4117,7 +4117,7 @@
     "sourceSort": 97,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4161,7 +4161,7 @@
     "sourceSort": 98,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_020"
@@ -4204,7 +4204,7 @@
     "sourceSort": 99,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_101"
@@ -4238,7 +4238,7 @@
     "sourceSort": 100,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 19,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4277,7 +4277,7 @@
     "sourceSort": 101,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_088",
@@ -4322,7 +4322,7 @@
     "sourceSort": 102,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_082",
@@ -4365,7 +4365,7 @@
     "sourceSort": 103,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4407,7 +4407,7 @@
     "sourceSort": 104,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4448,7 +4448,7 @@
     "sourceSort": 105,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4487,7 +4487,7 @@
     "sourceSort": 106,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_167"
@@ -4529,7 +4529,7 @@
     "sourceSort": 107,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4569,7 +4569,7 @@
     "sourceSort": 108,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 2,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4608,7 +4608,7 @@
     "sourceSort": 109,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_169"
@@ -4650,7 +4650,7 @@
     "sourceSort": 110,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_212"
@@ -4691,7 +4691,7 @@
     "sourceSort": 111,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_049"
@@ -4732,7 +4732,7 @@
     "sourceSort": 112,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4771,7 +4771,7 @@
     "sourceSort": 113,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4810,7 +4810,7 @@
     "sourceSort": 114,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4850,7 +4850,7 @@
     "sourceSort": 115,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4889,7 +4889,7 @@
     "sourceSort": 116,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_117"
@@ -4930,7 +4930,7 @@
     "sourceSort": 117,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_116"
@@ -4972,7 +4972,7 @@
     "sourceSort": 118,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -5011,7 +5011,7 @@
     "sourceSort": 119,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -5049,7 +5049,7 @@
     "sourceSort": 120,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_121",
@@ -5092,7 +5092,7 @@
     "sourceSort": 121,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_120"
@@ -5135,7 +5135,7 @@
     "sourceSort": 122,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_263"
@@ -5176,7 +5176,7 @@
     "sourceSort": 123,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_032",
@@ -5218,7 +5218,7 @@
     "sourceSort": 124,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_148",
@@ -5268,7 +5268,7 @@
     "sourceSort": 125,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_050"
@@ -5309,7 +5309,7 @@
     "sourceSort": 126,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_127"
@@ -5351,7 +5351,7 @@
     "sourceSort": 127,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_126"
@@ -5392,7 +5392,7 @@
     "sourceSort": 128,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_093",
@@ -5436,7 +5436,7 @@
     "sourceSort": 129,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_094",
@@ -5480,7 +5480,7 @@
     "sourceSort": 130,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -5525,7 +5525,7 @@
     "sourceSort": 131,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_136",
@@ -5568,7 +5568,7 @@
     "sourceSort": 132,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_138",
@@ -5611,7 +5611,7 @@
     "sourceSort": 133,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_134",
@@ -5655,7 +5655,7 @@
     "sourceSort": 134,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_133",
@@ -5698,7 +5698,7 @@
     "sourceSort": 135,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_141",
@@ -5744,7 +5744,7 @@
     "sourceAdditionalLevels": [
       "二级"
     ],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_131",
@@ -5787,7 +5787,7 @@
     "sourceSort": 137,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_280"
@@ -5828,7 +5828,7 @@
     "sourceSort": 138,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_132",
@@ -5871,7 +5871,7 @@
     "sourceSort": 139,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_133",
@@ -5915,7 +5915,7 @@
     "sourceSort": 140,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_134",
@@ -5958,7 +5958,7 @@
     "sourceSort": 141,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_135",
@@ -6001,7 +6001,7 @@
     "sourceSort": 142,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_152"
@@ -6042,7 +6042,7 @@
     "sourceSort": 143,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 19,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_154",
@@ -6085,7 +6085,7 @@
     "sourceSort": 144,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6125,7 +6125,7 @@
     "sourceSort": 145,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_082",
@@ -6169,7 +6169,7 @@
     "sourceSort": 146,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_148",
@@ -6209,7 +6209,7 @@
     "sourceSort": 147,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6249,7 +6249,7 @@
     "sourceSort": 148,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_124",
@@ -6292,7 +6292,7 @@
     "sourceSort": 149,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_093",
@@ -6337,7 +6337,7 @@
     "sourceSort": 150,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_146"
@@ -6378,7 +6378,7 @@
     "sourceSort": 151,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6418,7 +6418,7 @@
     "sourceSort": 152,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_142"
@@ -6459,7 +6459,7 @@
     "sourceSort": 153,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_048"
@@ -6500,7 +6500,7 @@
     "sourceSort": 154,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_143",
@@ -6544,7 +6544,7 @@
     "sourceSort": 155,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_231"
@@ -6586,7 +6586,7 @@
     "sourceSort": 156,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_143",
@@ -6628,7 +6628,7 @@
     "sourceSort": 157,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_065"
@@ -6670,7 +6670,7 @@
     "sourceSort": 158,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 23,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_073"
@@ -6711,7 +6711,7 @@
     "sourceSort": 159,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_193"
@@ -6752,7 +6752,7 @@
     "sourceSort": 160,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 2,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6792,7 +6792,7 @@
     "sourceSort": 161,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6832,7 +6832,7 @@
     "sourceSort": 162,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6872,7 +6872,7 @@
     "sourceSort": 163,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_080"
@@ -6913,7 +6913,7 @@
     "sourceSort": 164,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6954,7 +6954,7 @@
     "sourceSort": 165,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_166"
@@ -6996,7 +6996,7 @@
     "sourceSort": 166,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_165"
@@ -7037,7 +7037,7 @@
     "sourceSort": 167,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_106"
@@ -7078,7 +7078,7 @@
     "sourceSort": 168,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_093",
@@ -7121,7 +7121,7 @@
     "sourceSort": 169,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_109"
@@ -7162,7 +7162,7 @@
     "sourceSort": 170,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 2,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7203,7 +7203,7 @@
     "sourceSort": 171,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_288"
@@ -7248,7 +7248,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7287,7 +7287,7 @@
     "sourceSort": 173,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7326,7 +7326,7 @@
     "sourceSort": 174,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 19,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_019",
@@ -7371,7 +7371,7 @@
     "sourceSort": 175,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_226"
@@ -7413,7 +7413,7 @@
     "sourceSort": 176,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_228",
@@ -7457,7 +7457,7 @@
     "sourceSort": 177,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_229",
@@ -7500,7 +7500,7 @@
     "sourceSort": 178,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_230",
@@ -7543,7 +7543,7 @@
     "sourceSort": 179,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_176",
@@ -7587,7 +7587,7 @@
     "sourceSort": 180,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_046"
@@ -7628,7 +7628,7 @@
     "sourceSort": 181,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7668,7 +7668,7 @@
     "sourceSort": 182,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7708,7 +7708,7 @@
     "sourceSort": 183,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_012"
@@ -7749,7 +7749,7 @@
     "sourceSort": 184,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 2,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7789,7 +7789,7 @@
     "sourceSort": 185,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7828,7 +7828,7 @@
     "sourceSort": 186,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7868,7 +7868,7 @@
     "sourceSort": 187,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7908,7 +7908,7 @@
     "sourceSort": 188,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7947,7 +7947,7 @@
     "sourceSort": 189,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7986,7 +7986,7 @@
     "sourceSort": 190,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_191"
@@ -8028,7 +8028,7 @@
     "sourceSort": 191,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_190",
@@ -8071,7 +8071,7 @@
     "sourceSort": 192,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -8110,7 +8110,7 @@
     "sourceSort": 193,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_159"
@@ -8151,7 +8151,7 @@
     "sourceSort": 194,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_195"
@@ -8193,7 +8193,7 @@
     "sourceSort": 195,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 22,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_194"
@@ -8234,7 +8234,7 @@
     "sourceSort": 196,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_197"
@@ -8276,7 +8276,7 @@
     "sourceSort": 197,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_196"
@@ -8317,7 +8317,7 @@
     "sourceSort": 198,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -8356,7 +8356,7 @@
     "sourceSort": 199,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -8396,7 +8396,7 @@
     "sourceSort": 200,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_201",
@@ -8439,7 +8439,7 @@
     "sourceSort": 201,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_200",
@@ -8483,7 +8483,7 @@
     "sourceSort": 202,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_200",
@@ -8527,7 +8527,7 @@
     "sourceSort": 203,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_124",
@@ -8572,7 +8572,7 @@
     "sourceSort": 204,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_124",
@@ -8617,7 +8617,7 @@
     "sourceSort": 205,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_124",
@@ -8662,7 +8662,7 @@
     "sourceSort": 206,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_053"
@@ -8705,7 +8705,7 @@
     "sourceSort": 207,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_005",
@@ -8750,7 +8750,7 @@
     "sourceSort": 208,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_207"
@@ -8791,7 +8791,7 @@
     "sourceSort": 209,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_210"
@@ -8832,7 +8832,7 @@
     "sourceSort": 210,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_088",
@@ -8876,7 +8876,7 @@
     "sourceSort": 211,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_248"
@@ -8918,7 +8918,7 @@
     "sourceSort": 212,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_110"
@@ -8959,7 +8959,7 @@
     "sourceSort": 213,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -8998,7 +8998,7 @@
     "sourceSort": 214,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -9038,7 +9038,7 @@
     "sourceSort": 215,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_217",
@@ -9081,7 +9081,7 @@
     "sourceSort": 216,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_224",
@@ -9124,7 +9124,7 @@
     "sourceSort": 217,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_215",
@@ -9167,7 +9167,7 @@
     "sourceSort": 218,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -9206,7 +9206,7 @@
     "sourceSort": 219,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_220"
@@ -9248,7 +9248,7 @@
     "sourceSort": 220,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 21,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_219"
@@ -9290,7 +9290,7 @@
     "sourceSort": 221,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_222"
@@ -9332,7 +9332,7 @@
     "sourceSort": 222,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_124",
@@ -9374,7 +9374,7 @@
     "sourceSort": 223,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -9414,7 +9414,7 @@
     "sourceSort": 224,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_216",
@@ -9456,7 +9456,7 @@
     "sourceSort": 225,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -9499,7 +9499,7 @@
     "sourceSort": 226,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_175"
@@ -9539,7 +9539,7 @@
     "sourceSort": 227,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_267"
@@ -9580,7 +9580,7 @@
     "sourceSort": 228,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_176",
@@ -9623,7 +9623,7 @@
     "sourceSort": 229,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_177",
@@ -9665,7 +9665,7 @@
     "sourceSort": 230,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_178",
@@ -9709,7 +9709,7 @@
     "sourceSort": 231,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_155"
@@ -9751,7 +9751,7 @@
     "sourceSort": 232,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -9792,7 +9792,7 @@
     "sourceSort": 233,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_096",
@@ -9841,7 +9841,7 @@
     "sourceSort": 234,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_025"
@@ -9883,7 +9883,7 @@
     "sourceSort": 235,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_068"
@@ -9925,7 +9925,7 @@
     "sourceSort": 236,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_056"
@@ -9967,7 +9967,7 @@
     "sourceSort": 237,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_027",
@@ -10010,7 +10010,7 @@
     "sourceSort": 238,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_028",
@@ -10055,7 +10055,7 @@
     "sourceSort": 239,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10094,7 +10094,7 @@
     "sourceSort": 240,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_296"
@@ -10135,7 +10135,7 @@
     "sourceSort": 241,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 24,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_014"
@@ -10176,7 +10176,7 @@
     "sourceSort": 242,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10216,7 +10216,7 @@
     "sourceSort": 243,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 21,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_244",
@@ -10258,7 +10258,7 @@
     "sourceSort": 244,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 25,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_243",
@@ -10300,7 +10300,7 @@
     "sourceSort": 245,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 25,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_243",
@@ -10343,7 +10343,7 @@
     "sourceSort": 246,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10383,7 +10383,7 @@
     "sourceSort": 247,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_248",
@@ -10427,7 +10427,7 @@
     "sourceSort": 248,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_211",
@@ -10473,7 +10473,7 @@
     "sourceSort": 249,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_043",
@@ -10515,7 +10515,7 @@
     "sourceSort": 250,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10554,7 +10554,7 @@
     "sourceSort": 251,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10595,7 +10595,7 @@
     "sourceSort": 252,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_233"
@@ -10636,7 +10636,7 @@
     "sourceSort": 253,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10675,7 +10675,7 @@
     "sourceSort": 254,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 1,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10714,7 +10714,7 @@
     "sourceSort": 255,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_023"
@@ -10755,7 +10755,7 @@
     "sourceSort": 256,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10794,7 +10794,7 @@
     "sourceSort": 257,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10833,7 +10833,7 @@
     "sourceSort": 258,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_007"
@@ -10878,7 +10878,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_261"
@@ -10919,7 +10919,7 @@
     "sourceSort": 260,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10959,7 +10959,7 @@
     "sourceSort": 261,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_259",
@@ -11002,7 +11002,7 @@
     "sourceSort": 262,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_266"
@@ -11043,7 +11043,7 @@
     "sourceSort": 263,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_122"
@@ -11085,7 +11085,7 @@
     "sourceSort": 264,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_266"
@@ -11127,7 +11127,7 @@
     "sourceSort": 265,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_261"
@@ -11172,7 +11172,7 @@
     "sourceAdditionalLevels": [
       "三级"
     ],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_262",
@@ -11214,7 +11214,7 @@
     "sourceSort": 267,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_227"
@@ -11256,7 +11256,7 @@
     "sourceSort": 268,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -11296,7 +11296,7 @@
     "sourceSort": 269,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -11336,7 +11336,7 @@
     "sourceSort": 270,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_067",
@@ -11382,7 +11382,7 @@
     "sourceSort": 271,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -11422,7 +11422,7 @@
     "sourceSort": 272,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_088",
@@ -11465,7 +11465,7 @@
     "sourceSort": 273,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_215",
@@ -11508,7 +11508,7 @@
     "sourceSort": 274,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_216",
@@ -11550,7 +11550,7 @@
     "sourceSort": 275,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_178",
@@ -11594,7 +11594,7 @@
     "sourceSort": 276,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -11634,7 +11634,7 @@
     "sourceSort": 277,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 22,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -11674,7 +11674,7 @@
     "sourceSort": 278,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -11714,7 +11714,7 @@
     "sourceSort": 279,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_131",
@@ -11757,7 +11757,7 @@
     "sourceSort": 280,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_137"
@@ -11798,7 +11798,7 @@
     "sourceSort": 281,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_132",
@@ -11841,7 +11841,7 @@
     "sourceSort": 282,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_133",
@@ -11885,7 +11885,7 @@
     "sourceSort": 283,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_134",
@@ -11928,7 +11928,7 @@
     "sourceSort": 284,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_135",
@@ -11975,7 +11975,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -12014,7 +12014,7 @@
     "sourceSort": 286,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -12055,7 +12055,7 @@
     "sourceSort": 287,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -12087,7 +12087,7 @@
     "sourceSort": 288,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_171"
@@ -12128,7 +12128,7 @@
     "sourceSort": 289,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_290"
@@ -12170,7 +12170,7 @@
     "sourceSort": 290,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -12209,7 +12209,7 @@
     "sourceSort": 291,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_178",
@@ -12252,7 +12252,7 @@
     "sourceSort": 292,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_027",
@@ -12295,7 +12295,7 @@
     "sourceSort": 293,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_028",
@@ -12341,7 +12341,7 @@
     "sourceSort": 294,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -12380,7 +12380,7 @@
     "sourceSort": 295,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -12420,7 +12420,7 @@
     "sourceSort": 296,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_070",
@@ -12462,7 +12462,7 @@
     "sourceSort": 297,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_094",
@@ -12506,7 +12506,7 @@
     "sourceSort": 298,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -12545,7 +12545,7 @@
     "sourceSort": 299,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -12583,7 +12583,7 @@
     "sourceSort": 300,
     "sourceLevelName": "一级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],

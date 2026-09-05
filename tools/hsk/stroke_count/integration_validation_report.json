@@ -1,0 +1,163 @@
+{
+  "checksTotal": 28,
+  "checksPassed": 28,
+  "allChecksPassed": true,
+  "checks": [
+    {
+      "name": "A_record_count_before_5400",
+      "passed": true,
+      "detail": "5400"
+    },
+    {
+      "name": "A_record_count_after_5400",
+      "passed": true,
+      "detail": "5400"
+    },
+    {
+      "name": "A_hsk1_count_unchanged",
+      "passed": true,
+      "detail": "before=300 after=300 expected=300"
+    },
+    {
+      "name": "A_hsk2_count_unchanged",
+      "passed": true,
+      "detail": "before=200 after=200 expected=200"
+    },
+    {
+      "name": "A_hsk3_count_unchanged",
+      "passed": true,
+      "detail": "before=500 after=500 expected=500"
+    },
+    {
+      "name": "A_hsk4_count_unchanged",
+      "passed": true,
+      "detail": "before=1000 after=1000 expected=1000"
+    },
+    {
+      "name": "A_hsk5_count_unchanged",
+      "passed": true,
+      "detail": "before=1600 after=1600 expected=1600"
+    },
+    {
+      "name": "A_hsk6_count_unchanged",
+      "passed": true,
+      "detail": "before=1800 after=1800 expected=1800"
+    },
+    {
+      "name": "B_id_set_identical",
+      "passed": true,
+      "detail": "before=5400 after=5400 diff=set()"
+    },
+    {
+      "name": "M_no_duplicate_ids_introduced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "M_no_records_lost_or_duplicated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "C_word_set_identical",
+      "passed": true,
+      "detail": "diff=set()"
+    },
+    {
+      "name": "D_stroke_coverage_5400_populated",
+      "passed": true,
+      "detail": "5400"
+    },
+    {
+      "name": "D_zero_null_absent_count",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "E_zero_zero_values",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "E_zero_negative_values",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "E_zero_non_integer_values",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "F_draft_parity_5400_match",
+      "passed": true,
+      "detail": "mismatches=0: []"
+    },
+    {
+      "name": "G_zero_unexpected_field_changes",
+      "passed": true,
+      "detail": "count=0 sample=[]"
+    },
+    {
+      "name": "H_relatedWordIds_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "I_examples_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "J_humanVerified_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "J_groundTruth_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "J_verificationStatus_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "K_characterIds_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "L_known_suffix_records_correct",
+      "passed": true,
+      "detail": "failures=[]"
+    },
+    {
+      "name": "changed_field_is_only_strokeCount",
+      "passed": true,
+      "detail": "records_with_other_changes=0"
+    },
+    {
+      "name": "changed_record_count_is_5400",
+      "passed": true,
+      "detail": "5400"
+    }
+  ],
+  "hashesBefore": {
+    "1": "2844654d038653b6839ab81371e1002d81305342cffc521bd39473ed313a7ba0",
+    "2": "c4567654dbb338abc02eb1659fc7d584d9f59351e25651834328fa63c71f7945",
+    "3": "5b8078f891969ae7c4e9bb956643729a69c2e0d45a2bb23bb0486ae215c24902",
+    "4": "32781d8b70608f179bc199ef3886d6d331ceb1c0a09825c3f6f1da3d4c319043",
+    "5": "e7f1dc12cd0dafe2541377daa091cbf86f873c811e757043be37e989e4bcafdf",
+    "6": "e0f78df8d52a4744a6bb86862970d9d077f089008fec509d880484f8eba4f9c3"
+  },
+  "hashesAfter": {
+    "1": "c4284b8eb8f20c646f3cdd9e2c60f92fa878b717e3cf79fa30b5015b6304c097",
+    "2": "0d5e1286cb8a59d2571786c6aaf2c82b1ef28be20e0cefa829afbbaccf6f3fc8",
+    "3": "e7f7d0669c65e374f4ffc2a78a99de14c4d0ffa3b8e7396dfae4ab09de863249",
+    "4": "0491ca8878baba95a65b52cb68a2e1fd3394a4670892b69105cd7f4318ed305f",
+    "5": "bdf2f6e75f9d38cdd9d03fb8ffeb9adc5450f0647ed6d510154e96bc7f65fc15",
+    "6": "c538e68734c3936a9d57693a287646ff60d43033e7071fa76f91c6449be6092e"
+  }
+}

@@ -19,7 +19,7 @@
     "sourceSort": 301,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -68,7 +68,7 @@
     "sourceSort": 302,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_001"
@@ -126,7 +126,7 @@
     "sourceSort": 303,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_166"
@@ -194,7 +194,7 @@
     "sourceAdditionalLevels": [
       "五级"
     ],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_008"
@@ -255,7 +255,7 @@
     "sourceSort": 305,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_006",
@@ -317,7 +317,7 @@
     "sourceSort": 306,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_005"
@@ -381,7 +381,7 @@
     "sourceSort": 307,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_135"
@@ -444,7 +444,7 @@
     "sourceSort": 308,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -504,7 +504,7 @@
     "sourceSort": 309,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_021",
@@ -571,7 +571,7 @@
     "sourceAdditionalLevels": [
       "五级"
     ],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_020",
@@ -633,7 +633,7 @@
     "sourceSort": 311,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_015",
@@ -695,7 +695,7 @@
     "sourceSort": 312,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_026"
@@ -755,7 +755,7 @@
     "sourceSort": 313,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 32,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_174"
@@ -817,7 +817,7 @@
     "sourceSort": 314,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_105"
@@ -868,7 +868,7 @@
     "sourceSort": 315,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_020",
@@ -934,7 +934,7 @@
     "sourceSort": 316,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_017",
@@ -1001,7 +1001,7 @@
     "sourceSort": 317,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_016"
@@ -1062,7 +1062,7 @@
     "sourceSort": 318,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_016",
@@ -1129,7 +1129,7 @@
     "sourceSort": 319,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_016",
@@ -1191,7 +1191,7 @@
     "sourceSort": 320,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_016",
@@ -1255,7 +1255,7 @@
     "sourceSort": 321,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_161"
@@ -1319,7 +1319,7 @@
     "sourceSort": 322,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_069"
@@ -1384,7 +1384,7 @@
     "sourceAdditionalLevels": [
       "七-九级"
     ],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1448,7 +1448,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_025"
@@ -1511,7 +1511,7 @@
     "sourceSort": 325,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_024",
@@ -1573,7 +1573,7 @@
     "sourceSort": 326,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_044",
@@ -1636,7 +1636,7 @@
     "sourceSort": 327,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_028",
@@ -1700,7 +1700,7 @@
     "sourceSort": 328,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_027"
@@ -1761,7 +1761,7 @@
     "sourceSort": 329,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_097",
@@ -1827,7 +1827,7 @@
     "sourceAdditionalLevels": [
       "七-九级"
     ],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_031"
@@ -1888,7 +1888,7 @@
     "sourceSort": 331,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_030",
@@ -1949,7 +1949,7 @@
     "sourceSort": 332,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -1998,7 +1998,7 @@
     "sourceSort": 333,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2053,7 +2053,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2114,7 +2114,7 @@
     "sourceSort": 335,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_089"
@@ -2181,7 +2181,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2241,7 +2241,7 @@
     "sourceSort": 337,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_288",
@@ -2306,7 +2306,7 @@
     "sourceSort": 338,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_185",
@@ -2368,7 +2368,7 @@
     "sourceSort": 339,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_050"
@@ -2428,7 +2428,7 @@
     "sourceSort": 340,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_054"
@@ -2488,7 +2488,7 @@
     "sourceSort": 341,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_042",
@@ -2550,7 +2550,7 @@
     "sourceSort": 342,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_027",
@@ -2614,7 +2614,7 @@
     "sourceSort": 343,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_196"
@@ -2675,7 +2675,7 @@
     "sourceSort": 344,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -2741,7 +2741,7 @@
     "sourceAdditionalLevels": [
       "五级"
     ],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_078"
@@ -2803,7 +2803,7 @@
     "sourceSort": 346,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_020"
@@ -2862,7 +2862,7 @@
     "sourceSort": 347,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_048",
@@ -2918,7 +2918,7 @@
     "sourceSort": 348,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_047",
@@ -2985,7 +2985,7 @@
     "sourceSort": 349,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_047"
@@ -3047,7 +3047,7 @@
     "sourceSort": 350,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_047"
@@ -3109,7 +3109,7 @@
     "sourceSort": 351,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -3160,7 +3160,7 @@
     "sourceSort": 352,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_186"
@@ -3220,7 +3220,7 @@
     "sourceSort": 353,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_166",
@@ -3279,7 +3279,7 @@
     "sourceSort": 354,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_017",
@@ -3340,7 +3340,7 @@
     "sourceSort": 355,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_166",
@@ -3400,7 +3400,7 @@
     "sourceSort": 356,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_103",
@@ -3461,7 +3461,7 @@
     "sourceSort": 357,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -3516,7 +3516,7 @@
     "sourceAdditionalLevels": [
       "六级"
     ],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_175"
@@ -3573,7 +3573,7 @@
     "sourceSort": 359,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_176"
@@ -3634,7 +3634,7 @@
     "sourceSort": 360,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_071"
@@ -3695,7 +3695,7 @@
     "sourceSort": 361,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_081",
@@ -3762,7 +3762,7 @@
     "sourceSort": 362,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_081",
@@ -3826,7 +3826,7 @@
     "sourceSort": 363,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_054",
@@ -3885,7 +3885,7 @@
     "sourceSort": 364,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_063",
@@ -3945,7 +3945,7 @@
     "sourceSort": 365,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_152"
@@ -4010,7 +4010,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_052",
@@ -4072,7 +4072,7 @@
     "sourceSort": 367,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4129,7 +4129,7 @@
     "sourceSort": 368,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_067"
@@ -4189,7 +4189,7 @@
     "sourceSort": 369,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4246,7 +4246,7 @@
     "sourceSort": 370,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_016",
@@ -4308,7 +4308,7 @@
     "sourceSort": 371,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_184"
@@ -4367,7 +4367,7 @@
     "sourceSort": 372,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_018",
@@ -4434,7 +4434,7 @@
     "sourceSort": 373,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_020",
@@ -4499,7 +4499,7 @@
     "sourceSort": 374,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 19,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_057"
@@ -4559,7 +4559,7 @@
     "sourceSort": 375,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_051"
@@ -4623,7 +4623,7 @@
     "sourceAdditionalLevels": [
       "七-九级"
     ],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4683,7 +4683,7 @@
     "sourceSort": 377,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 19,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -4741,7 +4741,7 @@
     "sourceSort": 378,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_097",
@@ -4804,7 +4804,7 @@
     "sourceSort": 379,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_097",
@@ -4868,7 +4868,7 @@
     "sourceSort": 380,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_081"
@@ -4930,7 +4930,7 @@
     "sourceSort": 381,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_080"
@@ -4994,7 +4994,7 @@
     "sourceSort": 382,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -5054,7 +5054,7 @@
     "sourceSort": 383,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_106"
@@ -5114,7 +5114,7 @@
     "sourceSort": 384,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_086",
@@ -5176,7 +5176,7 @@
     "sourceSort": 385,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_057"
@@ -5237,7 +5237,7 @@
     "sourceSort": 386,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_084"
@@ -5297,7 +5297,7 @@
     "sourceSort": 387,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 27,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_121",
@@ -5360,7 +5360,7 @@
     "sourceSort": 388,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -5418,7 +5418,7 @@
     "sourceSort": 389,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_247"
@@ -5477,7 +5477,7 @@
     "sourceSort": 390,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_103",
@@ -5539,7 +5539,7 @@
     "sourceSort": 391,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_261"
@@ -5600,7 +5600,7 @@
     "sourceSort": 392,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_093",
@@ -5663,7 +5663,7 @@
     "sourceSort": 393,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_092"
@@ -5723,7 +5723,7 @@
     "sourceSort": 394,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 22,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_177"
@@ -5781,7 +5781,7 @@
     "sourceSort": 395,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_017",
@@ -5847,7 +5847,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_166",
@@ -5909,7 +5909,7 @@
     "sourceSort": 397,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_084"
@@ -5968,7 +5968,7 @@
     "sourceSort": 398,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 29,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_174",
@@ -6034,7 +6034,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6093,7 +6093,7 @@
     "sourceSort": 400,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_019",
@@ -6156,7 +6156,7 @@
     "sourceSort": 401,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_100"
@@ -6217,7 +6217,7 @@
     "sourceSort": 402,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_100",
@@ -6287,7 +6287,7 @@
     "sourceAdditionalLevels": [
       "五级"
     ],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_056",
@@ -6357,7 +6357,7 @@
     "sourceSort": 404,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_130",
@@ -6419,7 +6419,7 @@
     "sourceSort": 405,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6479,7 +6479,7 @@
     "sourceSort": 406,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_107"
@@ -6540,7 +6540,7 @@
     "sourceSort": 407,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 16,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_106"
@@ -6600,7 +6600,7 @@
     "sourceSort": 408,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_017",
@@ -6660,7 +6660,7 @@
     "sourceSort": 409,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_170"
@@ -6719,7 +6719,7 @@
     "sourceSort": 410,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_068",
@@ -6781,7 +6781,7 @@
     "sourceSort": 411,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6838,7 +6838,7 @@
     "sourceSort": 412,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_068",
@@ -6900,7 +6900,7 @@
     "sourceSort": 413,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -6958,7 +6958,7 @@
     "sourceSort": 414,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_115"
@@ -7016,7 +7016,7 @@
     "sourceSort": 415,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 19,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_114"
@@ -7075,7 +7075,7 @@
     "sourceSort": 416,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_102"
@@ -7135,7 +7135,7 @@
     "sourceSort": 417,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_187"
@@ -7194,7 +7194,7 @@
     "sourceSort": 418,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_301",
@@ -7261,7 +7261,7 @@
     "sourceSort": 419,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_056",
@@ -7323,7 +7323,7 @@
     "sourceSort": 420,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_175"
@@ -7384,7 +7384,7 @@
     "sourceSort": 421,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_087",
@@ -7452,7 +7452,7 @@
     "sourceAdditionalLevels": [
       "四级"
     ],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7510,7 +7510,7 @@
     "sourceSort": 423,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7567,7 +7567,7 @@
     "sourceSort": 424,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_174"
@@ -7628,7 +7628,7 @@
     "sourceSort": 425,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_158",
@@ -7694,7 +7694,7 @@
     "sourceSort": 426,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_103",
@@ -7756,7 +7756,7 @@
     "sourceSort": 427,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_160",
@@ -7820,7 +7820,7 @@
     "sourceSort": 428,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_151"
@@ -7881,7 +7881,7 @@
     "sourceSort": 429,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -7939,7 +7939,7 @@
     "sourceSort": 430,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -8000,7 +8000,7 @@
     "sourceAdditionalLevels": [
       "六级"
     ],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_185",
@@ -8064,7 +8064,7 @@
     "sourceSort": 432,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 19,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_187"
@@ -8125,7 +8125,7 @@
     "sourceSort": 433,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 4,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_189",
@@ -8186,7 +8186,7 @@
     "sourceSort": 434,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_133"
@@ -8245,7 +8245,7 @@
     "sourceSort": 435,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_190",
@@ -8307,7 +8307,7 @@
     "sourceSort": 436,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -8366,7 +8366,7 @@
     "sourceSort": 437,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -8425,7 +8425,7 @@
     "sourceSort": 438,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 21,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_031",
@@ -8487,7 +8487,7 @@
     "sourceSort": 439,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_176"
@@ -8552,7 +8552,7 @@
     "sourceAdditionalLevels": [
       "六级"
     ],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -8611,7 +8611,7 @@
     "sourceSort": 441,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_197"
@@ -8672,7 +8672,7 @@
     "sourceSort": 442,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 15,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_220"
@@ -8737,7 +8737,7 @@
     "sourceAdditionalLevels": [
       "五级"
     ],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -8796,7 +8796,7 @@
     "sourceSort": 444,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 27,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_356"
@@ -8864,7 +8864,7 @@
       "三级",
       "五级"
     ],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_361"
@@ -8918,7 +8918,7 @@
     "sourceSort": 446,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_212",
@@ -8980,7 +8980,7 @@
     "sourceSort": 447,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_090",
@@ -9042,7 +9042,7 @@
     "sourceSort": 448,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_368"
@@ -9103,7 +9103,7 @@
     "sourceSort": 449,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 3,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -9163,7 +9163,7 @@
     "sourceSort": 450,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -9222,7 +9222,7 @@
     "sourceSort": 451,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_128"
@@ -9282,7 +9282,7 @@
     "sourceSort": 452,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_065"
@@ -9340,7 +9340,7 @@
     "sourceSort": 453,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -9395,7 +9395,7 @@
     "sourceSort": 454,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_375",
@@ -9457,7 +9457,7 @@
     "sourceSort": 455,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_457"
@@ -9518,7 +9518,7 @@
     "sourceSort": 456,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_157",
@@ -9581,7 +9581,7 @@
     "sourceSort": 457,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_066",
@@ -9644,7 +9644,7 @@
     "sourceSort": 458,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_125",
@@ -9710,7 +9710,7 @@
     "sourceSort": 459,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_103",
@@ -9772,7 +9772,7 @@
     "sourceSort": 460,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_127",
@@ -9836,7 +9836,7 @@
     "sourceSort": 461,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_068",
@@ -9898,7 +9898,7 @@
     "sourceSort": 462,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_025"
@@ -9958,7 +9958,7 @@
     "sourceSort": 463,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_240"
@@ -10018,7 +10018,7 @@
     "sourceSort": 464,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_165"
@@ -10079,7 +10079,7 @@
     "sourceSort": 465,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 14,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_104",
@@ -10140,7 +10140,7 @@
     "sourceSort": 466,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 21,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_003",
@@ -10202,7 +10202,7 @@
     "sourceSort": 467,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 24,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10260,7 +10260,7 @@
     "sourceSort": 468,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_169"
@@ -10319,7 +10319,7 @@
     "sourceSort": 469,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_168"
@@ -10379,7 +10379,7 @@
     "sourceSort": 470,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_109"
@@ -10442,7 +10442,7 @@
     "sourceAdditionalLevels": [
       "三级"
     ],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_259"
@@ -10503,7 +10503,7 @@
     "sourceSort": 472,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10562,7 +10562,7 @@
     "sourceSort": 473,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -10621,7 +10621,7 @@
     "sourceSort": 474,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 22,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_013",
@@ -10684,7 +10684,7 @@
     "sourceSort": 475,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 6,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_120"
@@ -10746,7 +10746,7 @@
     "sourceSort": 476,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_154",
@@ -10808,7 +10808,7 @@
     "sourceSort": 477,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_094",
@@ -10870,7 +10870,7 @@
     "sourceSort": 478,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_177"
@@ -10929,7 +10929,7 @@
     "sourceSort": 479,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 28,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_098",
@@ -10991,7 +10991,7 @@
     "sourceSort": 480,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_131"
@@ -11052,7 +11052,7 @@
     "sourceSort": 481,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_199"
@@ -11113,7 +11113,7 @@
     "sourceSort": 482,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_200"
@@ -11173,7 +11173,7 @@
     "sourceSort": 483,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -11229,7 +11229,7 @@
     "sourceSort": 484,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_071"
@@ -11289,7 +11289,7 @@
     "sourceSort": 485,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 13,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_038",
@@ -11352,7 +11352,7 @@
     "sourceSort": 486,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_015"
@@ -11412,7 +11412,7 @@
     "sourceSort": 487,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_117"
@@ -11471,7 +11471,7 @@
     "sourceSort": 488,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_189"
@@ -11532,7 +11532,7 @@
     "sourceSort": 489,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 17,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_188"
@@ -11592,7 +11592,7 @@
     "sourceSort": 490,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 11,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -11646,7 +11646,7 @@
     "sourceAdditionalLevels": [
       "五级"
     ],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_286"
@@ -11711,7 +11711,7 @@
     "sourceAdditionalLevels": [
       "六级"
     ],
-    "strokeCount": null,
+    "strokeCount": 8,
     "characterIds": [],
     "relatedWordIds": [
       "hsk1_243",
@@ -11773,7 +11773,7 @@
     "sourceSort": 493,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -11832,7 +11832,7 @@
     "sourceSort": 494,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 9,
     "characterIds": [],
     "relatedWordIds": [],
     "exampleIds": [],
@@ -11891,7 +11891,7 @@
     "sourceSort": 495,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 7,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_196"
@@ -11952,7 +11952,7 @@
     "sourceSort": 496,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 20,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_195"
@@ -12012,7 +12012,7 @@
     "sourceSort": 497,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 18,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_121",
@@ -12075,7 +12075,7 @@
     "sourceSort": 498,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 12,
     "characterIds": [],
     "relatedWordIds": [
       "hsk3_496",
@@ -12138,7 +12138,7 @@
     "sourceSort": 499,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 5,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_181"
@@ -12199,7 +12199,7 @@
     "sourceSort": 500,
     "sourceLevelName": "二级",
     "sourceAdditionalLevels": [],
-    "strokeCount": null,
+    "strokeCount": 10,
     "characterIds": [],
     "relatedWordIds": [
       "hsk2_182"
