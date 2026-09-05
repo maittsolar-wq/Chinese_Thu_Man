@@ -64,8 +64,8 @@ def main() -> None:
         batch = json.loads(load_json_text(batch_path))
         recs = batch.get("records", [])
 
-        expected_size = 100  # every batch in this phase is a full 100 (final batch may be smaller, not reached yet)
-        record(f"{label}_size_valid", len(recs) <= expected_size and len(recs) > 0, f"{len(recs)}")
+        expected_max_size = 200  # batches 002-020 are a full 100; batches 021+ are a full 200 (final batch may be smaller, not reached yet)
+        record(f"{label}_size_valid", len(recs) <= expected_max_size and len(recs) > 0, f"{len(recs)}")
 
         ids = [r["sourceId"] for r in recs]
         record(f"{label}_no_duplicate_ids_within_batch", len(ids) == len(set(ids)), f"dupes: {[i for i in set(ids) if ids.count(i)>1]}")
