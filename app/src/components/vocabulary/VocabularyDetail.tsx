@@ -56,16 +56,18 @@ export function VocabularyDetail({
         <p className="text-lg text-neutral-800 dark:text-night-text">{word.meaningVi}</p>
       </Card>
 
-      <Card className="sm:max-w-xs">
-        <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
+      <section>
+        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
           Số nét
         </h2>
         {word.strokeCount != null ? (
-          <p className="text-2xl font-semibold text-neutral-900 dark:text-night-text">{word.strokeCount}</p>
+          <Card className="sm:max-w-xs">
+            <p className="text-2xl font-semibold text-neutral-900 dark:text-night-text">{word.strokeCount}</p>
+          </Card>
         ) : (
-          <p className="text-sm text-neutral-500 dark:text-night-muted">Chưa có dữ liệu số nét.</p>
+          <EmptyState title="Chưa có dữ liệu số nét." />
         )}
-      </Card>
+      </section>
 
       {radicals.length > 0 && (
         <section>
