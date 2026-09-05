@@ -66,6 +66,17 @@ export function SunIcon(props: IconProps) {
   );
 }
 
+export function RadicalIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <rect x="3.5" y="3.5" width="7.5" height="7.5" rx="1.2" />
+      <rect x="13" y="3.5" width="7.5" height="7.5" rx="1.2" />
+      <rect x="3.5" y="13" width="7.5" height="7.5" rx="1.2" />
+      <rect x="13" y="13" width="7.5" height="7.5" rx="1.2" />
+    </svg>
+  );
+}
+
 export function ArrowRightIcon(props: IconProps) {
   return (
     <svg {...base} {...props}>

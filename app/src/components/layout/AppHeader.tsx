@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { useTheme } from "@/components/theme/ThemeProvider";
 import { useDictionarySearch } from "@/components/dictionary/DictionarySearchProvider";
-import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon } from "@/components/ui/icons";
+import { HomeIcon, GraduationCapIcon, RadicalIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon } from "@/components/ui/icons";
 
 /**
  * "Luyện tập" points at the standalone Practice Home route (/practice,
@@ -15,9 +15,11 @@ import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon 
  * duplicated. Its active state is computed via `isPracticeActive` rather
  * than the normal pathname-prefix check below, since it needs to match
  * both the bare /practice route and every /practice/* sub-route.
- * "Bộ thủ" is intentionally omitted here to match the approved Home
- * header reference; the /radicals route itself is untouched and still
- * reachable directly.
+ * "Bộ thủ" (BUG-002 fix) links to the /radicals index — until now this
+ * was reachable only by direct URL or via a radical badge on Vocabulary
+ * Detail (which links to one specific radical, not the browsable index),
+ * so the 214-radical feature had no primary-navigation discovery path.
+ * Uses the same plain pathname-prefix `isActive` check as HSK/Trang chủ.
  *
  * "Từ điển" is a popup TRIGGER, not a route link — it opens the shared
  * DictionarySearchPopup (mounted once in layout.tsx) instead of
@@ -28,6 +30,7 @@ import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon 
 const NAV_ITEMS = [
   { kind: "link", href: "/", label: "Trang chủ", icon: HomeIcon, usesPracticeActiveCheck: false },
   { kind: "link", href: "/hsk", label: "HSK", icon: GraduationCapIcon, usesPracticeActiveCheck: false },
+  { kind: "link", href: "/radicals", label: "Bộ thủ", icon: RadicalIcon, usesPracticeActiveCheck: false },
   { kind: "popup-trigger", label: "Từ điển", icon: SearchIcon },
   { kind: "link", href: "/practice", label: "Luyện tập", icon: TargetIcon, usesPracticeActiveCheck: true },
 ] as const;
