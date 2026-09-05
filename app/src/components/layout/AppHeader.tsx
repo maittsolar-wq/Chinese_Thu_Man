@@ -79,7 +79,7 @@ function isPracticeActive(pathname: string): boolean {
   return pathname === "/practice" || pathname.startsWith("/practice/");
 }
 
-function ThemeToggle() {
+function ThemeToggle({ className }: { className?: string }) {
   const { theme, toggleTheme } = useTheme();
   const isDark = theme === "dark";
 
@@ -89,7 +89,10 @@ function ThemeToggle() {
       onClick={toggleTheme}
       aria-label={isDark ? "Chuyển sang giao diện sáng" : "Chuyển sang giao diện tối"}
       aria-pressed={isDark}
-      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-neutral-300 text-neutral-700 transition-colors hover:bg-neutral-100 dark:border-night-border dark:text-night-muted dark:hover:bg-night-surface"
+      className={clsx(
+        "flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-neutral-300 text-neutral-700 transition-colors hover:bg-neutral-100 dark:border-night-border dark:text-night-muted dark:hover:bg-night-surface",
+        className
+      )}
     >
       {isDark ? <SunIcon className="h-4 w-4" /> : <MoonIcon className="h-4 w-4" />}
     </button>
@@ -116,8 +119,19 @@ export function AppHeader() {
 
   return (
     <header className="sticky top-0 z-10 border-b border-neutral-200 bg-white dark:border-night-border dark:bg-night-bg">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <Link href="/" className="flex items-center gap-2.5">
+      {/*
+        UI-003 mobile polish: below `sm`, the logo/toggle/nav no longer
+        compete for width in one unwrapped row (which squeezed both the
+        logo text and the 5 nav items into awkward independent wrapping —
+        up to 3 nav rows plus a 4-line logo at 390px). `flex-wrap` here
+        plus `order`/`w-full` on nav and the toggle splits mobile into two
+        intentional rows — logo+toggle, then a full-width nav that wraps
+        at most 2 rows on its own — while `sm:flex-nowrap` together with
+        each item's `sm:order-*`/`sm:w-auto` reset reproduces the exact
+        original single-row desktop/tablet layout, unchanged.
+      */}
+      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 sm:flex-nowrap sm:px-6">
+        <Link href="/" className="order-1 flex items-center gap-2.5">
           <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary text-base font-bold text-white">
             中
           </span>
@@ -126,46 +140,46 @@ export function AppHeader() {
             <span className="text-xs text-neutral-500 dark:text-night-muted">Chinese Thu Man</span>
           </span>
         </Link>
-        <div className="flex items-center gap-1 sm:gap-2">
-          <nav className="flex flex-wrap items-center gap-1 sm:gap-2">
-            {NAV_ITEMS.map((item) => {
-              const Icon = item.icon;
 
-              if (item.kind === "popup-trigger") {
-                return (
-                  <button
-                    key={item.label}
-                    type="button"
-                    onClick={openDictionarySearch}
-                    className={clsx(NAV_ITEM_CLASSES, NAV_ITEM_INACTIVE_CLASSES)}
-                  >
-                    {Icon && <Icon className="h-4 w-4" />}
-                    {item.label}
-                  </button>
-                );
-              }
+        <nav className="order-3 flex w-full flex-wrap items-center gap-1 sm:order-2 sm:w-auto sm:gap-2">
+          {NAV_ITEMS.map((item) => {
+            const Icon = item.icon;
 
-              const active = item.usesPracticeActiveCheck
-                ? isPracticeActive(pathname)
-                : isActive(pathname, item.href, hskContext);
+            if (item.kind === "popup-trigger") {
               return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  aria-current={active ? "page" : undefined}
-                  className={clsx(
-                    NAV_ITEM_CLASSES,
-                    active ? NAV_ITEM_ACTIVE_CLASSES : NAV_ITEM_INACTIVE_CLASSES
-                  )}
+                <button
+                  key={item.label}
+                  type="button"
+                  onClick={openDictionarySearch}
+                  className={clsx(NAV_ITEM_CLASSES, NAV_ITEM_INACTIVE_CLASSES)}
                 >
                   {Icon && <Icon className="h-4 w-4" />}
                   {item.label}
-                </Link>
+                </button>
               );
-            })}
-          </nav>
-          <ThemeToggle />
-        </div>
+            }
+
+            const active = item.usesPracticeActiveCheck
+              ? isPracticeActive(pathname)
+              : isActive(pathname, item.href, hskContext);
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                aria-current={active ? "page" : undefined}
+                className={clsx(
+                  NAV_ITEM_CLASSES,
+                  active ? NAV_ITEM_ACTIVE_CLASSES : NAV_ITEM_INACTIVE_CLASSES
+                )}
+              >
+                {Icon && <Icon className="h-4 w-4" />}
+                {item.label}
+              </Link>
+            );
+          })}
+        </nav>
+
+        <ThemeToggle className="order-2 sm:order-3" />
       </div>
     </header>
   );
