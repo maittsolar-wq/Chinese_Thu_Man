@@ -30,7 +30,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我爱我的家人。",
+        "pinyin": "Wǒ ài wǒ de jiārén.",
+        "meaningVi": "Tôi yêu gia đình của tôi."
+      },
+      {
+        "chinese": "她很爱看书。",
+        "pinyin": "Tā hěn ài kàn shū.",
+        "meaningVi": "Cô ấy rất thích đọc sách."
+      }
+    ]
   },
   {
     "id": "hsk1_002",
@@ -62,7 +74,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我家有八口人。",
+        "pinyin": "Wǒ jiā yǒu bā kǒu rén.",
+        "meaningVi": "Nhà tôi có tám người."
+      },
+      {
+        "chinese": "现在是八点。",
+        "pinyin": "Xiànzài shì bā diǎn.",
+        "meaningVi": "Bây giờ là tám giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_003",
@@ -95,7 +119,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我爸爸是老师。",
+        "pinyin": "Wǒ bàba shì lǎoshī.",
+        "meaningVi": "Bố tôi là giáo viên."
+      },
+      {
+        "chinese": "爸爸每天早上跑步。",
+        "pinyin": "Bàba měitiān zǎoshang pǎobù.",
+        "meaningVi": "Bố tôi chạy bộ mỗi sáng."
+      }
+    ]
   },
   {
     "id": "hsk1_004",
@@ -129,7 +165,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们走吧。",
+        "pinyin": "Wǒmen zǒu ba.",
+        "meaningVi": "Chúng ta đi thôi."
+      },
+      {
+        "chinese": "你是学生吧？",
+        "pinyin": "Nǐ shì xuéshēng ba?",
+        "meaningVi": "Bạn là học sinh phải không?"
+      }
+    ]
   },
   {
     "id": "hsk1_005",
@@ -163,7 +211,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我白天工作，晚上休息。",
+        "pinyin": "Wǒ báitiān gōngzuò, wǎnshang xiūxi.",
+        "meaningVi": "Tôi làm việc ban ngày, nghỉ ngơi buổi tối."
+      },
+      {
+        "chinese": "夏天的白天比较长。",
+        "pinyin": "Xiàtiān de báitiān bǐjiào cháng.",
+        "meaningVi": "Ban ngày mùa hè khá dài."
+      }
+    ]
   },
   {
     "id": "hsk1_006",
@@ -195,7 +255,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这本书有一百页。",
+        "pinyin": "Zhè běn shū yǒu yìbǎi yè.",
+        "meaningVi": "Cuốn sách này có một trăm trang."
+      },
+      {
+        "chinese": "我有一百块钱。",
+        "pinyin": "Wǒ yǒu yìbǎi kuài qián.",
+        "meaningVi": "Tôi có một trăm đồng."
+      }
+    ]
   },
   {
     "id": "hsk1_007",
@@ -233,7 +305,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "现在是三点半。",
+        "pinyin": "Xiànzài shì sān diǎn bàn.",
+        "meaningVi": "Bây giờ là ba giờ rưỡi."
+      },
+      {
+        "chinese": "我只吃了半个苹果。",
+        "pinyin": "Wǒ zhǐ chīle bàn gè píngguǒ.",
+        "meaningVi": "Tôi chỉ ăn nửa quả táo."
+      }
+    ]
   },
   {
     "id": "hsk1_008",
@@ -265,7 +349,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "妈妈买了很多包子。",
+        "pinyin": "Māma mǎile hěn duō bāozi.",
+        "meaningVi": "Mẹ mua rất nhiều bánh bao."
+      },
+      {
+        "chinese": "这家店的包子很好吃。",
+        "pinyin": "Zhè jiā diàn de bāozi hěn hǎochī.",
+        "meaningVi": "Bánh bao của cửa hàng này rất ngon."
+      }
+    ]
   },
   {
     "id": "hsk1_009",
@@ -298,7 +394,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请把杯子放在桌子上。",
+        "pinyin": "Qǐng bǎ bēizi fàng zài zhuōzi shàng.",
+        "meaningVi": "Xin đặt cốc lên bàn."
+      },
+      {
+        "chinese": "这个杯子是我的。",
+        "pinyin": "Zhège bēizi shì wǒ de.",
+        "meaningVi": "Cái cốc này là của tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_010",
@@ -331,7 +439,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我买了三本书。",
+        "pinyin": "Wǒ mǎile sān běn shū.",
+        "meaningVi": "Tôi đã mua ba cuốn sách."
+      }
+    ]
   },
   {
     "id": "hsk1_011",
@@ -365,7 +480,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "河边有很多树。",
+        "pinyin": "Hébiān yǒu hěn duō shù.",
+        "meaningVi": "Bên bờ sông có nhiều cây."
+      }
+    ]
   },
   {
     "id": "hsk1_012",
@@ -402,7 +524,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "医生正在给他看病。",
+        "pinyin": "Yīshēng zhèngzài gěi tā kànbìng.",
+        "meaningVi": "Bác sĩ đang khám bệnh cho anh ấy."
+      }
+    ]
   },
   {
     "id": "hsk1_013",
@@ -434,7 +563,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我不喜欢喝咖啡。",
+        "pinyin": "Wǒ bù xǐhuan hē kāfēi.",
+        "meaningVi": "Tôi không thích uống cà phê."
+      },
+      {
+        "chinese": "他今天不来了。",
+        "pinyin": "Tā jīntiān bù lái le.",
+        "meaningVi": "Hôm nay anh ấy không đến nữa."
+      }
+    ]
   },
   {
     "id": "hsk1_014",
@@ -467,7 +608,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "“谢谢你。”“不客气。”",
+        "pinyin": "“Xièxie nǐ.” “Bú kèqi.”",
+        "meaningVi": "'Cảm ơn bạn.' 'Không có gì.'"
+      }
+    ]
   },
   {
     "id": "hsk1_015",
@@ -500,7 +648,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "不要迟到。",
+        "pinyin": "Búyào chídào.",
+        "meaningVi": "Đừng đến muộn."
+      },
+      {
+        "chinese": "我不要这个，我要那个。",
+        "pinyin": "Wǒ búyào zhège, wǒ yào nàge.",
+        "meaningVi": "Tôi không muốn cái này, tôi muốn cái kia."
+      }
+    ]
   },
   {
     "id": "hsk1_016",
@@ -533,7 +693,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个菜很好吃。",
+        "pinyin": "Zhège cài hěn hǎochī.",
+        "meaningVi": "Món ăn này rất ngon."
+      },
+      {
+        "chinese": "妈妈在厨房做菜。",
+        "pinyin": "Māma zài chúfáng zuò cài.",
+        "meaningVi": "Mẹ đang nấu ăn trong bếp."
+      }
+    ]
   },
   {
     "id": "hsk1_017",
@@ -565,7 +737,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我喜欢喝茶。",
+        "pinyin": "Wǒ xǐhuan hē chá.",
+        "meaningVi": "Tôi thích uống trà."
+      }
+    ]
   },
   {
     "id": "hsk1_018",
@@ -599,7 +778,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "她唱歌唱得很好。",
+        "pinyin": "Tā chàng gē chàng de hěn hǎo.",
+        "meaningVi": "Cô ấy hát rất hay."
+      },
+      {
+        "chinese": "我们一起唱这首歌吧。",
+        "pinyin": "Wǒmen yìqǐ chàng zhè shǒu gē ba.",
+        "meaningVi": "Chúng ta cùng hát bài này đi."
+      }
+    ]
   },
   {
     "id": "hsk1_019",
@@ -633,7 +824,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我要去超市买东西。",
+        "pinyin": "Wǒ yào qù chāoshì mǎi dōngxi.",
+        "meaningVi": "Tôi muốn đi siêu thị mua đồ."
+      }
+    ]
   },
   {
     "id": "hsk1_020",
@@ -669,7 +867,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这辆车是新的。",
+        "pinyin": "Zhè liàng chē shì xīn de.",
+        "meaningVi": "Chiếc xe này là mới."
+      }
+    ]
   },
   {
     "id": "hsk1_021",
@@ -704,7 +909,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们一起吃饭吧。",
+        "pinyin": "Wǒmen yìqǐ chīfàn ba.",
+        "meaningVi": "Chúng ta cùng ăn cơm đi."
+      },
+      {
+        "chinese": "他喜欢吃水果。",
+        "pinyin": "Tā xǐhuan chī shuǐguǒ.",
+        "meaningVi": "Anh ấy thích ăn hoa quả."
+      }
+    ]
   },
   {
     "id": "hsk1_022",
@@ -740,7 +957,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们坐出租车去机场吧。",
+        "pinyin": "Wǒmen zuò chūzūchē qù jīchǎng ba.",
+        "meaningVi": "Chúng ta đi taxi ra sân bay đi."
+      }
+    ]
   },
   {
     "id": "hsk1_023",
@@ -774,7 +998,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天很冷，多穿点衣服。",
+        "pinyin": "Jīntiān hěn lěng, duō chuān diǎn yīfu.",
+        "meaningVi": "Hôm nay rất lạnh, mặc thêm quần áo đi."
+      },
+      {
+        "chinese": "她穿了一条红色的裙子。",
+        "pinyin": "Tā chuānle yì tiáo hóngsè de qúnzi.",
+        "meaningVi": "Cô ấy mặc một chiếc váy màu đỏ."
+      }
+    ]
   },
   {
     "id": "hsk1_024",
@@ -806,7 +1042,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我给妈妈打电话。",
+        "pinyin": "Wǒ gěi māma dǎ diànhuà.",
+        "meaningVi": "Tôi gọi điện thoại cho mẹ."
+      }
+    ]
   },
   {
     "id": "hsk1_025",
@@ -841,7 +1084,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个房间很大。",
+        "pinyin": "Zhège fángjiān hěn dà.",
+        "meaningVi": "Căn phòng này rất rộng."
+      },
+      {
+        "chinese": "他比我大两岁。",
+        "pinyin": "Tā bǐ wǒ dà liǎng suì.",
+        "meaningVi": "Anh ấy lớn hơn tôi hai tuổi."
+      }
+    ]
   },
   {
     "id": "hsk1_026",
@@ -873,7 +1128,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "大家好！",
+        "pinyin": "Dàjiā hǎo!",
+        "meaningVi": "Xin chào mọi người!"
+      },
+      {
+        "chinese": "大家都很喜欢这个电影。",
+        "pinyin": "Dàjiā dōu hěn xǐhuan zhège diànyǐng.",
+        "meaningVi": "Mọi người đều rất thích bộ phim này."
+      }
+    ]
   },
   {
     "id": "hsk1_027",
@@ -910,7 +1177,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他是北京大学的学生。",
+        "pinyin": "Tā shì Běijīng Dàxué de xuéshēng.",
+        "meaningVi": "Anh ấy là sinh viên của Đại học Bắc Kinh."
+      }
+    ]
   },
   {
     "id": "hsk1_028",
@@ -947,7 +1221,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我姐姐是大学生。",
+        "pinyin": "Wǒ jiějie shì dàxuéshēng.",
+        "meaningVi": "Chị tôi là sinh viên đại học."
+      }
+    ]
   },
   {
     "id": "hsk1_029",
@@ -980,7 +1261,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们到北京了。",
+        "pinyin": "Wǒmen dào Běijīng le.",
+        "meaningVi": "Chúng tôi đã đến Bắc Kinh."
+      },
+      {
+        "chinese": "从这儿到学校要走十分钟。",
+        "pinyin": "Cóng zhèr dào xuéxiào yào zǒu shí fēnzhōng.",
+        "meaningVi": "Từ đây đến trường phải đi mười phút."
+      }
+    ]
   },
   {
     "id": "hsk1_030",
@@ -1013,7 +1306,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这是我的书。",
+        "pinyin": "Zhè shì wǒ de shū.",
+        "meaningVi": "Đây là sách của tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_031",
@@ -1046,7 +1346,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天是我第一次来中国。",
+        "pinyin": "Jīntiān shì wǒ dì-yī cì lái Zhōngguó.",
+        "meaningVi": "Hôm nay là lần đầu tiên tôi đến Trung Quốc."
+      }
+    ]
   },
   {
     "id": "hsk1_032",
@@ -1081,7 +1388,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我弟弟今年八岁。",
+        "pinyin": "Wǒ dìdi jīnnián bā suì.",
+        "meaningVi": "Em trai tôi năm nay tám tuổi."
+      }
+    ]
   },
   {
     "id": "hsk1_033",
@@ -1118,7 +1432,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "现在几点了？",
+        "pinyin": "Xiànzài jǐ diǎn le?",
+        "meaningVi": "Bây giờ là mấy giờ?"
+      },
+      {
+        "chinese": "请给我一点水。",
+        "pinyin": "Qǐng gěi wǒ yìdiǎn shuǐ.",
+        "meaningVi": "Xin cho tôi một chút nước."
+      }
+    ]
   },
   {
     "id": "hsk1_034",
@@ -1150,7 +1476,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这家店卖衣服。",
+        "pinyin": "Zhè jiā diàn mài yīfu.",
+        "meaningVi": "Cửa hàng này bán quần áo."
+      }
+    ]
   },
   {
     "id": "hsk1_035",
@@ -1182,7 +1515,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我的电话号码是一二三。",
+        "pinyin": "Wǒ de diànhuà hàomǎ shì yī èr sān.",
+        "meaningVi": "Số điện thoại của tôi là một hai ba."
+      },
+      {
+        "chinese": "他正在打电话。",
+        "pinyin": "Tā zhèngzài dǎ diànhuà.",
+        "meaningVi": "Anh ấy đang gọi điện thoại."
+      }
+    ]
   },
   {
     "id": "hsk1_036",
@@ -1218,7 +1563,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我的电脑坏了。",
+        "pinyin": "Wǒ de diànnǎo huài le.",
+        "meaningVi": "Máy tính của tôi bị hỏng rồi."
+      }
+    ]
   },
   {
     "id": "hsk1_037",
@@ -1255,7 +1607,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们晚上看电视吧。",
+        "pinyin": "Wǒmen wǎnshang kàn diànshì ba.",
+        "meaningVi": "Tối nay chúng ta xem tivi đi."
+      }
+    ]
   },
   {
     "id": "hsk1_038",
@@ -1293,7 +1652,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们去看电影吧。",
+        "pinyin": "Wǒmen qù kàn diànyǐng ba.",
+        "meaningVi": "Chúng ta đi xem phim đi."
+      }
+    ]
   },
   {
     "id": "hsk1_039",
@@ -1327,7 +1693,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "电影院离我家很近。",
+        "pinyin": "Diànyǐngyuàn lí wǒ jiā hěn jìn.",
+        "meaningVi": "Rạp chiếu phim rất gần nhà tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_040",
@@ -1360,7 +1733,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你买了什么东西？",
+        "pinyin": "Nǐ mǎile shénme dōngxi?",
+        "meaningVi": "Bạn đã mua gì vậy?"
+      }
+    ]
   },
   {
     "id": "hsk1_041",
@@ -1392,7 +1772,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们都是学生。",
+        "pinyin": "Wǒmen dōu shì xuéshēng.",
+        "meaningVi": "Chúng tôi đều là học sinh."
+      }
+    ]
   },
   {
     "id": "hsk1_042",
@@ -1426,7 +1813,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他每天读英语。",
+        "pinyin": "Tā měitiān dú Yīngyǔ.",
+        "meaningVi": "Mỗi ngày anh ấy đọc tiếng Anh."
+      }
+    ]
   },
   {
     "id": "hsk1_043",
@@ -1462,7 +1856,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他在图书馆读书。",
+        "pinyin": "Tā zài túshūguǎn dúshū.",
+        "meaningVi": "Anh ấy đang đọc sách trong thư viện."
+      }
+    ]
   },
   {
     "id": "hsk1_044",
@@ -1500,7 +1901,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你说得很对。",
+        "pinyin": "Nǐ shuō de hěn duì.",
+        "meaningVi": "Bạn nói rất đúng."
+      }
+    ]
   },
   {
     "id": "hsk1_045",
@@ -1534,7 +1942,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "对不起，我来晚了。",
+        "pinyin": "Duìbuqǐ, wǒ lái wǎn le.",
+        "meaningVi": "Xin lỗi, tôi đến muộn."
+      }
+    ]
   },
   {
     "id": "hsk1_046",
@@ -1575,7 +1990,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个公园里种了很多花。",
+        "pinyin": "Zhège gōngyuán lǐ zhòngle hěn duō huā.",
+        "meaningVi": "Trong công viên này trồng rất nhiều hoa."
+      }
+    ]
   },
   {
     "id": "hsk1_047",
@@ -1609,7 +2031,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个多少钱？",
+        "pinyin": "Zhège duōshao qián?",
+        "meaningVi": "Cái này bao nhiêu tiền?"
+      }
+    ]
   },
   {
     "id": "hsk1_048",
@@ -1643,7 +2072,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他们的儿子在上大学。",
+        "pinyin": "Tāmen de érzi zài shàng dàxué.",
+        "meaningVi": "Con trai của họ đang học đại học."
+      }
+    ]
   },
   {
     "id": "hsk1_049",
@@ -1677,7 +2113,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "一加一等于二。",
+        "pinyin": "Yī jiā yī děngyú èr.",
+        "meaningVi": "Một cộng một bằng hai."
+      }
+    ]
   },
   {
     "id": "hsk1_050",
@@ -1713,7 +2156,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "妈妈做的饭很好吃。",
+        "pinyin": "Māma zuò de fàn hěn hǎochī.",
+        "meaningVi": "Cơm mẹ nấu rất ngon."
+      }
+    ]
   },
   {
     "id": "hsk1_051",
@@ -1750,7 +2200,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们在饭店吃晚饭。",
+        "pinyin": "Wǒmen zài fàndiàn chī wǎnfàn.",
+        "meaningVi": "Chúng tôi ăn tối ở nhà hàng."
+      }
+    ]
   },
   {
     "id": "hsk1_052",
@@ -1782,7 +2239,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我的房间很干净。",
+        "pinyin": "Wǒ de fángjiān hěn gānjìng.",
+        "meaningVi": "Phòng của tôi rất sạch sẽ."
+      }
+    ]
   },
   {
     "id": "hsk1_053",
@@ -1818,7 +2282,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这本书非常有意思。",
+        "pinyin": "Zhè běn shū fēicháng yǒu yìsi.",
+        "meaningVi": "Cuốn sách này rất thú vị."
+      }
+    ]
   },
   {
     "id": "hsk1_054",
@@ -1850,7 +2321,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们坐飞机去上海。",
+        "pinyin": "Wǒmen zuò fēijī qù Shànghǎi.",
+        "meaningVi": "Chúng tôi đi máy bay đến Thượng Hải."
+      }
+    ]
   },
   {
     "id": "hsk1_055",
@@ -1889,7 +2367,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "现在是三点十分。",
+        "pinyin": "Xiànzài shì sān diǎn shí fēn.",
+        "meaningVi": "Bây giờ là ba giờ mười phút."
+      }
+    ]
   },
   {
     "id": "hsk1_056",
@@ -1924,7 +2409,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请等五分钟。",
+        "pinyin": "Qǐng děng wǔ fēnzhōng.",
+        "meaningVi": "Xin đợi năm phút."
+      }
+    ]
   },
   {
     "id": "hsk1_057",
@@ -1957,7 +2449,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "认识你很高兴。",
+        "pinyin": "Rènshi nǐ hěn gāoxìng.",
+        "meaningVi": "Rất vui được quen biết bạn."
+      },
+      {
+        "chinese": "他今天很高兴。",
+        "pinyin": "Tā jīntiān hěn gāoxìng.",
+        "meaningVi": "Hôm nay anh ấy rất vui."
+      }
+    ]
   },
   {
     "id": "hsk1_058",
@@ -1991,7 +2495,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这是一首很好听的歌。",
+        "pinyin": "Zhè shì yì shǒu hěn hǎotīng de gē.",
+        "meaningVi": "Đây là một bài hát rất hay."
+      }
+    ]
   },
   {
     "id": "hsk1_059",
@@ -2026,7 +2537,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我哥哥在银行工作。",
+        "pinyin": "Wǒ gēge zài yínháng gōngzuò.",
+        "meaningVi": "Anh trai tôi làm việc ở ngân hàng."
+      }
+    ]
   },
   {
     "id": "hsk1_060",
@@ -2059,7 +2577,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我有一个问题。",
+        "pinyin": "Wǒ yǒu yí gè wèntí.",
+        "meaningVi": "Tôi có một câu hỏi."
+      }
+    ]
   },
   {
     "id": "hsk1_061",
@@ -2095,7 +2620,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他给了我一本书。",
+        "pinyin": "Tā gěile wǒ yì běn shū.",
+        "meaningVi": "Anh ấy đưa cho tôi một cuốn sách."
+      }
+    ]
   },
   {
     "id": "hsk1_062",
@@ -2127,7 +2659,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我在一家公司工作。",
+        "pinyin": "Wǒ zài yì jiā gōngsī gōngzuò.",
+        "meaningVi": "Tôi làm việc ở một công ty."
+      }
+    ]
   },
   {
     "id": "hsk1_063",
@@ -2161,7 +2700,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他每天都去工作。",
+        "pinyin": "Tā měitiān dōu qù gōngzuò.",
+        "meaningVi": "Anh ấy ngày nào cũng đi làm việc."
+      }
+    ]
   },
   {
     "id": "hsk1_064",
@@ -2193,7 +2739,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我家有一只狗。",
+        "pinyin": "Wǒ jiā yǒu yì zhī gǒu.",
+        "meaningVi": "Nhà tôi có một con chó."
+      }
+    ]
   },
   {
     "id": "hsk1_065",
@@ -2227,7 +2780,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这件衣服太贵了。",
+        "pinyin": "Zhè jiàn yīfu tài guì le.",
+        "meaningVi": "Chiếc áo này quá đắt."
+      }
+    ]
   },
   {
     "id": "hsk1_066",
@@ -2260,7 +2820,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你是哪国人？",
+        "pinyin": "Nǐ shì nǎ guó rén?",
+        "meaningVi": "Bạn là người nước nào?"
+      }
+    ]
   },
   {
     "id": "hsk1_067",
@@ -2330,7 +2897,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个孩子很可爱。",
+        "pinyin": "Zhège háizi hěn kě'ài.",
+        "meaningVi": "Đứa trẻ này rất đáng yêu."
+      }
+    ]
   },
   {
     "id": "hsk1_069",
@@ -2366,7 +2940,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我在学习汉语。",
+        "pinyin": "Wǒ zài xuéxí Hànyǔ.",
+        "meaningVi": "Tôi đang học tiếng Trung."
+      }
+    ]
   },
   {
     "id": "hsk1_070",
@@ -2398,7 +2979,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个汉字怎么写？",
+        "pinyin": "Zhège Hànzì zěnme xiě?",
+        "meaningVi": "Chữ Hán này viết thế nào?"
+      }
+    ]
   },
   {
     "id": "hsk1_071",
@@ -2480,7 +3068,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "妈妈做的饺子很好吃。",
+        "pinyin": "Māma zuò de jiǎozi hěn hǎochī.",
+        "meaningVi": "Bánh chẻo mẹ làm rất ngon."
+      }
+    ]
   },
   {
     "id": "hsk1_073",
@@ -2519,7 +3114,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这条裙子很好看。",
+        "pinyin": "Zhè tiáo qúnzi hěn hǎokàn.",
+        "meaningVi": "Chiếc váy này rất đẹp."
+      }
+    ]
   },
   {
     "id": "hsk1_074",
@@ -2557,7 +3159,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这首歌很好听。",
+        "pinyin": "Zhè shǒu gē hěn hǎotīng.",
+        "meaningVi": "Bài hát này rất hay."
+      }
+    ]
   },
   {
     "id": "hsk1_075",
@@ -2595,7 +3204,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个游戏很好玩儿。",
+        "pinyin": "Zhège yóuxì hěn hǎowánr.",
+        "meaningVi": "Trò chơi này rất thú vị."
+      }
+    ]
   },
   {
     "id": "hsk1_076",
@@ -2629,7 +3245,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天是几号？",
+        "pinyin": "Jīntiān shì jǐ hào?",
+        "meaningVi": "Hôm nay là ngày mấy?"
+      }
+    ]
   },
   {
     "id": "hsk1_077",
@@ -2663,7 +3286,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你想喝什么？",
+        "pinyin": "Nǐ xiǎng hē shénme?",
+        "meaningVi": "Bạn muốn uống gì?"
+      }
+    ]
   },
   {
     "id": "hsk1_078",
@@ -2697,7 +3327,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我和妈妈一起去买菜。",
+        "pinyin": "Wǒ hé māma yìqǐ qù mǎi cài.",
+        "meaningVi": "Tôi và mẹ cùng đi mua rau."
+      }
+    ]
   },
   {
     "id": "hsk1_079",
@@ -2731,7 +3368,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天天气很好。",
+        "pinyin": "Jīntiān tiānqì hěn hǎo.",
+        "meaningVi": "Hôm nay thời tiết rất đẹp."
+      }
+    ]
   },
   {
     "id": "hsk1_080",
@@ -2766,7 +3410,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "三天后我们再见面。",
+        "pinyin": "Sān tiān hòu wǒmen zài jiànmiàn.",
+        "meaningVi": "Ba ngày sau chúng ta gặp lại."
+      }
+    ]
   },
   {
     "id": "hsk1_081",
@@ -2802,7 +3453,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我要回家了。",
+        "pinyin": "Wǒ yào huí jiā le.",
+        "meaningVi": "Tôi phải về nhà rồi."
+      }
+    ]
   },
   {
     "id": "hsk1_082",
@@ -2838,7 +3496,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我会说一点儿汉语。",
+        "pinyin": "Wǒ huì shuō yìdiǎnr Hànyǔ.",
+        "meaningVi": "Tôi biết nói một chút tiếng Trung."
+      }
+    ]
   },
   {
     "id": "hsk1_083",
@@ -2873,7 +3538,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们坐火车去北京。",
+        "pinyin": "Wǒmen zuò huǒchē qù Běijīng.",
+        "meaningVi": "Chúng tôi đi tàu hỏa đến Bắc Kinh."
+      }
+    ]
   },
   {
     "id": "hsk1_084",
@@ -2905,7 +3577,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "早上我吃了一个鸡蛋。",
+        "pinyin": "Zǎoshang wǒ chīle yí gè jīdàn.",
+        "meaningVi": "Buổi sáng tôi ăn một quả trứng gà."
+      }
+    ]
   },
   {
     "id": "hsk1_085",
@@ -2941,7 +3620,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你家有几口人？",
+        "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+        "meaningVi": "Nhà bạn có mấy người?"
+      }
+    ]
   },
   {
     "id": "hsk1_086",
@@ -2980,7 +3666,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我家养了一只小猫。",
+        "pinyin": "Wǒ jiā yǎngle yì zhī xiǎomāo.",
+        "meaningVi": "Nhà tôi nuôi một con mèo con."
+      }
+    ]
   },
   {
     "id": "hsk1_087",
@@ -3015,7 +3708,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我很想念我的家人。",
+        "pinyin": "Wǒ hěn xiǎngniàn wǒ de jiārén.",
+        "meaningVi": "Tôi rất nhớ gia đình mình."
+      }
+    ]
   },
   {
     "id": "hsk1_088",
@@ -3052,7 +3752,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们下午三点见。",
+        "pinyin": "Wǒmen xiàwǔ sān diǎn jiàn.",
+        "meaningVi": "Chúng ta gặp nhau lúc ba giờ chiều."
+      }
+    ]
   },
   {
     "id": "hsk1_089",
@@ -3085,7 +3792,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "她买了一件新衣服。",
+        "pinyin": "Tā mǎile yí jiàn xīn yīfu.",
+        "meaningVi": "Cô ấy đã mua một chiếc áo mới."
+      }
+    ]
   },
   {
     "id": "hsk1_090",
@@ -3118,7 +3832,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们一起包饺子吧。",
+        "pinyin": "Wǒmen yìqǐ bāo jiǎozi ba.",
+        "meaningVi": "Chúng ta cùng gói bánh chẻo đi."
+      }
+    ]
   },
   {
     "id": "hsk1_091",
@@ -3154,7 +3875,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我叫王明。",
+        "pinyin": "Wǒ jiào Wáng Míng.",
+        "meaningVi": "Tôi tên là Vương Minh."
+      }
+    ]
   },
   {
     "id": "hsk1_092",
@@ -3189,7 +3917,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我姐姐是医生。",
+        "pinyin": "Wǒ jiějie shì yīshēng.",
+        "meaningVi": "Chị tôi là bác sĩ."
+      }
+    ]
   },
   {
     "id": "hsk1_093",
@@ -3226,7 +3961,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我今年二十岁。",
+        "pinyin": "Wǒ jīnnián èrshí suì.",
+        "meaningVi": "Năm nay tôi hai mươi tuổi."
+      }
+    ]
   },
   {
     "id": "hsk1_094",
@@ -3263,7 +4005,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天是星期一。",
+        "pinyin": "Jīntiān shì xīngqīyī.",
+        "meaningVi": "Hôm nay là thứ Hai."
+      }
+    ]
   },
   {
     "id": "hsk1_095",
@@ -3295,7 +4044,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我家有九本书。",
+        "pinyin": "Wǒ jiā yǒu jiǔ běn shū.",
+        "meaningVi": "Nhà tôi có chín cuốn sách."
+      }
+    ]
   },
   {
     "id": "hsk1_096",
@@ -3330,7 +4086,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我觉得这个电影很好看。",
+        "pinyin": "Wǒ juéde zhège diànyǐng hěn hǎokàn.",
+        "meaningVi": "Tôi thấy bộ phim này rất hay."
+      }
+    ]
   },
   {
     "id": "hsk1_097",
@@ -3364,7 +4127,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请开门。",
+        "pinyin": "Qǐng kāimén.",
+        "meaningVi": "Xin mở cửa."
+      },
+      {
+        "chinese": "会议九点开始。",
+        "pinyin": "Huìyì jiǔ diǎn kāishǐ.",
+        "meaningVi": "Cuộc họp bắt đầu lúc chín giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_098",
@@ -3398,7 +4173,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他每天开车上班。",
+        "pinyin": "Tā měitiān kāichē shàngbān.",
+        "meaningVi": "Anh ấy lái xe đi làm mỗi ngày."
+      }
+    ]
   },
   {
     "id": "hsk1_099",
@@ -3466,7 +4248,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我要去医院看病。",
+        "pinyin": "Wǒ yào qù yīyuàn kànbìng.",
+        "meaningVi": "Tôi phải đi bệnh viện khám bệnh."
+      }
+    ]
   },
   {
     "id": "hsk1_101",
@@ -3502,7 +4291,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我看见他了。",
+        "pinyin": "Wǒ kànjiàn tā le.",
+        "meaningVi": "Tôi đã nhìn thấy anh ấy."
+      }
+    ]
   },
   {
     "id": "hsk1_102",
@@ -3539,7 +4335,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我可以进来吗？",
+        "pinyin": "Wǒ kěyǐ jìnlái ma?",
+        "meaningVi": "Tôi có thể vào được không?"
+      }
+    ]
   },
   {
     "id": "hsk1_103",
@@ -3572,7 +4375,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们今天有汉语课。",
+        "pinyin": "Wǒmen jīntiān yǒu Hànyǔ kè.",
+        "meaningVi": "Hôm nay chúng tôi có tiết học tiếng Trung."
+      }
+    ]
   },
   {
     "id": "hsk1_104",
@@ -3607,7 +4417,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请张开口。",
+        "pinyin": "Qǐng zhāngkāi kǒu.",
+        "meaningVi": "Xin mở miệng ra."
+      }
+    ]
   },
   {
     "id": "hsk1_105",
@@ -3641,7 +4458,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个苹果三块钱。",
+        "pinyin": "Zhège píngguǒ sān kuài qián.",
+        "meaningVi": "Quả táo này ba đồng."
+      }
+    ]
   },
   {
     "id": "hsk1_106",
@@ -3675,7 +4499,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你什么时候来？",
+        "pinyin": "Nǐ shénme shíhou lái?",
+        "meaningVi": "Khi nào bạn đến?"
+      }
+    ]
   },
   {
     "id": "hsk1_107",
@@ -3708,7 +4539,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我的老师很好。",
+        "pinyin": "Wǒ de lǎoshī hěn hǎo.",
+        "meaningVi": "Giáo viên của tôi rất tốt."
+      }
+    ]
   },
   {
     "id": "hsk1_108",
@@ -3741,7 +4579,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我吃饭了。",
+        "pinyin": "Wǒ chīfàn le.",
+        "meaningVi": "Tôi đã ăn cơm rồi."
+      }
+    ]
   },
   {
     "id": "hsk1_109",
@@ -3775,7 +4620,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天很冷。",
+        "pinyin": "Jīntiān hěn lěng.",
+        "meaningVi": "Hôm nay rất lạnh."
+      }
+    ]
   },
   {
     "id": "hsk1_110",
@@ -3810,7 +4662,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "书在包里。",
+        "pinyin": "Shū zài bāo lǐ.",
+        "meaningVi": "Sách ở trong túi."
+      }
+    ]
   },
   {
     "id": "hsk1_111",
@@ -3844,7 +4703,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我要两杯咖啡。",
+        "pinyin": "Wǒ yào liǎng bēi kāfēi.",
+        "meaningVi": "Tôi muốn hai cốc cà phê."
+      }
+    ]
   },
   {
     "id": "hsk1_112",
@@ -3876,7 +4742,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我的电话号码有一个零。",
+        "pinyin": "Wǒ de diànhuà hàomǎ yǒu yí gè líng.",
+        "meaningVi": "Số điện thoại của tôi có một số không."
+      }
+    ]
   },
   {
     "id": "hsk1_113",
@@ -3908,7 +4781,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们班有六个女生。",
+        "pinyin": "Wǒmen bān yǒu liù gè nǚshēng.",
+        "meaningVi": "Lớp chúng tôi có sáu nữ sinh."
+      }
+    ]
   },
   {
     "id": "hsk1_114",
@@ -3940,7 +4820,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我妈妈是护士。",
+        "pinyin": "Wǒ māma shì hùshi.",
+        "meaningVi": "Mẹ tôi là y tá."
+      }
+    ]
   },
   {
     "id": "hsk1_115",
@@ -3973,7 +4860,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你喜欢喝茶吗？",
+        "pinyin": "Nǐ xǐhuan hē chá ma?",
+        "meaningVi": "Bạn có thích uống trà không?"
+      }
+    ]
   },
   {
     "id": "hsk1_116",
@@ -4007,7 +4901,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我想买一件衣服。",
+        "pinyin": "Wǒ xiǎng mǎi yí jiàn yīfu.",
+        "meaningVi": "Tôi muốn mua một chiếc áo."
+      }
+    ]
   },
   {
     "id": "hsk1_117",
@@ -4041,7 +4942,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这家商店卖水果。",
+        "pinyin": "Zhè jiā shāngdiàn mài shuǐguǒ.",
+        "meaningVi": "Cửa hàng này bán hoa quả."
+      }
+    ]
   },
   {
     "id": "hsk1_118",
@@ -4074,7 +4982,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他最近工作很忙。",
+        "pinyin": "Tā zuìjìn gōngzuò hěn máng.",
+        "meaningVi": "Gần đây anh ấy làm việc rất bận."
+      }
+    ]
   },
   {
     "id": "hsk1_119",
@@ -4106,7 +5021,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我家的猫很可爱。",
+        "pinyin": "Wǒ jiā de māo hěn kě'ài.",
+        "meaningVi": "Con mèo nhà tôi rất đáng yêu."
+      }
+    ]
   },
   {
     "id": "hsk1_120",
@@ -4140,7 +5062,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "“对不起。”“没关系。”",
+        "pinyin": "“Duìbuqǐ.” “Méi guānxi.”",
+        "meaningVi": "'Xin lỗi.' 'Không sao.'"
+      }
+    ]
   },
   {
     "id": "hsk1_121",
@@ -4175,7 +5104,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你没事吧？",
+        "pinyin": "Nǐ méishì ba?",
+        "meaningVi": "Bạn không sao chứ?"
+      }
+    ]
   },
   {
     "id": "hsk1_122",
@@ -4211,7 +5147,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "桌子上没有水果。",
+        "pinyin": "Zhuōzi shàng méiyǒu shuǐguǒ.",
+        "meaningVi": "Trên bàn không có trái cây."
+      }
+    ]
   },
   {
     "id": "hsk1_123",
@@ -4246,7 +5189,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我妹妹在上小学。",
+        "pinyin": "Wǒ mèimei zài shàng xiǎoxué.",
+        "meaningVi": "Em gái tôi đang học tiểu học."
+      }
+    ]
   },
   {
     "id": "hsk1_124",
@@ -4284,7 +5234,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "同学们，早上好！",
+        "pinyin": "Tóngxuémen, zǎoshang hǎo!",
+        "meaningVi": "Các bạn học sinh, chào buổi sáng!"
+      },
+      {
+        "chinese": "朋友们都来参加我的生日会。",
+        "pinyin": "Péngyoumen dōu lái cānjiā wǒ de shēngrì huì.",
+        "meaningVi": "Các bạn bè đều đến tham dự sinh nhật của tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_125",
@@ -4318,7 +5280,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我每天都吃米饭。",
+        "pinyin": "Wǒ měitiān dōu chī mǐfàn.",
+        "meaningVi": "Tôi ăn cơm mỗi ngày."
+      }
+    ]
   },
   {
     "id": "hsk1_126",
@@ -4352,7 +5321,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "早上我喜欢吃面包。",
+        "pinyin": "Zǎoshang wǒ xǐhuan chī miànbāo.",
+        "meaningVi": "Buổi sáng tôi thích ăn bánh mì."
+      }
+    ]
   },
   {
     "id": "hsk1_127",
@@ -4387,7 +5363,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "妈妈做的面条儿很好吃。",
+        "pinyin": "Māma zuò de miàntiáor hěn hǎochī.",
+        "meaningVi": "Mì mẹ làm rất ngon."
+      }
+    ]
   },
   {
     "id": "hsk1_128",
@@ -4424,7 +5407,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "明年我要去中国留学。",
+        "pinyin": "Míngnián wǒ yào qù Zhōngguó liúxué.",
+        "meaningVi": "Năm sau tôi sẽ đi du học ở Trung Quốc."
+      }
+    ]
   },
   {
     "id": "hsk1_129",
@@ -4461,7 +5451,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "明天是星期六。",
+        "pinyin": "Míngtiān shì xīngqīliù.",
+        "meaningVi": "Ngày mai là thứ Bảy."
+      }
+    ]
   },
   {
     "id": "hsk1_130",
@@ -4493,7 +5490,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你叫什么名字？",
+        "pinyin": "Nǐ jiào shénme míngzi?",
+        "meaningVi": "Bạn tên là gì?"
+      },
+      {
+        "chinese": "请在这里写上你的名字。",
+        "pinyin": "Qǐng zài zhèlǐ xiěshàng nǐ de míngzi.",
+        "meaningVi": "Xin viết tên của bạn vào đây."
+      }
+    ]
   },
   {
     "id": "hsk1_131",
@@ -4529,7 +5538,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "哪种颜色比较好看？",
+        "pinyin": "Nǎ zhǒng yánsè bǐjiào hǎokàn?",
+        "meaningVi": "Màu nào đẹp hơn?"
+      }
+    ]
   },
   {
     "id": "hsk1_132",
@@ -4565,7 +5581,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你要哪个？",
+        "pinyin": "Nǐ yào nǎge?",
+        "meaningVi": "Bạn muốn cái nào?"
+      }
+    ]
   },
   {
     "id": "hsk1_133",
@@ -4602,7 +5625,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你家在哪里？",
+        "pinyin": "Nǐ jiā zài nǎlǐ?",
+        "meaningVi": "Nhà bạn ở đâu?"
+      }
+    ]
   },
   {
     "id": "hsk1_134",
@@ -4639,7 +5669,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你要去哪儿？",
+        "pinyin": "Nǐ yào qù nǎr?",
+        "meaningVi": "Bạn muốn đi đâu?"
+      }
+    ]
   },
   {
     "id": "hsk1_135",
@@ -4674,7 +5711,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你喜欢哪些运动？",
+        "pinyin": "Nǐ xǐhuan nǎxiē yùndòng?",
+        "meaningVi": "Bạn thích những môn thể thao nào?"
+      }
+    ]
   },
   {
     "id": "hsk1_136",
@@ -4713,7 +5757,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "那是我的书包。",
+        "pinyin": "Nà shì wǒ de shūbāo.",
+        "meaningVi": "Đó là cặp sách của tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_137",
@@ -4748,7 +5799,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "洗手间在那边。",
+        "pinyin": "Xǐshǒujiān zài nàbiān.",
+        "meaningVi": "Nhà vệ sinh ở bên kia."
+      }
+    ]
   },
   {
     "id": "hsk1_138",
@@ -4783,7 +5841,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "那个人是谁？",
+        "pinyin": "Nàge rén shì shéi?",
+        "meaningVi": "Người đó là ai?"
+      }
+    ]
   },
   {
     "id": "hsk1_139",
@@ -4820,7 +5885,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们在那里等你。",
+        "pinyin": "Wǒmen zài nàlǐ děng nǐ.",
+        "meaningVi": "Chúng tôi đợi bạn ở đó."
+      }
+    ]
   },
   {
     "id": "hsk1_140",
@@ -4857,7 +5929,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请把书放在那儿。",
+        "pinyin": "Qǐng bǎ shū fàng zài nàr.",
+        "meaningVi": "Xin đặt sách ở đó."
+      }
+    ]
   },
   {
     "id": "hsk1_141",
@@ -4892,7 +5971,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "那些苹果是新鲜的。",
+        "pinyin": "Nàxiē píngguǒ shì xīnxiān de.",
+        "meaningVi": "Những quả táo đó là tươi."
+      }
+    ]
   },
   {
     "id": "hsk1_142",
@@ -4927,7 +6013,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个班男学生比较多。",
+        "pinyin": "Zhège bān nán xuéshēng bǐjiào duō.",
+        "meaningVi": "Lớp này có nhiều học sinh nam hơn."
+      }
+    ]
   },
   {
     "id": "hsk1_143",
@@ -4962,7 +6055,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "她的男朋友是医生。",
+        "pinyin": "Tā de nánpéngyou shì yīshēng.",
+        "meaningVi": "Bạn trai của cô ấy là bác sĩ."
+      }
+    ]
   },
   {
     "id": "hsk1_144",
@@ -4995,7 +6095,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我很好，你呢？",
+        "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+        "meaningVi": "Tôi khỏe, còn bạn thì sao?"
+      }
+    ]
   },
   {
     "id": "hsk1_145",
@@ -5031,7 +6138,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你能帮我一下吗？",
+        "pinyin": "Nǐ néng bāng wǒ yíxià ma?",
+        "meaningVi": "Bạn có thể giúp tôi một chút không?"
+      }
+    ]
   },
   {
     "id": "hsk1_146",
@@ -5068,7 +6182,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你今天忙吗？",
+        "pinyin": "Nǐ jīntiān máng ma?",
+        "meaningVi": "Hôm nay bạn có bận không?"
+      }
+    ]
   },
   {
     "id": "hsk1_147",
@@ -5098,7 +6219,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你好，很高兴认识你。",
+        "pinyin": "Nǐ hǎo, hěn gāoxìng rènshi nǐ.",
+        "meaningVi": "Xin chào, rất vui được quen biết bạn."
+      }
+    ]
   },
   {
     "id": "hsk1_148",
@@ -5134,7 +6262,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你们好，欢迎来到我们学校。",
+        "pinyin": "Nǐmen hǎo, huānyíng lái dào wǒmen xuéxiào.",
+        "meaningVi": "Xin chào các bạn, chào mừng đến trường chúng tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_149",
@@ -5171,7 +6306,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我在这家公司工作三年了。",
+        "pinyin": "Wǒ zài zhè jiā gōngsī gōngzuò sān nián le.",
+        "meaningVi": "Tôi đã làm việc ở công ty này ba năm rồi."
+      }
+    ]
   },
   {
     "id": "hsk1_150",
@@ -5207,7 +6349,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "您好，请问您贵姓？",
+        "pinyin": "Nín hǎo, qǐngwèn nín guìxìng?",
+        "meaningVi": "Xin chào, xin hỏi quý danh của ngài là gì?"
+      }
+    ]
   },
   {
     "id": "hsk1_151",
@@ -5239,7 +6388,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我早上喝一杯牛奶。",
+        "pinyin": "Wǒ zǎoshang hē yì bēi niúnǎi.",
+        "meaningVi": "Buổi sáng tôi uống một cốc sữa."
+      }
+    ]
   },
   {
     "id": "hsk1_152",
@@ -5274,7 +6430,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个班女学生比较多。",
+        "pinyin": "Zhège bān nǚ xuéshēng bǐjiào duō.",
+        "meaningVi": "Lớp này có nhiều học sinh nữ hơn."
+      }
+    ]
   },
   {
     "id": "hsk1_153",
@@ -5308,7 +6471,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他们的女儿很聪明。",
+        "pinyin": "Tāmen de nǚ'ér hěn cōngming.",
+        "meaningVi": "Con gái của họ rất thông minh."
+      }
+    ]
   },
   {
     "id": "hsk1_154",
@@ -5343,7 +6513,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他的女朋友是老师。",
+        "pinyin": "Tā de nǚpéngyou shì lǎoshī.",
+        "meaningVi": "Bạn gái của anh ấy là giáo viên."
+      }
+    ]
   },
   {
     "id": "hsk1_155",
@@ -5379,7 +6556,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这位女士是我们的新同事。",
+        "pinyin": "Zhè wèi nǚshì shì wǒmen de xīn tóngshì.",
+        "meaningVi": "Vị quý bà này là đồng nghiệp mới của chúng tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_156",
@@ -5415,7 +6599,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他是我最好的朋友。",
+        "pinyin": "Tā shì wǒ zuì hǎo de péngyou.",
+        "meaningVi": "Anh ấy là người bạn tốt nhất của tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_157",
@@ -5449,7 +6640,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这里的水果很便宜。",
+        "pinyin": "Zhèlǐ de shuǐguǒ hěn piányi.",
+        "meaningVi": "Hoa quả ở đây rất rẻ."
+      }
+    ]
   },
   {
     "id": "hsk1_158",
@@ -5484,7 +6682,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "她今天穿得很漂亮。",
+        "pinyin": "Tā jīntiān chuān de hěn piàoliang.",
+        "meaningVi": "Hôm nay cô ấy mặc rất đẹp."
+      }
+    ]
   },
   {
     "id": "hsk1_159",
@@ -5518,7 +6723,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我想吃一个苹果。",
+        "pinyin": "Wǒ xiǎng chī yí gè píngguǒ.",
+        "meaningVi": "Tôi muốn ăn một quả táo."
+      }
+    ]
   },
   {
     "id": "hsk1_160",
@@ -5550,7 +6762,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "一个星期有七天。",
+        "pinyin": "Yí gè xīngqī yǒu qī tiān.",
+        "meaningVi": "Một tuần có bảy ngày."
+      }
+    ]
   },
   {
     "id": "hsk1_161",
@@ -5583,7 +6802,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我每天七点起床。",
+        "pinyin": "Wǒ měitiān qī diǎn qǐchuáng.",
+        "meaningVi": "Mỗi ngày tôi thức dậy lúc bảy giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_162",
@@ -5616,7 +6842,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这台电脑要五千块钱。",
+        "pinyin": "Zhè tái diànnǎo yào wǔqiān kuài qián.",
+        "meaningVi": "Chiếc máy tính này giá năm nghìn tệ."
+      }
+    ]
   },
   {
     "id": "hsk1_163",
@@ -5651,7 +6884,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "三年前我住在上海。",
+        "pinyin": "Sān nián qián wǒ zhù zài Shànghǎi.",
+        "meaningVi": "Ba năm trước tôi sống ở Thượng Hải."
+      }
+    ]
   },
   {
     "id": "hsk1_164",
@@ -5683,7 +6923,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你有多少钱？",
+        "pinyin": "Nǐ yǒu duōshao qián?",
+        "meaningVi": "Bạn có bao nhiêu tiền?"
+      }
+    ]
   },
   {
     "id": "hsk1_165",
@@ -5719,7 +6966,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请坐。",
+        "pinyin": "Qǐng zuò.",
+        "meaningVi": "Mời ngồi."
+      }
+    ]
   },
   {
     "id": "hsk1_166",
@@ -5754,7 +7008,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请问，洗手间在哪里？",
+        "pinyin": "Qǐngwèn, xǐshǒujiān zài nǎlǐ?",
+        "meaningVi": "Xin hỏi, nhà vệ sinh ở đâu?"
+      }
+    ]
   },
   {
     "id": "hsk1_167",
@@ -5788,7 +7049,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们去公园吧。",
+        "pinyin": "Wǒmen qù gōngyuán ba.",
+        "meaningVi": "Chúng ta đi công viên đi."
+      }
+    ]
   },
   {
     "id": "hsk1_168",
@@ -5824,7 +7092,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "去年我去了日本。",
+        "pinyin": "Qùnián wǒ qùle Rìběn.",
+        "meaningVi": "Năm ngoái tôi đã đi Nhật Bản."
+      }
+    ]
   },
   {
     "id": "hsk1_169",
@@ -5858,7 +7133,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "夏天的天气很热。",
+        "pinyin": "Xiàtiān de tiānqì hěn rè.",
+        "meaningVi": "Thời tiết mùa hè rất nóng."
+      }
+    ]
   },
   {
     "id": "hsk1_170",
@@ -5890,7 +7172,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个房间里有很多人。",
+        "pinyin": "Zhège fángjiān lǐ yǒu hěn duō rén.",
+        "meaningVi": "Trong phòng này có rất nhiều người."
+      }
+    ]
   },
   {
     "id": "hsk1_171",
@@ -5926,7 +7215,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我不认识他。",
+        "pinyin": "Wǒ bú rènshi tā.",
+        "meaningVi": "Tôi không quen anh ấy."
+      }
+    ]
   },
   {
     "id": "hsk1_172",
@@ -5962,7 +7258,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天是五月一日。",
+        "pinyin": "Jīntiān shì wǔ yuè yī rì.",
+        "meaningVi": "Hôm nay là ngày một tháng năm."
+      }
+    ]
   },
   {
     "id": "hsk1_173",
@@ -5994,7 +7297,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我家有三口人。",
+        "pinyin": "Wǒ jiā yǒu sān kǒu rén.",
+        "meaningVi": "Nhà tôi có ba người."
+      }
+    ]
   },
   {
     "id": "hsk1_174",
@@ -6030,7 +7340,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这家商店九点开门。",
+        "pinyin": "Zhè jiā shāngdiàn jiǔ diǎn kāimén.",
+        "meaningVi": "Cửa hàng này mở cửa lúc chín giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_175",
@@ -6066,7 +7383,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "书在桌子上。",
+        "pinyin": "Shū zài zhuōzi shàng.",
+        "meaningVi": "Sách ở trên bàn."
+      }
+    ]
   },
   {
     "id": "hsk1_176",
@@ -6103,7 +7427,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我每天九点上班。",
+        "pinyin": "Wǒ měitiān jiǔ diǎn shàngbān.",
+        "meaningVi": "Mỗi ngày tôi đi làm lúc chín giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_177",
@@ -6140,7 +7471,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们八点上课。",
+        "pinyin": "Wǒmen bā diǎn shàngkè.",
+        "meaningVi": "Chúng tôi vào lớp lúc tám giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_178",
@@ -6176,7 +7514,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我上午有一节课。",
+        "pinyin": "Wǒ shàngwǔ yǒu yì jié kè.",
+        "meaningVi": "Buổi sáng tôi có một tiết học."
+      }
+    ]
   },
   {
     "id": "hsk1_179",
@@ -6211,7 +7556,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我弟弟明年上学。",
+        "pinyin": "Wǒ dìdi míngnián shàngxué.",
+        "meaningVi": "Em trai tôi sang năm đi học."
+      }
+    ]
   },
   {
     "id": "hsk1_180",
@@ -6247,7 +7599,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天来的人很少。",
+        "pinyin": "Jīntiān lái de rén hěn shǎo.",
+        "meaningVi": "Hôm nay số người đến rất ít."
+      }
+    ]
   },
   {
     "id": "hsk1_181",
@@ -6279,7 +7638,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这是谁的手机？",
+        "pinyin": "Zhè shì shéi de shǒujī?",
+        "meaningVi": "Đây là điện thoại của ai?"
+      }
+    ]
   },
   {
     "id": "hsk1_182",
@@ -6312,7 +7678,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你想吃什么？",
+        "pinyin": "Nǐ xiǎng chī shénme?",
+        "meaningVi": "Bạn muốn ăn gì?"
+      }
+    ]
   },
   {
     "id": "hsk1_183",
@@ -6347,7 +7720,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他生病了，没来上课。",
+        "pinyin": "Tā shēngbìng le, méi lái shàngkè.",
+        "meaningVi": "Anh ấy bị ốm, không đến lớp."
+      }
+    ]
   },
   {
     "id": "hsk1_184",
@@ -6379,7 +7759,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们班有十个学生。",
+        "pinyin": "Wǒmen bān yǒu shí gè xuéshēng.",
+        "meaningVi": "Lớp chúng tôi có mười học sinh."
+      }
+    ]
   },
   {
     "id": "hsk1_185",
@@ -6412,7 +7799,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你什么时候回来？",
+        "pinyin": "Nǐ shénme shíhou huílái?",
+        "meaningVi": "Khi nào bạn về?"
+      }
+    ]
   },
   {
     "id": "hsk1_186",
@@ -6444,7 +7838,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我没有时间。",
+        "pinyin": "Wǒ méiyǒu shíjiān.",
+        "meaningVi": "Tôi không có thời gian."
+      }
+    ]
   },
   {
     "id": "hsk1_187",
@@ -6477,7 +7878,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他有点事要办。",
+        "pinyin": "Tā yǒudiǎn shì yào bàn.",
+        "meaningVi": "Anh ấy có việc cần giải quyết."
+      }
+    ]
   },
   {
     "id": "hsk1_188",
@@ -6510,7 +7918,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我是越南人。",
+        "pinyin": "Wǒ shì Yuènán rén.",
+        "meaningVi": "Tôi là người Việt Nam."
+      }
+    ]
   },
   {
     "id": "hsk1_189",
@@ -6542,7 +7957,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我的手机没电了。",
+        "pinyin": "Wǒ de shǒujī méi diàn le.",
+        "meaningVi": "Điện thoại của tôi hết pin rồi."
+      }
+    ]
   },
   {
     "id": "hsk1_190",
@@ -6576,7 +7998,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "图书馆里有很多书。",
+        "pinyin": "Túshūguǎn lǐ yǒu hěn duō shū.",
+        "meaningVi": "Trong thư viện có rất nhiều sách."
+      }
+    ]
   },
   {
     "id": "hsk1_191",
@@ -6613,7 +8042,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我在书店买了两本书。",
+        "pinyin": "Wǒ zài shūdiàn mǎile liǎng běn shū.",
+        "meaningVi": "Tôi đã mua hai cuốn sách ở hiệu sách."
+      }
+    ]
   },
   {
     "id": "hsk1_192",
@@ -6645,7 +8081,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请给我一杯水。",
+        "pinyin": "Qǐng gěi wǒ yì bēi shuǐ.",
+        "meaningVi": "Xin cho tôi một cốc nước."
+      }
+    ]
   },
   {
     "id": "hsk1_193",
@@ -6679,7 +8122,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我每天都吃水果。",
+        "pinyin": "Wǒ měitiān dōu chī shuǐguǒ.",
+        "meaningVi": "Tôi ăn trái cây mỗi ngày."
+      }
+    ]
   },
   {
     "id": "hsk1_194",
@@ -6713,7 +8163,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我昨晚睡得很晚。",
+        "pinyin": "Wǒ zuówǎn shuì de hěn wǎn.",
+        "meaningVi": "Tối qua tôi ngủ rất muộn."
+      }
+    ]
   },
   {
     "id": "hsk1_195",
@@ -6748,7 +8205,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我十一点睡觉。",
+        "pinyin": "Wǒ shíyī diǎn shuìjiào.",
+        "meaningVi": "Tôi đi ngủ lúc mười một giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_196",
@@ -6782,7 +8246,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请再说一遍。",
+        "pinyin": "Qǐng zài shuō yí biàn.",
+        "meaningVi": "Xin nói lại một lần nữa."
+      }
+    ]
   },
   {
     "id": "hsk1_197",
@@ -6817,7 +8288,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "上课的时候不要说话。",
+        "pinyin": "Shàngkè de shíhou búyào shuōhuà.",
+        "meaningVi": "Khi học không được nói chuyện."
+      }
+    ]
   },
   {
     "id": "hsk1_198",
@@ -6849,7 +8327,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "现在是四月。",
+        "pinyin": "Xiànzài shì sì yuè.",
+        "meaningVi": "Bây giờ là tháng Tư."
+      }
+    ]
   },
   {
     "id": "hsk1_199",
@@ -6881,7 +8366,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我女儿三岁了。",
+        "pinyin": "Wǒ nǚ'ér sān suì le.",
+        "meaningVi": "Con gái tôi ba tuổi rồi."
+      }
+    ]
   },
   {
     "id": "hsk1_200",
@@ -6918,7 +8410,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他是我的同学。",
+        "pinyin": "Tā shì wǒ de tóngxué.",
+        "meaningVi": "Anh ấy là bạn học của tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_201",
@@ -6954,7 +8453,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这只猫，它很可爱。",
+        "pinyin": "Zhè zhī māo, tā hěn kě'ài.",
+        "meaningVi": "Con mèo này, nó rất đáng yêu."
+      }
+    ]
   },
   {
     "id": "hsk1_202",
@@ -6991,7 +8497,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "她是我姐姐。",
+        "pinyin": "Tā shì wǒ jiějie.",
+        "meaningVi": "Cô ấy là chị gái tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_203",
@@ -7029,7 +8542,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他们是我的朋友。",
+        "pinyin": "Tāmen shì wǒ de péngyou.",
+        "meaningVi": "Họ là bạn của tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_204",
@@ -7067,7 +8587,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这些书，它们都是我的。",
+        "pinyin": "Zhèxiē shū, tāmen dōu shì wǒ de.",
+        "meaningVi": "Những cuốn sách này, chúng đều là của tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_205",
@@ -7105,7 +8632,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "她们都是护士。",
+        "pinyin": "Tāmen dōu shì hùshi.",
+        "meaningVi": "Họ đều là y tá."
+      }
+    ]
   },
   {
     "id": "hsk1_206",
@@ -7140,7 +8674,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天太热了。",
+        "pinyin": "Jīntiān tài rè le.",
+        "meaningVi": "Hôm nay nóng quá."
+      }
+    ]
   },
   {
     "id": "hsk1_207",
@@ -7180,7 +8721,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "明天是星期五。",
+        "pinyin": "Míngtiān shì xīngqīwǔ.",
+        "meaningVi": "Ngày mai là thứ Sáu."
+      }
+    ]
   },
   {
     "id": "hsk1_208",
@@ -7214,7 +8762,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天天气怎么样？",
+        "pinyin": "Jīntiān tiānqì zěnmeyàng?",
+        "meaningVi": "Hôm nay thời tiết thế nào?"
+      }
+    ]
   },
   {
     "id": "hsk1_209",
@@ -7248,7 +8803,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我喜欢听音乐。",
+        "pinyin": "Wǒ xǐhuan tīng yīnyuè.",
+        "meaningVi": "Tôi thích nghe nhạc."
+      }
+    ]
   },
   {
     "id": "hsk1_210",
@@ -7284,7 +8846,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你听见了吗？",
+        "pinyin": "Nǐ tīngjiàn le ma?",
+        "meaningVi": "Bạn nghe thấy chưa?"
+      }
+    ]
   },
   {
     "id": "hsk1_211",
@@ -7319,7 +8888,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他是我的大学同学。",
+        "pinyin": "Tā shì wǒ de dàxué tóngxué.",
+        "meaningVi": "Anh ấy là bạn học đại học của tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_212",
@@ -7354,7 +8930,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "教室外有很多学生。",
+        "pinyin": "Jiàoshì wài yǒu hěn duō xuéshēng.",
+        "meaningVi": "Bên ngoài lớp học có rất nhiều học sinh."
+      }
+    ]
   },
   {
     "id": "hsk1_213",
@@ -7386,7 +8969,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "外边在下雨。",
+        "pinyin": "Wàibian zài xià yǔ.",
+        "meaningVi": "Bên ngoài đang mưa."
+      }
+    ]
   },
   {
     "id": "hsk1_214",
@@ -7418,7 +9008,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "孩子们在外边玩。",
+        "pinyin": "Háizimen zài wàibian wán.",
+        "meaningVi": "Bọn trẻ đang chơi bên ngoài."
+      }
+    ]
   },
   {
     "id": "hsk1_215",
@@ -7454,7 +9051,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "现在已经很晚了。",
+        "pinyin": "Xiànzài yǐjīng hěn wǎn le.",
+        "meaningVi": "Bây giờ đã rất muộn rồi."
+      }
+    ]
   },
   {
     "id": "hsk1_216",
@@ -7490,7 +9094,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们六点吃晚饭。",
+        "pinyin": "Wǒmen liù diǎn chī wǎnfàn.",
+        "meaningVi": "Chúng tôi ăn tối lúc sáu giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_217",
@@ -7526,7 +9137,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "晚上我常常看书。",
+        "pinyin": "Wǎnshang wǒ chángcháng kàn shū.",
+        "meaningVi": "Buổi tối tôi thường đọc sách."
+      }
+    ]
   },
   {
     "id": "hsk1_218",
@@ -7559,7 +9177,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "喂，请问是王先生吗？",
+        "pinyin": "Wèi, qǐngwèn shì Wáng xiānsheng ma?",
+        "meaningVi": "Alo, xin hỏi có phải anh Vương không?"
+      }
+    ]
   },
   {
     "id": "hsk1_219",
@@ -7593,7 +9218,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我想问你一个问题。",
+        "pinyin": "Wǒ xiǎng wèn nǐ yí gè wèntí.",
+        "meaningVi": "Tôi muốn hỏi bạn một câu hỏi."
+      }
+    ]
   },
   {
     "id": "hsk1_220",
@@ -7628,7 +9260,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个问题很难。",
+        "pinyin": "Zhège wèntí hěn nán.",
+        "meaningVi": "Câu hỏi này rất khó."
+      }
+    ]
   },
   {
     "id": "hsk1_221",
@@ -7663,7 +9302,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我是老师。",
+        "pinyin": "Wǒ shì lǎoshī.",
+        "meaningVi": "Tôi là giáo viên."
+      }
+    ]
   },
   {
     "id": "hsk1_222",
@@ -7699,7 +9345,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们明天见。",
+        "pinyin": "Wǒmen míngtiān jiàn.",
+        "meaningVi": "Chúng ta gặp nhau ngày mai."
+      }
+    ]
   },
   {
     "id": "hsk1_223",
@@ -7731,7 +9384,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们五个人一起去。",
+        "pinyin": "Wǒmen wǔ gè rén yìqǐ qù.",
+        "meaningVi": "Năm người chúng tôi cùng đi."
+      }
+    ]
   },
   {
     "id": "hsk1_224",
@@ -7767,7 +9427,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们十二点吃午饭。",
+        "pinyin": "Wǒmen shí'èr diǎn chī wǔfàn.",
+        "meaningVi": "Chúng tôi ăn trưa lúc mười hai giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_225",
@@ -7799,7 +9466,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我很喜欢这本书。",
+        "pinyin": "Wǒ hěn xǐhuan zhè běn shū.",
+        "meaningVi": "Tôi rất thích cuốn sách này."
+      }
+    ]
   },
   {
     "id": "hsk1_226",
@@ -7837,7 +9511,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请把书放下。",
+        "pinyin": "Qǐng bǎ shū fàngxià.",
+        "meaningVi": "Xin đặt sách xuống."
+      }
+    ]
   },
   {
     "id": "hsk1_227",
@@ -7870,7 +9551,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "今天下雨了。",
+        "pinyin": "Jīntiān xià yǔ le.",
+        "meaningVi": "Hôm nay trời mưa rồi."
+      }
+    ]
   },
   {
     "id": "hsk1_228",
@@ -7905,7 +9593,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我六点下班。",
+        "pinyin": "Wǒ liù diǎn xiàbān.",
+        "meaningVi": "Tôi tan làm lúc sáu giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_229",
@@ -7941,7 +9636,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们十二点下课。",
+        "pinyin": "Wǒmen shí'èr diǎn xiàkè.",
+        "meaningVi": "Chúng tôi tan học lúc mười hai giờ."
+      }
+    ]
   },
   {
     "id": "hsk1_230",
@@ -7976,7 +9678,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "下午我要去图书馆。",
+        "pinyin": "Xiàwǔ wǒ yào qù túshūguǎn.",
+        "meaningVi": "Buổi chiều tôi sẽ đi thư viện."
+      }
+    ]
   },
   {
     "id": "hsk1_231",
@@ -8012,7 +9721,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这位是王先生。",
+        "pinyin": "Zhè wèi shì Wáng xiānsheng.",
+        "meaningVi": "Đây là ông Vương."
+      }
+    ]
   },
   {
     "id": "hsk1_232",
@@ -8045,7 +9761,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "现在我很忙。",
+        "pinyin": "Xiànzài wǒ hěn máng.",
+        "meaningVi": "Bây giờ tôi rất bận."
+      }
+    ]
   },
   {
     "id": "hsk1_233",
@@ -8082,7 +9805,19 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我想去中国旅游。",
+        "pinyin": "Wǒ xiǎng qù Zhōngguó lǚyóu.",
+        "meaningVi": "Tôi muốn đi Trung Quốc du lịch."
+      },
+      {
+        "chinese": "我很想家。",
+        "pinyin": "Wǒ hěn xiǎng jiā.",
+        "meaningVi": "Tôi rất nhớ nhà."
+      }
+    ]
   },
   {
     "id": "hsk1_234",
@@ -8118,7 +9853,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这只狗很小。",
+        "pinyin": "Zhè zhī gǒu hěn xiǎo.",
+        "meaningVi": "Con chó này rất nhỏ."
+      }
+    ]
   },
   {
     "id": "hsk1_235",
@@ -8153,7 +9895,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "公园里有很多小朋友在玩。",
+        "pinyin": "Gōngyuán lǐ yǒu hěn duō xiǎopéngyǒu zài wán.",
+        "meaningVi": "Trong công viên có rất nhiều trẻ em đang chơi."
+      }
+    ]
   },
   {
     "id": "hsk1_236",
@@ -8188,7 +9937,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "从这儿到机场要一个小时。",
+        "pinyin": "Cóng zhèr dào jīchǎng yào yí gè xiǎoshí.",
+        "meaningVi": "Từ đây đến sân bay mất một tiếng."
+      }
+    ]
   },
   {
     "id": "hsk1_237",
@@ -8225,7 +9981,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这所小学很有名。",
+        "pinyin": "Zhè suǒ xiǎoxué hěn yǒumíng.",
+        "meaningVi": "Trường tiểu học này rất nổi tiếng."
+      }
+    ]
   },
   {
     "id": "hsk1_238",
@@ -8262,7 +10025,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "小学生们放学了。",
+        "pinyin": "Xiǎoxuéshēngmen fàngxué le.",
+        "meaningVi": "Các học sinh tiểu học đã tan học."
+      }
+    ]
   },
   {
     "id": "hsk1_239",
@@ -8295,7 +10065,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我买了一些水果。",
+        "pinyin": "Wǒ mǎile yìxiē shuǐguǒ.",
+        "meaningVi": "Tôi đã mua một ít trái cây."
+      }
+    ]
   },
   {
     "id": "hsk1_240",
@@ -8329,7 +10106,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请写下你的名字。",
+        "pinyin": "Qǐng xiěxià nǐ de míngzi.",
+        "meaningVi": "Xin viết tên của bạn xuống."
+      }
+    ]
   },
   {
     "id": "hsk1_241",
@@ -8363,7 +10147,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "谢谢你的帮助。",
+        "pinyin": "Xièxie nǐ de bāngzhù.",
+        "meaningVi": "Cảm ơn sự giúp đỡ của bạn."
+      }
+    ]
   },
   {
     "id": "hsk1_242",
@@ -8395,7 +10186,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我买了一部新手机。",
+        "pinyin": "Wǒ mǎile yí bù xīn shǒujī.",
+        "meaningVi": "Tôi đã mua một chiếc điện thoại mới."
+      }
+    ]
   },
   {
     "id": "hsk1_243",
@@ -8431,7 +10229,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个星期我很忙。",
+        "pinyin": "Zhège xīngqī wǒ hěn máng.",
+        "meaningVi": "Tuần này tôi rất bận."
+      }
+    ]
   },
   {
     "id": "hsk1_244",
@@ -8466,7 +10271,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "星期日我不用上班。",
+        "pinyin": "Xīngqīrì wǒ búyòng shàngbān.",
+        "meaningVi": "Chủ nhật tôi không cần đi làm."
+      }
+    ]
   },
   {
     "id": "hsk1_245",
@@ -8501,7 +10313,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们星期天去爬山吧。",
+        "pinyin": "Wǒmen xīngqītiān qù páshān ba.",
+        "meaningVi": "Chủ nhật chúng ta đi leo núi đi."
+      }
+    ]
   },
   {
     "id": "hsk1_246",
@@ -8534,7 +10353,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你累了就休息一下吧。",
+        "pinyin": "Nǐ lèi le jiù xiūxi yíxià ba.",
+        "meaningVi": "Nếu bạn mệt thì nghỉ ngơi một chút đi."
+      }
+    ]
   },
   {
     "id": "hsk1_247",
@@ -8571,7 +10397,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他在学开车。",
+        "pinyin": "Tā zài xué kāichē.",
+        "meaningVi": "Anh ấy đang học lái xe."
+      }
+    ]
   },
   {
     "id": "hsk1_248",
@@ -8610,7 +10443,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "她是一个好学生。",
+        "pinyin": "Tā shì yí gè hǎo xuéshēng.",
+        "meaningVi": "Cô ấy là một học sinh giỏi."
+      }
+    ]
   },
   {
     "id": "hsk1_249",
@@ -8646,7 +10486,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他每天都努力学习。",
+        "pinyin": "Tā měitiān dōu nǔlì xuéxí.",
+        "meaningVi": "Anh ấy học tập chăm chỉ mỗi ngày."
+      }
+    ]
   },
   {
     "id": "hsk1_250",
@@ -8678,7 +10525,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们学校很大。",
+        "pinyin": "Wǒmen xuéxiào hěn dà.",
+        "meaningVi": "Trường chúng tôi rất rộng."
+      }
+    ]
   },
   {
     "id": "hsk1_251",
@@ -8710,7 +10564,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "冬天这里常常下雪。",
+        "pinyin": "Dōngtiān zhèlǐ chángcháng xiàxuě.",
+        "meaningVi": "Mùa đông ở đây thường có tuyết rơi."
+      }
+    ]
   },
   {
     "id": "hsk1_252",
@@ -8746,7 +10607,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我要一杯咖啡。",
+        "pinyin": "Wǒ yào yì bēi kāfēi.",
+        "meaningVi": "Tôi muốn một cốc cà phê."
+      }
+    ]
   },
   {
     "id": "hsk1_253",
@@ -8778,7 +10646,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我也喜欢喝茶。",
+        "pinyin": "Wǒ yě xǐhuan hē chá.",
+        "meaningVi": "Tôi cũng thích uống trà."
+      }
+    ]
   },
   {
     "id": "hsk1_254",
@@ -8810,7 +10685,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "桌子上有一本书。",
+        "pinyin": "Zhuōzi shàng yǒu yì běn shū.",
+        "meaningVi": "Trên bàn có một cuốn sách."
+      }
+    ]
   },
   {
     "id": "hsk1_255",
@@ -8844,7 +10726,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这件衣服是新买的。",
+        "pinyin": "Zhè jiàn yīfu shì xīn mǎi de.",
+        "meaningVi": "Chiếc áo này mới mua."
+      }
+    ]
   },
   {
     "id": "hsk1_256",
@@ -8876,7 +10765,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他想当医生。",
+        "pinyin": "Tā xiǎng dāng yīshēng.",
+        "meaningVi": "Anh ấy muốn trở thành bác sĩ."
+      }
+    ]
   },
   {
     "id": "hsk1_257",
@@ -8908,7 +10804,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "医院离这儿不远。",
+        "pinyin": "Yīyuàn lí zhèr bù yuǎn.",
+        "meaningVi": "Bệnh viện cách đây không xa."
+      }
+    ]
   },
   {
     "id": "hsk1_258",
@@ -8942,7 +10845,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他把苹果分给我一半。",
+        "pinyin": "Tā bǎ píngguǒ fēn gěi wǒ yíbàn.",
+        "meaningVi": "Anh ấy chia cho tôi một nửa quả táo."
+      }
+    ]
   },
   {
     "id": "hsk1_259",
@@ -8980,7 +10890,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请等一下。",
+        "pinyin": "Qǐng děng yíxià.",
+        "meaningVi": "Xin đợi một chút."
+      }
+    ]
   },
   {
     "id": "hsk1_260",
@@ -9012,7 +10929,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这把椅子很舒服。",
+        "pinyin": "Zhè bǎ yǐzi hěn shūfu.",
+        "meaningVi": "Chiếc ghế này rất thoải mái."
+      }
+    ]
   },
   {
     "id": "hsk1_261",
@@ -9048,7 +10972,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请再给我一点儿时间。",
+        "pinyin": "Qǐng zài gěi wǒ yìdiǎnr shíjiān.",
+        "meaningVi": "Xin cho tôi thêm một chút thời gian."
+      }
+    ]
   },
   {
     "id": "hsk1_262",
@@ -9083,7 +11014,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我给你带了一些礼物。",
+        "pinyin": "Wǒ gěi nǐ dàile yìxiē lǐwù.",
+        "meaningVi": "Tôi mang cho bạn một ít quà."
+      }
+    ]
   },
   {
     "id": "hsk1_263",
@@ -9117,7 +11055,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我有一个哥哥。",
+        "pinyin": "Wǒ yǒu yí gè gēge.",
+        "meaningVi": "Tôi có một anh trai."
+      }
+    ]
   },
   {
     "id": "hsk1_264",
@@ -9152,7 +11097,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "有的人喜欢咖啡，有的人喜欢茶。",
+        "pinyin": "Yǒude rén xǐhuan kāfēi, yǒude rén xǐhuan chá.",
+        "meaningVi": "Có người thích cà phê, có người thích trà."
+      }
+    ]
   },
   {
     "id": "hsk1_265",
@@ -9187,7 +11139,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这件衣服有点儿贵。",
+        "pinyin": "Zhè jiàn yīfu yǒudiǎnr guì.",
+        "meaningVi": "Chiếc áo này hơi đắt."
+      }
+    ]
   },
   {
     "id": "hsk1_266",
@@ -9226,7 +11185,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "有些问题我还不明白。",
+        "pinyin": "Yǒuxiē wèntí wǒ hái bù míngbai.",
+        "meaningVi": "Có một số câu hỏi tôi vẫn chưa hiểu."
+      }
+    ]
   },
   {
     "id": "hsk1_267",
@@ -9260,7 +11226,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "外面的雨很大。",
+        "pinyin": "Wàimiàn de yǔ hěn dà.",
+        "meaningVi": "Mưa bên ngoài rất to."
+      }
+    ]
   },
   {
     "id": "hsk1_268",
@@ -9293,7 +11266,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这本书二十元。",
+        "pinyin": "Zhè běn shū èrshí yuán.",
+        "meaningVi": "Cuốn sách này hai mươi đồng."
+      }
+    ]
   },
   {
     "id": "hsk1_269",
@@ -9326,7 +11306,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我下个月要去北京。",
+        "pinyin": "Wǒ xià gè yuè yào qù Běijīng.",
+        "meaningVi": "Tháng sau tôi sẽ đi Bắc Kinh."
+      }
+    ]
   },
   {
     "id": "hsk1_270",
@@ -9362,7 +11349,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你能再说一次吗？",
+        "pinyin": "Nǐ néng zài shuō yí cì ma?",
+        "meaningVi": "Bạn có thể nói lại một lần nữa không?"
+      }
+    ]
   },
   {
     "id": "hsk1_271",
@@ -9398,7 +11392,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他在家看电视。",
+        "pinyin": "Tā zài jiā kàn diànshì.",
+        "meaningVi": "Anh ấy đang ở nhà xem tivi."
+      }
+    ]
   },
   {
     "id": "hsk1_272",
@@ -9434,7 +11435,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "再见，明天见！",
+        "pinyin": "Zàijiàn, míngtiān jiàn!",
+        "meaningVi": "Tạm biệt, hẹn gặp lại ngày mai!"
+      }
+    ]
   },
   {
     "id": "hsk1_273",
@@ -9470,7 +11478,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你今天来得很早。",
+        "pinyin": "Nǐ jīntiān lái de hěn zǎo.",
+        "meaningVi": "Hôm nay bạn đến sớm."
+      }
+    ]
   },
   {
     "id": "hsk1_274",
@@ -9506,7 +11521,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我很少吃早饭。",
+        "pinyin": "Wǒ hěn shǎo chī zǎofàn.",
+        "meaningVi": "Tôi ít khi ăn sáng."
+      }
+    ]
   },
   {
     "id": "hsk1_275",
@@ -9542,7 +11564,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "早上的空气很新鲜。",
+        "pinyin": "Zǎoshang de kōngqì hěn xīnxiān.",
+        "meaningVi": "Không khí buổi sáng rất trong lành."
+      }
+    ]
   },
   {
     "id": "hsk1_276",
@@ -9575,7 +11604,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个字怎么读？",
+        "pinyin": "Zhège zì zěnme dú?",
+        "meaningVi": "Chữ này đọc thế nào?"
+      }
+    ]
   },
   {
     "id": "hsk1_277",
@@ -9608,7 +11644,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我们明天去看电影，怎么样？",
+        "pinyin": "Wǒmen míngtiān qù kàn diànyǐng, zěnmeyàng?",
+        "meaningVi": "Ngày mai chúng ta đi xem phim, được không?"
+      }
+    ]
   },
   {
     "id": "hsk1_278",
@@ -9641,7 +11684,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我在找我的钥匙。",
+        "pinyin": "Wǒ zài zhǎo wǒ de yàoshi.",
+        "meaningVi": "Tôi đang tìm chìa khóa của tôi."
+      }
+    ]
   },
   {
     "id": "hsk1_279",
@@ -9677,7 +11727,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这是什么？",
+        "pinyin": "Zhè shì shénme?",
+        "meaningVi": "Đây là cái gì?"
+      }
+    ]
   },
   {
     "id": "hsk1_280",
@@ -9712,7 +11769,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请走这边。",
+        "pinyin": "Qǐng zǒu zhèbiān.",
+        "meaningVi": "Xin đi bên này."
+      }
+    ]
   },
   {
     "id": "hsk1_281",
@@ -9747,7 +11811,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这个比那个好。",
+        "pinyin": "Zhège bǐ nàge hǎo.",
+        "meaningVi": "Cái này tốt hơn cái kia."
+      }
+    ]
   },
   {
     "id": "hsk1_282",
@@ -9784,7 +11855,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这里的风景很美。",
+        "pinyin": "Zhèlǐ de fēngjǐng hěn měi.",
+        "meaningVi": "Phong cảnh ở đây rất đẹp."
+      }
+    ]
   },
   {
     "id": "hsk1_283",
@@ -9821,7 +11899,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请到这儿来。",
+        "pinyin": "Qǐng dào zhèr lái.",
+        "meaningVi": "Xin đến đây."
+      }
+    ]
   },
   {
     "id": "hsk1_284",
@@ -9856,7 +11941,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "这些照片都很好看。",
+        "pinyin": "Zhèxiē zhàopiàn dōu hěn hǎokàn.",
+        "meaningVi": "Những bức ảnh này đều rất đẹp."
+      }
+    ]
   },
   {
     "id": "hsk1_285",
@@ -9893,7 +11985,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你真聪明。",
+        "pinyin": "Nǐ zhēn cōngming.",
+        "meaningVi": "Bạn thật thông minh."
+      }
+    ]
   },
   {
     "id": "hsk1_286",
@@ -9925,7 +12024,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "妈妈正在做饭。",
+        "pinyin": "Māma zhèngzài zuò fàn.",
+        "meaningVi": "Mẹ đang nấu cơm."
+      }
+    ]
   },
   {
     "id": "hsk1_287",
@@ -9993,7 +12099,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我不知道他在哪里。",
+        "pinyin": "Wǒ bù zhīdào tā zài nǎlǐ.",
+        "meaningVi": "Tôi không biết anh ấy ở đâu."
+      }
+    ]
   },
   {
     "id": "hsk1_289",
@@ -10027,7 +12140,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我来自中国。",
+        "pinyin": "Wǒ láizì Zhōngguó.",
+        "meaningVi": "Tôi đến từ Trung Quốc."
+      }
+    ]
   },
   {
     "id": "hsk1_290",
@@ -10060,7 +12180,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他的中文说得很好。",
+        "pinyin": "Tā de Zhōngwén shuō de hěn hǎo.",
+        "meaningVi": "Tiếng Trung của anh ấy nói rất tốt."
+      }
+    ]
   },
   {
     "id": "hsk1_291",
@@ -10095,7 +12222,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "中午我们去哪儿吃饭？",
+        "pinyin": "Zhōngwǔ wǒmen qù nǎr chīfàn?",
+        "meaningVi": "Buổi trưa chúng ta đi đâu ăn cơm?"
+      }
+    ]
   },
   {
     "id": "hsk1_292",
@@ -10132,7 +12266,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我在这所中学教书。",
+        "pinyin": "Wǒ zài zhè suǒ zhōngxué jiāoshū.",
+        "meaningVi": "Tôi dạy học ở trường trung học này."
+      }
+    ]
   },
   {
     "id": "hsk1_293",
@@ -10169,7 +12310,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "中学生的学习压力很大。",
+        "pinyin": "Zhōngxuéshēng de xuéxí yālì hěn dà.",
+        "meaningVi": "Áp lực học tập của học sinh trung học rất lớn."
+      }
+    ]
   },
   {
     "id": "hsk1_294",
@@ -10203,7 +12351,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你住在哪儿？",
+        "pinyin": "Nǐ zhù zài nǎr?",
+        "meaningVi": "Bạn sống ở đâu?"
+      }
+    ]
   },
   {
     "id": "hsk1_295",
@@ -10235,7 +12390,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "桌子上放着一杯咖啡。",
+        "pinyin": "Zhuōzi shàng fàngzhe yì bēi kāfēi.",
+        "meaningVi": "Trên bàn đặt một cốc cà phê."
+      }
+    ]
   },
   {
     "id": "hsk1_296",
@@ -10271,7 +12433,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "他写的字很漂亮。",
+        "pinyin": "Tā xiě de zì hěn piàoliang.",
+        "meaningVi": "Chữ anh ấy viết rất đẹp."
+      }
+    ]
   },
   {
     "id": "hsk1_297",
@@ -10307,7 +12476,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "昨天我没去上班。",
+        "pinyin": "Zuótiān wǒ méi qù shàngbān.",
+        "meaningVi": "Hôm qua tôi không đi làm."
+      }
+    ]
   },
   {
     "id": "hsk1_298",
@@ -10340,7 +12516,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "请坐在这把椅子上。",
+        "pinyin": "Qǐng zuò zài zhè bǎ yǐzi shàng.",
+        "meaningVi": "Xin ngồi vào chiếc ghế này."
+      }
+    ]
   },
   {
     "id": "hsk1_299",
@@ -10372,7 +12555,14 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "你在做什么？",
+        "pinyin": "Nǐ zài zuò shénme?",
+        "meaningVi": "Bạn đang làm gì?"
+      }
+    ]
   },
   {
     "id": "hsk1_300",
@@ -10403,6 +12593,13 @@
     },
     "contentStatus": "draft",
     "reviewRequired": true,
-    "reviewStatus": "reviewed"
+    "reviewStatus": "reviewed",
+    "examples": [
+      {
+        "chinese": "我妈妈很会做饭。",
+        "pinyin": "Wǒ māma hěn huì zuò fàn.",
+        "meaningVi": "Mẹ tôi rất giỏi nấu ăn."
+      }
+    ]
   }
 ]

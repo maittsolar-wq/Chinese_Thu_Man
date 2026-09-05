@@ -1,4 +1,4 @@
-import type { HskLevel, VocabularyWord } from "./types";
+import type { HskLevel, VocabularyExample, VocabularyWord } from "./types";
 
 /**
  * The six hsk{N}_vocabulary_production.json files do not share one schema:
@@ -11,6 +11,11 @@ import type { HskLevel, VocabularyWord } from "./types";
  *  - HSK 6: reduced shape — no hskLevels (uses `level: "HSK 6"`), no
  *    partOfSpeech (uses `cixing`), no characterIds/exampleIds/audio/
  *    strokeCount/relatedWordIds at all.
+ *  - `examples` (P5.10.4 integration): present only on records covered
+ *    by the HSK Examples generation pipeline (pilot + batches 002-032,
+ *    5312 records across all six levels); absent entirely on the 88
+ *    special-review records that pipeline intentionally excluded. The
+ *    legacy `exampleIds` field (always empty) is unrelated and untouched.
  *
  * This adapter normalizes every level to the single canonical
  * VocabularyWord shape at read time. It never edits the source files.
@@ -28,6 +33,7 @@ export interface RawVocabularyRecord {
   cixing?: string | null;
   strokeCount?: number | null;
   relatedWordIds?: string[] | null;
+  examples?: VocabularyExample[] | null;
   audio?: { wordUrl?: string | null; exampleUrl?: string | null } | null;
 }
 
@@ -84,9 +90,10 @@ export function normalizeVocabularyRecord(
     partOfSpeech: resolvePartOfSpeech(raw),
     strokeCount: raw.strokeCount ?? null,
     relatedWordIds: raw.relatedWordIds ?? [],
-    // No examples.json exists in the data layer yet, and exampleIds is
-    // always empty in every production file sampled — nothing to resolve.
-    examples: [],
+    // Populated by the P5.10.4 integration for pipeline-covered records
+    // (pilot + batches 002-032); absent on the special-review records,
+    // which correctly fall back to an empty array here.
+    examples: raw.examples ?? [],
     audio: {
       wordUrl: raw.audio?.wordUrl ?? null,
       exampleUrl: raw.audio?.exampleUrl ?? null,

@@ -97,7 +97,14 @@
     "status": "approved",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": true
+    "translationAccuracyVerified": true,
+    "examples": [
+      {
+        "chinese": "我的爱好是画画。",
+        "pinyin": "Wǒ de àihào shì huàhuà.",
+        "meaningVi": "Sở thích của tôi là vẽ tranh."
+      }
+    ]
   },
   {
     "id": "hsk2_003",
@@ -148,7 +155,19 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她喜欢穿白色的衣服。",
+        "pinyin": "Tā xǐhuan chuān báisè de yīfu.",
+        "meaningVi": "Cô ấy thích mặc quần áo màu trắng."
+      },
+      {
+        "chinese": "这辆车是白色的。",
+        "pinyin": "Zhè liàng chē shì báisè de.",
+        "meaningVi": "Chiếc xe này màu trắng."
+      }
+    ]
   },
   {
     "id": "hsk2_004",
@@ -206,7 +225,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我们班一共有三十个学生。",
+        "pinyin": "Wǒmen bān yígòng yǒu sānshí gè xuésheng.",
+        "meaningVi": "Lớp chúng tôi tổng cộng có ba mươi học sinh."
+      }
+    ]
   },
   {
     "id": "hsk2_005",
@@ -261,7 +287,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请帮我拿一下这个包。",
+        "pinyin": "Qǐng bāng wǒ ná yíxià zhège bāo.",
+        "meaningVi": "Xin giúp tôi cầm cái túi này."
+      }
+    ]
   },
   {
     "id": "hsk2_006",
@@ -315,7 +348,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "谢谢你来帮忙。",
+        "pinyin": "Xièxie nǐ lái bāngmáng.",
+        "meaningVi": "Cảm ơn bạn đã đến giúp đỡ."
+      }
+    ]
   },
   {
     "id": "hsk2_007",
@@ -374,7 +414,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她买了一个新包。",
+        "pinyin": "Tā mǎile yí gè xīn bāo.",
+        "meaningVi": "Cô ấy đã mua một chiếc túi mới."
+      }
+    ]
   },
   {
     "id": "hsk2_008",
@@ -426,7 +473,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请拿出你的本子。",
+        "pinyin": "Qǐng náchū nǐ de běnzi.",
+        "meaningVi": "Xin lấy vở của bạn ra."
+      }
+    ]
   },
   {
     "id": "hsk2_009",
@@ -483,7 +537,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这个西瓜比那个大。",
+        "pinyin": "Zhège xīguā bǐ nàge dà.",
+        "meaningVi": "Quả dưa hấu này to hơn quả kia."
+      }
+    ]
   },
   {
     "id": "hsk2_010",
@@ -542,7 +603,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请借我一支笔。",
+        "pinyin": "Qǐng jiè wǒ yì zhī bǐ.",
+        "meaningVi": "Xin cho tôi mượn một cây bút."
+      }
+    ]
   },
   {
     "id": "hsk2_011",
@@ -597,7 +665,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "别在这里抽烟。",
+        "pinyin": "Bié zài zhèlǐ chōuyān.",
+        "meaningVi": "Đừng hút thuốc ở đây."
+      }
+    ]
   },
   {
     "id": "hsk2_012",
@@ -651,7 +726,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这家餐厅的菜味道不错。",
+        "pinyin": "Zhè jiā cāntīng de cài wèidao búcuò.",
+        "meaningVi": "Món ăn của nhà hàng này khá ngon."
+      }
+    ]
   },
   {
     "id": "hsk2_013",
@@ -706,7 +788,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "不好意思，我来晚了。",
+        "pinyin": "Bù hǎoyìsi, wǒ lái wǎn le.",
+        "meaningVi": "Xin lỗi, tôi đến muộn rồi."
+      }
+    ]
   },
   {
     "id": "hsk2_014",
@@ -809,7 +898,19 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "车站离这儿很近。",
+        "pinyin": "Chēzhàn lí zhèr hěn jìn.",
+        "meaningVi": "Trạm xe cách đây rất gần."
+      },
+      {
+        "chinese": "我们在车站等他。",
+        "pinyin": "Wǒmen zài chēzhàn děng tā.",
+        "meaningVi": "Chúng tôi đợi anh ấy ở trạm xe."
+      }
+    ]
   },
   {
     "id": "hsk2_016",
@@ -870,7 +971,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请出示证件。",
+        "pinyin": "Qǐng chūshì zhèngjiàn.",
+        "meaningVi": "Xin xuất trình giấy tờ."
+      }
+    ]
   },
   {
     "id": "hsk2_017",
@@ -924,7 +1032,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他打算明年出国留学。",
+        "pinyin": "Tā dǎsuàn míngnián chūguó liúxué.",
+        "meaningVi": "Anh ấy dự định sang năm ra nước ngoài du học."
+      }
+    ]
   },
   {
     "id": "hsk2_018",
@@ -984,7 +1099,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请你出来一下。",
+        "pinyin": "Qǐng nǐ chūlái yíxià.",
+        "meaningVi": "Xin bạn ra ngoài một chút."
+      }
+    ]
   },
   {
     "id": "hsk2_019",
@@ -1039,7 +1161,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他每天七点出门上班。",
+        "pinyin": "Tā měitiān qī diǎn chūmén shàngbān.",
+        "meaningVi": "Mỗi ngày anh ấy bảy giờ ra khỏi nhà đi làm."
+      }
+    ]
   },
   {
     "id": "hsk2_020",
@@ -1097,7 +1226,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "外面下雨了，先别出去。",
+        "pinyin": "Wàimiàn xiàyǔ le, xiān bié chūqù.",
+        "meaningVi": "Bên ngoài trời mưa rồi, tạm thời đừng ra ngoài."
+      }
+    ]
   },
   {
     "id": "hsk2_021",
@@ -1148,7 +1284,19 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这张床很舒服。",
+        "pinyin": "Zhè zhāng chuáng hěn shūfu.",
+        "meaningVi": "Chiếc giường này rất thoải mái."
+      },
+      {
+        "chinese": "猫在床上睡觉。",
+        "pinyin": "Māo zài chuáng shàng shuìjiào.",
+        "meaningVi": "Con mèo đang ngủ trên giường."
+      }
+    ]
   },
   {
     "id": "hsk2_022",
@@ -1202,7 +1350,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请查一下这个词的读音。",
+        "pinyin": "Qǐng chá yíxià zhège cí de dúyīn.",
+        "meaningVi": "Xin tra cách đọc của từ này."
+      }
+    ]
   },
   {
     "id": "hsk2_023",
@@ -1258,7 +1413,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这是我第一次来北京。",
+        "pinyin": "Zhè shì wǒ dì-yī cì lái Běijīng.",
+        "meaningVi": "Đây là lần đầu tiên tôi đến Bắc Kinh."
+      }
+    ]
   },
   {
     "id": "hsk2_024",
@@ -1319,7 +1481,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他从上海来。",
+        "pinyin": "Tā cóng Shànghǎi lái.",
+        "meaningVi": "Anh ấy đến từ Thượng Hải."
+      }
+    ]
   },
   {
     "id": "hsk2_025",
@@ -1374,7 +1543,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她从小就喜欢唱歌。",
+        "pinyin": "Tā cóngxiǎo jiù xǐhuan chànggē.",
+        "meaningVi": "Cô ấy từ nhỏ đã thích hát."
+      }
+    ]
   },
   {
     "id": "hsk2_026",
@@ -1429,7 +1605,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这道题你做错了。",
+        "pinyin": "Zhè dào tí nǐ zuòcuò le.",
+        "meaningVi": "Bài này bạn làm sai rồi."
+      }
+    ]
   },
   {
     "id": "hsk2_027",
@@ -1487,7 +1670,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请打电话告诉我。",
+        "pinyin": "Qǐng dǎ diànhuà gàosu wǒ.",
+        "meaningVi": "Xin gọi điện báo cho tôi."
+      }
+    ]
   },
   {
     "id": "hsk2_028",
@@ -1541,7 +1731,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "下雨了，我们打车去吧。",
+        "pinyin": "Xiàyǔ le, wǒmen dǎchē qù ba.",
+        "meaningVi": "Trời mưa rồi, chúng ta đi taxi đi."
+      }
+    ]
   },
   {
     "id": "hsk2_029",
@@ -1596,7 +1793,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请打开窗户。",
+        "pinyin": "Qǐng dǎkāi chuānghu.",
+        "meaningVi": "Xin mở cửa sổ."
+      }
+    ]
   },
   {
     "id": "hsk2_030",
@@ -1654,7 +1858,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "房间不大，但很干净。",
+        "pinyin": "Fángjiān bú dà, dàn hěn gānjìng.",
+        "meaningVi": "Phòng không lớn, nhưng rất sạch sẽ."
+      }
+    ]
   },
   {
     "id": "hsk2_031",
@@ -1709,7 +1920,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他很努力，但是成绩不太好。",
+        "pinyin": "Tā hěn nǔlì, dànshì chéngjì bú tài hǎo.",
+        "meaningVi": "Anh ấy rất chăm chỉ, nhưng thành tích không tốt lắm."
+      }
+    ]
   },
   {
     "id": "hsk2_032",
@@ -1866,7 +2084,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请在门口等我。",
+        "pinyin": "Qǐng zài ménkǒu děng wǒ.",
+        "meaningVi": "Xin đợi tôi ở cửa."
+      }
+    ]
   },
   {
     "id": "hsk2_035",
@@ -1920,7 +2145,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我每天坐地铁上班。",
+        "pinyin": "Wǒ měitiān zuò dìtiě shàngbān.",
+        "meaningVi": "Mỗi ngày tôi đi tàu điện ngầm đi làm."
+      }
+    ]
   },
   {
     "id": "hsk2_036",
@@ -1980,7 +2212,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我想点一杯咖啡。",
+        "pinyin": "Wǒ xiǎng diǎn yì bēi kāfēi.",
+        "meaningVi": "Tôi muốn gọi một ly cà phê."
+      }
+    ]
   },
   {
     "id": "hsk2_037",
@@ -2032,7 +2271,19 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我听不懂他说的话。",
+        "pinyin": "Wǒ tīng bu dǒng tā shuō de huà.",
+        "meaningVi": "Tôi không hiểu những gì anh ấy nói."
+      },
+      {
+        "chinese": "你懂我的意思吗？",
+        "pinyin": "Nǐ dǒng wǒ de yìsi ma?",
+        "meaningVi": "Bạn hiểu ý tôi không?"
+      }
+    ]
   },
   {
     "id": "hsk2_038",
@@ -2087,7 +2338,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请不要动。",
+        "pinyin": "Qǐng búyào dòng.",
+        "meaningVi": "Xin đừng cử động."
+      }
+    ]
   },
   {
     "id": "hsk2_039",
@@ -2141,7 +2399,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我们去那家饭馆吃饭吧。",
+        "pinyin": "Wǒmen qù nà jiā fànguǎn chīfàn ba.",
+        "meaningVi": "Chúng ta đi ăn ở nhà hàng đó đi."
+      }
+    ]
   },
   {
     "id": "hsk2_040",
@@ -2192,7 +2457,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "小鸟在天上飞。",
+        "pinyin": "Xiǎo niǎo zài tiānshàng fēi.",
+        "meaningVi": "Con chim nhỏ đang bay trên trời."
+      }
+    ]
   },
   {
     "id": "hsk2_041",
@@ -2248,7 +2520,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他个子很高。",
+        "pinyin": "Tā gèzi hěn gāo.",
+        "meaningVi": "Anh ấy vóc dáng rất cao."
+      }
+    ]
   },
   {
     "id": "hsk2_042",
@@ -2305,7 +2584,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我妹妹在读高中。",
+        "pinyin": "Wǒ mèimei zài dú gāozhōng.",
+        "meaningVi": "Em gái tôi đang học cấp ba."
+      }
+    ]
   },
   {
     "id": "hsk2_043",
@@ -2359,7 +2645,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请把这个好消息告诉大家。",
+        "pinyin": "Qǐng bǎ zhège hǎo xiāoxi gàosu dàjiā.",
+        "meaningVi": "Xin báo tin vui này cho mọi người."
+      }
+    ]
   },
   {
     "id": "hsk2_044",
@@ -2411,7 +2704,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他的个子长高了不少。",
+        "pinyin": "Tā de gèzi zhǎnggāole bù shǎo.",
+        "meaningVi": "Vóc dáng của anh ấy đã cao lên nhiều."
+      }
+    ]
   },
   {
     "id": "hsk2_045",
@@ -2474,7 +2774,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我跟他一起去超市。",
+        "pinyin": "Wǒ gēn tā yìqǐ qù chāoshì.",
+        "meaningVi": "Tôi cùng anh ấy đi siêu thị."
+      }
+    ]
   },
   {
     "id": "hsk2_046",
@@ -2525,7 +2832,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我每天坐公交车上班。",
+        "pinyin": "Wǒ měitiān zuò gōngjiāochē shàngbān.",
+        "meaningVi": "Tôi đi xe buýt đi làm mỗi ngày."
+      }
+    ]
   },
   {
     "id": "hsk2_047",
@@ -2641,7 +2955,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "老师叫我过来一趟。",
+        "pinyin": "Lǎoshī jiào wǒ guòlái yí tàng.",
+        "meaningVi": "Giáo viên gọi tôi đến một chuyến."
+      }
+    ]
   },
   {
     "id": "hsk2_049",
@@ -2695,7 +3016,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "每年过年我们都回老家。",
+        "pinyin": "Měi nián guònián wǒmen dōu huí lǎojiā.",
+        "meaningVi": "Mỗi năm Tết đến chúng tôi đều về quê."
+      }
+    ]
   },
   {
     "id": "hsk2_050",
@@ -2752,7 +3080,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "那件事已经过去了。",
+        "pinyin": "Nà jiàn shì yǐjīng guòqù le.",
+        "meaningVi": "Việc đó đã qua rồi."
+      }
+    ]
   },
   {
     "id": "hsk2_051",
@@ -2856,7 +3191,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "你要喝茶还是喝咖啡？",
+        "pinyin": "Nǐ yào hē chá háishi hē kāfēi?",
+        "meaningVi": "Bạn muốn uống trà hay uống cà phê?"
+      }
+    ]
   },
   {
     "id": "hsk2_053",
@@ -2908,7 +3250,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他喜欢穿黑色的衣服。",
+        "pinyin": "Tā xǐhuan chuān hēisè de yīfu.",
+        "meaningVi": "Anh ấy thích mặc quần áo màu đen."
+      }
+    ]
   },
   {
     "id": "hsk2_054",
@@ -2962,7 +3311,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我早上喜欢喝红茶。",
+        "pinyin": "Wǒ zǎoshang xǐhuan hē hóngchá.",
+        "meaningVi": "Buổi sáng tôi thích uống trà đen."
+      }
+    ]
   },
   {
     "id": "hsk2_055",
@@ -3014,7 +3370,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "中国国旗是红色的。",
+        "pinyin": "Zhōngguó guóqí shì hóngsè de.",
+        "meaningVi": "Quốc kỳ Trung Quốc màu đỏ."
+      }
+    ]
   },
   {
     "id": "hsk2_056",
@@ -3069,7 +3432,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他坐在我后面。",
+        "pinyin": "Tā zuò zài wǒ hòumiàn.",
+        "meaningVi": "Anh ấy ngồi ở phía sau tôi."
+      }
+    ]
   },
   {
     "id": "hsk2_057",
@@ -3234,7 +3604,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她画了一幅山水画。",
+        "pinyin": "Tā huàle yì fú shānshuǐhuà.",
+        "meaningVi": "Cô ấy đã vẽ một bức tranh sơn thủy."
+      }
+    ]
   },
   {
     "id": "hsk2_060",
@@ -3288,7 +3665,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我的手机坏了。",
+        "pinyin": "Wǒ de shǒujī huài le.",
+        "meaningVi": "Điện thoại của tôi bị hỏng rồi."
+      }
+    ]
   },
   {
     "id": "hsk2_061",
@@ -3348,7 +3732,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他晚上八点才回来。",
+        "pinyin": "Tā wǎnshang bā diǎn cái huílái.",
+        "meaningVi": "Anh ấy đến tám giờ tối mới về."
+      }
+    ]
   },
   {
     "id": "hsk2_062",
@@ -3406,7 +3797,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "天晚了，我该回去了。",
+        "pinyin": "Tiān wǎn le, wǒ gāi huíqù le.",
+        "meaningVi": "Trời tối rồi, tôi phải về thôi."
+      }
+    ]
   },
   {
     "id": "hsk2_063",
@@ -3458,7 +3856,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我去机场接朋友。",
+        "pinyin": "Wǒ qù jīchǎng jiē péngyou.",
+        "meaningVi": "Tôi đi sân bay đón bạn."
+      }
+    ]
   },
   {
     "id": "hsk2_064",
@@ -3510,7 +3915,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我在网上买了机票。",
+        "pinyin": "Wǒ zài wǎngshàng mǎile jīpiào.",
+        "meaningVi": "Tôi đã mua vé máy bay trên mạng."
+      }
+    ]
   },
   {
     "id": "hsk2_065",
@@ -3564,7 +3976,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "你还记得他的名字吗？",
+        "pinyin": "Nǐ hái jìde tā de míngzi ma?",
+        "meaningVi": "Bạn còn nhớ tên của anh ấy không?"
+      }
+    ]
   },
   {
     "id": "hsk2_066",
@@ -3624,7 +4043,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这间屋子很宽敞。",
+        "pinyin": "Zhè jiān wūzi hěn kuānchang.",
+        "meaningVi": "Căn phòng này rất rộng rãi."
+      }
+    ]
   },
   {
     "id": "hsk2_067",
@@ -3673,7 +4099,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她教我们数学。",
+        "pinyin": "Tā jiāo wǒmen shùxué.",
+        "meaningVi": "Cô ấy dạy toán cho chúng tôi."
+      }
+    ]
   },
   {
     "id": "hsk2_068",
@@ -3727,7 +4160,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "学生们都在教室里上课。",
+        "pinyin": "Xuéshengmen dōu zài jiàoshì lǐ shàngkè.",
+        "meaningVi": "Các học sinh đều đang học trong lớp học."
+      }
+    ]
   },
   {
     "id": "hsk2_069",
@@ -3776,7 +4216,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请介绍一下你自己。",
+        "pinyin": "Qǐng jièshào yíxià nǐ zìjǐ.",
+        "meaningVi": "Xin giới thiệu bản thân một chút."
+      }
+    ]
   },
   {
     "id": "hsk2_070",
@@ -3832,7 +4279,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请进。",
+        "pinyin": "Qǐng jìn.",
+        "meaningVi": "Mời vào."
+      }
+    ]
   },
   {
     "id": "hsk2_071",
@@ -3883,7 +4337,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "学校离我家很近。",
+        "pinyin": "Xuéxiào lí wǒ jiā hěn jìn.",
+        "meaningVi": "Trường học cách nhà tôi rất gần."
+      }
+    ]
   },
   {
     "id": "hsk2_072",
@@ -3943,7 +4404,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "外面很冷，快进来吧。",
+        "pinyin": "Wàimiàn hěn lěng, kuài jìnlái ba.",
+        "meaningVi": "Bên ngoài rất lạnh, mau vào đây đi."
+      }
+    ]
   },
   {
     "id": "hsk2_073",
@@ -4001,7 +4469,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "门开着，你可以进去。",
+        "pinyin": "Mén kāizhe, nǐ kěyǐ jìnqù.",
+        "meaningVi": "Cửa đang mở, bạn có thể vào trong."
+      }
+    ]
   },
   {
     "id": "hsk2_074",
@@ -4055,7 +4530,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他经常忘记带钥匙。",
+        "pinyin": "Tā jīngcháng wàngjì dài yàoshi.",
+        "meaningVi": "Anh ấy thường xuyên quên mang chìa khóa."
+      }
+    ]
   },
   {
     "id": "hsk2_075",
@@ -4106,7 +4588,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我们住在一家五星级酒店。",
+        "pinyin": "Wǒmen zhù zài yì jiā wǔxīngjí jiǔdiàn.",
+        "meaningVi": "Chúng tôi ở một khách sạn năm sao."
+      }
+    ]
   },
   {
     "id": "hsk2_076",
@@ -4165,7 +4654,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我马上就到。",
+        "pinyin": "Wǒ mǎshàng jiù dào.",
+        "meaningVi": "Tôi sẽ đến ngay."
+      }
+    ]
   },
   {
     "id": "hsk2_077",
@@ -4214,7 +4710,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这家店的咖啡很香。",
+        "pinyin": "Zhè jiā diàn de kāfēi hěn xiāng.",
+        "meaningVi": "Cà phê của cửa hàng này rất thơm."
+      }
+    ]
   },
   {
     "id": "hsk2_078",
@@ -4271,7 +4774,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "电影几点开始？",
+        "pinyin": "Diànyǐng jǐ diǎn kāishǐ?",
+        "meaningVi": "Phim mấy giờ bắt đầu?"
+      }
+    ]
   },
   {
     "id": "hsk2_079",
@@ -4328,7 +4838,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "学校下周一开学。",
+        "pinyin": "Xuéxiào xià zhōuyī kāixué.",
+        "meaningVi": "Trường học khai giảng vào thứ hai tuần sau."
+      }
+    ]
   },
   {
     "id": "hsk2_080",
@@ -4382,7 +4899,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "明天要考数学。",
+        "pinyin": "Míngtiān yào kǎo shùxué.",
+        "meaningVi": "Ngày mai phải thi toán."
+      }
+    ]
   },
   {
     "id": "hsk2_081",
@@ -4437,7 +4961,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这次考试很难。",
+        "pinyin": "Zhè cì kǎoshì hěn nán.",
+        "meaningVi": "Kỳ thi lần này rất khó."
+      }
+    ]
   },
   {
     "id": "hsk2_082",
@@ -4494,7 +5025,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "明天可能会下雪。",
+        "pinyin": "Míngtiān kěnéng huì xiàxuě.",
+        "meaningVi": "Ngày mai có thể sẽ có tuyết."
+      }
+    ]
   },
   {
     "id": "hsk2_083",
@@ -4545,7 +5083,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这条裤子有点儿长。",
+        "pinyin": "Zhè tiáo kùzi yǒudiǎnr cháng.",
+        "meaningVi": "Chiếc quần này hơi dài."
+      }
+    ]
   },
   {
     "id": "hsk2_084",
@@ -4601,7 +5146,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请开快一点。",
+        "pinyin": "Qǐng kāi kuài yìdiǎn.",
+        "meaningVi": "Xin lái nhanh một chút."
+      }
+    ]
   },
   {
     "id": "hsk2_085",
@@ -4655,7 +5207,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他每天都过得很快乐。",
+        "pinyin": "Tā měitiān dōu guò de hěn kuàilè.",
+        "meaningVi": "Mỗi ngày anh ấy đều sống rất vui vẻ."
+      }
+    ]
   },
   {
     "id": "hsk2_086",
@@ -4709,7 +5268,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "火车快要到站了。",
+        "pinyin": "Huǒchē kuàiyào dào zhàn le.",
+        "meaningVi": "Tàu hỏa sắp đến ga rồi."
+      }
+    ]
   },
   {
     "id": "hsk2_087",
@@ -4763,7 +5329,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他每周都打篮球。",
+        "pinyin": "Tā měi zhōu dōu dǎ lánqiú.",
+        "meaningVi": "Anh ấy chơi bóng rổ mỗi tuần."
+      }
+    ]
   },
   {
     "id": "hsk2_088",
@@ -4816,7 +5389,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "今天工作了一天，很累。",
+        "pinyin": "Jīntiān gōngzuòle yì tiān, hěn lèi.",
+        "meaningVi": "Hôm nay làm việc cả ngày, rất mệt."
+      }
+    ]
   },
   {
     "id": "hsk2_089",
@@ -4867,7 +5447,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我家离公司不远。",
+        "pinyin": "Wǒ jiā lí gōngsī bù yuǎn.",
+        "meaningVi": "Nhà tôi cách công ty không xa."
+      }
+    ]
   },
   {
     "id": "hsk2_090",
@@ -4922,7 +5509,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "箱子里面装满了衣服。",
+        "pinyin": "Xiāngzi lǐmiàn zhuāngmǎnle yīfu.",
+        "meaningVi": "Bên trong hộp đầy quần áo."
+      }
+    ]
   },
   {
     "id": "hsk2_091",
@@ -4976,7 +5570,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我家住在五楼。",
+        "pinyin": "Wǒ jiā zhù zài wǔ lóu.",
+        "meaningVi": "Nhà tôi ở tầng năm."
+      }
+    ]
   },
   {
     "id": "hsk2_092",
@@ -5032,7 +5633,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这条路很宽。",
+        "pinyin": "Zhè tiáo lù hěn kuān.",
+        "meaningVi": "Con đường này rất rộng."
+      }
+    ]
   },
   {
     "id": "hsk2_093",
@@ -5086,7 +5694,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "路上小心一点。",
+        "pinyin": "Lùshang xiǎoxīn yìdiǎn.",
+        "meaningVi": "Trên đường cẩn thận một chút."
+      }
+    ]
   },
   {
     "id": "hsk2_094",
@@ -5137,7 +5752,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "暑假我们去云南旅游。",
+        "pinyin": "Shǔjià wǒmen qù Yúnnán lǚyóu.",
+        "meaningVi": "Kỳ nghỉ hè chúng tôi đi Vân Nam du lịch."
+      }
+    ]
   },
   {
     "id": "hsk2_095",
@@ -5191,7 +5813,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "绿茶对身体很好。",
+        "pinyin": "Lǜchá duì shēntǐ hěn hǎo.",
+        "meaningVi": "Trà xanh rất tốt cho sức khỏe."
+      }
+    ]
   },
   {
     "id": "hsk2_096",
@@ -5250,7 +5879,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她喜欢绿色的衣服。",
+        "pinyin": "Tā xǐhuan lǜsè de yīfu.",
+        "meaningVi": "Cô ấy thích quần áo màu xanh lá."
+      }
+    ]
   },
   {
     "id": "hsk2_097",
@@ -5304,7 +5940,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请说得慢一点。",
+        "pinyin": "Qǐng shuō de màn yìdiǎn.",
+        "meaningVi": "Xin nói chậm một chút."
+      }
+    ]
   },
   {
     "id": "hsk2_098",
@@ -5357,7 +6000,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这部电影一点儿也没意思。",
+        "pinyin": "Zhè bù diànyǐng yìdiǎnr yě méi yìsi.",
+        "meaningVi": "Bộ phim này chẳng thú vị chút nào."
+      }
+    ]
   },
   {
     "id": "hsk2_099",
@@ -5413,7 +6063,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他每天早上跑步。",
+        "pinyin": "Tā měitiān zǎoshang pǎobù.",
+        "meaningVi": "Mỗi sáng anh ấy đều chạy bộ."
+      }
+    ]
   },
   {
     "id": "hsk2_100",
@@ -5469,7 +6126,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请把门关好。",
+        "pinyin": "Qǐng bǎ mén guān hǎo.",
+        "meaningVi": "Xin đóng cửa cho kỹ."
+      }
+    ]
   },
   {
     "id": "hsk2_101",
@@ -5523,7 +6187,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我们在门口见面吧。",
+        "pinyin": "Wǒmen zài ménkǒu jiànmiàn ba.",
+        "meaningVi": "Chúng ta gặp nhau ở cửa ra vào nhé."
+      }
+    ]
   },
   {
     "id": "hsk2_102",
@@ -5579,7 +6250,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这个景点的门票不贵。",
+        "pinyin": "Zhège jǐngdiǎn de ménpiào bú guì.",
+        "meaningVi": "Vé vào cửa khu du lịch này không đắt."
+      }
+    ]
   },
   {
     "id": "hsk2_103",
@@ -5648,7 +6326,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他把信的正面写好了地址。",
+        "pinyin": "Tā bǎ xìn de zhèngmiàn xiěhǎole dìzhǐ.",
+        "meaningVi": "Anh ấy đã viết địa chỉ ở mặt trước của bức thư."
+      }
+    ]
   },
   {
     "id": "hsk2_104",
@@ -5704,7 +6389,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这次比赛有一百多名选手参加。",
+        "pinyin": "Zhè cì bǐsài yǒu yìbǎi duō míng xuǎnshǒu cānjiā.",
+        "meaningVi": "Cuộc thi lần này có hơn một trăm vận động viên tham gia."
+      }
+    ]
   },
   {
     "id": "hsk2_105",
@@ -5756,7 +6448,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请帮我拿一下书。",
+        "pinyin": "Qǐng bāng wǒ ná yíxià shū.",
+        "meaningVi": "Xin giúp tôi cầm quyển sách."
+      }
+    ]
   },
   {
     "id": "hsk2_106",
@@ -5811,7 +6510,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "天气那么冷，多穿点衣服。",
+        "pinyin": "Tiānqì nàme lěng, duō chuān diǎn yīfu.",
+        "meaningVi": "Thời tiết lạnh như vậy, mặc thêm quần áo đi."
+      }
+    ]
   },
   {
     "id": "hsk2_107",
@@ -5865,7 +6571,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "别那样说话。",
+        "pinyin": "Bié nàyàng shuōhuà.",
+        "meaningVi": "Đừng nói chuyện như thế."
+      }
+    ]
   },
   {
     "id": "hsk2_108",
@@ -5918,7 +6631,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "年轻人都喜欢喝奶茶。",
+        "pinyin": "Niánqīngrén dōu xǐhuan hē nǎichá.",
+        "meaningVi": "Người trẻ đều thích uống trà sữa."
+      }
+    ]
   },
   {
     "id": "hsk2_109",
@@ -5969,7 +6689,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我奶奶今年八十岁了。",
+        "pinyin": "Wǒ nǎinai jīnnián bāshí suì le.",
+        "meaningVi": "Bà nội tôi năm nay tám mươi tuổi rồi."
+      }
+    ]
   },
   {
     "id": "hsk2_110",
@@ -6025,7 +6752,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "那个男孩儿很聪明。",
+        "pinyin": "Nàge nánháir hěn cōngming.",
+        "meaningVi": "Cậu bé đó rất thông minh."
+      }
+    ]
   },
   {
     "id": "hsk2_111",
@@ -6074,7 +6808,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "树上有很多小鸟。",
+        "pinyin": "Shù shàng yǒu hěn duō xiǎo niǎo.",
+        "meaningVi": "Trên cây có rất nhiều chim nhỏ."
+      }
+    ]
   },
   {
     "id": "hsk2_112",
@@ -6129,7 +6870,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这个女孩儿很可爱。",
+        "pinyin": "Zhège nǚháir hěn kě'ài.",
+        "meaningVi": "Cô bé này rất dễ thương."
+      }
+    ]
   },
   {
     "id": "hsk2_113",
@@ -6181,7 +6929,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我家旁边有一个公园。",
+        "pinyin": "Wǒ jiā pángbiān yǒu yí gè gōngyuán.",
+        "meaningVi": "Bên cạnh nhà tôi có một công viên."
+      }
+    ]
   },
   {
     "id": "hsk2_114",
@@ -6232,7 +6987,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他跑得很快。",
+        "pinyin": "Tā pǎo de hěn kuài.",
+        "meaningVi": "Anh ấy chạy rất nhanh."
+      }
+    ]
   },
   {
     "id": "hsk2_115",
@@ -6283,7 +7045,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她喜欢在公园跑步。",
+        "pinyin": "Tā xǐhuan zài gōngyuán pǎobù.",
+        "meaningVi": "Cô ấy thích chạy bộ trong công viên."
+      }
+    ]
   },
   {
     "id": "hsk2_116",
@@ -6337,7 +7106,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他把票放进了口袋。",
+        "pinyin": "Tā bǎ piào fàngjìnle kǒudai.",
+        "meaningVi": "Anh ấy đã bỏ vé vào túi."
+      }
+    ]
   },
   {
     "id": "hsk2_117",
@@ -6388,7 +7164,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他妻子是老师。",
+        "pinyin": "Tā qīzi shì lǎoshī.",
+        "meaningVi": "Vợ anh ấy là giáo viên."
+      }
+    ]
   },
   {
     "id": "hsk2_118",
@@ -6448,7 +7231,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请大家都站起来。",
+        "pinyin": "Qǐng dàjiā dōu zhàn qǐlái.",
+        "meaningVi": "Xin mọi người đứng dậy."
+      }
+    ]
   },
   {
     "id": "hsk2_119",
@@ -6503,7 +7293,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "前面那栋楼是图书馆。",
+        "pinyin": "Qiánmiàn nà dòng lóu shì túshūguǎn.",
+        "meaningVi": "Tòa nhà phía trước là thư viện."
+      }
+    ]
   },
   {
     "id": "hsk2_120",
@@ -6557,7 +7354,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "今天是晴天。",
+        "pinyin": "Jīntiān shì qíngtiān.",
+        "meaningVi": "Hôm nay trời quang."
+      }
+    ]
   },
   {
     "id": "hsk2_121",
@@ -6614,7 +7418,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他喜欢打球。",
+        "pinyin": "Tā xǐhuan dǎqiú.",
+        "meaningVi": "Anh ấy thích chơi bóng."
+      }
+    ]
   },
   {
     "id": "hsk2_122",
@@ -6670,7 +7481,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "妈妈让我早点回家。",
+        "pinyin": "Māma ràng wǒ zǎodiǎn huíjiā.",
+        "meaningVi": "Mẹ bảo tôi về nhà sớm hơn."
+      }
+    ]
   },
   {
     "id": "hsk2_123",
@@ -6719,7 +7537,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我不太喜欢吃肉。",
+        "pinyin": "Wǒ bú tài xǐhuan chī ròu.",
+        "meaningVi": "Tôi không thích ăn thịt lắm."
+      }
+    ]
   },
   {
     "id": "hsk2_124",
@@ -6773,7 +7598,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "周末我们去商场买东西吧。",
+        "pinyin": "Zhōumò wǒmen qù shāngchǎng mǎi dōngxi ba.",
+        "meaningVi": "Cuối tuần chúng ta đi trung tâm thương mại mua đồ đi."
+      }
+    ]
   },
   {
     "id": "hsk2_125",
@@ -6832,7 +7664,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "运动员们陆续上来领奖。",
+        "pinyin": "Yùndòngyuánmen lùxù shànglái lǐngjiǎng.",
+        "meaningVi": "Các vận động viên lần lượt lên đây nhận giải."
+      }
+    ]
   },
   {
     "id": "hsk2_126",
@@ -6887,7 +7726,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "桌子上面放着一本书。",
+        "pinyin": "Zhuōzi shàngmiàn fàngzhe yì běn shū.",
+        "meaningVi": "Trên mặt bàn đặt một quyển sách."
+      }
+    ]
   },
   {
     "id": "hsk2_127",
@@ -6944,7 +7790,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "电梯坏了，我们走上去吧。",
+        "pinyin": "Diàntī huài le, wǒmen zǒu shàngqù ba.",
+        "meaningVi": "Thang máy hỏng rồi, chúng ta đi bộ lên đi."
+      }
+    ]
   },
   {
     "id": "hsk2_128",
@@ -6998,7 +7851,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我每天晚上都上网查资料。",
+        "pinyin": "Wǒ měitiān wǎnshang dōu shàngwǎng chá zīliào.",
+        "meaningVi": "Mỗi tối tôi đều lên mạng tra tài liệu."
+      }
+    ]
   },
   {
     "id": "hsk2_129",
@@ -7050,7 +7910,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "祝您身体健康。",
+        "pinyin": "Zhù nín shēntǐ jiànkāng.",
+        "meaningVi": "Chúc bác sức khỏe dồi dào."
+      }
+    ]
   },
   {
     "id": "hsk2_130",
@@ -7099,7 +7966,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "今天是我的生日。",
+        "pinyin": "Jīntiān shì wǒ de shēngrì.",
+        "meaningVi": "Hôm nay là sinh nhật của tôi."
+      }
+    ]
   },
   {
     "id": "hsk2_131",
@@ -7160,7 +8034,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他年轻时去过很多国家。",
+        "pinyin": "Tā niánqīng shí qùguò hěn duō guójiā.",
+        "meaningVi": "Khi còn trẻ anh ấy đã đến nhiều quốc gia."
+      }
+    ]
   },
   {
     "id": "hsk2_132",
@@ -7214,7 +8095,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我有点事情要跟你说。",
+        "pinyin": "Wǒ yǒudiǎn shìqing yào gēn nǐ shuō.",
+        "meaningVi": "Tôi có chút việc muốn nói với bạn."
+      }
+    ]
   },
   {
     "id": "hsk2_133",
@@ -7269,7 +8157,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请举手回答问题。",
+        "pinyin": "Qǐng jǔshǒu huídá wèntí.",
+        "meaningVi": "Xin giơ tay trả lời câu hỏi."
+      }
+    ]
   },
   {
     "id": "hsk2_134",
@@ -7320,7 +8215,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这块手表是爸爸送我的。",
+        "pinyin": "Zhè kuài shǒubiǎo shì bàba sòng wǒ de.",
+        "meaningVi": "Chiếc đồng hồ này là bố tặng tôi."
+      }
+    ]
   },
   {
     "id": "hsk2_135",
@@ -7375,7 +8277,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他的书包很重。",
+        "pinyin": "Tā de shūbāo hěn zhòng.",
+        "meaningVi": "Cặp sách của anh ấy rất nặng."
+      }
+    ]
   },
   {
     "id": "hsk2_136",
@@ -7427,7 +8336,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "今天感觉不太舒服。",
+        "pinyin": "Jīntiān gǎnjué bú tài shūfu.",
+        "meaningVi": "Hôm nay cảm thấy không được khỏe lắm."
+      }
+    ]
   },
   {
     "id": "hsk2_137",
@@ -7479,7 +8395,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我送你回家吧。",
+        "pinyin": "Wǒ sòng nǐ huíjiā ba.",
+        "meaningVi": "Để tôi đưa bạn về nhà nhé."
+      }
+    ]
   },
   {
     "id": "hsk2_138",
@@ -7534,7 +8457,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "虽然下雨，但他还是来了。",
+        "pinyin": "Suīrán xiàyǔ, dàn tā háishi lái le.",
+        "meaningVi": "Mặc dù trời mưa, nhưng anh ấy vẫn đến."
+      }
+    ]
   },
   {
     "id": "hsk2_139",
@@ -7588,7 +8518,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "因为下雨，所以我们没有出门。",
+        "pinyin": "Yīnwèi xiàyǔ, suǒyǐ wǒmen méiyǒu chūmén.",
+        "meaningVi": "Vì trời mưa, nên chúng tôi không ra ngoài."
+      }
+    ]
   },
   {
     "id": "hsk2_140",
@@ -7644,7 +8581,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她的头疼得厉害。",
+        "pinyin": "Tā de tóu téng de lìhai.",
+        "meaningVi": "Đầu cô ấy đau dữ dội."
+      }
+    ]
   },
   {
     "id": "hsk2_141",
@@ -7698,7 +8642,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他喜欢踢足球。",
+        "pinyin": "Tā xǐhuan tī zúqiú.",
+        "meaningVi": "Anh ấy thích đá bóng."
+      }
+    ]
   },
   {
     "id": "hsk2_142",
@@ -7752,7 +8703,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这道题我不会做。",
+        "pinyin": "Zhè dào tí wǒ bú huì zuò.",
+        "meaningVi": "Bài này tôi không biết làm."
+      }
+    ]
   },
   {
     "id": "hsk2_143",
@@ -7808,7 +8766,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "桌子上有一条毛巾。",
+        "pinyin": "Zhuōzi shàng yǒu yì tiáo máojīn.",
+        "meaningVi": "Trên bàn có một chiếc khăn."
+      }
+    ]
   },
   {
     "id": "hsk2_144",
@@ -7862,7 +8827,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她跳舞跳得很好看。",
+        "pinyin": "Tā tiàowǔ tiào de hěn hǎokàn.",
+        "meaningVi": "Cô ấy múa rất đẹp."
+      }
+    ]
   },
   {
     "id": "hsk2_145",
@@ -7978,7 +8950,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他有很多外国朋友。",
+        "pinyin": "Tā yǒu hěn duō wàiguó péngyou.",
+        "meaningVi": "Anh ấy có nhiều bạn nước ngoài."
+      }
+    ]
   },
   {
     "id": "hsk2_147",
@@ -8033,7 +9012,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "外面在下雨。",
+        "pinyin": "Wàimiàn zài xiàyǔ.",
+        "meaningVi": "Bên ngoài đang mưa."
+      }
+    ]
   },
   {
     "id": "hsk2_148",
@@ -8087,7 +9073,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我已经做完作业了。",
+        "pinyin": "Wǒ yǐjīng zuòwán zuòyè le.",
+        "meaningVi": "Tôi đã làm xong bài tập rồi."
+      }
+    ]
   },
   {
     "id": "hsk2_149",
@@ -8139,7 +9132,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这辆车花了十万块钱。",
+        "pinyin": "Zhè liàng chē huāle shí wàn kuài qián.",
+        "meaningVi": "Chiếc xe này tốn mười vạn tệ."
+      }
+    ]
   },
   {
     "id": "hsk2_150",
@@ -8192,7 +9192,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请往前走。",
+        "pinyin": "Qǐng wǎng qián zǒu.",
+        "meaningVi": "Xin đi về phía trước."
+      }
+    ]
   },
   {
     "id": "hsk2_151",
@@ -8246,7 +9253,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我在网上买了一双鞋。",
+        "pinyin": "Wǒ zài wǎngshang mǎile yì shuāng xié.",
+        "meaningVi": "Tôi đã mua một đôi giày trên mạng."
+      }
+    ]
   },
   {
     "id": "hsk2_152",
@@ -8297,7 +9311,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我忘了带钥匙。",
+        "pinyin": "Wǒ wàngle dài yàoshi.",
+        "meaningVi": "Tôi quên mang chìa khóa."
+      }
+    ]
   },
   {
     "id": "hsk2_153",
@@ -8346,7 +9367,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这位是我们的新老师。",
+        "pinyin": "Zhè wèi shì wǒmen de xīn lǎoshī.",
+        "meaningVi": "Vị này là giáo viên mới của chúng tôi."
+      }
+    ]
   },
   {
     "id": "hsk2_154",
@@ -8399,7 +9427,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "你为什么不高兴？",
+        "pinyin": "Nǐ wèi shénme bù gāoxìng?",
+        "meaningVi": "Tại sao bạn không vui?"
+      }
+    ]
   },
   {
     "id": "hsk2_155",
@@ -8453,7 +9488,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我希望明天是晴天。",
+        "pinyin": "Wǒ xīwàng míngtiān shì qíngtiān.",
+        "meaningVi": "Tôi hy vọng ngày mai trời quang."
+      }
+    ]
   },
   {
     "id": "hsk2_156",
@@ -8509,7 +9551,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "吃饭前要洗手。",
+        "pinyin": "Chīfàn qián yào xǐshǒu.",
+        "meaningVi": "Trước khi ăn cơm phải rửa tay."
+      }
+    ]
   },
   {
     "id": "hsk2_157",
@@ -8565,7 +9614,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请问洗手间在哪儿？",
+        "pinyin": "Qǐngwèn xǐshǒujiān zài nǎr?",
+        "meaningVi": "Xin hỏi nhà vệ sinh ở đâu?"
+      }
+    ]
   },
   {
     "id": "hsk2_158",
@@ -8624,7 +9680,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请你从楼上下来。",
+        "pinyin": "Qǐng nǐ cóng lóushàng xiàlái.",
+        "meaningVi": "Xin bạn từ trên lầu xuống đây."
+      }
+    ]
   },
   {
     "id": "hsk2_159",
@@ -8679,7 +9742,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "床下面有一双拖鞋。",
+        "pinyin": "Chuáng xiàmiàn yǒu yì shuāng tuōxié.",
+        "meaningVi": "Dưới gầm giường có một đôi dép."
+      }
+    ]
   },
   {
     "id": "hsk2_160",
@@ -8736,7 +9806,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "楼梯很滑，慢慢下去。",
+        "pinyin": "Lóutī hěn huá, mànmàn xiàqù.",
+        "meaningVi": "Cầu thang trơn lắm, từ từ đi xuống."
+      }
+    ]
   },
   {
     "id": "hsk2_161",
@@ -8791,7 +9868,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这个小孩儿特别活泼。",
+        "pinyin": "Zhège xiǎoháir tèbié huópō.",
+        "meaningVi": "Đứa trẻ này đặc biệt hiếu động."
+      }
+    ]
   },
   {
     "id": "hsk2_162",
@@ -8845,7 +9929,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我小时候住在乡下。",
+        "pinyin": "Wǒ xiǎoshíhou zhù zài xiāngxià.",
+        "meaningVi": "Lúc nhỏ tôi sống ở nông thôn."
+      }
+    ]
   },
   {
     "id": "hsk2_163",
@@ -8896,7 +9987,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她笑得很开心。",
+        "pinyin": "Tā xiào de hěn kāixīn.",
+        "meaningVi": "Cô ấy cười rất vui vẻ."
+      }
+    ]
   },
   {
     "id": "hsk2_164",
@@ -8951,7 +10049,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我姓王。",
+        "pinyin": "Wǒ xìng Wáng.",
+        "meaningVi": "Tôi họ Vương."
+      }
+    ]
   },
   {
     "id": "hsk2_165",
@@ -9006,7 +10111,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请填写您的姓名。",
+        "pinyin": "Qǐng tiánxiě nín de xìngmíng.",
+        "meaningVi": "Xin điền họ tên của quý khách."
+      }
+    ]
   },
   {
     "id": "hsk2_166",
@@ -9060,7 +10172,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "你最喜欢什么颜色？",
+        "pinyin": "Nǐ zuì xǐhuan shénme yánsè?",
+        "meaningVi": "Bạn thích màu gì nhất?"
+      }
+    ]
   },
   {
     "id": "hsk2_167",
@@ -9112,7 +10231,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她的眼睛又大又亮。",
+        "pinyin": "Tā de yǎnjing yòu dà yòu liàng.",
+        "meaningVi": "Đôi mắt của cô ấy vừa to vừa sáng."
+      }
+    ]
   },
   {
     "id": "hsk2_168",
@@ -9163,7 +10289,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "医生给我开了一些药。",
+        "pinyin": "Yīshēng gěi wǒ kāile yìxiē yào.",
+        "meaningVi": "Bác sĩ đã kê cho tôi một ít thuốc."
+      }
+    ]
   },
   {
     "id": "hsk2_169",
@@ -9217,7 +10350,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "药店就在医院对面。",
+        "pinyin": "Yàodiàn jiù zài yīyuàn duìmiàn.",
+        "meaningVi": "Hiệu thuốc ở ngay đối diện bệnh viện."
+      }
+    ]
   },
   {
     "id": "hsk2_170",
@@ -9268,7 +10408,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我爷爷今年七十岁了。",
+        "pinyin": "Wǒ yéye jīnnián qīshí suì le.",
+        "meaningVi": "Ông nội tôi năm nay bảy mươi tuổi rồi."
+      }
+    ]
   },
   {
     "id": "hsk2_171",
@@ -9326,7 +10473,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请稍等一会儿。",
+        "pinyin": "Qǐng shāo děng yíhuìr.",
+        "meaningVi": "Xin chờ một lát."
+      }
+    ]
   },
   {
     "id": "hsk2_172",
@@ -9378,7 +10532,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他已经走了。",
+        "pinyin": "Tā yǐjīng zǒu le.",
+        "meaningVi": "Anh ấy đã đi rồi."
+      }
+    ]
   },
   {
     "id": "hsk2_173",
@@ -9430,7 +10591,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我们一起做作业吧。",
+        "pinyin": "Wǒmen yìqǐ zuò zuòyè ba.",
+        "meaningVi": "Chúng ta cùng làm bài tập đi."
+      }
+    ]
   },
   {
     "id": "hsk2_174",
@@ -9486,7 +10654,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这句话是什么意思？",
+        "pinyin": "Zhè jù huà shì shénme yìsi?",
+        "meaningVi": "Câu này có nghĩa là gì?"
+      }
+    ]
   },
   {
     "id": "hsk2_175",
@@ -9540,7 +10715,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "今天天气阴阴的。",
+        "pinyin": "Jīntiān tiānqì yīnyīn de.",
+        "meaningVi": "Hôm nay trời âm u."
+      }
+    ]
   },
   {
     "id": "hsk2_176",
@@ -9596,7 +10778,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "因为堵车，他迟到了。",
+        "pinyin": "Yīnwèi dǔchē, tā chídào le.",
+        "meaningVi": "Vì kẹt xe nên anh ấy đã đến muộn."
+      }
+    ]
   },
   {
     "id": "hsk2_177",
@@ -9651,7 +10840,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他游得很快。",
+        "pinyin": "Tā yóu de hěn kuài.",
+        "meaningVi": "Anh ấy bơi rất nhanh."
+      }
+    ]
   },
   {
     "id": "hsk2_178",
@@ -9705,7 +10901,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "夏天我常常去游泳。",
+        "pinyin": "Xiàtiān wǒ chángcháng qù yóuyǒng.",
+        "meaningVi": "Mùa hè tôi thường xuyên đi bơi."
+      }
+    ]
   },
   {
     "id": "hsk2_179",
@@ -9758,7 +10961,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这本书很有意思。",
+        "pinyin": "Zhè běn shū hěn yǒu yìsi.",
+        "meaningVi": "Cuốn sách này rất thú vị."
+      }
+    ]
   },
   {
     "id": "hsk2_180",
@@ -9812,7 +11022,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他有时会来找我聊天。",
+        "pinyin": "Tā yǒushí huì lái zhǎo wǒ liáotiān.",
+        "meaningVi": "Thỉnh thoảng anh ấy sẽ đến tìm tôi trò chuyện."
+      }
+    ]
   },
   {
     "id": "hsk2_181",
@@ -9866,7 +11083,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请往右转。",
+        "pinyin": "Qǐng wǎng yòu zhuǎn.",
+        "meaningVi": "Xin rẽ phải."
+      }
+    ]
   },
   {
     "id": "hsk2_182",
@@ -9920,7 +11144,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "银行在超市的右边。",
+        "pinyin": "Yínháng zài chāoshì de yòubian.",
+        "meaningVi": "Ngân hàng ở bên phải siêu thị."
+      }
+    ]
   },
   {
     "id": "hsk2_183",
@@ -9969,7 +11200,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "河里有很多鱼。",
+        "pinyin": "Hé lǐ yǒu hěn duō yú.",
+        "meaningVi": "Trong sông có rất nhiều cá."
+      }
+    ]
   },
   {
     "id": "hsk2_184",
@@ -10020,7 +11258,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我家离学校很远。",
+        "pinyin": "Wǒ jiā lí xuéxiào hěn yuǎn.",
+        "meaningVi": "Nhà tôi cách trường rất xa."
+      }
+    ]
   },
   {
     "id": "hsk2_185",
@@ -10077,7 +11322,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "医生建议他多做运动。",
+        "pinyin": "Yīshēng jiànyì tā duō zuò yùndòng.",
+        "meaningVi": "Bác sĩ khuyên anh ấy nên vận động nhiều hơn."
+      }
+    ]
   },
   {
     "id": "hsk2_186",
@@ -10131,7 +11383,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请在这里站好。",
+        "pinyin": "Qǐng zài zhèlǐ zhàn hǎo.",
+        "meaningVi": "Xin đứng ngay ngắn ở đây."
+      }
+    ]
   },
   {
     "id": "hsk2_187",
@@ -10182,7 +11441,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "她丈夫是医生。",
+        "pinyin": "Tā zhàngfu shì yīshēng.",
+        "meaningVi": "Chồng cô ấy là bác sĩ."
+      }
+    ]
   },
   {
     "id": "hsk2_188",
@@ -10236,7 +11502,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "你怎么这么晚才来？",
+        "pinyin": "Nǐ zěnme zhème wǎn cái lái?",
+        "meaningVi": "Sao bạn đến muộn thế này?"
+      }
+    ]
   },
   {
     "id": "hsk2_189",
@@ -10290,7 +11563,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "事情不是这样的。",
+        "pinyin": "Shìqing bú shì zhèyàng de.",
+        "meaningVi": "Sự việc không phải như thế này."
+      }
+    ]
   },
   {
     "id": "hsk2_190",
@@ -10397,7 +11677,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他正忙着写报告。",
+        "pinyin": "Tā zhèng mángzhe xiě bàogào.",
+        "meaningVi": "Anh ấy đang bận viết báo cáo."
+      }
+    ]
   },
   {
     "id": "hsk2_192",
@@ -10456,7 +11743,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这周我很忙。",
+        "pinyin": "Zhè zhōu wǒ hěn máng.",
+        "meaningVi": "Tuần này tôi rất bận."
+      }
+    ]
   },
   {
     "id": "hsk2_193",
@@ -10508,7 +11802,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我在准备明天的考试。",
+        "pinyin": "Wǒ zài zhǔnbèi míngtiān de kǎoshì.",
+        "meaningVi": "Tôi đang chuẩn bị cho kỳ thi ngày mai."
+      }
+    ]
   },
   {
     "id": "hsk2_194",
@@ -10560,7 +11861,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这件事要靠自己解决。",
+        "pinyin": "Zhè jiàn shì yào kào zìjǐ jiějué.",
+        "meaningVi": "Việc này phải dựa vào bản thân để giải quyết."
+      }
+    ]
   },
   {
     "id": "hsk2_195",
@@ -10614,7 +11922,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他一句话没说就走了。",
+        "pinyin": "Tā yí jù huà méi shuō jiù zǒu le.",
+        "meaningVi": "Anh ấy chẳng nói câu nào đã đi mất."
+      }
+    ]
   },
   {
     "id": "hsk2_196",
@@ -10668,7 +11983,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "我每天走路上班。",
+        "pinyin": "Wǒ měitiān zǒulù shàngbān.",
+        "meaningVi": "Mỗi ngày tôi đi bộ đi làm."
+      }
+    ]
   },
   {
     "id": "hsk2_197",
@@ -10723,7 +12045,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "他每周都踢足球。",
+        "pinyin": "Tā měi zhōu dōu tī zúqiú.",
+        "meaningVi": "Anh ấy đá bóng mỗi tuần."
+      }
+    ]
   },
   {
     "id": "hsk2_198",
@@ -10779,7 +12108,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "这是我最喜欢的一本书。",
+        "pinyin": "Zhè shì wǒ zuì xǐhuan de yì běn shū.",
+        "meaningVi": "Đây là cuốn sách tôi thích nhất."
+      }
+    ]
   },
   {
     "id": "hsk2_199",
@@ -10833,7 +12169,14 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "请往左看。",
+        "pinyin": "Qǐng wǎng zuǒ kàn.",
+        "meaningVi": "Xin nhìn sang bên trái."
+      }
+    ]
   },
   {
     "id": "hsk2_200",
@@ -10887,6 +12230,13 @@
     "reviewNotes": "Meaning populated from AI candidate package. Not independently human-verified.",
     "dataStatus": "production",
     "sourceDataset": "hsk2_vocabulary_reviewed.json",
-    "translationAccuracyVerified": false
+    "translationAccuracyVerified": false,
+    "examples": [
+      {
+        "chinese": "教室在图书馆的左边。",
+        "pinyin": "Jiàoshì zài túshūguǎn de zuǒbian.",
+        "meaningVi": "Lớp học ở bên trái thư viện."
+      }
+    ]
   }
 ]
