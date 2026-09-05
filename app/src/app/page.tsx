@@ -4,6 +4,7 @@ import clsx from "clsx";
 import { Card } from "@/components/ui/Card";
 import { LinkButton } from "@/components/ui/Button";
 import { DictionarySearchTrigger } from "@/components/dictionary/DictionarySearchTrigger";
+import { RadicalCard } from "@/components/radicals/RadicalCard";
 import {
   GraduationCapIcon,
   SearchIcon,
@@ -13,8 +14,15 @@ import {
 } from "@/components/ui/icons";
 import type { HskLevel } from "@/lib/data/types";
 import { practiceRoute, PRACTICE_CARDS, PRACTICE_CARD_ACCENT_STYLES } from "@/lib/practice/types";
+import { getAllRadicals, getRadicalVocabularyCount } from "@/lib/data/radicalRepository";
 
 const HSK_LEVELS: HskLevel[] = [1, 2, 3, 4, 5, 6];
+
+/** Same "highest vocabularyCount first" selection already used by
+ *  DictionaryRadicalSection's teaser (UI-004) — reusing it here means the
+ *  Home card shows the same representative radicals a visitor would also
+ *  see on /dictionary and /hsk, rather than a third, different sample. */
+const HOME_RADICAL_TEASER_COUNT = 6;
 
 const HSK_ACCENT: Record<HskLevel, string> = {
   1: "text-accent-blue",
@@ -44,6 +52,14 @@ const HERO_FEATURES = [
 ] as const;
 
 export default function HomePage() {
+  const radicals = getAllRadicals();
+  const radicalVocabularyCounts = Object.fromEntries(
+    radicals.map((radical) => [radical.id, getRadicalVocabularyCount(radical.id)])
+  );
+  const teaserRadicals = [...radicals]
+    .sort((a, b) => (radicalVocabularyCounts[b.id] ?? 0) - (radicalVocabularyCounts[a.id] ?? 0))
+    .slice(0, HOME_RADICAL_TEASER_COUNT);
+
   return (
     <div className="flex flex-col gap-8">
       <section className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
@@ -140,8 +156,17 @@ export default function HomePage() {
             Tra cứu 214 bộ thủ Khang Hy và từ vựng HSK liên quan.
           </p>
         </div>
+        <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+          {teaserRadicals.map((radical) => (
+            <RadicalCard
+              key={radical.id}
+              radical={radical}
+              vocabularyCount={radicalVocabularyCounts[radical.id] ?? 0}
+            />
+          ))}
+        </div>
         <LinkButton href="/radicals" variant="secondary" className="w-fit">
-          Xem bộ thủ
+          Xem tất cả 214 bộ thủ
           <ArrowRightIcon className="h-4 w-4" />
         </LinkButton>
       </Card>
