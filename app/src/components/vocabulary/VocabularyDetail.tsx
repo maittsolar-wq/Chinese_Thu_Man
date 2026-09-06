@@ -7,7 +7,7 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import { Tabs, type TabItem } from "@/components/ui/Tabs";
 import { RadicalCard } from "@/components/radicals/RadicalCard";
 import { StrokeOrderViewer } from "@/components/vocabulary/StrokeOrderViewer";
-import { SpeakerIcon } from "@/components/ui/icons";
+import { PronunciationButton } from "@/components/vocabulary/PronunciationButton";
 import { getVocabularyById } from "@/lib/data/vocabularyRepository";
 import { getRadicalsForVocabularyId, getRadicalVocabularyCount } from "@/lib/data/radicalRepository";
 import { getCharactersForWord } from "@/lib/data/strokeOrderLoader";
@@ -144,23 +144,7 @@ export function VocabularyDetail({
 
         <div className="flex items-center gap-3">
           <p className="text-xl italic text-primary dark:text-night-primary">{word.pinyin}</p>
-          {/*
-            Pronunciation slot (Phase 02 §10): audio DATA exists but no
-            playback UI is implemented yet. This must not pretend to work —
-            same disabled/aria-label pattern already established by
-            FlashcardExerciseView's speaker button, so "not available yet"
-            reads identically everywhere in the product. No audio request
-            is triggered by rendering this button.
-          */}
-          <button
-            type="button"
-            disabled
-            aria-label="Nghe phát âm (chưa khả dụng)"
-            title="Nghe phát âm (chưa khả dụng)"
-            className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary text-white disabled:cursor-not-allowed disabled:opacity-50"
-          >
-            <SpeakerIcon className="h-4 w-4" />
-          </button>
+          <PronunciationButton wordUrl={word.audio.wordUrl} />
         </div>
 
         <p className="text-lg text-neutral-800 dark:text-night-text">{word.meaningVi}</p>
