@@ -36,28 +36,52 @@ function SectionHeading({ title, subtitle }: { title: string; subtitle?: string 
   );
 }
 
-function QuickInfoCard({
-  icon: Icon,
-  value,
-  label,
-  description,
-}: {
+type MetadataItem = {
   icon: (props: { className?: string }) => ReactNode;
-  value: string | number;
+  value: string;
   label: string;
-  description?: string;
-}) {
+};
+
+/**
+ * Phase 09: replaces the earlier three-dashboard-card Quick Info strip.
+ * These are QUICK METADATA, not a peer content block to the hero — they
+ * must visibly "sit back" from the Chinese character, not compete with
+ * it. Two call sites render the SAME data in two non-overlapping
+ * presentations (each wrapped by its own caller in a responsive
+ * visibility class, so exactly one exists in the accessible tree at any
+ * viewport — see the two call sites in VocabularyDetail below):
+ * "compact" is a single horizontal line for narrow viewports (icon +
+ * value only, "·" separated — no room to spell "Số nét" three times on a
+ * phone width); "list" is a small vertical stack for the desktop right
+ * column (icon + value + label).
+ */
+function QuickMetadata({ items, variant }: { items: MetadataItem[]; variant: "compact" | "list" }) {
+  if (variant === "compact") {
+    return (
+      <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
+        {items.map((item, index) => (
+          <div key={item.label} className="flex items-center gap-1.5">
+            {index > 0 && <span aria-hidden="true" className="text-ink-muted dark:text-night-muted">·</span>}
+            <item.icon className="h-3.5 w-3.5 shrink-0 text-primary dark:text-night-primary" />
+            <span className="text-sm font-medium text-ink dark:text-night-text">{item.value}</span>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
   return (
-    <Card className="flex flex-col items-center gap-1 p-4 text-center sm:p-5">
-      <Icon className="h-5 w-5 text-primary dark:text-night-primary" />
-      <span className="font-data text-2xl font-semibold tabular-nums text-ink dark:text-night-text">
-        {value}
-      </span>
-      <span className="text-sm font-medium text-ink dark:text-night-text">{label}</span>
-      {description && (
-        <span className="text-xs text-ink-muted dark:text-night-muted">{description}</span>
-      )}
-    </Card>
+    <div className="flex flex-col gap-3">
+      {items.map((item) => (
+        <div key={item.label} className="flex items-center gap-2">
+          <item.icon className="h-4 w-4 shrink-0 text-primary dark:text-night-primary" />
+          <div className="flex flex-col leading-tight">
+            <span className="text-sm font-medium text-ink dark:text-night-text">{item.value}</span>
+            <span className="text-xs text-ink-muted dark:text-night-muted">{item.label}</span>
+          </div>
+        </div>
+      ))}
+    </div>
   );
 }
 
@@ -101,64 +125,72 @@ export function VocabularyDetail({
   // second regex, for "how many real Han characters does this word have".
   const characterCount = getCharactersForWord(word.word).length;
 
+  const metadataItems: MetadataItem[] = [
+    { icon: PencilIcon, value: `${word.strokeCount ?? "—"} nét`, label: "Số nét" },
+    { icon: GraduationCapIcon, value: `HSK ${word.hskLevels.join(", ")}`, label: "Cấp độ" },
+    { icon: BookOpenIcon, value: `${characterCount} ký tự`, label: "Ký tự" },
+  ];
+
   return (
     <div className="mx-auto flex max-w-[1120px] flex-col gap-8 sm:gap-12 lg:gap-14">
       <Breadcrumb items={breadcrumb} />
 
-      {/* VOCABULARY HEADER — the character is the focal "learning moment":
-          centered, generous spacing, a whisper of the brand blue on the
-          surface itself (`primary-wash`, the palette's most subtle step —
-          no gradient, no illustration). Content order (badges -> word ->
-          pronunciation -> meaning) is unchanged from before this pass. */}
-      <header className="flex flex-col items-center gap-4 rounded-2xl border border-hairline bg-primary-wash px-6 py-10 text-center dark:border-night-border dark:bg-primary-dark/10 sm:px-10 sm:py-14">
-        <div className="flex flex-wrap items-center justify-center gap-2">
-          {word.hskLevels.map((level) => (
-            <HskLevelBadge key={level} level={level} href={`/hsk/${level}`} />
-          ))}
-          {word.partOfSpeech.map((pos) => (
-            <Badge key={pos} tone="neutral">
-              {pos}
-            </Badge>
-          ))}
+      {/* VOCABULARY HEADER — Phase 09: a two-column composition on wide
+          viewports (content ~2/3, quick metadata ~1/3, via a single
+          `lg:grid-cols-[2fr_1fr]`) instead of a tall centered hero
+          followed by three large dashboard cards. Below `lg`, the same
+          grid collapses to one column and the metadata block (rendered
+          once, see QuickMetadata) simply falls in document order below
+          the meaning line, matching the approved mobile stack. Content
+          itself (badges -> word -> pronunciation -> meaning) is
+          unchanged; only its size, alignment, and surrounding composition
+          changed. Still a whisper of brand blue on the surface
+          (`primary-wash`) -- no gradient, no illustration -- but
+          noticeably shorter (padding cut roughly in half) despite the
+          Chinese character growing, per "hero ngắn gọn hơn". */}
+      <header className="rounded-2xl border border-hairline bg-primary-wash px-5 py-6 dark:border-night-border dark:bg-primary-dark/10 sm:px-8 sm:py-8">
+        <div className="grid grid-cols-1 items-center gap-6 lg:grid-cols-[2fr_1fr] lg:items-start lg:gap-8">
+          <div className="flex flex-col items-center gap-3 text-center lg:items-start lg:text-left">
+            <div className="flex flex-wrap items-center justify-center gap-2 lg:justify-start">
+              {word.hskLevels.map((level) => (
+                <HskLevelBadge key={level} level={level} href={`/hsk/${level}`} />
+              ))}
+              {word.partOfSpeech.map((pos) => (
+                <Badge key={pos} tone="neutral">
+                  {pos}
+                </Badge>
+              ))}
+            </div>
+
+            <h1 className="font-cjk text-7xl font-medium leading-tight text-ink dark:text-night-text lg:text-cjk-hero">
+              {word.word}
+            </h1>
+
+            <div className="flex items-center gap-3">
+              <p className="text-2xl italic text-primary dark:text-night-primary lg:text-3xl">{word.pinyin}</p>
+              <PronunciationButton wordUrl={word.audio.wordUrl} />
+            </div>
+
+            <p className="text-base text-ink dark:text-night-text lg:text-lg">{word.meaningVi}</p>
+
+            {/* Mobile-only compact metadata row lives right under the
+                meaning line, per the approved mobile order. The desktop
+                column version of the same data renders from the sibling
+                cell below. */}
+            <div className="lg:hidden">
+              <QuickMetadata items={metadataItems} variant="compact" />
+            </div>
+          </div>
+
+          {/* RIGHT — quick metadata, desktop only. Deliberately "sits
+              back" from the hero: small value/label pairs, no cards, no
+              22px+ numerals, separated from the content column by a
+              hairline rather than its own bordered box. */}
+          <div className="hidden border-hairline dark:border-night-border lg:block lg:border-l lg:pl-8">
+            <QuickMetadata items={metadataItems} variant="list" />
+          </div>
         </div>
-
-        <h1 className="font-cjk text-7xl font-medium leading-tight text-ink dark:text-night-text sm:text-cjk-hero">
-          {word.word}
-        </h1>
-
-        <div className="flex items-center gap-3">
-          <p className="text-xl italic text-primary dark:text-night-primary sm:text-2xl">{word.pinyin}</p>
-          <PronunciationButton wordUrl={word.audio.wordUrl} />
-        </div>
-
-        <p className="text-base text-ink dark:text-night-text sm:text-lg">{word.meaningVi}</p>
       </header>
-
-      {/* QUICK INFORMATION — three compact cards: value first (large,
-          numeric where relevant), label, and a short static micro-
-          description of what that value means. No dashboard-generic
-          uniform boxes -- each card's description is specific to what
-          it's showing, not a repeated template string. */}
-      <div className="grid grid-cols-3 gap-2 sm:gap-4">
-        <QuickInfoCard
-          icon={PencilIcon}
-          value={word.strokeCount ?? "—"}
-          label="Số nét"
-          description="Nét cấu tạo"
-        />
-        <QuickInfoCard
-          icon={GraduationCapIcon}
-          value={`HSK ${word.hskLevels.join(", ")}`}
-          label="Cấp độ"
-          description={word.hskLevels.includes(1) || word.hskLevels.includes(2) ? "Sơ cấp" : word.hskLevels.some((l) => l >= 5) ? "Cao cấp" : "Trung cấp"}
-        />
-        <QuickInfoCard
-          icon={BookOpenIcon}
-          value={characterCount}
-          label="Ký tự"
-          description={word.partOfSpeech[0] ?? undefined}
-        />
-      </div>
 
       {/* SECTION QUICK NAV — plain anchor links, no JS, no tab semantics:
           clicking scrolls to the section (see globals.css for the

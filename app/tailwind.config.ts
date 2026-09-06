@@ -117,10 +117,11 @@ const config: Config = {
       fontSize: {
         // The one size the approved type scale needs that stock Tailwind
         // doesn't already provide (8xl=96px, 9xl=128px) — the desktop
-        // Chinese hero character's "visual anchor" role (96-120px range).
-        // Every other element in the new scale maps onto an existing
-        // stock text-* utility already in the approved ranges.
-        "cjk-hero": ["7.5rem", { lineHeight: "1.2" }],
+        // Chinese hero character's "visual anchor" role. Phase 09 bumped
+        // the approved range to 128-144px (was 96-120px); 136px sits at
+        // the midpoint. Every other element in the type scale maps onto
+        // an existing stock text-* utility already in the approved ranges.
+        "cjk-hero": ["8.5rem", { lineHeight: "1.2" }],
       },
       boxShadow: {
         card: "0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06)",
