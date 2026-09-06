@@ -12,6 +12,20 @@ export interface VocabularyExample {
 }
 
 /**
+ * Per-character stroke-order data, fetched lazily at runtime from
+ * /stroke-data/<codepoint-hex>.json (see lib/data/strokeOrderLoader.ts).
+ * Never embedded in vocabulary JSON — see tools/hsk/stroke_order/README.md.
+ * `medians` (per-stroke centerline points) is preserved for future
+ * Trace/Write/Quiz features even though the current viewer only renders
+ * `strokes`.
+ */
+export interface StrokeOrderCharacterData {
+  character: string;
+  strokes: string[];
+  medians: number[][][];
+}
+
+/**
  * Canonical vocabulary shape used everywhere in the UI (HSK, Dictionary,
  * Word Detail, Radicals). Produced by normalizing whichever raw shape a
  * given HSK level's production JSON happens to use — see

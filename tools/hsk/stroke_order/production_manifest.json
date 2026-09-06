@@ -1,0 +1,64 @@
+{
+  "pass": "Stroke Order Pass 02 -- Production Implementation",
+  "generatedBy": "tools/hsk/stroke_order/extract_stroke_data.py",
+  "source": {
+    "name": "Make Me a Hanzi",
+    "repository": "https://github.com/skishore/makemeahanzi",
+    "sourceFile": "graphics.txt",
+    "sourceCommitSha": "bddc96d41bef78427ed0e034e9f7e31d71fd1b92",
+    "sourceCommitDate": "2026-03-08T06:46:14Z",
+    "sourceTotalCharacters": 9574,
+    "dataLicense": "Arphic Public License (APL) -- see ARPHICPL.TXT in this directory and in app/public/stroke-data/",
+    "dataLicenseIsNotMIT": "The Arphic Public License governs the STROKE DATA specifically. This is distinct from, and must never be confused with, the MIT code license used by unrelated rendering libraries such as Hanzi Writer -- no Hanzi Writer code or license applies here; this project's own StrokeOrderViewer component is original code.",
+    "codeLicenseNote": "graphics.txt is a data file, not software; no separate 'code license' applies to the source file itself."
+  },
+  "extraction": {
+    "method": "Parsed graphics.txt (one JSON object per line) and kept ONLY the 1940 characters required by the current 5400-record HSK vocabulary inventory (digit-suffix records normalized to their real underlying Han character per Stroke Order Pass 01). Every other field except character/strokes/medians was dropped (e.g. radStrokes was not needed and was removed).",
+    "modificationDisclosure": "This IS a modification under Arphic Public License section 2 (subsetting + reformatting from one large multi-character text file into 1940 individual per-character JSON files, each keeping only the strokes and medians fields). Per license section 2(a)/(b): this file documents how and when the data was changed (this manifest, dated at extraction time), and the resulting modified subset is kept Freely Available to all third parties under the same Arphic Public License terms by being served as a public static asset directly from app/public/stroke-data/ (the same path any visitor's browser fetches), exactly as the original graphics.txt itself was freely available.",
+    "requiredCharacterCount": 1940,
+    "extractedCount": 1940,
+    "coveragePercent": 100.0,
+    "digitSuffixNormalization": {
+      "note": "The following 12 production records have a literal digit suffix distinguishing two vocabulary senses sharing one hanzi spelling. Stroke data is stored ONCE per real underlying character, never as a separate 'digit-suffix character'.",
+      "records": [
+        {"word": "乘2", "character": "乘"},
+        {"word": "副2", "character": "副"},
+        {"word": "该2", "character": "该"},
+        {"word": "局1", "character": "局"},
+        {"word": "局2", "character": "局"},
+        {"word": "料1", "character": "料"},
+        {"word": "料2", "character": "料"},
+        {"word": "露1", "character": "露"},
+        {"word": "升2", "character": "升"},
+        {"word": "所2", "character": "所"},
+        {"word": "则1", "character": "则"},
+        {"word": "支2", "character": "支"}
+      ]
+    }
+  },
+  "productionAssetLocation": {
+    "path": "app/public/stroke-data/<codepoint-hex>.json",
+    "example": "app/public/stroke-data/5b66.json is 学 (U+5B66)",
+    "filenameConvention": "Lowercase hexadecimal Unicode codepoint (no 'U+' prefix, no leading zeros beyond what the codepoint itself has) to avoid URL-encoding / filesystem edge cases with raw CJK filenames.",
+    "assetSchema": {"character": "string (the Han character itself, for verification)", "strokes": "string[] (SVG path 'd' data, one per stroke, in stroke order)", "medians": "number[][][] (one polyline of [x,y] points per stroke, same order as strokes)"},
+    "totalFiles": 1940,
+    "totalSizeBytes": 4901063,
+    "licenseFileCoLocated": "app/public/stroke-data/ARPHICPL.TXT (also duplicated at tools/hsk/stroke_order/ARPHICPL.TXT for the source-controlled provenance record)"
+  },
+  "strokeCountRelation": {
+    "note": "Production VocabularyWord.strokeCount (word-level, Unihan kTotalStrokes-derived, integrated in the Stroke Count pass) is a COMPLETELY SEPARATE, UNCHANGED concern from this Stroke Order data. This pass does not read, write, reconcile, or overwrite strokeCount in any way.",
+    "knownDiscrepancies": [
+      {"character": "范", "unihanStrokeCount": 9, "makeMeAHanziStrokeArrayLength": 8, "resolution": "strokeCount left untouched (still Unihan-derived, value 9 for any record containing 范); the Stroke Order viewer will display 8 strokes for 范 sourced independently from Make Me a Hanzi -- this is an expected, documented, minor cross-source discrepancy, not a bug"},
+      {"character": "骨", "unihanStrokeCount": 10, "makeMeAHanziStrokeArrayLength": 9, "resolution": "same as above"}
+    ]
+  },
+  "loadingArchitecture": {
+    "vocabularySchemaChanged": false,
+    "characterDerivation": "Characters are derived at render time directly from VocabularyWord.word (split into individual Han characters, with the same digit-suffix normalization regex used at extraction time), never stored as a new vocabulary field.",
+    "lazyLoading": "Each vocabulary detail page fetches only the stroke-data JSON for the characters actually present in that word (1 file for a 1-character word, up to 4 for the longest words) -- never all 1940 files."
+  },
+  "determinism": {
+    "extractionScriptRunTwice": true,
+    "byteIdenticalOutput": true
+  }
+}

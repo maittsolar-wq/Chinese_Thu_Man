@@ -5,6 +5,7 @@ import { Breadcrumb, type BreadcrumbItem } from "@/components/ui/Breadcrumb";
 import { HskLevelBadge } from "@/components/ui/Badge";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { RadicalCard } from "@/components/radicals/RadicalCard";
+import { StrokeOrderViewer } from "@/components/vocabulary/StrokeOrderViewer";
 import { getVocabularyById } from "@/lib/data/vocabularyRepository";
 import { getRadicalsForVocabularyId, getRadicalVocabularyCount } from "@/lib/data/radicalRepository";
 
@@ -67,6 +68,13 @@ export function VocabularyDetail({
         ) : (
           <EmptyState title="Chưa có dữ liệu số nét." />
         )}
+      </section>
+
+      <section>
+        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
+          Thứ tự nét
+        </h2>
+        <StrokeOrderViewer word={word.word} />
       </section>
 
       {radicals.length > 0 && (
