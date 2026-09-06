@@ -118,7 +118,9 @@ export function DictionarySearchPopup() {
         </button>
 
         <div className="flex flex-col gap-1 pr-8">
-          <h2 className="text-xl font-bold text-primary">TỪ ĐIỂN</h2>
+          <h2 className="text-xl font-bold text-primary dark:text-night-primary">
+            Tra từ tiếng Trung
+          </h2>
           <p className="text-sm text-neutral-600 dark:text-night-muted">
             Tra cứu chữ Hán, pinyin, từ vựng tiếng Trung hoặc 214 bộ thủ.
           </p>
@@ -142,6 +144,13 @@ export function DictionarySearchPopup() {
             <EmptyState title="Nhập từ khóa để bắt đầu tra cứu." />
           )}
 
+          {/* Phase 06: the ~150ms debounce window previously rendered
+              nothing at all (isSearching was tracked but never displayed) —
+              a real gap for this phase's required loading-state design. */}
+          {hasQuery && isSearching && (
+            <EmptyState title="Đang tìm..." />
+          )}
+
           {showNoResults && (
             <EmptyState
               title="Không tìm thấy từ phù hợp"
@@ -156,20 +165,20 @@ export function DictionarySearchPopup() {
               </p>
               <div className="grid gap-3 sm:grid-cols-2">
                 {visibleResults.map((word) => (
-                  <div key={word.id} onClick={close}>
-                    <VocabularyCard
-                      word={word}
-                      href={`/vocabulary/${word.id}?from=dictionary`}
-                      showAllLevels
-                    />
-                  </div>
+                  <VocabularyCard
+                    key={word.id}
+                    word={word}
+                    href={`/vocabulary/${word.id}?from=dictionary`}
+                    showAllLevels
+                    onClick={close}
+                  />
                 ))}
               </div>
               {results.length > DISPLAY_LIMIT && (
                 <Link
                   href={`/dictionary?q=${encodeURIComponent(trimmedQuery)}`}
                   onClick={close}
-                  className="text-center text-sm font-medium text-primary hover:underline"
+                  className="text-center text-sm font-medium text-primary hover:underline dark:text-night-primary"
                 >
                   Xem tất cả {results.length.toLocaleString("vi-VN")} kết quả trên trang Từ điển
                 </Link>

@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useCallback, useContext, useMemo, useState } from "react";
+import { createContext, useCallback, useContext, useMemo, useRef, useState } from "react";
 
 /**
  * Shared open/close state for the ONE DictionarySearchPopup instance,
@@ -8,6 +8,14 @@ import { createContext, useCallback, useContext, useMemo, useState } from "react
  * Header trigger and Home trigger both call the same open()). Neither
  * trigger nor the popup owns this state itself, so there is exactly one
  * popup — never a second, divergent one.
+ *
+ * Phase 06: `open()` now remembers whatever element had focus right before
+ * the popup opened (the trigger button, in every current caller) and
+ * `close()` restores focus to it — a genuine accessibility gap found in
+ * this phase's audit (the popup focused its own input on open but never
+ * returned focus anywhere on close). The public interface is unchanged
+ * (`{isOpen, open, close}`), so AppHeader and Home's trigger button need no
+ * changes at all.
  */
 const DictionarySearchContext = createContext<{
   isOpen: boolean;
@@ -17,9 +25,18 @@ const DictionarySearchContext = createContext<{
 
 export function DictionarySearchProvider({ children }: { children: React.ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
+  const triggerRef = useRef<HTMLElement | null>(null);
 
-  const open = useCallback(() => setIsOpen(true), []);
-  const close = useCallback(() => setIsOpen(false), []);
+  const open = useCallback(() => {
+    triggerRef.current = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    setIsOpen(true);
+  }, []);
+
+  const close = useCallback(() => {
+    setIsOpen(false);
+    triggerRef.current?.focus();
+    triggerRef.current = null;
+  }, []);
 
   const value = useMemo(() => ({ isOpen, open, close }), [isOpen, open, close]);
 

@@ -3,11 +3,20 @@ import type { VocabularyWord } from "@/lib/data/types";
 import { Card } from "@/components/ui/Card";
 import { HskLevelBadge } from "@/components/ui/Badge";
 
+/**
+ * Phase 06 audit: Home, HSK, and Vocabulary Detail have each moved to their
+ * own dedicated result/preview component in earlier redesign phases
+ * (HskVocabularyRow, Home's inline preview cards, ...) — this component's
+ * only remaining consumers are /dictionary and DictionarySearchPopup
+ * (verified directly, not assumed), so it is safe to redesign here without
+ * affecting any already-approved screen.
+ */
 export function VocabularyCard({
   word,
   href,
   showAllLevels = false,
   currentLevel,
+  onClick,
 }: {
   word: VocabularyWord;
   href: string;
@@ -21,6 +30,13 @@ export function VocabularyCard({
    * Ignored when showAllLevels is true.
    */
   currentLevel?: number;
+  /**
+   * Optional handler fired when the card itself is activated (click or
+   * keyboard Enter/Space on the underlying link) — e.g. DictionarySearchPopup
+   * closing itself on navigation. Attached directly to the link rather than
+   * a wrapping div, so it fires identically for mouse and keyboard use.
+   */
+  onClick?: () => void;
 }) {
   const primaryLevel =
     currentLevel !== undefined && word.hskLevels.some((l) => l === currentLevel)
@@ -34,11 +50,13 @@ export function VocabularyCard({
       : [];
 
   return (
-    <Link href={href} className="block min-w-0">
+    <Link href={href} onClick={onClick} className="group block min-w-0">
       <Card className="flex items-start justify-between gap-3 transition-shadow hover:shadow-md">
         <div className="min-w-0">
-          <p className="text-2xl font-bold text-neutral-900 dark:text-night-text">{word.word}</p>
-          <p className="text-sm text-neutral-600 dark:text-night-muted">{word.pinyin}</p>
+          <p className="font-cjk text-2xl font-semibold text-neutral-900 dark:text-night-text">
+            {word.word}
+          </p>
+          <p className="text-sm italic text-primary dark:text-night-primary">{word.pinyin}</p>
           <p className="mt-1 truncate text-sm text-neutral-800 dark:text-night-text">{word.meaningVi}</p>
         </div>
         <div className="flex shrink-0 flex-wrap justify-end gap-1">
