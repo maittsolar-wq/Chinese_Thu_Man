@@ -4,24 +4,29 @@ import { SearchIcon } from "@/components/ui/icons";
 import { useDictionarySearch } from "./DictionarySearchProvider";
 
 /**
- * Home's "Tra từ điển nhanh" widget, replacing the old on-page SearchBox
- * (still used unchanged by the full /dictionary page itself). Visually
- * mimics that same input's border/padding/color so the widget doesn't
- * change shape — but it's a button: clicking it opens the shared
- * DictionarySearchPopup rather than performing a second, separate search
- * inline on Home.
+ * Home's secondary hero CTA (Phase 04) — opens the shared
+ * DictionarySearchPopup rather than navigating anywhere, matching the
+ * global nav's own "Từ điển" trigger. Home-exclusive component (nothing
+ * else imports it), so it's free to be reshaped alongside Home itself.
+ *
+ * Previously rendered as a full-width fake search-input-shaped button in
+ * its own dedicated "Tra từ điển nhanh" section; Home no longer has a
+ * standalone Dictionary section (the popup is already one click away from
+ * the persistent header nav on every page) — this is now just the hero's
+ * secondary CTA button, sized and styled like Button.tsx's `secondary`
+ * variant so hero primary/secondary CTAs read as a pair.
  */
-export function DictionarySearchTrigger({ placeholder }: { placeholder: string }) {
+export function DictionarySearchTrigger({ label }: { label: string }) {
   const { open } = useDictionarySearch();
 
   return (
     <button
       type="button"
       onClick={open}
-      className="flex w-full items-center gap-2 rounded-md border border-neutral-300 bg-white px-4 py-2.5 text-left text-base text-neutral-500 outline-none transition-colors hover:border-primary focus:border-primary focus:ring-1 focus:ring-primary dark:border-night-border dark:bg-night-input dark:text-night-muted"
+      className="inline-flex w-fit items-center justify-center gap-2 rounded-md border border-primary bg-white px-4 py-2 text-sm font-semibold text-primary transition-colors hover:bg-primary-light dark:bg-night-surface dark:text-night-primary dark:hover:bg-night-input"
     >
-      <SearchIcon className="h-4 w-4 shrink-0" />
-      {placeholder}
+      <SearchIcon className="h-4 w-4" />
+      {label}
     </button>
   );
 }
