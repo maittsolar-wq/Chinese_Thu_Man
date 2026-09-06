@@ -1,10 +1,11 @@
 import type { VocabularyWord } from "@/lib/data/types";
-import { Panel } from "@/components/ui/Card";
+import { Card, Panel } from "@/components/ui/Card";
 import { Breadcrumb, type BreadcrumbItem } from "@/components/ui/Breadcrumb";
 import { HskLevelBadge, Badge } from "@/components/ui/Badge";
 import { Chip } from "@/components/ui/Chip";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Tabs, type TabItem } from "@/components/ui/Tabs";
+import { PencilIcon, BookOpenIcon, GraduationCapIcon } from "@/components/ui/icons";
 import { RadicalCard } from "@/components/radicals/RadicalCard";
 import { StrokeOrderViewer } from "@/components/vocabulary/StrokeOrderViewer";
 import { PronunciationButton } from "@/components/vocabulary/PronunciationButton";
@@ -20,12 +21,15 @@ import { getCharactersForWord } from "@/lib/data/strokeOrderLoader";
  * implementation, only the breadcrumb trail changes.
  *
  * Phase 02 redesign: what was six independently-scrolled, equally-weighted
- * sections is now a hero (word/pinyin/meaning/HSK/pronunciation — the
- * brief's own priority order) + a compact quick-facts strip + four
- * progressive-disclosure tabs. No data source, adapter contract, or route
- * changed — this is a rendering-only redesign. StrokeOrderViewer's engine
- * (loading, animation, reduced-motion, keyboard handling) is untouched;
- * only its section wrapper changed.
+ * sections became a hero + quick-facts strip + four progressive-disclosure
+ * tabs. UI Phase 01 (Modern Chinese Learning / Editorial direction) keeps
+ * that exact information architecture and route/tab/data contracts, and
+ * only restyles the hero (a focal, centered "learning moment" instead of a
+ * document header), the quick-facts strip (three small cards instead of one
+ * divided row) and the Stroke Order/Audio sections in their own files. No
+ * data source, adapter contract, or route changed. StrokeOrderViewer's
+ * fetch timing and PronunciationButton's Audio-API implementation are both
+ * untouched by this pass — see those files' own docstrings.
  */
 export function VocabularyDetail({
   word,
@@ -123,11 +127,15 @@ export function VocabularyDetail({
     <div className="flex flex-col gap-6">
       <Breadcrumb items={breadcrumb} />
 
-      {/* HERO — word -> pronunciation -> meaning -> HSK, the brief's own
-          priority order. Borderless Panel, not a Card: this is the page's
-          identity block, not one interactive item among others. */}
-      <Panel className="flex flex-col gap-4 p-6 sm:p-8">
-        <div className="flex flex-wrap items-center gap-2">
+      {/* HERO — the character is the focal "learning moment", not a
+          document header: centered, generous spacing, a whisper of the
+          brand blue on the surface itself (existing `primary-light` /
+          `primary-dark` tokens only — no new color, no gradient, no
+          illustration) instead of the neutral gray Panel used elsewhere.
+          Content order (word -> pronunciation -> meaning, badges above) is
+          unchanged from before this pass. */}
+      <Panel className="flex flex-col items-center gap-4 bg-primary-light/60 p-8 text-center dark:bg-primary-dark/10 sm:p-10">
+        <div className="flex flex-wrap items-center justify-center gap-2">
           {word.hskLevels.map((level) => (
             <HskLevelBadge key={level} level={level} href={`/hsk/${level}`} />
           ))}
@@ -138,40 +146,45 @@ export function VocabularyDetail({
           ))}
         </div>
 
-        <h1 className="font-cjk text-6xl font-semibold leading-tight text-neutral-900 dark:text-night-text sm:text-7xl">
+        <h1 className="font-cjk text-7xl font-semibold leading-none text-neutral-900 dark:text-night-text sm:text-8xl">
           {word.word}
         </h1>
 
         <div className="flex items-center gap-3">
-          <p className="text-xl italic text-primary dark:text-night-primary">{word.pinyin}</p>
+          <p className="text-2xl italic text-primary dark:text-night-primary">{word.pinyin}</p>
           <PronunciationButton wordUrl={word.audio.wordUrl} />
         </div>
 
         <p className="text-lg text-neutral-800 dark:text-night-text">{word.meaningVi}</p>
       </Panel>
 
-      {/* QUICK FACTS — a compact strip, not another full-weight card; a
-          single stroke-count integer no longer gets a whole page section
-          to itself. */}
-      <div className="flex divide-x divide-neutral-200 overflow-x-auto rounded-card border border-neutral-200 bg-white dark:divide-night-border dark:border-night-border dark:bg-night-surface">
-        <div className="flex min-w-[92px] flex-col gap-0.5 px-5 py-3">
+      {/* QUICK FACTS — three small, equal-width cards instead of one
+          divided strip. `grid-cols-3` (not the old flex+overflow-x-auto
+          row) means the three columns always divide the available width
+          exactly, so there is no overflow to guard against at any
+          viewport. Icons are purely decorative (existing icon set only). */}
+      <div className="grid grid-cols-3 gap-2 sm:gap-3">
+        <Card className="flex flex-col items-center gap-1 p-3 text-center sm:p-4">
+          <PencilIcon className="h-5 w-5 text-primary dark:text-night-primary" />
           <span className="font-data text-lg font-semibold tabular-nums text-neutral-900 dark:text-night-text">
             {word.strokeCount ?? "—"}
           </span>
           <span className="text-xs text-neutral-500 dark:text-night-muted">Số nét</span>
-        </div>
-        <div className="flex min-w-[92px] flex-col gap-0.5 px-5 py-3">
+        </Card>
+        <Card className="flex flex-col items-center gap-1 p-3 text-center sm:p-4">
+          <BookOpenIcon className="h-5 w-5 text-primary dark:text-night-primary" />
           <span className="font-data text-lg font-semibold tabular-nums text-neutral-900 dark:text-night-text">
             {characterCount}
           </span>
           <span className="text-xs text-neutral-500 dark:text-night-muted">Ký tự</span>
-        </div>
-        <div className="flex min-w-[92px] flex-col gap-0.5 px-5 py-3">
+        </Card>
+        <Card className="flex flex-col items-center gap-1 p-3 text-center sm:p-4">
+          <GraduationCapIcon className="h-5 w-5 text-primary dark:text-night-primary" />
           <span className="font-data text-lg font-semibold text-neutral-900 dark:text-night-text">
             {word.hskLevels.join(", ")}
           </span>
-          <span className="text-xs text-neutral-500 dark:text-night-muted">Cấp độ HSK</span>
-        </div>
+          <span className="text-xs text-neutral-500 dark:text-night-muted">Cấp độ</span>
+        </Card>
       </div>
 
       {/* LEARNING TABS — progressive disclosure instead of six stacked

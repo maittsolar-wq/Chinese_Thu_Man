@@ -19,6 +19,12 @@ type PlaybackStatus = "idle" | "loading" | "playing" | "error";
  * A dedicated small client component rather than converting the whole
  * (server-rendered) VocabularyDetail — same "interactive island" pattern
  * already used for ThemeToggle/DictionarySearchTrigger in this codebase.
+ *
+ * UI Phase 01: presentation only (44px touch target, subtle shadow so it
+ * reads clearly as interactive) — every state/handler above (idle, loading,
+ * playing, error, retry, isBusyRef re-entrancy guard, keyboard Enter/Space
+ * via the native <button>, disabled-when-null-wordUrl) is byte-identical to
+ * the QA-passed implementation at commit 99c3918.
  */
 export function PronunciationButton({ wordUrl }: { wordUrl: string | null }) {
   const [status, setStatus] = useState<PlaybackStatus>("idle");
@@ -52,9 +58,9 @@ export function PronunciationButton({ wordUrl }: { wordUrl: string | null }) {
         disabled
         aria-label="Nghe phát âm (chưa khả dụng)"
         title="Nghe phát âm (chưa khả dụng)"
-        className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary text-white disabled:cursor-not-allowed disabled:opacity-50"
+        className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-primary text-white disabled:cursor-not-allowed disabled:opacity-50"
       >
-        <SpeakerIcon className="h-4 w-4" />
+        <SpeakerIcon className="h-5 w-5" />
       </button>
     );
   }
@@ -111,12 +117,12 @@ export function PronunciationButton({ wordUrl }: { wordUrl: string | null }) {
       title={label}
       aria-busy={isBusy}
       className={clsx(
-        "inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary text-white transition-colors hover:bg-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
+        "inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-primary text-white shadow-card transition-colors hover:bg-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
         isBusy && "animate-pulse",
         status === "error" && "ring-2 ring-error"
       )}
     >
-      <SpeakerIcon className="h-4 w-4" />
+      <SpeakerIcon className="h-5 w-5" />
     </button>
   );
 }
