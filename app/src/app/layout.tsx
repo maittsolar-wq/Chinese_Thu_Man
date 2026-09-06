@@ -3,6 +3,7 @@ import { AppHeader } from "@/components/layout/AppHeader";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import { DictionarySearchProvider } from "@/components/dictionary/DictionarySearchProvider";
 import { DictionarySearchPopup } from "@/components/dictionary/DictionarySearchPopup";
+import { beVietnamPro, ibmPlexMono } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -29,7 +30,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="vi" suppressHydrationWarning>
+    <html
+      lang="vi"
+      suppressHydrationWarning
+      className={`${beVietnamPro.variable} ${ibmPlexMono.variable}`}
+    >
       <head>
         <script dangerouslySetInnerHTML={{ __html: NO_FLASH_THEME_SCRIPT }} />
       </head>

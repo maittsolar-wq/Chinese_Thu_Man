@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+ * Chinese-headword typeface token (Vocabulary Detail redesign, Phase 02).
+ * Not loaded via next/font — see lib/fonts.ts for why Noto Serif SC is
+ * deliberately deferred. Falls back through the best-quality CJK serif
+ * each major platform actually ships, so headwords still render with a
+ * proper serif weight everywhere even without the webfont.
+ */
+:root {
+  --font-cjk: "Noto Serif SC", "Songti SC", "PingFang SC", "Microsoft YaHei",
+    "Source Han Serif SC", "Noto Serif CJK SC", serif;
+}
