@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { VocabularyCard } from "@/components/vocabulary/VocabularyCard";
+import { HskVocabularyRow } from "@/components/hsk/HskVocabularyRow";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Pagination } from "@/components/ui/Pagination";
 import { SearchIcon } from "@/components/ui/icons";
@@ -44,21 +44,22 @@ export function HskLevelVocabularyList({
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="relative sm:max-w-md">
-        <SearchIcon className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-500 dark:text-night-muted" />
-        <input
-          type="text"
-          value={query}
-          onChange={(event) => setQuery(event.target.value)}
-          placeholder={`Tìm trong HSK ${level}...`}
-          aria-label={`Tìm từ vựng trong HSK ${level}`}
-          className="w-full rounded-md border border-neutral-300 bg-white py-2.5 pl-10 pr-4 text-base text-neutral-900 outline-none placeholder:text-neutral-500 focus:border-primary focus:ring-1 focus:ring-primary dark:border-night-border dark:bg-night-input dark:text-night-text dark:placeholder:text-night-muted"
-        />
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+        <div className="relative sm:max-w-sm sm:flex-1">
+          <SearchIcon className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-500 dark:text-night-muted" />
+          <input
+            type="text"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder={`Tìm trong HSK ${level}...`}
+            aria-label={`Tìm từ vựng trong HSK ${level}`}
+            className="w-full rounded-md border border-neutral-300 bg-white py-2.5 pl-10 pr-4 text-base text-neutral-900 outline-none placeholder:text-neutral-500 focus:border-primary focus:ring-1 focus:ring-primary dark:border-night-border dark:bg-night-input dark:text-night-text dark:placeholder:text-night-muted"
+          />
+        </div>
+        <p className="text-sm text-neutral-600 dark:text-night-muted">
+          {filtered.length.toLocaleString("vi-VN")} từ vựng
+        </p>
       </div>
-
-      <p className="text-sm text-neutral-600 dark:text-night-muted">
-        {filtered.length.toLocaleString("vi-VN")} từ vựng
-      </p>
 
       {filtered.length === 0 ? (
         <EmptyState
@@ -66,9 +67,9 @@ export function HskLevelVocabularyList({
           description="Hãy thử chữ Hán, pinyin hoặc nghĩa tiếng Việt khác."
         />
       ) : (
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="flex flex-col divide-y divide-neutral-200 rounded-card border border-neutral-200 bg-white px-4 dark:divide-night-border dark:border-night-border dark:bg-night-surface sm:px-6">
           {pageItems.map((word) => (
-            <VocabularyCard
+            <HskVocabularyRow
               key={word.id}
               word={word}
               href={`/vocabulary/${word.id}?from=hsk&level=${level}`}

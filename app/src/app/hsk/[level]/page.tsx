@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import clsx from "clsx";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { LinkButton } from "@/components/ui/Button";
 import { ArrowLeftIcon } from "@/components/ui/icons";
 import { HskLevelVocabularyList } from "@/components/hsk/HskLevelVocabularyList";
-import { getVocabularyByLevel } from "@/lib/data/vocabularyRepository";
+import { getVocabularyByLevel, getVocabularyCountByLevel } from "@/lib/data/vocabularyRepository";
 import { HSK_LEVEL_INFO } from "@/lib/hsk/hskLevelInfo";
+import { HSK_LEVEL_ACCENT_BG } from "@/lib/hsk/hskLevelAccent";
 import type { HskLevel } from "@/lib/data/types";
 
 const VALID_LEVELS = [1, 2, 3, 4, 5, 6];
@@ -62,11 +64,26 @@ export default async function HskLevelPage({
         Quay lại
       </LinkButton>
 
-      <div className="flex flex-col gap-1">
-        <h1 className="text-2xl font-bold text-primary">HSK {level}</h1>
-        <p className="text-sm text-neutral-600 dark:text-night-muted">
-          Danh sách từ vựng HSK {level} - {info.description}
-        </p>
+      {/* Level identity -> summary, established before the discovery
+          controls/list below it (Phase 03 hierarchy). Same accent color as
+          this level's card on /hsk, so arriving here feels continuous. */}
+      <div className="flex items-center gap-4">
+        <span
+          className={clsx(
+            "flex h-14 w-14 shrink-0 items-center justify-center rounded-lg text-xl font-bold text-white",
+            HSK_LEVEL_ACCENT_BG[level]
+          )}
+        >
+          {level}
+        </span>
+        <div className="flex flex-col gap-0.5">
+          <h1 className="text-2xl font-bold text-neutral-900 dark:text-night-text">
+            HSK {level} <span className="font-normal text-neutral-500 dark:text-night-muted">· {info.name}</span>
+          </h1>
+          <p className="text-sm text-neutral-600 dark:text-night-muted">
+            {info.description} — {getVocabularyCountByLevel(level).toLocaleString("vi-VN")} từ vựng
+          </p>
+        </div>
       </div>
 
       <HskLevelVocabularyList key={level} words={words} level={level} />
