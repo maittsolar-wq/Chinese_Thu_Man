@@ -1,0 +1,122 @@
+{
+  "checksTotal": 23,
+  "checksPassed": 23,
+  "allChecksPassed": true,
+  "checks": [
+    {
+      "name": "record_count_before_5400",
+      "passed": true,
+      "detail": "5400"
+    },
+    {
+      "name": "record_count_after_5400",
+      "passed": true,
+      "detail": "5400"
+    },
+    {
+      "name": "id_set_identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "changed_field_is_only_relatedWordIds",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "exactly_901_records_changed",
+      "passed": true,
+      "detail": "901"
+    },
+    {
+      "name": "changed_ids_match_draft_exactly",
+      "passed": true,
+      "detail": "diff=set()"
+    },
+    {
+      "name": "draft_parity_exact",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "preexisting_nonempty_untouched",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "hsk6_completely_untouched",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "preserved_id",
+      "passed": true,
+      "detail": "diffs=0"
+    },
+    {
+      "name": "preserved_word",
+      "passed": true,
+      "detail": "diffs=0"
+    },
+    {
+      "name": "preserved_pinyin",
+      "passed": true,
+      "detail": "diffs=0"
+    },
+    {
+      "name": "preserved_meaningVi",
+      "passed": true,
+      "detail": "diffs=0"
+    },
+    {
+      "name": "preserved_examples",
+      "passed": true,
+      "detail": "diffs=0"
+    },
+    {
+      "name": "preserved_strokeCount",
+      "passed": true,
+      "detail": "diffs=0"
+    },
+    {
+      "name": "preserved_humanVerified",
+      "passed": true,
+      "detail": "diffs=0"
+    },
+    {
+      "name": "preserved_groundTruth",
+      "passed": true,
+      "detail": "diffs=0"
+    },
+    {
+      "name": "preserved_verificationStatus",
+      "passed": true,
+      "detail": "diffs=0"
+    },
+    {
+      "name": "preserved_characterIds",
+      "passed": true,
+      "detail": "diffs=0"
+    },
+    {
+      "name": "no_broken_ids_full_dataset",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "no_self_references_full_dataset",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "no_duplicate_edges_within_record_full_dataset",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "no_duplicate_production_records",
+      "passed": true,
+      "detail": "[]"
+    }
+  ]
+}

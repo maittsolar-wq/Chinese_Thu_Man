@@ -1,0 +1,62 @@
+{
+  "checksTotal": 11,
+  "checksPassed": 11,
+  "allChecksPassed": true,
+  "checks": [
+    {
+      "name": "A_no_broken_ids",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "B_no_self_references",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "C_no_duplicate_ids_within_record",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "D_existing_nonempty_never_in_changeset",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "D_all_changes_have_empty_old_value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "E_no_needs_review_in_draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "F_every_change_has_reasons_and_source",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "F_reasons_align_with_target_ids",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "G_5400_records_total",
+      "passed": true,
+      "detail": "5400"
+    },
+    {
+      "name": "HSK6_never_touched",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "I_draft_scope_relatedWordIds_only",
+      "passed": true,
+      "detail": "[]"
+    }
+  ]
+}
