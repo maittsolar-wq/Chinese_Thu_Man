@@ -6,32 +6,41 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { useTheme } from "@/components/theme/ThemeProvider";
 import { useDictionarySearch } from "@/components/dictionary/DictionarySearchProvider";
-import { HomeIcon, GraduationCapIcon, RadicalIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon } from "@/components/ui/icons";
+import { GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon } from "@/components/ui/icons";
 
 /**
- * "Luyện tập" points at the standalone Practice Home route (/practice,
- * P4.2) — its 4 cards link into the existing, already-functional
- * /practice/{meaning,character,flashcard,writing} flows, nothing
- * duplicated. Its active state is computed via `isPracticeActive` rather
- * than the normal pathname-prefix check below, since it needs to match
- * both the bare /practice route and every /practice/* sub-route.
- * "Bộ thủ" (BUG-002 fix) links to the /radicals index — until now this
- * was reachable only by direct URL or via a radical badge on Vocabulary
- * Detail (which links to one specific radical, not the browsable index),
- * so the 214-radical feature had no primary-navigation discovery path.
- * Uses the same plain pathname-prefix `isActive` check as HSK/Trang chủ.
+ * Phase 07 information-architecture finalization. Three primary
+ * destinations reflecting the actual learning journey (HSK -> Vocabulary ->
+ * Vocabulary Detail, Tra cứu for fast lookup, Luyện tập for reinforcement)
+ * — down from five. Two items were removed, not just relabeled:
  *
- * "Từ điển" is a popup TRIGGER, not a route link — it opens the shared
- * DictionarySearchPopup (mounted once in layout.tsx) instead of
- * navigating, per the confirmed product requirement. The existing
- * /dictionary page is untouched and still reachable by direct URL; the
- * header just no longer links to it.
+ * - "Trang chủ" as a separate text nav item is gone; the logo/brand block
+ *   (unchanged below) already links to "/" and is the conventional way a
+ *   product's own name doubles as its home link — a second, redundant
+ *   "Home" label next to it was never adding real navigation value.
+ * - "Bộ thủ" is removed from primary navigation entirely, per this phase's
+ *   explicit product-architecture requirement: Radicals are a contextual
+ *   reference reached from a character (Vocabulary Detail's own "Bộ thủ &
+ *   chữ Hán" tab, added in Phase 02), never a peer destination to HSK or
+ *   Luyện tập. The /radicals route itself is untouched and still fully
+ *   reachable by direct URL or from that contextual link — only the
+ *   top-level nav entry is gone.
+ *
+ * "Từ điển" is renamed to "Tra cứu" to match the vocabulary already
+ * established across the product for this exact feature (HSK's own
+ * "Tra cứu bộ thủ" panel, Dictionary's own "Tra từ tiếng Trung" heading) —
+ * one consistent name for one consistent action, not a fourth term for the
+ * same capability. Still a popup TRIGGER, not a route link — opens the
+ * same shared DictionarySearchPopup, unchanged mechanism.
+ *
+ * "Luyện tập" points at the standalone Practice Home route (/practice) —
+ * its active state is computed via `isPracticeActive` rather than the
+ * normal pathname-prefix check below, since it needs to match both the
+ * bare /practice route and every /practice/* sub-route.
  */
 const NAV_ITEMS = [
-  { kind: "link", href: "/", label: "Trang chủ", icon: HomeIcon, usesPracticeActiveCheck: false },
   { kind: "link", href: "/hsk", label: "HSK", icon: GraduationCapIcon, usesPracticeActiveCheck: false },
-  { kind: "link", href: "/radicals", label: "Bộ thủ", icon: RadicalIcon, usesPracticeActiveCheck: false },
-  { kind: "popup-trigger", label: "Từ điển", icon: SearchIcon },
+  { kind: "popup-trigger", label: "Tra cứu", icon: SearchIcon },
   { kind: "link", href: "/practice", label: "Luyện tập", icon: TargetIcon, usesPracticeActiveCheck: true },
 ] as const;
 
@@ -120,15 +129,16 @@ export function AppHeader() {
   return (
     <header className="sticky top-0 z-10 border-b border-neutral-200 bg-white dark:border-night-border dark:bg-night-bg">
       {/*
-        UI-003 mobile polish: below `sm`, the logo/toggle/nav no longer
-        compete for width in one unwrapped row (which squeezed both the
-        logo text and the 5 nav items into awkward independent wrapping —
-        up to 3 nav rows plus a 4-line logo at 390px). `flex-wrap` here
-        plus `order`/`w-full` on nav and the toggle splits mobile into two
-        intentional rows — logo+toggle, then a full-width nav that wraps
-        at most 2 rows on its own — while `sm:flex-nowrap` together with
-        each item's `sm:order-*`/`sm:w-auto` reset reproduces the exact
-        original single-row desktop/tablet layout, unchanged.
+        Mobile layout: logo+toggle share row 1, the 3-item nav gets its own
+        full-width row 2 below — measured directly (375-430px) rather than
+        assumed: logo (~138px) + toggle (36px) alone already leave too
+        little room to also fit "Tra cứu"/"Luyện tập" on that same first
+        line, so a clean two-row split reads better than a cramped forced
+        single row. Within its own row, the nav itself never wraps a
+        second time at any tested width — down from up to 3 internal nav
+        rows when this header carried 5 items. `sm:flex-nowrap` with each
+        item's `sm:order-*`/`sm:w-auto` reset collapses back to the single
+        desktop/tablet row, unchanged.
       */}
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 sm:flex-nowrap sm:px-6">
         <Link href="/" className="order-1 flex items-center gap-2.5">

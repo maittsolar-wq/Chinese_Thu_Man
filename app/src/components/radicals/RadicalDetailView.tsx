@@ -44,10 +44,10 @@ export function RadicalDetailView({
           </span>
         </div>
 
-        <p className="text-6xl font-bold leading-tight text-neutral-900 dark:text-night-text">
+        <p className="font-cjk text-6xl font-bold leading-tight text-neutral-900 dark:text-night-text">
           {radical.radical}
         </p>
-        <p className="text-xl text-neutral-600 dark:text-night-muted">{radical.pinyin}</p>
+        <p className="text-xl italic text-primary dark:text-night-primary">{radical.pinyin}</p>
         <p className="text-lg text-neutral-800 dark:text-night-text">
           {radical.nameVi} — {radical.meaningVi}
         </p>
@@ -68,7 +68,7 @@ export function RadicalDetailView({
               <span
                 key={character.character}
                 title={character.hskLevels.map((level) => `HSK ${level}`).join(", ")}
-                className="flex h-11 w-11 items-center justify-center rounded-md border border-neutral-200 text-xl font-medium text-neutral-900 dark:border-night-border dark:text-night-text"
+                className="flex h-11 w-11 items-center justify-center rounded-md border border-neutral-200 font-cjk text-xl font-medium text-neutral-900 dark:border-night-border dark:text-night-text"
               >
                 {character.character}
               </span>

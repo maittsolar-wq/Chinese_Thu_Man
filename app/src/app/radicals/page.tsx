@@ -23,9 +23,9 @@ export default async function RadicalsPage() {
       <Breadcrumb items={[{ label: "Trang chủ", href: "/" }, { label: "Bộ thủ" }]} />
 
       <div className="flex flex-col gap-2">
-        <h1 className="text-2xl font-bold text-primary">Bộ thủ</h1>
-        <p className="text-sm text-neutral-600">
-          214 bộ thủ Khang Hy và từ vựng HSK liên quan.
+        <h1 className="text-2xl font-bold text-primary dark:text-night-primary">Bộ thủ</h1>
+        <p className="text-sm text-neutral-600 dark:text-night-muted">
+          Tra cứu 214 bộ thủ Khang Hy — nền tảng để hiểu cấu tạo chữ Hán và từ vựng HSK liên quan.
         </p>
       </div>
 

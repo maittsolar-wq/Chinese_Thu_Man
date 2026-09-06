@@ -86,10 +86,10 @@ export function RadicalVocabularyByLevel({
                   className="block min-w-0"
                 >
                   <Card className="hover:shadow-md">
-                    <p className="text-xl font-semibold text-neutral-900 dark:text-night-text">
+                    <p className="font-cjk text-xl font-semibold text-neutral-900 dark:text-night-text">
                       {entry.word}
                     </p>
-                    <p className="text-sm text-neutral-600 dark:text-night-muted">{entry.pinyin}</p>
+                    <p className="text-sm italic text-primary dark:text-night-primary">{entry.pinyin}</p>
                     {entry.meaningVi && (
                       <p className="truncate text-sm text-neutral-800 dark:text-night-text">
                         {entry.meaningVi}

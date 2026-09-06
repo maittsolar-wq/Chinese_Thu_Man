@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { RadicalCard } from "@/components/radicals/RadicalCard";
+import { RadicalReferenceCard } from "@/components/radicals/RadicalReferenceCard";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Pagination } from "@/components/ui/Pagination";
 import { SearchIcon } from "@/components/ui/icons";
@@ -70,7 +70,7 @@ export function RadicalIndexView({
       ) : (
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
           {pageItems.map((radical) => (
-            <RadicalCard
+            <RadicalReferenceCard
               key={radical.id}
               radical={radical}
               vocabularyCount={vocabularyCounts[radical.id] ?? 0}
