@@ -14,17 +14,15 @@ import { Be_Vietnam_Pro, IBM_Plex_Mono } from "next/font/google";
  * existing system-font stack until it is redesigned in a later phase.
  *
  * Noto Serif SC (the approved Chinese-headword face) is intentionally NOT
- * loaded here. next/font/google's `subsets` option only selects from
- * Google's predefined subset names (latin/vietnamese/cyrillic/...) — it
- * cannot subset to our own known 1940-character inventory
- * (tools/hsk/stroke_order/character_inventory.json), so requesting the
- * family through next/font would ship the full CJK glyph set (multiple MB)
- * globally, which violates the task's own "do not load unnecessarily large
- * font files" instruction. `--font-cjk` is instead defined as a plain CSS
- * variable in globals.css with a robust system-CJK-serif fallback stack —
- * the token/utility architecture (`font-cjk`) is fully wired end-to-end and
- * ready to receive a properly subsetted self-hosted font file later,
- * without any component code changing.
+ * loaded here via next/font/google: its `subsets` option only selects from
+ * Google's predefined subset names (latin/vietnamese/cyrillic/...) and
+ * cannot subset to our own known character set, so requesting the family
+ * through next/font would ship the full CJK glyph set (tens of MB).
+ * Instead it's self-hosted as a manually-subsetted `@font-face` in
+ * globals.css (~430KB/weight, covers exactly the ~2200 Han characters this
+ * app ever renders — see that file's own comment for how the subset was
+ * built). `--font-cjk` in globals.css wires the family in with a real
+ * CJK-serif fallback chain for the rare character outside that subset.
  */
 export const beVietnamPro = Be_Vietnam_Pro({
   subsets: ["latin", "vietnamese"],

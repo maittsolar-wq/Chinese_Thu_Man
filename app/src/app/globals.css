@@ -3,13 +3,74 @@
 @tailwind utilities;
 
 /*
- * Chinese-headword typeface token (Vocabulary Detail redesign, Phase 02).
- * Not loaded via next/font — see lib/fonts.ts for why Noto Serif SC is
- * deliberately deferred. Falls back through the best-quality CJK serif
- * each major platform actually ships, so headwords still render with a
- * proper serif weight everywhere even without the webfont.
+ * Chinese-headword typeface (UI Foundation Phase). Self-hosted, subsetted
+ * Noto Serif SC — the earlier Phase 02 decision to skip next/font/google
+ * for this family is still correct (next/font can only subset to Google's
+ * predefined language subsets, which would ship the full ~65k-glyph CJK
+ * set), but the family itself can be bundled: the app only ever renders a
+ * closed, known set of Han characters (every vocabulary word, related
+ * word, example sentence and radical glyph across all 6 HSK levels, plus
+ * common Chinese punctuation — 2229 codepoints total, verified against
+ * the production HSK vocabulary JSON (all 6 levels) and the radical
+ * dataset (data/radicals/radicals_214.json). Two static
+ * weights (400/500, matching the "Chinese display: 400-500" typography
+ * rule — never bolder, to keep stroke shapes legible) were instanced from
+ * Google's own variable font and subset with fonttools to exactly that
+ * codepoint set: ~430KB each instead of ~15MB per unsubsetted weight.
+ * font-display: swap avoids a render-blocking wait; per-character
+ * @font-face fallback (browser-native, no JS) covers any future character
+ * outside this subset until it's regenerated. SIL OFL license text is
+ * alongside the files in public/fonts/.
+ */
+@font-face {
+  font-family: "Noto Serif SC";
+  src: url("/fonts/NotoSerifSC-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif SC";
+  src: url("/fonts/NotoSerifSC-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Fallback chain (used for any character outside the bundled subset, and
+ * as the whole stack if the woff2 request ever fails): real serif CJK
+ * faces only, ordered by how likely each OS is to actually ship it as an
+ * installed system font -- SimSun (Windows, serif, bundled since XP) and
+ * Songti SC / STSong (macOS, serif) come before the open-source Linux
+ * packages. Deliberately does NOT include sans-serif system faces like
+ * "Microsoft YaHei"/"PingFang SC" -- an earlier version of this stack
+ * listed them ahead of the real serif fallbacks, which meant most Windows
+ * visitors were silently seeing sans-serif Chinese text instead of the
+ * intended serif, editorial feel.
  */
 :root {
-  --font-cjk: "Noto Serif SC", "Songti SC", "PingFang SC", "Microsoft YaHei",
+  --font-cjk: "Noto Serif SC", "SimSun", "Songti SC", "STSong",
     "Source Han Serif SC", "Noto Serif CJK SC", serif;
+}
+
+/*
+ * UI Foundation Phase: Vocabulary Detail's section quick-nav uses plain
+ * `<a href="#section-id">` anchors (no scroll library, no JS state) to
+ * jump between the always-mounted sections that replaced the old tab
+ * model. This is the one line that makes those jumps animate instead of
+ * snapping instantly -- global because anchor-link navigation is a
+ * behavior, not a visual redesign, and no other screen currently has
+ * same-page anchor links for it to unexpectedly affect. Reduced-motion
+ * users get the instant jump instead, per standard practice.
+ */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

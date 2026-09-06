@@ -53,18 +53,14 @@ function usePrefersReducedMotion(): boolean {
 
 /**
  * Stroke-order viewer for a single Han character. Fetches its stroke data
- * lazily on mount (unchanged from before this redesign -- one JSON file per
- * character, still fired exactly when this viewer mounts). What changed is
- * presentation only: two explicit view modes instead of one always-
- * animating view.
- *
- * "Chữ đầy đủ" (full) is the default the moment data arrives -- the
- * complete character, no partial strokes, no animation. Nothing autoplays
- * just from opening Vocabulary Detail. Only once the visitor actively picks
- * "Xem nét vẽ" (animate) does the stroke-by-stroke sequence start, running
- * once from stroke 1 to the last stroke and stopping there (no loop) --
- * exactly the run-once interval logic this component already had, just no
- * longer triggered automatically on data-load.
+ * lazily on mount (unchanged -- one JSON file per character, fired exactly
+ * when this viewer mounts). All state/behavior below (view modes, run-once
+ * animation, reduced-motion handling, manual step control) is unchanged
+ * from the previous pass -- this file's edit is a layout-only rewrite: a
+ * full-width two-column presentation (canvas left, mode/progress/controls
+ * right on wide viewports; stacked on narrow ones) instead of a small card
+ * in a wrapped row, per the UI Foundation Phase's "Stroke Order must not
+ * read as an afterthought next to empty desktop whitespace" direction.
  */
 function SingleCharacterStroke({ character }: { character: string }) {
   const [status, setStatus] = useState<"loading" | "error" | "ready">("loading");
@@ -121,9 +117,8 @@ function SingleCharacterStroke({ character }: { character: string }) {
     if (intervalRef.current) clearInterval(intervalRef.current);
   }
 
-  /** Manual step jump -- preserved as a secondary, fine-grained control
-   *  from the pre-redesign implementation (same behavior: stop any
-   *  autoplay, jump straight to the chosen stroke). */
+  /** Manual step jump -- preserved as a secondary, fine-grained control.
+   *  Stop any autoplay, jump straight to the chosen stroke. */
   function goToStep(step: number) {
     stopAutoplay();
     setCurrentStep(step);
@@ -158,16 +153,16 @@ function SingleCharacterStroke({ character }: { character: string }) {
 
   if (status === "loading") {
     return (
-      <Card className="flex min-w-[240px] flex-col items-center gap-3 p-5">
-        <p className="font-cjk text-4xl font-bold text-neutral-300 dark:text-night-border">{character}</p>
-        <p className="text-sm text-neutral-500 dark:text-night-muted">Đang tải nét chữ…</p>
+      <Card className="flex flex-col items-center gap-3 border-hairline p-6 sm:flex-row sm:items-start sm:gap-8 sm:p-8">
+        <p className="font-cjk text-6xl font-normal text-neutral-300 dark:text-night-border">{character}</p>
+        <p className="text-sm text-ink-muted dark:text-night-muted">Đang tải nét chữ…</p>
       </Card>
     );
   }
 
   if (status === "error" || !data) {
     return (
-      <Card className="min-w-[240px] p-5">
+      <Card className="border-hairline p-6">
         <EmptyState
           title="Chưa có dữ liệu thứ tự nét."
           description={`Không tải được dữ liệu cho chữ "${character}".`}
@@ -181,144 +176,153 @@ function SingleCharacterStroke({ character }: { character: string }) {
   const visibleStrokes = viewMode === "full" ? total : currentStep;
 
   return (
-    <Card className="flex min-w-[240px] flex-col items-center gap-4 p-5">
-      <div
-        role="group"
-        aria-label={`Chế độ xem chữ ${character}`}
-        className="inline-flex rounded-md border border-neutral-200 p-0.5 dark:border-night-border"
-      >
-        <button
-          type="button"
-          onClick={() => selectMode("full")}
-          aria-pressed={viewMode === "full"}
-          className={clsx(
-            "rounded px-3 py-1.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
+    <Card className="flex flex-col gap-6 border-hairline p-5 sm:flex-row sm:items-start sm:gap-8 sm:p-8">
+      {/* LEFT — large canvas. Full-width per character, not a small card in
+          a row: the biggest visual weight in this section besides the hero
+          itself. */}
+      <div className="flex shrink-0 justify-center sm:justify-start">
+        <svg
+          viewBox="0 0 1024 1024"
+          role="img"
+          aria-label={
             viewMode === "full"
-              ? "bg-primary text-white"
-              : "text-neutral-600 hover:text-primary dark:text-night-muted dark:hover:text-night-text"
-          )}
+              ? `Chữ ${character} đầy đủ, ${total} nét`
+              : `Thứ tự nét của chữ ${character}, đang hiển thị nét ${currentStep}/${total}`
+          }
+          className="h-56 w-56 rounded-xl border border-hairline bg-white dark:border-night-border dark:bg-night-input sm:h-64 sm:w-64"
         >
-          Chữ đầy đủ
-        </button>
-        <button
-          type="button"
-          onClick={() => selectMode("animate")}
-          aria-pressed={viewMode === "animate"}
-          className={clsx(
-            "rounded px-3 py-1.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
-            viewMode === "animate"
-              ? "bg-primary text-white"
-              : "text-neutral-600 hover:text-primary dark:text-night-muted dark:hover:text-night-text"
-          )}
-        >
-          Xem nét vẽ
-        </button>
-      </div>
-
-      <div className="flex items-baseline gap-2">
-        <p className="font-cjk text-2xl font-bold text-neutral-900 dark:text-night-text">{character}</p>
-        <p className="text-xs text-neutral-500 dark:text-night-muted">{total} nét</p>
-      </div>
-
-      <svg
-        viewBox="0 0 1024 1024"
-        role="img"
-        aria-label={
-          viewMode === "full"
-            ? `Chữ ${character} đầy đủ, ${total} nét`
-            : `Thứ tự nét của chữ ${character}, đang hiển thị nét ${currentStep}/${total}`
-        }
-        className="h-40 w-40 rounded-md border border-neutral-200 bg-white dark:border-night-border dark:bg-night-input sm:h-48 sm:w-48"
-      >
-        <g transform={STROKE_TRANSFORM}>
-          {/* Faint ghost of the complete character so partial strokes stay
-              legible in context -- only meaningful mid-animation. */}
-          {viewMode === "animate" &&
-            data.strokes.map((d, i) => (
-              <path key={`ghost-${i}`} d={d} className="fill-neutral-300 dark:fill-night-border" opacity={0.25} />
-            ))}
-          {data.strokes.slice(0, visibleStrokes).map((d, i) => (
-            <path
-              key={`stroke-${i}`}
-              d={d}
-              className={
-                viewMode === "animate" && i === currentStep - 1
-                  ? "fill-primary"
-                  : "fill-neutral-800 dark:fill-night-text"
-              }
-            />
-          ))}
-        </g>
-      </svg>
-
-      {viewMode === "animate" ? (
-        <>
-          <div className="flex w-full flex-col gap-1.5">
-            <p className="text-sm font-medium text-neutral-700 dark:text-night-muted" aria-live="polite">
-              Nét {currentStep} / {total}
-            </p>
-            <div
-              role="progressbar"
-              aria-valuenow={currentStep}
-              aria-valuemin={0}
-              aria-valuemax={total}
-              aria-label={`Tiến độ nét chữ ${character}`}
-              className="h-2 w-full overflow-hidden rounded-full bg-neutral-100 dark:bg-night-input"
-            >
-              <div
-                className="h-full rounded-full bg-primary transition-[width] duration-300 dark:bg-night-primary"
-                style={{ width: `${(currentStep / total) * 100}%` }}
-              />
-            </div>
-          </div>
-
-          {isAnimationDone ? (
-            <Button type="button" variant="secondary" onClick={startAnimation} className="gap-1.5">
-              <ReplayIcon className="h-4 w-4" />
-              Phát lại
-            </Button>
-          ) : (
-            // Secondary, fine-grained manual control -- preserved from the
-            // pre-redesign implementation (same goToStep/aria-pressed
-            // behavior), visually de-emphasized under the progress bar.
-            <div
-              className="flex max-w-full gap-1 overflow-x-auto pb-1"
-              role="group"
-              aria-label={`Chọn nét cho chữ ${character}`}
-            >
-              {Array.from({ length: total }, (_, i) => i + 1).map((step) => (
-                <button
-                  key={step}
-                  type="button"
-                  onClick={() => goToStep(step)}
-                  aria-label={`Nét ${step}`}
-                  aria-pressed={currentStep === step}
-                  className={clsx(
-                    "flex h-6 w-6 shrink-0 items-center justify-center rounded text-[11px] font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
-                    currentStep === step
-                      ? "bg-primary text-white"
-                      : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200 dark:bg-night-input dark:text-night-muted dark:hover:bg-night-border"
-                  )}
-                >
-                  {step}
-                </button>
+          <g transform={STROKE_TRANSFORM}>
+            {/* Faint ghost of the complete character so partial strokes stay
+                legible in context -- only meaningful mid-animation. */}
+            {viewMode === "animate" &&
+              data.strokes.map((d, i) => (
+                <path key={`ghost-${i}`} d={d} className="fill-neutral-300 dark:fill-night-border" opacity={0.25} />
               ))}
+            {data.strokes.slice(0, visibleStrokes).map((d, i) => (
+              <path
+                key={`stroke-${i}`}
+                d={d}
+                className={
+                  viewMode === "animate" && i === currentStep - 1
+                    ? "fill-primary"
+                    : "fill-ink dark:fill-night-text"
+                }
+              />
+            ))}
+          </g>
+        </svg>
+      </div>
+
+      {/* RIGHT — identity, mode toggle, progress/controls. */}
+      <div className="flex flex-1 flex-col gap-4">
+        <div className="flex items-baseline gap-3">
+          <p className="font-cjk text-3xl font-normal text-ink dark:text-night-text">{character}</p>
+          <p className="text-sm text-ink-muted dark:text-night-muted">{total} nét</p>
+        </div>
+
+        <div
+          role="group"
+          aria-label={`Chế độ xem chữ ${character}`}
+          className="inline-flex w-fit rounded-md border border-hairline p-0.5 dark:border-night-border"
+        >
+          <button
+            type="button"
+            onClick={() => selectMode("full")}
+            aria-pressed={viewMode === "full"}
+            className={clsx(
+              "rounded px-3 py-1.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
+              viewMode === "full"
+                ? "bg-primary text-white"
+                : "text-ink-muted hover:text-primary dark:text-night-muted dark:hover:text-night-text"
+            )}
+          >
+            Chữ đầy đủ
+          </button>
+          <button
+            type="button"
+            onClick={() => selectMode("animate")}
+            aria-pressed={viewMode === "animate"}
+            className={clsx(
+              "rounded px-3 py-1.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
+              viewMode === "animate"
+                ? "bg-primary text-white"
+                : "text-ink-muted hover:text-primary dark:text-night-muted dark:hover:text-night-text"
+            )}
+          >
+            Xem nét vẽ
+          </button>
+        </div>
+
+        {viewMode === "animate" ? (
+          <>
+            <div className="flex flex-col gap-1.5">
+              <p className="text-sm font-medium text-ink-muted dark:text-night-muted" aria-live="polite">
+                Nét {currentStep} / {total}
+              </p>
+              <div
+                role="progressbar"
+                aria-valuenow={currentStep}
+                aria-valuemin={0}
+                aria-valuemax={total}
+                aria-label={`Tiến độ nét chữ ${character}`}
+                className="h-2 w-full max-w-xs overflow-hidden rounded-full bg-neutral-100 dark:bg-night-input"
+              >
+                <div
+                  className="h-full rounded-full bg-primary transition-[width] duration-300 dark:bg-night-primary"
+                  style={{ width: `${(currentStep / total) * 100}%` }}
+                />
+              </div>
             </div>
-          )}
-        </>
-      ) : (
-        <p className="text-sm text-neutral-500 dark:text-night-muted">Chữ hoàn chỉnh</p>
-      )}
+
+            {isAnimationDone ? (
+              <Button type="button" variant="secondary" onClick={startAnimation} className="w-fit gap-1.5">
+                <ReplayIcon className="h-4 w-4" />
+                Phát lại
+              </Button>
+            ) : (
+              // Secondary, fine-grained manual control -- preserved from the
+              // pre-redesign implementation (same goToStep/aria-pressed
+              // behavior), visually de-emphasized under the progress bar.
+              <div
+                className="flex max-w-full flex-wrap gap-1"
+                role="group"
+                aria-label={`Chọn nét cho chữ ${character}`}
+              >
+                {Array.from({ length: total }, (_, i) => i + 1).map((step) => (
+                  <button
+                    key={step}
+                    type="button"
+                    onClick={() => goToStep(step)}
+                    aria-label={`Nét ${step}`}
+                    aria-pressed={currentStep === step}
+                    className={clsx(
+                      "flex h-6 w-6 shrink-0 items-center justify-center rounded text-[11px] font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
+                      currentStep === step
+                        ? "bg-primary text-white"
+                        : "bg-neutral-100 text-ink-muted hover:bg-neutral-200 dark:bg-night-input dark:text-night-muted dark:hover:bg-night-border"
+                    )}
+                  >
+                    {step}
+                  </button>
+                ))}
+              </div>
+            )}
+          </>
+        ) : (
+          <p className="text-sm text-ink-muted dark:text-night-muted">Chữ hoàn chỉnh</p>
+        )}
+      </div>
     </Card>
   );
 }
 
 /**
  * Top-level Stroke Order section for a vocabulary word. Renders one
- * self-contained SingleCharacterStroke viewer per Han character in the
- * word (each fetches and animates independently -- multi-character words
- * never merge stroke paths into a single ambiguous animation, and picking
- * a mode or replaying on one character never affects any other).
+ * self-contained, full-width SingleCharacterStroke viewer per Han
+ * character in the word, stacked vertically -- each fetches and animates
+ * independently -- multi-character words never merge stroke paths into a
+ * single ambiguous animation, and picking a mode or replaying on one
+ * character never affects any other.
  */
 export function StrokeOrderViewer({ word }: { word: string }) {
   const characters = getCharactersForWord(word);
@@ -328,7 +332,7 @@ export function StrokeOrderViewer({ word }: { word: string }) {
   }
 
   return (
-    <div className="flex flex-wrap gap-3">
+    <div className="flex flex-col gap-4">
       {characters.map((character, index) => (
         // Same character can repeat within a word (e.g. 认认真真); index
         // keeps keys unique without affecting data loading (still keyed by

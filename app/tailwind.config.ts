@@ -12,6 +12,13 @@ const config: Config = {
           DEFAULT: "#025291",
           dark: "#013c6b",
           light: "#e6eef5",
+          // UI Foundation Phase additions. `light` above (#e6eef5) already
+          // has broad, approved usage across Home/HSK/Header/Badge — its
+          // value is untouched. `tint`/`wash` are new, additively-named
+          // steps for the editorial foundation's own two-step "primary
+          // light / primary subtle" scale, used first on Vocabulary Detail.
+          tint: "#EAF3FA",
+          wash: "#F4F8FC",
         },
         success: {
           DEFAULT: "#1f9254",
@@ -49,7 +56,24 @@ const config: Config = {
         // the existing `night.input` tone rather than a new dark token.
         surface: {
           sunken: "#eef2f6",
+          // UI Foundation Phase additions — additive only, `sunken` above
+          // is untouched and keeps its existing meaning/usage.
+          DEFAULT: "#FFFFFF",
+          subtle: "#F7F8FA",
+          page: "#FAFBFC",
         },
+        // New text-color pair for the editorial foundation (UI Foundation
+        // Phase) — existing screens keep using raw `neutral-900`/`600` etc.
+        // directly and are unaffected; this is an opt-in pair for screens
+        // that adopt the new system, starting with Vocabulary Detail.
+        ink: {
+          DEFAULT: "#17212B",
+          muted: "#64748B",
+        },
+        // Subtle card/section border (UI Foundation Phase) — sits alongside
+        // the existing `neutral-200`/`neutral-300` borders rather than
+        // replacing them, for the same "opt-in, new screens only" reason.
+        hairline: "#DDE4EA",
         // Status/attention marker approved in the Phase 01 color system —
         // same DEFAULT/bg/border shape as success/error/hint. Reserved for
         // exactly one purpose (an unavailable/needs-attention marker); never
@@ -89,6 +113,14 @@ const config: Config = {
       },
       borderRadius: {
         card: "12px",
+      },
+      fontSize: {
+        // The one size the approved type scale needs that stock Tailwind
+        // doesn't already provide (8xl=96px, 9xl=128px) — the desktop
+        // Chinese hero character's "visual anchor" role (96-120px range).
+        // Every other element in the new scale maps onto an existing
+        // stock text-* utility already in the approved ranges.
+        "cjk-hero": ["7.5rem", { lineHeight: "1.2" }],
       },
       boxShadow: {
         card: "0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06)",
