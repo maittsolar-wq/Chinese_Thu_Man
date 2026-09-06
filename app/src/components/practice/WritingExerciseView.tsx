@@ -121,68 +121,75 @@ export function WritingExerciseView({
             </button>
           </div>
         )}
-      </Card>
 
-      {item.feedbackVisible && (
-        <Card className="flex flex-col gap-4 p-6 sm:p-8">
-          <div
-            className={clsx(
-              "flex items-start gap-3 rounded-card border p-4",
-              item.result === "correct" ? "border-success bg-success-bg" : "border-error bg-error-bg"
-            )}
-          >
-            {item.result === "correct" ? (
-              <CheckCircleIcon className="h-8 w-8 shrink-0 text-success" />
-            ) : (
-              <WrongIcon className="h-8 w-8 shrink-0 text-error" />
-            )}
-            {/*
-              Fixed dark text (no dark:text-* override) — same reasoning as
-              PracticeExerciseView's feedback panel: this panel's background
-              is always the light success/error tint regardless of theme.
-            */}
-            <div className="flex flex-col gap-1">
-              <p
-                className={clsx(
-                  "text-lg font-bold",
-                  item.result === "correct" ? "text-success" : "text-error"
-                )}
-              >
-                {item.result === "correct" ? "Chính xác!" : "Chưa chính xác!"}
-              </p>
-              {item.result === "wrong" && item.userAnswer.trim().length > 0 && (
-                <p className="text-neutral-800">Bạn nhập: {item.userAnswer}</p>
+        {/* Feedback lives in the SAME card as the question rather than a
+            second stacked Card (Phase 05: "avoid excessive containers") —
+            a top border separates it instead. */}
+        {item.feedbackVisible && (
+          <div className="flex flex-col gap-4 border-t border-neutral-200 pt-6 dark:border-night-border">
+            <div
+              className={clsx(
+                "flex items-start gap-3 rounded-card border p-4",
+                item.result === "correct" ? "border-success bg-success-bg" : "border-error bg-error-bg"
+              )}
+            >
+              {item.result === "correct" ? (
+                <CheckCircleIcon className="h-8 w-8 shrink-0 text-success" />
+              ) : (
+                <WrongIcon className="h-8 w-8 shrink-0 text-error" />
               )}
               {/*
-                The correct answer for Writing is the CHINESE WORD (that is
-                what the user is asked to type) — not the Vietnamese meaning
-                already shown as the prompt above. Deliberate, see D5 report.
+                Fixed dark text (no dark:text-* override) — same reasoning as
+                PracticeExerciseView's feedback panel: this panel's background
+                is always the light success/error tint regardless of theme.
               */}
-              <p className="text-neutral-800">Đáp án: {item.word}</p>
+              <div className="flex flex-col gap-1">
+                <p
+                  className={clsx(
+                    "text-lg font-bold",
+                    item.result === "correct" ? "text-success" : "text-error"
+                  )}
+                >
+                  {item.result === "correct" ? "Chính xác!" : "Chưa chính xác!"}
+                </p>
+                {item.result === "wrong" && item.userAnswer.trim().length > 0 && (
+                  <p className="text-neutral-800">
+                    Bạn nhập: <span className="font-cjk">{item.userAnswer}</span>
+                  </p>
+                )}
+                {/*
+                  The correct answer for Writing is the CHINESE WORD (that is
+                  what the user is asked to type) — not the Vietnamese meaning
+                  already shown as the prompt above. Deliberate, see D5 report.
+                */}
+                <p className="text-neutral-800">
+                  Đáp án: <span className="font-cjk">{item.word}</span>
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="flex gap-3">
-            {item.result === "wrong" && (
+            <div className="flex gap-3">
+              {item.result === "wrong" && (
+                <button
+                  type="button"
+                  onClick={onRetry}
+                  className="flex-1 rounded-md border border-primary bg-white py-4 text-lg font-bold text-primary transition-colors hover:bg-primary-light dark:bg-night-surface dark:hover:bg-night-input dark:text-night-primary"
+                >
+                  Thử lại
+                </button>
+              )}
               <button
                 type="button"
-                onClick={onRetry}
-                className="flex-1 rounded-md border border-primary bg-white py-4 text-lg font-bold text-primary transition-colors hover:bg-primary-light dark:bg-night-surface dark:hover:bg-night-input"
+                onClick={onNext}
+                disabled={!canAdvanceCurrentWritingItem(session)}
+                className="flex-1 rounded-md bg-primary py-4 text-lg font-bold text-white transition-colors hover:bg-primary-dark disabled:cursor-not-allowed disabled:opacity-50"
               >
-                Thử lại
+                Tiếp theo
               </button>
-            )}
-            <button
-              type="button"
-              onClick={onNext}
-              disabled={!canAdvanceCurrentWritingItem(session)}
-              className="flex-1 rounded-md bg-primary py-4 text-lg font-bold text-white transition-colors hover:bg-primary-dark disabled:cursor-not-allowed disabled:opacity-50"
-            >
-              Tiếp theo
-            </button>
+            </div>
           </div>
-        </Card>
-      )}
+        )}
+      </Card>
     </div>
   );
 }

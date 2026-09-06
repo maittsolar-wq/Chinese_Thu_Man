@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Card } from "@/components/ui/Card";
-import { LinkButton } from "@/components/ui/Button";
+import { Button, LinkButton } from "@/components/ui/Button";
 import { ArrowLeftIcon } from "@/components/ui/icons";
 import { HskSelector } from "./HskSelector";
 import { WordCountSelector } from "./WordCountSelector";
@@ -43,12 +43,16 @@ export function PracticeConfigView({
       </LinkButton>
 
       <div className="flex flex-col gap-1">
-        <h1 className="text-3xl font-bold text-primary sm:text-4xl">{info.title}</h1>
+        <h1 className="text-3xl font-bold text-primary dark:text-night-primary sm:text-4xl">
+          {info.title}
+        </h1>
         <p className="text-neutral-600 dark:text-night-muted">{info.description}</p>
       </div>
 
       <Card className="flex flex-col gap-8 p-6 sm:p-8">
-        <h2 className="text-center text-2xl font-bold text-primary">Cấu hình luyện tập</h2>
+        <h2 className="text-center text-2xl font-bold text-primary dark:text-night-primary">
+          Cấu hình luyện tập
+        </h2>
 
         <div className="flex flex-col gap-3">
           <span className="text-base font-medium text-neutral-900 dark:text-night-text">
@@ -70,13 +74,9 @@ export function PracticeConfigView({
           />
         </div>
 
-        <button
-          type="button"
-          onClick={() => onStart?.(config)}
-          className="w-full rounded-md bg-primary py-4 text-lg font-bold text-white transition-colors hover:bg-primary-dark"
-        >
+        <Button type="button" onClick={() => onStart?.(config)} className="w-full py-4 text-lg">
           Bắt đầu luyện tập
-        </button>
+        </Button>
       </Card>
     </div>
   );

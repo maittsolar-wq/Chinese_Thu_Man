@@ -69,13 +69,17 @@ export function PracticeExerciseView({
             {question.promptPrimary}
           </p>
         ) : (
-          // Chọn nghĩa: the prompt is the Chinese word, with pinyin below.
+          // Chọn nghĩa: the prompt is the Chinese word, with pinyin below —
+          // same font-cjk/italic-pinyin treatment as Vocabulary Detail's
+          // hero, so the word looks like the same product everywhere.
           <div className="flex flex-col items-center gap-2">
-            <p className="text-5xl font-bold text-neutral-900 dark:text-night-text">
+            <p className="font-cjk text-5xl font-semibold text-neutral-900 dark:text-night-text">
               {question.promptPrimary}
             </p>
             {question.promptSecondary && (
-              <p className="text-lg italic text-primary">{question.promptSecondary}</p>
+              <p className="text-lg italic text-primary dark:text-night-primary">
+                {question.promptSecondary}
+              </p>
             )}
           </div>
         )}
@@ -107,11 +111,11 @@ export function PracticeExerciseView({
                 onClick={() => onAnswer(option)}
                 className={clsx(
                   "flex items-center gap-3 rounded-md border px-5 py-4 text-left font-semibold shadow-card transition-colors disabled:cursor-default",
-                  session.practiceType === "character" ? "text-xl" : "text-base",
+                  session.practiceType === "character" ? "font-cjk text-xl" : "text-base",
                   colorClasses
                 )}
               >
-                <span>{OPTION_LETTERS[index]}.</span>
+                <span className="font-sans">{OPTION_LETTERS[index]}.</span>
                 <span>{option}</span>
               </button>
             );
@@ -124,52 +128,65 @@ export function PracticeExerciseView({
             <span className="text-error">Sai: {session.wrongCount}</span>
           </div>
         )}
-      </Card>
 
-      {session.isAnswered && (
-        <Card className="flex flex-col gap-4 p-6 sm:p-8">
-          <div
-            className={clsx(
-              "flex items-start gap-3 rounded-card border p-4",
-              session.isCorrect ? "border-success bg-success-bg" : "border-error bg-error-bg"
-            )}
-          >
-            {session.isCorrect ? (
-              <CheckCircleIcon className="h-8 w-8 shrink-0 text-success" />
-            ) : (
-              <WrongIcon className="h-8 w-8 shrink-0 text-error" />
-            )}
-            <div className="flex flex-col gap-1">
-              <p
-                className={clsx(
-                  "text-lg font-bold",
-                  session.isCorrect ? "text-success" : "text-error"
-                )}
-              >
-                {session.isCorrect ? "Chính xác!" : "Chưa chính xác!"}
-              </p>
-              {/*
-                Fixed dark text (no dark:text-* override) — this panel's
-                background is always the light success/error tint
-                regardless of site theme, same reasoning as the answer
-                options above.
-              */}
-              {!session.isCorrect && (
-                <p className="text-neutral-800">Bạn chọn: {session.selectedAnswer}</p>
+        {/* Feedback lives in the SAME card as the question rather than a
+            second stacked Card (Phase 05: "avoid excessive containers") —
+            a top border separates it instead. */}
+        {session.isAnswered && (
+          <div className="flex flex-col gap-4 border-t border-neutral-200 pt-6 dark:border-night-border">
+            <div
+              className={clsx(
+                "flex items-start gap-3 rounded-card border p-4",
+                session.isCorrect ? "border-success bg-success-bg" : "border-error bg-error-bg"
               )}
-              <p className="text-neutral-800">Đáp án: {question.correctAnswer}</p>
+            >
+              {session.isCorrect ? (
+                <CheckCircleIcon className="h-8 w-8 shrink-0 text-success" />
+              ) : (
+                <WrongIcon className="h-8 w-8 shrink-0 text-error" />
+              )}
+              <div className="flex flex-col gap-1">
+                <p
+                  className={clsx(
+                    "text-lg font-bold",
+                    session.isCorrect ? "text-success" : "text-error"
+                  )}
+                >
+                  {session.isCorrect ? "Chính xác!" : "Chưa chính xác!"}
+                </p>
+                {/*
+                  Fixed dark text (no dark:text-* override) — this panel's
+                  background is always the light success/error tint
+                  regardless of site theme, same reasoning as the answer
+                  options above.
+                */}
+                {!session.isCorrect && (
+                  <p className="text-neutral-800">
+                    Bạn chọn:{" "}
+                    <span className={clsx(session.practiceType === "character" && "font-cjk")}>
+                      {session.selectedAnswer}
+                    </span>
+                  </p>
+                )}
+                <p className="text-neutral-800">
+                  Đáp án:{" "}
+                  <span className={clsx(session.practiceType === "character" && "font-cjk")}>
+                    {question.correctAnswer}
+                  </span>
+                </p>
+              </div>
             </div>
-          </div>
 
-          <button
-            type="button"
-            onClick={onNext}
-            className="w-full rounded-md bg-primary py-4 text-lg font-bold text-white transition-colors hover:bg-primary-dark"
-          >
-            Tiếp theo
-          </button>
-        </Card>
-      )}
+            <button
+              type="button"
+              onClick={onNext}
+              className="w-full rounded-md bg-primary py-4 text-lg font-bold text-white transition-colors hover:bg-primary-dark"
+            >
+              Tiếp theo
+            </button>
+          </div>
+        )}
+      </Card>
     </div>
   );
 }

@@ -5,8 +5,8 @@ import { PracticeConfigView } from "./PracticeConfigView";
 import { FlashcardExerciseView } from "./FlashcardExerciseView";
 import { PracticeResultView } from "./PracticeResultView";
 import { PracticeExitConfirmDialog } from "./PracticeExitConfirmDialog";
-import { EmptyState } from "@/components/ui/EmptyState";
-import { Button, LinkButton } from "@/components/ui/Button";
+import { PracticeStatusScreen } from "./PracticeStatusScreen";
+import { Button } from "@/components/ui/Button";
 import { ArrowLeftIcon } from "@/components/ui/icons";
 import { fetchPracticeVocabulary } from "@/lib/practice/actions";
 import { pickUnusedVocabulary, isLearningCycleComplete, type PracticeVocabularyItem } from "@/lib/practice/session";
@@ -159,36 +159,17 @@ export function FlashcardPracticeFlow() {
   }
 
   if (phase === "loading") {
-    return (
-      <div className="flex flex-col gap-6">
-        <LinkButton href="/" className="w-fit">
-          <ArrowLeftIcon className="h-4 w-4" />
-          Quay lại
-        </LinkButton>
-        <EmptyState title="Đang chuẩn bị bài luyện tập..." />
-      </div>
-    );
+    return <PracticeStatusScreen variant="loading" />;
   }
 
   if (phase === "empty") {
-    return (
-      <div className="flex flex-col gap-6">
-        <LinkButton href="/" className="w-fit">
-          <ArrowLeftIcon className="h-4 w-4" />
-          Quay lại
-        </LinkButton>
-        <EmptyState
-          title="Không có từ vựng cho cấp độ này."
-          description="Vui lòng quay lại và chọn cấp độ HSK khác."
-        />
-      </div>
-    );
+    return <PracticeStatusScreen variant="empty" />;
   }
 
   if (phase === "exercise" && session) {
     return (
       <div className="flex flex-col gap-4">
-        <Button variant="primary" className="w-fit" onClick={handleRequestExit}>
+        <Button variant="neutral" className="w-fit" onClick={handleRequestExit}>
           <ArrowLeftIcon className="h-4 w-4" />
           Quay lại
         </Button>

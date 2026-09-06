@@ -99,7 +99,7 @@ export function FlashcardExerciseView({
           className="flex min-h-[220px] w-full max-w-md cursor-pointer flex-col items-center justify-center gap-3 rounded-card border border-neutral-200 bg-white p-8 text-center shadow-card transition-colors dark:border-night-border dark:bg-night-surface"
         >
           <div className="flex items-center gap-3">
-            <span className="text-5xl font-bold text-neutral-900 dark:text-night-text">
+            <span className="font-cjk text-5xl font-semibold text-neutral-900 dark:text-night-text">
               {card.word}
             </span>
             {/*
@@ -125,7 +125,7 @@ export function FlashcardExerciseView({
               <SpeakerIcon className="h-4 w-4" />
             </button>
           </div>
-          <span className="text-lg italic text-primary">{card.pinyin}</span>
+          <span className="text-lg italic text-primary dark:text-night-primary">{card.pinyin}</span>
           {card.isFlipped && (
             <span className="text-xl font-bold text-neutral-900 dark:text-night-text">
               {card.meaningVi}

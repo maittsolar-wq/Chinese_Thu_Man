@@ -2,6 +2,7 @@
 
 import { Card } from "@/components/ui/Card";
 import { Button, LinkButton } from "@/components/ui/Button";
+import { CheckCircleIcon } from "@/components/ui/icons";
 import type { HskLevel } from "@/lib/data/types";
 
 /**
@@ -34,10 +35,14 @@ export function PracticeResultView({
 
   return (
     <Card className="flex flex-col items-center gap-4 p-6 text-center sm:p-8">
-      <h2 className="text-2xl font-bold text-primary">Kết quả luyện tập</h2>
+      <h2 className="text-2xl font-bold text-primary dark:text-night-primary">Kết quả luyện tập</h2>
 
-      <span className="text-7xl" role="img" aria-label="Ăn mừng">
-        🎉
+      {/* Phase 05: a large celebratory emoji read as unnecessary
+          gamification for an educational product — replaced with the same
+          success language (CheckCircleIcon) already used for a correct
+          answer elsewhere in Practice and Vocabulary Detail. */}
+      <span className="flex h-16 w-16 items-center justify-center rounded-full bg-success-bg text-success">
+        <CheckCircleIcon className="h-9 w-9" />
       </span>
 
       {isCycleComplete ? (
@@ -72,8 +77,8 @@ export function PracticeResultView({
           <span className="text-2xl font-bold text-error">{wrongCount}</span>
         </div>
         <div className="flex flex-col gap-1 p-4">
-          <span className="text-sm font-medium text-primary">Độ chính xác</span>
-          <span className="text-2xl font-bold text-primary">{accuracy}%</span>
+          <span className="text-sm font-medium text-primary dark:text-night-primary">Độ chính xác</span>
+          <span className="text-2xl font-bold text-primary dark:text-night-primary">{accuracy}%</span>
         </div>
       </div>
 

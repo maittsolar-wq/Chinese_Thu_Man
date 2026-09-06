@@ -98,6 +98,14 @@ export const PRACTICE_CARD_ACCENT_STYLES: Record<
   },
 };
 
+/**
+ * Descriptions rewritten for the Practice landing page (Phase 05) to state
+ * the actual interaction concretely ("what you'll do"), not just the
+ * exercise name a second time — PRACTICE_TYPE_INFO's own descriptions
+ * (shown lower down, on the Configuration screen) are intentionally left
+ * as-is; the two were never required to match and diverging here is safe,
+ * pure copy with no behavior change.
+ */
 export const PRACTICE_CARDS: {
   type: PracticeType;
   icon: ComponentType<SVGProps<SVGSVGElement>>;
@@ -109,28 +117,28 @@ export const PRACTICE_CARDS: {
     type: "meaning",
     icon: PracticeMeaningIcon,
     title: "Chọn nghĩa",
-    description: "Chọn nghĩa tiếng Việt đúng với từ vựng",
+    description: "Xem một từ tiếng Trung, chọn đúng nghĩa tiếng Việt trong các lựa chọn.",
     accent: "blue",
   },
   {
     type: "character",
     icon: PracticeCharacterIcon,
     title: "Chọn chữ Hán",
-    description: "Chọn chữ Hán đúng với nghĩa",
+    description: "Xem nghĩa tiếng Việt, chọn đúng chữ Hán tương ứng.",
     accent: "green",
   },
   {
     type: "flashcard",
     icon: PracticeFlashcardIcon,
     title: "Flashcard",
-    description: "Ôn tập từ vựng với thẻ ghi nhớ",
+    description: "Lật thẻ để xem nghĩa, tự đánh giá bạn đã nhớ từ hay chưa.",
     accent: "purple",
   },
   {
     type: "writing",
     icon: PracticeWritingIcon,
     title: "Luyện viết",
-    description: "Nhập tiếng Trung theo nghĩa tiếng Việt",
+    description: "Xem nghĩa tiếng Việt, gõ lại từ tiếng Trung tương ứng.",
     accent: "red",
   },
 ];
