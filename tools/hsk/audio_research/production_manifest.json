@@ -1,0 +1,76 @@
+{
+  "pass": "Audio Pass 02 -- Production Integration",
+  "generatedBy": "tools/hsk/audio_research/integrate_audio.py",
+  "source": {
+    "name": "cjhoward/cedict-tts",
+    "url": "https://github.com/cjhoward/cedict-tts",
+    "voice": "female",
+    "audioLicense": "CC0 (public domain dedication, per source repo)",
+    "scriptLicense": "MIT-style (zlib/libpng-style permissive header in tts.py; explicit commercial-use, alteration, and redistribution permission)",
+    "underlyingDictionary": "CC-CEDICT (cedict_ts.u8), separately CC BY-SA 3.0 for the dictionary TEXT -- this does not extend to the derived TTS audio, which is dedicated CC0 by the source repo",
+    "generationMethod": "Pre-generated Baidu Speech TTS MP3s hosted directly in the source repo under female/<pinyin-slug>.mp3; files downloaded via raw.githubusercontent.com, not re-synthesized"
+  },
+  "productionPublicPath": "/audio/cedict-tts/<filename>.mp3",
+  "assetDirectory": "app/public/audio/cedict-tts/",
+  "integrationPoint": "VocabularyWord.audio.wordUrl via the existing vocabularyAdapter.ts resolution (raw.audio?.wordUrl ?? null); no adapter or type code changes required",
+  "coverage": {
+    "totalVocabulary": 5400,
+    "matchedWordAudio": 5377,
+    "nullWordAudio": 23,
+    "uniqueAudioFilesImported": 4969,
+    "note": "5377 records resolve to 4969 unique files because some records share an identical pronunciation (e.g. 局1/局2, 料1/料2 digit-suffix sense splits, plus other same-pronunciation duplicate word-forms) and correctly reuse the same audio file.",
+    "byLevel": {
+      "hsk1": "299/300",
+      "hsk2": "199/200",
+      "hsk3": "498/500",
+      "hsk4": "994/1000",
+      "hsk5": "1597/1600",
+      "hsk6": "1790/1800"
+    },
+    "totalPercent": "99.57%"
+  },
+  "unresolved": {
+    "missing": {
+      "count": 19,
+      "reason": "No CC-CEDICT entry exists for the word (17 modern compounds not yet in the dictionary) or the dictionary's only entry uses a different tone/reading than this project's stored pinyin (2 records: 血 xiě, 嗯 ǹg)",
+      "records": [
+        {"id": "hsk3_200", "word": "检票"},
+        {"id": "hsk3_480", "word": "只有"},
+        {"id": "hsk4_127", "word": "大赛"},
+        {"id": "hsk4_159", "word": "电动车"},
+        {"id": "hsk4_534", "word": "嗯"},
+        {"id": "hsk4_569", "word": "起到"},
+        {"id": "hsk4_818", "word": "血"},
+        {"id": "hsk5_281", "word": "电商"},
+        {"id": "hsk5_283", "word": "电子版"},
+        {"id": "hsk5_755", "word": "没法儿"},
+        {"id": "hsk6_0122", "word": "产出"},
+        {"id": "hsk6_0288", "word": "低碳"},
+        {"id": "hsk6_0437", "word": "高新技术"},
+        {"id": "hsk6_1452", "word": "小偷儿"},
+        {"id": "hsk6_1464", "word": "新媒体"},
+        {"id": "hsk6_1466", "word": "新能源"},
+        {"id": "hsk6_1531", "word": "也好"},
+        {"id": "hsk6_1604", "word": "有劲"},
+        {"id": "hsk6_1659", "word": "占比"}
+      ]
+    },
+    "needsReview": {
+      "count": 4,
+      "reason": "Cannot safely auto-select a single audio recording without an editorial decision or additional source data",
+      "records": [
+        {"id": "hsk1_181", "word": "谁", "pinyin": "shéi/shuí", "reason": "source pinyin field itself lists two alternate readings joined by '/' -- no safe automatic pick"},
+        {"id": "hsk4_688", "word": "熟", "pinyin": "shú/shóu", "reason": "source pinyin field itself lists two alternate readings joined by '/' -- no safe automatic pick"},
+        {"id": "hsk2_118", "word": "起来", "pinyin": "qǐlái", "reason": "CEDICT's citation entries (qi3lai5, qi5lai5) do not exactly match this project's stored tone pattern (neither has a non-neutral second syllable) -- 0 exact matches after full diacritic reconstruction"},
+        {"id": "hsk6_0344", "word": "恶心", "pinyin": "ěxin", "reason": "CEDICT's citation entries all use xin1 (non-neutral); this project stores the second syllable as neutral tone -- 0 exact matches after full diacritic reconstruction"}
+      ]
+    }
+  },
+  "determinism": {
+    "mappingScriptRunTwice": true,
+    "byteIdenticalOutput": true,
+    "integrationScriptAppliedTwice": true,
+    "productionFilesIdenticalOnSecondApply": true
+  },
+  "onlyIntendedProductionChange": "VocabularyWord.audio.wordUrl (plus, for HSK6 only, the addition of the audio object itself since HSK6 records had no audio key prior to this pass). audio.exampleUrl, examples, relatedWordIds, strokeCount, characterIds, humanVerified, verification fields, IDs, and ordering are all unchanged."
+}

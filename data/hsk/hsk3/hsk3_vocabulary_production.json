@@ -26,7 +26,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/a1yi2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -89,7 +89,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ai3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -150,7 +150,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ai4ren5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -211,7 +211,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/an1jing4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -272,7 +272,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/an1quan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -336,7 +336,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ba3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -396,7 +396,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ban1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -459,7 +459,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ban1ji2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -520,7 +520,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ban1jia1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -587,7 +587,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ban4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -653,7 +653,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ban4fa3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -714,7 +714,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ban4gong1shi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -776,7 +776,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ban4tian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -834,7 +834,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bang1zhu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -890,7 +890,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bao3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -946,7 +946,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bao4zhi3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1009,7 +1009,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bei3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1067,7 +1067,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bei3fang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1123,7 +1123,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bei4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1181,7 +1181,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bi3ji4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1242,7 +1242,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bi3jiao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1302,7 +1302,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bi3ji4ben3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1360,7 +1360,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bi3ru2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1419,7 +1419,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bi3sai4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1475,7 +1475,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bi4xu1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1537,7 +1537,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1593,7 +1593,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1649,7 +1649,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bian4cheng2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1706,7 +1706,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bian4hua4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1762,7 +1762,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/biao3yan3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1820,7 +1820,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bie2de5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1876,7 +1876,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bie2ren5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1932,7 +1932,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bin1guan3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -1998,7 +1998,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bing1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2054,7 +2054,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bing1ji1ling2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2115,7 +2115,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bing1xiang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2173,7 +2173,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bing4ren2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2229,7 +2229,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bu2dan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2290,7 +2290,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bu2jian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2351,7 +2351,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bu2yong4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2407,7 +2407,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bu4tong2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2465,7 +2465,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bu4jiu3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2527,7 +2527,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/bu4xing2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2583,7 +2583,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/cai2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2639,7 +2639,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/cai4dan1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2695,7 +2695,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/can1jia1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2753,7 +2753,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/cao3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2811,7 +2811,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/cao3di4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2867,7 +2867,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ceng2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2923,7 +2923,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/cha2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -2987,7 +2987,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/cha4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3048,7 +3048,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/cha4bu4duo1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3104,7 +3104,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chang2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3166,7 +3166,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chang2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3226,7 +3226,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chang2jian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3286,7 +3286,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chang2yong4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3344,7 +3344,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chang2chang2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3406,7 +3406,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chen4shan1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3467,7 +3467,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/cheng2ji4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3528,7 +3528,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/cheng2shi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3584,7 +3584,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chi2dao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3646,7 +3646,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chu1fa1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3708,7 +3708,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chu1sheng1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3767,7 +3767,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chu1yuan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3828,7 +3828,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chu1zhong1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3886,7 +3886,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chu2le5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -3942,7 +3942,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chuan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4002,7 +4002,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/chun1tian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4060,7 +4060,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ci2dian3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4116,7 +4116,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/cong1ming5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4172,7 +4172,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/da3sao3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4229,7 +4229,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/da3suan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4290,7 +4290,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/da4gai4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4348,7 +4348,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/da4ren5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4404,7 +4404,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/da4xiao3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4460,7 +4460,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/da4xiong2mao1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4521,7 +4521,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/da4yi1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4582,7 +4582,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dai4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4644,7 +4644,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dan1xin1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4700,7 +4700,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dan4gao1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4756,7 +4756,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dang1ran2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4812,7 +4812,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dao4chu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4874,7 +4874,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/de2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4923,7 +4923,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/de2dao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -4980,7 +4980,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/de2fen1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5036,7 +5036,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/de5hua4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5092,7 +5092,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dei3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5146,7 +5146,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/deng1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5204,7 +5204,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/di4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5259,7 +5259,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/di4dian3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5321,7 +5321,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/di4fang5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5376,7 +5376,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/di4tu2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5442,7 +5442,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5498,7 +5498,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dian4ti1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5554,7 +5554,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dian4zi5shu1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5610,7 +5610,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/diu1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5673,7 +5673,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dong1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5732,7 +5732,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dong1bei3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5790,7 +5790,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dong1fang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5849,7 +5849,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dong1nan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5909,7 +5909,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dong1tian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -5968,7 +5968,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dong3de5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6026,7 +6026,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dong4wu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6088,7 +6088,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dong4wu4yuan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6147,7 +6147,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/duan3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6206,7 +6206,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/duan3ku4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6262,7 +6262,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/duan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6320,7 +6320,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/duan4lian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6376,7 +6376,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/dui4hua4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6432,7 +6432,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/e4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6488,7 +6488,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/er2qie3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6544,7 +6544,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/er3duo5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6606,7 +6606,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/er3ji1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6669,7 +6669,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fa1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6727,7 +6727,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fa1shao1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6789,7 +6789,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fa1sheng1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6850,7 +6850,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fa1xian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6911,7 +6911,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fa1zhan3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -6967,7 +6967,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fang1bian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7023,7 +7023,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fang1bian4mian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7079,7 +7079,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fang1fa3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7141,7 +7141,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fang1xiang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7197,7 +7197,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fang2zi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7259,7 +7259,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7320,7 +7320,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fang4jia4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7379,7 +7379,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fang4xin1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7441,7 +7441,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fang4xue2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7497,7 +7497,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fen1kai1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7559,7 +7559,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/feng1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7620,7 +7620,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/feng1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7678,7 +7678,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fu1qi1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7734,7 +7734,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fu2wu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7790,7 +7790,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fu4jin4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7852,7 +7852,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/fu4xi2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7908,7 +7908,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gai1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -7966,7 +7966,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gan1jing4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8020,7 +8020,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gan3xing4qu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8076,7 +8076,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gan3dao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8133,7 +8133,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gan3mao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8194,7 +8194,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8243,7 +8243,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8304,7 +8304,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gang1cai2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8360,7 +8360,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gang1gang5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8418,7 +8418,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gao1tie3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8485,7 +8485,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gen1ju4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8541,7 +8541,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/geng4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8597,7 +8597,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gong1jin1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8658,7 +8658,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gong1yuan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8714,7 +8714,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gong1zuo4ri4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8770,7 +8770,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gu4shi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8826,7 +8826,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/gua1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8886,7 +8886,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/guan1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -8944,7 +8944,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/guan1ji1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9008,7 +9008,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/guan1xi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9068,7 +9068,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/guan1xin1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9128,7 +9128,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/guan1yu2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9188,7 +9188,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/guan1zhu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9244,7 +9244,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/guo2jia1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9300,7 +9300,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/guo4jie2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9357,7 +9357,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/guo4qu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9415,7 +9415,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hai3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9473,7 +9473,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hai4pa4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9529,7 +9529,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hao3duo1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9587,7 +9587,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hao3jiu3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9646,7 +9646,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hao3xiang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9702,7 +9702,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hao4ma3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9758,7 +9758,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/he2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9814,7 +9814,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/he2shi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9872,7 +9872,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hei1ban3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9928,7 +9928,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hong2lv4deng1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -9986,7 +9986,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hou4lai2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10047,7 +10047,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hou4nian2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10108,7 +10108,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hou4tian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10164,7 +10164,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hu4zhao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10222,7 +10222,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hua1yuan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10280,7 +10280,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hua4jia1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10336,7 +10336,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/huan1ying2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10393,7 +10393,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/huan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10444,7 +10444,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/huan2jing4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10500,7 +10500,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/huan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10562,7 +10562,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/huang2se4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10618,7 +10618,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hui2da2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10680,7 +10680,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hui4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10743,7 +10743,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/hui4yi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10803,7 +10803,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/huo4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10861,7 +10861,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/huo4zhe3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10917,7 +10917,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ji1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -10973,7 +10973,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ji1hu1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11029,7 +11029,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ji1hui4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11085,7 +11085,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ji2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11144,7 +11144,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ji2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11200,7 +11200,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ji4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11256,7 +11256,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ji4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11312,7 +11312,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ji4jie2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11374,7 +11374,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jia1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11434,7 +11434,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jia4qi1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11490,7 +11490,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jian1chi2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11546,7 +11546,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jian3cha2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11604,7 +11604,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jian3dan1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11716,7 +11716,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jian4kang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11778,7 +11778,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jian4mian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11834,7 +11834,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jiang3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11896,7 +11896,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jiao3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -11959,7 +11959,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jiao3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12015,7 +12015,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jie1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12076,7 +12076,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jie1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12143,7 +12143,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jie2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12199,7 +12199,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jie2hun1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12255,7 +12255,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jie2mu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12313,7 +12313,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jie2ri4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12371,7 +12371,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jie2shu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12433,7 +12433,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jie3jue2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12492,7 +12492,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jie3mei4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12548,7 +12548,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jie4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12604,7 +12604,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jin1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12661,7 +12661,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jing1guo4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12717,7 +12717,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jing1li3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12776,7 +12776,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jiu3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12838,7 +12838,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jiu3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12896,7 +12896,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jiu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -12952,7 +12952,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ju4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13008,7 +13008,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ju4zi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13065,7 +13065,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/jue2ding4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13122,7 +13122,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ka3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13182,7 +13182,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/kai1hua1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13241,7 +13241,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/kai1hui4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13300,7 +13300,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/kai1ji1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13361,7 +13361,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/kai1xin1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13417,7 +13417,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/kan4lai5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13483,7 +13483,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ke3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13539,7 +13539,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ke3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13595,7 +13595,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ke3ai4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13653,7 +13653,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ke3shi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13718,7 +13718,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ke4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13777,7 +13777,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ke4ben3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13833,7 +13833,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ke4ren2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13892,7 +13892,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ke4wen2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -13948,7 +13948,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/kong1tiao2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14006,7 +14006,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ku1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14062,7 +14062,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/kuai4zi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14118,7 +14118,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/kuang4quan2shui3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14174,7 +14174,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lai2zi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14230,7 +14230,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14295,7 +14295,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lao3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14355,7 +14355,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lao3ren2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14413,7 +14413,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/li2kai1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14469,7 +14469,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/li3wu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14525,7 +14525,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/li4shi3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14586,7 +14586,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lian3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14648,7 +14648,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14711,7 +14711,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lian4xi2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14769,7 +14769,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/liang2kuai5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14831,7 +14831,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/liang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14887,7 +14887,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/liao2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -14943,7 +14943,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/liao2tian1er5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15001,7 +15001,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/liao3jie3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15057,7 +15057,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lin2ju1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15113,7 +15113,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/liu2xue2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15169,7 +15169,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/liu2xue2sheng1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15227,7 +15227,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lou2ti1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15285,7 +15285,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lu4bian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15343,7 +15343,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/lu4kou3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15399,7 +15399,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ma3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15461,7 +15461,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ma3lu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15517,7 +15517,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ma3shang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15573,7 +15573,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/man3yi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15640,7 +15640,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/mao2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15705,7 +15705,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/mi3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15765,7 +15765,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/mian4qian2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15825,7 +15825,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ming2bai5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15881,7 +15881,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ming2dan1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -15937,7 +15937,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ming2ren2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16000,7 +16000,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16062,7 +16062,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16120,7 +16120,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nan2fang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16178,7 +16178,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nan2guo4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16239,7 +16239,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nan2kan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16297,7 +16297,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nan2ren2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16355,7 +16355,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nan2sheng1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16417,7 +16417,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nan2ti2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16473,7 +16473,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nan2ting1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16529,7 +16529,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nian2ji2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16587,7 +16587,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nian2qing1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16647,7 +16647,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/niu2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16709,7 +16709,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nu3li4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16767,7 +16767,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nv3ren2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16825,7 +16825,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/nv3sheng1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16881,7 +16881,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/pa2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16943,7 +16943,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/pa4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -16999,7 +16999,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/pai1zhao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17055,7 +17055,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/pan2zi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17113,7 +17113,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/pang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17169,7 +17169,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/pi2jiu3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17227,7 +17227,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ping2shi2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17283,7 +17283,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ping2zi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17339,7 +17339,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qi2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17395,7 +17395,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qi2guai4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17451,7 +17451,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qi2shi2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17507,7 +17507,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qi2ta1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17571,7 +17571,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qi3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17632,7 +17632,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qi3fei1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17693,7 +17693,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qi4che1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17754,7 +17754,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qian1bi3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17815,7 +17815,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qian2nian2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17876,7 +17876,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qian2tian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17935,7 +17935,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qing1chu5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -17995,7 +17995,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qing3jia4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18056,7 +18056,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qing3ke4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18116,7 +18116,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qiu1tian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18174,7 +18174,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qiu2chang3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18235,7 +18235,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/qun2zi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18297,7 +18297,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ran2hou4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18353,7 +18353,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/re4qing2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18412,7 +18412,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ren4de5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18471,7 +18471,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ren4wei2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18527,7 +18527,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ren4zhen1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18586,7 +18586,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/rong2yi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18642,7 +18642,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ru2guo3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18698,7 +18698,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/san3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18754,7 +18754,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/sao3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18810,7 +18810,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/sha1fa1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18871,7 +18871,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shan1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18932,7 +18932,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shang4yi1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -18988,7 +18988,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shao2zi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19044,7 +19044,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shen1bian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19106,7 +19106,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shen1gao1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19166,7 +19166,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/sheng1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19225,7 +19225,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/sheng1huo2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19281,7 +19281,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/sheng1qi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19340,7 +19340,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/sheng1yin1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19402,7 +19402,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19458,7 +19458,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19514,7 +19514,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19570,7 +19570,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shi4jie4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19632,7 +19632,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shou1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19688,7 +19688,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shou1dao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19750,7 +19750,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shou4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19808,7 +19808,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shou4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19864,7 +19864,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shou4dao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19922,7 +19922,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shu1shu5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -19978,7 +19978,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20034,7 +20034,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shu4xue2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20090,7 +20090,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shua1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20146,7 +20146,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shuang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20202,7 +20202,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/shui3ping2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20260,7 +20260,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/si1ji1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20316,7 +20316,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/si4ji4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20374,7 +20374,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/tai4yang5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20430,7 +20430,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/tang2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20488,7 +20488,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/te4bie2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20548,7 +20548,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ti2gao1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20606,7 +20606,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ti3yu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20664,7 +20664,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ti3yu4guan3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20720,7 +20720,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/tian2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20778,7 +20778,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/tiao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20834,7 +20834,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ting1shuo1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20894,7 +20894,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ting3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -20950,7 +20950,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/tong2shi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21006,7 +21006,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/tong2yi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21064,7 +21064,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/tou2fa5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21125,7 +21125,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/tu1ran2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21186,7 +21186,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/tu2shu1guan3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21242,7 +21242,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/tui3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21304,7 +21304,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wai4di4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21367,7 +21367,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wai4mai4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21425,7 +21425,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wai4yu3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21483,7 +21483,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wan2cheng2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21539,7 +21539,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wan3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21595,7 +21595,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wan3dian3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21651,7 +21651,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wan3hui4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21711,7 +21711,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wang3qiu2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21773,7 +21773,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wang3zhan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21829,7 +21829,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wang4ji4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21887,7 +21887,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wei4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -21941,7 +21941,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wei4le5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22000,7 +22000,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wei4sheng1jian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22062,7 +22062,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wen2hua4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22118,7 +22118,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/wu1zi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22181,7 +22181,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xi1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22240,7 +22240,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xi1bei3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22298,7 +22298,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xi1fang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22354,7 +22354,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xi1gua1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22413,7 +22413,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xi1nan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22470,7 +22470,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xi2guan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22526,7 +22526,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xi3ai4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22584,7 +22584,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xi3yi1ji1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22642,7 +22642,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xi3zao3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22702,7 +22702,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xia4tian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22764,7 +22764,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22820,7 +22820,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiang1jiao1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22876,7 +22876,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiang1xin4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22932,7 +22932,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiang1zi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -22989,7 +22989,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23054,7 +23054,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23116,7 +23116,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiang4ji1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23177,7 +23177,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiao3qu1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23237,7 +23237,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiao3xin1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23296,7 +23296,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiao4yuan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23355,7 +23355,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiao4zhang3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23411,7 +23411,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xie2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23473,7 +23473,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xin1li5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23535,7 +23535,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xin1nian2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23596,7 +23596,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xin1wen2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23658,7 +23658,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xin1xian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23716,7 +23716,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xin4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23779,7 +23779,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xin4yong4ka3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23843,7 +23843,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xing2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23894,7 +23894,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xing2li5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -23950,7 +23950,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xing4qu4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24010,7 +24010,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xiu1jia4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24073,7 +24073,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xu1yao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24129,7 +24129,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xuan3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24185,7 +24185,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xuan3ze2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24243,7 +24243,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/xue2qi1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24299,7 +24299,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ya2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24355,7 +24355,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ya2shua1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24411,7 +24411,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yang2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24467,7 +24467,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yang3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24524,7 +24524,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yao1qiu2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24580,7 +24580,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ye4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24642,7 +24642,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi2ding4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24698,7 +24698,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi2gong4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24755,7 +24755,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi2kuai4er5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24814,7 +24814,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi2yang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24873,7 +24873,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi3hou4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24931,7 +24931,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi3qian2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -24989,7 +24989,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi3shang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25047,7 +25047,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi3wai4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25105,7 +25105,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi3wei2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25163,7 +25163,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi3xia4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25219,7 +25219,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi4ban1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25276,7 +25276,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi4bian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25334,7 +25334,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yi4zhi2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25392,7 +25392,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yin1yue4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25454,7 +25454,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yin2hang2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25515,7 +25515,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yin2hang2ka3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25571,7 +25571,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yin3liao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25627,7 +25627,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ying1gai1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25684,7 +25684,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/ying3xiang3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25746,7 +25746,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yong4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25802,7 +25802,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/you2jian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25858,7 +25858,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/you2ke4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25914,7 +25914,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/you2xi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -25976,7 +25976,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/you2xiang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26039,7 +26039,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/you3guan1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26100,7 +26100,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/you3ming2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26162,7 +26162,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/you3yong4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26218,7 +26218,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/you4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26278,7 +26278,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yu3mao2qiu2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26334,7 +26334,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yu3yan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26396,7 +26396,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yu3yi1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26452,7 +26452,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yu4dao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26508,7 +26508,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yu4jian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26570,7 +26570,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yuan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26626,7 +26626,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yuan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26684,7 +26684,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yuan4yi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26740,7 +26740,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yue4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26798,7 +26798,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yue4liang5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26856,7 +26856,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yun4dong4hui4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26914,7 +26914,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/yun4dong4yuan2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -26970,7 +26970,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zan2men5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27028,7 +27028,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27082,7 +27082,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zen3me5ban4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27138,7 +27138,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zen3yang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27201,7 +27201,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27261,7 +27261,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhang1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27327,7 +27327,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhang3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27381,7 +27381,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhao2ji2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27444,7 +27444,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27507,7 +27507,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhao4gu5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27569,7 +27569,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhao4pian4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27630,7 +27630,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhao4xiang4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27686,7 +27686,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhi2dao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27748,7 +27748,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhi3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27799,7 +27799,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhi3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27858,7 +27858,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhi3neng2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27921,7 +27921,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhi3shi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -27982,7 +27982,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhi3yao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28106,7 +28106,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhong1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28163,7 +28163,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhong1jian1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28219,7 +28219,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhong1yu2.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28282,7 +28282,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhong3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28339,7 +28339,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhong4yao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28397,7 +28397,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhou1mo4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28459,7 +28459,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhu3yao4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28520,7 +28520,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhu4yi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28579,7 +28579,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zhu4yuan4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28635,7 +28635,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zi4dian3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28696,7 +28696,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zi4xing2che1.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28759,7 +28759,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zi5.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28828,7 +28828,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zong3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28884,7 +28884,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zong3shi4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28940,7 +28940,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zui3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -28998,7 +28998,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zui4hao3.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -29056,7 +29056,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zui4hou4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -29114,7 +29114,7 @@
     ],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zui4jin4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -29170,7 +29170,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zuo4ke4.mp3",
       "exampleUrl": null
     },
     "_source": {
@@ -29226,7 +29226,7 @@
     "relatedWordIds": [],
     "exampleIds": [],
     "audio": {
-      "wordUrl": null,
+      "wordUrl": "/audio/cedict-tts/zuo4ye4.mp3",
       "exampleUrl": null
     },
     "_source": {
