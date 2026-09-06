@@ -256,7 +256,7 @@ function SingleCharacterStroke({ character }: { character: string }) {
         {viewMode === "animate" ? (
           <>
             <div className="flex flex-col gap-1.5">
-              <p className="text-sm font-medium text-ink-muted dark:text-night-muted" aria-live="polite">
+              <p className="text-lg font-semibold text-ink dark:text-night-text" aria-live="polite">
                 Nét {currentStep} / {total}
               </p>
               <div

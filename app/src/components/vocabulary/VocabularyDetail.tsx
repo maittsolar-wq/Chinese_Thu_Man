@@ -1,10 +1,8 @@
-import type { ReactNode } from "react";
 import type { VocabularyWord } from "@/lib/data/types";
 import { Card } from "@/components/ui/Card";
 import { Breadcrumb, type BreadcrumbItem } from "@/components/ui/Breadcrumb";
 import { HskLevelBadge, Badge } from "@/components/ui/Badge";
 import { EmptyState } from "@/components/ui/EmptyState";
-import { PencilIcon, BookOpenIcon, GraduationCapIcon } from "@/components/ui/icons";
 import { RadicalCard } from "@/components/radicals/RadicalCard";
 import { StrokeOrderViewer } from "@/components/vocabulary/StrokeOrderViewer";
 import { PronunciationButton } from "@/components/vocabulary/PronunciationButton";
@@ -23,64 +21,18 @@ const SECTIONS = [
 /**
  * One visual language for every section heading on this page: a normal-
  * case (not uppercase/colored-eyebrow) title plus an optional one-line
- * Vietnamese subtitle, sized per the approved scale (20-24px desktop,
- * 18-20px mobile). Local to this file -- not yet a shared primitive, since
- * no other screen uses this heading shape yet.
+ * Vietnamese subtitle. `text-2xl` (24px) sits inside both the approved
+ * desktop (24-26px) and mobile (22-24px) ranges, so the title needs no
+ * responsive split; the subtitle uses `text-base` (16px) uniformly for
+ * the same reason (15-16px, no separate mobile/desktop values given).
+ * Local to this file -- not yet a shared primitive, since no other screen
+ * uses this heading shape yet.
  */
 function SectionHeading({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
     <div className="flex flex-col gap-1">
-      <h2 className="text-lg font-semibold text-ink dark:text-night-text sm:text-2xl">{title}</h2>
-      {subtitle && <p className="text-sm text-ink-muted dark:text-night-muted sm:text-base">{subtitle}</p>}
-    </div>
-  );
-}
-
-type MetadataItem = {
-  icon: (props: { className?: string }) => ReactNode;
-  value: string;
-  label: string;
-};
-
-/**
- * Phase 09: replaces the earlier three-dashboard-card Quick Info strip.
- * These are QUICK METADATA, not a peer content block to the hero — they
- * must visibly "sit back" from the Chinese character, not compete with
- * it. Two call sites render the SAME data in two non-overlapping
- * presentations (each wrapped by its own caller in a responsive
- * visibility class, so exactly one exists in the accessible tree at any
- * viewport — see the two call sites in VocabularyDetail below):
- * "compact" is a single horizontal line for narrow viewports (icon +
- * value only, "·" separated — no room to spell "Số nét" three times on a
- * phone width); "list" is a small vertical stack for the desktop right
- * column (icon + value + label).
- */
-function QuickMetadata({ items, variant }: { items: MetadataItem[]; variant: "compact" | "list" }) {
-  if (variant === "compact") {
-    return (
-      <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
-        {items.map((item, index) => (
-          <div key={item.label} className="flex items-center gap-1.5">
-            {index > 0 && <span aria-hidden="true" className="text-ink-muted dark:text-night-muted">·</span>}
-            <item.icon className="h-3.5 w-3.5 shrink-0 text-primary dark:text-night-primary" />
-            <span className="text-sm font-medium text-ink dark:text-night-text">{item.value}</span>
-          </div>
-        ))}
-      </div>
-    );
-  }
-
-  return (
-    <div className="flex flex-col gap-3">
-      {items.map((item) => (
-        <div key={item.label} className="flex items-center gap-2">
-          <item.icon className="h-4 w-4 shrink-0 text-primary dark:text-night-primary" />
-          <div className="flex flex-col leading-tight">
-            <span className="text-sm font-medium text-ink dark:text-night-text">{item.value}</span>
-            <span className="text-xs text-ink-muted dark:text-night-muted">{item.label}</span>
-          </div>
-        </div>
-      ))}
+      <h2 className="text-2xl font-semibold text-ink dark:text-night-text">{title}</h2>
+      {subtitle && <p className="text-base text-ink-muted dark:text-night-muted">{subtitle}</p>}
     </div>
   );
 }
@@ -125,69 +77,49 @@ export function VocabularyDetail({
   // second regex, for "how many real Han characters does this word have".
   const characterCount = getCharactersForWord(word.word).length;
 
-  const metadataItems: MetadataItem[] = [
-    { icon: PencilIcon, value: `${word.strokeCount ?? "—"} nét`, label: "Số nét" },
-    { icon: GraduationCapIcon, value: `HSK ${word.hskLevels.join(", ")}`, label: "Cấp độ" },
-    { icon: BookOpenIcon, value: `${characterCount} ký tự`, label: "Ký tự" },
-  ];
-
   return (
-    <div className="mx-auto flex max-w-[1120px] flex-col gap-8 sm:gap-12 lg:gap-14">
+    <div className="mx-auto flex max-w-[1120px] flex-col gap-8 bg-surface-page px-4 py-6 dark:bg-night-bg sm:gap-12 sm:px-6 sm:py-8 lg:gap-14">
       <Breadcrumb items={breadcrumb} />
 
-      {/* VOCABULARY HEADER — Phase 09: a two-column composition on wide
-          viewports (content ~2/3, quick metadata ~1/3, via a single
-          `lg:grid-cols-[2fr_1fr]`) instead of a tall centered hero
-          followed by three large dashboard cards. Below `lg`, the same
-          grid collapses to one column and the metadata block (rendered
-          once, see QuickMetadata) simply falls in document order below
-          the meaning line, matching the approved mobile stack. Content
+      {/* VOCABULARY HEADER — visual-refinement pass: back to a single
+          white card (no more 2fr/1fr composition or blue-tinted surface),
+          matching the approved reference exactly: badges row, then the
+          Chinese word with the speaker button on the same line pinned to
+          the right edge, pinyin on its own line, meaning below, and one
+          compact bordered pill ("2 chữ · 8 nét") in place of the earlier
+          three-item metadata block/column. HSK level is not repeated in
+          the pill since it's already shown as a badge above. Content
           itself (badges -> word -> pronunciation -> meaning) is
-          unchanged; only its size, alignment, and surrounding composition
-          changed. Still a whisper of brand blue on the surface
-          (`primary-wash`) -- no gradient, no illustration -- but
-          noticeably shorter (padding cut roughly in half) despite the
-          Chinese character growing, per "hero ngắn gọn hơn". */}
-      <header className="rounded-2xl border border-hairline bg-primary-wash px-5 py-6 dark:border-night-border dark:bg-primary-dark/10 sm:px-8 sm:py-8">
-        <div className="grid grid-cols-1 items-center gap-6 lg:grid-cols-[2fr_1fr] lg:items-start lg:gap-8">
-          <div className="flex flex-col items-center gap-3 text-center lg:items-start lg:text-left">
-            <div className="flex flex-wrap items-center justify-center gap-2 lg:justify-start">
-              {word.hskLevels.map((level) => (
-                <HskLevelBadge key={level} level={level} href={`/hsk/${level}`} />
-              ))}
-              {word.partOfSpeech.map((pos) => (
-                <Badge key={pos} tone="neutral">
-                  {pos}
-                </Badge>
-              ))}
-            </div>
-
-            <h1 className="font-cjk text-7xl font-medium leading-tight text-ink dark:text-night-text lg:text-cjk-hero">
-              {word.word}
-            </h1>
-
-            <div className="flex items-center gap-3">
-              <p className="text-2xl italic text-primary dark:text-night-primary lg:text-3xl">{word.pinyin}</p>
-              <PronunciationButton wordUrl={word.audio.wordUrl} />
-            </div>
-
-            <p className="text-base text-ink dark:text-night-text lg:text-lg">{word.meaningVi}</p>
-
-            {/* Mobile-only compact metadata row lives right under the
-                meaning line, per the approved mobile order. The desktop
-                column version of the same data renders from the sibling
-                cell below. */}
-            <div className="lg:hidden">
-              <QuickMetadata items={metadataItems} variant="compact" />
-            </div>
+          unchanged; only its size, alignment, and surrounding card
+          changed. */}
+      <header className="rounded-card border border-hairline bg-white px-5 py-6 dark:border-night-border dark:bg-night-surface sm:px-8 sm:py-8">
+        <div className="flex flex-col gap-3">
+          <div className="flex flex-wrap items-center gap-2">
+            {word.hskLevels.map((level) => (
+              <HskLevelBadge key={level} level={level} href={`/hsk/${level}`} />
+            ))}
+            {word.partOfSpeech.map((pos) => (
+              <Badge key={pos} tone="neutral">
+                {pos}
+              </Badge>
+            ))}
           </div>
 
-          {/* RIGHT — quick metadata, desktop only. Deliberately "sits
-              back" from the hero: small value/label pairs, no cards, no
-              22px+ numerals, separated from the content column by a
-              hairline rather than its own bordered box. */}
-          <div className="hidden border-hairline dark:border-night-border lg:block lg:border-l lg:pl-8">
-            <QuickMetadata items={metadataItems} variant="list" />
+          <div className="flex items-start justify-between gap-3">
+            <h1 className="font-cjk text-6xl font-medium leading-tight text-ink dark:text-night-text lg:text-cjk-hero">
+              {word.word}
+            </h1>
+            <PronunciationButton wordUrl={word.audio.wordUrl} />
+          </div>
+
+          <p className="text-lg italic text-primary dark:text-night-primary">{word.pinyin}</p>
+
+          <p className="text-xl font-semibold text-ink dark:text-night-text">{word.meaningVi}</p>
+
+          <div className="mt-1 inline-flex w-fit items-center gap-2 rounded-full border border-hairline px-3 py-1 text-sm text-ink-muted dark:border-night-border dark:text-night-muted">
+            <span>{characterCount} chữ</span>
+            <span aria-hidden="true">·</span>
+            <span>{word.strokeCount ?? "—"} nét</span>
           </div>
         </div>
       </header>
@@ -196,13 +128,14 @@ export function VocabularyDetail({
           clicking scrolls to the section (see globals.css for the
           reduced-motion-aware `scroll-behavior: smooth`). Every section
           below is always in the DOM; this is a wayfinding aid, not a
-          content switch. */}
+          content switch. Text bumped to 14px minimum with a clearer
+          primary-blue active/hover state per the visual-refinement pass. */}
       <nav aria-label="Điều hướng nội dung từ vựng" className="flex gap-1 overflow-x-auto border-b border-hairline pb-2">
         {SECTIONS.map((section) => (
           <a
             key={section.id}
             href={`#${section.id}`}
-            className="shrink-0 whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium text-ink-muted transition-colors hover:bg-primary-wash hover:text-primary dark:text-night-muted dark:hover:bg-night-input dark:hover:text-night-text"
+            className="shrink-0 whitespace-nowrap rounded-md px-3 py-2 text-sm font-medium text-ink-muted transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1 dark:text-night-muted dark:hover:text-night-text"
           >
             {section.label}
           </a>

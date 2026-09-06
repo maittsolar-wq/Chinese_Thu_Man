@@ -60,7 +60,10 @@ const config: Config = {
           // is untouched and keeps its existing meaning/usage.
           DEFAULT: "#FFFFFF",
           subtle: "#F7F8FA",
-          page: "#FAFBFC",
+          // Approved visual-refinement pass adjusted this specific step
+          // from #FAFBFC to #F9FAF6 (a touch warmer) — updated in place
+          // since nothing had adopted `surface.page` yet (grep-verified).
+          page: "#F9FAF6",
         },
         // New text-color pair for the editorial foundation (UI Foundation
         // Phase) — existing screens keep using raw `neutral-900`/`600` etc.
@@ -116,12 +119,14 @@ const config: Config = {
       },
       fontSize: {
         // The one size the approved type scale needs that stock Tailwind
-        // doesn't already provide (8xl=96px, 9xl=128px) — the desktop
-        // Chinese hero character's "visual anchor" role. Phase 09 bumped
-        // the approved range to 128-144px (was 96-120px); 136px sits at
-        // the midpoint. Every other element in the type scale maps onto
-        // an existing stock text-* utility already in the approved ranges.
-        "cjk-hero": ["8.5rem", { lineHeight: "1.2" }],
+        // doesn't already provide. The desktop Chinese hero size has been
+        // revised twice now (96-120px, then 128-144px) as the visual
+        // reference was refined; this pass settled on a smaller, more
+        // compact 64-72px range (4.25rem = 68px, the midpoint) — mobile
+        // now uses stock `text-6xl` (60px) directly, no longer needing
+        // its own custom token. Every other element in the type scale
+        // maps onto an existing stock text-* utility.
+        "cjk-hero": ["4.25rem", { lineHeight: "1.2" }],
       },
       boxShadow: {
         card: "0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06)",
