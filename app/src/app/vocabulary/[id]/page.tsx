@@ -42,7 +42,11 @@ function buildBreadcrumb(
   if (searchParams.from === "dictionary") {
     return [
       home,
-      { label: "Từ điển", href: "/dictionary" },
+      // Nav-facing label kept in sync with AppHeader's "Tra cứu" (renamed
+      // from "Từ điển" in the navigation phase) — docs/DICTIONARY/
+      // DICTIONARY_SPEC.md §16 still documents the pre-rename string,
+      // this is a display-label sync only, no href/route change.
+      { label: "Tra cứu", href: "/dictionary" },
       { label: word.word },
     ];
   }

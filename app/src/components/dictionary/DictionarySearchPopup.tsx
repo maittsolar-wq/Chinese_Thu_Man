@@ -180,7 +180,7 @@ export function DictionarySearchPopup() {
                   onClick={close}
                   className="text-center text-sm font-medium text-primary hover:underline dark:text-night-primary"
                 >
-                  Xem tất cả {results.length.toLocaleString("vi-VN")} kết quả trên trang Từ điển
+                  Xem tất cả {results.length.toLocaleString("vi-VN")} kết quả trên trang Tra cứu
                 </Link>
               )}
             </div>

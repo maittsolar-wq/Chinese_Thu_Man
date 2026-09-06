@@ -138,9 +138,9 @@ export function VocabularyDetail({
           ))}
         </div>
 
-        <p className="font-cjk text-6xl font-semibold leading-tight text-neutral-900 dark:text-night-text sm:text-7xl">
+        <h1 className="font-cjk text-6xl font-semibold leading-tight text-neutral-900 dark:text-night-text sm:text-7xl">
           {word.word}
-        </p>
+        </h1>
 
         <div className="flex items-center gap-3">
           <p className="text-xl italic text-primary dark:text-night-primary">{word.pinyin}</p>

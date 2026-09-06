@@ -8,7 +8,7 @@ import { Panel } from "@/components/ui/Card";
 import { RadicalIcon, ArrowRightIcon } from "@/components/ui/icons";
 import { searchVocabulary } from "@/lib/data/vocabularyRepository";
 
-export const metadata: Metadata = { title: "Từ điển — Chinese Thu Man" };
+export const metadata: Metadata = { title: "Tra cứu — Chinese Thu Man" };
 
 /**
  * Phase 06 redesign. Search behavior is completely unchanged: still a
@@ -36,7 +36,7 @@ export default async function DictionaryPage({
 
   return (
     <div className="flex flex-col gap-6">
-      <Breadcrumb items={[{ label: "Trang chủ", href: "/" }, { label: "Từ điển" }]} />
+      <Breadcrumb items={[{ label: "Trang chủ", href: "/" }, { label: "Tra cứu" }]} />
 
       <div className="flex flex-col gap-1">
         <h1 className="text-2xl font-bold text-primary dark:text-night-primary">

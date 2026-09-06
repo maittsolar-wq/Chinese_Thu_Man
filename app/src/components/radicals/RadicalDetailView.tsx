@@ -44,9 +44,9 @@ export function RadicalDetailView({
           </span>
         </div>
 
-        <p className="font-cjk text-6xl font-bold leading-tight text-neutral-900 dark:text-night-text">
+        <h1 className="font-cjk text-6xl font-bold leading-tight text-neutral-900 dark:text-night-text">
           {radical.radical}
-        </p>
+        </h1>
         <p className="text-xl italic text-primary dark:text-night-primary">{radical.pinyin}</p>
         <p className="text-lg text-neutral-800 dark:text-night-text">
           {radical.nameVi} — {radical.meaningVi}
