@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { useTheme } from "@/components/theme/ThemeProvider";
@@ -44,8 +45,17 @@ const NAV_ITEMS = [
   { kind: "link", href: "/practice", label: "Luyện tập", icon: TargetIcon, usesPracticeActiveCheck: true },
 ] as const;
 
+/**
+ * Pass 06 visual correction: text-sm(14px)/h-4(16px) icons/gap-1.5 read as
+ * too small and too close together next to the rest of the (Pass 05)
+ * larger-scale Home UI. Bumped to text-base(16px), 18px icons, py-2.5 for
+ * a slightly taller tap target — padding is NOT increased into
+ * button/pill territory (no border/bg added for the inactive state), so
+ * these still read as plain nav links, not cards. Font-weight stays
+ * font-medium (500) — already matched the spec, no change needed there.
+ */
 const NAV_ITEM_CLASSES =
-  "flex items-center gap-1.5 rounded-md px-3 py-2 text-sm font-medium transition-colors";
+  "flex items-center gap-2 rounded-md px-3 py-2.5 text-base font-medium transition-colors";
 const NAV_ITEM_INACTIVE_CLASSES =
   "text-neutral-800 hover:bg-primary-light hover:text-primary dark:text-night-muted dark:hover:bg-night-surface dark:hover:text-night-text";
 const NAV_ITEM_ACTIVE_CLASSES =
@@ -142,8 +152,11 @@ export function AppHeader() {
       */}
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 sm:flex-nowrap sm:px-6">
         <Link href="/" className="order-1 flex items-center gap-2.5">
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary text-base font-bold text-white">
-            中
+          {/* Supplied Chinese Thu Man logo asset (app/public/logo.png), used
+              exactly as provided — same 36x36 slot the previous "中" text
+              badge occupied, nothing else in the header changed. */}
+          <span className="flex h-9 w-9 shrink-0 overflow-hidden rounded-lg">
+            <Image src="/logo.png" alt="Chinese Thu Man" width={36} height={36} className="h-9 w-9 object-cover" />
           </span>
           <span className="flex flex-col leading-tight">
             <span className="text-sm font-bold text-neutral-900 dark:text-night-text">中文学习</span>
@@ -151,7 +164,7 @@ export function AppHeader() {
           </span>
         </Link>
 
-        <nav className="order-3 flex w-full flex-wrap items-center gap-1 sm:order-2 sm:w-auto sm:gap-2">
+        <nav className="order-3 flex w-full flex-wrap items-center gap-2 sm:order-2 sm:w-auto sm:gap-6">
           {NAV_ITEMS.map((item) => {
             const Icon = item.icon;
 
@@ -163,7 +176,7 @@ export function AppHeader() {
                   onClick={openDictionarySearch}
                   className={clsx(NAV_ITEM_CLASSES, NAV_ITEM_INACTIVE_CLASSES)}
                 >
-                  {Icon && <Icon className="h-4 w-4" />}
+                  {Icon && <Icon className="h-[18px] w-[18px]" />}
                   {item.label}
                 </button>
               );
@@ -182,7 +195,7 @@ export function AppHeader() {
                   active ? NAV_ITEM_ACTIVE_CLASSES : NAV_ITEM_INACTIVE_CLASSES
                 )}
               >
-                {Icon && <Icon className="h-4 w-4" />}
+                {Icon && <Icon className="h-[18px] w-[18px]" />}
                 {item.label}
               </Link>
             );
