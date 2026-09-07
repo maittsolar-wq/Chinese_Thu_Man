@@ -30,6 +30,20 @@ const HERO_FRAME_HEIGHT = "h-[350px] sm:h-[400px]";
  * 1180px column (~625px) — an editorial hero layout, text confined to
  * the left against the photo, not stretched edge-to-edge.
  *
+ * Visual-refinement pass: the source artwork (2232x705) is composed with
+ * its calm/empty sky on the left and its focal illustration (pagoda,
+ * reading panda, cherry blossoms) on the right -- exactly matching where
+ * the text sits vs. where it doesn't. `background-size: cover` crops
+ * width once the frame's aspect ratio drops below the source's (~3.17:1),
+ * i.e. at any viewport narrower than roughly 1270px on the 400px-tall
+ * desktop frame -- verified via screenshots at every required width
+ * (1440/1280/430/390/375). Plain `center` cropped BOTH edges equally,
+ * which pushed the panda/blossoms off the right edge on every mobile
+ * width while the empty left sky stayed fully visible for no benefit; a
+ * fixed 82% horizontal anchor instead keeps that focal cluster in frame
+ * down to 375px, at the cost of a few more pixels of the (empty, so
+ * inconsequential) left sky being cropped too. The frame height and H1
+ * position are untouched -- this is a crop fix, not a layout change.
  * Pass 14: H1 line-height 1.05 → 1.15 (font-size/weight/width/copy all
  * unchanged) — the two lines were reading as visually touching.
  * Pass 15: 1.15 → 1.22, same reasoning, still not enough separation.
@@ -41,8 +55,8 @@ export function HomeHero() {
     >
       <div
         aria-hidden
-        className={`pointer-events-none absolute inset-x-0 top-0 bg-cover bg-center bg-no-repeat ${HERO_FRAME_HEIGHT}`}
-        style={{ backgroundImage: "url(/hero-bg.jpg)" }}
+        className={`pointer-events-none absolute inset-x-0 top-0 bg-cover bg-no-repeat ${HERO_FRAME_HEIGHT}`}
+        style={{ backgroundImage: "url(/hero-bg.jpg)", backgroundPosition: "82% center" }}
       />
 
       <div className={`relative mx-auto flex h-full flex-col justify-center px-4 sm:px-6 ${HOME_CONTENT_MAX_WIDTH}`}>

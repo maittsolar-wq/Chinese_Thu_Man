@@ -11,6 +11,12 @@ import type { HskLevel, VocabularyWord } from "@/lib/data/types";
 const SEARCH_DEBOUNCE_MS = 150;
 const RESULTS_PER_PAGE = 5;
 
+/** Visual-refinement pass: exact 6 example words from the approved
+ *  reference — a shortcut into the SAME search flow below (clicking one
+ *  just calls `setQuery`, the existing debounced-search effect does the
+ *  rest), not a second search path. */
+const SEARCH_EXAMPLES = ["学习", "你好", "中国", "老师", "喜欢", "朋友"];
+
 /**
  * Home Quick Search. Reuses the exact same `searchDictionaryAction`
  * server action DictionarySearchPopup already calls — no second search
@@ -41,6 +47,18 @@ const RESULTS_PER_PAGE = 5;
  * whole card, sized to the card's full width) — it's a compact dropdown
  * anchored under the compact input, not a full-card-width box. See the
  * width comment further down for why.
+ *
+ * Visual fix pass (HOME VISUAL FIX PASS): the outer card itself used to
+ * stretch to the full HOME_CONTENT_MAX_WIDTH column (1180px) even though
+ * every bit of its content (icon/title/subtitle/input/chips/overlay) was
+ * already capped at the inner 660px wrapper — leaving a large blank
+ * white area to the right in both the empty and results states. The
+ * card is now capped at 660px content + its own p-6 padding (708px
+ * total), so it visually wraps its content instead of floating an
+ * empty region next to it. The results overlay already measured itself
+ * against the 660px inner wrapper (`inset-x-0` on that ancestor, not the
+ * card), so narrowing the card also fixes the overlay's apparent
+ * oversized feel with no change to overlay logic/positioning.
  */
 export function HomeSearch() {
   const [query, setQuery] = useState("");
@@ -48,11 +66,20 @@ export function HomeSearch() {
   const [isSearching, setIsSearching] = useState(false);
   const [page, setPage] = useState(1);
   const requestIdRef = useRef(0);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const trimmedQuery = query.trim();
   const hasQuery = trimmedQuery.length > 0;
 
   const clear = () => setQuery("");
+
+  /** Example-chip shortcut: fills the existing controlled input, which
+   *  the debounced-search effect below already reacts to — same search
+   *  path a manually-typed query takes, not a second one. */
+  function selectExample(word: string) {
+    setQuery(word);
+    inputRef.current?.focus();
+  }
 
   // Escape closes the overlay, same as the clear button / backdrop click.
   useEffect(() => {
@@ -120,7 +147,7 @@ export function HomeSearch() {
         <div aria-hidden onClick={clear} className="fixed inset-0 z-40 bg-black/40" />
       )}
 
-      <div className="relative z-50 rounded-2xl border border-[#E2E8F0] bg-white p-6 shadow-[0_2px_0_#E2E8F0] dark:border-[#3A3A3A] dark:bg-[#242424] dark:shadow-[0_2px_0_#3a3a3a]">
+      <div className="relative z-50 w-full max-w-[708px] rounded-2xl border border-[#E2E8F0] bg-white p-6 shadow-[0_2px_0_#E2E8F0] dark:border-[#3A3A3A] dark:bg-[#242424] dark:shadow-[0_2px_0_#3a3a3a]">
         <div className="flex items-center gap-3">
           <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#0152911A]">
             <Image src="/icons/search-icon.png" alt="" width={22} height={22} aria-hidden />
@@ -136,25 +163,52 @@ export function HomeSearch() {
         </div>
 
         <div className="relative mt-4 max-w-[660px]">
-          <SearchIcon className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[#94A3B8]" />
-          <input
-            type="text"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="Nhập chữ Hán, pinyin, bộ thủ ..."
-            aria-label="Tìm kiếm từ vựng"
-            className="font-ui h-14 w-full rounded-2xl border border-[#E2E8F0] bg-white pl-12 pr-12 text-[16px] text-[#0F172A] outline-none placeholder:text-[#94A3B8] focus:border-[#025291] dark:border-[#3A3A3A] dark:bg-[#1a1a1a] dark:text-[#F8FAFC]"
-          />
-          {hasQuery && (
-            <button
-              type="button"
-              aria-label="Xóa tìm kiếm"
-              onClick={clear}
-              className="absolute right-4 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-full text-[#94A3B8] transition-colors hover:bg-neutral-100 dark:hover:bg-white/10"
-            >
-              <CloseIcon className="h-4 w-4" />
-            </button>
-          )}
+          {/* Icon/input/clear-button get their own positioning context so
+              the clear button's vertical centering only ever measures
+              against the input's own height — the example-chip row below
+              is a normal-flow sibling of this wrapper, not inside it, so
+              it can't shift that centering. */}
+          <div className="relative">
+            <SearchIcon className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[#94A3B8]" />
+            <input
+              ref={inputRef}
+              type="text"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Nhập chữ Hán, pinyin, bộ thủ ..."
+              aria-label="Tìm kiếm từ vựng"
+              className="font-ui h-14 w-full rounded-2xl border border-[#E2E8F0] bg-white pl-12 pr-12 text-[16px] text-[#0F172A] outline-none placeholder:text-[#94A3B8] focus:border-[#025291] dark:border-[#3A3A3A] dark:bg-[#1a1a1a] dark:text-[#F8FAFC]"
+            />
+            {hasQuery && (
+              <button
+                type="button"
+                aria-label="Xóa tìm kiếm"
+                onClick={clear}
+                className="absolute right-4 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-full text-[#94A3B8] transition-colors hover:bg-neutral-100 dark:hover:bg-white/10"
+              >
+                <CloseIcon className="h-4 w-4" />
+              </button>
+            )}
+          </div>
+
+          {/* Example chips (visual-refinement pass) — a shortcut into the
+              exact same controlled `query` state/debounced-search effect
+              above, always visible (own normal-flow row, not part of the
+              results overlay), so the card's own height above the overlay
+              never changes based on search state. */}
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <span className="font-ui shrink-0 text-sm text-neutral-500 dark:text-[#94A3B8]">Ví dụ:</span>
+            {SEARCH_EXAMPLES.map((example) => (
+              <button
+                key={example}
+                type="button"
+                onClick={() => selectExample(example)}
+                className="font-cjk rounded-full bg-[#0152911A] px-3.5 py-1.5 text-sm text-[#025291] transition-colors hover:bg-[#01529133] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#025291] focus-visible:ring-offset-1 dark:bg-primary-dark/30 dark:text-night-primary dark:hover:bg-primary-dark/50"
+              >
+                {example}
+              </button>
+            ))}
+          </div>
 
           {showOverlay && (
           <div className="absolute inset-x-0 top-full z-50 mt-3 max-h-[min(70vh,620px)] overflow-y-auto rounded-2xl border border-[#E2E8F0] bg-white p-5 text-left shadow-[0_2px_0_#E2E8F0] dark:border-[#3A3A3A] dark:bg-[#242424] dark:shadow-[0_2px_0_#3a3a3a]">
