@@ -60,10 +60,17 @@ const config: Config = {
           // is untouched and keeps its existing meaning/usage.
           DEFAULT: "#FFFFFF",
           subtle: "#F7F8FA",
-          // Approved visual-refinement pass adjusted this specific step
-          // from #FAFBFC to #F9FAF6 (a touch warmer) — updated in place
-          // since nothing had adopted `surface.page` yet (grep-verified).
-          page: "#F9FAF6",
+          // Global background pass: this is now the site-wide light-mode
+          // PAGE background (wired onto <body> in layout.tsx), matching
+          // the exact #F9F9F5 already approved and hand-picked for Home
+          // and HSK — was #F9FAF6 (a one-off "touch warmer" value from an
+          // earlier pass, before Home/HSK settled on #F9F9F5 specifically
+          // and before this token had any real consumer beyond
+          // VocabularyDetail's own wrapper). Updated in place rather than
+          // adding a second token, so every consumer of `surface.page`
+          // (VocabularyDetail included) automatically matches Home/HSK
+          // exactly instead of being a near-miss.
+          page: "#F9F9F5",
         },
         // New text-color pair for the editorial foundation (UI Foundation
         // Phase) — existing screens keep using raw `neutral-900`/`600` etc.

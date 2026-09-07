@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { Suspense, useCallback, useState } from "react";
 import { PracticeConfigView } from "./PracticeConfigView";
 import { WritingExerciseView } from "./WritingExerciseView";
 import { PracticeResultView } from "./PracticeResultView";
@@ -154,7 +154,14 @@ export function WritingPracticeFlow() {
   }, []);
 
   if (phase === "config") {
-    return <PracticeConfigView practiceType="writing" onStart={handleStart} />;
+    // Suspense: see ChoicePracticeFlow's identical comment — required for
+    // PracticeConfigView's useSearchParams() on this statically-rendered
+    // route.
+    return (
+      <Suspense fallback={null}>
+        <PracticeConfigView practiceType="writing" onStart={handleStart} />
+      </Suspense>
+    );
   }
 
   if (phase === "loading") {

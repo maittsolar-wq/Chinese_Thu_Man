@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { Suspense, useCallback, useState } from "react";
 import { PracticeConfigView } from "./PracticeConfigView";
 import { FlashcardExerciseView } from "./FlashcardExerciseView";
 import { PracticeResultView } from "./PracticeResultView";
@@ -155,7 +155,14 @@ export function FlashcardPracticeFlow() {
   }, []);
 
   if (phase === "config") {
-    return <PracticeConfigView practiceType="flashcard" onStart={handleStart} />;
+    // Suspense: see ChoicePracticeFlow's identical comment — required for
+    // PracticeConfigView's useSearchParams() on this statically-rendered
+    // route.
+    return (
+      <Suspense fallback={null}>
+        <PracticeConfigView practiceType="flashcard" onStart={handleStart} />
+      </Suspense>
+    );
   }
 
   if (phase === "loading") {

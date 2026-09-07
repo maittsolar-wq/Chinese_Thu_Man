@@ -38,7 +38,13 @@ export default function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: NO_FLASH_THEME_SCRIPT }} />
       </head>
-      <body className="min-h-screen bg-white text-neutral-900 antialiased dark:bg-night-bg dark:text-night-text">
+      {/* Global background pass: `bg-surface-page` (#F9F9F5) replaces the
+          old plain `bg-white` as the site-wide light-mode PAGE background —
+          the single shared source every page inherits from, matching the
+          already-approved Home/HSK tone. Card/Panel/modal/input surfaces
+          (Card.tsx, AppHeader, etc.) keep their own explicit `bg-white`
+          and are unaffected. Dark mode (`dark:bg-night-bg`) is untouched. */}
+      <body className="min-h-screen bg-surface-page text-neutral-900 antialiased dark:bg-night-bg dark:text-night-text">
         <ThemeProvider>
           <DictionarySearchProvider>
             <AppHeader />

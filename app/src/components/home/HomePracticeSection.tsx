@@ -49,7 +49,7 @@ export function HomePracticeSection() {
           return (
             <Link
               key={type}
-              href={practiceRoute(type)}
+              href={`${practiceRoute(type)}?from=home`}
               className="flex h-[155px] flex-col items-center justify-center gap-2 rounded-[18px] border-2 bg-white p-5 text-center transition-transform hover:-translate-y-0.5 dark:bg-night-input sm:h-[185px] sm:w-[265px]"
               style={{ borderColor: accent, boxShadow: `0 4px 0 ${accent}` }}
             >

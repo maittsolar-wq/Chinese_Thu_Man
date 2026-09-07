@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { Suspense, useCallback, useState } from "react";
 import { PracticeConfigView } from "./PracticeConfigView";
 import { PracticeExerciseView } from "./PracticeExerciseView";
 import { PracticeResultView } from "./PracticeResultView";
@@ -175,7 +175,16 @@ export function ChoicePracticeFlow({ practiceType }: { practiceType: ChoicePract
   }, []);
 
   if (phase === "config") {
-    return <PracticeConfigView practiceType={practiceType} onStart={handleStart} />;
+    // Suspense: PracticeConfigView reads the `?from=` query param via
+    // useSearchParams(), which Next.js requires to be wrapped in a
+    // Suspense boundary on a statically-rendered route (this page has no
+    // other async work, so the fallback is never visibly shown in
+    // practice — hydration resolves it immediately).
+    return (
+      <Suspense fallback={null}>
+        <PracticeConfigView practiceType={practiceType} onStart={handleStart} />
+      </Suspense>
+    );
   }
 
   if (phase === "loading") {
