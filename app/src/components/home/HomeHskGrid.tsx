@@ -24,8 +24,8 @@ export function HomeHskGrid() {
             <Link
               key={level}
               href={`/hsk/${level}`}
-              className="flex aspect-square flex-col items-center justify-center gap-1 rounded-[18px] border-2 bg-white px-3 text-center shadow-[0_4px_0_#E2E8F0] transition-transform hover:-translate-y-0.5 dark:bg-night-input dark:shadow-[0_4px_0_#3a3a3a] sm:w-[160px]"
-              style={{ borderColor: color }}
+              className="flex aspect-square flex-col items-center justify-center gap-1 rounded-[18px] border bg-white px-3 text-center transition-transform hover:-translate-y-0.5 dark:bg-night-input sm:w-[160px]"
+              style={{ borderColor: color, boxShadow: `0 4px 0 ${color}` }}
             >
               <span className="font-ui text-base font-semibold" style={{ color }}>
                 HSK

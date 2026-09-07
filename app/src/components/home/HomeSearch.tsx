@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { searchDictionaryAction } from "@/lib/dictionary/actions";
 import { HSK_LEVEL_HEX } from "@/lib/hsk/homePalette";
 import { SearchIcon, CloseIcon, ChevronRightIcon } from "@/components/ui/icons";
@@ -11,17 +12,35 @@ const SEARCH_DEBOUNCE_MS = 150;
 const RESULTS_PER_PAGE = 5;
 
 /**
- * Home Quick Search — Pass 04: its own section between Hero and HSK
- * (previously lived inside Hero), full content-grid width. Reuses the
- * exact same `searchDictionaryAction` server action DictionarySearchPopup
- * already calls — no second search engine.
+ * Home Quick Search. Reuses the exact same `searchDictionaryAction`
+ * server action DictionarySearchPopup already calls — no second search
+ * engine.
  *
- * When active, results render as an OVERLAY (`position: absolute`, taken
- * out of normal flow) with a `position: fixed` dimming backdrop behind
- * it, rather than inline content that would grow this section's own
- * height. That's what keeps HSK/Radical/Practice from ever shifting when
- * a query is typed — this section's own box height is just the input
- * (56/64px), never the results panel, regardless of result count.
+ * Pass 14: rebuilt as a titled feature card (icon + "Tra từ điển nhanh" +
+ * subtitle + input), matching the approved Search reference's exact
+ * copy — earlier passes (4, 8, 9, 11) had treated this as a bare compact
+ * input with no title, based on a literal reading of those passes' own
+ * text instructions ("remove the decorative header", "no title/subtitle
+ * area"); Pass 14's text is now unambiguous and gives the literal copy,
+ * so this supersedes that reading rather than fighting it again.
+ *
+ * The icon is the real supplied blue magnifying-glass asset
+ * (app/public/icons/search-icon.png) — the reference shows it green, but
+ * no green magnifying-glass asset was ever supplied (only white/dark/
+ * blue variants extracted from the conversation); flagged in the pass
+ * report rather than fabricating a recolored asset.
+ *
+ * Results still render as an OVERLAY (`position: absolute`, taken out of
+ * normal flow) with a `position: fixed` dimming backdrop, not inline
+ * content — the outer card's own box height (icon/title/subtitle/input)
+ * never changes when a query is typed, so HSK/Radical/Practice never
+ * shift.
+ *
+ * Pass 15: the results/empty panel is now nested inside the same
+ * `max-w-[660px]` wrapper as the input (previously a sibling of the
+ * whole card, sized to the card's full width) — it's a compact dropdown
+ * anchored under the compact input, not a full-card-width box. See the
+ * width comment further down for why.
  */
 export function HomeSearch() {
   const [query, setQuery] = useState("");
@@ -86,61 +105,74 @@ export function HomeSearch() {
   const showOverlay = showEmpty || showResults;
 
   return (
-    // Width/alignment is deliberately NOT set here — the caller
-    // (page.tsx) places this component directly inside the same
-    // `HOME_CONTENT_MAX_WIDTH` column HSK/Radical/Practice use, so this
-    // section takes on that exact width as an ordinary flex/block child
-    // rather than duplicating (and risking double-padding) that layout
-    // logic here. §8's "identical left/right alignment" requirement.
+    // Pass 15: the outer white card spans the full HOME_CONTENT_MAX_WIDTH
+    // column, same as HSK/Radical/Practice's own HomeSectionCard shell —
+    // already true structurally, confirmed by measuring the rendered DOM
+    // (both were already 1180px @ left:130px). What actually read as
+    // "too narrow" was the INPUT itself filling nearly the whole card
+    // (1130px, i.e. card-width minus its own padding) with no visible
+    // compact shape of its own. The input (and its results dropdown) is
+    // now wrapped in its own `max-w-[660px]` box nested inside the
+    // full-width card — matching §5's diagram exactly: a wide card
+    // containing a visibly narrower, self-contained input.
     <div className="relative w-full">
       {hasQuery && (
-        <div
-          aria-hidden
-          onClick={clear}
-          className="fixed inset-0 z-40 bg-black/40"
-        />
+        <div aria-hidden onClick={clear} className="fixed inset-0 z-40 bg-black/40" />
       )}
 
-      <div className="relative z-50">
-        <div className="relative">
-          <SearchIcon className="pointer-events-none absolute left-5 top-1/2 h-5 w-5 -translate-y-1/2 text-neutral-500" />
+      <div className="relative z-50 rounded-2xl border border-[#E2E8F0] bg-white p-6 shadow-[0_2px_0_#E2E8F0] dark:border-[#3A3A3A] dark:bg-[#242424] dark:shadow-[0_2px_0_#3a3a3a]">
+        <div className="flex items-center gap-3">
+          <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#0152911A]">
+            <Image src="/icons/search-icon.png" alt="" width={22} height={22} aria-hidden />
+          </span>
+          <div>
+            <h2 className="font-ui text-lg font-bold text-[#0F172A] dark:text-[#F8FAFC]">
+              Tra từ điển nhanh
+            </h2>
+            <p className="font-ui text-sm text-[#343536] dark:text-[#94A3B8]">
+              Nhập chữ Hán để tra cứu từ vựng HSK.
+            </p>
+          </div>
+        </div>
+
+        <div className="relative mt-4 max-w-[660px]">
+          <SearchIcon className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[#94A3B8]" />
           <input
             type="text"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Nhập chữ Hán, pinyin, bộ thủ ..."
             aria-label="Tìm kiếm từ vựng"
-            className="font-ui h-14 w-full rounded-2xl border-2 border-neutral-200 bg-white pl-14 pr-14 text-[16px] text-neutral-900 shadow-[0_10px_0_#E2E8F0] outline-none placeholder:text-neutral-500 focus:border-[#025291] sm:h-16"
+            className="font-ui h-14 w-full rounded-2xl border border-[#E2E8F0] bg-white pl-12 pr-12 text-[16px] text-[#0F172A] outline-none placeholder:text-[#94A3B8] focus:border-[#025291] dark:border-[#3A3A3A] dark:bg-[#1a1a1a] dark:text-[#F8FAFC]"
           />
           {hasQuery && (
             <button
               type="button"
               aria-label="Xóa tìm kiếm"
               onClick={clear}
-              className="absolute right-5 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-full text-neutral-500 transition-colors hover:bg-neutral-100"
+              className="absolute right-4 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-full text-[#94A3B8] transition-colors hover:bg-neutral-100 dark:hover:bg-white/10"
             >
               <CloseIcon className="h-4 w-4" />
             </button>
           )}
-        </div>
 
-        {showOverlay && (
-          <div className="absolute inset-x-0 top-full z-50 mt-4 max-h-[min(70vh,620px)] overflow-y-auto rounded-2xl border border-neutral-200 bg-white p-7 text-left shadow-[0_10px_0_#E2E8F0]">
+          {showOverlay && (
+          <div className="absolute inset-x-0 top-full z-50 mt-3 max-h-[min(70vh,620px)] overflow-y-auto rounded-2xl border border-[#E2E8F0] bg-white p-5 text-left shadow-[0_2px_0_#E2E8F0] dark:border-[#3A3A3A] dark:bg-[#242424] dark:shadow-[0_2px_0_#3a3a3a]">
             {showEmpty && (
-              <div className="flex flex-col items-center gap-3 py-12 text-center">
-                <span className="flex h-16 w-16 items-center justify-center rounded-full bg-neutral-100 text-neutral-400">
-                  <SearchIcon className="h-7 w-7" />
+              <div className="flex flex-col items-center gap-2 py-6 text-center">
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-neutral-100 text-neutral-400 dark:bg-white/10 dark:text-[#94A3B8]">
+                  <SearchIcon className="h-5 w-5" />
                 </span>
-                <p className="font-ui text-lg font-semibold text-neutral-900">
+                <p className="font-ui text-base font-semibold text-[#0F172A] dark:text-[#F8FAFC]">
                   Không tìm thấy kết quả phù hợp
                 </p>
-                <p className="font-ui text-base text-neutral-600">Hãy thử tìm với từ khóa khác</p>
+                <p className="font-ui text-sm text-neutral-600 dark:text-[#94A3B8]">Hãy thử tìm với từ khóa khác</p>
               </div>
             )}
 
             {showResults && (
               <div className="flex flex-col gap-4">
-                <p className="font-ui text-base font-semibold text-neutral-900">
+                <p className="font-ui text-base font-semibold text-[#0F172A] dark:text-[#F8FAFC]">
                   Kết quả tìm kiếm ({results.length.toLocaleString("vi-VN")})
                 </p>
 
@@ -160,7 +192,7 @@ export function HomeSearch() {
                       token === "ellipsis" ? (
                         <span
                           key={`ellipsis-${index}`}
-                          className="flex h-10 w-10 items-center justify-center text-sm text-neutral-400"
+                          className="flex h-10 w-10 items-center justify-center text-sm text-neutral-400 dark:text-[#94A3B8]"
                         >
                           …
                         </span>
@@ -173,7 +205,7 @@ export function HomeSearch() {
                           className={
                             token === page
                               ? "flex h-10 w-10 items-center justify-center rounded-lg bg-[#015291] text-sm font-semibold text-white"
-                              : "flex h-10 w-10 items-center justify-center rounded-lg border border-neutral-200 text-sm font-medium text-neutral-700 transition-colors hover:bg-neutral-50"
+                              : "flex h-10 w-10 items-center justify-center rounded-lg border border-[#E2E8F0] text-sm font-medium text-neutral-700 transition-colors hover:bg-neutral-50 dark:border-[#3A3A3A] dark:text-[#F8FAFC] dark:hover:bg-white/10"
                           }
                         >
                           {token}
@@ -185,7 +217,7 @@ export function HomeSearch() {
                       aria-label="Trang sau"
                       disabled={page >= totalPages}
                       onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
-                      className="flex h-10 w-10 items-center justify-center rounded-lg border border-neutral-200 text-neutral-700 transition-colors hover:bg-neutral-50 disabled:cursor-not-allowed disabled:opacity-40"
+                      className="flex h-10 w-10 items-center justify-center rounded-lg border border-[#E2E8F0] text-neutral-700 transition-colors hover:bg-neutral-50 disabled:cursor-not-allowed disabled:opacity-40 dark:border-[#3A3A3A] dark:text-[#F8FAFC] dark:hover:bg-white/10"
                     >
                       <ChevronRightIcon className="h-4 w-4" />
                     </button>
@@ -194,7 +226,8 @@ export function HomeSearch() {
               </div>
             )}
           </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );
@@ -204,14 +237,14 @@ function HomeSearchResultRow({ word, level }: { word: VocabularyWord; level?: Hs
   return (
     <Link
       href={`/vocabulary/${word.id}?from=dictionary`}
-      className="flex items-center justify-between gap-5 rounded-2xl border border-neutral-200 px-6 py-5 transition-colors hover:bg-neutral-50"
+      className="flex items-center justify-between gap-5 rounded-2xl border border-[#E2E8F0] px-6 py-5 transition-colors hover:bg-neutral-50 dark:border-[#3A3A3A] dark:hover:bg-white/5"
     >
-      <span className="font-cjk shrink-0 text-[30px] font-semibold leading-none text-neutral-900">
+      <span className="font-cjk shrink-0 text-[30px] font-semibold leading-none text-[#0F172A] dark:text-[#F8FAFC]">
         {word.word}
       </span>
       <span className="flex min-w-0 flex-1 flex-col gap-0.5">
-        <span className="font-ui truncate text-base italic text-primary">{word.pinyin}</span>
-        <span className="font-ui truncate text-base text-neutral-800">{word.meaningVi}</span>
+        <span className="font-ui truncate text-base italic text-primary dark:text-night-primary">{word.pinyin}</span>
+        <span className="font-ui truncate text-base text-neutral-800 dark:text-[#F8FAFC]">{word.meaningVi}</span>
       </span>
       {level !== undefined && (
         <span

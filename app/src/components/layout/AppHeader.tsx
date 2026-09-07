@@ -7,19 +7,21 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { useTheme } from "@/components/theme/ThemeProvider";
 import { useDictionarySearch } from "@/components/dictionary/DictionarySearchProvider";
-import { GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon } from "@/components/ui/icons";
+import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon } from "@/components/ui/icons";
 
 /**
- * Phase 07 information-architecture finalization. Three primary
- * destinations reflecting the actual learning journey (HSK -> Vocabulary ->
- * Vocabulary Detail, Tra cứu for fast lookup, Luyện tập for reinforcement)
- * — down from five. Two items were removed, not just relabeled:
+ * Phase 07 information-architecture finalization, since revised by Pass 08.
+ * Originally three primary destinations reflecting the actual learning
+ * journey (HSK -> Vocabulary -> Vocabulary Detail, Tra cứu for fast lookup,
+ * Luyện tập for reinforcement) — down from five, with "Trang chủ" removed
+ * as a separate text item on the reasoning that the logo/brand block
+ * (unchanged below) already links to "/" and doubles as the home link.
  *
- * - "Trang chủ" as a separate text nav item is gone; the logo/brand block
- *   (unchanged below) already links to "/" and is the conventional way a
- *   product's own name doubles as its home link — a second, redundant
- *   "Home" label next to it was never adding real navigation value.
- * - "Bộ thủ" is removed from primary navigation entirely, per this phase's
+ * Pass 08 reintroduces "Trang chủ" as an explicit first nav item (exact
+ * label, not "Home") per that pass's own explicit requirement — the logo
+ * still also links to "/", the two aren't mutually exclusive.
+ *
+ * - "Bộ thủ" is removed from primary navigation entirely, per Phase 07's
  *   explicit product-architecture requirement: Radicals are a contextual
  *   reference reached from a character (Vocabulary Detail's own "Bộ thủ &
  *   chữ Hán" tab, added in Phase 02), never a peer destination to HSK or
@@ -40,6 +42,7 @@ import { GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon } from "@/
  * bare /practice route and every /practice/* sub-route.
  */
 const NAV_ITEMS = [
+  { kind: "link", href: "/", label: "Trang chủ", icon: HomeIcon, usesPracticeActiveCheck: false },
   { kind: "link", href: "/hsk", label: "HSK", icon: GraduationCapIcon, usesPracticeActiveCheck: false },
   { kind: "popup-trigger", label: "Tra cứu", icon: SearchIcon },
   { kind: "link", href: "/practice", label: "Luyện tập", icon: TargetIcon, usesPracticeActiveCheck: true },
@@ -54,8 +57,14 @@ const NAV_ITEMS = [
  * these still read as plain nav links, not cards. Font-weight stays
  * font-medium (500) — already matched the spec, no change needed there.
  */
+// Pass 14: rounded-md (6px) read as barely-rounded on the active/hover
+// background pill — bumped to rounded-lg (8px).
+// Pass 15: bumped again to rounded-xl (12px) — still short of a pill
+// (which would need a much larger radius relative to this item's ~40px
+// height) or a boxed button (no added border/heavier fill). Shared by
+// all 4 items but only visible on active/hover backgrounds.
 const NAV_ITEM_CLASSES =
-  "flex items-center gap-2 rounded-md px-3 py-2.5 text-base font-medium transition-colors";
+  "flex items-center gap-2 rounded-xl px-3 py-2.5 text-base font-medium transition-colors";
 const NAV_ITEM_INACTIVE_CLASSES =
   "text-neutral-800 hover:bg-primary-light hover:text-primary dark:text-night-muted dark:hover:bg-night-surface dark:hover:text-night-text";
 const NAV_ITEM_ACTIVE_CLASSES =
@@ -139,16 +148,22 @@ export function AppHeader() {
   return (
     <header className="sticky top-0 z-10 border-b border-neutral-200 bg-white dark:border-night-border dark:bg-night-bg">
       {/*
-        Mobile layout: logo+toggle share row 1, the 3-item nav gets its own
+        Mobile layout: logo+toggle share row 1, the nav gets its own
         full-width row 2 below — measured directly (375-430px) rather than
         assumed: logo (~138px) + toggle (36px) alone already leave too
-        little room to also fit "Tra cứu"/"Luyện tập" on that same first
-        line, so a clean two-row split reads better than a cramped forced
-        single row. Within its own row, the nav itself never wraps a
-        second time at any tested width — down from up to 3 internal nav
-        rows when this header carried 5 items. `sm:flex-nowrap` with each
-        item's `sm:order-*`/`sm:w-auto` reset collapses back to the single
-        desktop/tablet row, unchanged.
+        little room to also fit the nav on that same first line, so a
+        clean two-row split reads better than a cramped forced single row.
+        `sm:flex-nowrap` with each item's `sm:order-*`/`sm:w-auto` reset
+        collapses back to the single desktop/tablet row, unchanged.
+
+        Pass 08 added a 4th item ("Trang chủ"). Measured directly again:
+        at 375px the 4 items' natural width (~449px incl. gaps) exceeds
+        even row 2's own ~343px, so a plain `flex-wrap` row drops the 4th
+        item alone onto an accidental, unbalanced 3rd row. Switched the
+        nav itself to a deliberate `grid-cols-2` below `sm:` instead — a
+        clean, symmetric 2×2 (each item ~half the row, comfortably wider
+        than any label) rather than a lopsided 3-then-1 wrap. `sm:flex`
+        overrides back to the single desktop row exactly as before.
       */}
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 sm:flex-nowrap sm:px-6">
         <Link href="/" className="order-1 flex items-center gap-2.5">
@@ -164,7 +179,7 @@ export function AppHeader() {
           </span>
         </Link>
 
-        <nav className="order-3 flex w-full flex-wrap items-center gap-2 sm:order-2 sm:w-auto sm:gap-6">
+        <nav className="order-3 grid w-full grid-cols-2 items-center gap-2 sm:order-2 sm:flex sm:w-auto sm:gap-6">
           {NAV_ITEMS.map((item) => {
             const Icon = item.icon;
 

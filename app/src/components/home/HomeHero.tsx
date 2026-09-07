@@ -29,6 +29,10 @@ const HERO_FRAME_HEIGHT = "h-[350px] sm:h-[400px]";
  * The headline/subtitle block is intentionally narrower than the full
  * 1180px column (~625px) — an editorial hero layout, text confined to
  * the left against the photo, not stretched edge-to-edge.
+ *
+ * Pass 14: H1 line-height 1.05 → 1.15 (font-size/weight/width/copy all
+ * unchanged) — the two lines were reading as visually touching.
+ * Pass 15: 1.15 → 1.22, same reasoning, still not enough separation.
  */
 export function HomeHero() {
   return (
@@ -43,7 +47,7 @@ export function HomeHero() {
 
       <div className={`relative mx-auto flex h-full flex-col justify-center px-4 sm:px-6 ${HOME_CONTENT_MAX_WIDTH}`}>
         <div className="flex max-w-[625px] flex-col gap-5">
-          <h1 className="font-ui text-[38px] font-extrabold leading-[1.05] text-neutral-900 sm:text-[52px]">
+          <h1 className="font-ui text-[38px] font-extrabold leading-[1.22] text-neutral-900 sm:text-[52px]">
             Học tiếng Trung
             <br />
             Theo cấp độ HSK

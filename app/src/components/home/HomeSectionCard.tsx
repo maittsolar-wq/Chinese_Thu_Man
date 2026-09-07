@@ -5,9 +5,13 @@ import type { ReactNode } from "react";
  * Shared white "big card" wrapper (icon square + title + subtitle header,
  * optional right-aligned CTA, content below) — the HSK/Radical/Practice
  * sections in the Home reference all use this identical shell, factored
- * out once rather than duplicated three times. Colors/shadow follow the
- * task's exact design tokens (§9): card #FFFFFF, border #E2E8F0, large
- * card shadow `0 10px 0 #E2E8F0`.
+ * out once rather than duplicated three times. Card #FFFFFF, border
+ * #E2E8F0.
+ *
+ * Pass 15: large-card shadow offset 10px → 2px (same #E2E8F0 color,
+ * both light/dark), matched identically on HomeSearch's own feature-card
+ * shell so all four large cards (Search/HSK/Radical/Practice) share one
+ * shadow treatment.
  */
 // No dark-mode palette was supplied for this redesign (all 3 reference
 // screenshots are light-mode only) — the outer shell below reuses this
@@ -30,7 +34,7 @@ export function HomeSectionCard({
   children: ReactNode;
 }) {
   return (
-    <section className="rounded-[22px] border border-[#E2E8F0] bg-white p-7 shadow-[0_10px_0_#E2E8F0] dark:border-night-border dark:bg-night-surface dark:shadow-[0_10px_0_#3a3a3a] sm:p-9">
+    <section className="rounded-[22px] border border-[#E2E8F0] bg-white p-7 shadow-[0_2px_0_#E2E8F0] dark:border-night-border dark:bg-night-surface dark:shadow-[0_2px_0_#3a3a3a] sm:p-9">
       <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
         <div className="flex items-start gap-4">
           <span

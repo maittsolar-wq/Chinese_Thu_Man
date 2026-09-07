@@ -20,6 +20,15 @@ const PRACTICE_ICON_SRC: Record<PracticeType, string> = {
  * `PRACTICE_TYPE_INFO` (already an exact match to the reference's card
  * copy) and routed through the existing `practiceRoute()` helper — no new
  * copy or routing logic, only a new Home-specific card presentation.
+ *
+ * Pass 12: card shadow color now matches each card's own accent (inline
+ * `boxShadow`, same `accent` value already driving `borderColor`) instead
+ * of a flat gray — same treatment as HomeHskGrid's cards. Dimensions
+ * (265×185 desktop / 155px mobile) are unchanged: Pass 12's brief called
+ * these "1:1 square," but they have been an intentional non-square
+ * rectangle since Pass 04 and every pass since (08–11) explicitly
+ * reaffirmed 265×185 as frozen — this pass's own stronger, repeated "do
+ * not change card dimensions" rule wins over that one inaccurate line.
  */
 export function HomePracticeSection() {
   return (
@@ -41,8 +50,8 @@ export function HomePracticeSection() {
             <Link
               key={type}
               href={practiceRoute(type)}
-              className="flex h-[155px] flex-col items-center justify-center gap-2 rounded-[18px] border-2 bg-white p-5 text-center shadow-[0_4px_0_#E2E8F0] transition-transform hover:-translate-y-0.5 dark:bg-night-input dark:shadow-[0_4px_0_#3a3a3a] sm:h-[185px] sm:w-[265px]"
-              style={{ borderColor: accent }}
+              className="flex h-[155px] flex-col items-center justify-center gap-2 rounded-[18px] border-2 bg-white p-5 text-center transition-transform hover:-translate-y-0.5 dark:bg-night-input sm:h-[185px] sm:w-[265px]"
+              style={{ borderColor: accent, boxShadow: `0 4px 0 ${accent}` }}
             >
               <span
                 className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full"
