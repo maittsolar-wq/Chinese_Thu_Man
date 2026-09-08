@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
 import { useDictionarySearch } from "./DictionarySearchProvider";
 import { searchDictionaryAction } from "@/lib/dictionary/actions";
 import { VocabularyCard } from "@/components/vocabulary/VocabularyCard";
@@ -25,7 +26,8 @@ const SEARCH_DEBOUNCE_MS = 150;
 const RESULTS_PER_PAGE = 20;
 
 export function DictionarySearchPopup() {
-  const { isOpen, close } = useDictionarySearch();
+  const { isOpen, open, close } = useDictionarySearch();
+  const pathname = usePathname();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<VocabularyWord[]>([]);
   const [isSearching, setIsSearching] = useState(false);
@@ -44,6 +46,50 @@ export function DictionarySearchPopup() {
       setPage(1);
     }
   }, [isOpen]);
+
+  // Dictionary-popup Back/restore pass: when a result's Vocabulary Detail
+  // page sends the user back here, it does so via
+  // `<returnPage>?dictionaryOpen=true&dictQuery=<term>` (built in
+  // `buildResultHref` below). Check for those params, reopen the popup,
+  // and restore the query; the existing debounced-search effect further
+  // down reacts to `query` exactly as it would for anything typed by
+  // hand, re-running the SAME search (same action, same ranking) rather
+  // than replaying a serialized result list, so "restored" results are
+  // always fresh/correct.
+  //
+  // This popup is mounted once at the root layout and never remounts
+  // across client-side navigations (same reason AppHeader avoids
+  // useSearchParams() below), so a mount-only `[]` effect would only ever
+  // see the very first page load, not a later "Quay lại" navigation back
+  // to some other page while this same instance is still alive. Keying
+  // on `pathname` (usePathname(), not useSearchParams() — the latter
+  // would force every one of the ~5,600 statically-generated pages that
+  // render this popup into dynamic rendering) makes it re-check on every
+  // navigation, which is exactly when a restore could be relevant: this
+  // flow's own `returnTo` always points at a DIFFERENT pathname than
+  // Vocabulary Detail's, so a pathname change reliably fires here.
+  //
+  // Declared AFTER the reset-on-close effect above so its `setQuery` (run
+  // in the same pass whenever both fire together, e.g. on first mount) is
+  // the one that wins. The two restore params are stripped from the
+  // visible URL via history.replaceState afterward so revisiting/
+  // refreshing doesn't re-trigger it and the address bar doesn't keep
+  // carrying internal state.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("dictionaryOpen") !== "true") return;
+
+    const restoredQuery = params.get("dictQuery") ?? "";
+    open();
+    setQuery(restoredQuery);
+
+    params.delete("dictionaryOpen");
+    params.delete("dictQuery");
+    const rest = params.toString();
+    const cleanUrl = `${window.location.pathname}${rest ? `?${rest}` : ""}${window.location.hash}`;
+    window.history.replaceState(null, "", cleanUrl);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
 
   // A new query always restarts pagination at page 1 (same as HomeSearch).
   useEffect(() => {
@@ -107,6 +153,26 @@ export function DictionarySearchPopup() {
   // exactly (HomeSearch.tsx) — plain `setQuery("")`, no explicit refocus,
   // since that's what Home Search itself does.
   const clear = () => setQuery("");
+
+  // Dictionary-popup Back/restore pass: `returnTo` is the CURRENT page
+  // (wherever the popup happens to be open — Home, HSK, Practice, a
+  // Radical, even another Vocabulary Detail — since this one popup
+  // instance is global) with `dictionaryOpen=true&dictQuery=<term>`
+  // already merged onto its existing query string. Vocabulary Detail
+  // treats it as an opaque same-origin path (see
+  // resolveDictionaryPopupBackHref) and hands it straight back as the
+  // "Quay lại" href; this component's own mount-time effect above is what
+  // actually reads those two params back out and restores state — this
+  // function only ever *produces* that URL, `from=dictionary` here is
+  // deliberately never paired with `parent`, which is what keeps this
+  // flow distinct from Home's own inline search (`parent=home`).
+  const buildResultHref = (id: string) => {
+    const returnParams = new URLSearchParams(window.location.search);
+    returnParams.set("dictionaryOpen", "true");
+    returnParams.set("dictQuery", trimmedQuery);
+    const returnTo = `${window.location.pathname}?${returnParams.toString()}`;
+    return `/vocabulary/${id}?from=dictionary&returnTo=${encodeURIComponent(returnTo)}`;
+  };
   const showNoResults = hasQuery && !isSearching && results.length === 0;
   const showResults = hasQuery && results.length > 0;
   const totalPages = Math.max(1, Math.ceil(results.length / RESULTS_PER_PAGE));
@@ -200,7 +266,7 @@ export function DictionarySearchPopup() {
                   <VocabularyCard
                     key={word.id}
                     word={word}
-                    href={`/vocabulary/${word.id}?from=dictionary`}
+                    href={buildResultHref(word.id)}
                     showAllLevels
                     onClick={close}
                   />

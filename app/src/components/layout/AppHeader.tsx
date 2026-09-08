@@ -126,17 +126,39 @@ const NAV_ITEM_ACTIVE_CLASSES =
  * Practice anyway, but naming it explicitly keeps the source model
  * complete/self-documenting rather than leaning on that as an implicit
  * coincidence.
+ *
+ * `from=dictionary` (dictionary-popup pass), when NOT paired with
+ * `parent=home` (that combination is Home's own inline search widget —
+ * already `home`, unrelated to this), means Vocabulary Detail was reached
+ * from the header's own global DictionarySearchPopup (see
+ * DictionarySearchPopup.tsx's `buildResultHref` and vocabulary/[id]/
+ * page.tsx's `isDictionaryPopupFlow`) — "Tra cứu" should read active for
+ * exactly this one flow, matching the "Quay lại" Back button that flow
+ * also gets in place of the breadcrumb.
  */
 function getSourceContext(
   searchParams: URLSearchParams
-): { hsk: boolean; home: boolean; practice: boolean } {
+): { hsk: boolean; home: boolean; practice: boolean; dictionary: boolean } {
   const from = searchParams.get("from");
   const parent = searchParams.get("parent");
   const home = from === "home" || parent === "home";
   const hsk = !home && (from === "hsk" || parent === "hsk" || searchParams.get("hskContext") === "1");
   const practice = !home && from === "practice";
-  return { hsk, home, practice };
+  const dictionary = !home && !hsk && !practice && from === "dictionary";
+  return { hsk, home, practice, dictionary };
 }
+
+/**
+ * "Tra cứu" is a popup-trigger BUTTON, not a `Link` — it has no href of
+ * its own to compare a pathname against, so it can never be marked active
+ * by `isActive` below the way every other item is. This sentinel lets
+ * `resolveExplicitActiveHref` still name it as the one active item
+ * through the same single return value every caller already checks:
+ * `isActive` correctly finds no real `href` ever equal to it (so Trang
+ * chủ/HSK/Luyện tập correctly stay inactive), while the popup-trigger's
+ * own render branch checks for this exact sentinel directly.
+ */
+const DICTIONARY_ACTIVE_SENTINEL = "__dictionary__";
 
 /**
  * When a page carries an explicit source context, that context is
@@ -149,6 +171,9 @@ function getSourceContext(
  *    starts with `/practice/`, which would otherwise ALSO match the
  *    Luyện tập nav item, showing "Trang chủ" and "Luyện tập" active at
  *    once (the exact bug this pass fixes).
+ *  - `/vocabulary/[id]` reached from the DictionarySearchPopup — its
+ *    pathname matches no nav item's href at all, so without this,
+ *    nothing would show active even though "Tra cứu" should.
  * Only when there's no source context at all (direct/bookmarked access,
  * or `from=practice` — already correctly a no-op against Practice's own
  * pathname) does plain pathname-prefix matching apply.
@@ -157,10 +182,12 @@ function resolveExplicitActiveHref(sourceContext: {
   hsk: boolean;
   home: boolean;
   practice: boolean;
+  dictionary: boolean;
 }): string | null {
   if (sourceContext.home) return "/";
   if (sourceContext.hsk) return "/hsk";
   if (sourceContext.practice) return "/practice";
+  if (sourceContext.dictionary) return DICTIONARY_ACTIVE_SENTINEL;
   return null;
 }
 
@@ -203,7 +230,7 @@ export function AppHeader() {
   // client-side navigation. The one-render-late catch-up (from's bonus
   // active state applies a frame after initial paint) is an acceptable,
   // purely cosmetic tradeoff for a nav highlight.
-  const [sourceContext, setSourceContext] = useState({ hsk: false, home: false, practice: false });
+  const [sourceContext, setSourceContext] = useState({ hsk: false, home: false, practice: false, dictionary: false });
   useEffect(() => {
     setSourceContext(getSourceContext(new URLSearchParams(window.location.search)));
   }, [pathname]);
@@ -248,12 +275,17 @@ export function AppHeader() {
             const Icon = item.icon;
 
             if (item.kind === "popup-trigger") {
+              const dictionaryActive = explicitActiveHref === DICTIONARY_ACTIVE_SENTINEL;
               return (
                 <button
                   key={item.label}
                   type="button"
                   onClick={openDictionarySearch}
-                  className={clsx(NAV_ITEM_CLASSES, NAV_ITEM_INACTIVE_CLASSES)}
+                  aria-current={dictionaryActive ? "page" : undefined}
+                  className={clsx(
+                    NAV_ITEM_CLASSES,
+                    dictionaryActive ? NAV_ITEM_ACTIVE_CLASSES : NAV_ITEM_INACTIVE_CLASSES
+                  )}
                 >
                   {Icon && <Icon className="h-[18px] w-[18px]" />}
                   {item.label}

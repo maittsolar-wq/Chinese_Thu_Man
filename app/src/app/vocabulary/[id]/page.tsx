@@ -21,12 +21,19 @@ interface VocabularyDetailSearchParams {
    *  Navigation-completion pass (Home Search flow): also doubles as the
    *  "which dictionary-style search produced this link" distinguisher
    *  when paired with `from=dictionary` — `parent=home` means Home's own
-   *  inline HomeSearch widget (see HomeSearch.tsx), NOT the header's
-   *  DictionarySearchPopup (which never sets `parent` and keeps the
-   *  existing frozen "Trang chủ > Tra cứu > word" breadcrumb). Same
-   *  query slot, same meaning ("who is the true parent screen"), reused
-   *  rather than inventing a second marker. */
+   *  inline HomeSearch widget (see HomeSearch.tsx). Any OTHER `from=
+   *  dictionary` (i.e. `parent` unset/not "home") means the header's
+   *  global DictionarySearchPopup instead — see `returnTo` below and
+   *  resolveDictionaryPopupBackHref. */
   parent?: string;
+  /** Dictionary-popup Back/restore pass: the header popup's own current
+   *  page (pathname + its existing query string) at the moment a result
+   *  was clicked, with `dictionaryOpen=true&dictQuery=<term>` already
+   *  merged in by DictionarySearchPopup itself — see that file's
+   *  `buildResultHref`. Only meaningful when `from=dictionary` and this
+   *  ISN'T the Home Search flow (`parent!=="home"`); resolved (and
+   *  validated as same-origin) by resolveDictionaryPopupBackHref below. */
+  returnTo?: string;
 }
 
 export async function generateMetadata({
@@ -45,24 +52,20 @@ export async function generateMetadata({
  * Dictionary. Extended here with a Radical origin for the new
  * Radical Detail → Related Vocabulary flow, since Word Detail stays the
  * single shared implementation regardless of entry point.
+ *
+ * Dictionary-popup Back/restore pass: the old `from === "dictionary"`
+ * breadcrumb branch ("Trang chủ > Tra cứu > word") is gone — EVERY
+ * `from=dictionary` value now resolves to a `backHref` instead (either
+ * this function's own Home Search branch, or the new popup-restore
+ * branch below), so this function is never actually called for a
+ * dictionary origin anymore; VocabularyDetail only renders `breadcrumb`
+ * when `backHref` is undefined.
  */
 function buildBreadcrumb(
   word: { id: string; word: string; hskLevels: number[] },
   searchParams: VocabularyDetailSearchParams
 ): BreadcrumbItem[] {
   const home: BreadcrumbItem = { label: "Trang chủ", href: "/" };
-
-  if (searchParams.from === "dictionary") {
-    return [
-      home,
-      // Nav-facing label kept in sync with AppHeader's "Tra cứu" (renamed
-      // from "Từ điển" in the navigation phase) — docs/DICTIONARY/
-      // DICTIONARY_SPEC.md §16 still documents the pre-rename string,
-      // this is a display-label sync only, no href/route change.
-      { label: "Tra cứu", href: "/dictionary" },
-      { label: word.word },
-    ];
-  }
 
   if (searchParams.from === "radical" && searchParams.radicalId) {
     const radical = getRadicalSummaryById(searchParams.radicalId);
@@ -112,6 +115,23 @@ function resolveHskBackHref(level: string | undefined, parent: string | undefine
   return `/hsk/${level}${parentSuffix}`;
 }
 
+/**
+ * Dictionary-popup Back/restore pass: `returnTo` is built by
+ * DictionarySearchPopup itself (its own current page's pathname + query,
+ * with `dictionaryOpen=true&dictQuery=<term>` already merged in) — so
+ * resolving it here is just validation, not reconstruction. Only a
+ * same-origin relative path (starts with exactly one `/`, never `//`,
+ * which a browser would treat as protocol-relative to an external host)
+ * is accepted; anything missing/malformed/absent — a direct/bookmarked
+ * `/vocabulary/x?from=dictionary` link with no `returnTo` included —
+ * falls back to `/`, the same safe default `useConfigBackHref` (Practice)
+ * already uses for its own missing/invalid source param.
+ */
+function resolveDictionaryPopupBackHref(returnTo: string | undefined): string {
+  if (returnTo && returnTo.startsWith("/") && !returnTo.startsWith("//")) return returnTo;
+  return "/";
+}
+
 export default async function VocabularyDetailPage({
   params,
   searchParams,
@@ -125,20 +145,23 @@ export default async function VocabularyDetailPage({
 
   const resolvedSearchParams = await searchParams;
   const breadcrumb = buildBreadcrumb(word, resolvedSearchParams);
-  // Only two explicit flows get the Back button in place of the
-  // breadcrumb: the HSK-level-list origin (unchanged from the HSK pass),
-  // and now Home's own inline search widget — distinguished from the
-  // header's DictionarySearchPopup (which also sets `from=dictionary`,
-  // but never `parent=home`) by that same `parent` marker. Direct/
-  // param-less access, the DictionarySearchPopup, and Radical origins all
-  // fall through unchanged to buildBreadcrumb's existing branches above.
+  // Three explicit flows get the Back button in place of the breadcrumb:
+  // the HSK-level-list origin (unchanged from the HSK pass), Home's own
+  // inline search widget (`parent=home`), and — new in this pass — the
+  // header's global DictionarySearchPopup itself: any OTHER
+  // `from=dictionary` (i.e. `parent` unset/not "home"). Direct/param-less
+  // access and Radical origins are the only ones still falling through to
+  // buildBreadcrumb's existing branches.
   const isHomeSearchFlow = resolvedSearchParams.from === "dictionary" && resolvedSearchParams.parent === "home";
+  const isDictionaryPopupFlow = resolvedSearchParams.from === "dictionary" && resolvedSearchParams.parent !== "home";
   const backHref =
     resolvedSearchParams.from === "hsk"
       ? resolveHskBackHref(resolvedSearchParams.level, resolvedSearchParams.parent)
       : isHomeSearchFlow
         ? "/"
-        : undefined;
+        : isDictionaryPopupFlow
+          ? resolveDictionaryPopupBackHref(resolvedSearchParams.returnTo)
+          : undefined;
 
   return <VocabularyDetail word={word} breadcrumb={breadcrumb} backHref={backHref} />;
 }
