@@ -29,8 +29,8 @@ export function RelatedWordCard({
         <p className="font-cjk text-3xl font-normal leading-tight text-ink dark:text-night-text">
           {hanzi}
         </p>
-        <p className="text-base italic text-primary dark:text-night-primary">{pinyin}</p>
-        <p className="text-base text-ink-muted dark:text-night-muted">{meaningVi}</p>
+        <p className="font-ui text-base italic text-primary dark:text-night-primary">{pinyin}</p>
+        <p className="font-ui text-base text-ink-muted dark:text-night-muted">{meaningVi}</p>
       </Card>
     </Link>
   );

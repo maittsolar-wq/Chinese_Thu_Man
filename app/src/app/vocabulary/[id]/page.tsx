@@ -82,9 +82,7 @@ export async function generateMetadata({
 /**
  * Breadcrumb source context per docs/DICTIONARY/DICTIONARY_SPEC.md §16:
  * "Trang chủ > HSK 1 > 学习" from HSK, "Trang chủ > Từ điển > 学习" from
- * Dictionary. Extended here with a Radical origin for the new
- * Radical Detail → Related Vocabulary flow, since Word Detail stays the
- * single shared implementation regardless of entry point.
+ * Dictionary.
  *
  * Dictionary-popup Back/restore pass: the old `from === "dictionary"`
  * breadcrumb branch ("Trang chủ > Tra cứu > word") is gone — EVERY
@@ -93,6 +91,14 @@ export async function generateMetadata({
  * branch below), so this function is never actually called for a
  * dictionary origin anymore; VocabularyDetail only renders `breadcrumb`
  * when `backHref` is undefined.
+ *
+ * Radical navigation-context fix: the `from === "radical"` branch below
+ * is now legacy/defensive only — Radical Detail's related-vocabulary
+ * links produce `from=related&returnTo=<exact Radical Detail URL>`
+ * instead (see radicals/[id]/page.tsx and RadicalVocabularyByLevel.tsx),
+ * which resolves to a `backHref` further down (isRelatedFlow), not this
+ * breadcrumb. Kept only in case any old `from=radical&radicalId=...` link
+ * is still bookmarked/cached somewhere.
  */
 function buildBreadcrumb(
   word: { id: string; word: string; hskLevels: number[] },
@@ -200,11 +206,15 @@ export default async function VocabularyDetailPage({
           ? resolveReturnToBackHref(resolvedSearchParams.returnTo)
           : undefined;
 
-  // Handed to VocabularyDetail so ITS OWN Related Word links can each
-  // carry "come back here" — this page's full URL (id + every search
-  // param it was loaded with), not just its bare id. See
-  // buildCurrentPageUrl's own comment for why this is computed
-  // server-side rather than read from window.location.
+  // Handed to VocabularyDetail so ITS OWN Related Word links AND its
+  // "Bộ thủ & chữ Hán" Radical links can each carry "come back here" —
+  // this page's full URL (id + every search param it was loaded with),
+  // not just its bare id. See buildCurrentPageUrl's own comment for why
+  // this is computed server-side rather than read from window.location.
+  // Vocabulary -> Radical navigation-context fix: the exact same string
+  // is handed to VocabularyDetail twice, under two prop names
+  // (`relatedWordReturnTo`, `radicalReturnTo`) — one per consumer, so
+  // each keeps its own clear doc-comment, not because the value differs.
   const currentPageUrl = buildCurrentPageUrl(id, resolvedSearchParams);
 
   return (
@@ -213,6 +223,7 @@ export default async function VocabularyDetailPage({
       breadcrumb={breadcrumb}
       backHref={backHref}
       relatedWordReturnTo={currentPageUrl}
+      radicalReturnTo={currentPageUrl}
     />
   );
 }

@@ -50,13 +50,19 @@ function dedupeByVocabularyId(
  * affect HSK 5's page, matching how unrelated lists shouldn't interfere.
  */
 export function RadicalVocabularyByLevel({
-  radicalId,
   vocabularyByLevel,
-  vocabularyHrefSuffix = "",
+  relatedWordReturnTo,
 }: {
-  radicalId: string;
   vocabularyByLevel: Partial<Record<HskLevel, RadicalVocabularyRef[]>>;
-  vocabularyHrefSuffix?: string;
+  /** Radical Detail's own exact canonical URL — handed to every
+   *  related-vocabulary link as `?from=related&returnTo=<this>` so
+   *  Vocabulary Detail's Back button returns to this EXACT Radical
+   *  Detail page (same mechanism Related Vocabulary already uses
+   *  between two Vocabulary Detail pages). Replaces the old
+   *  `?from=radical&radicalId=...[&hskContext=1]` shape, which produced
+   *  a plain breadcrumb instead of a Back button and couldn't carry the
+   *  original source (Home/HSK) through a multi-hop Related Word chain. */
+  relatedWordReturnTo: string;
 }) {
   const [pageByLevel, setPageByLevel] = useState<Partial<Record<HskLevel, number>>>({});
 
@@ -82,7 +88,7 @@ export function RadicalVocabularyByLevel({
               {pageItems.map((entry) => (
                 <Link
                   key={entry.vocabularyId}
-                  href={`/vocabulary/${entry.vocabularyId}?from=radical&radicalId=${radicalId}${vocabularyHrefSuffix}`}
+                  href={`/vocabulary/${entry.vocabularyId}?from=related&returnTo=${encodeURIComponent(relatedWordReturnTo)}`}
                   className="block min-w-0"
                 >
                   <Card className="hover:shadow-md">

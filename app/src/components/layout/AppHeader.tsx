@@ -94,13 +94,18 @@ const NAV_ITEM_ACTIVE_CLASSES =
  * though the immediate `from` value is "radicals" / "hsk"-as-hop-type
  * rather than a literal top-level marker.
  *
- * `hskContext=1` is the same signal carried one hop further still: when
- * Radical Detail's HSK origin needs to survive into a related-vocabulary
- * link, that link can't also say `from=hsk` (that slot is already
- * `from=radical`, which Vocabulary Detail's breadcrumb depends on) — so
- * RadicalDetailView appends this second, independent marker instead (see
- * radicals/[id]/page.tsx). Any of these signals alone is enough to keep
- * HSK active; none is present unless the chain genuinely started at HSK.
+ * `hskContext=1` was an older, now-unused signal for the same idea one
+ * hop further still (Radical Detail's HSK origin surviving into a
+ * related-vocabulary link): Radical Detail's related-vocabulary links now
+ * use `from=related&returnTo=<exact Radical Detail URL>` instead (the
+ * same mechanism Related Vocabulary already uses between two Vocabulary
+ * Detail pages — see radicals/[id]/page.tsx and
+ * RadicalVocabularyByLevel.tsx), so `unwrapToOriginalSourceParams` below
+ * already recovers HSK/Home from that URL's own `from`/`parent` without
+ * needing this marker. Kept here only as a harmless defensive fallback
+ * for any old link still carrying it. Any of these signals alone is
+ * enough to keep HSK active; none is present unless the chain genuinely
+ * started at HSK.
  *
  * `?from=home` / `?parent=home` are the same idea for Trang chủ: Home's
  * featured-radical cards and HSK-card grid link `?from=home` directly,
@@ -161,11 +166,25 @@ function getSourceContext(
  * `from=related`, and hands THOSE to `getSourceContext` instead of the
  * current page's own raw ones. A depth cap guards against a pathological/
  * malformed chain; every real chain the app can produce terminates in a
- * small handful of hops (however many Related Word clicks the visitor
- * actually made).
+ * small handful of hops (however many Related Word/Radical clicks the
+ * visitor actually made).
+ *
+ * Vocabulary -> Radical navigation-context fix: `from=radical` (Radical
+ * Detail reached from a Vocabulary Detail's "Bộ thủ & chữ Hán" section —
+ * see radicals/[id]/page.tsx's `resolveBackHref`) is the exact same kind
+ * of pure "come back to my `returnTo`" wrapper as `from=related`, just on
+ * a Radical Detail URL instead of a Vocabulary Detail one — it also names
+ * no source by itself. Unwrapping it here too (not just `related`) is
+ * what lets a bidirectional chain like `HSK -> Vocabulary A -> Radical X
+ * -> Vocabulary B -> Radical Y -> Vocabulary C` keep HSK active on every
+ * one of those 5 pages, not just the Vocabulary ones — without this,
+ * Radical X/Y's own topbar would show nothing active while the visitor
+ * is actually looking at them, since neither page's raw `from` value
+ * (`radical`) matches anything `getSourceContext` checks for directly.
  */
 function unwrapToOriginalSourceParams(params: URLSearchParams, depth = 0): URLSearchParams {
-  if (depth > 20 || params.get("from") !== "related") return params;
+  const from = params.get("from");
+  if (depth > 20 || (from !== "related" && from !== "radical")) return params;
   const returnTo = params.get("returnTo");
   if (!returnTo || !returnTo.startsWith("/") || returnTo.startsWith("//")) return params;
   const queryIndex = returnTo.indexOf("?");

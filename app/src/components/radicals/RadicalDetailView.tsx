@@ -21,17 +21,17 @@ import { RadicalVocabularyByLevel } from "@/components/radicals/RadicalVocabular
  */
 export function RadicalDetailView({
   radical,
-  vocabularyHrefSuffix = "",
+  relatedWordReturnTo,
   backHref,
 }: {
   radical: RadicalDetail;
-  /** Appended to every related-vocabulary link, after its own
-   *  `?from=radical&radicalId=...` — e.g. "&hskContext=1" when this
-   *  Radical Detail was itself reached from HSK, so the header can keep
-   *  HSK active on the Vocabulary Detail this links to. Defaults to ""
-   *  (existing standalone-Radical and Dictionary-Radical callers are
-   *  unaffected unless they opt in via the /radicals/[id] route). */
-  vocabularyHrefSuffix?: string;
+  /** This page's own exact canonical URL (id + every `from`/`parent`
+   *  search param it was loaded with), computed server-side by the page.
+   *  Every related-vocabulary link hands this to Vocabulary Detail as
+   *  `?from=related&returnTo=<this>`, so Back returns to the EXACT
+   *  Radical Detail page — the same mechanism Related Vocabulary already
+   *  uses on Vocabulary Detail itself. */
+  relatedWordReturnTo: string;
   /** Deterministic Back destination, resolved from `?from=` by the page
    *  (home/hsk/radicals, safe "/radicals" fallback otherwise). */
   backHref: string;
@@ -105,9 +105,8 @@ export function RadicalDetailView({
           />
         ) : (
           <RadicalVocabularyByLevel
-            radicalId={radical.id}
             vocabularyByLevel={radical.vocabularyByLevel}
-            vocabularyHrefSuffix={vocabularyHrefSuffix}
+            relatedWordReturnTo={relatedWordReturnTo}
           />
         )}
       </section>

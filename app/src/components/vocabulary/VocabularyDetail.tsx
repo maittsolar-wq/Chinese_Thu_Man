@@ -63,6 +63,7 @@ export function VocabularyDetail({
   breadcrumb,
   backHref,
   relatedWordReturnTo,
+  radicalReturnTo,
 }: {
   word: VocabularyWord;
   breadcrumb: BreadcrumbItem[];
@@ -82,6 +83,14 @@ export function VocabularyDetail({
    *  and the chain naturally extends however many `related` hops deep a
    *  visitor goes (A -> B -> C: C's Back goes to B, B's Back goes to A). */
   relatedWordReturnTo: string;
+  /** Vocabulary -> Radical navigation-context fix: the exact same full
+   *  URL as `relatedWordReturnTo` above (same underlying value, separate
+   *  prop only so each consumer keeps its own clear name/doc-comment),
+   *  handed to every Radical link in "Bộ thủ & chữ Hán" below as
+   *  `?from=radical&returnTo=<this>`. Radical Detail resolves that into
+   *  its own "Quay lại" pointing back to exactly this Vocabulary Detail
+   *  page — see radicals/[id]/page.tsx's `resolveBackHref`. */
+  radicalReturnTo: string;
 }) {
   const relatedWords = word.relatedWordIds
     .map((id) => getVocabularyById(id))
@@ -98,6 +107,13 @@ export function VocabularyDetail({
   // second regex, for "how many real Han characters does this word have".
   const characterCount = getCharactersForWord(word.word).length;
 
+  // Vocabulary -> Radical navigation-context fix: every Radical link
+  // below carries this page's own exact URL as `returnTo`, reusing the
+  // identical `?from=<x>&returnTo=<encoded URL>` shape Related Word links
+  // already use (see the href below and RelatedWordCard's own href) —
+  // not a new query-param convention.
+  const radicalHrefSuffix = `?from=radical&returnTo=${encodeURIComponent(radicalReturnTo)}`;
+
   return (
     <div className="mx-auto flex max-w-[1120px] flex-col gap-8 bg-surface-page px-4 py-6 dark:bg-night-bg sm:gap-12 sm:px-6 sm:py-8 lg:gap-14">
       {backHref ? (
@@ -110,23 +126,36 @@ export function VocabularyDetail({
       )}
 
       {/* VOCABULARY HEADER — hero-redesign pass: the pronunciation button
-          moved from a `justify-between`-pushed position at the card's far
-          right edge to directly beside the Chinese title (`gap-3` = 12px,
-          within the requested 12-16px range) — it now reads as part of
-          the title, not a stray control off on its own. The card is now
-          a two-column row: content (badges -> word+pronunciation ->
-          pinyin -> meaning -> metadata, hierarchy unchanged) on the left,
-          and the supplied illustration on the right at `sm:w-[32%]`
-          (within the requested 30-35%) using `object-contain` so the
-          artwork — a transparent-background cutout, not a rectangular
-          photo — is never cropped and never overlaps the text column.
-          Hidden below `sm` (illustration is supporting content, not
-          primary; keeping the vocabulary hierarchy at full width on
-          narrow screens matters more than showing a shrunk illustration
-          there) — the same breakpoint convention already used throughout
-          this app (e.g. HSK's `grid-cols-1 sm:grid-cols-2`). */}
-      <header className="rounded-card border border-hairline bg-white px-5 py-6 dark:border-night-border dark:bg-night-surface sm:px-8 sm:py-8">
-        <div className="flex items-center gap-6 lg:gap-10">
+          sits directly beside the Chinese title (`gap-3` = 12px, within
+          the requested 12-16px range) — it reads as part of the title,
+          not a stray control off on its own. Unchanged by the spacing-
+          refinement pass below.
+
+          Spacing-refinement pass: the card is a two-column row — content
+          (badges -> word+pronunciation -> pinyin -> meaning -> metadata,
+          hierarchy unchanged) on the left, illustration on the right.
+          Inner horizontal padding steps up to `lg:px-16` (64px, within
+          the requested 56-72px) at the desktop breakpoint where the
+          illustration is actually visible, instead of staying at the
+          original `sm:px-8` (32px) throughout — content now sits
+          noticeably clear of the card's left edge on desktop. The
+          content/illustration gap drops from `gap-6 lg:gap-10` to
+          `gap-4 lg:gap-6`, closing the empty band that used to sit
+          between them, and the illustration itself grows from `32%`
+          (`sm:w-[32%]`) to `36%` (`w-[36%]`) of the row's width — with
+          the 1120px content cap and the new lg:px-16 padding, that's
+          ~357px at both 1440 and 1280px viewports, inside the requested
+          300-360px/36-40% targets. `object-contain object-right` is
+          unchanged, so the artwork (a transparent-background cutout, not
+          a rectangular photo) is still never cropped and never overlaps
+          the text column. Hidden below `sm` (illustration is supporting
+          content, not primary; keeping the vocabulary hierarchy at full
+          width on narrow screens matters more than showing a shrunk
+          illustration there) — the same breakpoint convention already
+          used throughout this app (e.g. HSK's `grid-cols-1
+          sm:grid-cols-2`). */}
+      <header className="rounded-card border border-hairline bg-white px-5 py-6 dark:border-night-border dark:bg-night-surface sm:px-8 sm:py-8 md:px-10 lg:px-16">
+        <div className="flex items-center gap-4 lg:gap-6">
           <div className="flex min-w-0 flex-1 flex-col gap-3">
             <div className="flex flex-wrap items-center gap-2">
               {word.hskLevels.map((level) => (
@@ -157,13 +186,13 @@ export function VocabularyDetail({
             </div>
           </div>
 
-          <div className="relative hidden h-32 w-[32%] shrink-0 sm:block sm:h-40 lg:h-48">
+          <div className="relative hidden h-40 w-[36%] shrink-0 sm:block sm:h-48 lg:h-60">
             <Image
               src="/vocabulary-hero-illustration.png"
               alt=""
               fill
               aria-hidden
-              sizes="(min-width: 1024px) 280px, 220px"
+              sizes="(min-width: 1024px) 360px, 260px"
               className="object-contain object-right"
             />
           </div>
@@ -204,6 +233,7 @@ export function VocabularyDetail({
                 key={radical.id}
                 radical={radical}
                 vocabularyCount={getRadicalVocabularyCount(radical.id)}
+                hrefSuffix={radicalHrefSuffix}
               />
             ))}
           </div>

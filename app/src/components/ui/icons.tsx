@@ -249,6 +249,21 @@ export function ReplayIcon(props: IconProps) {
   );
 }
 
+/**
+ * Practice Config redesign pass — "Số lượng từ" section header icon. No
+ * existing icon in this file represents a bar-chart/quantity concept, and
+ * this app's own convention is hand-authored inline SVGs (not an icon
+ * library dependency) following the exact `base` stroke spec every icon
+ * above already uses, so this is one more of those, not a new dependency.
+ */
+export function BarChartIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M4 20V10M12 20V4M20 20v-7" />
+    </svg>
+  );
+}
+
 export function CheckCircleIcon(props: IconProps) {
   return (
     <svg {...base} fill="currentColor" stroke="none" {...props}>
