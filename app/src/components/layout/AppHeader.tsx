@@ -36,16 +36,23 @@ import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon 
  * same capability. Still a popup TRIGGER, not a route link — opens the
  * same shared DictionarySearchPopup, unchanged mechanism.
  *
- * "Luyện tập" points at the standalone Practice Home route (/practice) —
- * its active state is computed via `isPracticeActive` rather than the
- * normal pathname-prefix check below, since it needs to match both the
- * bare /practice route and every /practice/* sub-route.
+ * "Luyện tập" points at the standalone Practice Home route (/practice).
+ * Its active state used to be computed via a dedicated pathname-only
+ * `isPracticeActive` check — navigation-completion pass (Practice source
+ * context) folded that into the same unified, source-context-aware
+ * `isActive` every other item already uses (see that function below):
+ * Practice's own pathname-prefix behavior (bare /practice AND every
+ * /practice/* sub-route) was already exactly what the generic branch of
+ * `isActive` does for any href, so the special case was redundant once
+ * Practice also needed to be source-context-*suppressible* (a Practice
+ * exercise config screen reached from Home must NOT show Luyện tập
+ * active, even though its pathname is under /practice/*).
  */
 const NAV_ITEMS = [
-  { kind: "link", href: "/", label: "Trang chủ", icon: HomeIcon, usesPracticeActiveCheck: false },
-  { kind: "link", href: "/hsk", label: "HSK", icon: GraduationCapIcon, usesPracticeActiveCheck: false },
+  { kind: "link", href: "/", label: "Trang chủ", icon: HomeIcon },
+  { kind: "link", href: "/hsk", label: "HSK", icon: GraduationCapIcon },
   { kind: "popup-trigger", label: "Tra cứu", icon: SearchIcon },
-  { kind: "link", href: "/practice", label: "Luyện tập", icon: TargetIcon, usesPracticeActiveCheck: true },
+  { kind: "link", href: "/practice", label: "Luyện tập", icon: TargetIcon },
 ] as const;
 
 /**
@@ -80,52 +87,87 @@ const NAV_ITEM_ACTIVE_CLASSES =
  * `?parent=hsk` is the equivalent one level deeper: HSK's only radical
  * entry point today is RadicalCta -> /radicals?from=hsk -> a radical
  * card, which chains `?from=radicals&parent=hsk` onto the Radical Detail
- * link (see radicals/page.tsx) — HSK is still the ultimate origin even
- * though the immediate `from` value is now "radicals", not "hsk".
+ * link (see radicals/page.tsx); an HSK Level page reached via `/hsk`'s own
+ * level grid similarly chains `?from=hsk&level=N&parent=hsk` onto its
+ * Vocabulary Detail links (see hsk/[level]/page.tsx /
+ * HskLevelVocabularyList.tsx) — HSK is still the ultimate origin even
+ * though the immediate `from` value is "radicals" / "hsk"-as-hop-type
+ * rather than a literal top-level marker.
  *
  * `hskContext=1` is the same signal carried one hop further still: when
- * Radical Detail's HSK origin (from either shape above) needs to survive
- * into a related-vocabulary link, that link can't also say `from=hsk`
- * (that slot is already `from=radical`, which Vocabulary Detail's
- * breadcrumb depends on) — so RadicalDetailView appends this second,
- * independent marker instead (see radicals/[id]/page.tsx). Any of the
- * three signals alone is enough to keep HSK active; none is present
- * unless the chain genuinely started at HSK.
+ * Radical Detail's HSK origin needs to survive into a related-vocabulary
+ * link, that link can't also say `from=hsk` (that slot is already
+ * `from=radical`, which Vocabulary Detail's breadcrumb depends on) — so
+ * RadicalDetailView appends this second, independent marker instead (see
+ * radicals/[id]/page.tsx). Any of these signals alone is enough to keep
+ * HSK active; none is present unless the chain genuinely started at HSK.
  *
- * `?from=home` / `?parent=home` are the same two-level idea for Trang
- * chủ: Home's featured-radical cards link `?from=home` directly, while
- * Home's "214 bộ thủ" CTA goes through the Radical Index first, chaining
- * `?from=radicals&parent=home` instead — neither shape is under `/`, so
- * Home wouldn't otherwise show active while viewing them.
+ * `?from=home` / `?parent=home` are the same idea for Trang chủ: Home's
+ * featured-radical cards and HSK-card grid link `?from=home` directly,
+ * while Home's "214 bộ thủ" CTA chains `?from=radicals&parent=home` and
+ * an HSK Level page reached from Home chains `?from=hsk&level=N&parent=
+ * home` onto ITS Vocabulary Detail links — none of these shapes are
+ * under `/`, so Home wouldn't otherwise show active while viewing them.
+ *
+ * `home` takes priority when both are somehow present (e.g.
+ * `from=hsk&parent=home`: reached via an HSK-level list, but that level
+ * page's own ultimate origin was Home) — a page has exactly one true
+ * origin, and `parent`, when set, always names it more precisely than the
+ * `from` hop-type value beside it.
+ *
+ * `?from=practice` (Practice source-context pass): PracticeConfigView's
+ * own existing `useConfigBackHref` already reads this exact value to
+ * decide the Back destination — reused here as-is, not a new convention,
+ * so the header agrees with Back about where a Practice exercise config
+ * screen (/practice/meaning|character|flashcard|writing) came from. Only
+ * needed to explicitly SUPPRESS Practice when `home` is set instead (see
+ * `resolveExplicitActiveHref`) — `from=practice` alone doesn't change
+ * anything plain pathname-prefix matching wasn't already going to give
+ * Practice anyway, but naming it explicitly keeps the source model
+ * complete/self-documenting rather than leaning on that as an implicit
+ * coincidence.
  */
-function getSourceContext(searchParams: URLSearchParams): { hsk: boolean; home: boolean } {
+function getSourceContext(
+  searchParams: URLSearchParams
+): { hsk: boolean; home: boolean; practice: boolean } {
   const from = searchParams.get("from");
   const parent = searchParams.get("parent");
-  return {
-    hsk: from === "hsk" || parent === "hsk" || searchParams.get("hskContext") === "1",
-    home: from === "home" || parent === "home",
-  };
-}
-
-function isActive(
-  pathname: string,
-  href: string,
-  sourceContext: { hsk: boolean; home: boolean }
-): boolean {
-  if (href === "/") return pathname === "/" || sourceContext.home;
-  if (pathname === href || pathname.startsWith(`${href}/`)) return true;
-  return href === "/hsk" && sourceContext.hsk;
+  const home = from === "home" || parent === "home";
+  const hsk = !home && (from === "hsk" || parent === "hsk" || searchParams.get("hskContext") === "1");
+  const practice = !home && from === "practice";
+  return { hsk, home, practice };
 }
 
 /**
- * Separate from `isActive` only because Practice must be active on the
- * bare /practice route itself AND every /practice/* sub-route — unlike
- * HSK's shared-detail-screen case (which genuinely needed a
- * `?from=`/`hskContext` query signal to cross into a different route
- * tree), this is a plain pathname check, no query param involved.
+ * When a page carries an explicit source context, that context is
+ * authoritative and exclusive — it names the ONE nav item that should
+ * show active, overriding whatever the raw pathname would otherwise
+ * suggest. This matters specifically for:
+ *  - `/hsk/[level]` reached from Home (`?from=home`) — pathname starts
+ *    with `/hsk/`, which would otherwise ALSO match the HSK nav item.
+ *  - `/practice/<type>` reached from Home (`?from=home`) — pathname
+ *    starts with `/practice/`, which would otherwise ALSO match the
+ *    Luyện tập nav item, showing "Trang chủ" and "Luyện tập" active at
+ *    once (the exact bug this pass fixes).
+ * Only when there's no source context at all (direct/bookmarked access,
+ * or `from=practice` — already correctly a no-op against Practice's own
+ * pathname) does plain pathname-prefix matching apply.
  */
-function isPracticeActive(pathname: string): boolean {
-  return pathname === "/practice" || pathname.startsWith("/practice/");
+function resolveExplicitActiveHref(sourceContext: {
+  hsk: boolean;
+  home: boolean;
+  practice: boolean;
+}): string | null {
+  if (sourceContext.home) return "/";
+  if (sourceContext.hsk) return "/hsk";
+  if (sourceContext.practice) return "/practice";
+  return null;
+}
+
+function isActive(pathname: string, href: string, explicitActiveHref: string | null): boolean {
+  if (explicitActiveHref) return href === explicitActiveHref;
+  if (href === "/") return pathname === "/";
+  return pathname === href || pathname.startsWith(`${href}/`);
 }
 
 function ThemeToggle({ className }: { className?: string }) {
@@ -161,10 +203,11 @@ export function AppHeader() {
   // client-side navigation. The one-render-late catch-up (from's bonus
   // active state applies a frame after initial paint) is an acceptable,
   // purely cosmetic tradeoff for a nav highlight.
-  const [sourceContext, setSourceContext] = useState({ hsk: false, home: false });
+  const [sourceContext, setSourceContext] = useState({ hsk: false, home: false, practice: false });
   useEffect(() => {
     setSourceContext(getSourceContext(new URLSearchParams(window.location.search)));
   }, [pathname]);
+  const explicitActiveHref = resolveExplicitActiveHref(sourceContext);
 
   return (
     <header className="sticky top-0 z-10 border-b border-neutral-200 bg-white dark:border-night-border dark:bg-night-bg">
@@ -218,9 +261,7 @@ export function AppHeader() {
               );
             }
 
-            const active = item.usesPracticeActiveCheck
-              ? isPracticeActive(pathname)
-              : isActive(pathname, item.href, sourceContext);
+            const active = isActive(pathname, item.href, explicitActiveHref);
             return (
               <Link
                 key={item.href}

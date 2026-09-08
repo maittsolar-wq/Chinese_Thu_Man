@@ -266,7 +266,14 @@ export function HomeSearch() {
 function HomeSearchResultRow({ word, level }: { word: VocabularyWord; level?: HskLevel }) {
   return (
     <Link
-      href={`/vocabulary/${word.id}?from=dictionary`}
+      // Navigation-completion pass (Home Search flow): `parent=home`
+      // added alongside the existing `from=dictionary` so Vocabulary
+      // Detail can tell this link came from Home's own inline search
+      // widget, not the header's DictionarySearchPopup (which also sets
+      // `from=dictionary` but never `parent`, and must keep its existing
+      // frozen "Trang chủ > Tra cứu > word" breadcrumb — see
+      // vocabulary/[id]/page.tsx's `isHomeSearchFlow`).
+      href={`/vocabulary/${word.id}?from=dictionary&parent=home`}
       className="flex items-center justify-between gap-5 rounded-2xl border border-[#E2E8F0] px-6 py-5 transition-colors hover:bg-neutral-50 dark:border-[#3A3A3A] dark:hover:bg-white/5"
     >
       <span className="font-cjk shrink-0 text-[30px] font-semibold leading-none text-[#0F172A] dark:text-[#F8FAFC]">

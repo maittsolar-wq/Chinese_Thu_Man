@@ -1,6 +1,8 @@
 import type { VocabularyWord } from "@/lib/data/types";
 import { Card } from "@/components/ui/Card";
 import { Breadcrumb, type BreadcrumbItem } from "@/components/ui/Breadcrumb";
+import { LinkButton } from "@/components/ui/Button";
+import { ArrowLeftIcon } from "@/components/ui/icons";
 import { HskLevelBadge, Badge } from "@/components/ui/Badge";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { RadicalCard } from "@/components/radicals/RadicalCard";
@@ -31,8 +33,8 @@ const SECTIONS = [
 function SectionHeading({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
     <div className="flex flex-col gap-1">
-      <h2 className="text-2xl font-semibold text-ink dark:text-night-text">{title}</h2>
-      {subtitle && <p className="text-base text-ink-muted dark:text-night-muted">{subtitle}</p>}
+      <h2 className="font-ui text-2xl font-semibold text-ink dark:text-night-text">{title}</h2>
+      {subtitle && <p className="font-ui text-base text-ink-muted dark:text-night-muted">{subtitle}</p>}
     </div>
   );
 }
@@ -58,9 +60,19 @@ function SectionHeading({ title, subtitle }: { title: string; subtitle?: string 
 export function VocabularyDetail({
   word,
   breadcrumb,
+  backHref,
 }: {
   word: VocabularyWord;
   breadcrumb: BreadcrumbItem[];
+  /** Navigation-completion pass: when set — the HSK-level-list origin
+   *  (`from=hsk`) or Home's own inline search widget (`from=dictionary&
+   *  parent=home`), see vocabulary/[id]/page.tsx — renders a "Quay lại"
+   *  Back button instead of `breadcrumb`. Undefined for every other
+   *  origin (the header's DictionarySearchPopup, Radical,
+   *  direct/param-less access) — those keep rendering
+   *  `<Breadcrumb items={breadcrumb} />` exactly as before, byte-for-byte
+   *  unchanged. */
+  backHref?: string;
 }) {
   const relatedWords = word.relatedWordIds
     .map((id) => getVocabularyById(id))
@@ -79,7 +91,14 @@ export function VocabularyDetail({
 
   return (
     <div className="mx-auto flex max-w-[1120px] flex-col gap-8 bg-surface-page px-4 py-6 dark:bg-night-bg sm:gap-12 sm:px-6 sm:py-8 lg:gap-14">
-      <Breadcrumb items={breadcrumb} />
+      {backHref ? (
+        <LinkButton href={backHref} variant="neutral" className="font-ui w-fit">
+          <ArrowLeftIcon className="h-4 w-4" />
+          Quay lại
+        </LinkButton>
+      ) : (
+        <Breadcrumb items={breadcrumb} />
+      )}
 
       {/* VOCABULARY HEADER — visual-refinement pass: back to a single
           white card (no more 2fr/1fr composition or blue-tinted surface),
@@ -112,11 +131,11 @@ export function VocabularyDetail({
             <PronunciationButton wordUrl={word.audio.wordUrl} />
           </div>
 
-          <p className="text-lg italic text-primary dark:text-night-primary">{word.pinyin}</p>
+          <p className="font-ui text-lg italic text-primary dark:text-night-primary">{word.pinyin}</p>
 
-          <p className="text-xl font-semibold text-ink dark:text-night-text">{word.meaningVi}</p>
+          <p className="font-ui text-xl font-semibold text-ink dark:text-night-text">{word.meaningVi}</p>
 
-          <div className="mt-1 inline-flex w-fit items-center gap-2 rounded-full border border-hairline px-3 py-1 text-sm text-ink-muted dark:border-night-border dark:text-night-muted">
+          <div className="font-ui mt-1 inline-flex w-fit items-center gap-2 rounded-full border border-hairline px-3 py-1 text-sm text-ink-muted dark:border-night-border dark:text-night-muted">
             <span>{characterCount} chữ</span>
             <span aria-hidden="true">·</span>
             <span>{word.strokeCount ?? "—"} nét</span>
@@ -135,7 +154,7 @@ export function VocabularyDetail({
           <a
             key={section.id}
             href={`#${section.id}`}
-            className="shrink-0 whitespace-nowrap rounded-md px-3 py-2 text-sm font-medium text-ink-muted transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1 dark:text-night-muted dark:hover:text-night-text"
+            className="font-ui shrink-0 whitespace-nowrap rounded-md px-3 py-2 text-sm font-medium text-ink-muted transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1 dark:text-night-muted dark:hover:text-night-text"
           >
             {section.label}
           </a>
@@ -196,10 +215,10 @@ export function VocabularyDetail({
                 <p className="font-cjk text-3xl font-normal leading-snug text-ink dark:text-night-text">
                   {example.chinese}
                 </p>
-                <p className="text-base italic leading-normal text-primary dark:text-night-primary">
+                <p className="font-ui text-base italic leading-normal text-primary dark:text-night-primary">
                   {example.pinyin}
                 </p>
-                <p className="text-base leading-relaxed text-ink-muted dark:text-night-muted">
+                <p className="font-ui text-base leading-relaxed text-ink-muted dark:text-night-muted">
                   {example.meaningVi}
                 </p>
               </Card>

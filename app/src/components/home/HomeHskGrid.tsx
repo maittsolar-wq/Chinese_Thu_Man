@@ -76,7 +76,7 @@ export function HomeHskGrid() {
             // letting these cards paint over the header during scroll.
             <Link
               key={level}
-              href={`/hsk/${level}`}
+              href={`/hsk/${level}?from=home`}
               className="group relative isolate block aspect-[3/4] overflow-hidden rounded-[18px] border bg-white transition-transform hover:-translate-y-0.5 dark:bg-night-input"
               style={{ borderColor: color }}
             >

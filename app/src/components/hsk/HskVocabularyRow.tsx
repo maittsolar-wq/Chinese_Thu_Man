@@ -47,15 +47,20 @@ export function HskVocabularyRow({
           <span className="font-cjk text-2xl font-semibold text-neutral-900 dark:text-night-text sm:text-3xl">
             {word.word}
           </span>
-          <span className="text-sm italic text-primary dark:text-night-primary">{word.pinyin}</span>
+          <span className="font-ui text-sm italic text-primary dark:text-night-primary">{word.pinyin}</span>
         </div>
-        <p className="mt-0.5 truncate text-sm text-neutral-600 dark:text-night-muted">
+        <p className="font-ui mt-0.5 truncate text-sm text-neutral-600 dark:text-night-muted">
           {word.meaningVi}
         </p>
       </div>
 
       <div className="flex shrink-0 items-center gap-2">
-        {primaryLevel !== undefined && <HskLevelBadge level={primaryLevel} />}
+        {/* Navigation-completion pass (HSK flow): `colored` opts into the
+            per-level HSK_LEVEL_HEX brand colors (frozen contract from the
+            Search Popup pass — HskLevelBadge's own `colored` prop,
+            unchanged) instead of the flat blue every level previously
+            showed here. */}
+        {primaryLevel !== undefined && <HskLevelBadge level={primaryLevel} colored />}
         <ChevronRightIcon className="h-4 w-4 text-neutral-400 transition-colors group-hover:text-primary dark:text-night-muted" />
       </div>
     </Link>

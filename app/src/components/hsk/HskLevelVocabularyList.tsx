@@ -26,9 +26,18 @@ const PAGE_SIZE = 50;
 export function HskLevelVocabularyList({
   words,
   level,
+  vocabularyParent,
 }: {
   words: VocabularyWord[];
   level: HskLevel;
+  /** Navigation-completion pass: this level page's OWN `?from=` origin
+   *  ("home" | "hsk" | undefined for direct access) — chained onto every
+   *  Vocabulary Detail link below as `&parent=home|hsk` so Back from
+   *  Vocabulary Detail can return to this exact level page with its
+   *  origin preserved, and the header's active-tab context survives that
+   *  extra hop. `from=hsk&level=` itself is unchanged/frozen — this only
+   *  adds the new `parent` marker alongside it. */
+  vocabularyParent?: "home" | "hsk";
 }) {
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
@@ -42,6 +51,8 @@ export function HskLevelVocabularyList({
     setPage(1);
   }, [query]);
 
+  const parentSuffix = vocabularyParent ? `&parent=${vocabularyParent}` : "";
+
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
@@ -53,10 +64,10 @@ export function HskLevelVocabularyList({
             onChange={(event) => setQuery(event.target.value)}
             placeholder={`Tìm trong HSK ${level}...`}
             aria-label={`Tìm từ vựng trong HSK ${level}`}
-            className="w-full rounded-md border border-neutral-300 bg-white py-2.5 pl-10 pr-4 text-base text-neutral-900 outline-none placeholder:text-neutral-500 focus:border-primary focus:ring-1 focus:ring-primary dark:border-night-border dark:bg-night-input dark:text-night-text dark:placeholder:text-night-muted"
+            className="font-ui w-full rounded-md border border-neutral-300 bg-white py-2.5 pl-10 pr-4 text-base text-neutral-900 outline-none placeholder:text-neutral-500 focus:border-primary focus:ring-1 focus:ring-primary dark:border-night-border dark:bg-night-input dark:text-night-text dark:placeholder:text-night-muted"
           />
         </div>
-        <p className="text-sm text-neutral-600 dark:text-night-muted">
+        <p className="font-ui text-sm text-neutral-600 dark:text-night-muted">
           {filtered.length.toLocaleString("vi-VN")} từ vựng
         </p>
       </div>
@@ -72,7 +83,7 @@ export function HskLevelVocabularyList({
             <HskVocabularyRow
               key={word.id}
               word={word}
-              href={`/vocabulary/${word.id}?from=hsk&level=${level}`}
+              href={`/vocabulary/${word.id}?from=hsk&level=${level}${parentSuffix}`}
               currentLevel={level}
             />
           ))}

@@ -44,7 +44,7 @@ export function HskLevelGrid() {
           return (
             <Link
               key={level}
-              href={`/hsk/${level}`}
+              href={`/hsk/${level}?from=hsk`}
               className="group flex overflow-hidden rounded-2xl border bg-white transition-transform hover:-translate-y-0.5 dark:bg-night-surface"
               style={{ borderColor: color }}
             >
