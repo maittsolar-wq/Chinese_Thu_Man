@@ -5,7 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { searchDictionaryAction } from "@/lib/dictionary/actions";
 import { HSK_LEVEL_HEX } from "@/lib/hsk/homePalette";
-import { SearchIcon, CloseIcon, ChevronRightIcon } from "@/components/ui/icons";
+import { SearchIcon, CloseIcon } from "@/components/ui/icons";
+import { SearchPagination } from "@/components/search/SearchPagination";
 import type { HskLevel, VocabularyWord } from "@/lib/data/types";
 
 const SEARCH_DEBOUNCE_MS = 150;
@@ -59,6 +60,12 @@ const SEARCH_EXAMPLES = ["学习", "你好", "中国", "老师", "喜欢", "朋�
  * against the 660px inner wrapper (`inset-x-0` on that ancestor, not the
  * card), so narrowing the card also fixes the overlay's apparent
  * oversized feel with no change to overlay logic/positioning.
+ *
+ * In-popup pagination pass: the pagination control (and its page-token
+ * windowing logic) moved to `@/components/search/SearchPagination` +
+ * `@/lib/pagination` so DictionarySearchPopup could reuse the exact same
+ * already-approved control instead of a second copy — zero visual/
+ * behavioral change here, same markup, just relocated.
  */
 export function HomeSearch() {
   const [query, setQuery] = useState("");
@@ -123,10 +130,6 @@ export function HomeSearch() {
     return results.slice(start, start + RESULTS_PER_PAGE);
   }, [results, page]);
 
-  // A broad single-letter query can match thousands of records (~900+
-  // pages). Windowed to first/last + current±1 with "…" gaps.
-  const pageTokens = useMemo(() => buildPageTokens(page, totalPages), [page, totalPages]);
-
   const showEmpty = hasQuery && !isSearching && results.length === 0;
   const showResults = hasQuery && results.length > 0;
   const showOverlay = showEmpty || showResults;
@@ -147,7 +150,16 @@ export function HomeSearch() {
         <div aria-hidden onClick={clear} className="fixed inset-0 z-40 bg-black/40" />
       )}
 
-      <div className="relative z-50 w-full max-w-[708px] rounded-2xl border border-[#E2E8F0] bg-white p-6 shadow-[0_2px_0_#E2E8F0] dark:border-[#3A3A3A] dark:bg-[#242424] dark:shadow-[0_2px_0_#3a3a3a]">
+      {/* Topbar/header z-index fix: this card only needs to outrank the
+          header (z-10, sticky) while its own backdrop (z-40, `hasQuery`
+          only) is showing, to stay clickable above the dim. Previously
+          `z-50` was unconditional, so even the plain idle card (no query,
+          no backdrop) always outranked the header during normal scroll —
+          content visibly painting over the sticky Topbar. Active-state
+          stacking (backdrop z-40, results panel z-50 below) is untouched. */}
+      <div
+        className={`relative w-full max-w-[708px] rounded-2xl border border-[#E2E8F0] bg-white p-6 shadow-[0_2px_0_#E2E8F0] dark:border-[#3A3A3A] dark:bg-[#242424] dark:shadow-[0_2px_0_#3a3a3a] ${hasQuery ? "z-50" : ""}`}
+      >
         <div className="flex items-center gap-3">
           <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#0152911A]">
             <Image src="/icons/search-icon.png" alt="" width={22} height={22} aria-hidden />
@@ -240,43 +252,7 @@ export function HomeSearch() {
                   ))}
                 </div>
 
-                {totalPages > 1 && (
-                  <div className="flex flex-wrap items-center justify-center gap-2 pt-2">
-                    {pageTokens.map((token, index) =>
-                      token === "ellipsis" ? (
-                        <span
-                          key={`ellipsis-${index}`}
-                          className="flex h-10 w-10 items-center justify-center text-sm text-neutral-400 dark:text-[#94A3B8]"
-                        >
-                          …
-                        </span>
-                      ) : (
-                        <button
-                          key={token}
-                          type="button"
-                          onClick={() => setPage(token)}
-                          aria-current={token === page ? "page" : undefined}
-                          className={
-                            token === page
-                              ? "flex h-10 w-10 items-center justify-center rounded-lg bg-[#015291] text-sm font-semibold text-white"
-                              : "flex h-10 w-10 items-center justify-center rounded-lg border border-[#E2E8F0] text-sm font-medium text-neutral-700 transition-colors hover:bg-neutral-50 dark:border-[#3A3A3A] dark:text-[#F8FAFC] dark:hover:bg-white/10"
-                          }
-                        >
-                          {token}
-                        </button>
-                      )
-                    )}
-                    <button
-                      type="button"
-                      aria-label="Trang sau"
-                      disabled={page >= totalPages}
-                      onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
-                      className="flex h-10 w-10 items-center justify-center rounded-lg border border-[#E2E8F0] text-neutral-700 transition-colors hover:bg-neutral-50 disabled:cursor-not-allowed disabled:opacity-40 dark:border-[#3A3A3A] dark:text-[#F8FAFC] dark:hover:bg-white/10"
-                    >
-                      <ChevronRightIcon className="h-4 w-4" />
-                    </button>
-                  </div>
-                )}
+                <SearchPagination page={page} totalPages={totalPages} onPageChange={setPage} />
               </div>
             )}
           </div>
@@ -310,21 +286,4 @@ function HomeSearchResultRow({ word, level }: { word: VocabularyWord; level?: Hs
       )}
     </Link>
   );
-}
-
-type PageToken = number | "ellipsis";
-
-/** First page, last page, and a small window around the current page —
- *  everything else collapses to a single "…" token. See the pageTokens
- *  comment above for why this exists. */
-function buildPageTokens(current: number, total: number): PageToken[] {
-  const windowStart = Math.max(2, current - 1);
-  const windowEnd = Math.min(total - 1, current + 1);
-
-  const tokens: PageToken[] = [1];
-  if (windowStart > 2) tokens.push("ellipsis");
-  for (let p = windowStart; p <= windowEnd; p++) tokens.push(p);
-  if (windowEnd < total - 1) tokens.push("ellipsis");
-  if (total > 1) tokens.push(total);
-  return tokens;
 }

@@ -34,6 +34,24 @@ export function RadicalIndexView({
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
 
+  // Navigation-completion pass: chains this index's own `?from=` onto
+  // every Radical Detail link it renders as `?from=radicals&parent=<...>`
+  // (or plain "?from=radicals" when this index itself has no/an
+  // unrecognized `from`), so Back — and the header's active-tab context —
+  // can tell Radical Detail was reached via this index, and through which
+  // ultimate origin. Read via window.location.search rather than
+  // useSearchParams(), same reasoning as RadicalIndexNav/AppHeader: keeps
+  // /radicals static instead of opting it into dynamic rendering just for
+  // a link target. One-frame-late catch-up is invisible here (it's a href,
+  // not a visible highlight, and resolves well before a click is possible).
+  const [radicalHrefSuffix, setRadicalHrefSuffix] = useState("?from=radicals");
+  useEffect(() => {
+    const from = new URLSearchParams(window.location.search).get("from");
+    if (from === "home") setRadicalHrefSuffix("?from=radicals&parent=home");
+    else if (from === "hsk") setRadicalHrefSuffix("?from=radicals&parent=hsk");
+    else setRadicalHrefSuffix("?from=radicals");
+  }, []);
+
   const filtered = useMemo(() => filterRadicals(radicals, query), [radicals, query]);
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const pageItems = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
@@ -54,11 +72,11 @@ export function RadicalIndexView({
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Tìm bộ thủ theo chữ, pinyin hoặc nghĩa..."
           aria-label="Tìm kiếm bộ thủ"
-          className="w-full rounded-md border border-neutral-300 bg-white py-2.5 pl-10 pr-4 text-base text-neutral-900 outline-none placeholder:text-neutral-500 focus:border-primary focus:ring-1 focus:ring-primary dark:border-night-border dark:bg-night-input dark:text-night-text dark:placeholder:text-night-muted"
+          className="font-ui w-full rounded-md border border-neutral-300 bg-white py-2.5 pl-10 pr-4 text-base text-neutral-900 outline-none placeholder:text-neutral-500 focus:border-primary focus:ring-1 focus:ring-primary dark:border-night-border dark:bg-night-input dark:text-night-text dark:placeholder:text-night-muted"
         />
       </div>
 
-      <p className="text-sm text-neutral-600 dark:text-night-muted">
+      <p className="font-ui text-sm text-neutral-600 dark:text-night-muted">
         {filtered.length.toLocaleString("vi-VN")} bộ thủ
       </p>
 
@@ -74,6 +92,7 @@ export function RadicalIndexView({
               key={radical.id}
               radical={radical}
               vocabularyCount={vocabularyCounts[radical.id] ?? 0}
+              hrefSuffix={radicalHrefSuffix}
             />
           ))}
         </div>

@@ -38,7 +38,7 @@ export function HomeRadicalSection() {
       subtitle={"Học bộ thủ giúp bạn ghi nhớ, đoán nghĩa và\nnhận diện chữ Hán dễ hơn"}
       cta={
         <Link
-          href="/radicals"
+          href="/radicals?from=home"
           className="font-ui flex shrink-0 items-center gap-2 rounded-full border-2 border-[#015291] px-6 py-3 text-base font-semibold text-[#015291] transition-colors hover:bg-[#015291]/5 dark:text-night-primary dark:hover:bg-night-primary/10"
         >
           Khám phá 214 bộ thủ
@@ -50,7 +50,7 @@ export function HomeRadicalSection() {
         {cards.map(({ radical, accent }) => (
           <Link
             key={radical.id}
-            href={`/radicals/${radical.id}`}
+            href={`/radicals/${radical.id}?from=home`}
             className="flex aspect-square flex-col items-center justify-center gap-1 rounded-[18px] px-3 text-center transition-transform hover:-translate-y-0.5 sm:w-[172px]"
             style={{ backgroundColor: `${accent}1A` }}
           >

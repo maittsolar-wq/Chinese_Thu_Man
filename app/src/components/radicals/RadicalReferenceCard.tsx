@@ -27,15 +27,15 @@ export function RadicalReferenceCard({
           <p className="font-cjk text-3xl font-semibold text-neutral-900 dark:text-night-text">
             {radical.radical}
           </p>
-          <span className="shrink-0 rounded-full bg-neutral-100 px-2 py-0.5 text-xs font-medium text-neutral-600 dark:bg-night-input dark:text-night-muted">
+          <span className="font-ui shrink-0 rounded-full bg-neutral-100 px-2 py-0.5 text-xs font-medium text-neutral-600 dark:bg-night-input dark:text-night-muted">
             #{radical.kangxiIndex}
           </span>
         </div>
-        <p className="text-sm italic text-primary dark:text-night-primary">{radical.pinyin}</p>
-        <p className="text-sm text-neutral-800 dark:text-night-text">
+        <p className="font-ui text-sm italic text-primary dark:text-night-primary">{radical.pinyin}</p>
+        <p className="font-ui text-sm text-neutral-800 dark:text-night-text">
           {radical.nameVi} · {radical.meaningVi}
         </p>
-        <p className="mt-auto pt-2 text-xs font-medium text-neutral-500 dark:text-night-muted">
+        <p className="font-ui mt-auto pt-2 text-xs font-medium text-neutral-500 dark:text-night-muted">
           {vocabularyCount > 0
             ? `${vocabularyCount} từ vựng liên quan`
             : "Chưa có từ vựng liên quan"}

@@ -66,10 +66,18 @@ export function HomeHskGrid() {
           const info = HSK_LEVEL_INFO[level];
           const count = getVocabularyCountByLevel(level);
           return (
+            // Topbar/header z-index fix: `isolate` gives this card its own
+            // stacking context, so the `z-10` overlays inside it (scrim,
+            // title block, arrow badge) stack correctly above the card's
+            // own image without ever competing with the page-level sticky
+            // header (also `z-10`) — a same-value tie that previously
+            // resolved in the card's favor purely by DOM order (later
+            // content beats an earlier element at an equal z-index),
+            // letting these cards paint over the header during scroll.
             <Link
               key={level}
               href={`/hsk/${level}`}
-              className="group relative block aspect-[3/4] overflow-hidden rounded-[18px] border bg-white transition-transform hover:-translate-y-0.5 dark:bg-night-input"
+              className="group relative isolate block aspect-[3/4] overflow-hidden rounded-[18px] border bg-white transition-transform hover:-translate-y-0.5 dark:bg-night-input"
               style={{ borderColor: color }}
             >
               <Image

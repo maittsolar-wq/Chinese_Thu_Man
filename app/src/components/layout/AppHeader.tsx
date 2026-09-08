@@ -71,29 +71,50 @@ const NAV_ITEM_ACTIVE_CLASSES =
   "bg-primary-light text-primary dark:bg-primary-dark/40 dark:text-white";
 
 /**
- * `?from=hsk` (carried on links from HskLevelVocabularyList and, via
- * `radicalHrefSuffix`, from HSK's Bộ thủ section) means the visitor is on
- * a shared detail screen (/vocabulary/[id], /radicals/[id]) that isn't
- * literally under /hsk/* but was reached FROM there — HSK stays active
- * through that hop.
+ * `?from=hsk` (carried on links from HskLevelVocabularyList, and
+ * previously from a direct HSK -> Radical Detail link that no longer
+ * exists) means the visitor is on a shared detail screen
+ * (/vocabulary/[id], /radicals/[id]) that isn't literally under /hsk/*
+ * but was reached FROM there — HSK stays active through that hop.
  *
- * `hskContext=1` is the same signal carried one hop further: when
- * Radical Detail was itself entered with `from=hsk`, its
- * related-vocabulary links can't also say `from=hsk` (that slot is
- * already `from=radical`, which Vocabulary Detail's breadcrumb depends
- * on) — so RadicalDetailView appends this second, independent marker
- * instead (see radicals/[id]/page.tsx). Either signal alone is enough to
- * keep HSK active; neither is present unless the chain genuinely started
- * at HSK.
+ * `?parent=hsk` is the equivalent one level deeper: HSK's only radical
+ * entry point today is RadicalCta -> /radicals?from=hsk -> a radical
+ * card, which chains `?from=radicals&parent=hsk` onto the Radical Detail
+ * link (see radicals/page.tsx) — HSK is still the ultimate origin even
+ * though the immediate `from` value is now "radicals", not "hsk".
+ *
+ * `hskContext=1` is the same signal carried one hop further still: when
+ * Radical Detail's HSK origin (from either shape above) needs to survive
+ * into a related-vocabulary link, that link can't also say `from=hsk`
+ * (that slot is already `from=radical`, which Vocabulary Detail's
+ * breadcrumb depends on) — so RadicalDetailView appends this second,
+ * independent marker instead (see radicals/[id]/page.tsx). Any of the
+ * three signals alone is enough to keep HSK active; none is present
+ * unless the chain genuinely started at HSK.
+ *
+ * `?from=home` / `?parent=home` are the same two-level idea for Trang
+ * chủ: Home's featured-radical cards link `?from=home` directly, while
+ * Home's "214 bộ thủ" CTA goes through the Radical Index first, chaining
+ * `?from=radicals&parent=home` instead — neither shape is under `/`, so
+ * Home wouldn't otherwise show active while viewing them.
  */
-function hasHskContext(searchParams: URLSearchParams): boolean {
-  return searchParams.get("from") === "hsk" || searchParams.get("hskContext") === "1";
+function getSourceContext(searchParams: URLSearchParams): { hsk: boolean; home: boolean } {
+  const from = searchParams.get("from");
+  const parent = searchParams.get("parent");
+  return {
+    hsk: from === "hsk" || parent === "hsk" || searchParams.get("hskContext") === "1",
+    home: from === "home" || parent === "home",
+  };
 }
 
-function isActive(pathname: string, href: string, hskContext: boolean): boolean {
-  if (href === "/") return pathname === "/";
+function isActive(
+  pathname: string,
+  href: string,
+  sourceContext: { hsk: boolean; home: boolean }
+): boolean {
+  if (href === "/") return pathname === "/" || sourceContext.home;
   if (pathname === href || pathname.startsWith(`${href}/`)) return true;
-  return href === "/hsk" && hskContext;
+  return href === "/hsk" && sourceContext.hsk;
 }
 
 /**
@@ -140,9 +161,9 @@ export function AppHeader() {
   // client-side navigation. The one-render-late catch-up (from's bonus
   // active state applies a frame after initial paint) is an acceptable,
   // purely cosmetic tradeoff for a nav highlight.
-  const [hskContext, setHskContext] = useState(false);
+  const [sourceContext, setSourceContext] = useState({ hsk: false, home: false });
   useEffect(() => {
-    setHskContext(hasHskContext(new URLSearchParams(window.location.search)));
+    setSourceContext(getSourceContext(new URLSearchParams(window.location.search)));
   }, [pathname]);
 
   return (
@@ -199,7 +220,7 @@ export function AppHeader() {
 
             const active = item.usesPracticeActiveCheck
               ? isPracticeActive(pathname)
-              : isActive(pathname, item.href, hskContext);
+              : isActive(pathname, item.href, sourceContext);
             return (
               <Link
                 key={item.href}

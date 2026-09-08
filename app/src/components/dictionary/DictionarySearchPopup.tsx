@@ -1,24 +1,35 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Link from "next/link";
 import { useDictionarySearch } from "./DictionarySearchProvider";
 import { searchDictionaryAction } from "@/lib/dictionary/actions";
 import { VocabularyCard } from "@/components/vocabulary/VocabularyCard";
 import { EmptyState } from "@/components/ui/EmptyState";
+import { SearchPagination } from "@/components/search/SearchPagination";
 import { SearchIcon, CloseIcon } from "@/components/ui/icons";
 import type { VocabularyWord } from "@/lib/data/types";
 
 const SEARCH_DEBOUNCE_MS = 150;
-/** Popup stays compact; "Xem tất cả" hands off the full list to the
- *  existing /dictionary page rather than the popup growing unbounded. */
-const DISPLAY_LIMIT = 20;
+/**
+ * In-popup pagination pass: previously the popup showed only the first
+ * `DISPLAY_LIMIT` (20) results with a "Xem tất cả... trên trang Tra cứu"
+ * link handing off to /dictionary — a second, separate full-page search
+ * screen. That hand-off is gone; results now paginate *inside* this same
+ * popup (reusing HomeSearch's own pagination control/logic, see
+ * `SearchPagination`/`buildPageTokens`), so the popup never navigates
+ * away. `RESULTS_PER_PAGE` keeps the exact same per-page count (20) the
+ * popup already showed, per the "preserve current visible cards per
+ * page" requirement — only the constant's name changed to reflect its
+ * new role.
+ */
+const RESULTS_PER_PAGE = 20;
 
 export function DictionarySearchPopup() {
   const { isOpen, close } = useDictionarySearch();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<VocabularyWord[]>([]);
   const [isSearching, setIsSearching] = useState(false);
+  const [page, setPage] = useState(1);
   const inputRef = useRef<HTMLInputElement>(null);
   const requestIdRef = useRef(0);
 
@@ -30,8 +41,14 @@ export function DictionarySearchPopup() {
       setQuery("");
       setResults([]);
       setIsSearching(false);
+      setPage(1);
     }
   }, [isOpen]);
+
+  // A new query always restarts pagination at page 1 (same as HomeSearch).
+  useEffect(() => {
+    setPage(1);
+  }, [query]);
 
   // Focus the input as soon as the popup opens.
   useEffect(() => {
@@ -86,9 +103,14 @@ export function DictionarySearchPopup() {
 
   const trimmedQuery = query.trim();
   const hasQuery = trimmedQuery.length > 0;
+  // Search Results visual-fix pass: matches Home Search's own `clear`
+  // exactly (HomeSearch.tsx) — plain `setQuery("")`, no explicit refocus,
+  // since that's what Home Search itself does.
+  const clear = () => setQuery("");
   const showNoResults = hasQuery && !isSearching && results.length === 0;
   const showResults = hasQuery && results.length > 0;
-  const visibleResults = results.slice(0, DISPLAY_LIMIT);
+  const totalPages = Math.max(1, Math.ceil(results.length / RESULTS_PER_PAGE));
+  const visibleResults = results.slice((page - 1) * RESULTS_PER_PAGE, page * RESULTS_PER_PAGE);
 
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto p-4 sm:items-center sm:p-6">
@@ -118,10 +140,10 @@ export function DictionarySearchPopup() {
         </button>
 
         <div className="flex flex-col gap-1 pr-8">
-          <h2 className="text-xl font-bold text-primary dark:text-night-primary">
+          <h2 className="font-ui text-xl font-bold text-primary dark:text-night-primary">
             Tra từ tiếng Trung
           </h2>
-          <p className="text-sm text-neutral-600 dark:text-night-muted">
+          <p className="font-ui text-sm text-neutral-600 dark:text-night-muted">
             Tra cứu chữ Hán, pinyin, từ vựng tiếng Trung hoặc 214 bộ thủ.
           </p>
         </div>
@@ -135,8 +157,18 @@ export function DictionarySearchPopup() {
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Nhập chữ Hán, pinyin, bộ thủ ..."
             aria-label="Tìm kiếm từ vựng"
-            className="w-full rounded-md border border-neutral-300 bg-white py-2.5 pl-10 pr-4 text-base text-neutral-900 outline-none placeholder:text-neutral-500 focus:border-primary focus:ring-1 focus:ring-primary dark:border-night-border dark:bg-night-input dark:text-night-text dark:placeholder:text-night-muted"
+            className="font-ui w-full rounded-md border border-neutral-300 bg-white py-2.5 pl-10 pr-10 text-base text-neutral-900 outline-none placeholder:text-neutral-500 focus:border-primary focus:ring-1 focus:ring-primary dark:border-night-border dark:bg-night-input dark:text-night-text dark:placeholder:text-night-muted"
           />
+          {hasQuery && (
+            <button
+              type="button"
+              aria-label="Xóa tìm kiếm"
+              onClick={clear}
+              className="absolute right-3 top-1/2 flex h-6 w-6 -translate-y-1/2 items-center justify-center rounded-full text-neutral-500 transition-colors hover:bg-neutral-100 dark:text-night-muted dark:hover:bg-night-input"
+            >
+              <CloseIcon className="h-4 w-4" />
+            </button>
+          )}
         </div>
 
         <div className="max-h-[60vh] overflow-y-auto">
@@ -160,7 +192,7 @@ export function DictionarySearchPopup() {
 
           {showResults && (
             <div className="flex flex-col gap-3">
-              <p className="text-sm text-neutral-600 dark:text-night-muted">
+              <p className="font-ui text-sm text-neutral-600 dark:text-night-muted">
                 Tìm thấy {results.length.toLocaleString("vi-VN")} kết quả
               </p>
               <div className="grid gap-3 sm:grid-cols-2">
@@ -174,15 +206,7 @@ export function DictionarySearchPopup() {
                   />
                 ))}
               </div>
-              {results.length > DISPLAY_LIMIT && (
-                <Link
-                  href={`/dictionary?q=${encodeURIComponent(trimmedQuery)}`}
-                  onClick={close}
-                  className="text-center text-sm font-medium text-primary hover:underline dark:text-night-primary"
-                >
-                  Xem tất cả {results.length.toLocaleString("vi-VN")} kết quả trên trang Tra cứu
-                </Link>
-              )}
+              <SearchPagination page={page} totalPages={totalPages} onPageChange={setPage} />
             </div>
           )}
         </div>

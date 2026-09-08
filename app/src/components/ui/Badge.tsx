@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import clsx from "clsx";
+import { HSK_LEVEL_HEX } from "@/lib/hsk/homePalette";
+import type { HskLevel } from "@/lib/data/types";
 
 /**
  * Generic tone-based badge — introduced for the Vocabulary Detail redesign
@@ -39,20 +41,45 @@ export function Badge({
 export function HskLevelBadge({
   level,
   href,
+  colored = false,
 }: {
   level: number;
   href?: string;
+  /**
+   * Opt-in per-level HSK brand color (text = full `HSK_LEVEL_HEX` color,
+   * background = the same color at ~10% opacity) instead of the flat
+   * blue every caller has always used. Default `false` — every existing
+   * caller (HskVocabularyRow, VocabularyDetail, RadicalDetailView,
+   * RadicalVocabularyByLevel) is unaffected; only VocabularyCard's
+   * search-result badges opt in, per the Search Results visual-fix pass.
+   */
+  colored?: boolean;
 }) {
-  const className =
-    "inline-flex items-center rounded-full bg-primary-light px-2.5 py-0.5 text-xs font-semibold text-primary dark:bg-primary-dark/40 dark:text-white";
+  const validLevel = level >= 1 && level <= 6 ? (level as HskLevel) : null;
+  const tint = colored && validLevel ? HSK_LEVEL_HEX[validLevel] : null;
+
+  const baseClassName = "inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold";
+  const flatClassName = "bg-primary-light text-primary dark:bg-primary-dark/40 dark:text-white";
+  const style = tint ? { backgroundColor: `${tint}1A`, color: tint } : undefined;
 
   if (href) {
     return (
-      <Link href={href} className={clsx(className, "hover:bg-primary hover:text-white")}>
+      <Link
+        href={href}
+        className={clsx(
+          baseClassName,
+          tint ? "transition-opacity hover:opacity-80" : clsx(flatClassName, "hover:bg-primary hover:text-white")
+        )}
+        style={style}
+      >
         HSK {level}
       </Link>
     );
   }
 
-  return <span className={className}>HSK {level}</span>;
+  return (
+    <span className={clsx(baseClassName, !tint && flatClassName)} style={style}>
+      HSK {level}
+    </span>
+  );
 }

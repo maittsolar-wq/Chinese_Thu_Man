@@ -1,19 +1,28 @@
 import type { RadicalDetail } from "@/lib/data/types";
 import { Card } from "@/components/ui/Card";
-import { Breadcrumb } from "@/components/ui/Breadcrumb";
+import { LinkButton } from "@/components/ui/Button";
+import { ArrowLeftIcon } from "@/components/ui/icons";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { RadicalVocabularyByLevel } from "@/components/radicals/RadicalVocabularyByLevel";
 
 /**
  * Radical Detail reuses Vocabulary Detail's visual language (Card,
- * Breadcrumb, HskLevelBadge, typography scale) but has its own
- * information hierarchy — it is not a copy of VocabularyDetail, and its
- * "related vocabulary" links out to the shared /vocabulary/[id] page
- * rather than rendering word details itself.
+ * HskLevelBadge, typography scale) but has its own information hierarchy
+ * — it is not a copy of VocabularyDetail, and its "related vocabulary"
+ * links out to the shared /vocabulary/[id] page rather than rendering
+ * word details itself.
+ *
+ * Navigation-fix pass: the old "Trang chủ > Bộ thủ > [glyph]" Breadcrumb
+ * is gone, replaced by the same source-aware "Quay lại" Back button
+ * pattern HSK Detail (/hsk/[level]) already established — same
+ * `LinkButton variant="neutral"` + ArrowLeftIcon + "Quay lại", no new
+ * button style invented. `backHref` is computed server-side in
+ * radicals/[id]/page.tsx from `?from=`, not read here.
  */
 export function RadicalDetailView({
   radical,
   vocabularyHrefSuffix = "",
+  backHref,
 }: {
   radical: RadicalDetail;
   /** Appended to every related-vocabulary link, after its own
@@ -23,23 +32,23 @@ export function RadicalDetailView({
    *  (existing standalone-Radical and Dictionary-Radical callers are
    *  unaffected unless they opt in via the /radicals/[id] route). */
   vocabularyHrefSuffix?: string;
+  /** Deterministic Back destination, resolved from `?from=` by the page
+   *  (home/hsk/radicals, safe "/radicals" fallback otherwise). */
+  backHref: string;
 }) {
   return (
     <div className="flex flex-col gap-6">
-      <Breadcrumb
-        items={[
-          { label: "Trang chủ", href: "/" },
-          { label: "Bộ thủ", href: "/radicals" },
-          { label: radical.radical },
-        ]}
-      />
+      <LinkButton href={backHref} variant="neutral" className="font-ui w-fit">
+        <ArrowLeftIcon className="h-4 w-4" />
+        Quay lại
+      </LinkButton>
 
       <Card className="flex flex-col gap-3 p-6 sm:p-8">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full bg-neutral-100 px-2.5 py-0.5 text-xs font-medium text-neutral-600 dark:bg-night-input dark:text-night-muted">
+          <span className="font-ui rounded-full bg-neutral-100 px-2.5 py-0.5 text-xs font-medium text-neutral-600 dark:bg-night-input dark:text-night-muted">
             Bộ thủ số {radical.kangxiIndex}
           </span>
-          <span className="rounded-full bg-neutral-100 px-2.5 py-0.5 text-xs font-medium text-neutral-600 dark:bg-night-input dark:text-night-muted">
+          <span className="font-ui rounded-full bg-neutral-100 px-2.5 py-0.5 text-xs font-medium text-neutral-600 dark:bg-night-input dark:text-night-muted">
             {radical.strokeCount} nét
           </span>
         </div>
@@ -47,19 +56,19 @@ export function RadicalDetailView({
         <h1 className="font-cjk text-6xl font-bold leading-tight text-neutral-900 dark:text-night-text">
           {radical.radical}
         </h1>
-        <p className="text-xl italic text-primary dark:text-night-primary">{radical.pinyin}</p>
-        <p className="text-lg text-neutral-800 dark:text-night-text">
+        <p className="font-ui text-xl italic text-primary dark:text-night-primary">{radical.pinyin}</p>
+        <p className="font-ui text-lg text-neutral-800 dark:text-night-text">
           {radical.nameVi} — {radical.meaningVi}
         </p>
         {radical.variants.length > 0 && (
-          <p className="text-sm text-neutral-500 dark:text-night-muted">
-            Biến thể: {radical.variants.join(", ")}
+          <p className="font-ui text-sm text-neutral-500 dark:text-night-muted">
+            Biến thể: <span className="font-cjk">{radical.variants.join(", ")}</span>
           </p>
         )}
       </Card>
 
       <section>
-        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
+        <h2 className="font-ui mb-3 text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
           Chữ Hán liên quan ({radical.characterCount})
         </h2>
         {radical.characters.length > 0 ? (
@@ -81,10 +90,10 @@ export function RadicalDetailView({
 
       <section>
         <div className="mb-3 flex items-baseline justify-between">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
+          <h2 className="font-ui text-sm font-semibold uppercase tracking-wide text-neutral-600 dark:text-night-muted">
             Từ vựng HSK theo bộ thủ này
           </h2>
-          <span className="text-sm text-neutral-500 dark:text-night-muted">
+          <span className="font-ui text-sm text-neutral-500 dark:text-night-muted">
             {radical.vocabularyCount} từ vựng
           </span>
         </div>

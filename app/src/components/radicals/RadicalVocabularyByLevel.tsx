@@ -74,7 +74,7 @@ export function RadicalVocabularyByLevel({
           <div key={level}>
             <div className="mb-2 flex items-center gap-2">
               <HskLevelBadge level={level} />
-              <span className="text-xs text-neutral-500 dark:text-night-muted">
+              <span className="font-ui text-xs text-neutral-500 dark:text-night-muted">
                 {dedupedEntries.length} từ
               </span>
             </div>
@@ -89,9 +89,9 @@ export function RadicalVocabularyByLevel({
                     <p className="font-cjk text-xl font-semibold text-neutral-900 dark:text-night-text">
                       {entry.word}
                     </p>
-                    <p className="text-sm italic text-primary dark:text-night-primary">{entry.pinyin}</p>
+                    <p className="font-ui text-sm italic text-primary dark:text-night-primary">{entry.pinyin}</p>
                     {entry.meaningVi && (
-                      <p className="truncate text-sm text-neutral-800 dark:text-night-text">
+                      <p className="font-ui truncate text-sm text-neutral-800 dark:text-night-text">
                         {entry.meaningVi}
                       </p>
                     )}

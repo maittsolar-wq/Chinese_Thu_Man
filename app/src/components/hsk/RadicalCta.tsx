@@ -8,11 +8,19 @@ import { ChevronRightIcon } from "@/components/ui/icons";
  * `/radicals` route and click behavior, purely a visual upgrade. The
  * "部" icon is the user-supplied asset (public/icons/radical-bo.png),
  * used as-is, not redrawn.
+ *
+ * Navigation-fix pass: `?from=hsk` is appended so the listing
+ * (RadicalIndexView) can chain that context onto every Radical Detail
+ * link it renders — the only way HSK actually reaches a specific radical
+ * is through this listing (there's no direct HSK -> Radical Detail link),
+ * so the source has to be carried through that one hop for Radical
+ * Detail's "Quay lại" and the header's HSK-active state to resolve back
+ * to /hsk correctly.
  */
 export function RadicalCta() {
   return (
     <Link
-      href="/radicals"
+      href="/radicals?from=hsk"
       className="group flex flex-col gap-5 rounded-2xl border border-[#E2E8F0] bg-white p-6 transition-colors hover:border-[#015291]/40 dark:border-night-border dark:bg-night-surface sm:flex-row sm:items-center sm:justify-between sm:gap-6"
     >
       <div className="flex items-center gap-4">

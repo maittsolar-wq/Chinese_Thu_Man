@@ -10,6 +10,12 @@ import { HskLevelBadge } from "@/components/ui/Badge";
  * only remaining consumers are /dictionary and DictionarySearchPopup
  * (verified directly, not assumed), so it is safe to redesign here without
  * affecting any already-approved screen.
+ *
+ * Search Results visual-fix pass: pinyin/meaning now carry `font-ui`
+ * explicitly (Be Vietnam Pro is opt-in, not the Tailwind default `sans`,
+ * so without it they fell back to the system font) — the Chinese word
+ * already had `font-cjk`. The HSK badge now opts into `colored` (per-level
+ * brand color instead of the flat blue every other badge caller keeps).
  */
 export function VocabularyCard({
   word,
@@ -56,12 +62,12 @@ export function VocabularyCard({
           <p className="font-cjk text-2xl font-semibold text-neutral-900 dark:text-night-text">
             {word.word}
           </p>
-          <p className="text-sm italic text-primary dark:text-night-primary">{word.pinyin}</p>
-          <p className="mt-1 truncate text-sm text-neutral-800 dark:text-night-text">{word.meaningVi}</p>
+          <p className="font-ui text-sm italic text-primary dark:text-night-primary">{word.pinyin}</p>
+          <p className="font-ui mt-1 truncate text-sm text-neutral-800 dark:text-night-text">{word.meaningVi}</p>
         </div>
         <div className="flex shrink-0 flex-wrap justify-end gap-1">
           {levels.map((level) => (
-            <HskLevelBadge key={level} level={level} />
+            <HskLevelBadge key={level} level={level} colored />
           ))}
         </div>
       </Card>
