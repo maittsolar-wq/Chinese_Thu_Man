@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { VocabularyWord } from "@/lib/data/types";
 import { Card } from "@/components/ui/Card";
 import { Breadcrumb, type BreadcrumbItem } from "@/components/ui/Breadcrumb";
@@ -61,18 +62,26 @@ export function VocabularyDetail({
   word,
   breadcrumb,
   backHref,
+  relatedWordReturnTo,
 }: {
   word: VocabularyWord;
   breadcrumb: BreadcrumbItem[];
   /** Navigation-completion pass: when set — the HSK-level-list origin
-   *  (`from=hsk`) or Home's own inline search widget (`from=dictionary&
-   *  parent=home`), see vocabulary/[id]/page.tsx — renders a "Quay lại"
-   *  Back button instead of `breadcrumb`. Undefined for every other
-   *  origin (the header's DictionarySearchPopup, Radical,
-   *  direct/param-less access) — those keep rendering
+   *  (`from=hsk`), Home's own inline search widget (`from=dictionary&
+   *  parent=home`), the DictionarySearchPopup, or Related Vocabulary
+   *  (`from=related`), see vocabulary/[id]/page.tsx — renders a "Quay
+   *  lại" Back button instead of `breadcrumb`. Undefined for every other
+   *  origin (Radical, direct/param-less access) — those keep rendering
    *  `<Breadcrumb items={breadcrumb} />` exactly as before, byte-for-byte
    *  unchanged. */
   backHref?: string;
+  /** Related Vocabulary Back pass: THIS page's own full URL (built
+   *  server-side in vocabulary/[id]/page.tsx's `buildCurrentPageUrl`),
+   *  handed to each Related Word link below as ITS `returnTo` — clicking
+   *  one always returns to exactly this page, never Home/HSK/Dictionary,
+   *  and the chain naturally extends however many `related` hops deep a
+   *  visitor goes (A -> B -> C: C's Back goes to B, B's Back goes to A). */
+  relatedWordReturnTo: string;
 }) {
   const relatedWords = word.relatedWordIds
     .map((id) => getVocabularyById(id))
@@ -100,45 +109,63 @@ export function VocabularyDetail({
         <Breadcrumb items={breadcrumb} />
       )}
 
-      {/* VOCABULARY HEADER — visual-refinement pass: back to a single
-          white card (no more 2fr/1fr composition or blue-tinted surface),
-          matching the approved reference exactly: badges row, then the
-          Chinese word with the speaker button on the same line pinned to
-          the right edge, pinyin on its own line, meaning below, and one
-          compact bordered pill ("2 chữ · 8 nét") in place of the earlier
-          three-item metadata block/column. HSK level is not repeated in
-          the pill since it's already shown as a badge above. Content
-          itself (badges -> word -> pronunciation -> meaning) is
-          unchanged; only its size, alignment, and surrounding card
-          changed. */}
+      {/* VOCABULARY HEADER — hero-redesign pass: the pronunciation button
+          moved from a `justify-between`-pushed position at the card's far
+          right edge to directly beside the Chinese title (`gap-3` = 12px,
+          within the requested 12-16px range) — it now reads as part of
+          the title, not a stray control off on its own. The card is now
+          a two-column row: content (badges -> word+pronunciation ->
+          pinyin -> meaning -> metadata, hierarchy unchanged) on the left,
+          and the supplied illustration on the right at `sm:w-[32%]`
+          (within the requested 30-35%) using `object-contain` so the
+          artwork — a transparent-background cutout, not a rectangular
+          photo — is never cropped and never overlaps the text column.
+          Hidden below `sm` (illustration is supporting content, not
+          primary; keeping the vocabulary hierarchy at full width on
+          narrow screens matters more than showing a shrunk illustration
+          there) — the same breakpoint convention already used throughout
+          this app (e.g. HSK's `grid-cols-1 sm:grid-cols-2`). */}
       <header className="rounded-card border border-hairline bg-white px-5 py-6 dark:border-night-border dark:bg-night-surface sm:px-8 sm:py-8">
-        <div className="flex flex-col gap-3">
-          <div className="flex flex-wrap items-center gap-2">
-            {word.hskLevels.map((level) => (
-              <HskLevelBadge key={level} level={level} href={`/hsk/${level}`} />
-            ))}
-            {word.partOfSpeech.map((pos) => (
-              <Badge key={pos} tone="neutral">
-                {pos}
-              </Badge>
-            ))}
+        <div className="flex items-center gap-6 lg:gap-10">
+          <div className="flex min-w-0 flex-1 flex-col gap-3">
+            <div className="flex flex-wrap items-center gap-2">
+              {word.hskLevels.map((level) => (
+                <HskLevelBadge key={level} level={level} href={`/hsk/${level}`} />
+              ))}
+              {word.partOfSpeech.map((pos) => (
+                <Badge key={pos} tone="neutral">
+                  {pos}
+                </Badge>
+              ))}
+            </div>
+
+            <div className="flex items-center gap-3">
+              <h1 className="font-cjk text-6xl font-medium leading-tight text-ink dark:text-night-text lg:text-cjk-hero">
+                {word.word}
+              </h1>
+              <PronunciationButton wordUrl={word.audio.wordUrl} />
+            </div>
+
+            <p className="font-ui text-lg italic text-primary dark:text-night-primary">{word.pinyin}</p>
+
+            <p className="font-ui text-xl font-semibold text-ink dark:text-night-text">{word.meaningVi}</p>
+
+            <div className="font-ui mt-1 inline-flex w-fit items-center gap-2 rounded-full border border-hairline px-3 py-1 text-sm text-ink-muted dark:border-night-border dark:text-night-muted">
+              <span>{characterCount} chữ</span>
+              <span aria-hidden="true">·</span>
+              <span>{word.strokeCount ?? "—"} nét</span>
+            </div>
           </div>
 
-          <div className="flex items-start justify-between gap-3">
-            <h1 className="font-cjk text-6xl font-medium leading-tight text-ink dark:text-night-text lg:text-cjk-hero">
-              {word.word}
-            </h1>
-            <PronunciationButton wordUrl={word.audio.wordUrl} />
-          </div>
-
-          <p className="font-ui text-lg italic text-primary dark:text-night-primary">{word.pinyin}</p>
-
-          <p className="font-ui text-xl font-semibold text-ink dark:text-night-text">{word.meaningVi}</p>
-
-          <div className="font-ui mt-1 inline-flex w-fit items-center gap-2 rounded-full border border-hairline px-3 py-1 text-sm text-ink-muted dark:border-night-border dark:text-night-muted">
-            <span>{characterCount} chữ</span>
-            <span aria-hidden="true">·</span>
-            <span>{word.strokeCount ?? "—"} nét</span>
+          <div className="relative hidden h-32 w-[32%] shrink-0 sm:block sm:h-40 lg:h-48">
+            <Image
+              src="/vocabulary-hero-illustration.png"
+              alt=""
+              fill
+              aria-hidden
+              sizes="(min-width: 1024px) 280px, 220px"
+              className="object-contain object-right"
+            />
           </div>
         </div>
       </header>
@@ -193,7 +220,7 @@ export function VocabularyDetail({
             {relatedWords.map((related) => (
               <RelatedWordCard
                 key={related.id}
-                href={`/vocabulary/${related.id}`}
+                href={`/vocabulary/${related.id}?from=related&returnTo=${encodeURIComponent(relatedWordReturnTo)}`}
                 hanzi={related.word}
                 pinyin={related.pinyin}
                 meaningVi={related.meaningVi}

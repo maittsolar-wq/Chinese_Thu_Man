@@ -10,7 +10,7 @@ export function generateStaticParams() {
 }
 
 interface VocabularyDetailSearchParams {
-  from?: "hsk" | "dictionary" | "radical";
+  from?: "hsk" | "dictionary" | "radical" | "related";
   level?: string;
   radicalId?: string;
   q?: string;
@@ -24,16 +24,49 @@ interface VocabularyDetailSearchParams {
    *  inline HomeSearch widget (see HomeSearch.tsx). Any OTHER `from=
    *  dictionary` (i.e. `parent` unset/not "home") means the header's
    *  global DictionarySearchPopup instead — see `returnTo` below and
-   *  resolveDictionaryPopupBackHref. */
+   *  resolveReturnToBackHref. */
   parent?: string;
-  /** Dictionary-popup Back/restore pass: the header popup's own current
-   *  page (pathname + its existing query string) at the moment a result
-   *  was clicked, with `dictionaryOpen=true&dictQuery=<term>` already
-   *  merged in by DictionarySearchPopup itself — see that file's
-   *  `buildResultHref`. Only meaningful when `from=dictionary` and this
-   *  ISN'T the Home Search flow (`parent!=="home"`); resolved (and
-   *  validated as same-origin) by resolveDictionaryPopupBackHref below. */
+  /** Shared by two flows that both need "go back to exactly one specific
+   *  prior URL", validated identically by resolveReturnToBackHref:
+   *
+   *  - Dictionary-popup Back/restore (`from=dictionary`, not Home Search):
+   *    the header popup's own current page (pathname + its existing query
+   *    string) at the moment a result was clicked, with
+   *    `dictionaryOpen=true&dictQuery=<term>` already merged in — see
+   *    DictionarySearchPopup.tsx's `buildResultHref`.
+   *
+   *  - Related Vocabulary Back pass (`from=related`): the PREVIOUS
+   *    Vocabulary Detail page's own full URL (this same page's `id` +
+   *    whatever `searchParams` IT was loaded with) — see this file's
+   *    `buildCurrentPageUrl` and VocabularyDetail.tsx's Related Word
+   *    links. Chains naturally for A -> B -> C: C's `returnTo` is B's
+   *    full URL (which itself still carries `from=related&returnTo=<A>`
+   *    inside it, single-encoded), so Back always walks exactly one hop
+   *    at a time and each page's own origin context survives the whole
+   *    chain without needing anything beyond the URL itself. */
   returnTo?: string;
+}
+
+/**
+ * Related Vocabulary Back pass: reconstructs THIS page's own canonical
+ * URL (its `id` plus every search param it was actually loaded with) so
+ * VocabularyDetail can hand it to each Related Word link as that word's
+ * own `returnTo` — one hop back, always exact, regardless of how many
+ * `related` hops deep the chain already is. Passing the id/searchParams
+ * through explicitly (rather than reading `window.location` — this
+ * function runs server-side) is what keeps `/vocabulary/[id]` static:
+ * no client-only API is needed to know "what page am I".
+ */
+function buildCurrentPageUrl(id: string, searchParams: VocabularyDetailSearchParams): string {
+  const params = new URLSearchParams();
+  if (searchParams.from) params.set("from", searchParams.from);
+  if (searchParams.level) params.set("level", searchParams.level);
+  if (searchParams.radicalId) params.set("radicalId", searchParams.radicalId);
+  if (searchParams.parent) params.set("parent", searchParams.parent);
+  if (searchParams.returnTo) params.set("returnTo", searchParams.returnTo);
+  if (searchParams.q) params.set("q", searchParams.q);
+  const qs = params.toString();
+  return `/vocabulary/${id}${qs ? `?${qs}` : ""}`;
 }
 
 export async function generateMetadata({
@@ -116,18 +149,18 @@ function resolveHskBackHref(level: string | undefined, parent: string | undefine
 }
 
 /**
- * Dictionary-popup Back/restore pass: `returnTo` is built by
- * DictionarySearchPopup itself (its own current page's pathname + query,
- * with `dictionaryOpen=true&dictQuery=<term>` already merged in) — so
- * resolving it here is just validation, not reconstruction. Only a
- * same-origin relative path (starts with exactly one `/`, never `//`,
- * which a browser would treat as protocol-relative to an external host)
- * is accepted; anything missing/malformed/absent — a direct/bookmarked
- * `/vocabulary/x?from=dictionary` link with no `returnTo` included —
- * falls back to `/`, the same safe default `useConfigBackHref` (Practice)
- * already uses for its own missing/invalid source param.
+ * Shared by the dictionary-popup flow and the Related Vocabulary flow —
+ * both hand this page a fully-formed `returnTo` (see the field's own
+ * comment above), so resolving it here is just validation, not
+ * reconstruction. Only a same-origin relative path (starts with exactly
+ * one `/`, never `//`, which a browser would treat as protocol-relative
+ * to an external host) is accepted; anything missing/malformed/absent —
+ * a direct/bookmarked `/vocabulary/x?from=dictionary` (or `from=related`)
+ * link with no `returnTo` included — falls back to `/`, the same safe
+ * default `useConfigBackHref` (Practice) already uses for its own
+ * missing/invalid source param.
  */
-function resolveDictionaryPopupBackHref(returnTo: string | undefined): string {
+function resolveReturnToBackHref(returnTo: string | undefined): string {
   if (returnTo && returnTo.startsWith("/") && !returnTo.startsWith("//")) return returnTo;
   return "/";
 }
@@ -145,23 +178,41 @@ export default async function VocabularyDetailPage({
 
   const resolvedSearchParams = await searchParams;
   const breadcrumb = buildBreadcrumb(word, resolvedSearchParams);
-  // Three explicit flows get the Back button in place of the breadcrumb:
+  // Four explicit flows get the Back button in place of the breadcrumb:
   // the HSK-level-list origin (unchanged from the HSK pass), Home's own
-  // inline search widget (`parent=home`), and — new in this pass — the
-  // header's global DictionarySearchPopup itself: any OTHER
-  // `from=dictionary` (i.e. `parent` unset/not "home"). Direct/param-less
-  // access and Radical origins are the only ones still falling through to
+  // inline search widget (`parent=home`), the header's global
+  // DictionarySearchPopup (any OTHER `from=dictionary`, i.e. `parent`
+  // unset/not "home"), and — new in this pass — Related Vocabulary
+  // (`from=related`): always returns to the exact prior Vocabulary Detail
+  // page via `returnTo`, never to Home/HSK/Dictionary directly, however
+  // many `related` hops deep the chain is. Direct/param-less access and
+  // Radical origins are the only ones still falling through to
   // buildBreadcrumb's existing branches.
   const isHomeSearchFlow = resolvedSearchParams.from === "dictionary" && resolvedSearchParams.parent === "home";
   const isDictionaryPopupFlow = resolvedSearchParams.from === "dictionary" && resolvedSearchParams.parent !== "home";
+  const isRelatedFlow = resolvedSearchParams.from === "related";
   const backHref =
     resolvedSearchParams.from === "hsk"
       ? resolveHskBackHref(resolvedSearchParams.level, resolvedSearchParams.parent)
       : isHomeSearchFlow
         ? "/"
-        : isDictionaryPopupFlow
-          ? resolveDictionaryPopupBackHref(resolvedSearchParams.returnTo)
+        : isDictionaryPopupFlow || isRelatedFlow
+          ? resolveReturnToBackHref(resolvedSearchParams.returnTo)
           : undefined;
 
-  return <VocabularyDetail word={word} breadcrumb={breadcrumb} backHref={backHref} />;
+  // Handed to VocabularyDetail so ITS OWN Related Word links can each
+  // carry "come back here" — this page's full URL (id + every search
+  // param it was loaded with), not just its bare id. See
+  // buildCurrentPageUrl's own comment for why this is computed
+  // server-side rather than read from window.location.
+  const currentPageUrl = buildCurrentPageUrl(id, resolvedSearchParams);
+
+  return (
+    <VocabularyDetail
+      word={word}
+      breadcrumb={breadcrumb}
+      backHref={backHref}
+      relatedWordReturnTo={currentPageUrl}
+    />
+  );
 }

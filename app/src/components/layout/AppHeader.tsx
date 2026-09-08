@@ -149,6 +149,31 @@ function getSourceContext(
 }
 
 /**
+ * Related Vocabulary Back pass: `from=related` itself names no source at
+ * all — it just means "this page's own true origin is whatever page its
+ * `returnTo` points back to" (see vocabulary/[id]/page.tsx's
+ * `buildCurrentPageUrl` / VocabularyDetail.tsx's Related Word links). For
+ * a Home/HSK/Dictionary origin to stay authoritative through however many
+ * `related` hops deep a visitor goes (A -> B -> C, per the task's own
+ * examples), this walks `returnTo` chains — each one still single-encoded
+ * inside the next, since every hop only ever encodes the URL it was
+ * handed — back to the first set of params that ISN'T itself
+ * `from=related`, and hands THOSE to `getSourceContext` instead of the
+ * current page's own raw ones. A depth cap guards against a pathological/
+ * malformed chain; every real chain the app can produce terminates in a
+ * small handful of hops (however many Related Word clicks the visitor
+ * actually made).
+ */
+function unwrapToOriginalSourceParams(params: URLSearchParams, depth = 0): URLSearchParams {
+  if (depth > 20 || params.get("from") !== "related") return params;
+  const returnTo = params.get("returnTo");
+  if (!returnTo || !returnTo.startsWith("/") || returnTo.startsWith("//")) return params;
+  const queryIndex = returnTo.indexOf("?");
+  const nestedSearch = queryIndex >= 0 ? returnTo.slice(queryIndex) : "";
+  return unwrapToOriginalSourceParams(new URLSearchParams(nestedSearch), depth + 1);
+}
+
+/**
  * "Tra cứu" is a popup-trigger BUTTON, not a `Link` — it has no href of
  * its own to compare a pathname against, so it can never be marked active
  * by `isActive` below the way every other item is. This sentinel lets
@@ -232,7 +257,8 @@ export function AppHeader() {
   // purely cosmetic tradeoff for a nav highlight.
   const [sourceContext, setSourceContext] = useState({ hsk: false, home: false, practice: false, dictionary: false });
   useEffect(() => {
-    setSourceContext(getSourceContext(new URLSearchParams(window.location.search)));
+    const rawParams = new URLSearchParams(window.location.search);
+    setSourceContext(getSourceContext(unwrapToOriginalSourceParams(rawParams)));
   }, [pathname]);
   const explicitActiveHref = resolveExplicitActiveHref(sourceContext);
 
