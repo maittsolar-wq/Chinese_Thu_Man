@@ -1,43 +1,28 @@
 "use client";
 
-import clsx from "clsx";
-import { ChevronLeftIcon, ChevronRightIcon } from "@/components/ui/icons";
 import { PronunciationButton } from "@/components/vocabulary/PronunciationButton";
-import {
-  canGoToNextFlashcard,
-  canGoToPreviousFlashcard,
-  isFlashcardSessionComplete,
-  type FlashcardSessionState,
-} from "@/lib/practice/flashcardSession";
+import type { FlashcardSessionState } from "@/lib/practice/flashcardSession";
 
 /**
- * Exercise screen for Flashcard (D4.2). Deliberately a separate component
- * from PracticeExerciseView rather than a shared/branching one: Flashcard's
- * interaction model (flip a card, evaluate independently of navigation,
- * freely move Previous/Next) is materially different from the
- * single-current-answer multiple-choice flow that PracticeExerciseView
- * renders, and forcing them into one component would risk regressing
- * Meaning/Character for no benefit — see FlashcardPracticeFlow.tsx's header
- * comment for the full reasoning.
+ * Exercise screen for Flashcard. Sequential, one card at a time — like the
+ * other practice exercises: there are NO user-facing previous/next
+ * controls. The only actions are "Không nhớ" (wrong) / "Đã nhớ" (correct);
+ * choosing either records the answer and the parent auto-advances to the
+ * next card (or, on the last card, to the Result screen). The card can
+ * still be tapped to flip and reveal the meaning before choosing.
  *
- * Pure presentation: every interaction (flip / evaluate / navigate) is
- * delegated to the callbacks, which the parent maps onto the D4.1 domain
- * functions in flashcardSession.ts. No score/evaluation state is computed
- * or duplicated here — `session.cards` (built by that module) is read
- * directly for what to render.
+ * Pure presentation: flip / evaluate are delegated to callbacks, which the
+ * parent (FlashcardPracticeFlow) maps onto the flashcardSession.ts domain
+ * functions. No score/evaluation/advance logic lives here.
  */
 export function FlashcardExerciseView({
   session,
   onFlip,
   onEvaluate,
-  onPrevious,
-  onNext,
 }: {
   session: FlashcardSessionState;
   onFlip: () => void;
   onEvaluate: (result: "correct" | "wrong") => void;
-  onPrevious: () => void;
-  onNext: () => void;
 }) {
   const card = session.cards[session.currentIndex];
   const total = session.cards.length;
@@ -46,13 +31,6 @@ export function FlashcardExerciseView({
 
   const current = session.currentIndex + 1;
   const progressPercent = (current / total) * 100;
-
-  const canPrevious = canGoToPreviousFlashcard(session);
-  // At the last card, "Next" instead means "finish" — only reachable once
-  // every card in the session has been evaluated (never let the user
-  // wander past the end, or complete the session, with cards still
-  // unanswered). Before the last card, Next is a plain navigation step.
-  const canNext = canGoToNextFlashcard(session) || isFlashcardSessionComplete(session.cards);
 
   return (
     // Visual-redesign pass: raw div (not shared `<Card>`) for the mockup
@@ -77,17 +55,7 @@ export function FlashcardExerciseView({
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-3 sm:gap-6">
-        <button
-          type="button"
-          aria-label="Thẻ trước"
-          disabled={!canPrevious}
-          onClick={onPrevious}
-          className="shrink-0 rounded-full p-2 text-neutral-700 transition-colors hover:bg-neutral-100 disabled:cursor-not-allowed disabled:opacity-30 dark:text-night-text dark:hover:bg-night-input"
-        >
-          <ChevronLeftIcon className="h-8 w-8" />
-        </button>
-
+      <div className="flex justify-center">
         <div
           role="button"
           tabIndex={0}
@@ -136,50 +104,26 @@ export function FlashcardExerciseView({
             </span>
           )}
         </div>
-
-        <button
-          type="button"
-          aria-label="Thẻ tiếp theo"
-          disabled={!canNext}
-          onClick={onNext}
-          className="shrink-0 rounded-full p-2 text-neutral-700 transition-colors hover:bg-neutral-100 disabled:cursor-not-allowed disabled:opacity-30 dark:text-night-text dark:hover:bg-night-input"
-        >
-          <ChevronRightIcon className="h-8 w-8" />
-        </button>
       </div>
 
       <p className="font-ui text-center text-neutral-600 dark:text-night-muted">
         Nhấn vào thẻ để xem nghĩa
       </p>
 
+      {/* The two answer decisions. Choosing either records the result and
+          the parent auto-advances — there is no manual "next". */}
       <div className="flex gap-3">
         <button
           type="button"
           onClick={() => onEvaluate("wrong")}
-          className={clsx(
-            "font-ui flex-1 rounded-2xl border px-5 py-4 text-lg font-bold transition-colors",
-            card.result === "wrong"
-              ? "border-error bg-error text-white"
-              : clsx(
-                  "border-error bg-error-bg text-neutral-900 hover:brightness-95",
-                  card.result === "correct" && "opacity-40"
-                )
-          )}
+          className="font-ui flex-1 rounded-2xl border border-error bg-error-bg px-5 py-4 text-lg font-bold text-neutral-900 transition-colors hover:brightness-95"
         >
           Không nhớ
         </button>
         <button
           type="button"
           onClick={() => onEvaluate("correct")}
-          className={clsx(
-            "font-ui flex-1 rounded-2xl border px-5 py-4 text-lg font-bold transition-colors",
-            card.result === "correct"
-              ? "border-success bg-success text-white"
-              : clsx(
-                  "border-success bg-success-bg text-neutral-900 hover:brightness-95",
-                  card.result === "wrong" && "opacity-40"
-                )
-          )}
+          className="font-ui flex-1 rounded-2xl border border-success bg-success-bg px-5 py-4 text-lg font-bold text-neutral-900 transition-colors hover:brightness-95"
         >
           Đã nhớ
         </button>

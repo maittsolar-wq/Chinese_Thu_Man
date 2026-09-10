@@ -208,7 +208,6 @@ export function WritingPracticeFlow() {
         correctCount={countWritingResult(session.items, "correct")}
         wrongCount={countWritingResult(session.items, "wrong")}
         isCycleComplete={isLearningCycleComplete(pool, usedIds)}
-        remainingCount={Math.max(0, pool.length - usedIds.size)}
         onReviewWrong={handleReviewWrong}
         onContinue={handleContinue}
         onRestart={handleRestart}

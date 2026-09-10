@@ -223,7 +223,6 @@ export function ChoicePracticeFlow({ practiceType }: { practiceType: ChoicePract
         correctCount={session.correctCount}
         wrongCount={session.wrongCount}
         isCycleComplete={isLearningCycleComplete(pool, usedIds)}
-        remainingCount={Math.max(0, pool.length - usedIds.size)}
         onReviewWrong={handleReviewWrong}
         onContinue={handleContinue}
         onRestart={handleRestart}

@@ -23,13 +23,17 @@ import type { HskLevel } from "@/lib/data/types";
  * Four presentation states, derived PURELY from data the flow already
  * computes — `isCycleComplete` (isLearningCycleComplete(pool, usedIds))
  * and `wrongCount` (this session's wrong answers). No scoring / progress /
- * question logic is touched here; `remainingCount` is just
- * `pool.length - usedIds.size` handed down by each flow owner.
+ * question logic is touched here.
  *
  *   incomplete-perfect : still vocab left, 0 wrong  -> success.png
+ *                        CTAs: Luyện tập tiếp · Về trang chủ
  *   incomplete-wrong   : still vocab left, wrong>0  -> review.png
+ *                        CTAs: Ôn lại N câu sai · Luyện tập tiếp · Về trang chủ
  *   complete-perfect   : whole HSK done,   0 wrong  -> complete.png
+ *                        CTAs: Học lại từ đầu · Về trang chủ
  *   complete-wrong     : whole HSK done,   wrong>0  -> complete.png
+ *                        CTAs: Ôn lại N câu sai · Học lại từ đầu · Về trang chủ
+ *                        + helper "Hãy ôn lại các từ vựng bạn còn sai nhé!"
  */
 
 type ResultState =
@@ -78,7 +82,6 @@ export function PracticeResultView({
   correctCount,
   wrongCount,
   isCycleComplete,
-  remainingCount,
   onReviewWrong,
   onContinue,
   onRestart,
@@ -90,9 +93,6 @@ export function PracticeResultView({
   correctCount: number;
   wrongCount: number;
   isCycleComplete: boolean;
-  /** pool.length - usedIds.size, computed by the flow owner (>= 0). Pure
-   *  display — feeds the "Ôn lại từ chưa học (N từ)" label only. */
-  remainingCount: number;
   onReviewWrong: () => void;
   onContinue: () => void;
   onRestart: () => void;
@@ -130,22 +130,14 @@ export function PracticeResultView({
 
   let ctas: Cta[];
   switch (state) {
+    // A — still vocab left, nothing wrong: just keep going.
     case "incomplete-perfect":
       ctas = [
-        ...(remainingCount > 0
-          ? [
-              {
-                key: "review-unlearned",
-                label: `Ôn lại từ chưa học (${remainingCount} từ)`,
-                role: "primary" as const,
-                onClick: onContinue,
-              },
-              { key: "continue", label: "Luyện tập tiếp", role: "secondary" as const, onClick: onContinue },
-            ]
-          : [{ key: "continue", label: "Luyện tập tiếp", role: "primary" as const, onClick: onContinue }]),
-        homeCta("tertiary"),
+        { key: "continue", label: "Luyện tập tiếp", role: "primary", onClick: onContinue },
+        homeCta("secondary"),
       ];
       break;
+    // B — still vocab left, some wrong: retry the wrong ones first, else continue.
     case "incomplete-wrong":
       ctas = [
         { key: "review-wrong", label: `Ôn lại ${wrongCount} câu sai`, role: "primary", onClick: onReviewWrong },
@@ -153,16 +145,18 @@ export function PracticeResultView({
         homeCta("tertiary"),
       ];
       break;
+    // C — whole HSK level done, perfect: the only forward action is a fresh cycle.
     case "complete-perfect":
       ctas = [
-        { key: "restart", label: "Luyện tập tiếp", role: "primary", onClick: onRestart },
+        { key: "restart", label: "Học lại từ đầu", role: "primary", onClick: onRestart },
         homeCta("secondary"),
       ];
       break;
+    // D — whole HSK level done, some wrong: retry the wrong ones, or restart the cycle.
     case "complete-wrong":
       ctas = [
         { key: "review-wrong", label: `Ôn lại ${wrongCount} câu sai`, role: "primary", onClick: onReviewWrong },
-        { key: "restart", label: "Luyện tập tiếp", role: "secondary", onClick: onRestart },
+        { key: "restart", label: "Học lại từ đầu", role: "secondary", onClick: onRestart },
         homeCta("tertiary"),
       ];
       break;

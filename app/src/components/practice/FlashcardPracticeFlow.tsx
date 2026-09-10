@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useCallback, useState } from "react";
+import { Suspense, useCallback, useEffect, useRef, useState } from "react";
 import { PracticeConfigView } from "./PracticeConfigView";
 import { FlashcardExerciseView } from "./FlashcardExerciseView";
 import { PracticeResultView } from "./PracticeResultView";
@@ -14,10 +14,8 @@ import {
   createFlashcardSession,
   flipCurrentFlashcard,
   evaluateCurrentFlashcard,
-  goToPreviousFlashcard,
   goToNextFlashcard,
   canGoToNextFlashcard,
-  isFlashcardSessionComplete,
   countFlashcardResult,
   wrongFlashcardVocabularyIds,
   type FlashcardSessionState,
@@ -61,6 +59,18 @@ export function FlashcardPracticeFlow() {
   const [session, setSession] = useState<FlashcardSessionState | null>(null);
   const [isExitConfirmOpen, setIsExitConfirmOpen] = useState(false);
 
+  // Synchronous double-submit guard: an answer click sets this true, and it
+  // stays true across the brief window between the click and the next card
+  // (or the Result screen) rendering, so a rapid second click can't answer
+  // a card the user hasn't seen yet. Same idea as PronunciationButton's
+  // isBusyRef. The effect below clears it the moment the visible card /
+  // phase actually changes.
+  const isAdvancingRef = useRef(false);
+  const currentCardIndex = session?.currentIndex;
+  useEffect(() => {
+    isAdvancingRef.current = false;
+  }, [currentCardIndex, phase]);
+
   const startSession = useCallback(
     (
       nextPool: PracticeVocabularyItem[],
@@ -101,24 +111,25 @@ export function FlashcardPracticeFlow() {
     setSession((prev) => (prev ? flipCurrentFlashcard(prev) : prev));
   }, []);
 
+  /**
+   * "Đã nhớ" → correct, "Không nhớ" → wrong. One call does all three of:
+   * record the answer (`evaluateCurrentFlashcard` — the existing scoring
+   * mechanism), then either auto-advance to the next card
+   * (`goToNextFlashcard`) or, on the last card, finish: the answer is
+   * already in `session.cards`, `phase` flips to "result", and the
+   * existing `phase === "result"` branch reads counts/completion straight
+   * off that same session. No manual "Next" anywhere.
+   */
   const handleEvaluate = useCallback((result: "correct" | "wrong") => {
-    setSession((prev) => (prev ? evaluateCurrentFlashcard(prev, result) : prev));
-  }, []);
-
-  const handlePrevious = useCallback(() => {
-    setSession((prev) => (prev ? goToPreviousFlashcard(prev) : prev));
-  }, []);
-
-  const handleNext = useCallback(() => {
+    if (isAdvancingRef.current) return;
+    isAdvancingRef.current = true;
     setSession((prev) => {
       if (!prev) return prev;
-      if (canGoToNextFlashcard(prev)) return goToNextFlashcard(prev);
-      // Already at the last card: "advance" means finishing the session,
-      // which is only allowed once every card has been evaluated — this
-      // is what keeps the user from skipping evaluation and accidentally
-      // completing (D4.2 spec's navigation rule for the last card).
-      if (isFlashcardSessionComplete(prev.cards)) setPhase("result");
-      return prev;
+      const evaluated = evaluateCurrentFlashcard(prev, result);
+      if (canGoToNextFlashcard(evaluated)) return goToNextFlashcard(evaluated);
+      // Last card just answered → every card is now evaluated → Result.
+      setPhase("result");
+      return evaluated;
     });
   }, []);
 
@@ -188,8 +199,6 @@ export function FlashcardPracticeFlow() {
           session={session}
           onFlip={handleFlip}
           onEvaluate={handleEvaluate}
-          onPrevious={handlePrevious}
-          onNext={handleNext}
         />
         {isExitConfirmOpen && (
           <PracticeExitConfirmDialog onStay={handleStayInSession} onExit={handleExitSession} />
@@ -207,7 +216,6 @@ export function FlashcardPracticeFlow() {
         correctCount={countFlashcardResult(session.cards, "correct")}
         wrongCount={countFlashcardResult(session.cards, "wrong")}
         isCycleComplete={isLearningCycleComplete(pool, usedIds)}
-        remainingCount={Math.max(0, pool.length - usedIds.size)}
         onReviewWrong={handleReviewWrong}
         onContinue={handleContinue}
         onRestart={handleRestart}
