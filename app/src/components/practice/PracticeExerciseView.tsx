@@ -1,7 +1,6 @@
 "use client";
 
 import clsx from "clsx";
-import { Card } from "@/components/ui/Card";
 import { CheckCircleIcon } from "@/components/ui/icons";
 import type { ChoiceQuestion, ChoiceSessionState } from "@/lib/practice/session";
 
@@ -42,9 +41,12 @@ export function PracticeExerciseView({
 
   return (
     <div className="flex flex-col gap-4">
-      <Card className="flex flex-col gap-6 p-6 sm:p-8">
+      {/* Visual-redesign pass: raw div (not shared `<Card>`) so the mockup
+          panel radius (24px = `rounded-3xl`) and border (#E2E8F0) apply
+          directly — same treatment as Practice Config / Practice Result. */}
+      <div className="flex flex-col gap-6 rounded-3xl border border-[#E2E8F0] bg-white p-6 shadow-card dark:border-night-border dark:bg-night-surface sm:p-8">
         <div className="flex flex-col gap-2">
-          <p className="text-center text-lg font-bold text-neutral-900 dark:text-night-text">
+          <p className="font-ui text-center text-lg font-bold text-neutral-900 dark:text-night-text">
             {current}/{total}
           </p>
           <div
@@ -65,7 +67,7 @@ export function PracticeExerciseView({
           // Chọn chữ Hán: the prompt is the Vietnamese meaning, styled as
           // an accent heading — no secondary line (there's no pinyin for
           // a meaning prompt).
-          <p className="text-center text-3xl font-bold text-primary sm:text-4xl">
+          <p className="font-ui text-center text-3xl font-bold text-primary sm:text-4xl">
             {question.promptPrimary}
           </p>
         ) : (
@@ -77,7 +79,7 @@ export function PracticeExerciseView({
               {question.promptPrimary}
             </p>
             {question.promptSecondary && (
-              <p className="text-lg italic text-primary dark:text-night-primary">
+              <p className="font-ui text-lg italic text-primary dark:text-night-primary">
                 {question.promptSecondary}
               </p>
             )}
@@ -101,7 +103,7 @@ export function PracticeExerciseView({
                 ? "border-success bg-success-bg text-neutral-900"
                 : session.isAnswered && isSelected
                   ? "border-error bg-error-bg text-neutral-900"
-                  : "border-neutral-200 bg-white text-neutral-900 hover:bg-neutral-50 dark:border-night-border dark:bg-night-surface dark:text-night-text dark:hover:bg-night-input";
+                  : "border-[#E2E8F0] bg-white text-neutral-900 hover:bg-neutral-50 dark:border-night-border dark:bg-night-surface dark:text-night-text dark:hover:bg-night-input";
 
             return (
               <button
@@ -110,20 +112,20 @@ export function PracticeExerciseView({
                 disabled={session.isAnswered}
                 onClick={() => onAnswer(option)}
                 className={clsx(
-                  "flex items-center gap-3 rounded-md border px-5 py-4 text-left font-semibold shadow-card transition-colors disabled:cursor-default",
-                  session.practiceType === "character" ? "font-cjk text-xl" : "text-base",
+                  "flex items-center gap-3 rounded-2xl border px-5 py-4 text-left font-semibold shadow-card transition-colors disabled:cursor-default",
+                  session.practiceType === "character" ? "text-xl" : "text-base",
                   colorClasses
                 )}
               >
-                <span className="font-sans">{OPTION_LETTERS[index]}.</span>
-                <span>{option}</span>
+                <span className="font-ui">{OPTION_LETTERS[index]}.</span>
+                <span className={session.practiceType === "character" ? "font-cjk" : "font-ui"}>{option}</span>
               </button>
             );
           })}
         </div>
 
         {hasScore && (
-          <div className="flex items-center gap-6 text-base font-bold">
+          <div className="font-ui flex items-center gap-6 text-base font-bold">
             <span className="text-success">Đúng: {session.correctCount}</span>
             <span className="text-error">Sai: {session.wrongCount}</span>
           </div>
@@ -136,7 +138,7 @@ export function PracticeExerciseView({
           <div className="flex flex-col gap-4 border-t border-neutral-200 pt-6 dark:border-night-border">
             <div
               className={clsx(
-                "flex items-start gap-3 rounded-card border p-4",
+                "flex items-start gap-3 rounded-2xl border p-4",
                 session.isCorrect ? "border-success bg-success-bg" : "border-error bg-error-bg"
               )}
             >
@@ -148,7 +150,7 @@ export function PracticeExerciseView({
               <div className="flex flex-col gap-1">
                 <p
                   className={clsx(
-                    "text-lg font-bold",
+                    "font-ui text-lg font-bold",
                     session.isCorrect ? "text-success" : "text-error"
                   )}
                 >
@@ -161,16 +163,16 @@ export function PracticeExerciseView({
                   options above.
                 */}
                 {!session.isCorrect && (
-                  <p className="text-neutral-800">
+                  <p className="font-ui text-neutral-800">
                     Bạn chọn:{" "}
-                    <span className={clsx(session.practiceType === "character" && "font-cjk")}>
+                    <span className={session.practiceType === "character" ? "font-cjk" : "font-ui"}>
                       {session.selectedAnswer}
                     </span>
                   </p>
                 )}
-                <p className="text-neutral-800">
+                <p className="font-ui text-neutral-800">
                   Đáp án:{" "}
-                  <span className={clsx(session.practiceType === "character" && "font-cjk")}>
+                  <span className={session.practiceType === "character" ? "font-cjk" : "font-ui"}>
                     {question.correctAnswer}
                   </span>
                 </p>
@@ -180,13 +182,13 @@ export function PracticeExerciseView({
             <button
               type="button"
               onClick={onNext}
-              className="w-full rounded-md bg-primary py-4 text-lg font-bold text-white transition-colors hover:bg-primary-dark"
+              className="font-ui w-full rounded-[18px] bg-primary py-4 text-lg font-bold text-white transition-colors hover:bg-primary-dark"
             >
               Tiếp theo
             </button>
           </div>
         )}
-      </Card>
+      </div>
     </div>
   );
 }

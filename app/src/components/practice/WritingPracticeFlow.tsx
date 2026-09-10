@@ -175,7 +175,11 @@ export function WritingPracticeFlow() {
   if (phase === "exercise" && session) {
     return (
       <div className="flex flex-col gap-4">
-        <Button variant="neutral" className="w-fit" onClick={handleRequestExit}>
+        <Button
+          variant="neutral"
+          onClick={handleRequestExit}
+          className="font-ui h-12 w-fit rounded-xl px-6"
+        >
           <ArrowLeftIcon className="h-4 w-4" />
           Quay lại
         </Button>
@@ -198,14 +202,17 @@ export function WritingPracticeFlow() {
   if (phase === "result" && session) {
     return (
       <PracticeResultView
+        practiceType="writing"
         hskLevel={hskLevel}
         actualCount={session.items.length}
         correctCount={countWritingResult(session.items, "correct")}
         wrongCount={countWritingResult(session.items, "wrong")}
         isCycleComplete={isLearningCycleComplete(pool, usedIds)}
+        remainingCount={Math.max(0, pool.length - usedIds.size)}
         onReviewWrong={handleReviewWrong}
         onContinue={handleContinue}
         onRestart={handleRestart}
+        onBack={handleExitSession}
       />
     );
   }

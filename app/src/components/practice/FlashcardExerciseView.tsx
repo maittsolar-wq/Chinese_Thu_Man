@@ -1,8 +1,8 @@
 "use client";
 
 import clsx from "clsx";
-import { Card } from "@/components/ui/Card";
-import { ChevronLeftIcon, ChevronRightIcon, SpeakerIcon } from "@/components/ui/icons";
+import { ChevronLeftIcon, ChevronRightIcon } from "@/components/ui/icons";
+import { PronunciationButton } from "@/components/vocabulary/PronunciationButton";
 import {
   canGoToNextFlashcard,
   canGoToPreviousFlashcard,
@@ -55,9 +55,12 @@ export function FlashcardExerciseView({
   const canNext = canGoToNextFlashcard(session) || isFlashcardSessionComplete(session.cards);
 
   return (
-    <Card className="flex flex-col gap-6 p-6 sm:p-8">
+    // Visual-redesign pass: raw div (not shared `<Card>`) for the mockup
+    // panel radius (24px) + #E2E8F0 border, matching Practice Config /
+    // Result.
+    <div className="flex flex-col gap-6 rounded-3xl border border-[#E2E8F0] bg-white p-6 shadow-card dark:border-night-border dark:bg-night-surface sm:p-8">
       <div className="flex flex-col gap-2">
-        <p className="text-center text-lg font-bold text-neutral-900 dark:text-night-text">
+        <p className="font-ui text-center text-lg font-bold text-neutral-900 dark:text-night-text">
           {current}/{total}
         </p>
         <div
@@ -96,38 +99,39 @@ export function FlashcardExerciseView({
             }
           }}
           aria-label={card.isFlipped ? "Ẩn nghĩa" : "Xem nghĩa"}
-          className="flex min-h-[220px] w-full max-w-md cursor-pointer flex-col items-center justify-center gap-3 rounded-card border border-neutral-200 bg-white p-8 text-center shadow-card transition-colors dark:border-night-border dark:bg-night-surface"
+          className="flex min-h-[220px] w-full max-w-md cursor-pointer flex-col items-center justify-center gap-3 rounded-2xl border border-[#E2E8F0] bg-white p-8 text-center shadow-card transition-colors dark:border-night-border dark:bg-night-surface"
         >
           <div className="flex items-center gap-3">
             <span className="font-cjk text-5xl font-semibold text-neutral-900 dark:text-night-text">
               {card.word}
             </span>
             {/*
-              UI-009 polish: no audio/TTS mechanism exists anywhere in the
-              project yet, so this stays a non-functional placeholder — but
-              `disabled` (rather than a plain button with a no-op onClick)
-              makes that honest for every input method, not just mouse
-              hover: it's removed from the tab order, announced by screen
-              readers as unavailable, and gets the same
-              `disabled:cursor-not-allowed disabled:opacity-50` treatment
-              Button.tsx already uses for disabled controls elsewhere. A
-              disabled button fires no click event at all, so it can no
-              longer bubble up to the card's flip handler — the
-              `stopPropagation` this previously needed for that is gone.
+              Audio wiring fix: reuses Vocabulary Detail's PronunciationButton
+              verbatim — the app's single audio-playback component (fresh
+              Audio() per attempt, `isBusyRef` re-entrancy guard so rapid
+              clicks can't overlap, resets on word change, pauses on unmount,
+              renders itself disabled + "chưa khả dụng" when `wordUrl` is
+              null, never autoplays). The URL now reaches the card via
+              `PracticeVocabularyItem.audioUrl` (fetchPracticeVocabulary ->
+              flashcardSession) — previously this button was a hardcoded
+              `disabled` placeholder because that URL was dropped and no
+              playback UI existed.
+
+              The wrapper stops click / Enter / Space from bubbling to the
+              card's own flip handler (the old placeholder was `disabled` so
+              it fired no event; a real button needs this guard).
             */}
-            <button
-              type="button"
-              disabled
-              aria-label="Nghe phát âm (chưa khả dụng)"
-              title="Nghe phát âm (chưa khả dụng)"
-              className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary text-white disabled:cursor-not-allowed disabled:opacity-50"
+            <span
+              onClick={(event) => event.stopPropagation()}
+              onKeyDown={(event) => event.stopPropagation()}
+              className="inline-flex shrink-0"
             >
-              <SpeakerIcon className="h-4 w-4" />
-            </button>
+              <PronunciationButton wordUrl={card.audioUrl} />
+            </span>
           </div>
-          <span className="text-lg italic text-primary dark:text-night-primary">{card.pinyin}</span>
+          <span className="font-ui text-lg italic text-primary dark:text-night-primary">{card.pinyin}</span>
           {card.isFlipped && (
-            <span className="text-xl font-bold text-neutral-900 dark:text-night-text">
+            <span className="font-ui text-xl font-bold text-neutral-900 dark:text-night-text">
               {card.meaningVi}
             </span>
           )}
@@ -144,7 +148,7 @@ export function FlashcardExerciseView({
         </button>
       </div>
 
-      <p className="text-center text-neutral-600 dark:text-night-muted">
+      <p className="font-ui text-center text-neutral-600 dark:text-night-muted">
         Nhấn vào thẻ để xem nghĩa
       </p>
 
@@ -153,7 +157,7 @@ export function FlashcardExerciseView({
           type="button"
           onClick={() => onEvaluate("wrong")}
           className={clsx(
-            "flex-1 rounded-md border px-5 py-4 text-lg font-bold transition-colors",
+            "font-ui flex-1 rounded-2xl border px-5 py-4 text-lg font-bold transition-colors",
             card.result === "wrong"
               ? "border-error bg-error text-white"
               : clsx(
@@ -168,7 +172,7 @@ export function FlashcardExerciseView({
           type="button"
           onClick={() => onEvaluate("correct")}
           className={clsx(
-            "flex-1 rounded-md border px-5 py-4 text-lg font-bold transition-colors",
+            "font-ui flex-1 rounded-2xl border px-5 py-4 text-lg font-bold transition-colors",
             card.result === "correct"
               ? "border-success bg-success text-white"
               : clsx(
@@ -180,6 +184,6 @@ export function FlashcardExerciseView({
           Đã nhớ
         </button>
       </div>
-    </Card>
+    </div>
   );
 }

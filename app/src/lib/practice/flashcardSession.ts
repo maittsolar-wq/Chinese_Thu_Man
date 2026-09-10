@@ -32,6 +32,10 @@ export interface FlashcardItem {
   word: string;
   pinyin: string;
   meaningVi: string;
+  /** Carried straight from `PracticeVocabularyItem.audioUrl` so the card's
+   *  speaker button can play THIS word's pronunciation (or be disabled
+   *  when `null`). */
+  audioUrl: string | null;
   isFlipped: boolean;
   result: FlashcardResult;
 }
@@ -59,6 +63,7 @@ export function createFlashcardSession(
       word: item.word,
       pinyin: item.pinyin,
       meaningVi: item.meaningVi,
+      audioUrl: item.audioUrl,
       isFlipped: false,
       result: "unanswered",
     })),

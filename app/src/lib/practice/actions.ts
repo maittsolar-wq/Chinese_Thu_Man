@@ -20,5 +20,6 @@ export async function fetchPracticeVocabulary(
     word: word.word,
     pinyin: word.pinyin,
     meaningVi: word.meaningVi,
+    audioUrl: word.audio.wordUrl,
   }));
 }

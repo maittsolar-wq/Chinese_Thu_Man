@@ -7,6 +7,11 @@ export interface PracticeVocabularyItem {
   word: string;
   pinyin: string;
   meaningVi: string;
+  /** `VocabularyWord.audio.wordUrl` carried through unchanged — a valid
+   *  path string, or `null` for the ~23/5400 records without pronunciation
+   *  audio. Only the Flashcard exercise's speaker button reads this today
+   *  (the multiple-choice / writing screens ignore it). */
+  audioUrl: string | null;
 }
 
 /**

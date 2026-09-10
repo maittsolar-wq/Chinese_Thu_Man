@@ -1,7 +1,6 @@
 "use client";
 
 import clsx from "clsx";
-import { Card } from "@/components/ui/Card";
 import { CheckCircleIcon, LightbulbIcon } from "@/components/ui/icons";
 import {
   canAdvanceCurrentWritingItem,
@@ -54,9 +53,12 @@ export function WritingExerciseView({
 
   return (
     <div className="flex flex-col gap-4">
-      <Card className="flex flex-col gap-6 p-6 sm:p-8">
+      {/* Visual-redesign pass: raw div (not shared `<Card>`) for the mockup
+          panel radius (24px) + #E2E8F0 border, matching Practice Config /
+          Result. */}
+      <div className="flex flex-col gap-6 rounded-3xl border border-[#E2E8F0] bg-white p-6 shadow-card dark:border-night-border dark:bg-night-surface sm:p-8">
         <div className="flex flex-col gap-2">
-          <p className="text-center text-lg font-bold text-neutral-900 dark:text-night-text">
+          <p className="font-ui text-center text-lg font-bold text-neutral-900 dark:text-night-text">
             {current}/{total}
           </p>
           <div
@@ -73,14 +75,14 @@ export function WritingExerciseView({
           </div>
         </div>
 
-        <p className="text-center text-3xl font-bold text-primary sm:text-4xl">{item.meaningVi}</p>
+        <p className="font-ui text-center text-3xl font-bold text-primary sm:text-4xl">{item.meaningVi}</p>
 
         <div className="flex justify-end">
           <button
             type="button"
             onClick={onShowHint}
             disabled={item.feedbackVisible}
-            className="inline-flex items-center gap-1.5 rounded-md border border-hint bg-hint-bg px-3 py-1.5 text-sm font-semibold text-hint transition-colors hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-60"
+            className="font-ui inline-flex items-center gap-1.5 rounded-xl border border-hint bg-hint-bg px-3 py-1.5 text-sm font-semibold text-hint transition-colors hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-60"
           >
             <LightbulbIcon className="h-4 w-4" />
             Gợi ý
@@ -93,11 +95,11 @@ export function WritingExerciseView({
           onChange={(event) => onAnswerChange(event.target.value)}
           disabled={item.feedbackVisible}
           placeholder="Nhập Tiếng Trung"
-          className="w-full rounded-md border border-neutral-300 bg-white px-5 py-4 text-2xl text-neutral-900 outline-none focus:border-primary focus:ring-1 focus:ring-primary disabled:cursor-not-allowed disabled:opacity-70 dark:border-night-border dark:bg-night-input dark:text-night-text"
+          className="font-ui w-full rounded-2xl border border-[#D7E0EA] bg-white px-5 py-4 text-2xl text-neutral-900 outline-none focus:border-primary focus:ring-1 focus:ring-primary disabled:cursor-not-allowed disabled:opacity-70 dark:border-night-border dark:bg-night-input dark:text-night-text"
         />
 
         {item.hintShown && (
-          <p className="mx-auto rounded-md border border-dashed border-hint bg-hint-bg px-4 py-2 text-lg italic text-hint">
+          <p className="font-ui mx-auto rounded-xl border border-dashed border-hint bg-hint-bg px-4 py-2 text-lg italic text-hint">
             {item.pinyin}
           </p>
         )}
@@ -107,7 +109,7 @@ export function WritingExerciseView({
             <button
               type="button"
               onClick={onDontRemember}
-              className="flex-1 rounded-md border border-error bg-error-bg px-5 py-4 text-lg font-bold text-neutral-900 transition-colors hover:brightness-95"
+              className="font-ui flex-1 rounded-2xl border border-error bg-error-bg px-5 py-4 text-lg font-bold text-neutral-900 transition-colors hover:brightness-95"
             >
               Không nhớ
             </button>
@@ -115,7 +117,7 @@ export function WritingExerciseView({
               type="button"
               onClick={onCheckAnswer}
               disabled={!canSubmit}
-              className="flex-1 rounded-md border border-success bg-success-bg px-5 py-4 text-lg font-bold text-neutral-900 transition-colors hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-50"
+              className="font-ui flex-1 rounded-2xl border border-success bg-success-bg px-5 py-4 text-lg font-bold text-neutral-900 transition-colors hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-50"
             >
               Kiểm tra đáp án
             </button>
@@ -129,7 +131,7 @@ export function WritingExerciseView({
           <div className="flex flex-col gap-4 border-t border-neutral-200 pt-6 dark:border-night-border">
             <div
               className={clsx(
-                "flex items-start gap-3 rounded-card border p-4",
+                "flex items-start gap-3 rounded-2xl border p-4",
                 item.result === "correct" ? "border-success bg-success-bg" : "border-error bg-error-bg"
               )}
             >
@@ -146,14 +148,14 @@ export function WritingExerciseView({
               <div className="flex flex-col gap-1">
                 <p
                   className={clsx(
-                    "text-lg font-bold",
+                    "font-ui text-lg font-bold",
                     item.result === "correct" ? "text-success" : "text-error"
                   )}
                 >
                   {item.result === "correct" ? "Chính xác!" : "Chưa chính xác!"}
                 </p>
                 {item.result === "wrong" && item.userAnswer.trim().length > 0 && (
-                  <p className="text-neutral-800">
+                  <p className="font-ui text-neutral-800">
                     Bạn nhập: <span className="font-cjk">{item.userAnswer}</span>
                   </p>
                 )}
@@ -162,7 +164,7 @@ export function WritingExerciseView({
                   what the user is asked to type) — not the Vietnamese meaning
                   already shown as the prompt above. Deliberate, see D5 report.
                 */}
-                <p className="text-neutral-800">
+                <p className="font-ui text-neutral-800">
                   Đáp án: <span className="font-cjk">{item.word}</span>
                 </p>
               </div>
@@ -173,7 +175,7 @@ export function WritingExerciseView({
                 <button
                   type="button"
                   onClick={onRetry}
-                  className="flex-1 rounded-md border border-primary bg-white py-4 text-lg font-bold text-primary transition-colors hover:bg-primary-light dark:bg-night-surface dark:hover:bg-night-input dark:text-night-primary"
+                  className="font-ui flex-1 rounded-2xl border border-primary bg-white py-4 text-lg font-bold text-primary transition-colors hover:bg-primary-light dark:bg-night-surface dark:hover:bg-night-input dark:text-night-primary"
                 >
                   Thử lại
                 </button>
@@ -182,14 +184,14 @@ export function WritingExerciseView({
                 type="button"
                 onClick={onNext}
                 disabled={!canAdvanceCurrentWritingItem(session)}
-                className="flex-1 rounded-md bg-primary py-4 text-lg font-bold text-white transition-colors hover:bg-primary-dark disabled:cursor-not-allowed disabled:opacity-50"
+                className="font-ui flex-1 rounded-[18px] bg-primary py-4 text-lg font-bold text-white transition-colors hover:bg-primary-dark disabled:cursor-not-allowed disabled:opacity-50"
               >
                 Tiếp theo
               </button>
             </div>
           </div>
         )}
-      </Card>
+      </div>
     </div>
   );
 }

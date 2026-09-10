@@ -176,7 +176,11 @@ export function FlashcardPracticeFlow() {
   if (phase === "exercise" && session) {
     return (
       <div className="flex flex-col gap-4">
-        <Button variant="neutral" className="w-fit" onClick={handleRequestExit}>
+        <Button
+          variant="neutral"
+          onClick={handleRequestExit}
+          className="font-ui h-12 w-fit rounded-xl px-6"
+        >
           <ArrowLeftIcon className="h-4 w-4" />
           Quay lại
         </Button>
@@ -197,14 +201,17 @@ export function FlashcardPracticeFlow() {
   if (phase === "result" && session) {
     return (
       <PracticeResultView
+        practiceType="flashcard"
         hskLevel={hskLevel}
         actualCount={session.cards.length}
         correctCount={countFlashcardResult(session.cards, "correct")}
         wrongCount={countFlashcardResult(session.cards, "wrong")}
         isCycleComplete={isLearningCycleComplete(pool, usedIds)}
+        remainingCount={Math.max(0, pool.length - usedIds.size)}
         onReviewWrong={handleReviewWrong}
         onContinue={handleContinue}
         onRestart={handleRestart}
+        onBack={handleExitSession}
       />
     );
   }

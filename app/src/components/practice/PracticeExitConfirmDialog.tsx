@@ -54,22 +54,22 @@ export function PracticeExitConfirmDialog({
         aria-modal="true"
         aria-label="Xác nhận thoát bài luyện tập"
         onClick={(event) => event.stopPropagation()}
-        className="relative z-10 flex w-full max-w-sm flex-col gap-4 rounded-card border border-neutral-200 bg-white p-6 shadow-card dark:border-night-border dark:bg-night-surface"
+        className="relative z-10 flex w-full max-w-sm flex-col gap-4 rounded-2xl border border-[#E2E8F0] bg-white p-6 shadow-card dark:border-night-border dark:bg-night-surface"
       >
         <div className="flex flex-col gap-1">
-          <h2 className="text-lg font-bold text-neutral-900 dark:text-night-text">
+          <h2 className="font-ui text-lg font-bold text-neutral-900 dark:text-night-text">
             Bạn muốn thoát bài luyện tập?
           </h2>
-          <p className="text-sm text-neutral-600 dark:text-night-muted">
+          <p className="font-ui text-sm text-neutral-600 dark:text-night-muted">
             Tiến độ hiện tại sẽ không được lưu.
           </p>
         </div>
 
         <div className="flex gap-3">
-          <Button type="button" variant="primary" onClick={onStay} className="flex-1">
+          <Button type="button" variant="primary" onClick={onStay} className="font-ui flex-1 rounded-xl">
             Ở lại
           </Button>
-          <Button type="button" variant="neutral" onClick={onExit} className="flex-1">
+          <Button type="button" variant="neutral" onClick={onExit} className="font-ui flex-1 rounded-xl">
             Thoát
           </Button>
         </div>

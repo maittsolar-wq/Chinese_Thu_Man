@@ -18,7 +18,7 @@ export function PracticeStatusScreen({
 }) {
   return (
     <div className="flex flex-col gap-6">
-      <LinkButton href="/" variant="neutral" className="w-fit">
+      <LinkButton href="/" variant="neutral" className="font-ui h-12 w-fit rounded-xl px-6">
         <ArrowLeftIcon className="h-4 w-4" />
         Quay lại
       </LinkButton>
