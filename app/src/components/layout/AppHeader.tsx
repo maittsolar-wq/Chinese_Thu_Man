@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { useTheme } from "@/components/theme/ThemeProvider";
 import { useDictionarySearch } from "@/components/dictionary/DictionarySearchProvider";
-import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon } from "@/components/ui/icons";
+import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, HeadphonesIcon, MoonIcon, SunIcon } from "@/components/ui/icons";
 
 /**
  * Phase 07 information-architecture finalization, since revised by Pass 08.
@@ -47,12 +47,19 @@ import { HomeIcon, GraduationCapIcon, SearchIcon, TargetIcon, MoonIcon, SunIcon 
  * Practice also needed to be source-context-*suppressible* (a Practice
  * exercise config screen reached from Home must NOT show Luyện tập
  * active, even though its pathname is under /practice/*).
+ *
+ * "Luyện nghe" (Listening UI V1 phase) is a plain 5th link to /listening —
+ * it needs none of the source-context machinery above: nothing else in
+ * the app currently links into /listening/*, so plain pathname-prefix
+ * matching in `isActive` is already correct for it, same as HSK/Luyện tập
+ * get by default.
  */
 const NAV_ITEMS = [
   { kind: "link", href: "/", label: "Trang chủ", icon: HomeIcon },
   { kind: "link", href: "/hsk", label: "HSK", icon: GraduationCapIcon },
   { kind: "popup-trigger", label: "Tra cứu", icon: SearchIcon },
   { kind: "link", href: "/practice", label: "Luyện tập", icon: TargetIcon },
+  { kind: "link", href: "/listening", label: "Luyện nghe", icon: HeadphonesIcon },
 ] as const;
 
 /**
@@ -300,6 +307,11 @@ export function AppHeader() {
         clean, symmetric 2×2 (each item ~half the row, comfortably wider
         than any label) rather than a lopsided 3-then-1 wrap. `sm:flex`
         overrides back to the single desktop row exactly as before.
+
+        Listening UI V1 phase added a 5th item ("Luyện nghe"), making the
+        grid 2×2 + 1 lone trailing cell — `[&>:last-child]:col-span-2`
+        spans that 5th item across both columns on its own row instead of
+        leaving it stranded in column 1 with a ragged gap beside it.
       */}
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 sm:flex-nowrap sm:px-6">
         <Link href="/" className="order-1 flex items-center gap-2.5">
@@ -315,7 +327,7 @@ export function AppHeader() {
           </span>
         </Link>
 
-        <nav className="order-3 grid w-full grid-cols-2 items-center gap-2 sm:order-2 sm:flex sm:w-auto sm:gap-6">
+        <nav className="order-3 grid w-full grid-cols-2 items-center gap-2 sm:order-2 sm:flex sm:w-auto sm:gap-6 [&>:last-child]:col-span-2 [&>:last-child]:justify-center">
           {NAV_ITEMS.map((item) => {
             const Icon = item.icon;
 

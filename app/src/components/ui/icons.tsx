@@ -279,3 +279,101 @@ export function CheckCircleIcon(props: IconProps) {
     </svg>
   );
 }
+
+/**
+ * Listening feature icon set (V1 UI phase) — follows the exact same
+ * hand-authored inline SVG convention as every icon above (24x24 viewBox,
+ * `base` stroke spec unless a filled glyph is explicitly called for, e.g.
+ * Play/Pause/Heart-filled matching CheckCircleIcon's own filled precedent).
+ */
+export function HeadphonesIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M4 13v-1a8 8 0 0 1 16 0v1" />
+      <rect x="3" y="13" width="5" height="7" rx="1.5" />
+      <rect x="16" y="13" width="5" height="7" rx="1.5" />
+    </svg>
+  );
+}
+
+export function PlayIcon(props: IconProps) {
+  return (
+    <svg {...base} fill="currentColor" stroke="none" {...props}>
+      <path d="M7 4.5v15l13-7.5-13-7.5Z" />
+    </svg>
+  );
+}
+
+export function PauseIcon(props: IconProps) {
+  return (
+    <svg {...base} fill="currentColor" stroke="none" {...props}>
+      <rect x="6" y="4.5" width="4.5" height="15" rx="1" />
+      <rect x="13.5" y="4.5" width="4.5" height="15" rx="1" />
+    </svg>
+  );
+}
+
+export function HeartIcon({ filled, ...props }: IconProps & { filled?: boolean }) {
+  return (
+    <svg
+      {...base}
+      fill={filled ? "currentColor" : "none"}
+      stroke={filled ? "none" : "currentColor"}
+      {...props}
+    >
+      <path d="M12 20.5s-7.5-4.6-9.8-9.2C.6 7.9 2.3 4.5 5.7 4c2-.3 3.9.7 6.3 3 2.4-2.3 4.3-3.3 6.3-3 3.4.5 5.1 3.9 3.5 7.3-2.3 4.6-9.8 9.2-9.8 9.2Z" />
+    </svg>
+  );
+}
+
+export function SkipBackIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M13 6 6 12l7 6V6Z" />
+      <path d="M18 6v12" />
+    </svg>
+  );
+}
+
+export function SkipForwardIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M11 6l7 6-7 6V6Z" />
+      <path d="M6 6v12" />
+    </svg>
+  );
+}
+
+export function ExpandIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M9 4H4v5M15 4h5v5M9 20H4v-5M15 20h5v-5" />
+    </svg>
+  );
+}
+
+export function GearIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="12" cy="12" r="3" />
+      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z" />
+    </svg>
+  );
+}
+
+export function MessageListIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M4 5.5h16M4 12h11M4 18.5h16" />
+    </svg>
+  );
+}
+
+export function ClockIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 7v5l3.5 2" />
+    </svg>
+  );
+}
