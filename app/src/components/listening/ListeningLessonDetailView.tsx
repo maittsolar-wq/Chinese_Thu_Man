@@ -114,10 +114,10 @@ export function ListeningLessonDetailView({
               Home/HSK Hero H1 — this screen is one level deeper than the
               Hero-scale Listening Landing, the same relationship a Practice
               exercise subpage has to Practice's own Hero. */}
-          <h1 className="font-ui text-3xl font-bold text-[#0F172A] dark:text-night-text sm:text-4xl">
+          <h1 className="font-ui text-[28px] font-bold text-[#0F172A] dark:text-night-text sm:text-[32px]">
             {lesson.code} - <span className="font-cjk">{lesson.chineseTitle}</span>
           </h1>
-          <p className="font-ui text-base text-neutral-600 dark:text-night-muted">{lesson.vietnameseTitle}</p>
+          <p className="font-ui text-[17px] font-semibold text-neutral-800 dark:text-night-text sm:text-lg">{lesson.vietnameseTitle}</p>
         </div>
 
         <div className="flex shrink-0 flex-wrap items-center gap-2">
