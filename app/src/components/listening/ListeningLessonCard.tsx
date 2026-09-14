@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { HskLevelBadge } from "@/components/ui/Badge";
 import { ListeningLessonThumbnail } from "./ListeningLessonThumbnail";
 import type { ListeningLesson } from "@/lib/listening/types";
 
@@ -25,12 +24,9 @@ export function ListeningLessonCard({ lesson }: { lesson: ListeningLesson }) {
   return (
     <Link
       href={`/listening/${lesson.level}/${lesson.id}`}
-      className="group flex flex-col gap-2 rounded-2xl border border-[#E2E8F0] bg-white p-2 transition-shadow hover:shadow-card dark:border-night-border dark:bg-night-surface"
+      className="group flex flex-col rounded-2xl border border-[#E2E8F0] bg-white p-2 transition-shadow hover:shadow-card dark:border-night-border dark:bg-night-surface"
     >
       <ListeningLessonThumbnail lesson={lesson} />
-      <div className="px-1 pb-1">
-        <HskLevelBadge level={lesson.hskLevel} />
-      </div>
     </Link>
   );
 }

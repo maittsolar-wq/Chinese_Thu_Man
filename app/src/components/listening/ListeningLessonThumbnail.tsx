@@ -21,7 +21,7 @@ import type { ListeningLesson } from "@/lib/listening/types";
  * Identifying text (code/label/Chinese title) and the duration badge live
  * ON the thumbnail itself (large, high-contrast, on a dark plate) rather
  * than repeated again as separate text below the card — ListeningLessonCard
- * shows only the HSK badge underneath, so nothing is stated twice.
+ * has no metadata underneath, so nothing is stated twice.
  */
 export function ListeningLessonThumbnail({ lesson }: { lesson: ListeningLesson }) {
   const accent = LISTENING_LEVEL_ACCENT[lesson.level];

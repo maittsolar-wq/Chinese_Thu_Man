@@ -1,10 +1,16 @@
 "use client";
 
-import { HeadphonesIcon, PauseIcon, PlayIcon, SkipBackIcon, SkipForwardIcon, SpeakerIcon } from "@/components/ui/icons";
+import { useState } from "react";
+import Image from "next/image";
+import { HeadphonesIcon } from "@/components/ui/icons";
 import { formatDuration } from "@/lib/listening/format";
 import type { ListeningLesson } from "@/lib/listening/types";
 
 export const PLAYBACK_SPEEDS = [0.75, 1, 1.25, 1.5] as const;
+
+function PlayerIcon({ src, className }: { src: string; className: string }) {
+  return <Image src={src} alt="" aria-hidden width={64} height={64} className={className} />;
+}
 
 /**
  * No real video source exists yet (a later B2 Integration phase wires that
@@ -42,6 +48,7 @@ export function ListeningVideoPlayer({
   onSeek: (seconds: number) => void;
   onSpeedChange: (speed: (typeof PLAYBACK_SPEEDS)[number]) => void;
 }) {
+  const [isMuted, setIsMuted] = useState(false);
   const progress = lesson.durationSeconds > 0 ? currentTime / lesson.durationSeconds : 0;
 
   function handleScrub(event: React.ChangeEvent<HTMLInputElement>) {
@@ -68,11 +75,7 @@ export function ListeningVideoPlayer({
           </span>
           <span className="absolute inset-0 flex items-center justify-center bg-black/0 transition-colors hover:bg-black/20">
             <span className="flex h-16 w-16 items-center justify-center rounded-full bg-white/90 shadow-card">
-              {isPlaying ? (
-                <PauseIcon className="h-7 w-7 text-primary" />
-              ) : (
-                <PlayIcon className="h-7 w-7 translate-x-[2px] text-primary" />
-              )}
+              <PlayerIcon src={isPlaying ? "/pause.png" : "/play.png"} className="h-7 w-7 object-contain" />
             </span>
           </span>
         </button>
@@ -101,43 +104,48 @@ export function ListeningVideoPlayer({
               behind them and were removed rather than left as dead
               decoration. Remaining controls sized up from the original
               pass for a more comfortable touch/click target. */}
-          <div className="mt-1 flex items-center justify-between">
-            <SpeakerIcon className="h-6 w-6 shrink-0 text-neutral-600 dark:text-night-muted" />
-            <div className="flex items-center gap-3">
+          {/* Fixed tracks keep Mute, Rewind, Play/Pause and Forward at the
+              same coordinates for every speed label. */}
+          <div className="mt-1 grid grid-cols-[40px_40px_56px_40px_64px] items-center justify-between">
+            <button
+              type="button"
+              onClick={() => setIsMuted((muted) => !muted)}
+              aria-label={isMuted ? "Bật âm thanh" : "Tắt âm thanh"}
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-primary hover:bg-primary-dark"
+            >
+              <PlayerIcon src={isMuted ? "/mute.png" : "/unmute.png"} className="h-6 w-6 object-contain" />
+            </button>
+            <div className="contents">
               <button
                 type="button"
                 onClick={() => onSeek(Math.max(0, currentTime - 10))}
                 aria-label="Lùi 10 giây"
-                className="flex h-10 w-10 items-center justify-center rounded-full text-neutral-700 hover:bg-neutral-100 dark:text-night-muted dark:hover:bg-night-input"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-primary hover:bg-primary-dark"
               >
-                <SkipBackIcon className="h-6 w-6" />
+                <PlayerIcon src="/Tua lùi.png" className="h-6 w-6 object-contain" />
               </button>
               <button
                 type="button"
                 onClick={onTogglePlay}
                 aria-label={isPlaying ? "Tạm dừng" : "Phát"}
-                className="flex h-14 w-14 items-center justify-center rounded-full bg-primary text-white hover:bg-primary-dark"
+                className="flex h-14 w-14 items-center justify-center rounded-full hover:opacity-90"
               >
-                {isPlaying ? (
-                  <PauseIcon className="h-6 w-6" />
-                ) : (
-                  <PlayIcon className="h-6 w-6 translate-x-[2px]" />
-                )}
+                <PlayerIcon src={isPlaying ? "/pause.png" : "/play.png"} className="h-14 w-14 object-contain" />
               </button>
               <button
                 type="button"
                 onClick={() => onSeek(Math.min(lesson.durationSeconds, currentTime + 10))}
                 aria-label="Tiến 10 giây"
-                className="flex h-10 w-10 items-center justify-center rounded-full text-neutral-700 hover:bg-neutral-100 dark:text-night-muted dark:hover:bg-night-input"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-primary hover:bg-primary-dark"
               >
-                <SkipForwardIcon className="h-6 w-6" />
+                <PlayerIcon src="/Tua tiến.png" className="h-6 w-6 object-contain" />
               </button>
             </div>
             <button
               type="button"
               onClick={cycleSpeed}
               aria-label={`Tốc độ phát ${speed}x, nhấn để đổi`}
-              className="font-ui rounded-lg border border-neutral-300 px-3 py-2 text-base font-medium text-neutral-700 hover:bg-neutral-50 dark:border-night-border dark:text-night-muted dark:hover:bg-night-input"
+              className="font-ui flex h-10 w-16 items-center justify-center rounded-lg border border-neutral-300 text-base font-medium text-neutral-700 hover:bg-neutral-50 dark:border-night-border dark:text-night-muted dark:hover:bg-night-input"
             >
               {speed}x
             </button>

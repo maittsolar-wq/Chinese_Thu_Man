@@ -10,7 +10,7 @@ const FEATURE_POINTS = [
 function HeroBadgeHeadingDescription() {
   return (
     <>
-      <span className="font-ui mx-auto inline-flex w-fit items-center gap-2 rounded-full bg-primary-light px-4 py-1.5 text-sm font-semibold text-primary dark:bg-primary-dark/40 dark:text-night-primary lg:mx-0">
+      <span className="font-ui mx-auto inline-flex w-fit items-center gap-2 rounded-full bg-primary-light px-4 py-1.5 text-sm font-semibold text-primary lg:mx-0">
         <HeadphonesIcon className="h-4 w-4" />
         Luyện nghe
       </span>
@@ -19,11 +19,11 @@ function HeroBadgeHeadingDescription() {
           extrabold) — this hero shares the same "full-bleed banner" role,
           so it uses the same scale rather than a smaller one invented for
           Listening specifically. */}
-      <h1 className="font-ui flex flex-col text-[38px] font-extrabold leading-[1.2] text-[#0F172A] dark:text-night-text sm:text-[52px]">
+      <h1 className="font-ui flex flex-col text-[38px] font-extrabold leading-[1.2] text-[#0F172A] sm:text-[52px]">
         <span>Luyện nghe</span>
-        <span className="text-primary dark:text-night-primary">Tiếng Trung qua video</span>
+        <span className="text-primary">Tiếng Trung qua video</span>
       </h1>
-      <p className="font-ui text-[18px] leading-[1.5] text-[#343536] dark:text-night-muted">
+      <p className="font-ui text-[18px] leading-[1.5] text-[#343536]">
         Học qua những đoạn hội thoại thực tế, gần gũi với cuộc sống, giúp bạn nghe hiểu và phản xạ tự
         nhiên hơn.
       </p>
@@ -40,8 +40,8 @@ function HeroFeaturePoints() {
             <Icon className="h-5 w-5 text-primary dark:text-night-primary" />
           </span>
           <span className="flex flex-col">
-            <span className="font-ui text-base font-semibold text-[#0F172A] dark:text-night-text">{title}</span>
-            <span className="font-ui text-sm text-neutral-500 dark:text-night-muted">{description}</span>
+            <span className="font-ui text-base font-semibold text-[#0F172A]">{title}</span>
+            <span className="font-ui text-sm text-[#343536]">{description}</span>
           </span>
         </div>
       ))}
@@ -75,9 +75,9 @@ function HeroFeaturePoints() {
  */
 export function ListeningHero() {
   return (
-    <section className="relative -mt-8 ml-[calc(50%-50vw)] mr-[calc(50%-50vw)] w-screen overflow-hidden bg-surface-page dark:bg-night-bg">
+    <section className="relative -mt-8 ml-[calc(50%-50vw)] mr-[calc(50%-50vw)] w-screen overflow-hidden bg-surface-page">
       {/* Desktop: full-bleed background + overlaid text */}
-      <div className="relative hidden h-[460px] lg:block xl:h-[520px]">
+      <div className="relative hidden h-[400px] lg:block">
         <Image
           src="/hero-listening-new.png"
           alt=""
